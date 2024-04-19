@@ -1,7 +1,8 @@
 import openai
+import ast
 import csv
 
-# Get the set of labels (failure mode codes)
+# Gets the set of labels (failure mode codes)
 def get_fmcodes():
     """ Returns a list of labels (failure mode codes) from ISO14224. """
     with open('ISO14224mappingToMaintIE.csv', 'r', encoding='utf-8') as file:
@@ -12,9 +13,9 @@ def get_fmcodes():
             labels.append(row[:2])
     return labels[:-1] # Remove NOT_MAPPED
 
-# Return a dictionary of few-shot examples for each label
+# Returns a dictionary of few-shot examples for each label from FMC-MWO2KG dataset
 def get_fewshot_examples():
-    """ Returns a dictionary of few-shot examples for each label. """
+    """ Returns a dictionary of few-shot examples for each label from FMC-MWO2KG dataset. """
     # Read each line data from txt file
     examples = {}
     for ds in ["train", "dev", "test"]:
@@ -29,6 +30,19 @@ def get_fewshot_examples():
                 else:
                     examples[code_label].append(observation)
     return examples
+
+# Returns a dictionary of modified few-shot examples (based on FMC-MWO2KG dataset) 
+def get_fewshot():
+    """ Returns a dictionary of modified few-shot examples for each label from FMC-MWO2KG dataset. """
+    # read csv file
+    fewshot = {}
+    with open('fewshot.csv', 'r', encoding='utf-8') as file:
+        reader = csv.reader(file)
+        for row in reader:
+            failure_mode = row[0]
+            observations = ast.literal_eval(row[1])
+            fewshot[failure_mode] = observations
+    return fewshot
 
 # Maps failure modes (ISO14224) to MWO2KG codes
 def handle_differences(label):
@@ -74,7 +88,7 @@ def save_observations_to_csv(filename, observations):
 def generate_data():
     """ Generate synthetic observations for each failure mode using GPT. """
     fmcodes = get_fmcodes()
-    fewshot_examples = get_fewshot_examples()
+    fewshot_examples = get_fewshot() # get_fewshot_examples() for unmodified version
     num_samples = 100
 
     # Generate observations for each label
@@ -103,4 +117,4 @@ def generate_data():
 
 # Set OpenAI API key
 openai.api_key = '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'
-generate_data()
+# generate_data()
