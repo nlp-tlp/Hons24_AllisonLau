@@ -1,0 +1,65 @@
+﻿ISO14224_FailureModeCode,ISO14224_FailureMode_description,Map_from_unique_process,Map_from_unique_state,Map_from_unique_property,Relevant IEC81346 Object Class(es)
+AIR,Abnormal instrument reading,,,,SensingObject
+BRD,Breakdown,,,,All
+CLW,Control-line-to-well communication,,,,-
+CSF,Control/ signal failure,,no signal,,SensingObject
+DOP,Delayed operation,,,,
+ELF,External leakage - fuel,,,,"HoldingObject, EnclosingObject, GeneratingObject"
+ELP,External leakage - process medium,,,,"HoldingObject, EnclosingObject, GeneratingObject"
+ELU,External leakage - utility medium,,,,"HoldingObject, EnclosingObject, GeneratingObject"
+ERO,Erratic output,,,,
+FCO,Failure to connect,,not meshing,,
+FCU,Failure to cut,,,,MatterProcessingObject
+FLP,Failure in lightening protection,"earthing out,",ground fault,,ProtectingObject
+FOF,Faulty output frequency,,,,"GeneratingObject, SensingObject, …"
+FOV,Faulty output voltage,,,,"GeneratingObject, SensingObject, …"
+FRO,Failure to rotate,,,,"DrivingObject, SensingObject, InterfacingObject, EnclosingObject, …"
+FTC,Failure to close on demand,,,,
+FTD,Failure to disconnect,,,,
+FTF,Failure to function on demand,,,,
+FTI,Failure to function as intended,"going on and off, ",,,
+FTL,Failure to lock/ unlock,,,,
+FTO,Failure to open on demand,,,,
+FTR,Failure to regulate,,,,
+FTS,Failure to start on demand,,"doesn't turn on, doesn't work, won't start",,
+FWR,Failure while running,"tripping out, ","trip, tripped, ",,
+HIO,High output,,,,
+HTF,Heating failure,,,,"EmittingObject, DrivingObject, …"
+IHT,Insufficient heat transfer,,,,
+ILP,Internal leakage-process medium,,,,
+ILU,Internal leakage-utility,,,,
+INL,Internal leakage,,,,
+LBP,Low oil supply pressure,,,,
+LCP,Leakage in closed position,"bypassing, ",,,
+LOA,Load drop,,,,
+LOB,Loss of buoyancy,,,,
+LOO,Low output,,,,
+LOR,Loss of redundancy,,,,
+MOF,Mooring failure,,,,
+NOI,Noise,,sounds continuously,noisy,
+NOO,No output,,,,
+OHE,Overheating,overheating,"overheat fault, warm",,
+OTH,Other,,,,
+PCL,Premature closure,,,,
+PDE,Parameter deviation,"alarm,",error,,
+PLU,Plugged / choked,,"blocked, plugged",,
+POD,Loss of function on both pods,,,,
+POW,Insufficient power,,,,
+PTF,Power / signal transmission failure,,"shorted, ",,
+SBU,Sludge build up,"bogging, ",,,
+SER,Minor in service problems,,,,
+SET,Failure to set/ retrieve,,,,
+SHH,Spurious high level alarm,,,,
+SLL,Spurious low level alarm,,,,
+SLP,Slippage,," slipping fault,",,
+SPO,Spurious operation,,"working intermittently, ",,
+STD,Structural deficiency,"cracking, creeping, falling off,","bent, blown, corroded, cracked, snapped, worn, worn out",hole,
+STP,Failure to stop on demand,"running, constantly, ",,,
+STU,Stuck,,"locked, seized, sticking, stuck on, tight",,
+UBU,Global buckling,,,,
+UNK,Unknown,,,,
+UST,Spurious stop,,intermittent fault,,
+VIB,Vibration,"vibration, ",,,
+VLO,Very low output,,,,
+WCL,Well-to-control-line communication,,,,
+NOT_MAPPED,,"coming up, discharging, emptying, exhausting, keep blowing, keeps blowing, leak, leaking, leaks, movement, overgreasing, weeping","damage, damaged, disconnected, does not self align, dropped, electrical fault, electrical faults, excess play, fail, failed, fault, faults, faulty, flat, found, fuel fault, hydraulic fault, issues, loose, low, melted, mismatched, missing, need, needs, no excitation, no good, no reception, not charging, not cold, not reading, not working, on, out, out of adjustment, out of date, out of service, overcharge fault, overcharged, popped, pressure fault, require, requires, shot, shutdown fault, slow, temperature error, temperature fault, to be fixed, unserviceable, wired incorrectly",,
