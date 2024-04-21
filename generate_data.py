@@ -5,7 +5,7 @@ import csv
 # Gets the set of labels (failure mode codes)
 def get_fmcodes():
     """ Returns a list of labels (failure mode codes) from ISO14224. """
-    with open('ISO14224mappingToMaintIE.csv', 'r', encoding='utf-8') as file:
+    with open('label2obs/ISO14224mappingToMaintIE.csv', 'r', encoding='utf-8') as file:
         reader = csv.reader(file)
         next(reader)
         labels = []
@@ -36,7 +36,7 @@ def get_fewshot():
     """ Returns a dictionary of modified few-shot examples for each label from FMC-MWO2KG dataset. """
     # read csv file
     fewshot = {}
-    with open('fewshot.csv', 'r', encoding='utf-8') as file:
+    with open('label2obs/data.csv', 'r', encoding='utf-8') as file:
         reader = csv.reader(file)
         for row in reader:
             failure_mode = row[0]
@@ -97,7 +97,7 @@ def generate_data():
         print(f"Generating observations for {label[0]} ({label[1]})...")
         generate_prompt = f"Generate 100 different observations for failure mode code {label[0]} ({label[1]}).\n"
         contraint_prompt = "Your answer should contain only the observations, which are comma-separated, and nothing else.\n"
-        number_prompt = f"You must generate {num_samples} observations, no less and no more than 100.\n"
+        number_prompt = f"You must generate {num_samples} observations, no less and no more than {num_samples}.\n"
         fewshot_prompt = get_example_prompt(label, fewshot_examples)
         prompt = generate_prompt + contraint_prompt + number_prompt + fewshot_prompt
         # print(prompt)
