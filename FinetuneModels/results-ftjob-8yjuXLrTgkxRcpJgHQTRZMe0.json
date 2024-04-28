@@ -1,0 +1,27 @@
+{
+    "object": "fine_tuning.job",
+    "id": "ftjob-8yjuXLrTgkxRcpJgHQTRZMe0",
+    "model": "gpt-3.5-turbo-0125",
+    "created_at": 1713865092,
+    "finished_at": 1713865501,
+    "fine_tuned_model": "ft:gpt-3.5-turbo-0125:uwa-system-health-lab::9H6zu921",
+    "organization_id": "org-3V8U2z99GteTQtwD86SZA2vA",
+    "result_files": [
+      "file-vJI6RvnsCe6UGeHl3fYlXSID"
+    ],
+    "status": "succeeded",
+    "validation_file": null,
+    "training_file": "file-v4AIRBzCL9Max7EMJxzT2RVp",
+    "hyperparameters": {
+      "n_epochs": 4,
+      "batch_size": 1,
+      "learning_rate_multiplier": 2
+    },
+    "trained_tokens": 12436,
+    "error": {
+      "error": null
+    },
+    "user_provided_suffix": null,
+    "seed": 1057905958,
+    "integrations": []
+}

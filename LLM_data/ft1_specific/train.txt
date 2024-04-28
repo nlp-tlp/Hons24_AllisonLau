@@ -1,0 +1,781 @@
+not energising,Electrical
+contaminated oil pump thrust,Contamination
+doesnt cinch shut,Failure to close
+contaminated oil pump pull temp temp temp,Contamination
+contaminated oil pump alignment temp temp,Contamination
+contaminated oil pump pressure temp temp,Contamination
+sparying out,Leaking
+wont engage,Failure to close
+poor pump delivery,Low output
+over limit,High output
+failing to start,Failure to start on demand
+leak out slurry,Leaking
+has no power,Electrical
+doesnt suck shut,Failure to close
+poor output flow,Low output
+requires modifying,Minor in-service problems
+output overload,High output
+squeeling,Noise
+output low,Low output
+doesnt close firmly,Failure to close
+failed,Breakdown
+skipping,Erratic output
+overheat,Overheating
+spurious high,Abnormal instrument reading
+failure to shut,Failure to close
+seized,Failure to rotate
+contaminated oil pump load temp temp,Contamination
+contaminated oil pump start,Contamination
+runs on,Failure to stop on demand
+no operation,Electrical
+require tightening,Minor in-service problems
+passing,Leaking
+not pumping down,Plugged / choked
+stop stopping,Spurious stop
+excessive speed,High output
+not starting on,Failure to start on demand
+moving,Abnormal instrument reading
+contaminated oil heat exchanger,Contamination
+contaminated coolant,Contamination
+contaminated bearing,Contamination
+low output,Low output
+running out of control,Erratic output
+contaminated fuel sample,Contamination
+does not let go,Failure to open
+leak out,Leaking
+fails to halt,Failure to stop on demand
+highly outputting,High output
+contaminated oil sample,Contamination
+uncontrolled vibration,Vibration
+pumping low,Low output
+doesnt seal shut,Failure to close
+contaminated oil pump drive temp temp,Contamination
+contaminated oil pump vibration temp,Contamination
+not latching,Failure to function
+lack of output,Low output
+shaking,Vibration
+stopped when running,Spurious stop
+stuck,Failure to rotate
+output failure,Low output
+unsecure,Minor in-service problems
+sped up output,High output
+filling,Leaking
+sparying,Leaking
+contaminated oil pump power temp temp,Contamination
+stopping,Spurious stop
+wont seal,Failure to close
+passing very slowly,Leaking
+unable to lock,Failure to close
+fail to perform,Low output
+passing excessively,Leaking
+crazy running,Erratic output
+contaminated air,Contamination
+contaminated oil pump lubrication temp temp,Contamination
+hot running overheating running,Overheating
+keeps stopping during operation,Spurious stop
+not flowing,Low output
+contaminated oil pump power temp temp temp,Contamination
+damaged,Other
+will not run,Failure to start on demand
+smoking,Overheating
+contaminated oil leak,Contamination
+wont start,Electrical
+needs to be extended,Minor in-service problems
+not switching,Failure to function
+not pumping at,Plugged / choked
+loose,Minor in-service problems
+refusing to seal,Failure to close
+wont bolt,Failure to close
+contaminated oil pump pressure temp temp temp temp,Contamination
+requires topup stop,Minor in-service problems
+stopped in an unknown state,Spurious stop
+doesnt grip shut,Failure to close
+not able to pump,Plugged / choked
+wont spin,Failure to rotate
+needs to be secured,Minor in-service problems
+wont rotate,Failure to start on demand
+contaminated gas oil,Contamination
+does not close tight,Failure to close
+leaky,Leaking
+doesnt cease,Failure to stop on demand
+doesnt latch,Failure to close
+vibration causes,Vibration
+unserviceable,Breakdown
+over flowed,Leaking
+didnt trip,Electrical
+contaminated oil pump pressure temp,Contamination
+low pressure,Plugged / choked
+not tensioning,Failure to function
+unable to operate,Electrical
+been running hot,Overheating
+not sliding,Failure to function
+doesnt unlatch,Failure to open
+contaminated diesel fuel,Contamination
+failed to close,Failure to close
+contaminated oil pump drive,Contamination
+blocked,Plugged / choked
+not high enough,Low output
+doesnt come open,Failure to open
+not able to start,Failure to start on demand
+vibration issue pending,Vibration
+stop at random,Spurious stop
+stopped working,Spurious stop
+running crazily,Erratic output
+no flow,Plugged / choked
+underperforming,Plugged / choked
+not adjusting,Failure to function
+stopped abruptly,Spurious stop
+passingleaking slurry slurry slurry slurry,Leaking
+slurry spraying,Leaking
+contaminated water,Contamination
+does not terminate,Failure to stop on demand
+contaminated oil pump current temp temp,Contamination
+not pumping over off,Plugged / choked
+contaminated oil test,Contamination
+high output beyond threshold,High output
+restricted,Low output
+does not stop,Failure to stop on demand
+clanking,Noise
+quit running,Spurious stop
+leak on slurry,Leaking
+volatile,Erratic output
+vibration fault,Vibration
+not moving,Failure to function
+output beyond threshold,High output
+hot liquid,Overheating
+keeps vibrating shut,Vibration
+contaminated oil change,Contamination
+not turning on,Plugged / choked
+doesnt rotate,Failure to rotate
+output inefficiency,Low output
+stopped for unknown reasons,Spurious stop
+not operating,Electrical
+contaminated oil pump pressure temp temp temp,Contamination
+stopped running and cant be restarted,Spurious stop
+doesnt twist,Failure to close
+vibrating,Vibration
+not pumping up to,Plugged / choked
+leak when shut,Leaking
+contaminated grease,Contamination
+requires tightening inspection,Minor in-service problems
+does not run,Electrical
+contaminated oil pump current temp,Contamination
+will not start after flushing,Failure to start on demand
+leak underflow,Leaking
+contaminated oil water,Contamination
+weeping,Leaking
+not starting up,Failure to start on demand
+spaying slurry slurry slurry slurry slurry,Leaking
+does not kick in,Failure to start on demand
+cant engage,Failure to close
+hot running circuit running,Overheating
+spaying slurry,Leaking
+not correct,Abnormal instrument reading
+found running,Other
+water ingress,Contamination
+contaminated oil pressure,Contamination
+doesnt come loose,Failure to open
+whirring,Noise
+wont turn,Failure to start on demand
+buzzing,Noise
+contaminated oil pump drive temp temp temp,Contamination
+stopped in operation,Spurious stop
+wont start,Failure to start on demand
+flickering anytime,Erratic output
+contaminated oil capacity,Contamination
+no power to unit,Electrical
+doesnt disengage,Failure to open
+stop running suddenly,Spurious stop
+leaking slurry,Leaking
+open,Other
+not running,Failure to start on demand
+bear running hot,Overheating
+hot wire running hot running hot,Overheating
+doesnt screw shut,Failure to close
+doesnt move,Failure to rotate
+failed restest,Failure to start on demand
+does not trip,Electrical
+wont stop running in automatic mode,Spurious stop
+poor pump efficiency,Low output
+has no operation,Electrical
+needs replacing,Structural deficiency
+not kicking in,Failure to start on demand
+contaminated oil pump thrust temp,Contamination
+requires a descale,Minor in-service problems
+poor pump flow,Low output
+buggered,Breakdown
+needs to be dismantled,Minor in-service problems
+requires slotting,Minor in-service problems
+vibration level issue,Vibration
+needs rebuilding,Breakdown
+not providing,Plugged / choked
+excessive high output,High output
+vibration detected,Vibration
+doesnt seal properly,Failure to close
+hot running bear running,Overheating
+cannot close,Failure to close
+showing high,Abnormal instrument reading
+vibration,Vibration
+contaminated oil pump noise temp temp,Contamination
+losing,Minor in-service problems
+stopped for no apparent reason,Spurious stop
+requires replacing,Minor in-service problems
+contaminated oil pump flow temp temp temp,Contamination
+unable to pump,Low output
+poor pump performance,Low output
+jammed,Failure to rotate
+doesnt close securely,Failure to close
+keeps going,Failure to stop on demand
+contaminated oil pump flow temp,Contamination
+spaying slurry slurry,Leaking
+not flowing properly,Low output
+not providing flow,Plugged / choked
+not extending,Failure to function
+contaminated oil pump change,Contamination
+no power,Electrical
+poor performance,Low output
+contaminated oil pump temp,Contamination
+contaminated oil pump bearing temp,Contamination
+spaying slurry slurry slurry slurry,Leaking
+underperforming,Low output
+contaminated hydraulic oil,Contamination
+not in use,Other
+stop for no reason,Spurious stop
+low pump performance,Low output
+contaminated oil pump pressure,Contamination
+not clamping,Failure to function
+fallen off,Minor in-service problems
+low productivity,Low output
+not pumping away,Plugged / choked
+vibration check,Vibration
+needs to be repacked,Minor in-service problems
+uneven,Erratic output
+doesnt close tight,Failure to close
+contaminated oil pump alignment temp,Contamination
+high output surge,High output
+doesnt clasp,Failure to close
+seized,Breakdown
+contaminated oil level gauge,Contamination
+vibration issue,Vibration
+not pumping under off,Plugged / choked
+won't deliver,Low output
+fail to start,Failure to start on demand
+cant close,Failure to close
+abnormal vibration,Vibration
+will not shut,Failure to close
+rattling,Noise
+collapsed,Breakdown
+hot wire running,Overheating
+does not come free,Failure to open
+abnormally high output,High output
+not running stable,Erratic output
+spiking,Erratic output
+broken,Failure to function
+damaged,Structural deficiency
+requires clean,Minor in-service problems
+doesnt stay closed,Failure to close
+inadequate output,Low output
+sparying slurry,Leaking
+vibration sensor issue,Vibration
+slurry spraying out,Leaking
+contaminated oil pump load temp,Contamination
+hot wire running hot,Overheating
+spurious stop,Spurious stop
+vibration present,Vibration
+contaminated oil cooler,Contamination
+erratic,Erratic output
+cant shut,Failure to close
+spuriously high,Abnormal instrument reading
+stopped for no reason,Spurious stop
+contaminated diesel,Contamination
+running around,Erratic output
+doesnt stop,Failure to stop on demand
+running up and down erratically,Erratic output
+dont activate,Failure to start on demand
+rubbing,Vibration
+leak in two place,Leaking
+wont disengage,Failure to open
+stop without explanation,Spurious stop
+not delivering enough,Low output
+jammed,Abnormal instrument reading
+over high,High output
+wont close properly,Failure to close
+doesnt snap shut,Failure to close
+wont grip shut,Failure to close
+refusing to shut,Failure to close
+contaminated oil filter,Contamination
+not holding,Leaking
+not pumping around,Plugged / choked
+needs to be rebuilt,Minor in-service problems
+alarming vibration,Vibration
+requires repacking,Minor in-service problems
+grinding,Noise
+doesnt let go,Failure to open
+not tightening,Failure to function
+not closing,Failure to function
+fluctuates at high rate,Erratic output
+spaying,Leaking
+vibration data issue,Vibration
+leaked,Leaking
+not turning,Plugged / choked
+oscillating,Erratic output
+squeaking,Noise
+burnt out,Overheating
+needs replacing,Breakdown
+low capacity,Low output
+contaminated oil pump bearing temp temp temp,Contamination
+requires attention,Minor in-service problems
+blocked jammed,Plugged / choked
+doesnt pump,Breakdown
+wont click shut,Failure to close
+random,Erratic output
+hot,Overheating
+wont come free,Failure to open
+not running,Breakdown
+contaminated oil tank,Contamination
+flow issue,Low output
+not holding,Failure to function
+not reading,Abnormal instrument reading
+fire,Overheating
+not running at all,Electrical
+doesnt engage,Failure to close
+stopping randomly,Spurious stop
+spaying slurry slurry slurry,Leaking
+doesnt fasten,Failure to close
+contaminated lubricating oil,Contamination
+not operating,Failure to function
+wont unlock,Failure to open
+doesnt clamp,Failure to close
+overly high output,High output
+cant turn,Failure to rotate
+missing on,Minor in-service problems
+not pumping to,Plugged / choked
+pulling very high,High output
+not rotating,Failure to function
+stopped and started,Spurious stop
+contaminated oil pump alignment,Contamination
+leakhose,Leaking
+wont release,Failure to open
+contaminated oil pump power,Contamination
+not energising,Low output
+requires rebuild,Minor in-service problems
+spurious,Abnormal instrument reading
+does not function,Electrical
+over heating,Overheating
+not pumping east,Plugged / choked
+inconsistent,Erratic output
+contaminated condensate,Contamination
+not aligned,Failure to function
+vibration too high,Vibration
+requires repack,Minor in-service problems
+leak excessively slurry slurry slurry,Leaking
+unable to turn,Failure to rotate
+high vibration,Vibration
+shaky,Erratic output
+doesnt stay shut,Failure to close
+hot spot,Overheating
+contaminated,Contamination
+stuck open,Failure to close
+high output overload,High output
+contaminated oil pump thermal temp temp temp,Contamination
+unable to operate,Low output
+running up and down,Erratic output
+noisy,Other
+too fast,High output
+will not activate,Failure to start on demand
+moderate vibration,Vibration
+unable to run,Failure to start on demand
+not pumping down off,Plugged / choked
+not keeping up,Low output
+cant rotate,Failure to rotate
+not attached,Minor in-service problems
+wont cinch shut,Failure to close
+passingleaking,Leaking
+doesnt clip shut,Failure to close
+contaminated oil pump installation,Contamination
+refusing to close,Failure to close
+hot running motor running,Overheating
+wont stay running,Spurious stop
+keeps running,Failure to stop on demand
+not tripping,Electrical
+no power supply,Electrical
+running everywhere,Erratic output
+require investigating,Minor in-service problems
+fluctuating,Erratic output
+not starting when,Failure to start on demand
+contaminated oil pump noise,Contamination
+degraded,Structural deficiency
+unable to fasten,Failure to close
+irregular,Erratic output
+not aligned,Other
+not starting,Electrical
+running hot,Overheating
+running all over the shop,Erratic output
+not rotating,Failure to rotate
+wont come loose,Failure to open
+corroded,Structural deficiency
+leak excessively slurry slurry slurry slurry slurry,Leaking
+passing when closed,Leaking
+doesnt clamp shut,Failure to close
+fails to close,Failure to close
+not pumping up off,Plugged / choked
+vibration reading issue,Vibration
+perished,Breakdown
+leak to slurry,Leaking
+stopped and started abruptly,Spurious stop
+leak slurry slurry,Leaking
+hot running overheat,Overheating
+stuck open,Failure to function
+passingleaking slurry slurry,Leaking
+overheating,Overheating
+not pumping,Plugged / choked
+passingleaking slurry slurry slurry slurry slurry,Leaking
+doesnt tighten,Failure to close
+contaminated lubricant,Contamination
+running erratically,Erratic output
+holed,Structural deficiency
+running all over the place,Erratic output
+insufficient pump output,Low output
+contaminated oil pump start stop temp temp,Contamination
+not pumping west,Plugged / choked
+hot running motor running hot,Overheating
+stop start,Erratic output
+contaminated oil pump pull temp temp,Contamination
+excessive stopstart,Erratic output
+overheated,Overheating
+wont come undone,Failure to open
+hot running pump,Overheating
+up and down,Erratic output
+boil out,Overheating
+contaminated oil pump running,Contamination
+knocking,Noise
+contaminated oil pump noise temp,Contamination
+not providing in,Plugged / choked
+poor pump output,Low output
+wont run,Failure to start on demand
+sped up,High output
+capacity issue,Low output
+hot running,Overheating
+spilling slurry,Leaking
+vibration alert,Vibration
+doesnt release,Failure to open
+cannot run in,Failure to start on demand
+passingleaking slurry,Leaking
+low flow,Plugged / choked
+doesnt halt,Failure to stop on demand
+leak in,Leaking
+hot running overheat running hot,Overheating
+contaminated sample,Contamination
+squealing,Noise
+does not click shut,Failure to close
+doesnt shut tight,Failure to close
+contaminated oil,Contamination
+unresponsive,Failure to start on demand
+keeps stopping and starting by itself,Spurious stop
+running amok,Erratic output
+not settling,Failure to function
+restricted pump performance,Low output
+unable to secure,Failure to close
+does not shift,Failure to open
+seized,Failure to function
+wont suck shut,Failure to close
+vibration issue unknown,Vibration
+contaminated oil pump thermal,Contamination
+vibration issue open,Vibration
+stops during operation,Spurious stop
+output exceeding limits,High output
+contaminated oil pump filter,Contamination
+not pumping to off,Plugged / choked
+contaminated oil level switch,Contamination
+not pumping enough,Plugged / choked
+leak slurry,Leaking
+keeps stopping randomly,Spurious stop
+vibration frequency issue,Vibration
+leak on,Leaking
+low pump output,Low output
+doesnt twist shut,Failure to close
+output exceeding limit,High output
+doesnt buckle shut,Failure to close
+unstable,Abnormal instrument reading
+requires descale,Minor in-service problems
+contaminated oil pump alignment temp temp temp,Contamination
+contaminated lube,Contamination
+cant latch,Failure to close
+low vibration,Vibration
+hot wire running running,Overheating
+output too high,High output
+unable to shut,Failure to close
+leak excessively,Leaking
+does not engage,Failure to start on demand
+contaminated oil analysis,Contamination
+restricted pump,Low output
+refusing to unlock,Failure to open
+contaminated oil pump flow,Contamination
+low flow,Low output
+hot bear,Overheating
+excessive outputting,High output
+doesnt free,Failure to open
+have smoked up,Overheating
+stopped at an unknown state,Spurious stop
+slow,Low output
+vibration too low,Vibration
+not running when,Failure to start on demand
+contaminated oil pump temp temp temp temp,Contamination
+contaminated oil pump load temp temp temp,Contamination
+wont stay closed,Failure to close
+passing u,Leaking
+cannot start,Failure to start on demand
+doesnt squeeze shut,Failure to close
+will not close,Failure to function
+contaminated oil pump bearing,Contamination
+spaying out slurry slurry,Leaking
+not cycling,Plugged / choked
+high outputting,High output
+not pumping over,Plugged / choked
+poor flow,Low output
+not controlling,Minor in-service problems
+hot bear running,Overheating
+stop running,Spurious stop
+needs repacked,Minor in-service problems
+no out,Plugged / choked
+vibration issue fixed,Vibration
+low delivery,Low output
+stopped with no warning,Spurious stop
+wont shut,Failure to close
+cant stay shut,Failure to close
+insufficient output,Low output
+pumping fault,Low output
+stopped running,Spurious stop
+low efficiency output,Low output
+wont work,Failure to start on demand
+overly high outputting,High output
+contaminated oil separator,Contamination
+running dry,Other
+needs scope,Minor in-service problems
+stuck shut,Failure to open
+restricted flow,Low output
+leak,Leaking
+no power to start,Failure to start on demand
+struggling,Low output
+not seated,Failure to function
+vibration signature issue,Vibration
+hot running pump running,Overheating
+uncontrollable fluctuation,Erratic output
+sporadic,Erratic output
+cavitating,Erratic output
+contaminated diesel oil,Contamination
+pumping at high out put,High output
+contaminated oil heat,Contamination
+not locking,Failure to function
+passing on,Leaking
+running hot,Other
+not pumping in off,Plugged / choked
+wont run in,Failure to start on demand
+leak when open,Leaking
+not pumping off,Plugged / choked
+incorrect,Abnormal instrument reading
+wont stop running,Spurious stop
+high output over limit,High output
+will not stay running,Spurious stop
+unable to produce,Low output
+does not finish,Failure to stop on demand
+doesnt spin up,Failure to rotate
+no output,Low output
+doesnt lock,Failure to close
+stopped running suddenly,Spurious stop
+stopped running and unable to restart,Spurious stop
+loose tighten,Minor in-service problems
+not running,Plugged / choked
+doesnt squeeze,Failure to close
+doesnt shift,Failure to open
+vibration alarm,Vibration
+surging,Erratic output
+hot running overheating,Overheating
+wont shift,Failure to open
+not operational,Breakdown
+will not start in,Failure to start on demand
+doesnt screw,Failure to close
+doesnt run,Electrical
+not efficient,Low output
+jumping,Abnormal instrument reading
+not pumping on off,Plugged / choked
+abnormality vibration,Vibration
+sped up speed,High output
+oil contamination,Contamination
+running wild,Erratic output
+hot bear running hot,Overheating
+vibration laser,Vibration
+contaminated oil pump pull,Contamination
+leak u,Leaking
+not stable,Erratic output
+high output exceeding limits,High output
+contaminated oil pump vibration,Contamination
+not engaging,Failure to function
+contaminated oil pump vibration temp temp temp,Contamination
+not pumping out,Plugged / choked
+hot running bearing,Overheating
+leakingneed,Leaking
+stopped during use,Spurious stop
+stuck in position,Failure to rotate
+wont stay shut,Failure to close
+vibration meter issue,Vibration
+requires cleaning,Minor in-service problems
+contaminated oil pump flow temp temp,Contamination
+locked closed,Failure to open
+not firing,Failure to start on demand
+burnt,Overheating
+not working,Electrical
+not sealing,Failure to function
+spreading,Leaking
+lagging,Low output
+off and on fluctuation,Erratic output
+unable to start,Electrical
+doesnt come free,Failure to open
+contaminated oil pump start stop temp,Contamination
+will not stop,Failure to stop on demand
+hot running bearing running,Overheating
+passingleaking slurry slurry slurry,Leaking
+does not cease,Failure to stop on demand
+excessive speed output,High output
+excessive speed outputting,High output
+hot wire,Overheating
+contaminated gearbox oil,Contamination
+unable to stop,Failure to stop on demand
+will not hold,Failure to function
+hot running pump running hot,Overheating
+doesnt shut properly,Failure to close
+stuck solid,Failure to open
+poor flow rate,Low output
+cant lock,Failure to close
+not operational,Electrical
+low performance,Low output
+hot running overheat running,Overheating
+stop without reason,Spurious stop
+stopped at random,Spurious stop
+light vibration,Vibration
+doesnt pull shut,Failure to close
+contaminated gas,Contamination
+not running,Electrical
+vibration baseline issue,Vibration
+not functioning,Electrical
+wont reset,Failure to start on demand
+leak hose,Leaking
+unable to seal,Failure to close
+contaminated oil pump thermal temp,Contamination
+random vibration,Vibration
+not engaging,Failure to start on demand
+contaminated oil pump motor,Contamination
+wont free,Failure to open
+contaminated oil leakage,Contamination
+contaminated oil pump status temp,Contamination
+not energized,Electrical
+doesnt unlock,Failure to open
+not gripping,Failure to function
+vibration time issue,Vibration
+spaying out slurry slurry slurry,Leaking
+stopped running during operation,Spurious stop
+running away,Erratic output
+fluctuating,Abnormal instrument reading
+does not run,Failure to start on demand
+high output,High output
+excessive vibration,Vibration
+fluctuating erratically,Erratic output
+does not start,Failure to start on demand
+running riot,Erratic output
+low efficiency,Low output
+doesnt shut,Failure to close
+fails to cease,Failure to stop on demand
+binding,Failure to function
+pumping issue,Low output
+not connected,Minor in-service problems
+not connected blanked,Minor in-service problems
+contaminated oil pump power temp,Contamination
+too high,High output
+stop during operation,Spurious stop
+hot running bear running hot,Overheating
+doesnt function,Electrical
+not flowing,Plugged / choked
+does not activate,Failure to start on demand
+hot running overheating running hot,Overheating
+loose,Failure to function
+does not close,Failure to close
+spaying out slurry slurry slurry slurry slurry,Leaking
+contaminated oil pump temp temp temp,Contamination
+contaminated oil pump current,Contamination
+contaminated oil level,Contamination
+unable to get running,Failure to start on demand
+contaminated oil pump lubrication temp temp temp,Contamination
+leak to atmosphere,Leaking
+contaminated oil pump noise temp temp temp,Contamination
+relieving too early,Leaking
+brittle,Structural deficiency
+leak very slowly,Leaking
+stopped communicatiing,Spurious stop
+requires handle,Minor in-service problems
+hot running motor,Overheating
+continues,Failure to stop on demand
+struggling to turn,Failure to rotate
+contaminated machine oil,Contamination
+heavy vibration,Vibration
+contaminated oil pump thrust temp temp temp,Contamination
+wont grip,Failure to close
+intermittent,Erratic output
+playing up,Erratic output
+contaminated oil pump stop,Contamination
+hot running bearing running hot,Overheating
+spaying out slurry,Leaking
+running in all directions,Erratic output
+vibration pattern issue,Vibration
+doesnt buckle,Failure to close
+unable to latch,Failure to close
+high,Abnormal instrument reading
+vibration lube alignment,Vibration
+leak exponentially,Leaking
+hot running circuit,Overheating
+stopped,Spurious stop
+leak excessively slurry slurry,Leaking
+needs to be held down,Minor in-service problems
+requires replacement,Minor in-service problems
+contaminated oil flow,Contamination
+highly outputted,High output
+not performing,Low output
+wont snap,Failure to close
+stopped unexpectedly,Spurious stop
+contaminated oil temp,Contamination
+not closing properly,Failure to close
+stop after start,Spurious stop
+not reading high,Abnormal instrument reading
+can not stop,Spurious stop
+hot motor running hot,Overheating
+wrong,Abnormal instrument reading
+starting issue,Failure to start on demand
+contaminated lube oil,Contamination
+contaminated oil pump start stop temp temp temp,Contamination
+contaminated oil pump drive temp,Contamination
+hot pump running hot,Overheating
+unpredictable,Erratic output
+abnormal speed,High output
+keeps stopping and starting,Spurious stop
+requires de scale,Minor in-service problems
+highly output,High output
+sitting on hot,Overheating
+burn,Overheating
+contaminated oil pump lubrication temp,Contamination
+excessive output,High output
+stop and will not start again,Spurious stop
+temp temp,Contamination
+stopped running by itself,Spurious stop
+will not stop,Spurious stop
+keeps stopping during use,Spurious stop
+leaking to slurry,Leaking
+smoking up,Overheating
+not delivering,Low output
+fails to stop,Failure to stop on demand
+leakingreplace,Leaking
+variable,Erratic output
+spilling,Leaking
+bad vibration,Vibration
+not turning,Failure to function
+doesnt slip,Failure to close
+leak excessively slurry,Leaking
+switched off,Spurious stop

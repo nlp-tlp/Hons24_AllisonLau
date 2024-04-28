@@ -1,0 +1,267 @@
+unstable signal,Erratic output
+squealing noise,Noise
+no start,Failure to start on demand
+constant vibration,Vibration
+low imbalance,Other
+low gradient,Other
+contaminated solution supply,Contamination
+not latching,Failure to close
+hot hot hot hot hot hot hot hot hot hot,Overheating
+high imbalance,Other
+doesnt shut tight,Failure to close
+exceeding,High output
+not discharging efficiency,Low output
+contaminated oil,Contamination
+fluctuating relentlessly,Erratic output
+not producing material,Low output
+not exceeding,Low output
+not achieving efficiency,Low output
+hot gearcase,Overheating
+unpredictable performance,Erratic output
+not delivering pressure,Low output
+cracked,Structural deficiency
+noise,Other
+stuck on,Failure to rotate
+grinding noise,Noise
+does not shut properly,Failure to close
+debris,Other
+wont latch,Failure to close
+requires rebuild,Minor in-service problems
+locked in place,Failure to open
+keeps tripping,Electrical
+buzzing,Noise
+will not start,Failure to start on demand
+hot on,Overheating
+open when closed,Failure to close
+unsteady output,Erratic output
+not achieving pressure,Low output
+fluctuating toddlingly,Erratic output
+stopped abruptly,Spurious stop
+vibrating heavily,Vibration
+high noise level,Other
+stop by in the,Spurious stop
+changing rapidly,Erratic output
+over limits,High output
+need replacing,Breakdown
+not locked shut,Failure to close
+wont reset,Failure to start on demand
+stop during pump operation,Spurious stop
+low friction,Other
+dont work,Breakdown
+squeaky,Noise
+doesnt lock closed,Failure to close
+will not shut properly,Failure to close
+locked closed inoperative,Failure to open
+needs to be extended,Minor in-service problems
+too much vibration,Vibration
+not able to flow,Low output
+squealing loudly,Noise
+needs to be repacked,Minor in-service problems
+does not stay closed,Failure to close
+over limit,High output
+torn,Structural deficiency
+high output,High output
+does not let go at all,Failure to open
+squealing vibration,Noise
+fluctuating swayingly,Erratic output
+does not come open at all,Failure to open
+contaminating water,Contamination
+fluctuating thumpingly,Erratic output
+not able to provide flow,Plugged / choked
+not able to achieve,Plugged / choked
+reading stuck,Abnormal instrument reading
+ripped,Structural deficiency
+stop on,Spurious stop
+holed,Structural deficiency
+no turning,Failure to rotate
+stopped running,Spurious stop
+not draining,Low output
+hot hot hot hot hot,Overheating
+fluctuating unpredictably,Erratic output
+vibration problem,Vibration
+fluctuating wobblingly,Erratic output
+rubbing,Vibration
+requires handle,Minor in-service problems
+worn,Structural deficiency
+starting issue,Failure to start on demand
+doesnt stay tight,Failure to close
+badly corroded in,Structural deficiency
+doesnt reset,Failure to start on demand
+broken away,Breakdown
+leaking,Failure to close
+contaminating water supply,Contamination
+doesnt come open at all,Failure to open
+incorrect direction,Other
+smoking up,Overheating
+fluctuating shiveringly,Erratic output
+fails to let go at all,Failure to open
+wont lock properly,Failure to close
+down to earth,Electrical
+not able to pump issue,Plugged / choked
+stuck shut locked,Failure to open
+fluctuating constantly,Erratic output
+contaminated hydraulic supply,Contamination
+fluctuating heavily,Erratic output
+faulting,Failure to close
+not able to pump enough,Plugged / choked
+output overload state,High output
+pump stop,Spurious stop
+does not start,Failure to start on demand
+does not shut tight,Failure to close
+cannot be opened,Failure to open
+wont turn,Failure to start on demand
+will not lock,Failure to close
+stop and start randomly,Spurious stop
+not creating flow,Plugged / choked
+does not stay tight,Failure to close
+not fulfilling,Low output
+sheared,Structural deficiency
+fluctuating intermittently,Erratic output
+not accurate,Abnormal instrument reading
+stop on pump stop,Spurious stop
+losing signal,Electrical
+looseness,Minor in-service problems
+not moving fluid,Plugged / choked
+shakes excessively,Vibration
+fails to move at all,Failure to open
+high output state,High output
+leaking,Leaking
+not wo,Breakdown
+does not lock shut,Failure to close
+not able to generate,Plugged / choked
+not discharging flow rate,Low output
+requires descale,Minor in-service problems
+suspect,Failure to close
+high speed,Other
+contaminating air,Contamination
+intermittent operation,Erratic output
+exceeds limit,High output
+stuck shut,Failure to open
+not discharging fluid,Low output
+shifting randomly,Erratic output
+not able to pump,Plugged / choked
+high pumping,High output
+contaminated hydraulic line,Contamination
+wont spring open,Failure to open
+stop on running,Spurious stop
+over speed condition,High output
+fluctuating rollingly,Erratic output
+does not come open,Failure to open
+high earth resistance,Abnormal instrument reading
+unpredictable,Erratic output
+wont run,Failure to start on demand
+tripping instantly,Electrical
+high torque,Other
+not circulating temperature,Low output
+not able to pump fluid,Plugged / choked
+clicking vibration,Noise
+will not unlock,Failure to open
+incorrect phase sequence,Other
+unstable operation,Erratic output
+hot hot hot hot hot hot hot hot hot hot hot hot,Overheating
+needs a descale,Minor in-service problems
+fails to dislodge,Failure to open
+hot hot hot hot hot hot hot hot hot hot hot hot hot,Overheating
+not circulating correctly,Plugged / choked
+erratic output,Erratic output
+fluctuating in and out,Erratic output
+holed again,Structural deficiency
+not pumping flow rate,Low output
+corroded blocked,Structural deficiency
+output over limit state,High output
+require replacing,Breakdown
+fluctuating randomly,Erratic output
+leaking too early,Leaking
+has a split,Structural deficiency
+stuck in place,Failure to open
+runback,Other
+doesnt rotate,Failure to rotate
+fluctuating tentatively,Erratic output
+does not dislodge at all,Failure to open
+vibration overload,Vibration
+contaminated steam,Contamination
+fluctuating falteringly,Erratic output
+rocking voilently,Vibration
+does not stay shut tight,Failure to close
+shaking badly,Vibration
+not supplying efficiency,Low output
+stuck in closed position,Failure to open
+refusing to unlock,Failure to open
+stopped randomly,Spurious stop
+squeeling,Noise
+does not snap tight,Failure to close
+doesnt engage,Failure to start on demand
+discharging low,Low output
+contaminated gas line,Contamination
+fluctuating remorselessly,Erratic output
+high vibration,Vibration
+over limit condition,High output
+contaminated solution system,Contamination
+stop working randomly,Spurious stop
+whirring vibration,Noise
+not sealing tight,Failure to close
+not circulating pressure,Low output
+will not move,Failure to rotate
+not providing pressure,Plugged / choked
+contamination trip,Contamination
+failure,Breakdown
+has high earth resistance,Electrical
+not producing,Plugged / choked
+excessive current,Other
+not reading right,Abnormal instrument reading
+doesnt release,Failure to open
+fluctuating continuously,Erratic output
+stopping,Spurious stop
+not moving,Plugged / choked
+doesnt seal,Failure to close
+contaminated coolant,Contamination
+broken loose,Breakdown
+high noise,Other
+doesnt move,Failure to rotate
+stop starting up,Spurious stop
+shifting suddenly,Erratic output
+open unexpectedly,Failure to close
+stop during operation,Spurious stop
+not pumping,Low output
+not pushing,Low output
+doesnt lock shut,Failure to close
+faulty,Electrical
+collapsed,Breakdown
+stop by pump stop,Spurious stop
+will not close,Failure to close
+changing abruptly,Erratic output
+doesnt dislodge,Failure to open
+locked in,Failure to open
+not charging,Electrical
+water ingress,Other
+not closing properly,Failure to close
+leaking on,Leaking
+wont pump,Breakdown
+clanging,Noise
+not in sequence,Electrical
+will not turn,Failure to rotate
+contaminating lube oil,Contamination
+stop by computer system,Spurious stop
+not running,Failure to start on demand
+fluctuating erratically,Erratic output
+not circulating properly,Plugged / choked
+triped,Electrical
+not operational,Plugged / choked
+not able to pump away,Plugged / choked
+erratic signal,Erratic output
+high oil level,Other
+stop on its own,Spurious stop
+will not engage,Failure to start on demand
+trips on overload,Electrical
+high output flow,High output
+wrong range,Abnormal instrument reading
+sporadic spikes,Erratic output
+requires topup stop,Minor in-service problems
+tripping in,Electrical
+split in two place,Structural deficiency
+vibration warning,Vibration
+low leakage,Other
+erratic behavior,Erratic output
+leaking slurry,Leaking
+tripping on,Electrical
+vibrating like mad,Vibration

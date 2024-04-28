@@ -1,0 +1,903 @@
+incorrect indication,Abnormal instrument reading
+eroded foundation wall,Structural deficiency
+splitting support beam,Structural deficiency
+unexplained behavior,Other
+output surpassing limits,High output
+inadequate output,Low output
+unexpected failures,Other
+unyielding to operate,Failure to open
+technical fault,Breakdown
+cracked load-bearing beam,Structural deficiency
+unable to run,Failure to start on demand
+leak at shaft,Leaking
+low viscosity,Contamination
+aberrant output,Abnormal instrument reading
+failed start up,Failure to start on demand
+underachieving,Low output
+weak operational capacity,Low output
+collapsed roof,Structural deficiency
+over the capacity output,High output
+weakened structural wall,Structural deficiency
+malfunction,Breakdown
+scorch marks,Overheating
+vibration excessive levels,Vibration
+halted operation,Breakdown
+seal not sealing properly,Leaking
+unresponsive to unlock,Failure to open
+eroded foundation footing,Structural deficiency
+ignited material
+excessive heat,Overheating
+unsteady readings,Erratic output
+unconventional behavior,Other
+collapsed balcony,Structural deficiency
+intermittent output,Erratic output
+whooshing,Noise
+rusted beams,Structural deficiency
+anomalous behavior,Abnormal instrument reading
+does not stop on demand,Failure to stop on demand
+uncharacteristic output,Abnormal instrument reading
+erratic output,Erratic output
+failed control board,Electrical
+unable to start up,Failure to start on demand
+unusual behavior,Other
+loose rivet,Minor in-service problems
+wont switch on,Failure to start on demand
+unresponsive to unlock signal,Failure to open
+shattered retaining wall panel,Structural deficiency
+failed power factor correction unit,Electrical
+leak at coupling,Leaking
+insufficient power output,Low output
+failed to halt,Failure to stop on demand
+vibration unpredictable,Vibration
+contamination,Contamination
+not running in,Failure to start on demand
+failed to ignite,Failure to start on demand
+deteriorated bridge abutment,Structural deficiency
+unpredictable malfunctions,Other
+disconnected,Breakdown
+inconsistent performance,Erratic output
+cracked gear,Minor in-service problems
+vibration severe,Vibration
+immovable,Failure to function
+mechanism uncooperative,Failure to open
+ceased operation,Breakdown
+phase imbalance,Electrical
+seal not sealing,Leaking
+random operation,Erratic output
+sporadic operation,Erratic output
+anomalous result,Abnormal instrument reading
+low operational efficiency,Low output
+stiff mechanism,Failure to open
+no signal,Abnormal instrument reading
+unresponsive to open input,Failure to open
+exceeding output limits,High output
+contamination trip,Contamination
+obstruction preventing open,Failure to open
+not meeting output requirements,Low output
+not able to start,Failure to start on demand
+whistling,Noise
+shutdown failure,Spurious stop
+failed operation,Failure to start on demand
+cracked cover,Minor in-service problems
+underperforming system,Low output
+corroded joints,Structural deficiency
+excessive shaking and rattling,Vibration
+cracked ceiling beam,Structural deficiency
+not reaching capacity,Low output
+loose nut,Minor in-service problems
+mechanism nonfunctional,Failure to open
+disruptive stoppage,Spurious stop
+control system failure,Electrical
+leak at fitting,Leaking
+disconnected wire,Minor in-service problems
+cracked truss,Structural deficiency
+peculiar malfunctions,Other
+operates continuously,Failure to stop on demand
+fluid oozing steadily,Leaking
+substandard output,Low output
+excessive dripping,Leaking
+disconnected hose,Minor in-service problems
+defective valve,Minor in-service problems
+clanging,Noise
+unable to ignite,Failure to start on demand
+discontinuation without notice,Spurious stop
+unexpected stoppage,Breakdown
+not turning on,Failure to start on demand
+non-operational,Failure to function
+scorched wires,Overheating
+insufficient operational output,Low output
+unidentified issue,Other
+unexplained failures,Other
+unsuccessful start,Failure to start on demand
+failed electrical enclosure.,Electrical
+crumbling foundation wall,Structural deficiency
+not maintaining flow rate,Low output
+unstoppable operation,Failure to stop on demand
+fluid oozing out,Leaking
+unprompted stop,Spurious stop
+vibration erratic,Vibration
+poor output consistency,Low output
+unplanned halt,Spurious stop
+failed surge protector,Electrical
+aberrant reading,Abnormal instrument reading
+wont run and,Failure to start on demand
+constant operation,Failure to stop on demand
+whirring,Noise
+complete halt,Breakdown
+does not cease operation,Failure to stop on demand
+wont start up,Failure to start on demand
+inaccurate reading,Abnormal instrument reading
+starting error,Failure to start on demand
+not working properly,Other
+excessive leakage,Leaking
+stopped running,Breakdown
+cracked frame,Minor in-service problems
+overriding stop command,Failure to stop on demand
+shutdown,Breakdown
+fractured retaining wall,Structural deficiency
+sporadic output,Abnormal instrument reading
+cracked belt,Minor in-service problems
+excessive flow discharge,High output
+weakened roof trusses,Structural deficiency
+unusual vibration patterns,Vibration
+improperly unlocked,Failure to open
+cannot run in,Failure to start on demand
+system stoppage,Breakdown
+irregular pattern,Abnormal instrument reading
+ignores stop order,Failure to stop on demand
+unpredictable operation,Other
+low flow consistency,Low output
+random spikes,Abnormal instrument reading
+complete stop,Breakdown
+rigidly locked,Failure to open
+corroded steel beams,Structural deficiency
+blistered surface,Overheating
+vibration extreme levels,Vibration
+needs repacked,Minor in-service problems
+high output flow,High output
+vibration uncontrollable,Vibration
+grid failure,Breakdown
+fluctuating values,Erratic output
+deficient flow rate,Low output
+unstable operation,Erratic output
+weakened concrete slab,Structural deficiency
+temperature rising,Overheating
+leak at joint,Leaking
+fluctuating wildly,Abnormal instrument reading
+unspecified issues,Other
+highly excessive pumping,High output
+unforeseen discontinuation,Spurious stop
+continuous running,Failure to stop on demand
+failed distribution board,Electrical
+unstable reading,Abnormal instrument reading
+overdoing output,High output
+constant vibration,Vibration
+too fast,High output
+shifting values,Erratic output
+grounding issue,Electrical
+intermittent problem,Other
+abrupt stop,Spurious stop
+vibration jolting,Vibration
+under voltage,Electrical
+limited output,Low output
+uncommanded stop,Spurious stop
+undesired shutdown,Spurious stop
+shutdown out of nowhere,Spurious stop
+wont turn,Failure to rotate
+weakened steel frame,Structural deficiency
+unforeseen stoppage,Spurious stop
+over the volume pumping,High output
+seal compromised,Leaking
+operating persistently,Failure to stop on demand
+failed start,Failure to start on demand
+does not respond to open command,Failure to open
+spark,Electrical
+unforeseen termination,Spurious stop
+overloaded circuit,Electrical
+mechanism jammed,Failure to open
+not open,Minor in-service problems
+starting failure,Failure to start on demand
+suboptimal productivity,Low output
+insufficient output,Low output
+limited flow capacity,Low output
+failed current limiter,Electrical
+malfunctioning,Failure to function
+screaming,Noise
+low production rate,Low output
+disintegrated foundation slab,Structural deficiency
+locked out,Failure to open
+overboard output,High output
+unknown fault,Other
+overvoltage,Electrical
+unforeseen shutdown,Spurious stop
+failed motor,Electrical
+radiating heat,Overheating
+random spikes and drops,Erratic output
+rotted wood beams,Structural deficiency
+peculiar reading,Abnormal instrument reading
+vibration persistent,Vibration
+unable to operate,Failure to start on demand
+lackluster output,Low output
+loose bolt,Minor in-service problems
+failed to initiate,Breakdown
+starting deficiency,Failure to start on demand
+poor performance,Low output
+seal breach,Leaking
+damaged load-bearing column,Structural deficiency
+humming,Noise
+unforeseen behavior,Abnormal instrument reading
+spouting fluid,Leaking
+locked mechanism,Failure to open
+requires repacking,Minor in-service problems
+fluid seeping out,Leaking
+erroneous reading,Abnormal instrument reading
+weakened floor joists,Structural deficiency
+pumping too much,High output
+stuck in place,Failure to function
+failed to begin,Failure to start on demand
+loose chain,Minor in-service problems
+ignores stop signal,Failure to stop on demand
+loose screw,Minor in-service problems
+does not move to open,Failure to open
+start up issue,Failure to start on demand
+insufficient pressure,Low output
+unsuccessful in opening,Failure to open
+engine malfunction,Breakdown
+odd behavior,Other
+seal damaged,Leaking
+irregular performance,Other
+vibration out of range,Vibration
+stoppage without explanation,Spurious stop
+blazing,Overheating
+vibration excessive,Vibration
+unopened mechanism,Failure to open
+clanking,Noise
+suboptimal operational output,Low output
+offbeat reading,Abnormal instrument reading
+jammed shut,Failure to open
+earth leakage,Electrical
+failed completely,Breakdown
+irregular behavior,Abnormal instrument reading
+ignition coil issue,Electrical
+operation stops suddenly,Spurious stop
+stopped performing,Breakdown
+seal failure,Leaking
+electrostatic discharge,Electrical
+deviating reading,Abnormal instrument reading
+abnormal fluctuation,Abnormal instrument reading
+ignoring stop request,Failure to stop on demand
+does not respond to stop,Failure to stop on demand
+sparking,Overheating
+unpredictable stoppage,Spurious stop
+missing screw,Minor in-service problems
+buzzing,Noise
+leaking under pressure,Leaking
+unpredictable operation,Erratic output
+discontinuous operation,Spurious stop
+peculiar operation,Other
+starting malfunction,Failure to start on demand
+starting malfunctioning,Failure to start on demand
+fluid dripping steadily,Leaking
+not operating properly,Failure to start on demand
+start up inefficiency,Failure to start on demand
+disconnected cable,Minor in-service problems
+damaged structural member,Structural deficiency
+leak at valve,Leaking
+voltage drop,Electrical
+invalid reading,Abnormal instrument reading
+uninterrupted operation,Failure to stop on demand
+non-operational,Breakdown
+anomalous readings,Other
+wiring fault,Electrical
+doesnt shut,Failure to close
+obstruction hindering opening,Failure to open
+over excessive output,High output
+incongruous reading,Abnormal instrument reading
+seal deteriorated,Leaking
+unable to stop,Failure to stop on demand
+complete failure,Breakdown
+wont function,Failure to function
+failed to operate,Failure to start on demand
+incapable of moving,Failure to function
+unsuccessful in unlocking,Failure to open
+suboptimal efficiency,Low output
+failed resistor,Electrical
+failed heating element,Electrical
+requires attention,Minor in-service problems
+stopped running abruptly,Breakdown
+unexpected malfunctions,Other
+generator overload,Electrical
+not meeting demand,Low output
+loose clamp,Minor in-service problems
+high output capacity,High output
+unpredictable behavior,Erratic output
+need a descale,Minor in-service problems
+flashing irregularly,Erratic output
+emulsified,Contamination
+screeching,Noise
+starting breakdown,Failure to start on demand
+ticking,Noise
+unusual performance,Other
+blockage preventing opening,Failure to open
+stops unexpectedly,Spurious stop
+blown circuit,Electrical
+not spinning,Failure to rotate
+creaking,Noise
+over the flow output,High output
+seal worn out,Leaking
+leak developing,Leaking
+underwhelming performance,Low output
+control panel glitch,Electrical
+running continuously without stopping,Failure to stop on demand
+failed emergency stop button,Electrical
+fluid dripping,Leaking
+not able to activate,Failure to start on demand
+random malfunctions,Other
+chirping,Noise
+deformed truss,Structural deficiency
+smell of smoke,Overheating
+vibration irregularity,Vibration
+termination without input,Spurious stop
+unusual pattern,Abnormal instrument reading
+system malfunction,Breakdown
+limited throughput,Low output
+excessive flow output,High output
+irregular errors,Other
+damaged seal,Minor in-service problems
+corroded wire,Electrical
+changing rapidly,Erratic output
+low delivery rate,Low output
+uncharacteristic behavior,Abnormal instrument reading
+starting troubles,Failure to start on demand
+fluid escaping rapidly,Leaking
+uncooperative to open,Failure to open
+overdoing the output,High output
+flashing intermittently,Erratic output
+inefficient,Plugged / choked
+continuous activity,Failure to stop on demand
+fluid escaping constantly,Leaking
+failed inductor,Electrical
+ringing,Noise
+highly abundant output,High output
+failed diode,Electrical
+insufficient throughput,Low output
+low productivity,Low output
+thermal stress
+heat damage,Overheating
+unpredictable fluctuations,Erratic output
+cessation abruptly,Spurious stop
+crash,Breakdown
+heat warning light,Overheating
+irregular function,Other
+non-functional,Failure to function
+unforeseen issues,Other
+fluid seeping,Leaking
+erratic behavior,Erratic output
+locked tight,Failure to open
+banging,Noise
+seal damage,Leaking
+cannot open,Failure to open
+power surge,Electrical
+deficient flow consistency,Low output
+milky,Contamination
+clapping,Noise
+locked,Failure to rotate
+fire hazard,Overheating
+unusual output,Abnormal instrument reading
+rotted floorboards,Structural deficiency
+vibration rough,Vibration
+loose hose,Minor in-service problems
+pumping excessively,High output
+misleading signal,Abnormal instrument reading
+abnormally high output,High output
+slow pumping,Low output
+corroded surface,Minor in-service problems
+discontinued operation,Breakdown
+high output performance,High output
+irregular response,Abnormal instrument reading
+loss of function,Breakdown
+extreme heat,Overheating
+doesnt turn,Failure to rotate
+operating continuously,Failure to stop on demand
+no rotation,Failure to rotate
+unusual levels of vibration,Vibration
+not enough output,Low output
+thermal runaway,Overheating
+continuous operation,Failure to stop on demand
+loss of power,Breakdown
+unstable readings,Erratic output
+fire risk,Overheating
+underutilized system,Low output
+stopped all operations,Breakdown
+inexplicable failures,Other
+restricted flow,Low output
+locked up,Failure to open
+missing label,Minor in-service problems
+vibration beyond limits,Vibration
+disintegrated support post,Structural deficiency
+loose spring,Minor in-service problems
+failed to respond,Breakdown
+leaking from connection,Leaking
+flashing values,Abnormal instrument reading
+inaccurate display,Abnormal instrument reading
+does not release,Failure to open
+weeps constantly,Leaking
+fluid streaming out,Leaking
+unable to unlock,Failure to open
+failed timer circuit,Electrical
+unable to operate,Failure to open
+not starting,Failure to start on demand
+vibration not normal,Vibration
+uncontrolled halt,Spurious stop
+sudden stoppage,Breakdown
+mechanism failure,Failure to open
+unresponsive to open command,Failure to open
+fractured roof trusses,Structural deficiency
+unspecified errors,Other
+false signal,Abnormal instrument reading
+leaking at seam,Leaking
+seal not holding,Leaking
+fluid escaping,Leaking
+random behavior,Erratic output
+lost power supply,Breakdown
+low operational reliability,Low output
+wiring short,Electrical
+low yield,Low output
+heating element failure,Electrical
+relay failure,Electrical
+stopped production,Breakdown
+fluctuating operation,Erratic output
+irregular functioning,Erratic output
+corroded support brackets,Structural deficiency
+vibration unmanageable,Vibration
+constant motion,Failure to stop on demand
+deficient performance,Low output
+unspecified failures,Other
+stoppage out of nowhere,Spurious stop
+disruption in operation,Spurious stop
+never halts,Failure to stop on demand
+running very hot,Overheating
+not moving,Failure to rotate
+loss of functionality,Breakdown
+inconstant behavior,Erratic output
+excessive flow delivery,High output
+uncharacteristic reading,Abnormal instrument reading
+failed sensor,Electrical
+aberrant operation,Other
+hard to close,Failure to close
+vibration constant levels,Vibration
+vibration jarring,Vibration
+variable output,Erratic output
+low throughput capacity,Low output
+jumping values,Erratic output
+non-functioning,Breakdown
+failed to stop running,Failure to stop on demand
+locked up,Failure to function
+loose connection,Minor in-service problems
+fluid leaking out,Leaking
+excessive output,High output
+contaminated,Contamination
+damaged load-bearing wall,Structural deficiency
+stuck in position,Failure to function
+failed transformer winding,Electrical
+electric shock,Electrical
+low system performance,Low output
+unexpected behavior,Abnormal instrument reading
+unanticipated halt,Spurious stop
+constant running,Failure to stop on demand
+variable operation,Erratic output
+starting fault,Failure to start on demand
+not pumping enough,Plugged / choked
+grating,Noise
+changing erratically,Erratic output
+shattered pillar,Structural deficiency
+short circuit,Electrical
+doesn't halt,Failure to stop on demand
+failed to function,Breakdown
+failed indicator light,Electrical
+failed contact switch,Electrical
+unintended data,Abnormal instrument reading
+cable damage,Electrical
+disintegrated lintel,Structural deficiency
+too much output,High output
+obstacle blocking opening,Failure to open
+fractured frame,Structural deficiency
+operation ceases randomly,Spurious stop
+glowing red,Overheating
+unpredictable reading,Abnormal instrument reading
+jammed closed,Failure to open
+mechanical breakdown,Breakdown
+unsteady reading,Abnormal instrument reading
+running non-stop,Failure to stop on demand
+restricted operational flow,Low output
+stuck in place,Failure to rotate
+deceptive reading,Abnormal instrument reading
+unspecified problems,Other
+vibration extreme fluctuations,Vibration
+operation ceased,Breakdown
+refuses to stop,Failure to stop on demand
+heating up rapidly,Overheating
+unreliable operation,Erratic output
+fell off,Minor in-service problems
+discrepant value,Abnormal instrument reading
+shutdown without cause,Spurious stop
+needs reinforcing,Structural deficiency
+unsteady values,Erratic output
+shutdown unexpectedly,Breakdown
+cracked casing,Minor in-service problems
+unyielding to open signal,Failure to open
+lagging performance,Low output
+high output volume,High output
+mechanism malfunction,Failure to open
+squeaking,Noise
+loose bracket,Minor in-service problems
+failed to start,Failure to start on demand
+flawed reading,Abnormal instrument reading
+running persistently,Failure to stop on demand
+unreliable readings,Erratic output
+unpredictable halt,Spurious stop
+leak at weld,Leaking
+never-ending operation,Failure to stop on demand
+unanticipated reading,Abnormal instrument reading
+intermittent behavior,Erratic output
+unplanned discontinuation,Spurious stop
+thermal event,Overheating
+excessive discharge rate,High output
+disregards stop signal,Failure to stop on demand
+abnormal operation,Other
+shuts down randomly,Spurious stop
+inconsistent output,Erratic output
+scalding hot,Overheating
+defective switch,Minor in-service problems
+scorched surface,Overheating
+bogged,Plugged / choked
+low viscosity.,Contamination
+contaminating condensate,Contamination
+no response,Abnormal instrument reading
+randomly stops,Spurious stop
+ignores stop request,Failure to stop on demand
+cracked foundation slab,Structural deficiency
+heated coil burnout,Electrical
+unusual behavior,Abnormal instrument reading
+uncalled stop,Spurious stop
+incorrect value,Abnormal instrument reading
+overly high output,High output
+no start up issue,Failure to start on demand
+operational stop,Breakdown
+fluid leaking profusely,Leaking
+high output speed,High output
+drumming,Noise
+unwanted stop,Spurious stop
+variable performance,Erratic output
+unopened despite attempts,Failure to open
+low operational capacity,Low output
+weak operational performance,Low output
+fluid spilling,Leaking
+ground fault,Electrical
+deformed structure,Structural deficiency
+excessive pumping rate,High output
+improper reading,Abnormal instrument reading
+odd reading,Abnormal instrument reading
+ineffective operation,Low output
+failed voltage regulator,Electrical
+blown capacitor,Electrical
+ceases functioning,Spurious stop
+unanticipated issues,Other
+not responsive,Breakdown
+over the threshold pumping,High output
+battery drain,Electrical
+system error,Breakdown
+over the top pumping,High output
+stopped suddenly,Breakdown
+crumbling concrete slab,Structural deficiency
+not responding,Failure to function
+highly inflated output,High output
+obstructed from opening,Failure to open
+blow,Minor in-service problems
+suboptimal output,Low output
+shuts off randomly,Spurious stop
+wont turn,Failure to start on demand
+abnormal errors,Other
+low output reliability,Low output
+cracked panel,Minor in-service problems
+inverter malfunction,Electrical
+power failure,Breakdown
+defunct,Failure to function
+underperforming,Low output
+excessive pumping,High output
+unable to unlatch,Failure to open
+roaring,Noise
+low power output,Low output
+fluid seeping profusely,Leaking
+loose joint,Minor in-service problems
+over the flow pumping,High output
+unable to kick in,Failure to start on demand
+ignoring stop command,Failure to stop on demand
+not functioning,Breakdown
+termination with no cause,Spurious stop
+leak at flange,Leaking
+over the capacity pumping,High output
+cracked load-bearing column,Structural deficiency
+rotted joists,Structural deficiency
+inefficient flow rate,Low output
+abnormal value,Abnormal instrument reading
+blackout,Breakdown
+starting glitch,Failure to start on demand
+excessive flow rate,High output
+unusable,Failure to function
+unexplained errors,Other
+structural crack,Structural deficiency
+smell of burning,Overheating
+output too high,High output
+cessation of operation,Spurious stop
+low process effectiveness,Low output
+excessive vibration levels,Vibration
+ignores stop instruction,Failure to stop on demand
+unmovable parts,Failure to open
+bizarre reading,Abnormal instrument reading
+halts operation,Spurious stop
+unexpected termination,Spurious stop
+unplanned stoppage,Spurious stop
+vibration highly irregular.,Vibration
+smoke coming out
+thermal degradation,Overheating
+weakened structure,Structural deficiency
+atypical behavior,Other
+pumping beyond limits,High output
+failed fuse holder,Electrical
+vibration fluctuations,Vibration
+excessive shaking,Vibration
+doesnt run,Failure to start on demand
+blocking,Plugged / choked
+jammed,Failure to function
+shut down,Breakdown
+fluctuating output,Erratic output
+unresponsive,Failure to function
+failed to commence,Breakdown
+clunking,Noise
+lightning strike,Electrical
+unsteady output,Erratic output
+stoppage without warning,Spurious stop
+leaking excessively,Leaking
+failed connection,Electrical
+leaking at gasket,Leaking
+unreliable data,Abnormal instrument reading
+unidentified malfunctions,Other
+vibration not within range,Vibration
+arc flash,Electrical
+unable to rotate,Failure to rotate
+low efficiency,Low output
+abnormal functioning,Other
+unmovable,Failure to open
+crumbling stairs,Structural deficiency
+starting issue,Failure to start on demand
+does not start,Failure to start on demand
+blown fuse,Electrical
+temperature alarm,Overheating
+over the limit output,High output
+cannot close,Failure to close
+vibration unstable,Vibration
+system crash down,Breakdown
+shattered support column,Structural deficiency
+excess output,High output
+runs endlessly,Failure to stop on demand
+arbitrary stop,Spurious stop
+defective bearing,Minor in-service problems
+excessively high output,High output
+flames visible,Overheating
+obstacle preventing opening,Failure to open
+anomalous output,Abnormal instrument reading
+stopped abruptly,Breakdown
+inconsistent behavior,Other
+unresponsive,Breakdown
+intermittent power,Electrical
+collapsed mezzanine,Structural deficiency
+ignition failure,Electrical
+unable to begin,Failure to start on demand
+low discharge,Low output
+unusual reading,Abnormal instrument reading
+whining,Noise
+highly overdone output,High output
+never stops,Failure to stop on demand
+not opening,Failure to open
+running continuously,Failure to stop on demand
+unexpected pause,Spurious stop
+ceased functioning,Breakdown
+unable to activate,Failure to start on demand
+failed ignition,Failure to start on demand
+quirky reading,Abnormal instrument reading
+failed thermostat,Electrical
+aberrant behavior,Abnormal instrument reading
+will not start properly,Failure to start on demand
+unresponsive to stop,Failure to stop on demand
+unreliable operation,Breakdown
+fluid leakage,Leaking
+extremely high output,High output
+fractured footing,Structural deficiency
+improperly closed,Failure to open
+uncommon reading,Abnormal instrument reading
+running without interruption,Failure to stop on demand
+refusing to close,Failure to close
+defective opening system,Failure to open
+unintended shutdown,Spurious stop
+highly exaggerated output,High output
+excessive current,Electrical
+not firing up,Failure to start on demand
+unusual failures,Other
+substandard pumping,Low output
+seal worn,Leaking
+cracked steel beams,Structural deficiency
+unplanned termination,Spurious stop
+unforeseen result,Abnormal instrument reading
+generator failure,Electrical
+starting problem,Failure to start on demand
+sporadic stoppage,Spurious stop
+not supplying,Plugged / choked
+needs to be extended,Minor in-service problems
+vibration abnormal,Vibration
+arbitrary cessation,Spurious stop
+dripping fluid,Leaking
+anomalous operation,Other
+mechanism stuck in place,Failure to open
+insufficient flow,Low output
+cracked slab,Structural deficiency
+clicking,Noise
+inconsistent operation,Other
+unanticipated failures,Other
+failed electrical panel,Electrical
+not releasing,Failure to open
+uncommanded cessation,Spurious stop
+unplanned shutdown,Spurious stop
+stops unanticipated,Spurious stop
+low process efficiency,Low output
+unplanned pause,Spurious stop
+crumbling foundation,Structural deficiency
+overly abundant output,High output
+degraded beams,Structural deficiency
+disintegrated wall,Structural deficiency
+seal not working,Leaking
+intermittent shutdown,Spurious stop
+stopped operating,Breakdown
+failed rectifier,Electrical
+system failure,Breakdown
+over the limit pumping,High output
+defective gasket,Minor in-service problems
+complete stoppage,Breakdown
+no pressure output,Plugged / choked
+blown out,Minor in-service problems
+cracked pipe,Minor in-service problems
+stoppage without command,Spurious stop
+discontinues operation,Spurious stop
+seal defect,Leaking
+over the maximum output,High output
+unable to operate,Failure to function
+ceased working,Breakdown
+hot to touch,Overheating
+ceased to function,Breakdown
+undercapacity operation,Low output
+loss of containment,Leaking
+leaking uncontrollably,Leaking
+operation failure,Breakdown
+defective release mechanism,Failure to open
+weak output,Low output
+cracked lintel,Structural deficiency
+excessive output pressure,High output
+seal worn down,Leaking
+not starting properly,Failure to start on demand
+abnormal stop,Spurious stop
+highly escalated output,High output
+clinking,Noise
+failed overload protector,Electrical
+irregular output,Abnormal instrument reading
+oscillating output,Erratic output
+fluid running out,Leaking
+failed circuit breaker,Electrical
+overflowing,Leaking
+inconsistent reading,Abnormal instrument reading
+power fluctuation,Electrical
+spiking and dropping,Erratic output
+failed capacitor bank,Electrical
+discontinue operation unexpectedly,Spurious stop
+disregards stop command,Failure to stop on demand
+abnormal pattern,Abnormal instrument reading
+breaker tripped,Electrical
+degraded roof trusses,Structural deficiency
+discontinuation unexpectedly,Spurious stop
+intermittent operation,Erratic output
+flow issue,Plugged / choked
+rumbling,Noise
+fluctuating behavior,Erratic output
+vibration excessive amplitude,Vibration
+unable to close,Failure to close
+insufficient discharge,Low output
+subpar performance,Low output
+obstruction preventing unlock,Failure to open
+locked in closed position,Failure to open
+low operational effectiveness,Low output
+peculiar symptoms,Other
+wrong output,Abnormal instrument reading
+unconventional malfunctions,Other
+unexplained cessation,Spurious stop
+unable to cease operation,Failure to stop on demand
+unpredictable behavior,Abnormal instrument reading
+unforeseen errors,Other
+squealing,Noise
+weakened support,Structural deficiency
+variable behavior,Erratic output
+disintegrated support beams,Structural deficiency
+howling,Noise
+deficient output level,Low output
+fluctuating readings,Erratic output
+sporadic readings,Erratic output
+weakened roof structure,Structural deficiency
+crackling,Noise
+thermal expansion,Overheating
+wont kick in,Failure to start on demand
+strange occurrences,Other
+fluctuating reading,Abnormal instrument reading
+unintended stop,Spurious stop
+leaking seal,Leaking
+insulation breakdown,Electrical
+smoking excessively,Overheating
+erratic output,Abnormal instrument reading
+desist suddenly,Spurious stop
+unintentional halt,Spurious stop
+random fluctuations,Erratic output
+obstructed from unlock,Failure to open
+light fixture flickering,Electrical
+unanticipated value,Abnormal instrument reading
+unpredictable output,Erratic output
+immobile,Failure to function
+unyielding to open,Failure to open
+corroded terminal,Minor in-service problems
+unable to engage,Failure to start on demand
+abnormal output,Abnormal instrument reading
+peculiar failures,Other
+burn marks,Overheating
+low delivery,Low output
+mechanism jam,Failure to open
+misleading indication,Abnormal instrument reading
+highly over output,High output
+emitting heat,Overheating
+anomalous data,Abnormal instrument reading
+unusual errors,Other
+defective,Failure to function
+aberrant response,Abnormal instrument reading
+failure to ignite,Failure to start on demand
+no starting issue,Failure to start on demand
+fluid discharge,Leaking
+shutdown irregularly,Spurious stop
+unexplained interruption,Spurious stop
+improper indication,Abnormal instrument reading
+unforeseen reading,Abnormal instrument reading
+failed relay coil,Electrical
+loss of service,Breakdown
+variable readings,Erratic output
+excessive discharge flow,High output
+uncontrolled vibration,Vibration
+failed to stop,Failure to stop on demand
+rigidly shut,Failure to open
+frozen,Failure to function
+over the mark output,High output
+faulty signal,Abnormal instrument reading
+failure to shut,Failure to close
+irregular operation,Erratic output
+corroded rod,Minor in-service problems
+loose fitting,Minor in-service problems
+not reaching flow,Plugged / choked
+abnormal vibration levels,Vibration
+unreliable behavior,Erratic output
+failed contactor,Electrical
+fluid seeping constantly,Leaking
+failure to spin,Failure to rotate
+start up fault,Failure to start on demand
+reading high,Abnormal instrument reading
+engine failure,Breakdown
+unable to start,Failure to start on demand
+uncommanded shutdown,Spurious stop
+leaking from joint,Leaking
+vibration intense,Vibration
+spiking erratically,Abnormal instrument reading
+shrieking,Noise
+high output pressure,High output
+vibration not steady,Vibration

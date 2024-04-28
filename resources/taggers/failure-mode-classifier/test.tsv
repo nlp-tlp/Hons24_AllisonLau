@@ -1,0 +1,286 @@
+ejected
+ - Gold: Minor in-service problems
+ - Pred: Structural deficiency
+ -> MISMATCH!
+
+sticking shu
+ - Gold: Fail to function
+ - Pred: Breakdown
+ -> MISMATCH!
+
+not turning
+ - Gold: Plugged / choked
+ - Pred: Plugged / choked
+
+has failed
+ - Gold: Breakdown
+ - Pred: Breakdown
+
+needs fitting
+ - Gold: Minor in-service problems
+ - Pred: Structural deficiency
+ -> MISMATCH!
+
+runs for a while and trip
+ - Gold: Electrical
+ - Pred: Spurious stop
+ -> MISMATCH!
+
+very stiff to operate
+ - Gold: Fail to function
+ - Pred: Failure to function
+ -> MISMATCH!
+
+requires rebuild
+ - Gold: Minor in-service problems
+ - Pred: Breakdown
+ -> MISMATCH!
+
+has no equipment earth
+ - Gold: Electrical
+ - Pred: Other
+ -> MISMATCH!
+
+require tighteninginspecti
+ - Gold: Minor in-service problems
+ - Pred: Breakdown
+ -> MISMATCH!
+
+does not work
+ - Gold: Breakdown
+ - Pred: Breakdown
+
+runs continuously
+ - Gold: Failure to stop on demand
+ - Pred: Spurious stop
+ -> MISMATCH!
+
+severe corrosion
+ - Gold: Structural deficiency
+ - Pred: Structural deficiency
+
+contamination
+ - Gold: Contamination
+ - Pred: Contamination
+
+doesnt trip
+ - Gold: Electrical
+ - Pred: Breakdown
+ -> MISMATCH!
+
+ripped
+ - Gold: Structural deficiency
+ - Pred: Structural deficiency
+
+unserviceable not in
+ - Gold: Breakdown
+ - Pred: Breakdown
+
+cant be adjusted
+ - Gold: Fail to function
+ - Pred: Failure to function
+ -> MISMATCH!
+
+worn
+ - Gold: Structural deficiency
+ - Pred: Structural deficiency
+
+misalignment
+ - Gold: Minor in-service problems
+ - Pred: Contamination
+ -> MISMATCH!
+
+switched o
+ - Gold: Spurious stop
+ - Pred: Breakdown
+ -> MISMATCH!
+
+to be torqued
+ - Gold: Minor in-service problems
+ - Pred: Failure to function
+ -> MISMATCH!
+
+sped up
+ - Gold: High output
+ - Pred: Low output
+ -> MISMATCH!
+
+unable to pump
+ - Gold: Low output
+ - Pred: Low output
+
+spillage
+ - Gold: Leaking
+ - Pred: Structural deficiency
+ -> MISMATCH!
+
+spraying out slurry
+ - Gold: Leaking
+ - Pred: Leaking
+
+jammed open
+ - Gold: Plugged / choked
+ - Pred: Plugged / choked
+
+no pump
+ - Gold: Plugged / choked
+ - Pred: Plugged / choked
+
+not truning
+ - Gold: Plugged / choked
+ - Pred: Plugged / choked
+
+unable to tighten
+ - Gold: Minor in-service problems
+ - Pred: Failure to function
+ -> MISMATCH!
+
+burnt
+ - Gold: Overheating
+ - Pred: Overheating
+
+hot joint
+ - Gold: Overheating
+ - Pred: Overheating
+
+burst
+ - Gold: Breakdown
+ - Pred: Structural deficiency
+ -> MISMATCH!
+
+pumping fault
+ - Gold: Low output
+ - Pred: Low output
+
+not controlling
+ - Gold: Minor in-service problems
+ - Pred: Plugged / choked
+ -> MISMATCH!
+
+surging cutting in and out
+ - Gold: Electrical
+ - Pred: Leaking
+ -> MISMATCH!
+
+failed electrical
+ - Gold: Electrical
+ - Pred: Breakdown
+ -> MISMATCH!
+
+loose tighten
+ - Gold: Minor in-service problems
+ - Pred: Breakdown
+ -> MISMATCH!
+
+high earth reading
+ - Gold: Abnormal instrument reading
+ - Pred: Abnormal instrument reading
+
+cavitating
+ - Gold: Erratic output
+ - Pred: Noise
+ -> MISMATCH!
+
+requires repack
+ - Gold: Minor in-service problems
+ - Pred: Breakdown
+ -> MISMATCH!
+
+needs support
+ - Gold: Minor in-service problems
+ - Pred: Breakdown
+ -> MISMATCH!
+
+needs maintenance
+ - Gold: Minor in-service problems
+ - Pred: Breakdown
+ -> MISMATCH!
+
+not spinning
+ - Gold: Minor in-service problems
+ - Pred: Plugged / choked
+ -> MISMATCH!
+
+dont activate
+ - Gold: Failure to start on demand
+ - Pred: Breakdown
+ -> MISMATCH!
+
+unserviceable b feluwa
+ - Gold: Breakdown
+ - Pred: Breakdown
+
+no power
+ - Gold: Electrical
+ - Pred: Plugged / choked
+ -> MISMATCH!
+
+requires cleaning
+ - Gold: Minor in-service problems
+ - Pred: Other
+ -> MISMATCH!
+
+doesnt work
+ - Gold: Breakdown
+ - Pred: Breakdown
+
+vibrationlubealignment
+ - Gold: Vibration
+ - Pred: Vibration
+
+blockage
+ - Gold: Plugged / choked
+ - Pred: Plugged / choked
+
+ongoing issue
+ - Gold: Other
+ - Pred: Low output
+ -> MISMATCH!
+
+poorly supported
+ - Gold: Minor in-service problems
+ - Pred: Failure to function
+ -> MISMATCH!
+
+rocking around
+ - Gold: Vibration
+ - Pred: Leaking
+ -> MISMATCH!
+
+siezeddescale
+ - Gold: Breakdown
+ - Pred: Breakdown
+
+dropped
+ - Gold: Minor in-service problems
+ - Pred: Structural deficiency
+ -> MISMATCH!
+
+spraying
+ - Gold: Leaking
+ - Pred: Noise
+ -> MISMATCH!
+
+not covered
+ - Gold: Minor in-service problems
+ - Pred: Breakdown
+ -> MISMATCH!
+
+hot jointfurn
+ - Gold: Overheating
+ - Pred: Overheating
+
+running dry
+ - Gold: Other
+ - Pred: Structural deficiency
+ -> MISMATCH!
+
+smoking up
+ - Gold: Overheating
+ - Pred: Low output
+ -> MISMATCH!
+
+jammed
+ - Gold: Plugged / choked
+ - Pred: Plugged / choked
+

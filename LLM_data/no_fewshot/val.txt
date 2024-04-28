@@ -1,0 +1,301 @@
+Algae growth,Contamination
+Inadequate shielding,Failure to function
+OHE064,Overheating
+Tar coating,Contamination
+OHE016,Overheating
+AIR-007,Abnormal instrument reading
+Overvoltage.,Failure to function
+24,Failure to open
+Inadequate structural reinforcements,Structural deficiency
+Foundation erosion,Structural deficiency
+Unstructured output signals
+50,Erratic output
+AIR-099,Abnormal instrument reading
+High temperature,Other
+Electrical short,Failure to function
+88,High output
+Material degradation,Failure to function
+Corrosion,Failure to function
+Resonance,Failure to function
+Misalignment,Failure to function
+73,Failure to open
+unable to close
+61. Inadequate lubrication causing failure to close
+62. Actuator solenoid failure preventing closure
+63. Valve disc dislodged,Failure to close
+67,Failure to open
+unable to close fully
+81. Control system communication error causing closure failure
+82. Valve stem fractured,Failure to close
+Material degradation,Other
+Inadequate structural stability,Structural deficiency
+Poor design,Other
+51,Failure to open
+Overload,Failure to function
+Lack of proper structural connections,Structural deficiency
+OHE029,Overheating
+OHE100,Overheating
+6,Failure to open
+Operational error,Other
+PLU-082,Plugged / choked
+90,High output
+Inadequate protection,Other
+PLU-039,Plugged / choked
+27,High output
+13,Failure to open
+Coffee stain,Contamination
+Emulsion coating,Contamination
+OHE023,Overheating
+inhibiting closure
+65. Actuator gearbox malfunction causing closure failure
+66. Valve stem galled,Failure to close
+AIR-018,Abnormal instrument reading
+71,Failure to open
+83,Failure to open
+99,Failure to open
+Loose zipper,Minor in-service problems
+PLU-087,Plugged / choked
+OHE096,Overheating
+Latex overspray,Contamination
+unable to fully close
+88. Actuator electrical fault causing closure failure
+89. Valve stem misaligned,Failure to close
+Inadequate sealing,Other
+Unregulated output signals
+38,Erratic output
+Inadequate structural maintenance,Structural deficiency
+Particulate matter deposition,Contamination
+Unordered output data
+87,Erratic output
+Adhesive residue,Contamination
+UST-040,Spurious stop
+Small tear in banner,Minor in-service problems
+Partial blockage in drain,Minor in-service problems
+AIR-039,Abnormal instrument reading
+Erratic output levels
+53,Erratic output
+AIR-011,Abnormal instrument reading
+Loose sealant,Minor in-service problems
+Poor documentation,Other
+OHE061,Overheating
+Oscillating output signals
+17,Erratic output
+Unarranged output readings
+46,Erratic output
+Impact damage,Failure to function
+37,Failure to open
+UST-030,Spurious stop
+UST-038,Spurious stop
+Dirty filters,Other
+PLU-053,Plugged / choked
+PLU-099,Plugged / choked
+AIR-088,Abnormal instrument reading
+Small dent in metal frame,Minor in-service problems
+Minor air leakage,Minor in-service problems
+Small crack in tile,Minor in-service problems
+Lack of spare parts,Other
+69,High output
+Unpredictable output changes
+47,Erratic output
+UST-087,Spurious stop
+Anomalous output responses
+62,Erratic output
+Vibration-induced fatigue failure,Structural deficiency
+PLU-010,Plugged / choked
+PLU-050,Plugged / choked
+AIR-033,Abnormal instrument reading
+UST-020,Spurious stop
+29,Failure to open
+Insufficient lateral support,Structural deficiency
+UST-007,Spurious stop
+Poor structural detailing,Structural deficiency
+LOO044,Low output
+Rubber residue,Contamination
+LOO052,Low output
+OHE066,Overheating
+1. Valve did not fully close during testing
+2. Actuator malfunction prevented closure
+3. Foreign object obstructing valve closure
+4. Sealing surface damaged,Failure to close
+PLU-070,Plugged / choked
+70,Failure to open
+AIR-028,Abnormal instrument reading
+Loose trim,Minor in-service problems
+Inadequate testing,Other
+Insufficient cooling,Failure to function
+UST-084,Spurious stop
+Inadequate structural bracing,Structural deficiency
+OHE007,Overheating
+PLU-076,Plugged / choked
+43,Failure to open
+Component fatigue,Failure to function
+PLU-081,Plugged / choked
+Lack of proper bracing,Structural deficiency
+OHE047,Overheating
+95,High output
+Dander presence,Contamination
+Assembly error,Failure to function
+Incorrect settings,Other
+Fluctuating performance of the equipment
+11,Erratic output
+unable to close fully
+55. Insufficient actuator force for proper closure
+56. Valve body misshapen,Failure to close
+Loose connection in wiring,Minor in-service problems
+AIR-003,Abnormal instrument reading
+LOO001,Low output
+AIR-015,Abnormal instrument reading
+PLU-023,Plugged / choked
+Rust formation,Contamination
+PLU-027,Plugged / choked
+LOO024,Low output
+LOO040,Low output
+94,Failure to open
+AIR-030,Abnormal instrument reading
+Unstable output behavior
+55,Erratic output
+Non-compliance with building codes,Structural deficiency
+Corrosion on metal surface,Minor in-service problems
+OHE008,Overheating
+OHE086,Overheating
+Loose knob,Minor in-service problems
+Anomalous output patterns
+26,Erratic output
+AIR-083,Abnormal instrument reading
+Lacquer overspray,Contamination
+Insect infestation,Contamination
+Bearing failure,Other
+33,High output
+AIR-041,Abnormal instrument reading
+UST-003,Spurious stop
+Mechanical wear,Failure to function
+Lack of inspection,Other
+AIR-087,Abnormal instrument reading
+Insufficient structural support beams,Structural deficiency
+OHE026,Overheating
+54,Failure to open
+LOO056,Low output
+Humidity ingress,Failure to function
+PLU-038,Plugged / choked
+11,High output
+PLU-037,Plugged / choked
+Software virus,Failure to function
+Cracks in the foundation,Structural deficiency
+82,High output
+Inadequate shielding,Other
+Yogurt spill,Contamination
+PLU-091,Plugged / choked
+LOO042,Low output
+UST-049,Spurious stop
+OHE070,Overheating
+OHE015,Overheating
+UST-041,Spurious stop
+Mold growth,Contamination
+LOO085,Low output
+90,Failure to open
+Grounding issue,Failure to function
+Inadequate structural stress analysis,Structural deficiency
+LOO028,Low output
+Sporadic output data
+99,Erratic output
+AIR-014,Abnormal instrument reading
+80,High output
+UST-069,Spurious stop
+Abrupt changes in output voltage
+8,Erratic output
+Inaccurate output values
+97,Erratic output
+PLU-065,Plugged / choked
+Electrical noise,Failure to function
+Insufficient training,Failure to function
+LOO098,Low output
+Ice formation,Contamination
+63,High output
+Human error,Failure to function
+OHE005,Overheating
+Design flaw,Failure to function
+Poor soldering,Other
+Improper calibration,Failure to function
+94,High output
+PLU-054,Plugged / choked
+AIR-034,Abnormal instrument reading
+99,High output
+Inconsistent output signals
+54,Erratic output
+Inadequate ventilation,Failure to function
+Slight misalignment of signage,Minor in-service problems
+inhibiting closure
+11. Pressure fluctuations causing valve to remain open
+12. Electrical failure of actuator preventing closure
+13. Seals worn out,Failure to close
+LOO049,Low output
+Chaotic output patterns
+66,Erratic output
+Oxidation layer,Contamination
+AIR-095,Abnormal instrument reading
+34,Failure to open
+Lack of maintenance,Structural deficiency
+Insufficient joint strength,Structural deficiency
+Poor maintenance schedule,Other
+48,Failure to open
+Minor scratches on surface,Minor in-service problems
+Small dent in ductwork,Minor in-service problems
+OHE043,Overheating
+OHE012,Overheating
+LOO094,Low output
+Data corruption,Failure to function
+Inadequate foundation design,Structural deficiency
+PLU-088,Plugged / choked
+Partially clogged filters,Minor in-service problems
+AIR-047,Abnormal instrument reading
+Part mismatch,Failure to function
+OHE098,Overheating
+Minor rust on metal surfaces,Minor in-service problems
+3,High output
+OHE030,Overheating
+Fatigue failure of critical members,Structural deficiency
+Manufacturing defect,Other
+OHE092,Overheating
+Unsteady output signals
+98,Erratic output
+32,Failure to open
+LOO090,Low output
+Sugar residue,Contamination
+AIR-022,Abnormal instrument reading
+Overheated components,Failure to function
+UST-005,Spurious stop
+Minor rust spots,Minor in-service problems
+Part distortion,Failure to function
+Inadequate structural waterproofing,Structural deficiency
+41,High output
+OHE052,Overheating
+OHE059,Overheating
+Improper foundation drainage,Structural deficiency
+UST-050,Spurious stop
+Uncontrolled fluctuations in output readings
+24,Erratic output
+AIR-008,Abnormal instrument reading
+Chalk dust,Contamination
+Signal loss,Failure to function
+Improper repair,Other
+LOO038,Low output
+inhibiting proper closure
+75. Actuator position feedback error resulting in failure to close
+76. Valve body misshaped,Failure to close
+LOO048,Low output
+LOO023,Low output
+PLU-024,Plugged / choked
+Excessive friction,Other
+PLU-035,Plugged / choked
+LOO030,Low output
+OHE044,Overheating
+unable to close fully
+93. Seal degradation causing failure to close
+94. Actuator control signal interference preventing closure
+95. Valve stem binding,Failure to close
+Overstressing of structural members,Structural deficiency
+Grime buildup,Contamination
+Small tear in chair upholstery,Minor in-service problems
+Material impurities,Other
+AIR-021,Abnormal instrument reading
+Loose connection in control panel,Minor in-service problems
