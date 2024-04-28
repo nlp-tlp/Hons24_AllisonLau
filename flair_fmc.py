@@ -85,7 +85,11 @@ def test_fmc(dir_name='FMC-MWO2KG'):
         print(f"{sent['input']}\t{sent['ground_truth']}\t{sent['prediction']}\t{sent['confidence']}")
 
 if __name__=="__main__":
-	# train_fmc()
-    train_fmc("LLM_data")
+	train_fmc(dir_name="FMC-MWO2KG")
+    # train_fmc(dir_name="LLM_data/fs_all")
+    # train_fmc(dir_name="LLM_data/fs_specific")
+    # train_fmc(dir_name="LLM_data/no_fewshot")
+    # train_fmc(dir_name="LLM_data/ft_specific1")
+    # train_fmc(dir_name="LLM_data/ft_specific2")
 	# test_fmc()
  	# test_fmc("LLM_data")

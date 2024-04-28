@@ -1,0 +1,248 @@
+spaying slurry,Leaking
+stop intermittently during run,Spurious stop
+over output disturbance,High output
+unresponsive,Failure to start on demand
+seized jammed,Breakdown
+cracked,Structural deficiency
+cannot function,Failure to function
+shaking like crazy,Vibration
+hotter than expected,Overheating
+vibration pump running high,Vibration
+wont unlock fully,Failure to open
+excessive output fluctuation,High output
+variable behaviour,Erratic output
+fails to unlatch fully,Failure to open
+hot enough to trip an alarm,Overheating
+shaking noisily high,Vibration
+not engaging,Failure to function
+high vibrations,Other
+false signal,Abnormal instrument reading
+blistering hot,Overheating
+rusted away,Structural deficiency
+stop mid,Spurious stop
+needs to be extended,Minor in-service problems
+does not pivot,Failure to rotate
+not operating,Breakdown
+losing earth,Electrical
+hot and steaming,Overheating
+switched off,Spurious stop
+hard movement,Other
+passing when closed,Leaking
+hotting,Overheating
+excessive output instability,High output
+unable to operate,Low output
+stop start repeatedly,Spurious stop
+continually tripping,Electrical
+lost its packing,Leaking
+stop start,Spurious stop
+burnt out,Overheating
+spasmodic,Erratic output
+does not stay sealed,Failure to close
+excessive vibration levels,Other
+seizing on,Breakdown
+over output measurement,High output
+loose,Failure to close
+down to earth,Electrical
+no earth,Electrical
+contaminated control loop,Contamination
+unable to rotate,Failure to rotate
+contaminated air,Contamination
+not responding consistently,Erratic output
+not pumping well,Other
+wont cease,Failure to stop on demand
+does not finish,Failure to stop on demand
+contaminated control operation,Contamination
+excessive output measurement,High output
+disconnected,Other
+locked in place,Failure to open
+worn,Structural deficiency
+hot enough to shut down,Overheating
+fails to stay closed,Failure to close
+not maintaining,Plugged / choked
+excessive output disturbance,High output
+contaminated mixture,Contamination
+fire,Overheating
+contaminated protection system,Contamination
+not responding,Failure to function
+rocking voilently,Vibration
+unserviceable please replace,Breakdown
+fails to stop,Failure to stop on demand
+does not circulate,Failure to rotate
+vibrating a lot,Other
+low flow,Plugged / choked
+excessive output power,High output
+shaking uncontrollably high vibration pump,Vibration
+blocked,Plugged / choked
+contaminated condition,Contamination
+refusing to shut,Failure to close
+not moving,Plugged / choked
+slurry spraying out,Leaking
+over output flow,High output
+stop and start,Spurious stop
+contaminated control process,Contamination
+does not shut,Failure to function
+badly rusted,Structural deficiency
+holed,Structural deficiency
+does not budge,Failure to rotate
+does not latch correctly,Failure to close
+fluctuating constantly,Erratic output
+requires modifying,Minor in-service problems
+leakhose,Leaking
+has no equipment earth,Electrical
+excessive vibration,Vibration
+vibration noisey,Vibration
+does not remain closed properly,Failure to close
+static earth resistance,Electrical
+needs repack,Minor in-service problems
+failure to cease,Failure to stop on demand
+stuck,Failure to rotate
+smoke,Overheating
+keeps going,Failure to stop on demand
+doesnt let go,Failure to open
+stop without warning,Spurious stop
+requiring reset,Electrical
+badly corroded,Structural deficiency
+does not run,Failure to rotate
+does not terminate,Failure to stop on demand
+shifting unpredictably,Erratic output
+not flowing,Other
+doesnt trip,Electrical
+been running hot,Overheating
+excessive output frequency,High output
+excessive output level,High output
+no output,Failure to function
+excessive out put,High output
+burnt off,Overheating
+leak out,Leaking
+incorrect flow,Abnormal instrument reading
+shaking excessively high vibration pump,Vibration
+shorting,Electrical
+does not complete,Failure to stop on demand
+does not roll,Failure to rotate
+minor vibration,Vibration
+tripping on run up,Electrical
+vibrating a lot,Vibration
+not in sequence,Electrical
+unable to start,Low output
+keeps running,Failure to stop on demand
+wont undo,Failure to open
+no operation,Failure to function
+needs to be repacked,Minor in-service problems
+dirty,Overheating
+requires replacing,Minor in-service problems
+filled,Leaking
+shaking like mad high,Vibration
+needs adjusting,Minor in-service problems
+wont lock properly,Failure to close
+runs continuously,Failure to stop on demand
+wont turn,Failure to rotate
+will not lock,Failure to close
+doesnt kick in,Failure to start on demand
+unstable output,Erratic output
+does not work,Breakdown
+viberating,Vibration
+not behaving consistently,Erratic output
+stopped pumping,Spurious stop
+contaminated screen,Contamination
+not starting in,Failure to start on demand
+vibration lube alignment,Vibration
+doesnt halt,Failure to stop on demand
+bad vibration,Vibration
+dislodged motor,Other
+shows no reading,Abnormal instrument reading
+failure to undo,Failure to open
+no action,Failure to function
+hole,Structural deficiency
+does not close correctly,Failure to close
+hot enough to trip a trip,Overheating
+shaking excessively high,Vibration
+running continuously,Failure to stop on demand
+doesnt unlock,Failure to open
+stop and start problem,Spurious stop
+over output volume,High output
+shaking badly,Vibration
+tripping,Electrical
+does not shut correctly,Failure to close
+cannot move,Failure to function
+trips,Electrical
+tainted,Contamination
+restricted flow,Low output
+not reading right,Abnormal instrument reading
+passingleaking,Leaking
+has a split in,Structural deficiency
+hot enough to fail,Overheating
+over output torque,High output
+does not engage,Failure to function
+wont turn,Failure to function
+running restricted,Low output
+contaminated interlock,Contamination
+running unable to pump,Low output
+excessive output vibration,High output
+over output threshold,High output
+running hot,Overheating
+over output performance,High output
+shaking too much,Vibration
+false high level,Abnormal instrument reading
+contaminated controller,Contamination
+snapped off,Structural deficiency
+contaminated control device,Contamination
+passing on,Leaking
+wont unlatch,Failure to open
+obstructed,Other
+tripping instantly,Electrical
+will not stay shut,Failure to close
+badly worn,Structural deficiency
+flipping uncontrollably,Erratic output
+contaminated filter,Contamination
+not reaching flow,Plugged / choked
+unable to run,Failure to start on demand
+contaminated tank,Contamination
+shutting down,Spurious stop
+no flow indication,Abnormal instrument reading
+corrosion on,Structural deficiency
+not starting,Failure to function
+operating nonstop,Failure to stop on demand
+damage,Structural deficiency
+doesnt come loose,Failure to open
+hot enough to fry an egg,Overheating
+vibration pump issue,Vibration
+blocked,Other
+vibration excessive,Vibration
+keeps tripping at start,Electrical
+unexpected,Other
+smoking up,Overheating
+restricted discharge,Other
+hot enough to catch fire,Overheating
+contaminated storage,Contamination
+requirements,Minor in-service problems
+stopping randomly,Spurious stop
+disconnected pump,Other
+stuck in place,Failure to rotate
+requires repack,Minor in-service problems
+spraying,Leaking
+need callibration,Abnormal instrument reading
+require replacing,Breakdown
+not reacting,Failure to function
+lagging,Low output
+needs repacking,Minor in-service problems
+stop when hot,Spurious stop
+fails to unstick,Failure to open
+over output rate,High output
+running endlessly,Failure to stop on demand
+does not whirl,Failure to rotate
+not closing correctly,Failure to close
+contaminated material,Contamination
+requires a descale,Minor in-service problems
+not running,Other
+does not let go,Failure to open
+spillage,Leaking
+stop intermittently,Spurious stop
+needs tightening,Minor in-service problems
+snapped plugged,Structural deficiency
+spilled,Leaking
+not working well,Other
+not operational,Failure to function
+not behaving predictably,Erratic output
+does not gyrate,Failure to rotate
+didnt trip,Electrical
+requires tightening,Minor in-service problems

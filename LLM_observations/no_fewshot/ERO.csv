@@ -1,200 +1,197 @@
-"Unregulated output signals
-38"
-"Incoherent output signals
-27"
-"Uncontrolled fluctuations in output readings
-24"
-"Haphazard output levels
-90"
-"Unregulated output levels
-79"
-"Haphazard output measurements
-49"
-"Jittery output signals
-63"
-"Fluctuating performance of the equipment
-11"
-"Uncoordinated output patterns
-81"
-"Disorderly output data
-39"
-"Unordered output data
-51"
-"Unstable output data
-75"
-"Discrepancies in output data
-16"
-"Wild swings in output values
-25"
-"Inconsistent output signals
-54"
-"Unplanned output patterns
-88"
-"Unarranged output fluctuations
-85"
-"Erratic output fluctuations
-92"
-"Oscillating output patterns
-96"
-"Sporadic output fluctuations
-61"
-"Unsystemized output signals
-89"
-"Unforeseen deviations in output levels
-34"
-"Unsteady output data
-60"
-"Erratic behavior in output responses
-20"
-"Unstructured output signals
-50"
-"Sporadic errors in output values
-19"
-"Fluctuating output values
-57"
-"Unmethodical output values
-80"
-"Inaccurate output signals
-59"
-"Uncontrolled output signals
-82"
-"Unarranged output readings
-46"
-"Erratic output levels
-53"
-"Anomalous output responses
-62"
-"Irregular output behavior
-73"
-"Unsystematic output behavior
-29"
-"Irregular pattern in output signal
-9"
-"Unpredictable shifts in output measurements
-32"
-"Unmethodical output signals
-45"
-"Unsteady output signals
-98"
-"Unpredictable output signals
-77"
-"Unsystematized output readings
-84"
-"Unforeseen output values
-71"
-"Inconstant output levels
-22"
-"Random output patterns
-68"
-"Irregular output patterns
-44"
-"Disorganized output patterns
-36"
-"Unstructured output changes
-86"
-"Unsteady output patterns
-18"
-"Discrepant output levels
-65"
-"Unsystemized output values
-48"
-"Abrupt changes in output voltage
-8"
-"Unpredictable output changes
-47"
-"Random spikes in output data
-31"
-"Unstable output readings
-13"
-"Unordered output data
-87"
-"Fluctuating output behavior
-95"
-"Unexpected drops in output levels
-10"
-"Unstable output behavior
-55"
-"Sporadic output data
-99"
-"Anomalous output patterns
-26"
-"Erroneous data outputs
-12"
-"Chaotic output fluctuations
-30"
-"Unpredictable behavior of the system
-6"
-"Incoherent output patterns
-76"
-"Unusual output measurements
-67"
-"Abrupt output changes
-69"
-"Unsystematized output behavior
-43"
-"Random errors in output calculations
-7"
-"Chaotic output patterns
-66"
-"Uncontrolled output readings
-74"
-"Inconstant output changes
-64"
-"Jittery output data
-23"
-"Unreliable output signals
-94"
-"Intermittent output signals
-72"
-"Unpredictable output data
-91"
-"Unplanned output fluctuations
-42"
-"Unpredictable output patterns
-52"
-"Unplanned changes in output values
-37"
-"Inconsistent output responses
-93"
-"Disordered output signals
-33"
-Jittery output levels
-"Uncontrolled output variations
-40"
-"Disordered output responses
-78"
-"Oscillating output readings
-58"
-"Unusual variations in output signals
-21"
-"Inaccurate output values
-97"
-"Inaccurate output measurements
-15"
-"Unreliable output patterns
-56"
-"Oscillating output signals
-17"
-"Sudden output fluctuations
-70"
-"Sudden fluctuations in output values
-5"
-"Disorganized output behavior
-83"
-"Anomalous output readings
-100"
-"Inconsistent readings on display
-4"
-"Erratic spikes in output signal
-2"
-"Unreliable output values
-14"
-"Haphazard output changes
-28"
-"Unsettled output responses
-35"
-"Uncoordinated output levels
-41"
+Unreliable signal behavior
+31
+66
 1
-"Intermittent loss of data transmission
-3"
+39
+Irregular output behavior
+43
+Unexplained signal changes
+80
+Inaccurate output sequences
+Irregular output spikes
+46
+Chaotic output fluctuations
+78
+92
+73
+45
+Random spikes in output data
+48
+72
+89
+13
+Erroneous output readings
+59
+50
+18
+Unstable output values
+Incoherent output signals
+70
+60
+82
+Inconsistent output trends
+Unexpected output trends
+Unsteady data transmission
+Inconsistent data transmission
+97
+Erratic data patterns
+49
+Variability in output patterns
+Unusual output trends
+Inconsistent signal patterns
+Unpredictable system behavior
+Uncontrolled output changes
+Sudden output variations
+Chaotic signal fluctuations
+Fluctuating output values
+Irregular data patterns
+Unusual output patterns
+36
+Sudden jumps in recorded measurements
+Uncontrolled data fluctuations
+7
+Unpredictable signal variations
+56
+Unsteady output trends
+76
+Unreliable output data
+96
+30
+99
+Unpredictable output spikes
+12
+19
+33
+100
+9
+Fluctuating sensor readings
+Intermittent output anomalies
+24
+20
+54
+Inaccurate output responses
+Abrupt changes in output values
+Inconsistent output spikes
+Flawed output responses
+64
+Flawed output patterns
+Unsteady signal patterns
+Abnormal output fluctuations
+Unstable sensor responses
+81
+Intermittent output disruptions
+87
+Unsteady output accuracy
+84
+22
+Unusual output responses
+Uncertain output patterns
+Unstable output sequences
+Unreproducible data anomalies
+23
+51
+Variability in output signals
+Oscillating output values
+Intermittent signal disruptions
+Unstable system responses
+95
+Unstable output patterns
+83
+Abrupt changes in displayed values
+Disordered output sequences
+Unreproducible output data
+6
+Erratic signal variations
+Erroneous output spikes
+55
+28
+Unpredictable output variations
+Abnormal signal fluctuations
+93
+Inaccurate output values
+44
+Oscillating data fluctuations
+57
+26
+41
+67
+16
+Unreliable output readings
+10
+42
+Unpredictable output behavior
+91
+Uncertain output responses
+Uncertain output accuracy
+38
+86
+Inaccurate output variations
+98
+Disordered output data
+Inconsistent output patterns
+25
+Unsteady output behavior
+34
+37
+Erroneous output patterns
+94
+Uncontrolled signal variations
+75
+63
+47
+65
+40
+Unexplained output spikes
+Irregular signal changes.
+8
+Erroneous output trends
+68
+Random output anomalies
+Erratic system behavior
+Fluctuating data inconsistencies
+15
+62
+69
+4
+27
+Unreproducible output results
+Unstable sensor readings
+21
+11
+Random fluctuations in output values
+35
+53
+Oscillating output signals
+88
+58
+Uncontrolled output spikes
+17
+3
+Erratic spikes in output signal
+74
+Unpredictable output changes
+52
+Inaccurate sensor readings
+Unexpected output changes
+Chaotic output behavior
+Unpredictable behavior of the system
+85
+5
+Unexplained output deviations
+Unexplained output anomalies
+Uncontrolled output patterns
+29
+Unsteady output fluctuations
+71
+Unreliable output behavior
+90
+Sudden output fluctuations
+Unexpected output anomalies
+Unexpected data irregularities
+77
+32
+79
+14
+61
+2
+Abnormal signal variations

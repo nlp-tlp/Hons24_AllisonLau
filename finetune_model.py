@@ -38,10 +38,6 @@ def finetune_model():
 
     print(f"Fine-tuning job ID: {ft_job_id}")
 
-    # Save the fine-tuning job to a file
-    with open(f"FinetuneModels/{ft_job_id}.json", "w", encoding='utf-8') as file:
-        json.dump(ft_job, file, indent=4)
-
     # Wait for fine-tuning to complete
     print("Waiting for fine-tuning to complete...")
     messages = set()
@@ -65,7 +61,9 @@ def finetune_model():
 
     print("Fine-tuning completed.")
     ft_job_result = openai.FineTuningJob.retrieve(ft_job_id)
-    print(ft_job_result)
 
     with open(f"FinetuneModels/results-{ft_job_id}.json", "w", encoding='utf-8') as file:
         json.dump(ft_job_result, file, indent=4)
+
+if __name__ == '__main__':
+    finetune_model()

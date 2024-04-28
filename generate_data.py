@@ -131,9 +131,9 @@ def generate_data(gpt_model="gpt-3.5-turbo", output_dir="observations", is_fewsh
 
     # Generate observations for each label
     generated_data = {} # key (failure mode) -> value (observations)
-    for failure_name in fmcodes:
+    for i, failure_name in enumerate(fmcodes):
         code = FMCODES[failure_name]
-        print(f"Generating observations for {code} ({failure_name})...")
+        print(f"[{i+1}/{len(fmcodes)}] Generating observations for {code} ({failure_name})...")
         generate_prompt = f"Generate {num_samples} different observations for failure mode code {code} ({failure_name}).\n"
         contraint_prompt = "Your answer should contain only the observations, which are comma-separated, and nothing else.\n"
         number_prompt = f"You must generate {num_samples} observations, no less and no more than {num_samples}.\n"
@@ -158,21 +158,27 @@ def generate_data(gpt_model="gpt-3.5-turbo", output_dir="observations", is_fewsh
         generated_data[code] = generated_data
 
         save_observations_to_csv(f'LLM_observations/{output_dir}/{code}.csv', observations)
+    print(f"Data generation completed - saved to {output_dir}.\n")
 
 if __name__ == '__main__':
     # Set OpenAI API key
     openai.api_key = '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'
 
-    FT_MODEL = "ft:gpt-3.5-turbo-0125:uwa-system-health-lab::9H6zu921"
-    generate_data(gpt_model=FT_MODEL, output_dir="ft1_specific", is_fewshot=True, is_specific=True)
-    FT_MODEL = "ft:gpt-3.5-turbo-0125:uwa-system-health-lab::9H72oH8q"
-    generate_data(gpt_model=FT_MODEL, output_dir="ft2_specific", is_fewshot=True, is_specific=True)
-    FT_MODEL = "ft:gpt-3.5-turbo-0125:uwa-system-health-lab::9GJuFmqj"
-    generate_data(gpt_model=FT_MODEL, output_dir="ft3_specific", is_fewshot=True, is_specific=True)
+    # FT_MODEL = "ft:gpt-3.5-turbo-0125:uwa-system-health-lab::9H6zu921"
+    # generate_data(gpt_model=FT_MODEL, output_dir="ft1_specific", is_fewshot=True, is_specific=True)
+    # FT_MODEL = "ft:gpt-3.5-turbo-0125:uwa-system-health-lab::9H72oH8q"
+    # generate_data(gpt_model=FT_MODEL, output_dir="ft2_specific", is_fewshot=True, is_specific=True)
+    # FT_MODEL = "ft:gpt-3.5-turbo-0125:uwa-system-health-lab::9GJuFmqj"
+    # generate_data(gpt_model=FT_MODEL, output_dir="ft3_specific", is_fewshot=True, is_specific=True)
 
-    FT_MODEL = "gpt-3.5-turbo"
-    generate_data(gpt_model=FT_MODEL, output_dir="no_fewshot", is_fewshot=False, is_specific=False)
-    generate_data(gpt_model=FT_MODEL, output_dir="fs_specific", is_fewshot=True, is_specific=True)
-    generate_data(gpt_model=FT_MODEL, output_dir="fs_all", is_fewshot=True, is_specific=False)
+    FT_MODEL = "ft:gpt-3.5-turbo-0125:uwa-system-health-lab::9ItKIgm3"
+    generate_data(gpt_model=FT_MODEL, output_dir="ft_specific1", is_fewshot=True, is_specific=True)
+    FT_MODEL = "ft:gpt-3.5-turbo-0125:uwa-system-health-lab::9ItG7n1t"
+    generate_data(gpt_model=FT_MODEL, output_dir="ft_specific2", is_fewshot=True, is_specific=True)
+
+    # FT_MODEL = "gpt-3.5-turbo"
+    # generate_data(gpt_model=FT_MODEL, output_dir="no_fewshot", is_fewshot=False, is_specific=False)
+    # generate_data(gpt_model=FT_MODEL, output_dir="fs_specific", is_fewshot=True, is_specific=True)
+    # generate_data(gpt_model=FT_MODEL, output_dir="fs_all", is_fewshot=True, is_specific=False)
     print("Data generation completed!")
     

@@ -1,131 +1,98 @@
-"unable to close properly
-86. Inadequate actuator torque for proper closure
-87. Valve disc warped"
-"unable to fully close
-41. Loose valve components causing closure failure
-42. Pressure surge preventing valve closure
-43. Actuator spring failure leading to closure issues
-44. Valve body cracked"
-"causing failure to close
-69. Control system sensor error preventing closure
-70. Valve disc jammed"
-"unable to fully close
-67. Actuator air supply issue leading to closure issues
-68. Valve body misaligned"
-"unable to fully close
-96. Control system software glitch causing closure failure
-97. Valve disc misaligned"
-"inhibiting closure
-83. Seals improperly installed"
-"unable to close properly
-64. Sealing surface uneven"
-"unable to fully close
-88. Actuator electrical fault causing closure failure
-89. Valve stem misaligned"
-"causing closure failure
-100. Sealing surface damaged"
-"unable to close
-61. Inadequate lubrication causing failure to close
-62. Actuator solenoid failure preventing closure
-63. Valve disc dislodged"
-leading to failure to close
-"inhibiting closure
-90. Severe operating conditions impacting valve performance
-91. Actuator linkage misaligned leading to closure issues
-92. Valve body cracked"
-"unable to close fully
-93. Seal degradation causing failure to close
-94. Actuator control signal interference preventing closure
-95. Valve stem binding"
-"causing failure to close
-49. Actuator limit switch malfunction preventing closure
-50. Valve spindle seized"
-"unable to close properly
-45. Inadequate training on valve operation causing closure failure
-46. Electrical wiring fault affecting actuator performance
-47. Valve stem thread stripped"
-"unable to fully close
-74. Seals misaligned"
-"causing closure failure
-77. Excessive valve stem play preventing proper closure
-78. Environmental factors affecting valve operation
-79. Actuator pneumatic leak leading to closure issues
-80. Valve disc deformed"
-"unable to close
-48. Seals deteriorated"
-"unable to close fully
-81. Control system communication error causing closure failure
-82. Valve stem fractured"
-"causing failure to close
-5. Lubrication failure leading to inability to close
-6. Control system error resulted in failure to close
-7. Corrosion preventing proper closure
-8. Improper installation causing failure to close
-9. Mechanical failure preventing valve from closing
-10. Valve stem bent"
-"unable to close
-51. Sudden loss of air pressure preventing closure
-52. Debris accumulation inhibiting proper closure
-53. Actuator control board failure leading to closure issues
-54. Valve disc misaligned"
-"inhibiting proper closure
-75. Actuator position feedback error resulting in failure to close
-76. Valve body misshaped"
-"unable to close
-71. Improper valve maintenance causing closure failure
-72. Actuator motor burnout leading to closure issues
-73. Valve stem bent"
-"leading to failure to close
-84. Actuator limit switch misadjusted preventing closure
-85. Valve body distorted"
-"unable to close
-29. Control signal interference resulting in failure to close
-30. Valve seat damage causing closure failure
-31. Hydraulic fluid leak impeding closure
-32. Wear and tear preventing proper closure
-33. Insufficient torque for valve to close completely
-34. Operational error leading to failure to close
-35. High flow rate causing valve to remain open
-36. Environmental contamination inhibiting closure
-37. Actuator misalignment causing failure to close
-38. Valve stem binding preventing closure
-39. Control system software glitch resulting in failure to close
-40. Valve disc warped"
-"leading to failure to close
-14. Misalignment of valve components causing closure failure
-15. Valve stuck in partially open position
-16. Inadequate maintenance resulting in failure to close
-17. Excessive vibration preventing proper closure
-18. Temperature extremes affecting valve operation
-19. Incorrect valve sizing causing closure issues
-20. Material degradation leading to failure to close
-21. Actuator power loss causing closure failure
-22. Valve body distortion preventing proper closure
-23. Improper setpoint leading to failure to close
-24. Severe weather conditions impacting valve performance
-25. Seized stem preventing valve closure
-26. Blockage in valve preventing full closure
-27. Actuator linkage failure causing closure issues
-28. Valve stem stripped"
-"inhibiting closure
-11. Pressure fluctuations causing valve to remain open
-12. Electrical failure of actuator preventing closure
-13. Seals worn out"
-"unable to close fully
-55. Insufficient actuator force for proper closure
-56. Valve body misshapen"
-"1. Valve did not fully close during testing
-2. Actuator malfunction prevented closure
-3. Foreign object obstructing valve closure
-4. Sealing surface damaged"
-"unable to close properly
-98. Actuator power loss inhibiting proper closure
-99. Valve body misshapen"
-"inhibiting closure
-65. Actuator gearbox malfunction causing closure failure
-66. Valve stem galled"
-"causing closure failure
-57. Corrosion of actuator components impacting closure
-58. Excessive wear on valve seat leading to closure issues
-59. Miscommunication in control signals preventing closure
-60. Valve stem fractured"
+Inadequate system venting
+Bent valve disc
+Incorrect valve material
+Loose electrical connections
+Incorrect valve position feedback
+Faulty feedback sensor
+Improper valve stem material
+Faulty hydraulic pump
+Valve stem seizing
+Improper valve stroke adjustment
+Valve stem pitting
+Low hydraulic pressure
+Excessive valve disc play
+Faulty air pressure regulator
+Damaged sealing ring
+Corroded actuator shaft
+High operating temperature
+Excessive valve stem friction
+Contaminated hydraulic fluid
+Valve stem wear
+Excessive valve stem play
+Incorrect valve stroke length
+Improper torque on fasteners
+Inadequate maintenance schedule
+Obstructed valve seat
+Faulty actuator position feedback
+Inadequate valve clearance
+Inadequate cooling system
+Excessive system pressure
+Control panel malfunction
+Broken spring
+Insufficient valve actuator force
+Inadequate system flushing
+Control signal interruption
+Damaged valve actuator
+Excessive vibration
+Improper air supply
+Loose actuator connection
+Improper lubrication
+Faulty positioner
+Incorrect valve pressure rating
+Faulty solenoid wiring
+Excessive valve operating temperature
+Loose valve body bolts
+Faulty actuator feedback loop
+Incorrect valve sizing
+Faulty limit switch
+Excessive wear on valve disc
+Loose valve linkage
+Electrical power surge
+Excessive valve stem clearance
+Faulty solenoid
+Loose valve stem pin.
+Incorrect installation angle
+Improper valve alignment
+Loose valve stem retainer
+Insufficient valve stem lubrication
+Inadequate system drainage
+Broken actuator bracket
+Corroded valve stem
+Valve stem misalignment
+Control signal delay
+Excessive valve cycling
+Faulty valve positioner calibration
+Control signal interference
+Corroded valve body
+Valve disc warping
+Inadequate actuator speed control
+Loose valve stem nut
+Valve stem bending
+Loose valve stem packing
+Insufficient training
+Weak spring tension
+Misaligned actuator mounting
+Loose valve seat
+Blocked hydraulic lines
+Failed seal integrity test
+Inadequate actuator travel
+Inadequate valve support
+Corroded actuator linkage
+Improper valve actuation speed
+Control signal drift
+Faulty pneumatic supply
+Debris in valve body
+Control signal noise
+Inadequate actuator force
+Excessive valve cycling speed
+Severe environmental conditions
+Bent actuator arm
+Valve stem binding
+Improper valve seat material
+Faulty positioner calibration
+Damaged actuator diaphragm
+Loose packing gland
+Incorrect valve orientation
+Improper valve assembly
+Excessive humidity
+Clogged filter

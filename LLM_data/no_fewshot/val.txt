@@ -1,301 +1,844 @@
-Algae growth,Contamination
-Inadequate shielding,Failure to function
-OHE064,Overheating
-Tar coating,Contamination
-OHE016,Overheating
-AIR-007,Abnormal instrument reading
-Overvoltage.,Failure to function
-24,Failure to open
-Inadequate structural reinforcements,Structural deficiency
-Foundation erosion,Structural deficiency
-Unstructured output signals
-50,Erratic output
-AIR-099,Abnormal instrument reading
-High temperature,Other
-Electrical short,Failure to function
-88,High output
-Material degradation,Failure to function
-Corrosion,Failure to function
-Resonance,Failure to function
-Misalignment,Failure to function
-73,Failure to open
-unable to close
-61. Inadequate lubrication causing failure to close
-62. Actuator solenoid failure preventing closure
-63. Valve disc dislodged,Failure to close
-67,Failure to open
-unable to close fully
-81. Control system communication error causing closure failure
-82. Valve stem fractured,Failure to close
-Material degradation,Other
-Inadequate structural stability,Structural deficiency
-Poor design,Other
-51,Failure to open
-Overload,Failure to function
-Lack of proper structural connections,Structural deficiency
-OHE029,Overheating
-OHE100,Overheating
-6,Failure to open
-Operational error,Other
-PLU-082,Plugged / choked
-90,High output
-Inadequate protection,Other
-PLU-039,Plugged / choked
-27,High output
-13,Failure to open
-Coffee stain,Contamination
-Emulsion coating,Contamination
-OHE023,Overheating
-inhibiting closure
-65. Actuator gearbox malfunction causing closure failure
-66. Valve stem galled,Failure to close
-AIR-018,Abnormal instrument reading
-71,Failure to open
-83,Failure to open
-99,Failure to open
-Loose zipper,Minor in-service problems
-PLU-087,Plugged / choked
-OHE096,Overheating
-Latex overspray,Contamination
-unable to fully close
-88. Actuator electrical fault causing closure failure
-89. Valve stem misaligned,Failure to close
-Inadequate sealing,Other
-Unregulated output signals
-38,Erratic output
-Inadequate structural maintenance,Structural deficiency
-Particulate matter deposition,Contamination
-Unordered output data
-87,Erratic output
-Adhesive residue,Contamination
-UST-040,Spurious stop
-Small tear in banner,Minor in-service problems
-Partial blockage in drain,Minor in-service problems
-AIR-039,Abnormal instrument reading
-Erratic output levels
-53,Erratic output
-AIR-011,Abnormal instrument reading
-Loose sealant,Minor in-service problems
-Poor documentation,Other
-OHE061,Overheating
-Oscillating output signals
-17,Erratic output
-Unarranged output readings
-46,Erratic output
-Impact damage,Failure to function
-37,Failure to open
-UST-030,Spurious stop
-UST-038,Spurious stop
-Dirty filters,Other
-PLU-053,Plugged / choked
-PLU-099,Plugged / choked
-AIR-088,Abnormal instrument reading
-Small dent in metal frame,Minor in-service problems
-Minor air leakage,Minor in-service problems
-Small crack in tile,Minor in-service problems
-Lack of spare parts,Other
-69,High output
-Unpredictable output changes
-47,Erratic output
-UST-087,Spurious stop
-Anomalous output responses
-62,Erratic output
-Vibration-induced fatigue failure,Structural deficiency
-PLU-010,Plugged / choked
-PLU-050,Plugged / choked
-AIR-033,Abnormal instrument reading
-UST-020,Spurious stop
-29,Failure to open
-Insufficient lateral support,Structural deficiency
-UST-007,Spurious stop
-Poor structural detailing,Structural deficiency
-LOO044,Low output
-Rubber residue,Contamination
-LOO052,Low output
-OHE066,Overheating
-1. Valve did not fully close during testing
-2. Actuator malfunction prevented closure
-3. Foreign object obstructing valve closure
-4. Sealing surface damaged,Failure to close
-PLU-070,Plugged / choked
-70,Failure to open
-AIR-028,Abnormal instrument reading
-Loose trim,Minor in-service problems
-Inadequate testing,Other
-Insufficient cooling,Failure to function
-UST-084,Spurious stop
-Inadequate structural bracing,Structural deficiency
-OHE007,Overheating
-PLU-076,Plugged / choked
-43,Failure to open
-Component fatigue,Failure to function
-PLU-081,Plugged / choked
-Lack of proper bracing,Structural deficiency
-OHE047,Overheating
-95,High output
-Dander presence,Contamination
-Assembly error,Failure to function
-Incorrect settings,Other
-Fluctuating performance of the equipment
-11,Erratic output
-unable to close fully
-55. Insufficient actuator force for proper closure
-56. Valve body misshapen,Failure to close
-Loose connection in wiring,Minor in-service problems
-AIR-003,Abnormal instrument reading
-LOO001,Low output
-AIR-015,Abnormal instrument reading
-PLU-023,Plugged / choked
-Rust formation,Contamination
-PLU-027,Plugged / choked
-LOO024,Low output
-LOO040,Low output
-94,Failure to open
-AIR-030,Abnormal instrument reading
-Unstable output behavior
-55,Erratic output
-Non-compliance with building codes,Structural deficiency
-Corrosion on metal surface,Minor in-service problems
-OHE008,Overheating
-OHE086,Overheating
-Loose knob,Minor in-service problems
-Anomalous output patterns
-26,Erratic output
-AIR-083,Abnormal instrument reading
-Lacquer overspray,Contamination
-Insect infestation,Contamination
-Bearing failure,Other
-33,High output
-AIR-041,Abnormal instrument reading
-UST-003,Spurious stop
-Mechanical wear,Failure to function
-Lack of inspection,Other
-AIR-087,Abnormal instrument reading
-Insufficient structural support beams,Structural deficiency
-OHE026,Overheating
-54,Failure to open
-LOO056,Low output
-Humidity ingress,Failure to function
-PLU-038,Plugged / choked
-11,High output
-PLU-037,Plugged / choked
-Software virus,Failure to function
-Cracks in the foundation,Structural deficiency
-82,High output
-Inadequate shielding,Other
-Yogurt spill,Contamination
-PLU-091,Plugged / choked
-LOO042,Low output
-UST-049,Spurious stop
-OHE070,Overheating
-OHE015,Overheating
-UST-041,Spurious stop
-Mold growth,Contamination
-LOO085,Low output
-90,Failure to open
-Grounding issue,Failure to function
-Inadequate structural stress analysis,Structural deficiency
-LOO028,Low output
-Sporadic output data
-99,Erratic output
-AIR-014,Abnormal instrument reading
-80,High output
-UST-069,Spurious stop
-Abrupt changes in output voltage
-8,Erratic output
-Inaccurate output values
-97,Erratic output
-PLU-065,Plugged / choked
-Electrical noise,Failure to function
-Insufficient training,Failure to function
-LOO098,Low output
-Ice formation,Contamination
-63,High output
-Human error,Failure to function
-OHE005,Overheating
-Design flaw,Failure to function
-Poor soldering,Other
-Improper calibration,Failure to function
-94,High output
-PLU-054,Plugged / choked
-AIR-034,Abnormal instrument reading
-99,High output
-Inconsistent output signals
-54,Erratic output
-Inadequate ventilation,Failure to function
-Slight misalignment of signage,Minor in-service problems
-inhibiting closure
-11. Pressure fluctuations causing valve to remain open
-12. Electrical failure of actuator preventing closure
-13. Seals worn out,Failure to close
-LOO049,Low output
-Chaotic output patterns
-66,Erratic output
-Oxidation layer,Contamination
+HIO-010,High output
+Water damage from spilled drink,Contamination
+Observation 67,Other
+20,Spurious stop
+Inadequate structural validation procedures,Structural deficiency
+Engine starts but overheats quickly.
+52,Failure to start on demand
+Inadequate maintenance schedule,Failure to close
+Poor quality concrete,Structural deficiency
+Unsteady output behavior,Erratic output
+HIO-068,High output
+AIR-079,Abnormal instrument reading
+Unusual output patterns,Erratic output
+VIB-043,Vibration
+Inadequate system venting,Failure to close
+4,Erratic output
+Loose latch on door,Minor in-service problems
+Excessive valve stem friction,Failure to close
+PLU-036,Plugged / choked
+LOO065,Low output
+LOO078,Low output
+FTO068,Failure to open
+60,Spurious stop
+Inadequate communication protocols,Failure to function
+Fuel injectors clog and prevent engine start.
+89,Failure to start on demand
+PLU-095,Plugged / choked
+Observation 7,Other
+48,Spurious stop
+Mold growth on circuitry,Contamination
+Inadequate ventilation in work area,Failure to function
+Vehicle stalls immediately after starting.
+9,Failure to start on demand
+43,Spurious stop
+Low battery warning,Minor in-service problems
+Valve stem misalignment,Failure to close
+91,Spurious stop
+Inconsistent data transmission,Erratic output
+Engine starts but exhaust emits unusual odor.
+56,Failure to start on demand
+HIO-017,High output
+Inadequate lighting in work area,Failure to function
+Improper lubrication,Failure to close
+Unusual output responses,Erratic output
+15,Erratic output
+85,Overheating
+Unstable output patterns,Erratic output
+AIR-077,Abnormal instrument reading
+Observation 46,Other
+Inadequate review of best practices,Failure to function
+HIO-032,High output
+1. Motor jammed
+2. Lack of lubrication
+3. Foreign object blocking rotation
+4. Electrical failure
+5. Mechanical failure
+6. Overloaded motor
+7. Misaligned components
+8. Corrosion on rotating parts
+9. Improper installation
+10. Excessive wear on bearings
+11. Power outage
+12. Seized bearings
+13. Belt slipping
+14. Gear teeth damaged
+15. Contaminants in lubricant
+16. Warped rotor
+17. Voltage fluctuations
+18. Loose connection
+19. Excessive belt tension
+20. Rust on moving parts
+21. Bent shaft
+22. Stripped gears
+23. Improper maintenance
+24. Motor overheating
+25. Vibration causing misalignment
+26. Lack of proper calibration
+27. Insufficient power supply
+28. Damaged coupling
+29. Broken keyway
+30. Shaft misalignment
+31. Bearing failure
+32. Incorrect belt size
+33. Overheated motor windings
+34. Excessive load on rotor
+35. Loose mounting bolts
+36. Worn-out brushes
+37. Stuck brake mechanism
+38. Motor controller malfunction
+39. Damaged stator
+40. Excessive friction
+41. Lubricant contamination
+42. Shaft misalignment
+43. Inadequate cooling
+44. Excessive vibration
+45. Lack of proper maintenance schedule
+46. Mechanical resonance
+47. Improper belt tension
+48. Faulty motor control board
+49. Motor overload
+50. Insufficient lubrication
+51. Incorrect motor sizing
+52. Improper grounding
+53. Software malfunction
+54. Damaged motor windings
+55. Bearing misalignment
+56. Excessive belt wear
+57. Incorrect motor speed setting
+58. Damaged rotor bars
+59. Lack of phase balance
+60. Incorrect motor alignment
+61. Failed start capacitor
+62. Worn-out motor brushes
+63. Sticking solenoid
+64. Damaged commutator
+65. Internal motor short circuit
+66. Loose motor connections
+67. Incorrect motor direction setting
+68. Motor seized due to lack of use
+69. Lack of overload protection
+70. Corroded electrical contacts
+71. Incorrect pulley alignment
+72. Damaged encoder
+73. Motor shaft bent
+74. Inadequate ventilation
+75. Ingress of water into motor
+76. Failed motor bearings
+77. Damaged motor insulation
+78. Incorrect motor phasing
+79. Failed thermal overload protection
+80. Motor bearings locked up
+81. Loose motor pulley
+82. Damaged motor shaft
+83. Motor shaft twisted
+84. Excessive motor run time
+85. Motor contaminated with debris
+86. Motor bearings worn out
+87. Motor bearings improperly seated
+88. Motor bearings damaged
+89. Motor bearings rusted
+90. Motor bearings over-greased
+91. Motor bearings under-greased
+92. Motor bearings misaligned
+93. Motor bearings loose
+94. Motor bearings improperly installed
+95. Motor bearings faulty
+96. Motor bearings cracked
+97. Motor bearings pitted
+98. Motor bearings chipped
+99. Motor bearings fractured
+100. Motor bearings corroded,Failure to rotate
+89,Spurious stop
 AIR-095,Abnormal instrument reading
-34,Failure to open
-Lack of maintenance,Structural deficiency
-Insufficient joint strength,Structural deficiency
-Poor maintenance schedule,Other
-48,Failure to open
-Minor scratches on surface,Minor in-service problems
-Small dent in ductwork,Minor in-service problems
-OHE043,Overheating
-OHE012,Overheating
-LOO094,Low output
-Data corruption,Failure to function
-Inadequate foundation design,Structural deficiency
-PLU-088,Plugged / choked
-Partially clogged filters,Minor in-service problems
-AIR-047,Abnormal instrument reading
-Part mismatch,Failure to function
-OHE098,Overheating
-Minor rust on metal surfaces,Minor in-service problems
-3,High output
-OHE030,Overheating
-Fatigue failure of critical members,Structural deficiency
-Manufacturing defect,Other
-OHE092,Overheating
-Unsteady output signals
-98,Erratic output
-32,Failure to open
-LOO090,Low output
-Sugar residue,Contamination
-AIR-022,Abnormal instrument reading
-Overheated components,Failure to function
-UST-005,Spurious stop
-Minor rust spots,Minor in-service problems
-Part distortion,Failure to function
-Inadequate structural waterproofing,Structural deficiency
-41,High output
-OHE052,Overheating
-OHE059,Overheating
-Improper foundation drainage,Structural deficiency
-UST-050,Spurious stop
-Uncontrolled fluctuations in output readings
-24,Erratic output
-AIR-008,Abnormal instrument reading
-Chalk dust,Contamination
-Signal loss,Failure to function
-Improper repair,Other
-LOO038,Low output
-inhibiting proper closure
-75. Actuator position feedback error resulting in failure to close
-76. Valve body misshaped,Failure to close
-LOO048,Low output
-LOO023,Low output
-PLU-024,Plugged / choked
-Excessive friction,Other
-PLU-035,Plugged / choked
-LOO030,Low output
-OHE044,Overheating
-unable to close fully
-93. Seal degradation causing failure to close
-94. Actuator control signal interference preventing closure
-95. Valve stem binding,Failure to close
-Overstressing of structural members,Structural deficiency
-Grime buildup,Contamination
-Small tear in chair upholstery,Minor in-service problems
-Material impurities,Other
-AIR-021,Abnormal instrument reading
-Loose connection in control panel,Minor in-service problems
+PLU-084,Plugged / choked
+Observation 53,Other
+Observation 20,Other
+PLU-094,Plugged / choked
+Unexplained output spikes,Erratic output
+23,Spurious stop
+2,Erratic output
+96,Overheating
+AIR-025,Abnormal instrument reading
+FTO048,Failure to open
+LOO087,Low output
+Flawed output patterns,Erratic output
+Slight vibration in motor,Minor in-service problems
+Engine starts but quickly dies.
+13,Failure to start on demand
+LOO008,Low output
+PLU-073,Plugged / choked
+HIO-035,High output
+Poor ventilation causing moisture buildup,Structural deficiency
+31,Spurious stop
+PLU-080,Plugged / choked
+34,Overheating
+Starter engages but engine does not turn over.
+23,Failure to start on demand
+LOO020,Low output
+9,Spurious stop
+Loose wiring connection,Failure to function
+Starter solenoid does not engage.
+17,Failure to start on demand
+VIB-054,Vibration
+VIB-096,Vibration
+1. Fluid leaking from pipe
+2. Oil leak from engine
+3. Water leaking from ceiling
+4. Refrigerant leak from air conditioning unit
+5. Gas leak from stove
+6. Coolant leak from car
+7. Leaking faucet in kitchen
+8. Hydraulic fluid leak from machinery
+9. Leaking roof during rain
+10. Transmission fluid leak in garage
+11. Leak in swimming pool
+12. Leaking battery in electronic device
+13. Freon leak from refrigerator
+14. Leaking shower head
+15. Oil leak in parking lot
+16. Water leak in basement
+17. Gasoline leak at gas station
+18. Coolant leak on driveway
+19. Leaking dishwasher
+20. Air leak in tire
+21. Hydraulic oil leak in industrial equipment
+22. Leaking sewer pipe
+23. Fuel leak from aircraft
+24. Water leak in bathroom
+25. Oil spill in garage
+26. Refrigerant leak in supermarket
+27. Gas leak in underground pipeline
+28. Coolant leak in workshop
+29. Leaking water heater
+30. Transmission fluid leak on road
+31. Leak in irrigation system
+32. Leaking window during storm
+33. Hydraulic fluid leak on factory floor
+34. Leaking paint can
+35. Freon leak in office building
+36. Leaking garden hose
+37. Oil leak in driveway
+38. Water leak in laundry room
+39. Gas leak in industrial plant
+40. Coolant leak in race car
+41. Leaking air compressor
+42. Air leak in scuba tank
+43. Hydraulic oil leak on construction site
+44. Leaking ink cartridge
+45. Fuel leak from boat
+46. Water leak in classroom
+47. Oil leak on street
+48. Refrigerant leak in restaurant
+49. Gas leak in laboratory
+50. Coolant leak in motorcycle
+51. Leaking pipe under sink
+52. Transmission fluid leak in parking garage
+53. Leak in fire suppression system
+54. Leaking garden sprinkler
+55. Hydraulic fluid leak on farm equipment
+56. Leaking battery acid
+57. Freon leak in hotel
+58. Water leak in gymnasium
+59. Oil spill on highway
+60. Gasoline leak in car workshop
+61. Coolant leak in train engine
+62. Leaking hose in backyard
+63. Air leak in balloon
+64. Hydraulic oil leak in ship engine room
+65. Leaking paint container
+66. Fuel leak in gas tank
+67. Water leak in office cubicle
+68. Oil leak in parking structure
+69. Refrigerant leak in museum
+70. Gas leak in chemical plant
+71. Coolant leak in airplane
+72. Leaking propane tank
+73. Transmission fluid leak in auto shop
+74. Leak in sprinkler system
+75. Leaking water filter
+76. Air leak in inflatable mattress
+77. Hydraulic fluid leak in construction vehicle
+78. Leaking inkjet printer
+79. Freon leak in shopping mall
+80. Water leak in locker room
+81. Oil leak on construction site
+82. Gas leak in welding shop
+83. Coolant leak in snowmobile
+84. Leaking pipe in garage
+85. Transmission fluid leak on driveway
+86. Leak in sprinkler pipe
+87. Leaking aquarium
+88. Hydraulic oil leak in tractor
+89. Leaking glue bottle
+90. Fuel leak from generator
+91. Water leak in church basement
+92. Oil spill at gas station
+93. Refrigerant leak in ice rink
+94. Gas leak in processing plant
+95. Coolant leak in boat engine
+96. Leaking water fountain
+97. Air leak in basketball
+98. Hydraulic fluid leak in forklift
+99. Leaking toner cartridge
+100. Freon leak in data center,Leaking
+Valve stem wear,Failure to close
+LOO081,Low output
+FTO074,Failure to open
+Minor squeaking noise when in use,Minor in-service problems
+FTO041,Failure to open
+Erroneous output patterns,Erratic output
+Clogged filter,Failure to close
+HIO-072,High output
+AIR-030,Abnormal instrument reading
+VIB-024,Vibration
+5,Overheating
+Minor wear on rubber seal,Minor in-service problems
+Observation 14,Other
+Rust on external connectors,Contamination
+Observation 26,Other
+HIO-081,High output
+VIB-022,Vibration
+22,Spurious stop
+Observation 12,Other
+14,Spurious stop
+AIR-017,Abnormal instrument reading
+PLU-038,Plugged / choked
+PLU-058,Plugged / choked
+Vehicle cranks continuously but does not start.
+21,Failure to start on demand
+71,Overheating
+AIR-003,Abnormal instrument reading
+24,Spurious stop
+Control signal interruption,Failure to close
+Control panel malfunction,Failure to close
+VIB-016,Vibration
+28,Erratic output
+Oscillating data fluctuations,Erratic output
+1. Brakes malfunctioned
+2. Driver ignored stop signal
+3. Electrical failure
+4. Brake pedal stuck
+5. Brake fluid leak
+6. Driver distracted
+7. Brake system failure
+8. Software glitch
+9. Brake pads worn out
+10. Driver error
+11. Hydraulic system failure
+12. Brake caliper seized
+13. Pressure sensor malfunction
+14. Brake line ruptured
+15. Brake booster failure
+16. Inadequate maintenance
+17. Driver under the influence
+18. Brake rotor warped
+19. Brake pedal sensor faulty
+20. Brake fade
+21. Obstructed brake pedal
+22. Brake pedal misaligned
+23. Brake pedal sensor misread
+24. Brake pedal spring broken
+25. Brake pedal linkage loose
+26. Driver fatigue
+27. Brake fluid contamination
+28. Brake pedal sensor damaged
+29. Brake pedal assembly worn
+30. Brake pedal jammed
+31. Brake light malfunction
+32. Brake pedal sensor out of calibration
+33. Brake pedal sensor out of alignment
+34. Brake pedal sensor wiring issue
+35. Brake pedal sensor connection loose
+36. Brake pedal sensor signal lost
+37. Brake pedal sensor not responding
+38. Brake pedal sensor short circuit
+39. Brake pedal sensor internal fault
+40. Brake pedal sensor stuck
+41. Brake pedal sensor stuck in the closed position
+42. Brake pedal sensor stuck in the open position
+43. Brake pedal sensor stuck halfway
+44. Brake pedal sensor delayed response
+45. Brake pedal sensor erratic behavior
+46. Brake pedal sensor intermittent failure
+47. Brake pedal sensor inconsistent readings
+48. Brake pedal sensor slow reaction time
+49. Brake pedal sensor rapid wear
+50. Brake pedal sensor premature failure
+51. Brake pedal sensor excessive play
+52. Brake pedal sensor misalignment issue
+53. Brake pedal sensor misalignment causing failure
+54. Brake pedal sensor misalignment leading to malfunction
+55. Brake pedal sensor misalignment resulting in non-functionality
+56. Brake pedal sensor misalignment causing safety hazard
+57. Brake pedal sensor misalignment compromising braking ability
+58. Brake pedal sensor misalignment affecting vehicle control
+59. Brake pedal sensor misalignment impacting stopping performance
+60. Brake pedal sensor misalignment hindering brake function
+61. Brake pedal sensor misalignment impeding safe operation
+62. Brake pedal sensor misalignment creating dangerous situation
+63. Brake pedal sensor misalignment triggering warning light
+64. Brake pedal sensor misalignment causing error code
+65. Brake pedal sensor misalignment requiring immediate attention
+66. Brake pedal sensor misalignment necessitating repair
+67. Brake pedal sensor misalignment prompting inspection
+68. Brake pedal sensor misalignment leading to failure mode
+69. Brake pedal sensor misalignment resulting in safety issue
+70. Brake pedal sensor misalignment provoking system failure
+71. Brake pedal sensor misalignment inducing stop failure
+72. Brake pedal sensor misalignment causing stop malfunction
+73. Brake pedal sensor misalignment contributing to stop failure
+74. Brake pedal sensor misalignment escalating stop problem
+75. Brake pedal sensor misalignment exacerbating stop issue
+76. Brake pedal sensor misalignment compounding stop challenge
+77. Brake pedal sensor misalignment worsening braking difficulty
+78. Brake pedal sensor misalignment intensifying stop hazard
+79. Brake pedal sensor misalignment heightening stop risk
+80. Brake pedal sensor misalignment increasing stop danger
+81. Brake pedal sensor misalignment amplifying brake concern
+82. Brake pedal sensor misalignment magnifying stop peril
+83. Brake pedal sensor misalignment boosting braking threat
+84. Brake pedal sensor misalignment raising stop alarm
+85. Brake pedal sensor misalignment elevating stop warning
+86. Brake pedal sensor misalignment spurring brake caution
+87. Brake pedal sensor misalignment stirring stop awareness
+88. Brake pedal sensor misalignment prompting brake attention
+89. Brake pedal sensor misalignment arousing stop focus
+90. Brake pedal sensor misalignment awakening brake vigilance
+91. Brake pedal sensor misalignment kindling stop watchfulness
+92. Brake pedal sensor misalignment igniting brake prudence
+93. Brake pedal sensor misalignment inciting stop mindfulness
+94. Brake pedal sensor misalignment sparking brake circumspection
+95. Brake pedal sensor misalignment engendering stop wariness
+96. Brake pedal sensor misalignment fostering brake alertness
+97. Brake pedal sensor misalignment cultivating stop care
+98. Brake pedal sensor misalignment nurturing brake concern
+99. Brake pedal sensor misalignment developing stop caution
+100. Brake pedal sensor misalignment encouraging brake attention,Failure to stop on demand
+Loose actuator connection,Failure to close
+Starter motor spins freely without engaging.
+47,Failure to start on demand
+HIO-007,High output
+PLU-060,Plugged / choked
+LOO063,Low output
+Inadequate lessons learned,Failure to function
+FTO015,Failure to open
+Low hydraulic pressure,Failure to close
+Thermal expansion issues,Structural deficiency
+Blocked hydraulic lines,Failure to close
+HIO-059,High output
+Dust accumulation in CD drive,Contamination
+Chaotic signal fluctuations,Erratic output
+PLU-011,Plugged / choked
+27,Overheating
+77,Erratic output
+VIB-065,Vibration
+Fluctuating sensor readings,Erratic output
+Dust accumulation in cooling vents,Contamination
+FTO084,Failure to open
+PLU-064,Plugged / choked
+Inadequate emergency lighting,Failure to function
+Lack of safety interlocks,Failure to function
+LOO003,Low output
+1. Short circuit
+2. Overheating
+3. Voltage spike
+4. Loose connection
+5. Insulation breakdown
+6. Power surge
+7. Corrosion
+8. Ground fault
+9. Arc flash
+10. Capacitor failure
+11. Transformer malfunction
+12. Circuit breaker tripped
+13. Motor burnout
+14. Wiring fault
+15. Inverter failure
+16. Contactor welding
+17. Power supply failure
+18. Electrical interference
+19. Relay malfunction
+20. Switch failure
+21. Overcurrent
+22. Phase imbalance
+23. Lightning strike
+24. Electrical shock hazard
+25. Busbar fault
+26. Cable damage
+27. Faulty sensor
+28. Battery drain
+29. Electromagnetic interference
+30. Insufficient insulation
+31. Motor overload
+32. Blown fuse
+33. Control panel malfunction
+34. Surge protector failure
+35. Voltage fluctuation
+36. Inadequate grounding
+37. Transformer overheating
+38. Arcing
+39. Tripped safety switch
+40. Shorted diode
+41. Overvoltage
+42. Overcurrent protection failure
+43. Inrush current
+44. Inductor saturation
+45. Wiring short
+46. EMI susceptibility
+47. UPS failure
+48. Busbar arcing
+49. Insulation deterioration
+50. Motor winding failure
+51. Capacitor leakage
+52. Electrical noise
+53. Overload relay trip
+54. Busbar joint failure
+55. Bad connection
+56. Poor soldering
+57. Insufficient cooling
+58. Voltage drop
+59. Overheated resistor
+60. Contaminated contacts
+61. Transformer short circuit
+62. Phase loss
+63. Busbar corrosion
+64. Motor bearing failure
+65. Insulation resistance drop
+66. Capacitor bulging
+67. Power cable overheating
+68. Grounding rod failure
+69. Voltage regulator malfunction
+70. Shorted solenoid
+71. Electrical fire hazard
+72. Inadequate cable support
+73. Motor shaft misalignment
+74. Corroded terminal
+75. Insulator cracking
+76. Overloaded circuit
+77. Triac failure
+78. Harmonic distortion
+79. Relay contact welding
+80. Generator malfunction
+81. Busbar vibration
+82. Motor start capacitor failure
+83. Control board short
+84. Electrical arcing
+85. Contactor pitting
+86. Cable chafing
+87. Transformer insulation breakdown
+88. Voltage sag
+89. Motor winding short
+90. Capacitor bulge
+91. Insufficient wire gauge
+92. Sparking
+93. Loose terminal block
+94. Overvoltage protection failure
+95. Motor stator failure
+96. Insulator flashover
+97. Voltage unbalance
+98. Corroded wire
+99. Grounding strap failure
+100. Electrical enclosure leak,Electrical
+HIO-002,High output
+PLU-015,Plugged / choked
+PLU-096,Plugged / choked
+Inadequate hazard communication,Failure to function
+Starter motor grinds against flywheel.
+75,Failure to start on demand
+6,Overheating
+HIO-060,High output
+Observation 66,Other
+AIR-026,Abnormal instrument reading
+Inadequate cooling system,Failure to close
+AIR-069,Abnormal instrument reading
+87,Erratic output
+Inadequate documentation,Failure to function
+PLU-017,Plugged / choked
+79,Erratic output
+FTO044,Failure to open
+AIR-075,Abnormal instrument reading
+FTO067,Failure to open
+HIO-088,High output
+AIR-062,Abnormal instrument reading
+LOO035,Low output
+36,Overheating
+16,Spurious stop
+Inadequate structural inspection procedures,Structural deficiency
+Slight wobbling during operation,Minor in-service problems
+AIR-031,Abnormal instrument reading
+VIB-085,Vibration
+Engine starts but immediately shuts off.
+28,Failure to start on demand
+PLU-076,Plugged / choked
+FTO019,Failure to open
+Inadequate supervision,Failure to function
+AIR-100,Abnormal instrument reading
+Randomly generated 100 observations for failure mode code NOI (Noise):
+1. Grinding sound
+2. Hissing noise
+3. Rattling noise
+4. Whining noise
+5. Squeaking noise
+6. Clanking noise
+7. Buzzing noise
+8. Knocking noise
+9. Screeching noise
+10. Ticking noise
+11. Humming noise
+12. Roaring noise
+13. Clicking noise
+14. Popping noise
+15. Squealing noise
+16. Chirping noise
+17. Thumping noise
+18. Sizzling noise
+19. Crackling noise
+20. Whooshing noise
+21. Creaking noise
+22. Gurgling noise
+23. Grinding noise
+24. Rustling noise
+25. Moaning noise
+26. Hissing sound
+27. Rattling sound
+28. Whining sound
+29. Squeaking sound
+30. Clanking sound
+31. Buzzing sound
+32. Knocking sound
+33. Screeching sound
+34. Ticking sound
+35. Humming sound
+36. Roaring sound
+37. Clicking sound
+38. Popping sound
+39. Squealing sound
+40. Chirping sound
+41. Thumping sound
+42. Sizzling sound
+43. Crackling sound
+44. Whooshing sound
+45. Creaking sound
+46. Gurgling sound
+47. Grinding sound
+48. Rustling sound
+49. Moaning sound
+50. Hissing noise
+51. Rattling noise
+52. Whining noise
+53. Squeaking noise
+54. Clanking noise
+55. Buzzing noise
+56. Knocking noise
+57. Screeching noise
+58. Ticking noise
+59. Humming noise
+60. Roaring noise
+61. Clicking noise
+62. Popping noise
+63. Squealing noise
+64. Chirping noise
+65. Thumping noise
+66. Sizzling noise
+67. Crackling noise
+68. Whooshing noise
+69. Creaking noise
+70. Gurgling noise
+71. Grinding noise
+72. Rustling noise
+73. Moaning noise
+74. Hissing sound
+75. Rattling sound
+76. Whining sound
+77. Squeaking sound
+78. Clanking sound
+79. Buzzing sound
+80. Knocking sound
+81. Screeching sound
+82. Ticking sound
+83. Humming sound
+84. Roaring sound
+85. Clicking sound
+86. Popping sound
+87. Squealing sound
+88. Chirping sound
+89. Thumping sound
+90. Sizzling sound
+91. Crackling sound
+92. Whooshing sound
+93. Creaking sound
+94. Gurgling sound
+95. Grinding sound
+96. Rustling sound
+97. Moaning sound
+98. Hissing noise
+99. Rattling noise
+100. Whining noise,Noise
+Improper torque on fasteners,Failure to close
+Faulty actuator position feedback,Failure to close
+77,Spurious stop
+Observation 21,Other
+Corroded valve stem,Failure to close
+Vehicle starts but radio does not turn on.
+86,Failure to start on demand
+28,Spurious stop
+40,Spurious stop
+Inadequate machine guarding,Failure to function
+Engine sputters and fails to start.
+10,Failure to start on demand
+Paint splatter on mute button,Contamination
+VIB-097,Vibration
+FTO014,Failure to open
+Minor issue with touch sensitivity,Minor in-service problems
+Control signal delay,Failure to close
+29,Spurious stop
+LOO070,Low output
+Observation 23,Other
+AIR-097,Abnormal instrument reading
+Inadequate slope stability,Structural deficiency
+VIB-025,Vibration
+Rust on metal casing,Contamination
+AIR-080,Abnormal instrument reading
+Inadequate sharing of lessons learned,Failure to function
+Grease buildup on power button,Contamination
+PLU-005,Plugged / choked
+45,Overheating
+Mud in optical drive,Contamination
+HIO-033,High output
+Control signal noise,Failure to close
+64,Erratic output
+Sudden output fluctuations,Erratic output
+Observation 71,Other
+Observation 83,Other
+82,Erratic output
+HIO-052,High output
+79,Spurious stop
+Tree sap on power cable,Contamination
+52,Overheating
+Fluctuating data inconsistencies,Erratic output
+PLU-047,Plugged / choked
+Observation 64,Other
+LOO088,Low output
+54,Overheating
+Inadequate ductility,Structural deficiency
+VIB-051,Vibration
+50,Erratic output
+FTO072,Failure to open
+VIB-026,Vibration
+37,Spurious stop
+83,Erratic output
+Small drip from faucet,Minor in-service problems
+69,Spurious stop
+81,Spurious stop
+LOO016,Low output
+Disordered output sequences,Erratic output
+Inadequate structural ductility,Structural deficiency
+LOO082,Low output
+LOO092,Low output
+Observation 32,Other
+14,Erratic output
+AIR-049,Abnormal instrument reading
+6,Erratic output
+13,Spurious stop
+Vehicle starts intermittently.
+12,Failure to start on demand
+Loose handle on drawer,Minor in-service problems
+HIO-084,High output
+LOO014,Low output
+66,Erratic output
+46,Erratic output
+Observation 15,Other
+69,Erratic output
+77,Overheating
+Slight discoloration on buttons,Minor in-service problems
+Loose hinge on laptop screen,Minor in-service problems
+Observation 27,Other
+Observation 92,Other
+Small water leak,Minor in-service problems
+75,Spurious stop
+Starter motor fails to receive power for engine start.
+40,Failure to start on demand
+Observation 85,Other
+Observation 75,Other
+LOO069,Low output
+96,Spurious stop
+VIB-052,Vibration
+LOO071,Low output
+Grease buildup on USB hub.,Contamination
+56,Overheating
+FTO030,Failure to open
+Vehicle requires multiple attempts to start.
+16,Failure to start on demand
+LOO005,Low output
+Foreign object damage,Failure to function
+Improper air supply,Failure to close
+Uncontrolled output spikes,Erratic output
+HIO-015,High output
+LOO057,Low output
+Faulty solenoid wiring,Failure to close
+LOO011,Low output
+Observation 94,Other
+Valve stem binding,Failure to close
+25,Overheating
+Clogged air filter,Minor in-service problems
+37,Overheating
+Observation 22,Other
+LOO068,Low output
+LOO019,Low output
+AIR-064,Abnormal instrument reading
+AIR-013,Abnormal instrument reading
+AIR-014,Abnormal instrument reading
+27,Spurious stop
+PLU-078,Plugged / choked
+Food crumbs in ventilation slots,Contamination
+94,Erratic output
+Loose foot on equipment stand,Minor in-service problems
+Minor issue with calibration,Minor in-service problems
+Erroneous output readings,Erratic output
+Minor scratch on surface,Minor in-service problems
+FTO085,Failure to open
+AIR-020,Abnormal instrument reading
+Minor imbalance in fan,Minor in-service problems
+Inadequate contingency planning,Failure to function
+Observation 61,Other
+Observation 37,Other
+PLU-004,Plugged / choked
+PLU-068,Plugged / choked
+PLU-093,Plugged / choked
+16,Overheating
+Slight discoloration on display screen,Minor in-service problems
+FTO028,Failure to open
+PLU-062,Plugged / choked
+AIR-005,Abnormal instrument reading
+FTO046,Failure to open
+Small crack in touchpad,Minor in-service problems
+Incorrect valve orientation,Failure to close
+63,Overheating
+FTO052,Failure to open
+25,Spurious stop
+Battery appears to have power but engine fails to start.
+20,Failure to start on demand
+Engine starts but exhaust emits black smoke.
+76,Failure to start on demand
+Chaotic output fluctuations,Erratic output
+Inadequate structural robustness,Structural deficiency
+Inadequate ergonomic design,Failure to function
+Mold growth in headphone jack,Contamination
+56,Spurious stop
+LOO040,Low output
+Corrosion on connectors,Failure to function
+Inadequate spare parts inventory,Failure to function
+Observation 28,Other
+AIR-007,Abnormal instrument reading
+VIB-006,Vibration
+Fuel pressure regulator fails to maintain proper pressure for start.
+57,Failure to start on demand
+Small tear in rubber seal,Minor in-service problems
+Loose valve seat,Failure to close
+VIB-070,Vibration
+91,Overheating
+Observation 9,Other
+75,Erratic output
+LOO093,Low output
+Unsteady output fluctuations,Erratic output

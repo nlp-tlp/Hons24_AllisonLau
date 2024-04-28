@@ -1,58 +1,82 @@
-failed inductor
-failed conduit
-short circuit
-failed actuator
-failed encoder
-insulation breakdown
-failed breaker
-failed cable braid
-failed cable gland
-failed fuse holder
-overcurrent
-intermittent connection
-burnt wiring
-ground fault
-failed cable termination
-bad connection
-failed cable tray
-failed resistor
-overvoltage
-failed surge protector
-failed switch
-failed circuit board
-failed sensor
-failed cable core
-failed rectifier
-failed inverter
-failed transformer
-failed transformer winding
-failed control panel
-failed terminal block
-failed conduit fitting
-failed cable insulation
-failed cable armor
-failed cable ladder
-overheating
-blown fuse
-failed cable splice
-failed relay coil
-under voltage
-sparking
-failed motor
-failed contactor
-corroded terminals
-loose connection
-failed relay
-failed component
-failed cable jacket
-failed wiring harness
-failed diode
-failed junction box
-failed cable joint
-failed power supply
-failed busbar
-failed cable shield.
-failed cable sheath
-failed capacitor
+fluctuating power
+improper installation
+open circuit
 failed solenoid
-failed cable shield
+failed transformer
+failed electrical relay
+failed electrical contactor
+transformer failure
+overloaded circuit
+brownout
+unstable voltage
+power surge
+failed wiring
+shorted cable
+failed electrical control panel
+failed switch
+electrical failure
+blown fuse
+loss of continuity
+failed terminal block
+overcurrent
+overloaded outlet
+voltage drop
+overheated motor
+inadequate grounding
+failed electrical valve
+grounding issue
+failed electrical capacitor
+failed contactor
+electric shock
+ground fault
+improper insulation
+arc flash
+insulation breakdown
+failed rectifier
+incorrect wiring
+failed distribution board
+failed electrical sensor
+failed electrical actuator
+short circuit
+failed electrical fan
+malfunctioning control panel
+failed breaker panel
+under voltage
+overvoltage
+poor cable management
+failed component
+failed junction box
+failed electrical display
+failed electrical encoder
+fire hazard
+overheating
+blinking lights
+loose connection
+defective breaker
+excessive current draw
+failed electrical pump
+failed electrical heater
+failed inverter
+electrically unsafe condition
+failed power supply
+electrical arcing
+electrical noise
+electrical surge
+failed power distribution unit
+failed surge protector
+smoke emission
+intermittent power loss
+corroded connections
+failed relay
+blown capacitor
+poor electrical contact
+sparking
+failed electrical resistor
+failed electrical motor
+failed power factor correction unit
+phase imbalance
+failed diode
+failed electrical lamp
+overload trip
+failed circuit board
+failed voltage regulator

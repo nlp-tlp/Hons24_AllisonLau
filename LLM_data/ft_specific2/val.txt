@@ -1,0 +1,231 @@
+disconnected,Breakdown
+high output beyond threshold,High output
+stopping at random,Spurious stop
+unable to build,Low output
+hole on,Structural deficiency
+high output surge,High output
+fluctuating like a crazy person,Erratic output
+unable to open,Failure to open
+high frequency vibration,Vibration
+leakgeing,Leaking
+no speed control,Abnormal instrument reading
+severe vibration,Vibration
+wont disengage,Failure to open
+high earth resistance,Abnormal instrument reading
+leaknggingand,Leaking
+doesnt close shut properly,Failure to close
+vibration signature,Vibration
+missing top cap,Minor in-service problems
+leaknigge,Leaking
+needs to be serviced,Minor in-service problems
+burnt out,Overheating
+leakaggingsealing,Leaking
+not stopping or running,Other
+contaminated oil level warning trip,Contamination
+contaminated oil level fault trip,Contamination
+starting issue,Failure to start on demand
+doesnt close correctly,Failure to close
+unstable,Erratic output
+doesnt shut fully,Failure to close
+leaknigat,Leaking
+unable to run in,Failure to start on demand
+wont close,Failure to close
+stopping all time,Spurious stop
+oscillating,Vibration
+contaminated oil pressure sensor,Contamination
+wave vibration,Vibration
+doesnt stick,Failure to close
+unserviceable,Breakdown
+stopping after a few seconds,Spurious stop
+excessive threshold,High output
+not running at the correct speed,Other
+high threshold,High output
+reading high in standby mode,Abnormal instrument reading
+contaminated oil level warning issue,Contamination
+not reset,Failure to start on demand
+does not trip on inrush up,Electrical
+does not unlatch easily,Failure to open
+keeps tripping out,Electrical
+reading zero,Abnormal instrument reading
+excessive pumping,High output
+will not pump,Breakdown
+not high enough,Low output
+fails to spin,Failure to rotate
+dropped,Minor in-service problems
+doesnt close,Failure to close
+high peak,High output
+contaminated oil level error,Contamination
+false high level,Abnormal instrument reading
+not working or turning,Other
+contaminated hydraulic fluid,Contamination
+keeps vibrating shut,Vibration
+will not reset,Failure to start on demand
+wont come undone,Failure to open
+does not trip on run,Electrical
+doesnt click,Failure to close
+doesnt move,Failure to function
+reading out of range,Abnormal instrument reading
+seized,Breakdown
+contaminated oil line,Contamination
+leakagand,Leaking
+stops suddenly,Spurious stop
+reading high below setpoint,Abnormal instrument reading
+contaminated insulation oil,Contamination
+not going,Other
+wont lock,Failure to close
+doesnt start,Electrical
+rapid vibration,Vibration
+reading high,Abnormal instrument reading
+not able to reach,Low output
+will not start up,Failure to start on demand
+low efficiency,Low output
+needs re-packing,Minor in-service problems
+not spinning,Minor in-service problems
+leaknigsealing,Leaking
+incorrect reading,Abnormal instrument reading
+not turning on when button is pressed,Other
+fluctuating in and out,Erratic output
+contaminated oil pressure switch,Contamination
+leakniggingsealing,Leaking
+does not trip on overload,Electrical
+wont budge,Failure to open
+not turning off,Other
+died,Breakdown
+needs to be re-lubricated,Minor in-service problems
+vibration fault,Vibration
+doent click shut,Failure to close
+hot,Overheating
+stops often,Spurious stop
+does not power,Electrical
+smoking up,Overheating
+doesnt snap closed,Failure to close
+fluctuating all over the show,Erratic output
+seized shut,Breakdown
+does not open,Failure to open
+vibration trend,Vibration
+fluctuating randomly,Erratic output
+not starting within 48 hours,Failure to start on demand
+doesnt twist operate properly,Failure to function
+leakageing,Leaking
+no starting issue,Failure to start on demand
+cant hold steady,Erratic output
+contaminated oil temperature,Contamination
+vibrating,Vibration
+high surge,High output
+does not undo,Failure to open
+not connecting,Other
+fluctuating widely,Erratic output
+not aligned,Minor in-service problems
+doesnt turn on,Failure to function
+harsh vibration,Vibration
+contaminated oil level alarm,Contamination
+contaminated oil level indicator,Contamination
+reading not showing,Abnormal instrument reading
+leakagginging,Leaking
+stops repeatedly,Spurious stop
+needs to be re-torqued,Minor in-service problems
+broke,Breakdown
+contaminated oil analysis,Contamination
+high speed,High output
+stopping after a short period,Spurious stop
+stopping before startup,Spurious stop
+restricted flow,Low output
+wont turn,Failure to start on demand
+irregular reading,Abnormal instrument reading
+not operating as normal,Other
+not kicking in,Failure to start on demand
+needs lubrication,Minor in-service problems
+hot liquid,Overheating
+contaminated oil level issue problem,Contamination
+not turning,Failure to function
+contaminated oil level issue,Contamination
+doesnt turn,Failure to function
+contaminated oil level alarm problem,Contamination
+swinging all over the place,Erratic output
+not in operation,Failure to start on demand
+randomly stopping,Erratic output
+leaknggingsealing,Leaking
+contaminated component,Contamination
+unable to start,Low output
+does not halt,Failure to stop on demand
+vibration signal,Vibration
+stopping after process initiation,Spurious stop
+failed internally,Breakdown
+does not unlock correctly,Failure to open
+cant open,Failure to function
+not getting there,Low output
+binding,Failure to rotate
+unable to tighten,Minor in-service problems
+no,Other
+stopping after initializing,Spurious stop
+contamination issue,Contamination
+over threshold,High output
+not running,Breakdown
+doesnt click closed,Failure to close
+overload tripped,Electrical
+not engaging and running,Other
+contaminated water,Contamination
+not turning on or operating,Other
+leakly,Leaking
+seized open,Breakdown
+stopping at start,Spurious stop
+vibrating erratically,Vibration
+incorrect reading on control,Abnormal instrument reading
+needs to be cleaned,Minor in-service problems
+leaknig,Leaking
+buzzing,Noise
+stops for no reason,Spurious stop
+random,Erratic output
+output spike,High output
+excessive vibration levels,Vibration
+broken loose,Breakdown
+not functioning,Failure to function
+low,Low output
+loose,Minor in-service problems
+doesnt reverse,Failure to function
+grinding,Noise
+does not reset,Failure to stop on demand
+no reading on control board,Abnormal instrument reading
+wont release,Failure to open
+doesnt catch,Failure to close
+needs to be realigned,Minor in-service problems
+swinging from side to side,Erratic output
+not engaging,Failure to start on demand
+stuck in closed position,Failure to function
+doesnt shut tight,Failure to close
+requires re-lubrication,Minor in-service problems
+not reading on control,Abnormal instrument reading
+not hitting,Other
+excessive level,High output
+doesnt stay closed,Failure to close
+been running hot,Overheating
+stopping after start,Spurious stop
+cracked through,Structural deficiency
+does not unlatch smoothly,Failure to open
+contaminate,Contamination
+not reading on control panel,Abnormal instrument reading
+reading low and high,Abnormal instrument reading
+doesnt twist close properly,Failure to function
+vibration standard,Vibration
+fails to turn,Failure to rotate
+contaminated oil flow,Contamination
+doesnt halt,Failure to stop on demand
+not covered,Minor in-service problems
+not responding as normal,Other
+contamination trip,Contamination
+not achieving flow,Low output
+not operating or running,Other
+not responding to power,Other
+not starting in sequence,Failure to start on demand
+vibration analysis,Vibration
+does not stop,Failure to stop on demand
+vibration resistance,Vibration
+contaminated lubricant,Contamination
+swinging widely,Erratic output
+fluctuating all over the place,Erratic output
+sporadically stopping,Spurious stop
+stopping after a while,Spurious stop
+doesnt shut off,Failure to function
+random swinging,Erratic output
+unable to run,Failure to start on demand
+not operating,Minor in-service problems
