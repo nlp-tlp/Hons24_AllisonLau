@@ -69,8 +69,9 @@ def prepare_data_for_FMC(dir_name='observations'):
 
 if __name__ == "__main__":
     # prepare_data_for_LLM()
-    prepare_data_for_FMC("fs_all")
-    prepare_data_for_FMC("fs_specific")
-    prepare_data_for_FMC("ft_specific1")
-    prepare_data_for_FMC("ft_specific2")
-    prepare_data_for_FMC("no_fewshot")
+    # prepare_data_for_FMC("fs_all")
+    # prepare_data_for_FMC("fs_specific")
+    # prepare_data_for_FMC("ft_specific1")
+    # prepare_data_for_FMC("ft_specific2")
+    # prepare_data_for_FMC("no_fewshot")
+    prepare_data_for_FMC("count")

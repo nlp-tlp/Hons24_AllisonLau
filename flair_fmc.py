@@ -79,14 +79,11 @@ def test_fmc(dir_name='FMC-MWO2KG'):
             f.write(','.join(sent.values()))
             f.write('\n')
 
-    # print the test results
-    print('Input\tGround Truth\tPrediction\tConfidence')
-    for sent in test_sents:
-        print(f"{sent['input']}\t{sent['ground_truth']}\t{sent['prediction']}\t{sent['confidence']}")
+    print("Results written to flair_output.csv.")
 
 if __name__=="__main__":
-	train_fmc(dir_name="FMC-MWO2KG")
-    # train_fmc(dir_name="LLM_data/fs_all")
+	# train_fmc(dir_name="FMC-MWO2KG")
+    train_fmc(dir_name="LLM_data/fs_all")
     # train_fmc(dir_name="LLM_data/fs_specific")
     # train_fmc(dir_name="LLM_data/no_fewshot")
     # train_fmc(dir_name="LLM_data/ft_specific1")

@@ -95,6 +95,8 @@ def get_specific_prompt(label, fewshot_examples):
     if observation in fewshot_examples:
         fewshot = f"Examples of observations for failure mode code {label[0]} ({label[1]}) are:\n"
         examples = fewshot_examples[observation]
+        for i, example in enumerate(examples):
+            examples[i] = f"{i+1}. "+example
         example = ','.join(examples)
     else:
         fewshot = "Examples of observations for failure mode code STD (Structural deficiency) are:\n"
@@ -105,10 +107,12 @@ def get_specific_prompt(label, fewshot_examples):
 def get_example_prompt(fewshot_examples):
     """ Returns example prompt for few-shot learning for all labels. """
     fewshot_output = ""
+    i = 1
     for label, examples in fewshot_examples.items():
         fewshot = f"Examples of observations for failure mode code {label} are:\n"
-        example = ','.join(examples[:10]) # only first 10 examples
+        example = ','.join(f"{i}. "+examples[:10]) # only first 10 examples
         fewshot_output += fewshot + example + "\n"
+        i += 1
     return fewshot_output
 
 def save_observations_to_csv(filename, observations):
@@ -120,6 +124,18 @@ def save_observations_to_csv(filename, observations):
         writer = csv.writer(file)
         for obs in observations:
             writer.writerow([obs.strip()])
+
+# Process generated data and return the list of generated observations and number of observations
+def process_generated_data(response):
+    """ Process the generated data. """
+    observations = response.split(',')
+    # Remove empty strings and whitespace
+    observations = [item.strip() for item in observations if item.strip()]
+    # Only keep observations
+    observations = [item.split('. ')[1] for item in observations]
+    # Remove duplicates
+    observations = list(set(observations))
+    return observations, len(observations)
 
 # Generate synthetic observations for each failure mode using GPT
 def generate_data(gpt_model="gpt-3.5-turbo", output_dir="observations", is_fewshot=False, is_specific=True):
@@ -133,9 +149,9 @@ def generate_data(gpt_model="gpt-3.5-turbo", output_dir="observations", is_fewsh
     generated_data = {} # key (failure mode) -> value (observations)
     for i, failure_name in enumerate(fmcodes):
         code = FMCODES[failure_name]
-        print(f"[{i+1}/{len(fmcodes)}] Generating observations for {code} ({failure_name})...")
         generate_prompt = f"Generate {num_samples} different observations for failure mode code {code} ({failure_name}).\n"
-        contraint_prompt = "Your answer should contain only the observations, which are comma-separated, and nothing else.\n"
+        contraint_prompt = f"Your answer should contain only the observations numbered from 1 to {num_samples}, which are comma-separated, and nothing else.\n"
+        format_prompt = "Each observation starts with the number followed by a period, then a space, then the content, ending with a comma."
         number_prompt = f"You must generate {num_samples} observations, no less and no more than {num_samples}.\n"
         fewshot_prompt = ""
         if is_fewshot:
@@ -143,7 +159,7 @@ def generate_data(gpt_model="gpt-3.5-turbo", output_dir="observations", is_fewsh
                 fewshot_prompt = get_specific_prompt([code, failure_name], fewshot_examples)
             else:
                 fewshot_prompt = get_example_prompt(fewshot_examples)
-        prompt = generate_prompt + contraint_prompt + number_prompt + fewshot_prompt
+        prompt = generate_prompt + contraint_prompt + format_prompt + number_prompt + fewshot_prompt
         # print(prompt)
         response = openai.ChatCompletion.create(
                         model=gpt_model,
@@ -153,12 +169,15 @@ def generate_data(gpt_model="gpt-3.5-turbo", output_dir="observations", is_fewsh
                         ],
                         temperature=0.7
                     )
-        observations = response['choices'][0]['message']['content'].split(',')
-        observations = list(set(observations)) # Remove duplicates
-        generated_data[code] = generated_data
 
+        observations, amount = process_generated_data(response['choices'][0]['message']['content'])
+        generated_data[code] = observations
+
+        print(f"[{i+1}/{len(fmcodes)}] Generated {amount} observations for {code} ({failure_name})")
         save_observations_to_csv(f'LLM_observations/{output_dir}/{code}.csv', observations)
+
     print(f"Data generation completed - saved to {output_dir}.\n")
+    return generated_data
 
 if __name__ == '__main__':
     # Set OpenAI API key
@@ -171,12 +190,13 @@ if __name__ == '__main__':
     # FT_MODEL = "ft:gpt-3.5-turbo-0125:uwa-system-health-lab::9GJuFmqj"
     # generate_data(gpt_model=FT_MODEL, output_dir="ft3_specific", is_fewshot=True, is_specific=True)
 
-    FT_MODEL = "ft:gpt-3.5-turbo-0125:uwa-system-health-lab::9ItKIgm3"
-    generate_data(gpt_model=FT_MODEL, output_dir="ft_specific1", is_fewshot=True, is_specific=True)
-    FT_MODEL = "ft:gpt-3.5-turbo-0125:uwa-system-health-lab::9ItG7n1t"
-    generate_data(gpt_model=FT_MODEL, output_dir="ft_specific2", is_fewshot=True, is_specific=True)
+    # FT_MODEL = "ft:gpt-3.5-turbo-0125:uwa-system-health-lab::9ItKIgm3"
+    # generate_data(gpt_model=FT_MODEL, output_dir="ft_specific1", is_fewshot=True, is_specific=True)
+    # FT_MODEL = "ft:gpt-3.5-turbo-0125:uwa-system-health-lab::9ItG7n1t"
+    # generate_data(gpt_model=FT_MODEL, output_dir="ft_specific2", is_fewshot=True, is_specific=True)
 
     # FT_MODEL = "gpt-3.5-turbo"
+    generate_data(gpt_model="gpt-3.5-turbo", output_dir="test", is_fewshot=True, is_specific=True)
     # generate_data(gpt_model=FT_MODEL, output_dir="no_fewshot", is_fewshot=False, is_specific=False)
     # generate_data(gpt_model=FT_MODEL, output_dir="fs_specific", is_fewshot=True, is_specific=True)
     # generate_data(gpt_model=FT_MODEL, output_dir="fs_all", is_fewshot=True, is_specific=False)
