@@ -1,7 +1,9 @@
-import openai
-import ast
-import csv
+""" Generate synthetic observations for each failure mode using GPT. """
+
 import os
+import csv
+import ast
+import openai
 
 FMCODES = {
     "Breakdown": "BRD",
@@ -28,10 +30,13 @@ FMCODES = {
     'Failure to open': "FTO"
 }
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 # Gets the set of labels (failure mode codes) from FULL ISO14224
 def get_fmcodes():
     """ Returns a list of labels (failure mode codes) from ISO14224. """
-    with open('label2obs/ISO14224mappingToMaintIE.csv', 'r', encoding='utf-8') as file:
+    filepath = os.path.join(BASE_DIR, 'label2obs', 'ISO14224mappingToMaintIE.csv')
+    with open(filepath, 'r', encoding='utf-8') as file:
         reader = csv.reader(file)
         next(reader)
         labels = []
@@ -45,7 +50,8 @@ def get_fewshot_examples():
     # Read each line data from txt file
     examples = {}
     for ds in ["train", "dev", "test"]:
-        with open(f'FMC-MWO2KG/{ds}.txt', 'r', encoding='utf-8') as file:
+        filepath = os.path.join(BASE_DIR, 'FMC-MWO2KG', f'{ds}.txt')
+        with open(filepath, 'r', encoding='utf-8') as file:
             lines = file.readlines()
             lines = [line.strip() for line in lines]
             for line in lines:
@@ -57,11 +63,12 @@ def get_fewshot_examples():
                     examples[code_label].append(observation)
     return examples
 
-# Returns a dictionary of modified few-shot examples (based on FMC-MWO2KG dataset) 
+# Returns a dictionary of modified few-shot examples (based on FMC-MWO2KG dataset)
 def get_fewshot():
-    """ Returns a dictionary of modified few-shot examples for each label from FMC-MWO2KG dataset. """
+    """ Returns a dictionary of modified few-shot examples for each label. """
     fewshot = {}
-    with open('label2obs/data.csv', 'r', encoding='utf-8') as file:
+    filepath = os.path.join(BASE_DIR, 'label2obs', 'data.csv')
+    with open(filepath, 'r', encoding='utf-8') as file:
         reader = csv.reader(file)
         for row in reader:
             failure_mode = row[0]
@@ -99,7 +106,7 @@ def get_specific_prompt(label, fewshot_examples):
             examples[i] = f"{i+1}. "+example
         example = ','.join(examples)
     else:
-        fewshot = "Examples of observations for failure mode code STD (Structural deficiency) are:\n"
+        fewshot = "Examples of observations for failure mode code STD (Structural deficiency):\n"
         example = "cracking,creeping,falling off,worn,bent,snapped,corroded"
     return fewshot + example + "\n"
 
@@ -138,7 +145,7 @@ def process_generated_data(response):
     return observations, len(observations)
 
 # Generate synthetic observations for each failure mode using GPT
-def generate_data(gpt_model="gpt-3.5-turbo", output_dir="observations", is_fewshot=False, is_specific=True):
+def generate_data(gpt_model, output_dir, is_fewshot, is_specific):
     """ Generate synthetic observations for each failure mode using GPT. """
 
     fewshot_examples = get_fewshot() # get_fewshot_examples() for unmodified version
@@ -174,7 +181,8 @@ def generate_data(gpt_model="gpt-3.5-turbo", output_dir="observations", is_fewsh
         generated_data[code] = observations
 
         print(f"[{i+1}/{len(fmcodes)}] Generated {amount} observations for {code} ({failure_name})")
-        save_observations_to_csv(f'LLM_observations/{output_dir}/{code}.csv', observations)
+        output_filepath = os.path.join(BASE_DIR, 'LLM_observations', output_dir, f'{code}.csv')
+        save_observations_to_csv(output_filepath, observations)
 
     print(f"Data generation completed - saved to {output_dir}.\n")
     return generated_data
@@ -196,7 +204,7 @@ if __name__ == '__main__':
     # generate_data(gpt_model=FT_MODEL, output_dir="ft_specific2", is_fewshot=True, is_specific=True)
 
     # FT_MODEL = "gpt-3.5-turbo"
-    generate_data(gpt_model="gpt-3.5-turbo", output_dir="test", is_fewshot=True, is_specific=True)
+    generate_data(gpt_model="gpt-3.5-turbo", output_dir="count", is_fewshot=True, is_specific=True)
     # generate_data(gpt_model=FT_MODEL, output_dir="no_fewshot", is_fewshot=False, is_specific=False)
     # generate_data(gpt_model=FT_MODEL, output_dir="fs_specific", is_fewshot=True, is_specific=True)
     # generate_data(gpt_model=FT_MODEL, output_dir="fs_all", is_fewshot=True, is_specific=False)

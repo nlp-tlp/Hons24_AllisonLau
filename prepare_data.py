@@ -1,10 +1,13 @@
+""" Prepare data for training the GPT-3.5 model and Flair text classification model. """
+
 import os
 import ast
 import csv
 import json
 import random
-import pathlib
 from generate_data import get_fewshot, FMCODES
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 MAX_ROWS = 10
 
@@ -14,11 +17,12 @@ SYSTEM_CONTENT = (
 
 SYSTEM_DICT = {"role": "system", "content": SYSTEM_CONTENT}
 
-def prepare_data_for_LLM():
-    """ Prepare data for training the model. """
+def prepare_data_for_llm():
+    """ Prepare data for training the GPT-3.5 model. """
 
     dataset = []
-    with open("label2obs/data.csv", "r", encoding="utf-8") as file:
+    in_filepath = os.path.join(BASE_DIR, "label2obs", "data.csv")
+    with open(in_filepath, "r", encoding="utf-8") as file:
         reader = csv.reader(file)
         for row in reader:
             data = {"messages": [SYSTEM_DICT]}
@@ -30,14 +34,15 @@ def prepare_data_for_LLM():
             data["messages"].append(assistant_dict)
             dataset.append(data)
 
-    with open("label2obs/prepared_data.jsonl", "w", encoding="utf-8") as file:
+    out_filepath = os.path.join(BASE_DIR, "label2obs", "prepared_data.jsonl")
+    with open(out_filepath, "w", encoding="utf-8") as file:
         for data in dataset:
             file.write(json.dumps(data) + "\n")
 
-def prepare_data_for_FMC(dir_name='observations'):
-    current_path = pathlib.Path(__file__).parent.resolve()
-    data_folder = os.path.join(current_path, f"LLM_observations/{dir_name}")
+def prepare_data_for_fmc(dir_name='observations'):
+    """ Prepare data for training the Flair text classification model. """
 
+    data_folder = os.path.join(BASE_DIR, "LLM_observations", dir_name)
     failure_names = get_fewshot().keys()
     training_data = [] # list of "observation,label" pairs
     for name in failure_names:
@@ -54,24 +59,28 @@ def prepare_data_for_FMC(dir_name='observations'):
 
     random.shuffle(training_data)
     # write 80% of the data to train.txt
-    with open(f"LLM_data/{dir_name}/train.txt", "w", encoding="utf-8") as file:
+    train_filepath = os.path.join(BASE_DIR,"LLM_data", dir_name, "train.txt")
+    with open(train_filepath, "w", encoding="utf-8") as file:
         train_data = training_data[:int(len(training_data) * 0.8)]
         for pair in train_data:
             file.write(pair + "\n")
 
     # write 20% of the data to val.txt
-    with open(f"LLM_data/{dir_name}/val.txt", "w", encoding="utf-8") as file:
+    val_filepath = os.path.join(BASE_DIR,"LLM_data", dir_name, "val.txt")
+    with open(val_filepath, "w", encoding="utf-8") as file:
         val_data = training_data[int(len(training_data) * 0.8):]
         for pair in val_data:
             file.write(pair + "\n")
 
-    print(f"Train ({len(train_data)}), Val ({len(val_data)}), Total ({len(training_data)})\t- {dir_name} prepared.")
+    train_size, val_size, total_size = len(train_data), len(val_data), len(training_data)
+    print(f"Train ({train_size}), Val ({val_size}), Total ({total_size})\t- {dir_name} prepared.")
 
 if __name__ == "__main__":
-    # prepare_data_for_LLM()
-    # prepare_data_for_FMC("fs_all")
-    # prepare_data_for_FMC("fs_specific")
-    # prepare_data_for_FMC("ft_specific1")
-    # prepare_data_for_FMC("ft_specific2")
-    # prepare_data_for_FMC("no_fewshot")
-    prepare_data_for_FMC("count")
+    # prepare_data_for_llm()
+    # prepare_data_for_fmc("fs_all")
+    # prepare_data_for_fmc("fs_specific")
+    # prepare_data_for_fmc("ft_specific1")
+    # prepare_data_for_fmc("ft_specific2")
+    # prepare_data_for_fmc("no_fewshot")
+    prepare_data_for_fmc("count")
+    pass

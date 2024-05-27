@@ -49,19 +49,19 @@ def show_codes(lines):
 
 def read_data():
     """ Read the data from the files. """
-    with open('FMC-MWO2KG/train.txt', 'r', encoding='utf-8') as file:
+    with open('datasets/FMC-MWO2KG/train.txt', 'r', encoding='utf-8') as file:
         train_lines = file.readlines()
 
-    with open('FMC-MWO2KG/test.txt', 'r', encoding='utf-8') as file:
+    with open('datasets/FMC-MWO2KG/test.txt', 'r', encoding='utf-8') as file:
         test_lines = file.readlines()
 
-    with open('FMC-MWO2KG/dev.txt', 'r', encoding='utf-8') as file:
+    with open('datasets/FMC-MWO2KG/dev.txt', 'r', encoding='utf-8') as file:
         val_lines = file.readlines()
 
-    with open('MaintIE/gold_release.json', 'r', encoding='utf-8') as file:
+    with open('datasets/MaintIE/gold_release.json', 'r', encoding='utf-8') as file:
         gold_data = json.load(file)
 
-    with open('MaintIE/silver_release.json', 'r', encoding='utf-8') as file:
+    with open('datasets/MaintIE/silver_release.json', 'r', encoding='utf-8') as file:
         silver_data = json.load(file)
 
     return train_lines, test_lines, val_lines, gold_data, silver_data

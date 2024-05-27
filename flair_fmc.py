@@ -4,10 +4,10 @@ from flair.visual.training_curves import Plotter
 from flair.trainers import ModelTrainer
 from flair.models import TextClassifier
 from flair.data import Sentence
-import pathlib, os
+import os
 
-def train_fmc(dir_name='FMC-MWO2KG'):
-    current_path = pathlib.Path(__file__).parent.resolve()
+def train_fmc(dir_name='datasets/FMC-MWO2KG'):
+    current_path = os.path.dirname(os.path.abspath(__file__))
 
     # 1. what label do we want to predict?
     label_type = 'failure_mode'
@@ -52,7 +52,7 @@ def train_fmc(dir_name='FMC-MWO2KG'):
                     patience=5,
                     embeddings_storage_mode='gpu')
 
-def test_fmc(dir_name='FMC-MWO2KG'):
+def test_fmc(dir_name='datasets/FMC-MWO2KG'):
     model = TextClassifier.load('resources/taggers/failure-mode-classifier/final-model.pt')
 
     test_sents = []
@@ -82,7 +82,7 @@ def test_fmc(dir_name='FMC-MWO2KG'):
     print("Results written to flair_output.csv.")
 
 if __name__=="__main__":
-	# train_fmc(dir_name="FMC-MWO2KG")
+	# train_fmc(dir_name="datasets/FMC-MWO2KG")
     train_fmc(dir_name="LLM_data/fs_all")
     # train_fmc(dir_name="LLM_data/fs_specific")
     # train_fmc(dir_name="LLM_data/no_fewshot")

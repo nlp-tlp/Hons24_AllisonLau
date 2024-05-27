@@ -1,7 +1,10 @@
+import os
 import sys
 import time
 import json
 import openai
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Set OpenAI API key
 openai.api_key = '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'
@@ -11,8 +14,9 @@ def finetune_model():
     """ Fine-tune a model. """
 
     # Sent the prepared data to OpenAI
+    train_file = os.path.join(BASE_DIR, "label2obs", "prepared_data.jsonl")
     train_data = openai.File.create(
-        file=open("label2obs/prepared_data.jsonl", encoding='utf-8'),
+        file=open(train_file, encoding='utf-8'),
         purpose="fine-tune"
     )
 
@@ -62,7 +66,8 @@ def finetune_model():
     print("Fine-tuning completed.")
     ft_job_result = openai.FineTuningJob.retrieve(ft_job_id)
 
-    with open(f"FinetuneModels/results-{ft_job_id}.json", "w", encoding='utf-8') as file:
+    out_filepath = os.path.join(BASE_DIR, "FinetuneModels", f"results-{ft_job_id}.json")
+    with open(out_filepath, "w", encoding='utf-8') as file:
         json.dump(ft_job_result, file, indent=4)
 
 if __name__ == '__main__':
