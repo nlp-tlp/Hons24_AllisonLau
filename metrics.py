@@ -21,7 +21,7 @@ def get_vocab_size(observations):
     vocab_size = len(set(tokens))
     return vocab_size
 
-# Word frequency distribution (Type-Token Ratio and Herdan's C)
+# Word frequency distribution (Type-Token Ratio)
 def word_freq_dist(observations):
     """ Get the word frequency distribution of the generated observations. """
     all_obs = ' '.join(observations)
@@ -31,11 +31,7 @@ def word_freq_dist(observations):
     num_tokens = len(tokens)
     
     ttr = num_types / num_tokens
-    herdan_c = num_types / (num_tokens ** 0.5)
-    dugast_k = num_types / ((num_tokens - 1) ** 0.5)
-    brunet_index = num_types / (num_tokens ** 0.165)
-    brunet_idx = num_types ** (len(set(tokens)) ** -0.165)
-    return ttr, herdan_c, dugast_k, brunet_index, brunet_idx
+    return round(ttr, 4)
 
 def measure_similarity(observations):
     """ Measure the semantic similarity of the generated observations. """
@@ -50,17 +46,9 @@ def measure_similarity(observations):
 
 if __name__ == '__main__':
     for code in FMCODES.values():
-        filepath = os.path.join(BASE_DIR, f'LLM_observations/fs_specific/{code}.csv')
+        filepath = os.path.join(BASE_DIR, f'LLM_observations/count/{code}.csv')
         with open(filepath, 'r', encoding='utf-8') as file:
             reader = csv.reader(file)
             observations = [row[0] for row in reader]
-        
-        ttr, herdan_c, dugast_k, brunet_index, brunet_idx = word_freq_dist(observations)
-        print(f"{code} TTR         = {ttr}")
-        print(f"{code} Dugast's K  = {dugast_k}")
-        print(f"{code} Herdan's C  = {herdan_c}")
-        print(f"{code} Brunet Index= {brunet_index}")
-        print(f"{code} Brunet Idx  = {brunet_idx}")
-        break
-
-
+        ttr = word_freq_dist(observations)
+        print(f"{code}'s TTR = {ttr}")
