@@ -72,3 +72,4 @@ with open('datasets/MaintIE/gold_release.json', 'r', encoding='utf-8') as file:
 with driver.session() as session:
     session.execute_write(create_graph, data)
 
+driver.close()
