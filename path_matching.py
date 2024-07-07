@@ -100,7 +100,8 @@ with driver.session() as session:
                 "object_relations": []
             }
             
-             # If PhysicalObject has relations to other PhysicalObjects
+            # If PhysicalObject has relations to other PhysicalObjects
+            # ! REMOVE THIS IF NOT APPLICABLE
             for relation, other in zip(record["relations"], record["other_objects"]):
                 other_name = other["text"]
                 other_type = f"{other['type']}"
