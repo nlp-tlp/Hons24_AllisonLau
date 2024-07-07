@@ -1,0 +1,297 @@
+[
+    {
+        "object_type": "PhysicalObject/HoldingObject",
+        "object_name": "door_frame",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "hole",
+        "object_relations": []
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject",
+        "object_name": "window_frame",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "crack",
+        "object_relations": []
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject",
+        "object_name": "heat_shield",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "crack",
+        "object_relations": []
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject",
+        "object_name": "rock_deflector",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "crack",
+        "object_relations": []
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject",
+        "object_name": "windscreen",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "crack",
+        "object_relations": []
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject",
+        "object_name": "chord",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "crack",
+        "object_relations": []
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject",
+        "object_name": "cable_gantry",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "crack",
+        "object_relations": [
+            {
+                "relation": "isA",
+                "object_type": "PhysicalObject/HoldingObject",
+                "object_name": "gantry"
+            }
+        ]
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject",
+        "object_name": "boom_foot",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "crack",
+        "object_relations": [
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/HoldingObject",
+                "object_name": "clevis"
+            }
+        ]
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject",
+        "object_name": "headboard",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "crack",
+        "object_relations": [
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/CoveringObject",
+                "object_name": "welds"
+            }
+        ]
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject",
+        "object_name": "cross_member",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "crack",
+        "object_relations": []
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject",
+        "object_name": "liner",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "crack",
+        "object_relations": []
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject",
+        "object_name": "fuel_tank",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "crack",
+        "object_relations": [
+            {
+                "relation": "isA",
+                "object_type": "PhysicalObject/StoringObject",
+                "object_name": "tank"
+            }
+        ]
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject",
+        "object_name": "track_frame",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "crack",
+        "object_relations": [
+            {
+                "relation": "isA",
+                "object_type": "PhysicalObject/HoldingObject",
+                "object_name": "frame"
+            }
+        ]
+    },
+    {
+        "object_type": "PhysicalObject/RestrictingObject",
+        "object_name": "glass_window",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "crack",
+        "object_relations": [
+            {
+                "relation": "isA",
+                "object_type": "PhysicalObject/ControllingObject",
+                "object_name": "window"
+            }
+        ]
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject",
+        "object_name": "decking",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "cracks",
+        "object_relations": []
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject",
+        "object_name": "cross_braces",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "cracks",
+        "object_relations": []
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject",
+        "object_name": "handrail",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "cracks",
+        "object_relations": [
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/CoveringObject",
+                "object_name": "weld"
+            }
+        ]
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject",
+        "object_name": "mud_bucket",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "cracks",
+        "object_relations": [
+            {
+                "relation": "isA",
+                "object_type": "PhysicalObject/StoringObject",
+                "object_name": "bucket"
+            }
+        ]
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject",
+        "object_name": "diagonal_braces",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "cracks",
+        "object_relations": [
+            {
+                "relation": "isA",
+                "object_type": "PhysicalObject/HoldingObject",
+                "object_name": "braces"
+            }
+        ]
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject",
+        "object_name": "dirt_chute",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "cracks",
+        "object_relations": [
+            {
+                "relation": "isA",
+                "object_type": "PhysicalObject/GuidingObject",
+                "object_name": "chute"
+            }
+        ]
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject",
+        "object_name": "mounts",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "cracks",
+        "object_relations": []
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject",
+        "object_name": "stick",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "cracks",
+        "object_relations": []
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject",
+        "object_name": "boom",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "cracks",
+        "object_relations": [
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/EmittingObject",
+                "object_name": "light"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/GuidingObject",
+                "object_name": "hose"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/HoldingObject",
+                "object_name": "chord"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/DrivingObject",
+                "object_name": "hydraulic_cylinder"
+            }
+        ]
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject",
+        "object_name": "headboard",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "cracks",
+        "object_relations": [
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/CoveringObject",
+                "object_name": "welds"
+            }
+        ]
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject",
+        "object_name": "bearing",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "noisy",
+        "object_relations": []
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject",
+        "object_name": "hydraulic_lift_cylinder",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "noisy",
+        "object_relations": []
+    }
+]
