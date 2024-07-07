@@ -3,7 +3,10 @@
 import os
 import csv
 import ast
+import random
 import openai
+from nltk.tokenize import word_tokenize
+from nltk.probability import FreqDist
 
 FMCODES = {
     "Breakdown": "BRD",
@@ -133,24 +136,47 @@ def save_observations_to_csv(filename, observations):
             writer.writerow([obs.strip()])
 
 # Process generated data and return the list of generated observations and number of observations
-def process_generated_data(response):
+def process_generated_data(choices, num_samples=100):
     """ Process the generated data. """
-    observations = response.split(',')
-    # Remove empty strings and whitespace
-    observations = [item.strip() for item in observations if item.strip()]
-    # Only keep observations
-    observations = [item.split('. ')[1] for item in observations]
-    # Remove duplicates
-    observations = list(set(observations))
-    return observations, len(observations)
+    # In case of formatting error, return empty list
+    all_observations = []
+    for choice in choices:
+        try:
+            response = choice['message']['content']
+            observations = response.split(',')
+            # Remove empty strings and whitespace
+            observations = [item.strip() for item in observations if item.strip()]
+            # Only keep observations
+            observations = [item.split('. ')[1] for item in observations]
+            # Remove duplicates
+            observations = list(set(observations))
+            all_observations.extend(observations)
+        except Exception:
+            print("Error processing generated data.")
+        
+    random.shuffle(all_observations)
+    unique_observations = all_observations[:num_samples]
+    return unique_observations, len(unique_observations)
+
+# Measure the lexical diversity of the generated observations
+def lexical_diversity(observations):
+    """ Measure the lexical diversity of the generated observations. """
+    all_obs = ' '.join(observations)
+    tokens = word_tokenize(all_obs)
+    fdist = FreqDist(tokens)
+    num_types = len(fdist)
+    num_tokens = len(tokens)
+    if num_tokens == 0 or num_types == 0:
+        return 0
+    ttr = num_types / num_tokens
+    return round(ttr, 2)
 
 # Generate synthetic observations for each failure mode using GPT
-def generate_data(gpt_model, output_dir, is_fewshot, is_specific):
+def generate_data(gpt_model, output_dir, is_fewshot, is_specific, temp=0.8, num_samples=100):
     """ Generate synthetic observations for each failure mode using GPT. """
 
     fewshot_examples = get_fewshot() # get_fewshot_examples() for unmodified version
     fmcodes = sorted(fewshot_examples.keys())
-    num_samples = 100
 
     # Generate observations for each label
     generated_data = {} # key (failure mode) -> value (observations)
@@ -167,24 +193,25 @@ def generate_data(gpt_model, output_dir, is_fewshot, is_specific):
             else:
                 fewshot_prompt = get_example_prompt(fewshot_examples)
         prompt = generate_prompt + contraint_prompt + format_prompt + number_prompt + fewshot_prompt
-        # print(prompt)
+
         response = openai.ChatCompletion.create(
                         model=gpt_model,
                         messages=[
                             {"role": "system", "content": "You are a failure mode code expert."},
                             {"role": "user", "content": prompt},
                         ],
-                        temperature=0.7
+                        temperature=temp,
+                        n=2 # number of completions to generate
                     )
 
-        observations, amount = process_generated_data(response['choices'][0]['message']['content'])
+        observations, amount = process_generated_data(response['choices'], num_samples=num_samples)
         generated_data[code] = observations
 
         print(f"[{i+1}/{len(fmcodes)}] Generated {amount} observations for {code} ({failure_name})")
         output_filepath = os.path.join(BASE_DIR, 'LLM_observations', output_dir, f'{code}.csv')
         save_observations_to_csv(output_filepath, observations)
 
-    print(f"Data generation completed - saved to {output_dir}.\n")
+    print(f"Data generation completed - saved to '{output_dir}' directory.")
     return generated_data
 
 if __name__ == '__main__':
@@ -204,9 +231,8 @@ if __name__ == '__main__':
     # generate_data(gpt_model=FT_MODEL, output_dir="ft_specific2", is_fewshot=True, is_specific=True)
 
     # FT_MODEL = "gpt-3.5-turbo"
-    generate_data(gpt_model="gpt-3.5-turbo", output_dir="count", is_fewshot=True, is_specific=True)
+    generate_data(gpt_model="gpt-3.5-turbo", output_dir="output", is_fewshot=True, is_specific=True)
     # generate_data(gpt_model=FT_MODEL, output_dir="no_fewshot", is_fewshot=False, is_specific=False)
     # generate_data(gpt_model=FT_MODEL, output_dir="fs_specific", is_fewshot=True, is_specific=True)
     # generate_data(gpt_model=FT_MODEL, output_dir="fs_all", is_fewshot=True, is_specific=False)
     print("Data generation completed!")
-    

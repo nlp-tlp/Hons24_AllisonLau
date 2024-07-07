@@ -127,10 +127,83 @@ def remove_duplicates(input):
             output.append(i)
     return output
 
+import re 
+train, test, val, gold, silver = read_data()
+entity_count = {}
+relation_count = {}
+unique_entity_count = {}
+unique_relation_count = {}
+seen_entities = []
+seen_relations = []
+for data in gold:
+    # count number of entities {type: count}
+    for entity in data['entities']:
+        entity_type = entity['type'].split('/')[0]
+        if entity_type not in entity_count:
+            entity_count[entity_type] = 1
+        else:
+            entity_count[entity_type] += 1
+    
+    # count number of relations {type: count}
+    for relation in data['relations']:
+        relation_type = relation['type']
+        if relation_type not in relation_count:
+            relation_count[relation_type] = 1
+        else:
+            relation_count[relation_type] += 1
+            
+    # count number of unique entities {type: count}
+    for entity in data['entities']:
+        entity_type = entity['type'].split('/')[0]
+        entity_text = " ".join(data['tokens'][entity['start']:entity['end']])
+        unique_entity_key = (entity_text, entity_type)
+        if unique_entity_key not in seen_entities:
+            seen_entities.append(unique_entity_key)
+            if entity_type not in unique_entity_count:
+                unique_entity_count[entity_type] = 1
+            else:
+                unique_entity_count[entity_type] += 1
+                
+    # count number of unique relations {type: count}
+    for relation in data['relations']:
+        relation_type = relation['type']
+        head = relation['head']
+        tail = relation['tail']
+        head_entity = data['entities'][head]
+        tail_entity = data['entities'][tail]
+        head_entity_type = head_entity['type'].split('/')[0]
+        tail_entity_type = tail_entity['type'].split('/')[0]
+        head_entity_text = " ".join(data['tokens'][head_entity['start']:head_entity['end']])
+        tail_entity_text = " ".join(data['tokens'][tail_entity['start']:tail_entity['end']])
+        unique_head_key = (head_entity_text, head_entity_type)
+        unique_tail_key = (tail_entity_text, tail_entity_type)
+        unique_relation_key = (unique_head_key, unique_tail_key, relation_type)
 
-# train, test, val, gold, silver = read_data()
+            if unique_relation_key not in seen_relations:
+                seen_relations.append(unique_relation_key)
+                if relation_type not in unique_relation_count:
+                    unique_relation_count[relation_type] = 1
+                else:
+                    unique_relation_count[relation_type] += 1
+
+for key, value in entity_count.items():
+    print(key, value)
+print("Total entities:", sum(entity_count.values()))
+print()
+for key, value in relation_count.items():
+    print(key, value)
+print("Total relations:", sum(relation_count.values()))
+print()
+for key, value in unique_entity_count.items():
+    print(key, value)
+print("Total unique entities:", sum(unique_entity_count.values()))
+print()
+for key, value in unique_relation_count.items():
+    print(key, value)
+print("Total unique relations:", sum(unique_relation_count.values()))
+
+
 # events_list, codes_list = get_events(gold_data)
-
 # print(codes)
 
 # for key, value in events_list.items():

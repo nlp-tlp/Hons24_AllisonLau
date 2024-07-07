@@ -9,9 +9,9 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # Set OpenAI API key
 openai.api_key = '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'
 
-# Fine-tune a model
-def finetune_model():
-    """ Fine-tune a model. """
+# Fine-tune LLM
+def finetune_llm():
+    """ Fine-tune a large language model. """
 
     # Sent the prepared data to OpenAI
     train_file = os.path.join(BASE_DIR, "label2obs", "prepared_data.jsonl")
@@ -33,7 +33,7 @@ def finetune_model():
         print(".", end="")
         sys.stdout.flush()
 
-    # Fine-tune the model
+    # Fine-tune the LLM
     ft_job = openai.FineTuningJob.create(
         model="gpt-3.5-turbo",
         training_file=train_data["id"],
@@ -71,4 +71,4 @@ def finetune_model():
         json.dump(ft_job_result, file, indent=4)
 
 if __name__ == '__main__':
-    finetune_model()
+    finetune_llm()
