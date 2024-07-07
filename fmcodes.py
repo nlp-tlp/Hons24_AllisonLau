@@ -135,6 +135,7 @@ unique_entity_count = {}
 unique_relation_count = {}
 seen_entities = []
 seen_relations = []
+
 for data in gold:
     # count number of entities {type: count}
     for entity in data['entities']:
@@ -179,12 +180,12 @@ for data in gold:
         unique_tail_key = (tail_entity_text, tail_entity_type)
         unique_relation_key = (unique_head_key, unique_tail_key, relation_type)
 
-            if unique_relation_key not in seen_relations:
-                seen_relations.append(unique_relation_key)
-                if relation_type not in unique_relation_count:
-                    unique_relation_count[relation_type] = 1
-                else:
-                    unique_relation_count[relation_type] += 1
+        if unique_relation_key not in seen_relations:
+            seen_relations.append(unique_relation_key)
+            if relation_type not in unique_relation_count:
+                unique_relation_count[relation_type] = 1
+            else:
+                unique_relation_count[relation_type] += 1
 
 for key, value in entity_count.items():
     print(key, value)
@@ -202,6 +203,13 @@ for key, value in unique_relation_count.items():
     print(key, value)
 print("Total unique relations:", sum(unique_relation_count.values()))
 
+# get max number of tokens in gold data
+max_tokens = 0
+for data in gold:
+    tokens = data['tokens']
+    if len(tokens) > max_tokens:
+        max_tokens = len(tokens)
+print("\nMax tokens:", max_tokens)
 
 # events_list, codes_list = get_events(gold_data)
 # print(codes)
