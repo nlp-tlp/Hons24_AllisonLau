@@ -1,11 +1,12 @@
 ejected
  - Gold: Minor in-service problems
- - Pred: Leaking
+ - Pred: Breakdown
  -> MISMATCH!
 
 sticking shu
  - Gold: Fail to function
- - Pred: Fail to function
+ - Pred: Failure to stop on demand
+ -> MISMATCH!
 
 not turning
  - Gold: Plugged / choked
@@ -30,7 +31,8 @@ very stiff to operate
 
 requires rebuild
  - Gold: Minor in-service problems
- - Pred: Minor in-service problems
+ - Pred: Breakdown
+ -> MISMATCH!
 
 has no equipment earth
  - Gold: Electrical
@@ -42,7 +44,8 @@ require tighteninginspecti
 
 does not work
  - Gold: Breakdown
- - Pred: Breakdown
+ - Pred: Failure to start on demand
+ -> MISMATCH!
 
 runs continuously
  - Gold: Failure to stop on demand
@@ -93,7 +96,7 @@ to be torqued
 
 sped up
  - Gold: High output
- - Pred: Erratic output
+ - Pred: Minor in-service problems
  -> MISMATCH!
 
 unable to pump
@@ -112,13 +115,12 @@ spraying out slurry
 
 jammed open
  - Gold: Plugged / choked
- - Pred: Fail to function
+ - Pred: Minor in-service problems
  -> MISMATCH!
 
 no pump
  - Gold: Plugged / choked
- - Pred: Breakdown
- -> MISMATCH!
+ - Pred: Plugged / choked
 
 not truning
  - Gold: Plugged / choked
@@ -193,7 +195,8 @@ not spinning
 
 dont activate
  - Gold: Failure to start on demand
- - Pred: Failure to start on demand
+ - Pred: Breakdown
+ -> MISMATCH!
 
 unserviceable b feluwa
  - Gold: Breakdown
@@ -223,7 +226,7 @@ blockage
 
 ongoing issue
  - Gold: Other
- - Pred: Failure to start on demand
+ - Pred: Electrical
  -> MISMATCH!
 
 poorly supported
@@ -233,7 +236,7 @@ poorly supported
 
 rocking around
  - Gold: Vibration
- - Pred: Leaking
+ - Pred: Electrical
  -> MISMATCH!
 
 siezeddescale

@@ -1,0 +1,63 @@
+input,ground_truth,prediction,confidence
+ejected,Minor in-service problems,Sentence[1]: "ejected" → Structural deficiency,0.7718
+sticking shu,Fail to function,Sentence[2]: "sticking shu" → Leaking,0.9889
+not turning,Plugged / choked,Sentence[2]: "not turning" → Plugged / choked,0.9818
+has failed,Breakdown,Sentence[2]: "has failed" → Failure to stop on demand,0.4091
+needs fitting,Minor in-service problems,Sentence[2]: "needs fitting" → Minor in-service problems,0.9969
+runs for a while and trip,Electrical,Sentence[6]: "runs for a while and trip" → Leaking,0.6754
+very stiff to operate,Fail to function,Sentence[4]: "very stiff to operate" → Failure to function,0.5565
+requires rebuild,Minor in-service problems,Sentence[2]: "requires rebuild" → Minor in-service problems,0.9892
+has no equipment earth,Electrical,Sentence[4]: "has no equipment earth" → Plugged / choked,0.7419
+require tighteninginspecti,Minor in-service problems,Sentence[2]: "require tighteninginspecti" → Minor in-service problems,0.7783
+does not work,Breakdown,Sentence[3]: "does not work" → Failure to stop on demand,0.9676
+runs continuously,Failure to stop on demand,Sentence[2]: "runs continuously" → Erratic output,0.6852
+severe corrosion,Structural deficiency,Sentence[2]: "severe corrosion" → Contamination,0.5485
+contamination,Contamination,Sentence[1]: "contamination" → Contamination,0.9832
+doesnt trip,Electrical,Sentence[2]: "doesnt trip" → Structural deficiency,0.3499
+ripped,Structural deficiency,Sentence[1]: "ripped" → Structural deficiency,0.796
+unserviceable not in,Breakdown,Sentence[3]: "unserviceable not in" → Minor in-service problems,0.7639
+cant be adjusted,Fail to function,Sentence[3]: "cant be adjusted" → Minor in-service problems,0.7561
+worn,Structural deficiency,Sentence[1]: "worn" → Minor in-service problems,0.5765
+misalignment,Minor in-service problems,Sentence[1]: "misalignment" → Contamination,0.3224
+switched o,Spurious stop,Sentence[2]: "switched o" → Leaking,0.4308
+to be torqued,Minor in-service problems,Sentence[3]: "to be torqued" → Minor in-service problems,0.9774
+sped up,High output,Sentence[2]: "sped up" → Low output,0.6447
+unable to pump,Low output,Sentence[3]: "unable to pump" → Low output,0.9861
+spillage,Leaking,Sentence[1]: "spillage" → Leaking,0.8173
+spraying out slurry,Leaking,Sentence[3]: "spraying out slurry" → Leaking,0.9996
+jammed open,Plugged / choked,Sentence[2]: "jammed open" → Failure to rotate,0.4882
+no pump,Plugged / choked,Sentence[2]: "no pump" → Plugged / choked,0.7821
+not truning,Plugged / choked,Sentence[2]: "not truning" → Plugged / choked,0.9381
+unable to tighten,Minor in-service problems,Sentence[3]: "unable to tighten" → Failure to function,0.4145
+burnt,Overheating,Sentence[1]: "burnt" → Leaking,0.3795
+hot joint,Overheating,Sentence[2]: "hot joint" → Overheating,0.8885
+burst,Breakdown,Sentence[1]: "burst" → Leaking,0.8191
+pumping fault,Low output,Sentence[2]: "pumping fault" → Leaking,0.3183
+not controlling,Minor in-service problems,Sentence[2]: "not controlling" → Minor in-service problems,0.8134
+surging cutting in and out,Electrical,Sentence[5]: "surging cutting in and out" → Leaking,0.9998
+failed electrical,Electrical,Sentence[2]: "failed electrical" → Electrical,0.9956
+loose tighten,Minor in-service problems,Sentence[2]: "loose tighten" → Minor in-service problems,0.8385
+high earth reading,Abnormal instrument reading,Sentence[3]: "high earth reading" → High output,0.5214
+cavitating,Erratic output,Sentence[1]: "cavitating" → Noise,0.7124
+requires repack,Minor in-service problems,Sentence[2]: "requires repack" → Minor in-service problems,0.9998
+needs support,Minor in-service problems,Sentence[2]: "needs support" → Breakdown,0.5575
+needs maintenance,Minor in-service problems,Sentence[2]: "needs maintenance" → Breakdown,0.6386
+not spinning,Minor in-service problems,Sentence[2]: "not spinning" → Minor in-service problems,0.9294
+dont activate,Failure to start on demand,Sentence[2]: "dont activate" → Failure to function,0.4063
+unserviceable b feluwa,Breakdown,Sentence[3]: "unserviceable b feluwa" → Leaking,0.4753
+no power,Electrical,Sentence[2]: "no power" → Plugged / choked,0.6032
+requires cleaning,Minor in-service problems,Sentence[2]: "requires cleaning" → Minor in-service problems,0.9997
+doesnt work,Breakdown,Sentence[2]: "doesnt work" → Breakdown,0.8557
+vibrationlubealignment,Vibration,Sentence[1]: "vibrationlubealignment" → Leaking,0.6452
+blockage,Plugged / choked,Sentence[1]: "blockage" → Plugged / choked,0.7634
+ongoing issue,Other,Sentence[2]: "ongoing issue" → Low output,0.6842
+poorly supported,Minor in-service problems,Sentence[2]: "poorly supported" → Failure to rotate,0.3516
+rocking around,Vibration,Sentence[2]: "rocking around" → Leaking,0.8162
+siezeddescale,Breakdown,Sentence[1]: "siezeddescale" → Leaking,0.8869
+dropped,Minor in-service problems,Sentence[1]: "dropped" → Leaking,0.2955
+spraying,Leaking,Sentence[1]: "spraying" → Noise,0.6031
+not covered,Minor in-service problems,Sentence[2]: "not covered" → Minor in-service problems,0.8506
+hot jointfurn,Overheating,Sentence[2]: "hot jointfurn" → Overheating,0.8645
+running dry,Other,Sentence[2]: "running dry" → Leaking,0.8573
+smoking up,Overheating,Sentence[2]: "smoking up" → Low output,0.8766
+jammed,Plugged / choked,Sentence[1]: "jammed" → Failure to rotate,0.8721

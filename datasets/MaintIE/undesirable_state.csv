@@ -1,0 +1,439 @@
+Event,Text,Failure Mode
+not working,<id> air conditioner thermostat not working,failure to sense
+unserviceable,<id> air conditioner thermostat unserviceable,failure to sense
+unserviceable,<id> air conditioner unserviceable,failure to emit
+unserviceable,<id> air conditioner unserviceable when stationary,failure to emit
+warm,<id> air conditioner warm,failure to emit
+plugged,<id> air filters plugged,failure to do something
+disconnected,<id> air horn disconnected,failure to present
+doesn't work,<id> air horn doesn't work,failure to do something
+fault,<id> air horn fault,failure to present
+not working,<id> air horn not working,failure to present
+not working,<id> air horn not working compressor awaiting,failure to present
+stuck on,<id> air horn stuck on,failure to present
+unserviceable,<id> air horn unserviceable,failure to present
+working intermittently,<id> air horn working intermittently,failure to present
+not working,<id> airhorn not working,failure to present
+doesn't work,<id> alarm on VIMS doesn't work,failure to present
+on,<id> all dash lights on,failure to emit
+failed,<id> alternator failed,failure to generate
+not charging,<id> alternator not charging,failure to generate
+overcharge fault,<id> alternator overcharge fault,failure to generate
+fault,<id> alternator overcharge fault,failure to generate
+overcharged,<id> alternator overcharged,failure to generate
+failed,<id> analyse failed driveline component,failure to transform
+faults,<id> and <id> lube system faults,failure to protect
+unserviceable,<id> armrest unserviceable,failure to store
+unserviceable,<id> auto-greaser unserviceable,failure to generate
+error,<id> auto-lube error PO,failure to generate
+not working,<id> auto-spray feature not working,failure to generate
+temperature fault,<id> axle temperature fault,failure to do something
+fault,<id> axle temperature fault,failure to do something
+fault,<id> axle temperature sensor fault,failure to sense
+unserviceable,<id> back rest unserviceable handle broken,failure to store
+broken,<id> back rest unserviceable handle broken,failure to store
+to be fixed,<id> backhoe windscreen to be fixed,failure to control
+unserviceable,<id> backlight on dash unserviceable,failure to emit
+blown,<id> backlights on dash blown,failure to emit
+not working,<id> backup alarm not working,failure to present
+out of service,<id> batteries out of service,failure to generate
+unserviceable,<id> batteries unserviceable,failure to generate
+seized,<id> battery cover hinges seized,failure to hold
+broken,<id> beacon mount is broken,failure to hold
+not working,<id> beacon not working,failure to emit
+unserviceable,<id> beacon unserviceable,failure to emit
+unserviceable,<id> bearing on air conditioner compressor unserviceable,failure to hold
+shot,<id> bearings are shot,failure to hold
+missing,<id> belly plate bolt missing,failure to hold
+bent,<id> bent belly plate,failure to hold
+blown,<id> blade light blown needs replacing,failure to emit
+needs,<id> blade light blown needs replacing,failure to emit
+cracked,<id> blade skin cracked,failure to protect
+worn,<id> blade wear plates cracked and worn,failure to protect
+cracked,<id> blade wear plates cracked and worn,failure to protect
+blown,<id> blown air conditioner hose,failure to guide
+blown,<id> blown air conditioner hose to radiator,failure to guide
+blown,<id> blown brake hose,failure to guide
+blown,<id> blown crowd cylinder hose,failure to guide
+blown,<id> blown extension line from position <num>,failure to guide
+blown,<id> blown hose in hitch,failure to guide
+blown,<id> blown hose on boom,failure to guide
+blown,<id> blown lift cylinder o-ring,failure to cover
+blown,<id> blown light on boom,failure to emit
+blown,<id> blown o-ring off steering hose,failure to cover
+blown,<id> blown o-ring on left hand lift cylinder,failure to cover
+blown,<id> blown o-ring on steering hose,failure to cover
+blown,<id> blown oil cooler hose - <num> x <num> <num> metre,failure to guide
+blown,<id> blown position <num> tyre,failure to guide
+blown,<id> blown right hand bucket cylinder hose,failure to guide
+blown,<id> blown steering hose,failure to guide
+blown,<id> blown steering pump hose,failure to guide
+broken,<id> boarding gate hinge broken,failure to hold
+not working,<id> boarding gate latch not working,failure to control
+not working,<id> boarding ladder not working,failure to interface
+boost fault,<id> boost fault,failure to do something
+fault,<id> boost fault,failure to do something
+fault,<id> brake release fault,failure to do something
+release fault,<id> brake release fault,failure to do something
+error,<id> brake temperature error,failure to do something
+temperature error,<id> brake temperature error,failure to do something
+broken,<id> broken air conditioner guard,failure to protect
+broken,<id> broken clamp on crowd cylinder hose TBC,failure to hold
+broken,<id> broken fuel cooler mounts,failure to hold
+broken,<id> broken grease plug,failure to control
+broken,<id> broken hinge,failure to hold
+broken,<id> broken joystick PO,failure to interact
+broken,<id> broken left hand side mirror,failure to guide
+broken,<id> broken mirror,failure to guide
+broken,<id> broken right hand side door window,failure to control
+broken,<id> broken ripper tooth,failure to do something
+broken,<id> broken weld on handrail,failure to cover
+cracked,<id> bucket cracked in arch near cancelled,failure to hold
+cracked,<id> cabin door window cracked,failure to control
+needs,<id> cabin needs resealing,failure to maintain
+needs,<id> cabin seat needs replacing,failure to maintain
+needs,<id> cabin window needs resealing,failure to maintain
+fault,<id> camera fault,failure to sense
+popped,<id> carousel popped bolt needs Loctite,failure to hold
+needs,<id> carousel popped bolt needs Loctite,failure to hold
+fault,<id> centrifugal oil filter fault,failure to do something
+blown,<id> change out blown o-ring on steering pump,failure to cover
+blown,<id> change out blown position <num> tyre,failure to guide
+blown,<id> change out blown steering hose,failure to guide
+broken,<id> change out broken bolt on brake pump,failure to hold
+broken,<id> change out broken prelube bracket,failure to hold
+broken,<id> change out broken stabilizer bar,failure to hold
+cracked,<id> change out cracked pipe on valve bank,failure to guide
+cracked,<id> change out cracked position <num> adaptor and tooth,failure to do something
+broken,<id> change out exhaust clamp broken on left hand side [t |],failure to hold
+cracked,<id> change out front upper window cracked,failure to control
+worn out,<id> change out position <num> and <num> tyre worn out,failure to guide
+not reading,<id> change out position <num> tyre - sensor not reading,failure to sense
+damage,<id> change out position <num> tyre damage,failure to guide
+unserviceable,<id> change out unserviceable jacket water pump,failure to generate
+unserviceable,<id> change out unserviceable left hand bucket cylinder hose,failure to guide
+unserviceable,<id> change out unserviceable position <num> tyre,failure to guide
+unserviceable,<id> change out unserviceable right hand clam cylinder hose,failure to guide
+unserviceable,<id> change out unserviceable right hand tilt cylinder,failure to drive
+unserviceable,<id> change out unserviceable swing brake cylinder,failure to drive
+worn,<id> change out worn position <num> tyre,failure to guide
+flat,<id> change position <num> flat tyre,failure to guide
+damage,<id> change position <num> tyre damage text,failure to guide
+charging fault,<id> charging fault,failure to do something
+fault,<id> charging fault,failure to do something
+charge fault,<id> check for charge fault,failure to do something
+fault,<id> check for charge fault,failure to do something
+shutdown fault,<id> check repair shutdown fault,failure to do something
+fault,<id> check repair shutdown fault,failure to do something
+pressure fault,<id> chord pressure fault,failure to do something
+fault,<id> chord pressure fault,failure to do something
+unserviceable,<id> compressor oil pressure switch unserviceable,failure to sense
+fault,<id> contactor fault,failure to control
+unserviceable,<id> control valve unserviceable see long text,failure to control
+needs,<id> coolant pipe clamps needs fitting TBC,failure to support
+cracked,<id> cords cracked at <id> and <id>,failure to hold
+cracked,<id> cracked front window,failure to control
+cracked,<id> cracked fuel tank,failure to store
+cracked,<id> cracked hydraulic pipe,failure to guide
+cracked,<id> cracked steering tank suction tube,failure to guide
+cracked,<id> cracked suction tube,failure to guide
+cracked,<id> cracked walkway and handrails,failure to protect
+error,<id> crankcase error,failure to hold
+loose,<id> cutting edges loose,failure to do something
+need,<id> cutting edges need change out,failure to maintain
+damage,<id> damage to position <num> tyre,failure to guide
+damaged,<id> damaged position <num> tyre,failure to guide
+damaged,<id> damaged position <num> tyre and rim,failure to hold
+broken,<id> dash broken,failure to present
+fault,<id> diagnose / repair fuel fault,failure to do something
+fuel fault,<id> diagnose / repair fuel fault,failure to do something
+slow,<id> diagnose / repair slow steering,failure to control
+faults,<id> diagnose and repair spray faults,failure to generate
+error,<id> diagnose and repair torque converter temperature error,failure to do something
+temperature error,<id> diagnose and repair torque converter temperature error,failure to do something
+fault,<id> diagnose engine fault,failure to drive
+overheat fault,<id> diagnose transmission overheat fault,failure to do something
+fault,<id> diagnose transmission overheat fault,failure to do something
+slipping fault,<id> diagnose transmission slipping fault,failure to do something
+fault,<id> diagnose transmission slipping fault,failure to do something
+broken,<id> differential lock broken,failure to control
+out,<id> dogbone pin out,failure to hold
+need,<id> dragline air conditioner units need cleaning,failure to maintain
+broken,<id> drill out broken bolt see text,failure to hold
+broken,<id> driver's door top hinge broken,failure to hold
+fault,<id> drivers window fault,failure to control
+electrical fault,<id> electrical fault,failure to do something
+fault,<id> electrical fault,failure to do something
+electrical fault,<id> electrical fault in the <id>,failure to do something
+fault,<id> electrical fault in the <id>,failure to do something
+electrical faults,<id> electrical faults,failure to do something
+faults,<id> electrical faults,failure to do something
+fault,<id> electrical harness fault,failure to hold
+fuel fault,<id> repair fuel fault,failure to do something
+fault,<id> repair fuel fault,failure to do something
+faulty,<id> replace faulty brake sensor <num> task,failure to sense
+not working,speedometer not working,failure to sense
+failed,<id> failed PTO and auxiliary drive PO,failure to transform
+tripped,drag tripped on electrical,failure to generate
+temperature error,<id> position <num> brake temperature error,failure to do something
+error,<id> position <num> brake temperature error,failure to do something
+not working,front revolving light not working,failure to emit
+out of date,fire extinguisher out of date,failure to protect
+wired incorrectly,hoist motor <num> RTD wired incorrectly,failure to sense
+won't start,machine won't start,failure to do something
+blown,<id> replace blown implement hose,failure to guide
+blown,<id> replace blown right hand steering hose,failure to guide
+not working,crane not working,failure to generate
+unserviceable,grease pump unserviceable,failure to generate
+unserviceable,transmission fill / drain plug unserviceable,failure to control
+found,oil found in revolving frame,failure to hold
+fault,IOV fault on drag package,failure to present
+unserviceable,rear through shaft universal joint unserviceable,failure to guide
+requires,all lighting requires testing and tagging,failure to support
+excess play,steering cylinder bearings have excess play,failure to hold
+error,<num> volt supply error,failure to do something
+<num> volt supply error,<num> volt supply error,failure to do something
+supply error,<num> volt supply error,failure to do something
+unserviceable,<id> rear wiper motor unserviceable,failure to drive
+need,front right hand roller need to be fitted,failure to support
+needs,main isolator needs clean out,failure to maintain
+cracked,<id> replace transmission - cracked,failure to transform
+sounds continuously,<id> park brake alarm sounds continuously,failure to present
+not working,system <id> pump pressure gauge not working,failure to present
+unserviceable,<id> replace unserviceable differential drain plugs,failure to control
+fault,<id> park brake alarm fault,failure to do something
+alarm fault,<id> park brake alarm fault,failure to do something
+fault,<id> investigate / repair no gear fault,failure to transform
+cracked,handrail above battery box cracked,failure to protect
+cracked,<id> front window cracked replace,failure to control
+out,VIMS keypad light out,failure to emit
+fault,diagnose and repair ladder fault,failure to interface
+damaged,<id> replace damaged position <num> tyre and position <num>,failure to guide
+ground fault,ground fault welding board,failure to hold
+fault,ground fault welding board,failure to hold
+requires,<id> grease gauges requires replacing,failure to maintain
+loose,<id> fire extinguisher bracket on deck loose,failure to hold
+fault,<id> trace logic box fault,failure to do something
+logic box fault,<id> trace logic box fault,failure to do something
+require,rear door struts require replacing,failure to maintain
+not meshing,mechanical - PTO not meshing,failure to transform
+pressure fault,swing brake pressure fault,failure to restrict
+fault,swing brake pressure fault,failure to restrict
+no,<id> tail pulley has no grease lines,failure to guide
+missing,replace missing cutting edge,failure to do something
+cracked,<id> replace <num> x cracked windows,failure to control
+fault,ground fault in propel,failure to do something
+ground fault,ground fault in propel,failure to do something
+fault,drag generator fault,failure to generate
+broken,parts washer pump broken,failure to generate
+blown,position <num> tyre blown,failure to guide
+fault,<id> grease system fault,failure to protect
+fault,<id> investigate auto-lube fault,failure to protect
+on,brake warning light on,failure to emit
+faulty,<id> faulty fuel pressure sensor,failure to sense
+worn,bottom steering shaft universal joint worn,failure to guide
+unserviceable,right hand bobbin roller unserviceable,failure to hold
+damaged,<id> replace damaged tyre on position <num>,failure to guide
+fault,<id> repair brake fault,failure to restrict
+trip,synchronous motor <num> trip,failure to drive
+fault,walk motor <num> brake fault,failure to restrict
+fault,<id> tray fault,failure to hold
+hydraulic fault,<id> investigate / repair hydraulic fault,failure to do something
+fault,<id> investigate / repair hydraulic fault,failure to do something
+require,steering hub caps require replacing,failure to maintain
+cracked,bulk fuel tank cracked and leaking,failure to store
+not counting,swing resolver not counting,failure to sense
+fault,<id> repair gear fault,failure to transform
+fault,<id> repair air conditioner and wiring fault,failure to guide
+damage,<id> replace damage auto-greaser door,failure to control
+fault,swing resolver fault,failure to sense
+needs,<id> investigate / repair joystick needs repair,failure to maintain
+fault,drag chain fault,failure to guide
+broken,<id> headboard welds broken / cracked,failure to cover
+cracked,<id> headboard welds broken / cracked,failure to cover
+need,hoist brake switches need adjusting,failure to maintain
+worn,change out position <num> tyre worn,failure to guide
+unserviceable,cabin jacking cylinder ends unserviceable,failure to hold
+blown,<id> replace blown main pump hose,failure to guide
+need,tracks need adjusting,failure to maintain
+cracked,<id> replace cracked transmission dropbox,failure to transform
+no excitation,no excitation on hoist,failure to generate
+broken,front window roller blind broken,failure to restrict
+damaged,<id> replace position <num> tyre damaged,failure to guide
+unserviceable,cabin seat unserviceable needs replacing,failure to store
+needs,cabin seat unserviceable needs replacing,failure to store
+error,diagnose VIMS error,failure to present
+mismatched,<id> replace position <num> tyre - mismatched,failure to guide
+out of adjustment,<id> hoist brake number <num> position out of adjustment,failure to restrict
+requires,PTO shaft requires replacing,failure to maintain
+missing,<id> - <id> missing poppet valve,failure to control
+needs,<id> - AM / FM radio needs new aerial,failure to transform
+fault,<id> - Tele-Remote camera fault,failure to sense
+fault,<id> - Tele-Remote cameras fault - text -,failure to sense
+fault,<id> - Tele-Remote fault,failure to interact
+faults,<id> - Tele-Remote faults,failure to interact
+issues,<id> - Tele-Remote issues,failure to interact
+corroded,<id> - air conditioner compressor corroded,failure to generate
+unserviceable,<id> - air conditioner compressor unserviceable,failure to generate
+fault,<id> - air conditioner fault,failure to emit
+no good,<id> - air conditioner no good,failure to emit
+not working,<id> - air horn not working,failure to present
+needs,<id> - brake hose needs to be replaced,failure to maintain
+blown,<id> - change out blown hose,failure to guide
+broken,<id> - change out broken grease lines,failure to guide
+faulty,<id> - change out number <num> faulty injector assembly,failure to generate
+plugged,<id> - change out plugged fuel filters,failure to do something
+worn,<id> - change out worn ripper tip ripper tip,failure to do something
+broken,<id> - emergency gate latch broken,failure to control
+blown,<id> - engine bay light blown,failure to emit
+shutdown fault,<id> - engine shutdown fault,failure to drive
+blown,<id> - front headlight blown,failure to emit
+missing,<id> - fuel breather missing,failure to do something
+missing,<id> - fuel cap is missing,failure to cover
+fail,<id> - grease system fail,failure to protect
+fault,<id> - grease system fault,failure to protect
+fault,<id> - ladder fault,failure to interface
+cracked,<id> - left hand corner bonnet cracked,failure to cover
+fault,<id> - low power fault,failure to do something
+low power fault,<id> - low power fault,failure to do something
+power fault,<id> - low power fault,failure to do something
+blown,<id> - lower left hand headlight blown,failure to emit
+fault,<id> - lube fault,failure to protect
+does not self assign,<id> - modular does not self assign,failure to do something
+no reception,<id> - no reception on AM / FM radio,failure to transform
+worn,<id> - operators seat worn padding,failure to protect
+fault,<id> - park brake fault,failure to restrict
+fault,<id> - rectify low power fault,failure to do something
+low power fault,<id> - rectify low power fault,failure to do something
+power fault,<id> - rectify low power fault,failure to do something
+blown,<id> - repair blown air conditioner hose,failure to guide
+cracked,<id> - repair cracked steering tank mo,failure to store
+fault,<id> - repair position <num> overstroke fault,failure to do something
+overstroke fault,<id> - repair position <num> overstroke fault,failure to do something
+fault,<id> - repair transmission fault,failure to transform
+fault,<id> - repair tray up fault,failure to do something
+tray up fault,<id> - repair tray up fault,failure to do something
+broken,<id> - repaired <num> x broken lines,failure to guide
+blocked,<id> - replace blocked dryer,failure to do something
+blown,<id> - replace blown hose,failure to guide
+blown,<id> - replace blown work lights,failure to emit
+broken,<id> - replace broken onside mirror,failure to guide
+cracked,<id> - replace cracked exhaust shield,failure to protect
+failed,<id> - replace failed air conditioner compressor,failure to generate
+broken,<id> - ripper shank broken,failure to do something
+fault,<id> <id> charge fault,failure to do something
+charge fault,<id> <id> charge fault,failure to do something
+shutdown fault,<id> <id> engine shutdown fault,failure to do something
+fault,<id> <id> engine shutdown fault,failure to do something
+intermittent fault,<id> <id> grease system has intermittent fault,failure to do something
+fault,<id> <id> grease system has intermittent fault,failure to do something
+no,<id> <id> steering pin no grease text,failure to hold
+temperature fault,<id> <id> transmission temperature fault,failure to transform
+fault,<id> <id> transmission temperature fault,failure to transform
+error,<id> <num> V supply error,failure to do something
+<num> V supply error,<id> <num> V supply error,failure to do something
+supply error,<id> <num> V supply error,failure to do something
+error,<id> <num> injector error,failure to generate
+error,<id> <num> v supply error,failure to do something
+<num> v supply error,<id> <num> v supply error,failure to do something
+supply error,<id> <num> v supply error,failure to do something
+error,<id> <num> v supply error issue,failure to do something
+<num> v supply error,<id> <num> v supply error issue,failure to do something
+supply error,<id> <num> v supply error issue,failure to do something
+broken,<id> Bradken to repair broken clam,failure to store
+failed,<id> CW PTO universal joint failed,failure to transform
+snapped,<id> CW engine water pump snapped shaft,failure to guide
+failed,<id> CW transmission failed,failure to transform
+worn,<id> GET change out worn cutting edges,failure to do something
+fault,<id> Tele-Remote fault,failure to interact
+plugged,<id> VIMS fuel filter plugged,failure to do something
+broken,<id> aftercooler tank gauge broken,failure to present
+temperature error,<id> aftercooler temperature error,failure to do something
+error,<id> aftercooler temperature error,failure to do something
+broken,<id> air conditioner belt broken,failure to guide
+not working,<id> air conditioner compressor not working,failure to generate
+unserviceable,<id> air conditioner fan unserviceable - fit new,failure to generate
+fault,<id> air conditioner fault,failure to emit
+needs,<id> air conditioner needs a boost not cold,failure to do something
+not cold,<id> air conditioner needs a boost not cold,failure to do something
+not cold,<id> air conditioner not cold PO,failure to emit
+electrical faults,<id> air conditioner not cold electrical faults,failure to do something
+not cold,<id> air conditioner not cold electrical faults,failure to do something
+faults,<id> air conditioner not cold electrical faults,failure to do something
+unserviceable,<id> air conditioner pressure switch unserviceable,failure to sense
+needs,number <num> right hand air brake line needs replacing,failure to maintain
+unserviceable,[ shutdown ] vinyl flooring unserviceable,failure to cover
+not working,air conditioner fan speed resistor not working <num> and <num>,failure to restrict
+blown,air brake line blown - requires replacing,failure to guide
+requires,air brake line blown - requires replacing,failure to guide
+no,batteries have no charge,failure to do something
+dropped,battery unserviceable dropped cell replace,failure to store
+unserviceable,battery unserviceable dropped cell replace,failure to store
+tight,blade control cable tight,failure to guide
+blown,blown air conditioner fuse,failure to protect
+broken,broken proximity sensor tag - carosell,failure to present
+broken,broken wire on speaker,failure to guide
+not working,cabin side weightometer not working,failure to sense
+missing,cabin smoke detector missing,failure to hold
+broken,collect broken tooth,failure to do something
+melted,constant voltage transformer melted,failure to transform
+on,contamination alarm on,failure to sense
+cracked,cracked power point in cabin,failure to interface
+not working,dry cell not working properly <id>,failure to store
+unserviceable,depth counter unserviceable,failure to sense
+not working,diagnose / repair right hand scoreboard not working,failure to present
+not working,<sensitive> depth counter not working,failure to sense
+needs,dust flap on cabin side of mast needs extending,failure to support
+not working,electric propel siren not working,failure to emit
+broken,earth wire broken on bottom of radiator,failure to control
+damaged,equipment damaged ( terminal box ),failure to interface
+missing,flag missing,failure to present
+broken,fuel filter water separator housing broken,failure to hold
+unserviceable,generator flow regulator unserviceable,failure to restrict
+locked,heat up locked steels,failure to guide
+unserviceable,heater hose in cab roof unserviceable,failure to guide
+broken,ignition switch broken replace,failure to sense
+sticking,ignition switch sticking,failure to sense
+fault,investigate main transformer overload fault,failure to do something
+overload fault,investigate main transformer overload fault,failure to do something
+broken,key broken in ignition switch,failure to interact
+unserviceable,left hand chain guide unserviceable,failure to guide
+worn,left hand chain guide worn at the top,failure to guide
+unserviceable,left hand PTO pump chip sensor harness unserviceable,failure to hold
+unserviceable,microwave oven unserviceable,failure to emit
+on,number <num> pump contamination switch on,failure to sense
+unserviceable,number <num> slew pump contamination switch unserviceable,failure to sense
+low,position <num> pump cavity low,failure to interface
+broken,power step control cable broken,failure to guide
+unserviceable,pump drive box coupling and shaft unserviceable,failure to transform
+blocked,radiator blocked with grass,failure to transform
+unserviceable,radiator sight glasses unserviceable,failure to present
+unserviceable,remove unserviceable air separator,failure to do something
+cracked,repair cracked baffle in hydraulic tank,failure to control
+cracked,repair cracked roof skin left hand side exhaust,failure to cover
+faulty,repair faulty safety valve,failure to protect
+cracked,repair left hand scoreboard base cracked,failure to hold
+worn,repair worn centrifuge filter,failure to do something
+broken,replace broken earth terminal,failure to control
+cracked,replace cracked glass in entry door,failure to interface
+cracked,replace cracked water separator,failure to do something
+seized,replace seized air conditioner control cable,failure to guide
+shorted,replace shorted diode RPC <num>,failure to restrict
+unserviceable,replace unserviceable grease distributor,failure to protect
+unserviceable,replace unserviceable chip indicators,failure to sense
+unserviceable,replace unserviceable ignition switch,failure to sense
+unserviceable,replace unserviceable transmission screen and magnet,failure to drive
+cracked,rock breaker cracked,failure to do something
+cracked,rock breaker in bucket cracked at base,failure to hold
+missing,safety flag missing,failure to present
+unserviceable,siren unserviceable,failure to emit
+not communicating,troubleshoot smart meter not communicating,failure to sense
+trip,transformer trip,failure to transform
+doesn't turn on,TV monitor doesn't turn on,failure to present
+no signal,TV monitor has no signal,failure to present
+fault,voltage regulator fuse fault,failure to protect
+unserviceable,weightometer display on trailer unserviceable,failure to present
+unserviceable,will not start - batteries unserviceable,failure to store
+will not start,will not start - batteries unserviceable,failure to store
+needs,window frame needs repair,failure to maintain
+unserviceable,wiper fuse unserviceable,failure to protect

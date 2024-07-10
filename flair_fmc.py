@@ -6,7 +6,7 @@ from flair.models import TextClassifier
 from flair.data import Sentence
 import os
 
-def train_fmc(dir_name='datasets/FMC-MWO2KG'):
+def train_fmc(dir_name='datasets/FMC-MWO2KG', output_file='fmc-mwo2kg'):
     current_path = os.path.dirname(os.path.abspath(__file__))
 
     # 1. what label do we want to predict?
@@ -16,7 +16,7 @@ def train_fmc(dir_name='datasets/FMC-MWO2KG'):
     column_name_map = {0: 'text', 1: "label_failure_mode"}
     data_folder = os.path.join(current_path, dir_name)
     corpus = CSVClassificationCorpus(data_folder, column_name_map, label_type=label_type, delimiter=",")
-    print(corpus)
+
     # 3. create the label dictionary
     label_dict = corpus.make_label_dictionary(label_type=label_type)
 
@@ -44,7 +44,7 @@ def train_fmc(dir_name='datasets/FMC-MWO2KG'):
     trainer = ModelTrainer(classifier, corpus)
 
     # 7. start training
-    trainer.train(os.path.join(current_path, 'resources/taggers/failure-mode-classifier'),
+    trainer.train(os.path.join(current_path, f"FlairModels/{output_file}"),
                     learning_rate=0.1,
                     mini_batch_size=32,
                     #anneal_factor=0.5,
@@ -52,8 +52,8 @@ def train_fmc(dir_name='datasets/FMC-MWO2KG'):
                     patience=5,
                     embeddings_storage_mode='gpu')
 
-def test_fmc(dir_name='datasets/FMC-MWO2KG'):
-    model = TextClassifier.load('resources/taggers/failure-mode-classifier/final-model.pt')
+def test_fmc(dir_name='datasets/FMC-MWO2KG', output_file='fmc-mwo2kg'):
+    model = TextClassifier.load(f'FlairModels/{output_file}/final-model.pt')
 
     test_sents = []
     with open(f'{dir_name}/test.txt', 'r', encoding='utf-8') as f:
@@ -72,21 +72,43 @@ def test_fmc(dir_name='datasets/FMC-MWO2KG'):
         sent['prediction'] = label
         sent['confidence'] = conf
 
-    with open('flair_output.csv', 'w', encoding='utf-8') as f:
+    with open(f'FlairResults/{output_file}.csv', 'w', encoding='utf-8') as f:
         f.write(','.join(test_sents[0].keys()))
         f.write('\n')
         for sent in test_sents:
             f.write(','.join(sent.values()))
             f.write('\n')
 
-    print("Results written to flair_output.csv.")
+    print(f"Results written to FlairResults/{output_file}.csv.")
+    
+def predict_fmc(filename, output_file='fmc-mwo2kg'):
+    model = TextClassifier.load(f'FlairModels/{output_file}/final-model.pt')
+
+    test_sents = []
+    with open(filename, 'r', encoding='utf-8') as f:
+        for line in f:
+            input = line.strip()
+            sent = Sentence(input)
+            model.predict(sent)
+            label = str(sent.labels[0]).split(' (', maxsplit=1)[0]
+            conf = str(sent.labels[0]).split(' (')[1].split(')')[0]
+            test_sents.append({ 'input': input, 'prediction': label, 'confidence': conf})
+    
+    with open('predictions.csv', 'w', encoding='utf-8') as f:
+        f.write(','.join(test_sents[0].keys()))
+        f.write('\n')
+        for sent in test_sents:
+            f.write(','.join(sent.values()))
+            f.write('\n')  
 
 if __name__=="__main__":
-	# train_fmc(dir_name="datasets/FMC-MWO2KG")
-    train_fmc(dir_name="LLM_data/fs_all")
-    # train_fmc(dir_name="LLM_fmc_data/fs_specific")
-    # train_fmc(dir_name="LLM_fmc_data/no_fewshot")
-    # train_fmc(dir_name="LLM_fmc_data/ft_specific1")
-    # train_fmc(dir_name="LLM_fmc_data/ft_specific2")
-	# test_fmc()
- 	# test_fmc("LLM_data")
+    # train_fmc(dir_name="datasets/FMC-MWO2KG", output_file='fmc-mwo2kg')
+    # test_fmc(output_file='fmc-mwo2kg')
+ 
+    # train_fmc(dir_name="LLM_fmc_data/fs_specific", output_file='fmc-fs_specific')
+    # test_fmc(output_file='fmc-fs_specific')
+    
+    # train_fmc(dir_name="LLM_fmc_data/count", output_file='fmc-count')
+    # test_fmc(output_file='fmc-count')
+    
+    predict_fmc("gold_events.txt", output_file='fmc-mwo2kg')

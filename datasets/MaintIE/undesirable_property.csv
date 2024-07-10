@@ -1,0 +1,33 @@
+Event,Text,Failure Mode
+crack,<id> crack in blade liner left hand side,failure to protect
+crack,<id> crack in boom <id> chord,failure to hold
+crack,<id> crack in fuel tank,failure to store
+crack,<id> crack in headboard,failure to hold
+crack,<id> crack in lower centre of windscreen,failure to control
+crack,<id> crack in windscreen,failure to control
+crack,<id> crack onside rock deflector,failure to protect
+cracks,<id> cracks in back right hand side handrail,failure to protect
+cracks,<id> cracks in decking,failure to hold
+cracks,<id> cracks in diagonal braces in front,failure to hold
+cracks,<id> cracks in fire suppression mounts,failure to hold
+cracks,<id> cracks in headboard,failure to hold
+cracks,<id> cracks in the dirt chute,failure to guide
+cracks,repair cracks in mud bucket,failure to store
+crack,<num> - cable gantry crack repairs,failure to hold
+noisy,bearing noisy,failure to do something
+crack,<id> repair right hand fuel tank crack,failure to do something
+cracks,<id> repair cracks on stick,failure to drive
+cracks,<id> repair boom cracks left hand side,failure to do something
+crack,<id> - left hand side boom foot crack repair,failure to do something
+noisy,<id> - noisy hydraulic lift cylinder,failure to drive
+crack,<id> - repair right hand track frame crack,failure to hold
+cracks,<id> - stick cracks,failure to do something
+crack,<id> <id> chord is leaking air from crack,failure to do something
+crack,crack repairs left hand window frame,failure to hold
+hole,hole in door frame,failure to do something
+crack,<num> glass window has large crack,failure to restrict
+crack,repair crack in right hand side of rear cross member,failure to maintain
+crack,repair chassis crack at right hand rear cross member,failure to maintain
+crack,repair crack in rear cross member,failure to maintain
+crack,repair crack on left hand front heat shield,failure to maintain
+cracks,repair cracks in mast cross braces,failure to maintain

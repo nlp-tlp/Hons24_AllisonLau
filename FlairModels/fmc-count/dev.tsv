@@ -1,0 +1,603 @@
+vibration causing electrical issues
+ - Gold: Vibration
+ - Pred: Vibration
+
+wire corrosion
+ - Gold: Electrical
+ - Pred: Breakdown
+ -> MISMATCH!
+
+excessive output temperature
+ - Gold: High output
+ - Pred: High output
+
+uncontrolled movements
+ - Gold: Failure to function
+ - Pred: Failure to function
+
+unresponsive to opening mechanism
+ - Gold: Failure to open
+ - Pred: Failure to open
+
+no discharge
+ - Gold: Plugged / choked
+ - Pred: Plugged / choked
+
+voltage spike
+ - Gold: Electrical
+ - Pred: Electrical
+
+sudden failure
+ - Gold: Other
+ - Pred: Spurious stop
+ -> MISMATCH!
+
+non-responsive interface
+ - Gold: Failure to function
+ - Pred: Failure to function
+
+restricted flow rate
+ - Gold: Plugged / choked
+ - Pred: Plugged / choked
+
+dripping perilously
+ - Gold: Leaking
+ - Pred: Leaking
+
+fails to come to a stop
+ - Gold: Failure to stop on demand
+ - Pred: Failure to stop on demand
+
+no crank when starting
+ - Gold: Failure to start on demand
+ - Pred: Failure to start on demand
+
+vibration affecting predictive maintenance
+ - Gold: Vibration
+ - Pred: Vibration
+
+fails to stop at all
+ - Gold: Failure to stop on demand
+ - Pred: Failure to stop on demand
+
+fails to halt
+ - Gold: Failure to stop on demand
+ - Pred: Failure to stop on demand
+
+broken drive chain
+ - Gold: Failure to rotate
+ - Pred: Failure to rotate
+
+thermal load imbalance
+ - Gold: Overheating
+ - Pred: Overheating
+
+hissing squeal
+ - Gold: Noise
+ - Pred: Noise
+
+erratic behavior during testing
+ - Gold: Erratic output
+ - Pred: Erratic output
+
+grinding squeak
+ - Gold: Noise
+ - Pred: Noise
+
+latch not fully retracting when closing
+ - Gold: Failure to close
+ - Pred: Failure to close
+
+heat rejection issue
+ - Gold: Overheating
+ - Pred: Overheating
+
+abnormal noise
+ - Gold: Other
+ - Pred: Noise
+ -> MISMATCH!
+
+contaminated air intake
+ - Gold: Contamination
+ - Pred: Contamination
+
+electrical short
+ - Gold: Breakdown
+ - Pred: Electrical
+ -> MISMATCH!
+
+output not meeting output requirements
+ - Gold: Low output
+ - Pred: Low output
+
+cracked roof panel
+ - Gold: Structural deficiency
+ - Pred: Structural deficiency
+
+vibration affecting alignment accuracy
+ - Gold: Vibration
+ - Pred: Vibration
+
+noisy output fluctuations
+ - Gold: Erratic output
+ - Pred: Erratic output
+
+loud knocking
+ - Gold: Noise
+ - Pred: Noise
+
+stuck closed and unyielding
+ - Gold: Failure to open
+ - Pred: Failure to open
+
+stops operation abruptly
+ - Gold: Spurious stop
+ - Pred: Spurious stop
+
+unsteady operation
+ - Gold: Failure to function
+ - Pred: Other
+ -> MISMATCH!
+
+sudden operational breakdown
+ - Gold: Spurious stop
+ - Pred: Spurious stop
+
+choked system
+ - Gold: Plugged / choked
+ - Pred: Plugged / choked
+
+thermal protection failure
+ - Gold: Overheating
+ - Pred: Overheating
+
+vibration affecting nearby equipment
+ - Gold: Vibration
+ - Pred: Vibration
+
+vibration during deceleration
+ - Gold: Vibration
+ - Pred: Vibration
+
+engine not starting after setting for a while
+ - Gold: Failure to start on demand
+ - Pred: Failure to start on demand
+
+unresponsive sensors
+ - Gold: Failure to function
+ - Pred: Failure to function
+
+surging
+ - Gold: Electrical
+ - Pred: Plugged / choked
+ -> MISMATCH!
+
+motor burnt out
+ - Gold: Breakdown
+ - Pred: Failure to rotate
+ -> MISMATCH!
+
+does not obey stop order
+ - Gold: Failure to stop on demand
+ - Pred: Failure to stop on demand
+
+gauge erratic movements
+ - Gold: Abnormal instrument reading
+ - Pred: Abnormal instrument reading
+
+door not snugly closed
+ - Gold: Failure to close
+ - Pred: Failure to close
+
+unexpected cut-off
+ - Gold: Spurious stop
+ - Pred: Spurious stop
+
+gauge display flickering
+ - Gold: Abnormal instrument reading
+ - Pred: Abnormal instrument reading
+
+output surpassing critical thresholds
+ - Gold: High output
+ - Pred: High output
+
+hot spot detected
+ - Gold: Overheating
+ - Pred: Overheating
+
+requires reconditioning
+ - Gold: Minor in-service problems
+ - Pred: Minor in-service problems
+
+latch not clicking into place
+ - Gold: Failure to close
+ - Pred: Failure to close
+
+exhaust valve stuck open
+ - Gold: Breakdown
+ - Pred: Breakdown
+
+sudden malfunctions
+ - Gold: Failure to function
+ - Pred: Spurious stop
+ -> MISMATCH!
+
+not passing through
+ - Gold: Plugged / choked
+ - Pred: Plugged / choked
+
+no power to starter motor when starting
+ - Gold: Failure to start on demand
+ - Pred: Failure to start on demand
+
+thermal runaway risk
+ - Gold: Overheating
+ - Pred: Overheating
+
+non-operational state
+ - Gold: Failure to function
+ - Pred: Plugged / choked
+ -> MISMATCH!
+
+unusual odor coming from machinery
+ - Gold: Contamination
+ - Pred: Contamination
+
+starter not engaging with transmission
+ - Gold: Failure to start on demand
+ - Pred: Failure to start on demand
+
+stops suddenly
+ - Gold: Spurious stop
+ - Pred: Failure to stop on demand
+ -> MISMATCH!
+
+not rotating smoothly
+ - Gold: Minor in-service problems
+ - Pred: Minor in-service problems
+
+stops abruptly
+ - Gold: Spurious stop
+ - Pred: Failure to stop on demand
+ -> MISMATCH!
+
+high output pressure detected
+ - Gold: High output
+ - Pred: High output
+
+ignition key not working
+ - Gold: Failure to start on demand
+ - Pred: Failure to start on demand
+
+pump impeller bent
+ - Gold: Breakdown
+ - Pred: Breakdown
+
+noisy signal fluctuations
+ - Gold: Erratic output
+ - Pred: Erratic output
+
+relay switch defective
+ - Gold: Breakdown
+ - Pred: Failure to rotate
+ -> MISMATCH!
+
+output spike detected
+ - Gold: High output
+ - Pred: High output
+
+abnormally high output pressure
+ - Gold: High output
+ - Pred: High output
+
+door not fitting into frame when closed
+ - Gold: Failure to close
+ - Pred: Failure to close
+
+door not fitting into frame properly
+ - Gold: Failure to close
+ - Pred: Failure to close
+
+contaminated lubricating oil
+ - Gold: Contamination
+ - Pred: Contamination
+
+short circuit
+ - Gold: Breakdown
+ - Pred: Electrical
+ -> MISMATCH!
+
+output not meeting standards
+ - Gold: Low output
+ - Pred: Low output
+
+vibration during equipment validation
+ - Gold: Vibration
+ - Pred: Vibration
+
+needs retesting
+ - Gold: Minor in-service problems
+ - Pred: Minor in-service problems
+
+wire abrasion
+ - Gold: Electrical
+ - Pred: Failure to rotate
+ -> MISMATCH!
+
+starter solenoid jammed
+ - Gold: Breakdown
+ - Pred: Breakdown
+
+seepage hazardous
+ - Gold: Leaking
+ - Pred: Leaking
+
+metallic hum
+ - Gold: Noise
+ - Pred: Noise
+
+ceases to operate
+ - Gold: Spurious stop
+ - Pred: Failure to stop on demand
+ -> MISMATCH!
+
+split in retaining wall
+ - Gold: Structural deficiency
+ - Pred: Structural deficiency
+
+squealing buzz
+ - Gold: Noise
+ - Pred: Noise
+
+output surge beyond operational range
+ - Gold: High output
+ - Pred: High output
+
+unexplained issues
+ - Gold: Other
+ - Pred: Failure to function
+ -> MISMATCH!
+
+stops inconsistently
+ - Gold: Failure to stop on demand
+ - Pred: Failure to stop on demand
+
+loose connection
+ - Gold: Electrical
+ - Pred: Failure to rotate
+ -> MISMATCH!
+
+clogged
+ - Gold: Plugged / choked
+ - Pred: Plugged / choked
+
+closure not responding to handle turn
+ - Gold: Failure to close
+ - Pred: Failure to close
+
+gauge displaying extreme values
+ - Gold: Abnormal instrument reading
+ - Pred: Abnormal instrument reading
+
+gauge reading off-scale
+ - Gold: Abnormal instrument reading
+ - Pred: Abnormal instrument reading
+
+governor malfunction
+ - Gold: Breakdown
+ - Pred: Electrical
+ -> MISMATCH!
+
+corroded fence post
+ - Gold: Structural deficiency
+ - Pred: Structural deficiency
+
+jammed valve
+ - Gold: Plugged / choked
+ - Pred: Structural deficiency
+ -> MISMATCH!
+
+fails to release latch
+ - Gold: Failure to open
+ - Pred: Failure to open
+
+non-operational software
+ - Gold: Failure to function
+ - Pred: Failure to function
+
+cracked wall
+ - Gold: Structural deficiency
+ - Pred: Structural deficiency
+
+constant vibration
+ - Gold: Vibration
+ - Pred: Vibration
+
+melted components
+ - Gold: Electrical
+ - Pred: Overheating
+ -> MISMATCH!
+
+erratic behavior
+ - Gold: Other
+ - Pred: Other
+
+rusted steel sheeting
+ - Gold: Structural deficiency
+ - Pred: Structural deficiency
+
+engine not starting when cold
+ - Gold: Failure to start on demand
+ - Pred: Failure to start on demand
+
+unexpected end
+ - Gold: Spurious stop
+ - Pred: Spurious stop
+
+erratic output readings
+ - Gold: Erratic output
+ - Pred: Erratic output
+
+closure not locking securely
+ - Gold: Failure to close
+ - Pred: Failure to close
+
+random data anomalies
+ - Gold: Erratic output
+ - Pred: Erratic output
+
+voltage drop
+ - Gold: Breakdown
+ - Pred: Plugged / choked
+ -> MISMATCH!
+
+inadequate pumping capacity
+ - Gold: Low output
+ - Pred: Low output
+
+heat-induced fault
+ - Gold: Overheating
+ - Pred: Overheating
+
+missing data
+ - Gold: Failure to function
+ - Pred: Failure to function
+
+overheated
+ - Gold: Breakdown
+ - Pred: Electrical
+ -> MISMATCH!
+
+vibration resonance with natural frequencies
+ - Gold: Vibration
+ - Pred: Vibration
+
+intermittent cessation
+ - Gold: Spurious stop
+ - Pred: Spurious stop
+
+door not seating properly in frame
+ - Gold: Failure to close
+ - Pred: Failure to close
+
+dirt accumulation in critical areas
+ - Gold: Contamination
+ - Pred: Contamination
+
+loud rumbling
+ - Gold: Noise
+ - Pred: Noise
+
+leak spreading
+ - Gold: Leaking
+ - Pred: Leaking
+
+not working intermittently
+ - Gold: Minor in-service problems
+ - Pred: Minor in-service problems
+
+output not reaching desired levels
+ - Gold: Low output
+ - Pred: Low output
+
+high output alert activated
+ - Gold: High output
+ - Pred: High output
+
+needs realignment
+ - Gold: Minor in-service problems
+ - Pred: Minor in-service problems
+
+vibration affecting process control
+ - Gold: Vibration
+ - Pred: Vibration
+
+gauge erratic fluctuations
+ - Gold: Abnormal instrument reading
+ - Pred: Abnormal instrument reading
+
+abnormally high output readings
+ - Gold: High output
+ - Pred: Erratic output
+ -> MISMATCH!
+
+door not closing smoothly
+ - Gold: Failure to close
+ - Pred: Failure to close
+
+decreased efficiency
+ - Gold: Low output
+ - Pred: Low output
+
+obstructed
+ - Gold: Plugged / choked
+ - Pred: Plugged / choked
+
+motor burnt out
+ - Gold: Failure to rotate
+ - Pred: Failure to rotate
+
+output not meeting productivity levels
+ - Gold: Low output
+ - Pred: Low output
+
+vibration during acceleration
+ - Gold: Vibration
+ - Pred: Vibration
+
+damaged steel column
+ - Gold: Structural deficiency
+ - Pred: Structural deficiency
+
+immovable
+ - Gold: Plugged / choked
+ - Pred: Leaking
+ -> MISMATCH!
+
+governor spring stretched
+ - Gold: Breakdown
+ - Pred: Plugged / choked
+ -> MISMATCH!
+
+inconsistent signals
+ - Gold: Failure to function
+ - Pred: Other
+ -> MISMATCH!
+
+faulty switch
+ - Gold: Electrical
+ - Pred: Electrical
+
+door not aligning properly with latch
+ - Gold: Failure to close
+ - Pred: Failure to close
+
+grounding issue
+ - Gold: Electrical
+ - Pred: Electrical
+
+intermittent cutting off
+ - Gold: Spurious stop
+ - Pred: Leaking
+ -> MISMATCH!
+
+vibration leading to premature wear
+ - Gold: Vibration
+ - Pred: Vibration
+
+sudden interruptions
+ - Gold: Spurious stop
+ - Pred: Spurious stop
+
+output not effective
+ - Gold: Low output
+ - Pred: Low output
+
+seepage worsening
+ - Gold: Leaking
+ - Pred: Leaking
+
+not discharging
+ - Gold: Plugged / choked
+ - Pred: Plugged / choked
+
