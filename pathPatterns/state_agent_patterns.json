@@ -1,49 +1,6 @@
 [
     {
-        "object_type": "PhysicalObject/EmittingObject",
-        "object_name": "radiator",
-        "event_relation": "hasAgent",
-        "state_type": "State/UndesirableState",
-        "state_name": "blocked",
-        "object_relations": [
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/ControllingObject",
-                "object_name": "earth_wire"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/ControllingObject",
-                "object_name": "relief_valves"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/PresentingObject",
-                "object_name": "sight_glasses"
-            }
-        ]
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject",
-        "object_name": "battery",
-        "event_relation": "hasAgent",
-        "state_type": "State/UndesirableState",
-        "state_name": "dropped",
-        "object_relations": [
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/StoringObject",
-                "object_name": "cell"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/CoveringObject",
-                "object_name": "cover"
-            }
-        ]
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject",
+        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
         "object_name": "cabin",
         "event_relation": "hasAgent",
         "state_type": "State/UndesirableState",
@@ -51,167 +8,83 @@
         "object_relations": [
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/StoringObject",
+                "object_type": "PhysicalObject/StoringObject/OpenStationaryStoringObject",
                 "object_name": "seat"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/DrivingObject",
-                "object_name": "jacking_cylinder"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/SensingObject",
-                "object_name": "smoke_detector"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/CoveringObject",
-                "object_name": "roofing"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/HoldingObject",
-                "object_name": "door_frame"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/RestrictingObject",
-                "object_name": "blind"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/HoldingObject",
-                "object_name": "mounts"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/InterfacingObject",
-                "object_name": "power_point"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/ControllingObject",
-                "object_name": "door"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/ControllingObject",
-                "object_name": "window"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/CoveringObject",
-                "object_name": "seals"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/EmittingObject",
-                "object_name": "air_conditioner"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/ProtectingObject",
-                "object_name": "pressure_control_valve"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/CoveringObject",
+                "object_type": "PhysicalObject/CoveringObject/FinishingObject",
                 "object_name": "flooring"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/CoveringObject",
-                "object_name": "roof"
-            }
-        ]
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject",
-        "object_name": "cabin",
-        "event_relation": "hasAgent",
-        "state_type": "State/UndesirableState",
-        "state_name": "needs",
-        "object_relations": [
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/StoringObject",
-                "object_name": "seat"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/DrivingObject",
-                "object_name": "jacking_cylinder"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/SensingObject",
-                "object_name": "smoke_detector"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/CoveringObject",
+                "object_type": "PhysicalObject/CoveringObject/FinishingObject",
                 "object_name": "roofing"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/HoldingObject",
-                "object_name": "door_frame"
+                "object_type": "PhysicalObject/CoveringObject/FinishingObject",
+                "object_name": "roof"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/RestrictingObject",
-                "object_name": "blind"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/HoldingObject",
+                "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
                 "object_name": "mounts"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/InterfacingObject",
-                "object_name": "power_point"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/ControllingObject",
+                "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
                 "object_name": "door"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/ControllingObject",
-                "object_name": "window"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/CoveringObject",
-                "object_name": "seals"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/EmittingObject",
+                "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
                 "object_name": "air_conditioner"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/ProtectingObject",
+                "object_type": "PhysicalObject/HoldingObject/FramingObject",
+                "object_name": "door_frame"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/ProtectingObject/PressureProtectingObject",
                 "object_name": "pressure_control_valve"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/CoveringObject",
-                "object_name": "flooring"
+                "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
+                "object_name": "jacking_cylinder"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/CoveringObject",
-                "object_name": "roof"
+                "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
+                "object_name": "smoke_detector"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+                "object_name": "window"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/RestrictingObject/LocalClimateStabilisingObject",
+                "object_name": "blind"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/CoveringObject/InfillingObject",
+                "object_name": "seals"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/InterfacingObject/LowVoltageConnectingObject",
+                "object_name": "power_point"
             }
         ]
     },
     {
-        "object_type": "PhysicalObject/ProtectingObject",
+        "object_type": "PhysicalObject/ProtectingObject/EnvironmentProtectingObject",
         "object_name": "dust_flap",
         "event_relation": "hasAgent",
         "state_type": "State/UndesirableState",
@@ -219,220 +92,7 @@
         "object_relations": []
     },
     {
-        "object_type": "PhysicalObject/HoldingObject",
-        "object_name": "window_frame",
-        "event_relation": "hasAgent",
-        "state_type": "State/UndesirableState",
-        "state_name": "needs",
-        "object_relations": []
-    },
-    {
-        "object_type": "PhysicalObject/EmittingObject",
-        "object_name": "light",
-        "event_relation": "hasAgent",
-        "state_type": "State/UndesirableState",
-        "state_name": "needs",
-        "object_relations": [
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/GuidingObject",
-                "object_name": "wiring"
-            }
-        ]
-    },
-    {
-        "object_type": "PhysicalObject/ControllingObject",
-        "object_name": "isolator",
-        "event_relation": "hasAgent",
-        "state_type": "State/UndesirableState",
-        "state_name": "needs",
-        "object_relations": []
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject",
-        "object_name": "line",
-        "event_relation": "hasAgent",
-        "state_type": "State/UndesirableState",
-        "state_name": "needs",
-        "object_relations": []
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject",
-        "object_name": "hose",
-        "event_relation": "hasAgent",
-        "state_type": "State/UndesirableState",
-        "state_name": "needs",
-        "object_relations": [
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/CoveringObject",
-                "object_name": "oring"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/HoldingObject",
-                "object_name": "clamp"
-            }
-        ]
-    },
-    {
-        "object_type": "PhysicalObject/EmittingObject",
-        "object_name": "air_conditioner",
-        "event_relation": "hasAgent",
-        "state_type": "State/UndesirableState",
-        "state_name": "needs",
-        "object_relations": [
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/GuidingObject",
-                "object_name": "belts"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/GuidingObject",
-                "object_name": "hose"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/ProtectingObject",
-                "object_name": "fuse"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/ProtectingObject",
-                "object_name": "guard"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/RestrictingObject",
-                "object_name": "air_outlet"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/GuidingObject",
-                "object_name": "belt"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/DrivingObject",
-                "object_name": "drive"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/SensingObject",
-                "object_name": "pressure_switch"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/GuidingObject",
-                "object_name": "control_cable"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/SensingObject",
-                "object_name": "thermostat"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/GeneratingObject",
-                "object_name": "blower"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/GeneratingObject",
-                "object_name": "fan"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/CoveringObject",
-                "object_name": "cover"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/EmittingObject",
-                "object_name": "condenser"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/TransformingObject",
-                "object_name": "accessory_drive"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/GeneratingObject",
-                "object_name": "compressor"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/ControllingObject",
-                "object_name": "louver"
-            }
-        ]
-    },
-    {
-        "object_type": "PhysicalObject/StoringObject",
-        "object_name": "seat",
-        "event_relation": "hasAgent",
-        "state_type": "State/UndesirableState",
-        "state_name": "needs",
-        "object_relations": []
-    },
-    {
-        "object_type": "PhysicalObject/HumanInteractionObject",
-        "object_name": "joystick",
-        "event_relation": "hasAgent",
-        "state_type": "State/UndesirableState",
-        "state_name": "needs",
-        "object_relations": []
-    },
-    {
-        "object_type": "PhysicalObject/ControllingObject",
-        "object_name": "window",
-        "event_relation": "hasAgent",
-        "state_type": "State/UndesirableState",
-        "state_name": "needs",
-        "object_relations": [
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/RestrictingObject",
-                "object_name": "roller_blind"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/CoveringObject",
-                "object_name": "rubber"
-            }
-        ]
-    },
-    {
-        "object_type": "PhysicalObject/TransformingObject",
-        "object_name": "AM__FM_radio",
-        "event_relation": "hasAgent",
-        "state_type": "State/UndesirableState",
-        "state_name": "needs",
-        "object_relations": [
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/TransformingObject",
-                "object_name": "aerial"
-            },
-            {
-                "relation": "isA",
-                "object_type": "PhysicalObject/TransformingObject",
-                "object_name": "radio"
-            }
-        ]
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject",
-        "object_name": "clamps",
-        "event_relation": "hasAgent",
-        "state_type": "State/UndesirableState",
-        "state_name": "needs",
-        "object_relations": []
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject",
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "object_name": "bolt",
         "event_relation": "hasAgent",
         "state_type": "State/UndesirableState",
@@ -440,151 +100,304 @@
         "object_relations": []
     },
     {
-        "object_type": "PhysicalObject/MatterProcessingObject",
-        "object_name": "cutting_edges",
+        "object_type": "PhysicalObject/HoldingObject/PositioningObject",
+        "object_name": "clamps",
         "event_relation": "hasAgent",
         "state_type": "State/UndesirableState",
-        "state_name": "need",
+        "state_name": "needs",
         "object_relations": []
     },
     {
-        "object_type": "PhysicalObject/HoldingObject",
-        "object_name": "roller",
+        "object_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
+        "object_name": "AM__FM_radio",
         "event_relation": "hasAgent",
         "state_type": "State/UndesirableState",
-        "state_name": "need",
+        "state_name": "needs",
         "object_relations": [
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/HoldingObject",
-                "object_name": "bracket"
+                "object_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
+                "object_name": "aerial"
             },
             {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/HoldingObject",
-                "object_name": "bearings"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/HoldingObject",
-                "object_name": "taperlock"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/HoldingObject",
-                "object_name": "bearing"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/HoldingObject",
-                "object_name": "path_rails"
+                "relation": "isA",
+                "object_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
+                "object_name": "radio"
             }
         ]
     },
     {
-        "object_type": "PhysicalObject/EmittingObject",
-        "object_name": "air_conditioner",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "hose",
         "event_relation": "hasAgent",
         "state_type": "State/UndesirableState",
-        "state_name": "need",
+        "state_name": "needs",
         "object_relations": [
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/GuidingObject",
-                "object_name": "belts"
+                "object_type": "PhysicalObject/HoldingObject/PositioningObject",
+                "object_name": "clamp"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/GuidingObject",
-                "object_name": "hose"
+                "object_type": "PhysicalObject/CoveringObject/InfillingObject",
+                "object_name": "oring"
+            }
+        ]
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "line",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "object_relations": []
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
+        "object_name": "cabin",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "object_relations": [
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/StoringObject/OpenStationaryStoringObject",
+                "object_name": "seat"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/ProtectingObject",
-                "object_name": "fuse"
+                "object_type": "PhysicalObject/CoveringObject/FinishingObject",
+                "object_name": "flooring"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/ProtectingObject",
-                "object_name": "guard"
+                "object_type": "PhysicalObject/CoveringObject/FinishingObject",
+                "object_name": "roofing"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/RestrictingObject",
-                "object_name": "air_outlet"
+                "object_type": "PhysicalObject/CoveringObject/FinishingObject",
+                "object_name": "roof"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/GuidingObject",
-                "object_name": "belt"
+                "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+                "object_name": "mounts"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/DrivingObject",
-                "object_name": "drive"
+                "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+                "object_name": "door"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/SensingObject",
-                "object_name": "pressure_switch"
+                "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+                "object_name": "air_conditioner"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/GuidingObject",
-                "object_name": "control_cable"
+                "object_type": "PhysicalObject/HoldingObject/FramingObject",
+                "object_name": "door_frame"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/SensingObject",
-                "object_name": "thermostat"
+                "object_type": "PhysicalObject/ProtectingObject/PressureProtectingObject",
+                "object_name": "pressure_control_valve"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/GeneratingObject",
-                "object_name": "blower"
+                "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
+                "object_name": "jacking_cylinder"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/GeneratingObject",
-                "object_name": "fan"
+                "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
+                "object_name": "smoke_detector"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/CoveringObject",
-                "object_name": "cover"
+                "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+                "object_name": "window"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/EmittingObject",
-                "object_name": "condenser"
+                "object_type": "PhysicalObject/RestrictingObject/LocalClimateStabilisingObject",
+                "object_name": "blind"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/TransformingObject",
+                "object_type": "PhysicalObject/CoveringObject/InfillingObject",
+                "object_name": "seals"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/InterfacingObject/LowVoltageConnectingObject",
+                "object_name": "power_point"
+            }
+        ]
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "air_conditioner",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "object_relations": [
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
                 "object_name": "accessory_drive"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/GeneratingObject",
+                "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
+                "object_name": "fuse"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+                "object_name": "belt"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+                "object_name": "belts"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/EmittingObject/ThermalCoolingObject",
+                "object_name": "condenser"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+                "object_name": "hose"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/ProtectingObject/PreventiveProtectingObject",
+                "object_name": "guard"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
+                "object_name": "fan"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+                "object_name": "control_cable"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/ControllingObject/OpenFlowControllingObject",
+                "object_name": "louver"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/CoveringObject/ClosureObject",
+                "object_name": "cover"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
                 "object_name": "compressor"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/ControllingObject",
-                "object_name": "louver"
+                "object_type": "PhysicalObject/SensingObject/PressureSensingObject",
+                "object_name": "pressure_switch"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
+                "object_name": "blower"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/RestrictingObject/FlowRestrictor",
+                "object_name": "air_outlet"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
+                "object_name": "drive"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/SensingObject/TemperatureSensingObject",
+                "object_name": "thermostat"
             }
         ]
     },
     {
-        "object_type": "PhysicalObject/GuidingObject",
-        "object_name": "tracks",
+        "object_type": "PhysicalObject/StoringObject/OpenStationaryStoringObject",
+        "object_name": "seat",
         "event_relation": "hasAgent",
         "state_type": "State/UndesirableState",
-        "state_name": "need",
+        "state_name": "needs",
         "object_relations": []
     },
     {
-        "object_type": "PhysicalObject/HumanInteractionObject",
+        "object_type": "PhysicalObject/HoldingObject/FramingObject",
+        "object_name": "window_frame",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "object_relations": []
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/ElectricControllingObject",
+        "object_name": "isolator",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "object_relations": []
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "object_name": "light",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "object_relations": [
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/GuidingObject/ElectricEnergyGuidingObject",
+                "object_name": "wiring"
+            }
+        ]
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "object_name": "window",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "object_relations": [
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/CoveringObject/InfillingObject",
+                "object_name": "rubber"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/RestrictingObject/LocalClimateStabilisingObject",
+                "object_name": "roller_blind"
+            }
+        ]
+    },
+    {
+        "object_type": "PhysicalObject/HumanInteractionObject/MovementInteractionObject",
+        "object_name": "joystick",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "object_relations": []
+    },
+    {
+        "object_type": "PhysicalObject/HumanInteractionObject/HandInteractionObject",
         "object_name": "switches",
         "event_relation": "hasAgent",
         "state_type": "State/UndesirableState",
@@ -592,7 +405,151 @@
         "object_relations": []
     },
     {
-        "object_type": "PhysicalObject/HoldingObject",
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "air_conditioner",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "need",
+        "object_relations": [
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+                "object_name": "accessory_drive"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
+                "object_name": "fuse"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+                "object_name": "belt"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+                "object_name": "belts"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/EmittingObject/ThermalCoolingObject",
+                "object_name": "condenser"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+                "object_name": "hose"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/ProtectingObject/PreventiveProtectingObject",
+                "object_name": "guard"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
+                "object_name": "fan"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+                "object_name": "control_cable"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/ControllingObject/OpenFlowControllingObject",
+                "object_name": "louver"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/CoveringObject/ClosureObject",
+                "object_name": "cover"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
+                "object_name": "compressor"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/SensingObject/PressureSensingObject",
+                "object_name": "pressure_switch"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
+                "object_name": "blower"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/RestrictingObject/FlowRestrictor",
+                "object_name": "air_outlet"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
+                "object_name": "drive"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/SensingObject/TemperatureSensingObject",
+                "object_name": "thermostat"
+            }
+        ]
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/GrindingAndCrushingObject",
+        "object_name": "cutting_edges",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "need",
+        "object_relations": []
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "roller",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "need",
+        "object_relations": [
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+                "object_name": "path_rails"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/HoldingObject/JointingObject",
+                "object_name": "bearings"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/HoldingObject/JointingObject",
+                "object_name": "taperlock"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/HoldingObject/JointingObject",
+                "object_name": "bearing"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/HoldingObject/PositioningObject",
+                "object_name": "bracket"
+            }
+        ]
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/RailObject",
+        "object_name": "tracks",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "need",
+        "object_relations": []
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
         "object_name": "revolving_frame",
         "event_relation": "hasAgent",
         "state_type": "State/UndesirableState",
@@ -600,35 +557,13 @@
         "object_relations": [
             {
                 "relation": "isA",
-                "object_type": "PhysicalObject/HoldingObject",
+                "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
                 "object_name": "frame"
             }
         ]
     },
     {
-        "object_type": "PhysicalObject/PresentingObject",
-        "object_name": "grease_gauges",
-        "event_relation": "hasAgent",
-        "state_type": "State/UndesirableState",
-        "state_name": "requires",
-        "object_relations": [
-            {
-                "relation": "isA",
-                "object_type": "PhysicalObject/PresentingObject",
-                "object_name": "gauges"
-            }
-        ]
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject",
-        "object_name": "line",
-        "event_relation": "hasAgent",
-        "state_type": "State/UndesirableState",
-        "state_name": "requires",
-        "object_relations": []
-    },
-    {
-        "object_type": "PhysicalObject/EmittingObject",
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
         "object_name": "lighting",
         "event_relation": "hasAgent",
         "state_type": "State/UndesirableState",
@@ -636,7 +571,21 @@
         "object_relations": []
     },
     {
-        "object_type": "PhysicalObject/GuidingObject",
+        "object_type": "PhysicalObject/PresentingObject/ScalarDisplay",
+        "object_name": "grease_gauges",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "requires",
+        "object_relations": [
+            {
+                "relation": "isA",
+                "object_type": "PhysicalObject/PresentingObject/ScalarDisplay",
+                "object_name": "gauges"
+            }
+        ]
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
         "object_name": "shaft",
         "event_relation": "hasAgent",
         "state_type": "State/UndesirableState",
@@ -644,26 +593,26 @@
         "object_relations": [
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/GuidingObject",
-                "object_name": "universal_joint"
+                "object_type": "PhysicalObject/CoveringObject/InfillingObject",
+                "object_name": "input_seal"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/CoveringObject",
-                "object_name": "input_seal"
+                "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+                "object_name": "universal_joint"
             }
         ]
     },
     {
-        "object_type": "PhysicalObject/HoldingObject",
-        "object_name": "struts",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "line",
         "event_relation": "hasAgent",
         "state_type": "State/UndesirableState",
-        "state_name": "require",
+        "state_name": "requires",
         "object_relations": []
     },
     {
-        "object_type": "PhysicalObject/CoveringObject",
+        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
         "object_name": "hub_caps",
         "event_relation": "hasAgent",
         "state_type": "State/UndesirableState",
@@ -671,13 +620,21 @@
         "object_relations": [
             {
                 "relation": "isA",
-                "object_type": "PhysicalObject/CoveringObject",
+                "object_type": "PhysicalObject/CoveringObject/ClosureObject",
                 "object_name": "caps"
             }
         ]
     },
     {
-        "object_type": "PhysicalObject/HoldingObject",
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "struts",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "require",
+        "object_relations": []
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "object_name": "pin",
         "event_relation": "hasAgent",
         "state_type": "State/UndesirableState",
@@ -685,8 +642,51 @@
         "object_relations": [
             {
                 "relation": "contains",
-                "object_type": "PhysicalObject/ProtectingObject",
+                "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
                 "object_name": "grease"
+            }
+        ]
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ThermalEnergyTransferObject",
+        "object_name": "radiator",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "blocked",
+        "object_relations": [
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/PresentingObject/ScalarDisplay",
+                "object_name": "sight_glasses"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/ControllingObject/ElectricEarthingObject",
+                "object_name": "earth_wire"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/ControllingObject/SealedFluidVaryingObject",
+                "object_name": "relief_valves"
+            }
+        ]
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
+        "object_name": "battery",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "dropped",
+        "object_relations": [
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/CoveringObject/ClosureObject",
+                "object_name": "cover"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/StoringObject/ElectrochemicalStoringObject",
+                "object_name": "cell"
             }
         ]
     }

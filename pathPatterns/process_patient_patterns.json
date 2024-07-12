@@ -1,187 +1,6 @@
 [
     {
-        "object_type": "PhysicalObject/HumanInteractionObject",
-        "object_name": "TeleRemote",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "bogging",
-        "object_relations": [
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/SensingObject",
-                "object_name": "camera"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/SensingObject",
-                "object_name": "cameras"
-            }
-        ]
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject",
-        "object_name": "compressor",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "tripping_out",
-        "object_relations": [
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/HoldingObject",
-                "object_name": "bearing"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/ProtectingObject",
-                "object_name": "safety_valve"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/SensingObject",
-                "object_name": "oil_pressure_switch"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/ControllingObject",
-                "object_name": "earth_terminal"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/ControllingObject",
-                "object_name": "low_voltage_door"
-            }
-        ]
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject",
-        "object_name": "air_pressure_safety_valve",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "exhausting",
-        "object_relations": [
-            {
-                "relation": "isA",
-                "object_type": "PhysicalObject/ProtectingObject",
-                "object_name": "pressure_safety_valve"
-            }
-        ]
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject",
-        "object_name": "contamination_alarm",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "coming_up",
-        "object_relations": []
-    },
-    {
-        "object_type": "PhysicalObject/MatterProcessingObject",
-        "object_name": "oil_blender",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "running_constantly",
-        "object_relations": [
-            {
-                "relation": "isA",
-                "object_type": "PhysicalObject/MatterProcessingObject",
-                "object_name": "blender"
-            }
-        ]
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject",
-        "object_name": "fuse",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "keep_blowing",
-        "object_relations": []
-    },
-    {
-        "object_type": "PhysicalObject/TransformingObject",
-        "object_name": "inverter",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "earthing_out",
-        "object_relations": [
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/GeneratingObject",
-                "object_name": "batteries"
-            }
-        ]
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject",
-        "object_name": "fuse",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "keeps_blowing",
-        "object_relations": []
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject",
-        "object_name": "chip_sensor",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "alarm",
-        "object_relations": [
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/HoldingObject",
-                "object_name": "harness"
-            }
-        ]
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject",
-        "object_name": "cavity",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "emptying",
-        "object_relations": []
-    },
-    {
-        "object_type": "PhysicalObject/TransformingObject",
-        "object_name": "slip_ring",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "overgreasing",
-        "object_relations": []
-    },
-    {
-        "object_type": "PhysicalObject/Substance",
-        "object_name": "air",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leak",
-        "object_relations": []
-    },
-    {
-        "object_type": "PhysicalObject/Substance",
-        "object_name": "fuel",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leak",
-        "object_relations": []
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject",
-        "object_name": "grease",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leak",
-        "object_relations": []
-    },
-    {
-        "object_type": "PhysicalObject/Substance",
-        "object_name": "dust",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leak",
-        "object_relations": []
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject",
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "oil",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
@@ -189,15 +8,15 @@
         "object_relations": []
     },
     {
-        "object_type": "PhysicalObject/ProtectingObject",
-        "object_name": "coolant",
+        "object_type": "PhysicalObject/Substance/Liquid",
+        "object_name": "fuel",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
         "process_name": "leak",
         "object_relations": []
     },
     {
-        "object_type": "PhysicalObject/ProtectingObject",
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "hydraulic_oil",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
@@ -205,43 +24,45 @@
         "object_relations": [
             {
                 "relation": "isA",
-                "object_type": "PhysicalObject/ProtectingObject",
+                "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
                 "object_name": "oil"
             }
         ]
     },
     {
-        "object_type": "PhysicalObject/MatterProcessingObject",
-        "object_name": "centrifugal_oil_filter",
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "grease",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking",
-        "object_relations": [
-            {
-                "relation": "isA",
-                "object_type": "PhysicalObject/MatterProcessingObject",
-                "object_name": "oil_filter"
-            }
-        ]
+        "process_name": "leak",
+        "object_relations": []
     },
     {
-        "object_type": "PhysicalObject/ProtectingObject",
+        "object_type": "PhysicalObject/Substance/Solid",
+        "object_name": "dust",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak",
+        "object_relations": []
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/TemperatureProtectingObject",
         "object_name": "coolant",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking",
+        "process_name": "leak",
         "object_relations": []
     },
     {
-        "object_type": "PhysicalObject/ProtectingObject",
-        "object_name": "oil",
+        "object_type": "PhysicalObject/Substance/Gas",
+        "object_name": "air",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking",
+        "process_name": "leak",
         "object_relations": []
     },
     {
-        "object_type": "PhysicalObject/Substance",
+        "object_type": "PhysicalObject/Substance/Liquid",
         "object_name": "fuel",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
@@ -249,7 +70,23 @@
         "object_relations": []
     },
     {
-        "object_type": "PhysicalObject/Substance",
+        "object_type": "PhysicalObject/Substance/Gas",
+        "object_name": "air",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaking",
+        "object_relations": []
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "oil",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaking",
+        "object_relations": []
+    },
+    {
+        "object_type": "PhysicalObject/Substance/Solid",
         "object_name": "dust",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
@@ -257,15 +94,29 @@
         "object_relations": []
     },
     {
-        "object_type": "PhysicalObject/Substance",
-        "object_name": "air",
+        "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
+        "object_name": "centrifugal_oil_filter",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaking",
+        "object_relations": [
+            {
+                "relation": "isA",
+                "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
+                "object_name": "oil_filter"
+            }
+        ]
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/TemperatureProtectingObject",
+        "object_name": "coolant",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
         "process_name": "leaking",
         "object_relations": []
     },
     {
-        "object_type": "PhysicalObject/GeneratingObject",
+        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
         "object_name": "batteries",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
@@ -273,7 +124,7 @@
         "object_relations": []
     },
     {
-        "object_type": "PhysicalObject/GuidingObject",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "hose",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
@@ -281,18 +132,18 @@
         "object_relations": [
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/CoveringObject",
-                "object_name": "oring"
+                "object_type": "PhysicalObject/HoldingObject/PositioningObject",
+                "object_name": "clamp"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/HoldingObject",
-                "object_name": "clamp"
+                "object_type": "PhysicalObject/CoveringObject/InfillingObject",
+                "object_name": "oring"
             }
         ]
     },
     {
-        "object_type": "PhysicalObject/DrivingObject",
+        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
         "object_name": "crowd_cylinder",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
@@ -300,28 +151,28 @@
         "object_relations": [
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/GuidingObject",
+                "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
                 "object_name": "transfer_pipe"
             },
             {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/GuidingObject",
-                "object_name": "hose"
+                "relation": "isA",
+                "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
+                "object_name": "cylinder"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/CoveringObject",
+                "object_type": "PhysicalObject/CoveringObject/ClosureObject",
                 "object_name": "cover"
             },
             {
-                "relation": "isA",
-                "object_type": "PhysicalObject/DrivingObject",
-                "object_name": "cylinder"
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+                "object_name": "hose"
             }
         ]
     },
     {
-        "object_type": "PhysicalObject/ControllingObject",
+        "object_type": "PhysicalObject/ControllingObject/SealedFluidVaryingObject",
         "object_name": "control_valve",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
@@ -329,7 +180,7 @@
         "object_relations": []
     },
     {
-        "object_type": "PhysicalObject/ProtectingObject",
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "oil",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
@@ -337,29 +188,7 @@
         "object_relations": []
     },
     {
-        "object_type": "PhysicalObject/HoldingObject",
-        "object_name": "pin",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "movement",
-        "object_relations": [
-            {
-                "relation": "contains",
-                "object_type": "PhysicalObject/ProtectingObject",
-                "object_name": "grease"
-            }
-        ]
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject",
-        "object_name": "mount",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "movement",
-        "object_relations": []
-    },
-    {
-        "object_type": "PhysicalObject/TransformingObject",
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
         "object_name": "column",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
@@ -367,7 +196,29 @@
         "object_relations": []
     },
     {
-        "object_type": "PhysicalObject/Substance",
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "mount",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "movement",
+        "object_relations": []
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
+        "object_name": "pin",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "movement",
+        "object_relations": [
+            {
+                "relation": "contains",
+                "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+                "object_name": "grease"
+            }
+        ]
+    },
+    {
+        "object_type": "PhysicalObject/Substance/Gas",
         "object_name": "air",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
@@ -375,15 +226,7 @@
         "object_relations": []
     },
     {
-        "object_type": "PhysicalObject/TransformingObject",
-        "object_name": "drum",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "cracking",
-        "object_relations": []
-    },
-    {
-        "object_type": "PhysicalObject/CoveringObject",
+        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
         "object_name": "cover",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
@@ -391,13 +234,21 @@
         "object_relations": [
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/HoldingObject",
+                "object_type": "PhysicalObject/HoldingObject/JointingObject",
                 "object_name": "hinges"
             }
         ]
     },
     {
-        "object_type": "PhysicalObject/EmittingObject",
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "drum",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "cracking",
+        "object_relations": []
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
         "object_name": "indicator_light",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
@@ -405,227 +256,376 @@
         "object_relations": [
             {
                 "relation": "isA",
-                "object_type": "PhysicalObject/EmittingObject",
+                "object_type": "PhysicalObject/EmittingObject/LightObject",
                 "object_name": "light"
             }
         ]
     },
     {
-        "object_type": "PhysicalObject/DrivingObject",
+        "object_type": "PhysicalObject/DrivingObject/CombustionEngine",
         "object_name": "engine",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
         "process_name": "overheating",
         "object_relations": [
             {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/GeneratingObject",
-                "object_name": "fan"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/GuidingObject",
-                "object_name": "oil_hose"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/SensingObject",
-                "object_name": "timing_sensor"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/EmittingObject",
-                "object_name": "oil_cooler"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/MatterProcessingObject",
-                "object_name": "air_cleaners"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/InterfacingObject",
-                "object_name": "junction_box"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/MatterProcessingObject",
-                "object_name": "oil_blender"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/DrivingObject",
-                "object_name": "pump_drive"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/PresentingObject",
-                "object_name": "inspection_plate"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/GeneratingObject",
-                "object_name": "oil_pump"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/GeneratingObject",
-                "object_name": "pump"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/MatterProcessingObject",
-                "object_name": "oil_centrifuge"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/DrivingObject",
-                "object_name": "servo_pumps"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/CoveringObject",
-                "object_name": "cover"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/DrivingObject",
-                "object_name": "starter"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/GeneratingObject",
-                "object_name": "water_pump"
-            },
-            {
                 "relation": "contains",
-                "object_type": "PhysicalObject/ProtectingObject",
+                "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
                 "object_name": "oil"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/MatterProcessingObject",
+                "object_type": "PhysicalObject/InterfacingObject/HighVoltageConnectingObject",
+                "object_name": "junction_box"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+                "object_name": "oil_hose"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
+                "object_name": "servo_pumps"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
+                "object_name": "air_cleaners"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+                "object_name": "water_pump"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/PresentingObject/ScalarDisplay",
+                "object_name": "inspection_plate"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/CoveringObject/ClosureObject",
+                "object_name": "cover"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
+                "object_name": "pump_drive"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
                 "object_name": "oil_filters"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/HoldingObject",
+                "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
                 "object_name": "mount"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/EmittingObject",
+                "object_type": "PhysicalObject/MatterProcessingObject/ForceSeparatingObject",
+                "object_name": "oil_centrifuge"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+                "object_name": "pump"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
+                "object_name": "fan"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/MatterProcessingObject/MixingObject",
+                "object_name": "oil_blender"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/EmittingObject/ThermalCoolingObject",
+                "object_name": "oil_cooler"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
                 "object_name": "air_conditioner"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
+                "object_name": "starter"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/SensingObject/TimeSensingObject",
+                "object_name": "timing_sensor"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+                "object_name": "oil_pump"
             }
         ]
     },
     {
-        "object_type": "PhysicalObject/DrivingObject",
+        "object_type": "PhysicalObject/DrivingObject/CombustionEngine",
         "object_name": "engine",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
         "process_name": "vibration",
         "object_relations": [
             {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/GeneratingObject",
-                "object_name": "fan"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/GuidingObject",
-                "object_name": "oil_hose"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/SensingObject",
-                "object_name": "timing_sensor"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/EmittingObject",
-                "object_name": "oil_cooler"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/MatterProcessingObject",
-                "object_name": "air_cleaners"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/InterfacingObject",
-                "object_name": "junction_box"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/MatterProcessingObject",
-                "object_name": "oil_blender"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/DrivingObject",
-                "object_name": "pump_drive"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/PresentingObject",
-                "object_name": "inspection_plate"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/GeneratingObject",
-                "object_name": "oil_pump"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/GeneratingObject",
-                "object_name": "pump"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/MatterProcessingObject",
-                "object_name": "oil_centrifuge"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/DrivingObject",
-                "object_name": "servo_pumps"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/CoveringObject",
-                "object_name": "cover"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/DrivingObject",
-                "object_name": "starter"
-            },
-            {
-                "relation": "hasPart",
-                "object_type": "PhysicalObject/GeneratingObject",
-                "object_name": "water_pump"
-            },
-            {
                 "relation": "contains",
-                "object_type": "PhysicalObject/ProtectingObject",
+                "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
                 "object_name": "oil"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/MatterProcessingObject",
+                "object_type": "PhysicalObject/InterfacingObject/HighVoltageConnectingObject",
+                "object_name": "junction_box"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+                "object_name": "oil_hose"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
+                "object_name": "servo_pumps"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
+                "object_name": "air_cleaners"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+                "object_name": "water_pump"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/PresentingObject/ScalarDisplay",
+                "object_name": "inspection_plate"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/CoveringObject/ClosureObject",
+                "object_name": "cover"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
+                "object_name": "pump_drive"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
                 "object_name": "oil_filters"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/HoldingObject",
+                "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
                 "object_name": "mount"
             },
             {
                 "relation": "hasPart",
-                "object_type": "PhysicalObject/EmittingObject",
+                "object_type": "PhysicalObject/MatterProcessingObject/ForceSeparatingObject",
+                "object_name": "oil_centrifuge"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+                "object_name": "pump"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
+                "object_name": "fan"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/MatterProcessingObject/MixingObject",
+                "object_name": "oil_blender"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/EmittingObject/ThermalCoolingObject",
+                "object_name": "oil_cooler"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
                 "object_name": "air_conditioner"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
+                "object_name": "starter"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/SensingObject/TimeSensingObject",
+                "object_name": "timing_sensor"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+                "object_name": "oil_pump"
             }
         ]
+    },
+    {
+        "object_type": "PhysicalObject/HumanInteractionObject/MovementInteractionObject",
+        "object_name": "TeleRemote",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "bogging",
+        "object_relations": [
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/SensingObject/AudioVisualSensingObject",
+                "object_name": "cameras"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/SensingObject/AudioVisualSensingObject",
+                "object_name": "camera"
+            }
+        ]
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
+        "object_name": "compressor",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "tripping_out",
+        "object_relations": [
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+                "object_name": "low_voltage_door"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/ControllingObject/ElectricEarthingObject",
+                "object_name": "earth_terminal"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/SensingObject/PressureSensingObject",
+                "object_name": "oil_pressure_switch"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/HoldingObject/JointingObject",
+                "object_name": "bearing"
+            },
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/ProtectingObject/PressureProtectingObject",
+                "object_name": "safety_valve"
+            }
+        ]
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/PressureProtectingObject",
+        "object_name": "air_pressure_safety_valve",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "exhausting",
+        "object_relations": [
+            {
+                "relation": "isA",
+                "object_type": "PhysicalObject/ProtectingObject/PressureProtectingObject",
+                "object_name": "pressure_safety_valve"
+            }
+        ]
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
+        "object_name": "contamination_alarm",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "coming_up",
+        "object_relations": []
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/MixingObject",
+        "object_name": "oil_blender",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "running_constantly",
+        "object_relations": [
+            {
+                "relation": "isA",
+                "object_type": "PhysicalObject/MatterProcessingObject/MixingObject",
+                "object_name": "blender"
+            }
+        ]
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
+        "object_name": "fuse",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "keep_blowing",
+        "object_relations": []
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/ElectricEnergyConvertingObject",
+        "object_name": "inverter",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "earthing_out",
+        "object_relations": [
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
+                "object_name": "batteries"
+            }
+        ]
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
+        "object_name": "fuse",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "keeps_blowing",
+        "object_relations": []
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
+        "object_name": "chip_sensor",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "alarm",
+        "object_relations": [
+            {
+                "relation": "hasPart",
+                "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+                "object_name": "harness"
+            }
+        ]
+    },
+    {
+        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
+        "object_name": "cavity",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "emptying",
+        "object_relations": []
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/ElectricEnergyTransformingObject",
+        "object_name": "slip_ring",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "overgreasing",
+        "object_relations": []
     }
 ]

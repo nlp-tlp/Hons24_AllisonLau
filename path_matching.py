@@ -83,6 +83,8 @@ with driver.session() as session:
             object_type = f"{object_properties['type']}"
             if "subtype0" in object_properties:
                 object_type = object_type + f"/{object_properties['subtype0']}"
+            if "subtype1" in object_properties:
+                object_type = object_type + f"/{object_properties['subtype1']}"
                 
             # Property / Process / State - Undesirable event
             event_properties = record[f"{query['event']}_properties"]
@@ -107,6 +109,8 @@ with driver.session() as session:
                 other_type = f"{other['type']}"
                 if "subtype0" in other:
                     other_type = other_type + f"/{other['subtype0']}"
+                if "subtype1" in other:
+                    other_type = other_type + f"/{other['subtype1']}"
                 
                 pattern["object_relations"].append({
                     "relation": relation,

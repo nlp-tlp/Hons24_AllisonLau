@@ -23,7 +23,7 @@ def generate_MWO(data, num_sentences, num_iterations):
         prompt += f"\nEquipment: {current_pattern['object_name'].replace('_', ' ')}"
         prompt += f"\nUndesirable Event: {current_pattern['property_name'].replace('_', ' ')}"
         prompt += "\nEach sentence should be unique and describe the equipment and event in a different way."
-        prompt += "\nEach sentence should be short and not more than 15 words."
+        prompt += "\nEach sentence should be short and not more than 8 words."
         
         print(prompt)
         
@@ -47,8 +47,8 @@ def generate_MWO(data, num_sentences, num_iterations):
             for sentence in sentences:
                 f.write(f"{sentence}\n")
         
-        
 with open("pathPatterns/equipment_property_pairs.json", encoding='utf-8') as f:
     data = json.load(f)
-    
-generate_MWO(data, num_sentences=5, num_iterations=5)
+
+openai.api_key = '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'
+generate_MWO(data, num_sentences=5, num_iterations=3)

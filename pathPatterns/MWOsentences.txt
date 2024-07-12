@@ -1,25 +1,19 @@
-1. Boom shows visible cracks, requiring immediate inspection and repair.
-2. Cracks detected on boom structure, necessitating thorough maintenance action.
-3. Boom exhibits structural cracks, prompting urgent maintenance intervention.
-4. Identified cracks on boom demand prompt maintenance to prevent further damage.
-5. Maintenance needed for boom due to observed cracks compromising structural integrity.
-1. Hydraulic lift cylinder emitting loud, disruptive noise during operation.
-2. Noisy hydraulic lift cylinder creating disturbance during lifting tasks.
-3. Excessive noise observed from hydraulic lift cylinder during use.
-4. Loud sounds coming from hydraulic lift cylinder while in operation.
-5. Hydraulic lift cylinder generating disruptive noise, indicating potential maintenance issue.
-1. Handrail exhibits visible cracks compromising structural integrity.
-2. Cracked handrail poses safety hazard for users.
-3. Handrail shows signs of deterioration with noticeable cracks.
-4. Cracks found on handrail require immediate maintenance.
-5. Structural integrity of handrail compromised due to visible cracks.
-1. Cross braces exhibit structural cracks requiring immediate inspection and repair.
-2. Cracks found in cross braces mandate maintenance to prevent failure.
-3. Maintenance work needed on cross braces due to noticeable cracks.
-4. Cracks detected in cross braces necessitate prompt maintenance intervention.
-5. Cross braces show signs of cracking, prompting maintenance work order issuance.
-1. MWO: Inspect mud bucket for cracks to prevent leakage and contamination.
-2. MWO: Repair cracks on mud bucket to maintain structural integrity.
-3. MWO: Conduct visual inspection for cracks on mud bucket.
-4. MWO: Replace cracked mud bucket to avoid equipment failure.
-5. MWO: Apply sealant to cracks on mud bucket for continued functionality.
+1. Glass window showing visible crack, needs immediate inspection and repair.
+2. Cracked glass window requires replacement to ensure safety and functionality.
+3. Schedule MWO for damaged glass window to prevent further deterioration.
+4. Document crack on glass window for maintenance team to address promptly.
+5. Notify maintenance for urgent repair of cracked glass window to prevent hazards.
+
+
+1. Stick showing visible cracks, requires inspection and repair for safety.
+2. Cracked stick poses hazard, needs immediate maintenance to prevent accidents.
+3. Identify cracks on stick, initiate maintenance work order for remediation.
+4. Detected cracks on stick, schedule maintenance to prevent further damage.
+5. Cracks observed on stick, assign maintenance task to address safety concerns.
+
+
+1. Heat shield inspection requested due to crack formation.
+2. MWO issued for heat shield crack repair.
+3. Heat shield maintenance needed for crack mitigation.
+4. Addressing heat shield crack through maintenance work order.
+5. Work order initiated for heat shield crack assessment and repair.
