@@ -50,13 +50,16 @@ def show_codes(lines):
 def read_data():
     """ Read the data from the files. """
     with open('datasets/FMC-MWO2KG/train.txt', 'r', encoding='utf-8') as file:
-        train_lines = file.readlines()
+        train_file = file.readlines()
+        train_lines = [(line.split(',')[0], line.split(',')[1].strip()) for line in train_file]
 
     with open('datasets/FMC-MWO2KG/test.txt', 'r', encoding='utf-8') as file:
-        test_lines = file.readlines()
+        test_file = file.readlines()
+        test_lines = [(line.split(',')[0], line.split(',')[1].strip()) for line in test_file]
 
     with open('datasets/FMC-MWO2KG/dev.txt', 'r', encoding='utf-8') as file:
-        val_lines = file.readlines()
+        val_file = file.readlines()
+        val_lines = [(line.split(',')[0], line.split(',')[1].strip()) for line in val_file]
 
     with open('datasets/MaintIE/gold_release.json', 'r', encoding='utf-8') as file:
         gold_data = json.load(file)
@@ -193,19 +196,62 @@ def maintie_gold_analysis(gold):
     print_count("Unique Entities", unique_entity_count)
     print_count("Unique Relations", unique_relation_count)
     
-    # get max number of tokens in gold data
-    max_tokens = 0
-    for data in gold:
+def number_tokens_analysis(maintie_data, data_name):
+    """ Analyse the number of tokens in the maintie data. """
+    min_tokens = 1000 # Minimum number of tokens
+    max_tokens = 0    # Maximum number of tokens
+    sum_tokens = 0    # Sum of tokens
+
+    for data in maintie_data:
         tokens = data['tokens']
         if len(tokens) > max_tokens:
             max_tokens = len(tokens)
-    print("Max number of tokens:", max_tokens)
+        if len(tokens) < min_tokens:
+            min_tokens = len(tokens)
+        sum_tokens += len(tokens)
+
+    # Average number of tokens
+    avg_tokens = sum_tokens / len(maintie_data) 
     
+    print(f"{data_name} Tokens Count")
+    print("{:<20} {}".format("Minimum Tokens:", min_tokens))
+    print("{:<20} {}".format("Maximum Tokens:", max_tokens))
+    print("{:<20} {}".format("Average Tokens:", avg_tokens))
+    print()
+
+def raw_mwo2kg_analysis(obs_data):
+    with open('datasets/FMC-MWO2KG/raw.csv', 'r', encoding='utf-8') as file:
+        reader = csv.reader(file)
+        lines = list(reader)
+
+    raw_data = []
+    for line in lines:
+        if line[2] != "Not an observation":
+            full = line[3].split("   ")[0].replace('"', '')
+            raw_data.append((full, line[2]))
+
+    aligned_data = []
+    for d in obs_data:
+        for r in raw_data:
+            if d[0] in r[0] and d[1] == r[1] and r not in aligned_data:
+                aligned_data.append(r)
+
+    print(f"Aligned Data: {len(aligned_data)}")
+    with open('datasets/FMC-MWO2KG/aligned.txt', 'w', newline='', encoding='utf-8') as file:
+        writer = csv.writer(file)
+        writer.writerows(aligned_data)
+
 train, test, val, gold, silver = read_data()
 
 # maintie_gold_analysis(gold)
 
-events_list = get_events(gold)
+# number_tokens_analysis(gold, "MaintIE Gold")
+# number_tokens_analysis(silver, "MaintIE Silver")
+# number_tokens_analysis(gold+silver, "MaintIE Gold + Silver")
+
+raw_mwo2kg_analysis(train+test+val)
+
+# events_list = get_events(gold)
 # write_csv(events_list['UndesirableState'], 'undesirable_state.csv', ['Event', 'Text', 'Failure Mode'])
 # write_csv(events_list['UndesirableProperty'], 'undesirable_property.csv', ['Event', 'Text', 'Failure Mode'])
 # write_csv(events_list['UndesirableProcess'], 'undesirable_process.csv', ['Event', 'Text', 'Failure Mode'])
