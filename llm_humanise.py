@@ -2,6 +2,14 @@ import json
 import random
 import openai
 
+# Read fewshot MWO examples
+def get_fewshot_MWO(dataset="FMC-MWO2KG"):
+    with open(f"datasets/{dataset}/full_fewshot.txt", encoding='utf-8') as f:
+        lines = f.readlines()
+        examples = [line.strip() for line in lines]
+        random.shuffle(examples)
+    return examples
+
 # Process the response from the LLM
 def process_response(response):
     sentences = response.split("\n")
@@ -47,8 +55,9 @@ def generate_MWO(data, num_sentences, num_iterations):
             for sentence in sentences:
                 f.write(f"{sentence}\n")
         
-with open("pathPatterns/equipment_property_pairs.json", encoding='utf-8') as f:
+with open("pathPatterns/object_property_patterns.json", encoding='utf-8') as f:
     data = json.load(f)
 
 openai.api_key = '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'
-generate_MWO(data, num_sentences=5, num_iterations=3)
+
+# generate_MWO(data, num_sentences=5, num_iterations=3)
