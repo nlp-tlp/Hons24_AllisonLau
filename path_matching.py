@@ -51,7 +51,19 @@ direct_queries = [
         "event": "process",
         "relation": "hasPatient"
     },
-    { # Query 4: Find all undesirable states with agents OBJECT
+    { # Query 4: Find all undesirable states with patients OBJECT
+        "query": f"""
+                    MATCH (s:State {{subtype0: 'UndesirableState'}})-[:hasParticipant_hasPatient]->(o:PhysicalObject) {PO_MATCH}
+                    RETURN properties(o) AS object_properties, properties(s) AS state_properties, {PO_RETURN}
+                """,
+        "outfile": "state_patient_patterns",
+        "event": "state",
+        "relation": "hasPatient"
+    }
+]
+
+complex_queries = [
+    { # Query 5: Find all undesirable states with agents OBJECT
         "query": f"""
                     MATCH (s:State {{subtype0: 'UndesirableState'}})-[:hasParticipant_hasAgent]->(o:PhysicalObject) {PO_MATCH}
                     RETURN properties(o) AS object_properties, properties(s) AS state_properties, {PO_RETURN}
@@ -60,18 +72,6 @@ direct_queries = [
         "event": "state",
         "relation": "hasAgent"
     },
-    { # Query 5: Find all undesirable states with patients OBJECT
-        "query": f"""
-                    MATCH (s:State {{subtype0: 'UndesirableState'}})-[:hasParticipant_hasPatient]->(o:PhysicalObject) {PO_MATCH}
-                    RETURN properties(o) AS object_properties, properties(s) AS state_properties, {PO_RETURN}
-                """,
-        "outfile": "state_patient_patterns",
-        "event": "state",
-        "relation": "hasPatient"
-    },
-]
-
-complex_queries = [
     { # Query 6: Find all OBJECT with properties linked to undesirable states
         "query": f"""
                     MATCH (o:PhysicalObject)-[:hasProperty]->(p:Property)
@@ -118,7 +118,7 @@ def get_entity_info(record, entity):
 # Function to get relation information
 def get_relation_info(record, po_relation, po_type):
     """ Extract relation information from record """
-    return [
+    output = [
         {
             "relation": relation,
             "object_type": get_entity_type(object),
@@ -126,8 +126,12 @@ def get_relation_info(record, po_relation, po_type):
         }
         for relation, object in zip(record[po_relation], record[po_type])
     ]
+    return output, len(output)
 
 def process_query_results(results, patterns):
+    """ Process query results and extract relevant information """
+
+    alternate_pattern_count = 0
     for record in results:
         # PhysicalObject - Equipment
         object_info = get_entity_info(record, "object")
@@ -140,11 +144,11 @@ def process_query_results(results, patterns):
         
         # If PhysicalObject has connect relations to other PhysicalObjects
         # connect_relations: hasPart, contains
-        connect_info = get_relation_info(record, "connect_relations", "connect_objects")
+        connect_info, num_connect = get_relation_info(record, "connect_relations", "connect_objects")
         
         # If PhysicalObject has substitute relations to other PhysicalObjects
         # substitute_relations: isA
-        substitute_info = get_relation_info(record, "substitute_relations", "substitute_objects")
+        substitute_info, num_substitute = get_relation_info(record, "substitute_relations", "substitute_objects")
         
         pattern = {
             "object_type": object_info["type"],
@@ -158,23 +162,27 @@ def process_query_results(results, patterns):
         }
         
         patterns.append(pattern)
+        alternate_pattern_count += num_connect + num_substitute
+
+    return alternate_pattern_count
 
 with driver.session() as session:
     for query in direct_queries:
         results = session.run(query["query"])
         patterns = []
-        process_query_results(results, patterns)
+        alternate_count = process_query_results(results, patterns)
 
-        print("{:<42} {}".format(f"Number of {query['outfile']}:", len(patterns)))
+        print("{:<40} {}".format(f"Number of {query['outfile']}:", len(patterns)))
+        print(" - {:<37} {}".format(f"Number of alternate patterns:", alternate_count))
         list_to_json(patterns, f"pathPatterns/{query['outfile']}.json")
         
     
-    for query in complex_queries:
-        results = session.run(query["query"])
-        patterns = []
-        process_query_results(results, patterns)
+    # for query in complex_queries:
+    #     results = session.run(query["query"])
+    #     patterns = []
+    #     process_query_results(results, patterns)
 
-        print("{:<42} {}".format(f"Number of {query['outfile']}:", len(patterns)))
-        list_to_json(patterns, f"pathPatterns/{query['outfile']}.json")
+    #     print("{:<42} {}".format(f"Number of {query['outfile']}:", len(patterns)))
+    #     list_to_json(patterns, f"pathPatterns/{query['outfile']}.json")
 
 driver.close()

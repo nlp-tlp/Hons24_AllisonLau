@@ -1,12 +1,11 @@
-import re
 import json
 from neo4j import GraphDatabase
 
 # Function to create label names
 def create_label_name(tokens, start, end):
     """ Create label name from tokens. """
-    label = "_".join(tokens[start:end])
-    label = re.sub(r'\W', '', label)
+    label = " ".join(tokens[start:end])
+    label = label.lower().strip()
     return label
 
 # Function to create nodes
@@ -29,7 +28,6 @@ def create_nodes(tx, entities, unique_entities, tokens):
                 properties[f"subtype{i}"] = subtype
                 query += f"SET n.subtype{i} = $subtype{i} "
             tx.run(query, properties)
-
     return current_entities, unique_entities
 
 # Function to create relations
@@ -58,6 +56,8 @@ def create_graph(tx, data):
         current_entities, unique_entities = create_nodes(tx, entities, unique_entities, tokens)
         create_relations(tx, relations, unique_entities, current_entities)
 
+    print(f"Created {len(unique_entities)} entities.")
+    
 # Connect to Neo4j
 URI = "bolt://localhost:7687"
 USERNAME = "neo4j"

@@ -160,7 +160,7 @@ def maintie_gold_analysis(gold):
         # count number of unique entities {type: count}
         for entity in data['entities']:
             entity_type = entity['type'].split('/')[0]
-            entity_text = " ".join(data['tokens'][entity['start']:entity['end']])
+            entity_text = " ".join(data['tokens'][entity['start']:entity['end']]).lower().strip()
             unique_entity_key = (entity_text, entity_type)
             if unique_entity_key not in seen_entities:
                 seen_entities.append(unique_entity_key)
@@ -178,8 +178,8 @@ def maintie_gold_analysis(gold):
             tail_entity = data['entities'][tail]
             head_entity_type = head_entity['type'].split('/')[0]
             tail_entity_type = tail_entity['type'].split('/')[0]
-            head_entity_text = " ".join(data['tokens'][head_entity['start']:head_entity['end']])
-            tail_entity_text = " ".join(data['tokens'][tail_entity['start']:tail_entity['end']])
+            head_entity_text = " ".join(data['tokens'][head_entity['start']:head_entity['end']]).lower().strip()
+            tail_entity_text = " ".join(data['tokens'][tail_entity['start']:tail_entity['end']]).lower().strip()
             unique_head_key = (head_entity_text, head_entity_type)
             unique_tail_key = (tail_entity_text, tail_entity_type)
             unique_relation_key = (unique_head_key, unique_tail_key, relation_type)
