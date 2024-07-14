@@ -243,13 +243,13 @@ def raw_mwo2kg_analysis(obs_data):
 
 train, test, val, gold, silver = read_data()
 
-# maintie_gold_analysis(gold)
+maintie_gold_analysis(gold)
 
 # number_tokens_analysis(gold, "MaintIE Gold")
 # number_tokens_analysis(silver, "MaintIE Silver")
 # number_tokens_analysis(gold+silver, "MaintIE Gold + Silver")
 
-raw_mwo2kg_analysis(train+test+val)
+# raw_mwo2kg_analysis(train+test+val)
 
 # events_list = get_events(gold)
 # write_csv(events_list['UndesirableState'], 'undesirable_state.csv', ['Event', 'Text', 'Failure Mode'])
