@@ -1,0 +1,103 @@
+# Path queries
+PO_MATCH =  """
+                OPTIONAL MATCH (connect_objects:PhysicalObject)-[connect_r:hasPart|contains]->(o)
+                OPTIONAL MATCH (o)-[substitute_r:isA]->(substitute_objects:PhysicalObject)
+            """
+PO_RETURN = """
+                collect(type(connect_r)) AS connect_relations, collect(type(substitute_r)) AS substitute_relations,  
+                collect(properties(connect_objects)) AS connect_objects, collect(properties(substitute_objects)) AS substitute_objects
+            """
+
+PP_MATCH =  "OPTIONAL MATCH (p)-[sub_r:isA]->(substitute_property:Property)"
+PP_RETURN = "collect(type(sub_r)) AS event_substitute, collect(properties(substitute_property)) AS substitute_property"
+
+PC_MATCH =  "OPTIONAL MATCH (p)-[sub_r:isA]->(substitute_process:Process)"
+PC_RETURN = "collect(type(sub_r)) AS event_substitute, collect(properties(substitute_process)) AS substitute_process"
+
+ST_MATCH =  "OPTIONAL MATCH (s)-[sub_r:isA]->(substitute_state:State)"
+ST_RETURN = "collect(type(sub_r)) AS event_substitute, collect(properties(substitute_state)) AS substitute_state"
+
+direct_queries = [
+    { # Query 1: Find all OBJECT with undesirable properties
+        "query": f"""
+                    MATCH (o:PhysicalObject)-[:hasProperty]->(p:Property {{subtype0: "UndesirableProperty"}}) {PO_MATCH}
+                    RETURN properties(o) AS object_properties, properties(p) AS property_properties, {PO_RETURN}
+                """,
+        "outfile": "object_property_paths",
+        "event": "property",
+        "relation": "hasProperty"
+    },
+    { # Query 2: Find all undesirable processes with AGENTS OBJECT
+        "query": f"""
+                    MATCH (p:Process {{subtype0: 'UndesirableProcess'}})-[:hasParticipant_hasAgent]->(o:PhysicalObject) {PO_MATCH}
+                    RETURN properties(o) AS object_properties, properties(p) AS process_properties, {PO_RETURN}
+                """,
+        "outfile": "process_agent_paths",
+        "event": "process",
+        "relation": "hasAgent"
+    },
+    { # Query 3: Find all undesirable processes with PATIENTS OBJECT
+        "query": f"""
+                    MATCH (p:Process {{subtype0: 'UndesirableProcess'}})-[:hasParticipant_hasPatient]->(o:PhysicalObject) {PO_MATCH}
+                    RETURN properties(o) AS object_properties, properties(p) AS process_properties, {PO_RETURN}
+                """,
+        "outfile": "process_patient_paths",
+        "event": "process",
+        "relation": "hasPatient"
+    },
+    { # Query 4: Find all undesirable states with PATIENTS OBJECT
+        "query": f"""
+                    MATCH (s:State {{subtype0: 'UndesirableState'}})-[:hasParticipant_hasPatient]->(o:PhysicalObject) {PO_MATCH}
+                    RETURN properties(o) AS object_properties, properties(s) AS state_properties, {PO_RETURN}
+                """,
+        "outfile": "state_patient_paths",
+        "event": "state",
+        "relation": "hasPatient"
+    }
+]
+
+complex_queries = [
+    { # Query 5: Find all OBJECT with PROPERTIES linked to undesirable states
+        "query": f"""
+                    MATCH (o:PhysicalObject)-[:hasProperty]->(p:Property)
+                    MATCH (s:State {{subtype0: 'UndesirableState'}})-[:hasParticipant_hasPatient]->(p) {PO_MATCH}
+                    RETURN properties(o) AS object_properties, properties(p) AS property_properties, properties(s) AS state_properties, {PO_RETURN}
+                """,
+        "outfile": "object_property_state_paths",
+        "event": "property",
+        "helper": "state",
+        "relation": "hasProperty"
+    },
+    { # Query 6: Find all OBJECT with PROCESSES linked to undesirable states
+        "query": f"""
+                    MATCH (o:PhysicalObject)-[:hasParticipant_hasPatient]->(p:Process)
+                    MATCH (s:State {{subtype0: 'UndesirableState'}})-[:hasParticipant_hasPatient]->(p) {PO_MATCH}
+                    RETURN properties(o) AS object_properties, properties(p) AS process_properties, properties(s) AS state_properties, {PO_RETURN}
+                """,
+        "outfile": "object_process_state_paths",
+        "event": "process",
+        "helper": "state",
+        "relation": "hasPatient"
+    },
+    # { # Query 7: Find all undesirable states with agents OBJECT where states linked to activities
+    #     "query": f"""
+    #                 MATCH (s:State {{subtype0: 'UndesirableState'}})-[:hasParticipant_hasAgent]->(o:PhysicalObject)
+    #                 MATCH (s)-[:hasParticipant_hasPatient]->(a:Activity) {PO_MATCH}
+    #                 RETURN properties(o) AS object_properties, properties(s) AS state_properties, properties(a) AS activity_properties, {PO_RETURN}
+    #             """,
+    #     "outfile": "state_agent_activity_paths",
+    #     "event": "state",
+    #     "helper": "activity",
+    #     "relation": "hasAgent"
+    # }
+]
+
+    # { # Query 8: Find all undesirable states with agents OBJECT
+    #     "query": f"""
+    #                 MATCH (s:State {{subtype0: 'UndesirableState'}})-[:hasParticipant_hasAgent]->(o:PhysicalObject) {PO_MATCH}
+    #                 RETURN properties(o) AS object_properties, properties(s) AS state_properties, {PO_RETURN}
+    #             """,
+    #     "outfile": "state_agent_paths",
+    #     "event": "state",
+    #     "relation": "hasAgent"
+    # },

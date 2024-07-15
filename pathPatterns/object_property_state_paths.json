@@ -1,0 +1,18 @@
+[
+    {
+        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
+        "object_name": "batteries",
+        "event_relation": "hasProperty",
+        "property_type": "Property/DesirableProperty",
+        "property_name": "charge",
+        "helper_type": "State/UndesirableState/FailedState",
+        "helper_name": "no"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/ElectricEnergyConvertingObject",
+        "object_name": "inverter batteries",
+        "event_relation": "hasProperty",
+        "property_type": "Property/DesirableProperty",
+        "property_name": "charge"
+    }
+]

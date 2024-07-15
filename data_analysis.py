@@ -117,14 +117,6 @@ def write_csv(data, csv_file, header):
         writer.writerow(header)
         writer.writerows(data)
 
-def remove_duplicates(input):
-    """ Remove duplicates from the input. """
-    output = []
-    for i in input:
-        if i not in output:
-            output.append(i)
-    return output
-
 def print_count(title, count_dict):
     """ Print the count dictionary in a table format. """
     print("{:<30} {}".format(f"{title}", "Count"))
@@ -135,7 +127,7 @@ def print_count(title, count_dict):
     print("{:<30} {}".format("Total", sum(count_dict.values())))
     print()
 
-def maintie_gold_analysis(gold):
+def maintie_analysis(gold):
     """ Analyse the gold dataset from MaintIE. """
     entity_count, relation_count, unique_entity_count, unique_relation_count = {}, {}, {}, {}
     seen_entities, seen_relations = [], []
@@ -195,7 +187,7 @@ def maintie_gold_analysis(gold):
     print_count("Relations", relation_count)
     print_count("Unique Entities", unique_entity_count)
     print_count("Unique Relations", unique_relation_count)
-    
+
 def number_tokens_analysis(maintie_data, data_name):
     """ Analyse the number of tokens in the maintie data. """
     min_tokens = 1000 # Minimum number of tokens
@@ -241,9 +233,41 @@ def raw_mwo2kg_analysis(obs_data):
         writer = csv.writer(file)
         writer.writerows(aligned_data)
 
+def maintie_head_tail(data):
+    """ Get the head and tail entities from the MaintIE data. """
+    head_tail_relation = []
+    for d in data:
+        for r in d['relations']:
+            head = r['head']
+            tail = r['tail']
+            head_entity = d['entities'][head]
+            tail_entity = d['entities'][tail]
+            head_type = head_entity['type'].split('/')[0]
+            tail_type = tail_entity['type'].split('/')[0]
+            
+            # Undesirable State / Property / Process
+            if "Undesirable" in head_entity['type']:
+                head_subtype = head_entity['type'].split('/')[1]
+                head_tail_relation.append((head_subtype, tail_type, r['type']))
+                continue
+            
+            if "Undesirable" in tail_entity['type']:
+                tail_subtype = tail_entity['type'].split('/')[1]
+                head_tail_relation.append((head_type, tail_subtype, r['type']))
+                continue
+            
+            head_tail_relation.append((head_type, tail_type, r['type']))
+    head_tail_relation = sorted(set(head_tail_relation))
+    for h, t, r in head_tail_relation:
+        print(f"{h} -> {r} -> {t}")
+    print("Total:", len(head_tail_relation))
+    
 train, test, val, gold, silver = read_data()
 
-maintie_gold_analysis(gold)
+# maintie_analysis(gold)
+# maintie_analysis(silver)
+# maintie_head_tail(gold)
+# maintie_head_tail(silver)
 
 # number_tokens_analysis(gold, "MaintIE Gold")
 # number_tokens_analysis(silver, "MaintIE Silver")

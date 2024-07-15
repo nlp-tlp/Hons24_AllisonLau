@@ -57,19 +57,20 @@ def create_graph(tx, data):
         create_relations(tx, relations, unique_entities, current_entities)
 
     print(f"Created {len(unique_entities)} entities.")
-    
-# Connect to Neo4j
-URI = "bolt://localhost:7687"
-USERNAME = "neo4j"
-PASSWORD = "password"
-driver = GraphDatabase.driver(URI, auth=(USERNAME, PASSWORD))
 
-# Get data from MaintIE dataset
-with open('datasets/MaintIE/gold_release.json', 'r', encoding='utf-8') as file:
-    data = json.load(file)
+if __name__ == "__main__":
+    # Connect to Neo4j
+    URI = "bolt://localhost:7687"
+    USERNAME = "neo4j"
+    PASSWORD = "password"
+    driver = GraphDatabase.driver(URI, auth=(USERNAME, PASSWORD))
 
-# Process data
-with driver.session() as session:
-    session.execute_write(create_graph, data)
+    # Get data from MaintIE dataset
+    with open('datasets/MaintIE/gold_release.json', 'r', encoding='utf-8') as file:
+        data = json.load(file)
 
-driver.close()
+    # Process data
+    with driver.session() as session:
+        session.execute_write(create_graph, data)
+
+    driver.close()
