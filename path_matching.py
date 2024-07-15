@@ -116,22 +116,40 @@ def get_entity_info(record, entity):
     }
 
 # Function to get relation information
-def get_relation_info(record, po_relation, po_type):
+def get_relation_info(query, record, object, event):
     """ Extract relation information from record """
-    output = [
-        {
-            "relation": relation,
-            "object_type": get_entity_type(object),
-            "object_name": object["text"]
-        }
-        for relation, object in zip(record[po_relation], record[po_type])
-    ]
-    return output, len(output)
+    alternate_patterns = []
+    # If PhysicalObject has connect relations to other PhysicalObjects
+    # connect_relations: hasPart, contains
+    for relation, connect_obj in zip(record["connect_relations"], record["connect_objects"]):
+        if relation == "hasPart" or relation == "contains":
+            alternate_patterns.append({
+                "object_type": get_entity_type(connect_obj),
+                "object_name": f"{connect_obj['text']} {object['name']}",
+                "event_relation": query["relation"],
+                f"{query['event']}_type": event['type'],
+                f"{query['event']}_name": event['name']
+            })
+    
+    # If PhysicalObject has substitute relations to other PhysicalObjects
+    # substitute_relations: isA
+    for relation, substitute_obj in zip(record["substitute_relations"], record["substitute_objects"]):
+        if relation == "isA":
+            pass
+            alternate_patterns.append({
+                "object_type": get_entity_type(substitute_obj),
+                "object_name": substitute_obj['text'],
+                "event_relation": query["relation"],
+                f"{query['event']}_type": event['type'],
+                f"{query['event']}_name": event['name']
+            })
+    return alternate_patterns, len(alternate_patterns)
 
 def process_query_results(results, patterns):
     """ Process query results and extract relevant information """
 
-    alternate_pattern_count = 0
+    num_direct_count = 0
+    num_alternates_count = 0
     for record in results:
         # PhysicalObject - Equipment
         object_info = get_entity_info(record, "object")
@@ -140,15 +158,7 @@ def process_query_results(results, patterns):
         event_info = get_entity_info(record, query["event"])
         
         # If there are helper entities that describe the Undesirable event
-        helper_info = get_entity_info(record, query["helper"]) if "helper" in query else None
-        
-        # If PhysicalObject has connect relations to other PhysicalObjects
-        # connect_relations: hasPart, contains
-        connect_info, num_connect = get_relation_info(record, "connect_relations", "connect_objects")
-        
-        # If PhysicalObject has substitute relations to other PhysicalObjects
-        # substitute_relations: isA
-        substitute_info, num_substitute = get_relation_info(record, "substitute_relations", "substitute_objects")
+        # helper_info = get_entity_info(record, query["helper"]) if "helper" in query else None
         
         pattern = {
             "object_type": object_info["type"],
@@ -156,26 +166,28 @@ def process_query_results(results, patterns):
             "event_relation": query["relation"],
             f"{query['event']}_type": event_info["type"],
             f"{query['event']}_name": event_info["name"],
-            "helper_type": helper_info["type"] if helper_info else None,
-            "helper_name": helper_info["name"] if helper_info else None,
-            "object_relations": connect_info + substitute_info
+            # "helper_type": helper_info["type"] if helper_info else None,
+            # "helper_name": helper_info["name"] if helper_info else None,
         }
         
+        # Alternate patterns
+        alternate_patterns, num_alternates = get_relation_info(query, record, object_info, event_info)
+        
         patterns.append(pattern)
-        alternate_pattern_count += num_connect + num_substitute
-
-    return alternate_pattern_count
+        patterns.extend(alternate_patterns)
+        
+        num_direct_count += 1
+        num_alternates_count += num_alternates
+    
+    print("{:<40} {}".format(f"Number of {query['outfile']}:", num_direct_count))
+    print(" - {:<37} {}".format(f"Number of alternate patterns:", num_alternates_count))
 
 with driver.session() as session:
     for query in direct_queries:
         results = session.run(query["query"])
         patterns = []
-        alternate_count = process_query_results(results, patterns)
-
-        print("{:<40} {}".format(f"Number of {query['outfile']}:", len(patterns)))
-        print(" - {:<37} {}".format(f"Number of alternate patterns:", alternate_count))
+        process_query_results(results, patterns)
         list_to_json(patterns, f"pathPatterns/{query['outfile']}.json")
-        
     
     # for query in complex_queries:
     #     results = session.run(query["query"])

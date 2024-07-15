@@ -34,7 +34,7 @@ def generate_MWO(data, num_sentences, num_iterations):
         prompt += "\nEach sentence should be short and not more than 8 words."
         
         print(prompt)
-        
+                                    
         response = openai.ChatCompletion.create(
                         model="gpt-3.5-turbo",
                         messages=[
