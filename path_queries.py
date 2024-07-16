@@ -19,9 +19,8 @@ ST_RETURN = "collect(type(sub_r)) AS event_substitute, collect(properties(substi
 
 direct_queries = [
     { # Query 1: Find all OBJECT with undesirable properties
-        "query": f"""
-                    MATCH (o:PhysicalObject)-[:hasProperty]->(p:Property {{subtype0: "UndesirableProperty"}}) {PO_MATCH}
-                    RETURN properties(o) AS object_properties, properties(p) AS property_properties, {PO_RETURN}
+        "query": f"""MATCH (o:PhysicalObject)-[:hasProperty]->(p:Property {{subtype0: "UndesirableProperty"}}) {PO_MATCH} {PP_MATCH}
+                    RETURN properties(o) AS object_properties, properties(p) AS property_properties, {PO_RETURN}, {PP_RETURN}
                 """,
         "outfile": "object_property_paths",
         "event": "property",
@@ -29,8 +28,8 @@ direct_queries = [
     },
     { # Query 2: Find all undesirable processes with AGENTS OBJECT
         "query": f"""
-                    MATCH (p:Process {{subtype0: 'UndesirableProcess'}})-[:hasParticipant_hasAgent]->(o:PhysicalObject) {PO_MATCH}
-                    RETURN properties(o) AS object_properties, properties(p) AS process_properties, {PO_RETURN}
+                    MATCH (p:Process {{subtype0: 'UndesirableProcess'}})-[:hasParticipant_hasAgent]->(o:PhysicalObject) {PO_MATCH} {PC_MATCH}
+                    RETURN properties(o) AS object_properties, properties(p) AS process_properties, {PO_RETURN}, {PC_RETURN}
                 """,
         "outfile": "process_agent_paths",
         "event": "process",
@@ -38,8 +37,8 @@ direct_queries = [
     },
     { # Query 3: Find all undesirable processes with PATIENTS OBJECT
         "query": f"""
-                    MATCH (p:Process {{subtype0: 'UndesirableProcess'}})-[:hasParticipant_hasPatient]->(o:PhysicalObject) {PO_MATCH}
-                    RETURN properties(o) AS object_properties, properties(p) AS process_properties, {PO_RETURN}
+                    MATCH (p:Process {{subtype0: 'UndesirableProcess'}})-[:hasParticipant_hasPatient]->(o:PhysicalObject) {PO_MATCH} {PC_MATCH}
+                    RETURN properties(o) AS object_properties, properties(p) AS process_properties, {PO_RETURN}, {PC_RETURN}
                 """,
         "outfile": "process_patient_paths",
         "event": "process",
@@ -47,8 +46,8 @@ direct_queries = [
     },
     { # Query 4: Find all undesirable states with PATIENTS OBJECT
         "query": f"""
-                    MATCH (s:State {{subtype0: 'UndesirableState'}})-[:hasParticipant_hasPatient]->(o:PhysicalObject) {PO_MATCH}
-                    RETURN properties(o) AS object_properties, properties(s) AS state_properties, {PO_RETURN}
+                    MATCH (s:State {{subtype0: 'UndesirableState'}})-[:hasParticipant_hasPatient]->(o:PhysicalObject) {PO_MATCH} {ST_MATCH}
+                    RETURN properties(o) AS object_properties, properties(s) AS state_properties, {PO_RETURN}, {ST_RETURN}
                 """,
         "outfile": "state_patient_paths",
         "event": "state",

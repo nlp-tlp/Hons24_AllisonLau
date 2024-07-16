@@ -1,21 +1,448 @@
 [
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "grease",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/ElectricEnergyTransformingObject",
+        "object_name": "high voltage slip ring grease",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
+        "object_name": "pin grease",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "oil",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaks"
+        "process_name": "leak"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/CombustionEngine",
+        "object_name": "engine oil",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "pump oil",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "swingbox oil",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "differential oil",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "thrust bearing oil",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
+        "object_name": "air compressor oil",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "transmission oil",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak"
     },
     {
         "object_type": "PhysicalObject/InterfacingObject/DetachableCoupling",
         "object_name": "centre hitch oil",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaks"
+        "process_name": "leak"
+    },
+    {
+        "object_type": "PhysicalObject/Substance/Liquid",
+        "object_name": "fuel",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "hydraulic oil",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak"
+    },
+    {
+        "object_type": "PhysicalObject/Substance/Solid",
+        "object_name": "dust",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/TemperatureProtectingObject",
+        "object_name": "coolant",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak"
+    },
+    {
+        "object_type": "PhysicalObject/Substance/Gas",
+        "object_name": "air",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak"
+    },
+    {
+        "object_type": "PhysicalObject/Substance/Gas",
+        "object_name": "air",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "oil",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaking"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/CombustionEngine",
+        "object_name": "engine oil",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "pump oil",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaking"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "swingbox oil",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaking"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "differential oil",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaking"
     },
     {
         "object_type": "PhysicalObject/HoldingObject/JointingObject",
         "object_name": "thrust bearing oil",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
+        "object_name": "air compressor oil",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaking"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "transmission oil",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaking"
+    },
+    {
+        "object_type": "PhysicalObject/InterfacingObject/DetachableCoupling",
+        "object_name": "centre hitch oil",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaking"
+    },
+    {
+        "object_type": "PhysicalObject/Substance/Solid",
+        "object_name": "dust",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaking"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
+        "object_name": "centrifugal oil filter",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaking"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
+        "object_name": "oil filter",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaking"
+    },
+    {
+        "object_type": "PhysicalObject/Substance/Liquid",
+        "object_name": "fuel",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/TemperatureProtectingObject",
+        "object_name": "coolant",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
+        "object_name": "batteries",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "discharging"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/ElectricEnergyConvertingObject",
+        "object_name": "inverter batteries",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "discharging"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "hose",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "weeping"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
+        "object_name": "clam cylinder hose",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "weeping"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ThermalCoolingObject",
+        "object_name": "cooler hose",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "weeping"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
+        "object_name": "bucket cylinder hose",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "weeping"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
+        "object_name": "fan hose",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "weeping"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
+        "object_name": "boom cylinder hose",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "weeping"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "boom hose",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "weeping"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "air conditioner hose",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "weeping"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/MechanicalMovementControllingObject",
+        "object_name": "steering hose",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "weeping"
+    },
+    {
+        "object_type": "PhysicalObject/RestrictingObject/MovementRestrictingObject",
+        "object_name": "brake hose",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "weeping"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
+        "object_name": "filter hose",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "weeping"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject",
+        "object_name": "heater hose",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "weeping"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
+        "object_name": "motor hose",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "weeping"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
+        "object_name": "crowd cylinder hose",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "weeping"
+    },
+    {
+        "object_type": "PhysicalObject/InterfacingObject/DetachableCoupling",
+        "object_name": "hitch hose",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "weeping"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/ForceSeparatingObject",
+        "object_name": "centrifuge hose",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "weeping"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
+        "object_name": "slew motor hose",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "weeping"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "transmission hose",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "weeping"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "pump hose",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "weeping"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
+        "object_name": "tilt cylinder hose",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "weeping"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
+        "object_name": "hmu hose",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "weeping"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ThermalCoolingObject",
+        "object_name": "oil cooler hose",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "weeping"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
+        "object_name": "crowd cylinder",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "creeping"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
+        "object_name": "cylinder",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "creeping"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/SealedFluidVaryingObject",
+        "object_name": "control valve",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "falling off"
+    },
+    {
+        "object_type": "PhysicalObject",
+        "object_name": "ripper control valve",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "falling off"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/MechanicalMovementControllingObject",
+        "object_name": "steering control valve",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "falling off"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "oil",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaks"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/CombustionEngine",
+        "object_name": "engine oil",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaks"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "pump oil",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
         "process_name": "leaks"
@@ -35,15 +462,8 @@
         "process_name": "leaks"
     },
     {
-        "object_type": "PhysicalObject/DrivingObject/CombustionEngine",
-        "object_name": "engine oil",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leaks"
-    },
-    {
-        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
-        "object_name": "transmission oil",
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "thrust bearing oil",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
         "process_name": "leaks"
@@ -56,8 +476,15 @@
         "process_name": "leaks"
     },
     {
-        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
-        "object_name": "pump oil",
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "transmission oil",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaks"
+    },
+    {
+        "object_type": "PhysicalObject/InterfacingObject/DetachableCoupling",
+        "object_name": "centre hitch oil",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
         "process_name": "leaks"
@@ -84,6 +511,13 @@
         "process_name": "movement"
     },
     {
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "object_name": "beacon mount",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "movement"
+    },
+    {
         "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
         "object_name": "transmission mount",
         "event_relation": "hasPatient",
@@ -98,22 +532,8 @@
         "process_name": "movement"
     },
     {
-        "object_type": "PhysicalObject/EmittingObject/LightObject",
-        "object_name": "beacon mount",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "movement"
-    },
-    {
         "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "object_name": "pin",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "movement"
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
-        "object_name": "mast raise cylinder pin",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
         "process_name": "movement"
@@ -126,8 +546,8 @@
         "process_name": "movement"
     },
     {
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "object_name": "clevis pin",
+        "object_type": "PhysicalObject/InterfacingObject/DetachableCoupling",
+        "object_name": "dogbone pin",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
         "process_name": "movement"
@@ -140,8 +560,15 @@
         "process_name": "movement"
     },
     {
-        "object_type": "PhysicalObject/InterfacingObject/DetachableCoupling",
-        "object_name": "dogbone pin",
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
+        "object_name": "clevis pin",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "movement"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
+        "object_name": "mast raise cylinder pin",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
         "process_name": "movement"
@@ -169,21 +596,14 @@
     },
     {
         "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
-        "object_name": "crowd cylinder cover",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "cracking"
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
         "object_name": "tilt cylinder cover",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
         "process_name": "cracking"
     },
     {
-        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
-        "object_name": "battery cover",
+        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
+        "object_name": "crowd cylinder cover",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
         "process_name": "cracking"
@@ -198,6 +618,13 @@
     {
         "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
         "object_name": "air conditioner cover",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "cracking"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
+        "object_name": "battery cover",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
         "process_name": "cracking"
@@ -336,15 +763,8 @@
         "process_name": "keep blowing"
     },
     {
-        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
-        "object_name": "starter fuse",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "keep blowing"
-    },
-    {
-        "object_type": "PhysicalObject/PresentingObject/AcousticDevice",
-        "object_name": "horn fuse",
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "air conditioner fuse",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
         "process_name": "keep blowing"
@@ -371,8 +791,15 @@
         "process_name": "keep blowing"
     },
     {
-        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
-        "object_name": "air conditioner fuse",
+        "object_type": "PhysicalObject/PresentingObject/AcousticDevice",
+        "object_name": "horn fuse",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "keep blowing"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
+        "object_name": "starter fuse",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
         "process_name": "keep blowing"
@@ -399,15 +826,8 @@
         "process_name": "keeps blowing"
     },
     {
-        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
-        "object_name": "starter fuse",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "keeps blowing"
-    },
-    {
-        "object_type": "PhysicalObject/PresentingObject/AcousticDevice",
-        "object_name": "horn fuse",
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "air conditioner fuse",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
         "process_name": "keeps blowing"
@@ -434,8 +854,15 @@
         "process_name": "keeps blowing"
     },
     {
-        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
-        "object_name": "air conditioner fuse",
+        "object_type": "PhysicalObject/PresentingObject/AcousticDevice",
+        "object_name": "horn fuse",
+        "event_relation": "hasPatient",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "keeps blowing"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
+        "object_name": "starter fuse",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
         "process_name": "keeps blowing"
@@ -462,15 +889,15 @@
         "process_name": "emptying"
     },
     {
-        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
-        "object_name": "pto cavity",
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "pump cavity",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
         "process_name": "emptying"
     },
     {
-        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
-        "object_name": "pump cavity",
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "pto cavity",
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
         "process_name": "emptying"
@@ -481,439 +908,5 @@
         "event_relation": "hasPatient",
         "process_type": "Process/UndesirableProcess",
         "process_name": "overgreasing"
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hose",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "weeping"
-    },
-    {
-        "object_type": "PhysicalObject/RestrictingObject/MovementRestrictingObject",
-        "object_name": "brake hose",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "weeping"
-    },
-    {
-        "object_type": "PhysicalObject/EmittingObject/ThermalCoolingObject",
-        "object_name": "oil cooler hose",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "weeping"
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
-        "object_name": "bucket cylinder hose",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "weeping"
-    },
-    {
-        "object_type": "PhysicalObject/MatterProcessingObject/ForceSeparatingObject",
-        "object_name": "centrifuge hose",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "weeping"
-    },
-    {
-        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
-        "object_name": "transmission hose",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "weeping"
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
-        "object_name": "tilt cylinder hose",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "weeping"
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
-        "object_name": "clam cylinder hose",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "weeping"
-    },
-    {
-        "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
-        "object_name": "filter hose",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "weeping"
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
-        "object_name": "hmu hose",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "weeping"
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
-        "object_name": "pump hose",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "weeping"
-    },
-    {
-        "object_type": "PhysicalObject/EmittingObject",
-        "object_name": "heater hose",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "weeping"
-    },
-    {
-        "object_type": "PhysicalObject/EmittingObject/ThermalCoolingObject",
-        "object_name": "cooler hose",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "weeping"
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/DetachableCoupling",
-        "object_name": "hitch hose",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "weeping"
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
-        "object_name": "boom hose",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "weeping"
-    },
-    {
-        "object_type": "PhysicalObject/ControllingObject/MechanicalMovementControllingObject",
-        "object_name": "steering hose",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "weeping"
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
-        "object_name": "motor hose",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "weeping"
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
-        "object_name": "crowd cylinder hose",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "weeping"
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
-        "object_name": "boom cylinder hose",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "weeping"
-    },
-    {
-        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
-        "object_name": "air conditioner hose",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "weeping"
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
-        "object_name": "slew motor hose",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "weeping"
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
-        "object_name": "fan hose",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "weeping"
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
-        "object_name": "crowd cylinder",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "creeping"
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
-        "object_name": "cylinder",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "creeping"
-    },
-    {
-        "object_type": "PhysicalObject/ControllingObject/SealedFluidVaryingObject",
-        "object_name": "control valve",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "falling off"
-    },
-    {
-        "object_type": "PhysicalObject",
-        "object_name": "ripper control valve",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "falling off"
-    },
-    {
-        "object_type": "PhysicalObject/ControllingObject/MechanicalMovementControllingObject",
-        "object_name": "steering control valve",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "falling off"
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "hydraulic oil",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "oil",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/TemperatureProtectingObject",
-        "object_name": "coolant",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "oil",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/DetachableCoupling",
-        "object_name": "centre hitch oil",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/JointingObject",
-        "object_name": "thrust bearing oil",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
-    },
-    {
-        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
-        "object_name": "swingbox oil",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
-    },
-    {
-        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
-        "object_name": "differential oil",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/CombustionEngine",
-        "object_name": "engine oil",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
-    },
-    {
-        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
-        "object_name": "transmission oil",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
-        "object_name": "air compressor oil",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
-        "object_name": "pump oil",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
-    },
-    {
-        "object_type": "PhysicalObject/Substance/Gas",
-        "object_name": "air",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "grease",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
-    },
-    {
-        "object_type": "PhysicalObject/TransformingObject/ElectricEnergyTransformingObject",
-        "object_name": "high voltage slip ring grease",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "object_name": "pin grease",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
-    },
-    {
-        "object_type": "PhysicalObject/Substance/Solid",
-        "object_name": "dust",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
-    },
-    {
-        "object_type": "PhysicalObject/Substance/Liquid",
-        "object_name": "fuel",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
-    },
-    {
-        "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
-        "object_name": "centrifugal oil filter",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
-    },
-    {
-        "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
-        "object_name": "oil filter",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
-    },
-    {
-        "object_type": "PhysicalObject/Substance/Solid",
-        "object_name": "dust",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/TemperatureProtectingObject",
-        "object_name": "coolant",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
-    },
-    {
-        "object_type": "PhysicalObject/Substance/Liquid",
-        "object_name": "fuel",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
-    },
-    {
-        "object_type": "PhysicalObject/Substance/Gas",
-        "object_name": "air",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "oil",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/DetachableCoupling",
-        "object_name": "centre hitch oil",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/JointingObject",
-        "object_name": "thrust bearing oil",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
-    },
-    {
-        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
-        "object_name": "swingbox oil",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
-    },
-    {
-        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
-        "object_name": "differential oil",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/CombustionEngine",
-        "object_name": "engine oil",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
-    },
-    {
-        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
-        "object_name": "transmission oil",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
-        "object_name": "air compressor oil",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
-        "object_name": "pump oil",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
-        "object_name": "batteries",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "discharging"
-    },
-    {
-        "object_type": "PhysicalObject/TransformingObject/ElectricEnergyConvertingObject",
-        "object_name": "inverter batteries",
-        "event_relation": "hasPatient",
-        "process_type": "Process/UndesirableProcess",
-        "process_name": "discharging"
     }
 ]
