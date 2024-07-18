@@ -92,8 +92,8 @@ def process_query_results(results, paths, complex=False):
         # If complex (there are helper entities that describe Undesirable event)
         if complex:
             helper_info = get_entity_info(record, query["helper"])
-            pattern["helper_type"] = helper_info["type"]
-            pattern["helper_name"] = helper_info["name"]
+            path["helper_type"] = helper_info["type"]
+            path["helper_name"] = helper_info["name"]
         
         # Alternate paths (if PhysicalObject has connect or substitute relations)
         alternate_paths, num_alternates = get_relation_info(query, record, object_info, event_info)
