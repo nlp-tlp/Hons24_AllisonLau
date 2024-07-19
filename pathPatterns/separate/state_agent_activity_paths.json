@@ -1,0 +1,380 @@
+[
+    {
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "object_name": "light",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replacing"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/GrindingAndCrushingObject",
+        "object_name": "blade light",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replacing"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
+        "object_name": "cabin",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Repair",
+        "helper_name": "resealing"
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject/OpenStationaryStoringObject",
+        "object_name": "seat",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replacing"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
+        "object_name": "cabin seat",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replacing"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "object_name": "window",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Repair",
+        "helper_name": "resealing"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
+        "object_name": "cabin window",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Repair",
+        "helper_name": "resealing"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/PositioningObject",
+        "object_name": "clamps",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/SupportingActivity/Assemble",
+        "helper_name": "fitting"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "coolant pipe clamps",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/SupportingActivity/Assemble",
+        "helper_name": "fitting"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/GrindingAndCrushingObject",
+        "object_name": "cutting edges",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "need",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "change out"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "air conditioner",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "need",
+        "helper_type": "Activity/MaintenanceActivity/Service",
+        "helper_name": "cleaning"
+    },
+    {
+        "object_type": "PhysicalObject",
+        "object_name": "dragline air conditioner",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "need",
+        "helper_type": "Activity/MaintenanceActivity/Service",
+        "helper_name": "cleaning"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "object_name": "lighting",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "requires",
+        "helper_type": "Activity/SupportingActivity/Admin",
+        "helper_name": "tagging"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "object_name": "lighting",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "requires",
+        "helper_type": "Activity/MaintenanceActivity/Diagnose",
+        "helper_name": "testing"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "roller",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "need",
+        "helper_type": "Activity/SupportingActivity/Assemble",
+        "helper_name": "fitted"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/ElectricControllingObject",
+        "object_name": "isolator",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Service",
+        "helper_name": "clean out"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/ScalarDisplay",
+        "object_name": "grease gauges",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "requires",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replacing"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/ScalarDisplay",
+        "object_name": "gauges",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "requires",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replacing"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "struts",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "require",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replacing"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "object_name": "door struts",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "require",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replacing"
+    },
+    {
+        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
+        "object_name": "hub caps",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "require",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replacing"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/MechanicalMovementControllingObject",
+        "object_name": "steering hub caps",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "require",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replacing"
+    },
+    {
+        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
+        "object_name": "caps",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "require",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replacing"
+    },
+    {
+        "object_type": "PhysicalObject/HumanInteractionObject/MovementInteractionObject",
+        "object_name": "joystick",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Repair",
+        "helper_name": "repair"
+    },
+    {
+        "object_type": "PhysicalObject/HumanInteractionObject/HandInteractionObject",
+        "object_name": "switches",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "need",
+        "helper_type": "Activity/MaintenanceActivity/Adjust",
+        "helper_name": "adjusting"
+    },
+    {
+        "object_type": "PhysicalObject/RestrictingObject/MovementRestrictingObject",
+        "object_name": "brake switches",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "need",
+        "helper_type": "Activity/MaintenanceActivity/Adjust",
+        "helper_name": "adjusting"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/DiscontinuousTransferObject",
+        "object_name": "hoist brake switches",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "need",
+        "helper_type": "Activity/MaintenanceActivity/Adjust",
+        "helper_name": "adjusting"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/RailObject",
+        "object_name": "tracks",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "need",
+        "helper_type": "Activity/MaintenanceActivity/Adjust",
+        "helper_name": "adjusting"
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject/OpenStationaryStoringObject",
+        "object_name": "seat",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replacing"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
+        "object_name": "cabin seat",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replacing"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+        "object_name": "shaft",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "requires",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replacing"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "pto shaft",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "requires",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replacing"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced"
+    },
+    {
+        "object_type": "PhysicalObject/RestrictingObject/MovementRestrictingObject",
+        "object_name": "brake hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "air conditioner",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity",
+        "helper_name": "boost"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "line",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replacing"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/OpenFlowControllingObject",
+        "object_name": "air brake line",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replacing"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "line",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "requires",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replacing"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/OpenFlowControllingObject",
+        "object_name": "air brake line",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "requires",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replacing"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/EnvironmentProtectingObject",
+        "object_name": "dust flap",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/SupportingActivity/Modify",
+        "helper_name": "extending"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/CarryingObject",
+        "object_name": "mast dust flap",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/SupportingActivity/Modify",
+        "helper_name": "extending"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/FramingObject",
+        "object_name": "window frame",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Repair",
+        "helper_name": "repair"
+    }
+]

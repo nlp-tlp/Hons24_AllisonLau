@@ -1,0 +1,101 @@
+[
+    {
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
+        "object_name": "bolt",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "PhysicalObject/Substance/Liquid",
+        "helper_name": "loctite"
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject/MoveableStoringObject",
+        "object_name": "carousel bolt",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "PhysicalObject/Substance/Liquid",
+        "helper_name": "loctite"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "revolving frame",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "found",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "oil"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "frame",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "found",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "oil"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
+        "object_name": "am / fm radio",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
+        "helper_name": "aerial"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
+        "object_name": "radio",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
+        "helper_name": "aerial"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
+        "object_name": "pin",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "no",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "grease"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/MechanicalMovementControllingObject",
+        "object_name": "steering pin",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "no",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "grease"
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject/ElectrochemicalStoringObject",
+        "object_name": "battery",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "dropped",
+        "helper_type": "PhysicalObject/StoringObject/ElectrochemicalStoringObject",
+        "helper_name": "cell"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
+        "object_name": "cabin",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "missing",
+        "helper_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
+        "helper_name": "smoke detector"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ThermalCoolingObject",
+        "object_name": "radiator",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "blocked",
+        "helper_type": "PhysicalObject/TransformingObject/OrganicPlant",
+        "helper_name": "grass"
+    }
+]

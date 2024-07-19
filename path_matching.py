@@ -28,46 +28,66 @@ def get_entity_info(record, entity):
     }
 
 # Function to get relation information
-def get_relation_info(query, record, object, event):
+def get_alternate_paths(query, record, object, event, helper=None):
     """ Extract relation information from record """
     alternate_paths = []
     # If PhysicalObject has connect relations to other PhysicalObjects
     # connect_relations: hasPart, contains
-    for relation, connect_obj in zip(record["connect_relations"], record["connect_objects"]):
-        if relation == "hasPart" or relation == "contains":
-            alternate_paths.append({
-                "object_type": get_entity_type(connect_obj),
-                "object_name": f"{connect_obj['text']} {object['name']}",
-                "event_relation": query["relation"],
-                f"{query['event']}_type": event['type'],
-                f"{query['event']}_name": event['name']
-            })
+    current_obj = object["name"]
+    for connect_obj in record["connect_objects"]:
+        current_obj = f"{connect_obj['text']} {current_obj}"
+        path = {
+            "object_type": get_entity_type(connect_obj),
+            "object_name": current_obj,
+            "event_relation": query["relation"],
+            f"{query['event']}_type": event['type'],
+            f"{query['event']}_name": event['name']
+        }
+        if helper:
+            path["helper_type"] = helper['type']
+            path["helper_name"] = helper['name']
+        alternate_paths.append(path)
 
     # If PhysicalObject has substitute relations to other PhysicalObjects
     # substitute_relations: isA
-    for relation, substitute_obj in zip(record["substitute_relations"], record["substitute_objects"]):
-        if relation == "isA":
-            alternate_paths.append({
-                "object_type": get_entity_type(substitute_obj),
-                "object_name": substitute_obj['text'],
-                "event_relation": query["relation"],
-                f"{query['event']}_type": event['type'],
-                f"{query['event']}_name": event['name']
-            })
+    for substitute_obj in record["substitute_objects"]:
+        path = {
+            "object_type": get_entity_type(substitute_obj),
+            "object_name": substitute_obj['text'],
+            "event_relation": query["relation"],
+            f"{query['event']}_type": event['type'],
+            f"{query['event']}_name": event['name']
+        }
+        if helper:
+            path["helper_type"] = helper['type']
+            path["helper_name"] = helper['name']
+        alternate_paths.append(path)
 
     # If Event has substitute relations to its own Events (Property, Process, State
     # event_substitute: isA
-    for relation, substitute_event in zip(record["event_substitute"], record[f"substitute_{query['event']}"]):
-        if relation == "isA":
-            alternate_paths.append({
-                "object_type": object['type'],
-                "object_name": object['name'],
-                "event_relation": query["relation"],
-                f"{query['event']}_type": get_entity_type(substitute_event),
-                f"{query['event']}_name": substitute_event['text']
-            })
-
+    for substitute_event in record[f"substitute_{query['event']}"]:
+        path = {
+            "object_type": object['type'],
+            "object_name": object['name'],
+            "event_relation": query["relation"],
+            f"{query['event']}_type": get_entity_type(substitute_event),
+            f"{query['event']}_name": substitute_event['text']
+        }
+        if helper:
+            path["helper_type"] = helper['type']
+            path["helper_name"] = helper['name']
+        alternate_paths.append(path)
+        
+    alternate_paths = remove_duplicates(alternate_paths)    
     return alternate_paths, len(alternate_paths)
+
+def remove_duplicates(paths):
+    """ Remove duplicate paths """
+    unique_paths = []
+    for path in paths:
+        if path not in unique_paths:
+            unique_paths.append(path)
+    return unique_paths
 
 def process_query_results(results, paths, complex=False):
     """ Process query results and extract relevant information """
@@ -96,7 +116,13 @@ def process_query_results(results, paths, complex=False):
             path["helper_name"] = helper_info["name"]
         
         # Alternate paths (if PhysicalObject has connect or substitute relations)
-        alternate_paths, num_alternates = get_relation_info(query, record, object_info, event_info)
+        alternate_paths, num_alternates = get_alternate_paths(query, record, object_info, event_info)
+        
+        # Pass helper_info in generating alternate paths if complex
+        if complex:
+            alternate_paths, num_alternates = get_alternate_paths(query, record, object_info, event_info, helper_info)
+        else:
+            alternate_paths, num_alternates = get_alternate_paths(query, record, object_info, event_info)
         
         # Include paths only if they don't already exist
         potential_paths = [path] + alternate_paths
@@ -122,12 +148,12 @@ if __name__ == "__main__":
             results = session.run(query["query"])
             paths = []
             process_query_results(results, paths, complex=False)
-            list_to_json(paths, f"pathPatterns/{query['outfile']}.json")
+            list_to_json(paths, f"pathPatterns/separate/{query['outfile']}.json")
         
-        # for query in complex_queries:
-        #     results = session.run(query["query"])
-        #     paths = []
-        #     process_query_results(results, paths, complex=True)
-        #     list_to_json(paths, f"pathPatterns/{query['outfile']}.json")
+        for query in complex_queries:
+            results = session.run(query["query"])
+            paths = []
+            process_query_results(results, paths, complex=True)
+            list_to_json(paths, f"pathPatterns/separate/{query['outfile']}.json")
 
     driver.close()

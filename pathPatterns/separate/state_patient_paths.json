@@ -1,0 +1,3607 @@
+[
+    {
+        "object_type": "PhysicalObject/SensingObject/TemperatureSensingObject",
+        "object_name": "thermostat",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not working"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "air conditioner thermostat",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not working"
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/TemperatureSensingObject",
+        "object_name": "thermostat",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "air conditioner thermostat",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "air conditioner",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "air conditioner",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "warm"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
+        "object_name": "air filters",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "plugged"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
+        "object_name": "filters",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "plugged"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/AcousticDevice",
+        "object_name": "air horn",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "disconnected"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/AcousticDevice",
+        "object_name": "horn",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "disconnected"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/AcousticDevice",
+        "object_name": "air horn",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/AcousticDevice",
+        "object_name": "horn",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/AcousticDevice",
+        "object_name": "air horn",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not working"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/AcousticDevice",
+        "object_name": "horn",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not working"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/AcousticDevice",
+        "object_name": "air horn",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "stuck on"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/AcousticDevice",
+        "object_name": "horn",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "stuck on"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/AcousticDevice",
+        "object_name": "air horn",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/AcousticDevice",
+        "object_name": "horn",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/AcousticDevice",
+        "object_name": "air horn",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "working intermittently"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/AcousticDevice",
+        "object_name": "horn",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "working intermittently"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/AcousticDevice",
+        "object_name": "airhorn",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not working"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/AcousticDevice",
+        "object_name": "alarm",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "doesn't work"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/GraphicalDisplay",
+        "object_name": "vims alarm",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "doesn't work"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "object_name": "dash lights",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "on"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "object_name": "lights",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "on"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/MechanicalToElectricalEnergyGeneratingObject",
+        "object_name": "alternator",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "failed"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/MechanicalToElectricalEnergyGeneratingObject",
+        "object_name": "alternator",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not charging"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/MechanicalToElectricalEnergyGeneratingObject",
+        "object_name": "alternator",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "overcharge fault"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/MechanicalToElectricalEnergyGeneratingObject",
+        "object_name": "alternator",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/MechanicalToElectricalEnergyGeneratingObject",
+        "object_name": "alternator",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "overcharged"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "driveline",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "failed"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "lube system",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "faults"
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject/OpenStationaryStoringObject",
+        "object_name": "armrest",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "auto-greaser",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "auto-lube",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "error"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "auto-spray",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not working"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "axle",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "temperature fault"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "axle",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/TemperatureSensingObject",
+        "object_name": "temperature sensor",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "axle temperature sensor",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject/OpenStationaryStoringObject",
+        "object_name": "back rest",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/HumanInteractionObject/HandInteractionObject",
+        "object_name": "handle",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "object_name": "windscreen",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "to be fixed"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/GrindingAndCrushingObject",
+        "object_name": "backhoe windscreen",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "to be fixed"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "object_name": "backlight",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/ScalarDisplay",
+        "object_name": "dash backlight",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "object_name": "backlights",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/ScalarDisplay",
+        "object_name": "dash backlights",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/AcousticDevice",
+        "object_name": "backup alarm",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not working"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
+        "object_name": "batteries",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "out of service"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
+        "object_name": "batteries",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "hinges",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "seized"
+    },
+    {
+        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
+        "object_name": "cover hinges",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "seized"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
+        "object_name": "battery cover hinges",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "seized"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "mount",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "object_name": "beacon mount",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "object_name": "beacon",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not working"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "object_name": "beacon",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "bearing",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
+        "object_name": "compressor bearing",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "air conditioner compressor bearing",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "bearings",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "shot"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
+        "object_name": "bolt",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "missing"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "belly plate bolt",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "missing"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "belly plate",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "bent"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "plate",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "bent"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "object_name": "light",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/GrindingAndCrushingObject",
+        "object_name": "blade light",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "skin",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/GrindingAndCrushingObject",
+        "object_name": "blade skin",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "wear plates",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "worn"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/GrindingAndCrushingObject",
+        "object_name": "blade wear plates",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "worn"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "wear plates",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/GrindingAndCrushingObject",
+        "object_name": "blade wear plates",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "hose",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "air conditioner hose",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/RestrictingObject/MovementRestrictingObject",
+        "object_name": "brake hose",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
+        "object_name": "crowd cylinder hose",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "extension line",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "line",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/InterfacingObject/DetachableCoupling",
+        "object_name": "hitch hose",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "boom hose",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/CoveringObject/InfillingObject",
+        "object_name": "o-ring",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
+        "object_name": "lift cylinder o-ring",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "boom light",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "hose o-ring",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/MechanicalMovementControllingObject",
+        "object_name": "steering hose o-ring",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ThermalCoolingObject",
+        "object_name": "oil cooler hose",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+        "object_name": "tyre",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
+        "object_name": "bucket cylinder hose",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/MechanicalMovementControllingObject",
+        "object_name": "steering hose",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "pump hose",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/MechanicalMovementControllingObject",
+        "object_name": "steering pump hose",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "hinge",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "object_name": "boarding gate hinge",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/MechanicalMovementControllingObject",
+        "object_name": "latch",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not working"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "object_name": "boarding gate latch",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not working"
+    },
+    {
+        "object_type": "PhysicalObject/InterfacingObject/LevelConnectingObject",
+        "object_name": "boarding ladder",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not working"
+    },
+    {
+        "object_type": "PhysicalObject/InterfacingObject/LevelConnectingObject",
+        "object_name": "ladder",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not working"
+    },
+    {
+        "object_type": "PhysicalObject/RestrictingObject/MovementRestrictingObject",
+        "object_name": "brake",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "release fault"
+    },
+    {
+        "object_type": "PhysicalObject/RestrictingObject/MovementRestrictingObject",
+        "object_name": "brake",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/RestrictingObject/MovementRestrictingObject",
+        "object_name": "brake",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "temperature error"
+    },
+    {
+        "object_type": "PhysicalObject/RestrictingObject/MovementRestrictingObject",
+        "object_name": "brake",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "error"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/PreventiveProtectingObject",
+        "object_name": "guard",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "air conditioner guard",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/PositioningObject",
+        "object_name": "clamp",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "hose clamp",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
+        "object_name": "crowd cylinder hose clamp",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "mounts",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ThermalCoolingObject",
+        "object_name": "fuel cooler mounts",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/SealedFluidSwitchingObject",
+        "object_name": "grease plug",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/SealedFluidSwitchingObject",
+        "object_name": "plug",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/HumanInteractionObject/MovementInteractionObject",
+        "object_name": "joystick",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/LightGuidingObject",
+        "object_name": "mirror",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "object_name": "window",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "object_name": "door window",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/GrindingAndCrushingObject",
+        "object_name": "ripper tooth",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/CoveringObject/InfillingObject",
+        "object_name": "weld",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/PreventiveProtectingObject",
+        "object_name": "handrail weld",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "arch",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject/MoveableStoringObject",
+        "object_name": "bucket arch",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "object_name": "window",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "object_name": "door window",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
+        "object_name": "cabin door window",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/AudioVisualSensingObject",
+        "object_name": "camera",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
+        "object_name": "bolt",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "popped"
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject/MoveableStoringObject",
+        "object_name": "carousel bolt",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "popped"
+    },
+    {
+        "object_type": "PhysicalObject/Substance/Liquid",
+        "object_name": "loctite",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
+        "object_name": "centrifugal oil filter",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
+        "object_name": "oil filter",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
+        "object_name": "filter",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "pump o-ring",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/MechanicalMovementControllingObject",
+        "object_name": "steering pump o-ring",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
+        "object_name": "bolt",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "pump bolt",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/RestrictingObject/MovementRestrictingObject",
+        "object_name": "brake pump bolt",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/PositioningObject",
+        "object_name": "bracket",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "prelube bracket",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "stabilizer bar",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "bar",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "pipe",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject",
+        "object_name": "valve bank pipe",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/GrindingAndCrushingObject",
+        "object_name": "tooth",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
+        "object_name": "adaptor",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "exhaust clamp",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+        "object_name": "tyre",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "worn out"
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject",
+        "object_name": "sensor",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not reading"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+        "object_name": "tyre sensor",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not reading"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+        "object_name": "tyre",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "damage"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "jacket water pump",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "water pump",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "pump",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "hose",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
+        "object_name": "bucket cylinder hose",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+        "object_name": "tyre",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
+        "object_name": "clam cylinder hose",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
+        "object_name": "tilt cylinder",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
+        "object_name": "cylinder",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
+        "object_name": "swing brake cylinder",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
+        "object_name": "brake cylinder",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+        "object_name": "tyre",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "worn"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+        "object_name": "tyre",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "flat"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "chord",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "pressure fault"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "chord",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/PressureSensingObject",
+        "object_name": "oil pressure switch",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
+        "object_name": "compressor oil pressure switch",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/PressureSensingObject",
+        "object_name": "pressure switch",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/ElectricControllingObject",
+        "object_name": "contactor",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/SealedFluidVaryingObject",
+        "object_name": "control valve",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "cords",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject/EnclosedStationaryStoringObject",
+        "object_name": "fuel tank",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject/EnclosedStationaryStoringObject",
+        "object_name": "tank",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "hydraulic pipe",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "suction tube",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject/EnclosedStationaryStoringObject",
+        "object_name": "tank suction tube",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/MechanicalMovementControllingObject",
+        "object_name": "steering tank suction tube",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "tube",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/PreventiveProtectingObject",
+        "object_name": "handrails",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/CarryingObject",
+        "object_name": "walkway",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
+        "object_name": "crankcase",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "error"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/GrindingAndCrushingObject",
+        "object_name": "cutting edges",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "loose"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+        "object_name": "tyre",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "damaged"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "rim",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "damaged"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/ScalarDisplay",
+        "object_name": "dash",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/MechanicalMovementControllingObject",
+        "object_name": "steering",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "slow"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "spray",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "faults"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "torque converter",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "temperature error"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "torque converter",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "error"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/CombustionEngine",
+        "object_name": "engine",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "transmission",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "overheat fault"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "transmission",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "transmission",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "slipping fault"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/MechanicalMovementControllingObject",
+        "object_name": "lock",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "differential lock",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
+        "object_name": "pin",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "out"
+    },
+    {
+        "object_type": "PhysicalObject/InterfacingObject/DetachableCoupling",
+        "object_name": "dogbone pin",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "out"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "object_name": "driver's door hinge",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "object_name": "drivers window",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "object_name": "window",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "electrical harness",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject",
+        "object_name": "sensor",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "faulty"
+    },
+    {
+        "object_type": "PhysicalObject/RestrictingObject/MovementRestrictingObject",
+        "object_name": "brake sensor",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "faulty"
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/TimeRatingObject",
+        "object_name": "speedometer",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not working"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "auxiliary drive",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "failed"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "pto",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "failed"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/ContinuousTransferObject",
+        "object_name": "drag",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "tripped"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "object_name": "revolving light",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not working"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "object_name": "light",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not working"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/FireProtectingObject",
+        "object_name": "fire extinguisher",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "out of date"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/FireProtectingObject",
+        "object_name": "extinguisher",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "out of date"
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/ResistivitySensingObject",
+        "object_name": "rtd",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "wired incorrectly"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
+        "object_name": "motor rtd",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "wired incorrectly"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/DiscontinuousTransferObject",
+        "object_name": "hoist motor rtd",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "wired incorrectly"
+    },
+    {
+        "object_type": "PhysicalObject",
+        "object_name": "machine",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "won't start"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "implement hose",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/DiscontinuousTransferObject",
+        "object_name": "crane",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not working"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "grease pump",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/SealedFluidSwitchingObject",
+        "object_name": "fill / drain plug",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "transmission fill / drain plug",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/SealedFluidSwitchingObject",
+        "object_name": "plug",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "oil",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "found"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/GraphicalDisplay",
+        "object_name": "iov",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/ContinuousTransferObject",
+        "object_name": "drag iov",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+        "object_name": "universal joint",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+        "object_name": "shaft universal joint",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "bearings",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "excess play"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
+        "object_name": "steering cylinder bearings",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "excess play"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
+        "object_name": "wiper motor",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
+        "object_name": "motor",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "transmission",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/AcousticDevice",
+        "object_name": "alarm",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "sounds continuously"
+    },
+    {
+        "object_type": "PhysicalObject/RestrictingObject/MovementRestrictingObject",
+        "object_name": "park brake alarm",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "sounds continuously"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/ScalarDisplay",
+        "object_name": "pressure gauge",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not working"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "pump pressure gauge",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not working"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/ScalarDisplay",
+        "object_name": "gauge",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not working"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/SealedFluidSwitchingObject",
+        "object_name": "drain plugs",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "differential drain plugs",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/RestrictingObject/MovementRestrictingObject",
+        "object_name": "park brake",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "alarm fault"
+    },
+    {
+        "object_type": "PhysicalObject/RestrictingObject/MovementRestrictingObject",
+        "object_name": "brake",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "alarm fault"
+    },
+    {
+        "object_type": "PhysicalObject/RestrictingObject/MovementRestrictingObject",
+        "object_name": "park brake",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "gear",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/PreventiveProtectingObject",
+        "object_name": "handrail",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "object_name": "light",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "out"
+    },
+    {
+        "object_type": "PhysicalObject/HumanInteractionObject/FingerInteractionObject",
+        "object_name": "keypad light",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "out"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/GraphicalDisplay",
+        "object_name": "vims keypad light",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "out"
+    },
+    {
+        "object_type": "PhysicalObject/InterfacingObject/LevelConnectingObject",
+        "object_name": "ladder",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
+        "object_name": "welding board",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "ground fault"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
+        "object_name": "welding board",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "bracket",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "loose"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/FireProtectingObject",
+        "object_name": "fire extinguisher bracket",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "loose"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "pto",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not meshing"
+    },
+    {
+        "object_type": "PhysicalObject/RestrictingObject/MovementRestrictingObject",
+        "object_name": "brake",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "pressure fault"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "swing brake",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "pressure fault"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "grease lines",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "no"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+        "object_name": "tail pulley grease lines",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "no"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "lines",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "no"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/GrindingAndCrushingObject",
+        "object_name": "cutting edge",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "missing"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "object_name": "windows",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
+        "object_name": "propel",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "ground fault"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
+        "object_name": "propel",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/MechanicalToElectricalEnergyGeneratingObject",
+        "object_name": "generator",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/ContinuousTransferObject",
+        "object_name": "drag generator",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "pump",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/InterfacingObject/CollectingInterfacingObject",
+        "object_name": "parts washer pump",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "grease system",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "auto-lube",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "object_name": "warning light",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "on"
+    },
+    {
+        "object_type": "PhysicalObject/RestrictingObject/MovementRestrictingObject",
+        "object_name": "brake warning light",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "on"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "object_name": "light",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "on"
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/PressureSensingObject",
+        "object_name": "fuel pressure sensor",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "faulty"
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/PressureSensingObject",
+        "object_name": "pressure sensor",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "faulty"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+        "object_name": "universal joint",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "worn"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+        "object_name": "shaft universal joint",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "worn"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/MechanicalMovementControllingObject",
+        "object_name": "steering shaft universal joint",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "worn"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "bobbin roller",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "roller",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
+        "object_name": "synchronous motor",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "trip"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
+        "object_name": "motor",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "trip"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
+        "object_name": "walk motor brake",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/CarryingObject",
+        "object_name": "tray",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject/EnclosedStationaryStoringObject",
+        "object_name": "bulk fuel tank",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject",
+        "object_name": "resolver",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not counting"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "swing resolver",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not counting"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ElectricEnergyGuidingObject",
+        "object_name": "wiring",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "object_name": "door",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "damage"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "auto-greaser door",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "damage"
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject",
+        "object_name": "resolver",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "swing resolver",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+        "object_name": "chain",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/ContinuousTransferObject",
+        "object_name": "drag chain",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/CoveringObject/InfillingObject",
+        "object_name": "welds",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "headboard welds",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/CoveringObject/InfillingObject",
+        "object_name": "welds",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "headboard welds",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
+        "object_name": "ends",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
+        "object_name": "jacking cylinder ends",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
+        "object_name": "cabin jacking cylinder ends",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "dropbox",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "transmission dropbox",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/DiscontinuousTransferObject",
+        "object_name": "hoist",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "no excitation"
+    },
+    {
+        "object_type": "PhysicalObject/RestrictingObject/LocalClimateStabilisingObject",
+        "object_name": "roller blind",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "object_name": "window roller blind",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/RestrictingObject/LocalClimateStabilisingObject",
+        "object_name": "blind",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject/OpenStationaryStoringObject",
+        "object_name": "seat",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
+        "object_name": "cabin seat",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/GraphicalDisplay",
+        "object_name": "vims",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "error"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+        "object_name": "tyre",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "mismatched"
+    },
+    {
+        "object_type": "PhysicalObject/RestrictingObject/MovementRestrictingObject",
+        "object_name": "brake",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "out of adjustment"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/DiscontinuousTransferObject",
+        "object_name": "hoist brake",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "out of adjustment"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/SealedFluidVaryingObject",
+        "object_name": "poppet valve",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "missing"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
+        "object_name": "aerial",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
+        "object_name": "am / fm radio aerial",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs"
+    },
+    {
+        "object_type": "PhysicalObject/HumanInteractionObject/MovementInteractionObject",
+        "object_name": "tele-remote camera",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/AudioVisualSensingObject",
+        "object_name": "cameras",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/HumanInteractionObject/MovementInteractionObject",
+        "object_name": "tele-remote cameras",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/HumanInteractionObject/MovementInteractionObject",
+        "object_name": "tele-remote",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/HumanInteractionObject/MovementInteractionObject",
+        "object_name": "tele-remote",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "faults"
+    },
+    {
+        "object_type": "PhysicalObject/HumanInteractionObject/MovementInteractionObject",
+        "object_name": "tele-remote",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "issues"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
+        "object_name": "compressor",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "corroded"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "air conditioner compressor",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "corroded"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
+        "object_name": "compressor",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "air conditioner compressor",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "air conditioner",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "air conditioner",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "no good"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "grease lines",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "lines",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "injector assembly",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "faulty"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
+        "object_name": "fuel filters",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "plugged"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/GrindingAndCrushingObject",
+        "object_name": "ripper tip",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "worn"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/MechanicalMovementControllingObject",
+        "object_name": "latch",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "object_name": "emergency gate latch",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
+        "object_name": "engine bay light",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/CombustionEngine",
+        "object_name": "engine",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "shutdown fault"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "object_name": "headlight",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
+        "object_name": "fuel breather",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "missing"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
+        "object_name": "breather",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "missing"
+    },
+    {
+        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
+        "object_name": "fuel cap",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "missing"
+    },
+    {
+        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
+        "object_name": "cap",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "missing"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "grease system",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "fail"
+    },
+    {
+        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
+        "object_name": "bonnet",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "lube",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject",
+        "object_name": "modular",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "does not self assign"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
+        "object_name": "am / fm radio",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "no reception"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
+        "object_name": "radio",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "no reception"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/PreventiveProtectingObject",
+        "object_name": "padding",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "worn"
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject/OpenStationaryStoringObject",
+        "object_name": "operators seat padding",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "worn"
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject/EnclosedStationaryStoringObject",
+        "object_name": "tank",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/MechanicalMovementControllingObject",
+        "object_name": "steering tank",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/ThermalSeparatingObject",
+        "object_name": "dryer",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blocked"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "object_name": "work lights",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "object_name": "lights",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/TemperatureProtectingObject",
+        "object_name": "exhaust shield",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
+        "object_name": "compressor",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "failed"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "air conditioner compressor",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "failed"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/GrindingAndCrushingObject",
+        "object_name": "ripper shank",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "grease system",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "intermittent fault"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "grease",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "no"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
+        "object_name": "pin grease",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "no"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/MechanicalMovementControllingObject",
+        "object_name": "steering pin grease",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "no"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "transmission",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "temperature fault"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "injector",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "error"
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject/MoveableStoringObject",
+        "object_name": "clam",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "universal joint",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "failed"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "pto universal joint",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "failed"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+        "object_name": "shaft",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "snapped"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "water pump shaft",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "snapped"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/CombustionEngine",
+        "object_name": "engine water pump shaft",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "snapped"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "transmission",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "failed"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/GrindingAndCrushingObject",
+        "object_name": "cutting edges",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "worn"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/GrindingAndCrushingObject",
+        "object_name": "get cutting edges",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "worn"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
+        "object_name": "fuel filter",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "plugged"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
+        "object_name": "filter",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "plugged"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/ScalarDisplay",
+        "object_name": "gauge",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject/EnclosedStationaryStoringObject",
+        "object_name": "tank gauge",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ThermalCoolingObject",
+        "object_name": "aftercooler tank gauge",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ThermalCoolingObject",
+        "object_name": "aftercooler",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "temperature error"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ThermalCoolingObject",
+        "object_name": "aftercooler",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "error"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+        "object_name": "belt",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "air conditioner belt",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
+        "object_name": "compressor",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not working"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "air conditioner compressor",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not working"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
+        "object_name": "fan",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "air conditioner fan",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "air conditioner",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "not cold"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "air conditioner",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "electrical faults"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "air conditioner",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "faults"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "air conditioner",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not cold"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "air conditioner pressure switch",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/CoveringObject/FinishingObject",
+        "object_name": "vinyl flooring",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/CoveringObject/FinishingObject",
+        "object_name": "flooring",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/RestrictingObject/ElectricityRestrictingObject",
+        "object_name": "speed resistor",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not working"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
+        "object_name": "fan speed resistor",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not working"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "air conditioner fan speed resistor",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not working"
+    },
+    {
+        "object_type": "PhysicalObject/RestrictingObject/ElectricityRestrictingObject",
+        "object_name": "resistor",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not working"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/OpenFlowControllingObject",
+        "object_name": "air brake line",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject/ElectrochemicalStoringObject",
+        "object_name": "cell",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "dropped"
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject/ElectrochemicalStoringObject",
+        "object_name": "battery cell",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "dropped"
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject/ElectrochemicalStoringObject",
+        "object_name": "battery",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+        "object_name": "control cable",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "tight"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/GrindingAndCrushingObject",
+        "object_name": "blade control cable",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "tight"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+        "object_name": "cable",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "tight"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
+        "object_name": "fuse",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "air conditioner fuse",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "blown"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/GraphicalDisplay",
+        "object_name": "tag",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/FieldSensingObject",
+        "object_name": "proximity sensor tag",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/PositioningObject",
+        "object_name": "carousel proximity sensor tag",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ElectricEnergyGuidingObject",
+        "object_name": "wire",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/AcousticWaveEmittingObject",
+        "object_name": "speaker wire",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/ForceSensingObject",
+        "object_name": "weightometer",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not working"
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
+        "object_name": "smoke detector",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "missing"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
+        "object_name": "cabin smoke detector",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "missing"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/GrindingAndCrushingObject",
+        "object_name": "tooth",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/ElectricEnergyTransformingObject",
+        "object_name": "constant voltage transformer",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "melted"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/ElectricEnergyTransformingObject",
+        "object_name": "voltage transformer",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "melted"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/ElectricEnergyTransformingObject",
+        "object_name": "transformer",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "melted"
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
+        "object_name": "contamination alarm",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "on"
+    },
+    {
+        "object_type": "PhysicalObject/InterfacingObject/LowVoltageConnectingObject",
+        "object_name": "power point",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
+        "object_name": "cabin power point",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject/ElectrochemicalStoringObject",
+        "object_name": "dry cell",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not working"
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject/ElectrochemicalStoringObject",
+        "object_name": "cell",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not working"
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/LevelSensingObject",
+        "object_name": "depth counter",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/VisibleStateIndicator",
+        "object_name": "scoreboard",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not working"
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/LevelSensingObject",
+        "object_name": "depth counter",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not working"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/AcousticWaveEmittingObject",
+        "object_name": "siren",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not working"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
+        "object_name": "electric propel siren",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not working"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/ElectricEarthingObject",
+        "object_name": "earth wire",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ThermalCoolingObject",
+        "object_name": "radiator earth wire",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/InterfacingObject/LowVoltageConnectingObject",
+        "object_name": "terminal box",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "damaged"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/VisibleStateIndicator",
+        "object_name": "flag",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "missing"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
+        "object_name": "housing",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/ForceSeparatingObject",
+        "object_name": "water separator housing",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
+        "object_name": "fuel filter water separator housing",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/RestrictingObject/FlowRestrictor",
+        "object_name": "flow regulator",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/MechanicalToElectricalEnergyGeneratingObject",
+        "object_name": "generator flow regulator",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/RestrictingObject/FlowRestrictor",
+        "object_name": "regulator",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+        "object_name": "steels",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "locked"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricHeatingObject",
+        "object_name": "heater hose",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/CoveringObject/FinishingObject",
+        "object_name": "roof heater hose",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
+        "object_name": "cabin roof heater hose",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/PowerSensingObject",
+        "object_name": "ignition switch",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/PowerSensingObject",
+        "object_name": "ignition switch",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "sticking"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/ElectricEnergyTransformingObject",
+        "object_name": "transformer",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "overload fault"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/ElectricEnergyTransformingObject",
+        "object_name": "transformer",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/HumanInteractionObject/HandInteractionObject",
+        "object_name": "key",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/PowerSensingObject",
+        "object_name": "ignition switch key",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/OpenEnclosureGuidingObject",
+        "object_name": "guide",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+        "object_name": "chain guide",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/OpenEnclosureGuidingObject",
+        "object_name": "guide",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "worn"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+        "object_name": "chain guide",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "worn"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "harness",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
+        "object_name": "chip sensor harness",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "pump chip sensor harness",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "pto pump chip sensor harness",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/WirelessPowerObject",
+        "object_name": "microwave oven",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
+        "object_name": "contamination switch",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "on"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "pump contamination switch",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "on"
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
+        "object_name": "contamination switch",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "pump contamination switch",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/MechanicalEnergyDrivingObject",
+        "object_name": "slew pump contamination switch",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
+        "object_name": "cavity",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "low"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "pump cavity",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "low"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ElectricSignalGuidingObject",
+        "object_name": "control cable",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/CarryingObject",
+        "object_name": "power step control cable",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ElectricEnergyGuidingObject",
+        "object_name": "cable",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/InterfacingObject/NonDetachableCoupling",
+        "object_name": "box coupling",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
+        "object_name": "drive box coupling",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "pump drive box coupling",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "shaft",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
+        "object_name": "drive shaft",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "pump drive shaft",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/OrganicPlant",
+        "object_name": "grass",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "blocked"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/ScalarDisplay",
+        "object_name": "sight glasses",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ThermalCoolingObject",
+        "object_name": "radiator sight glasses",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/ForceSeparatingObject",
+        "object_name": "air separator",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/OpenFlowControllingObject",
+        "object_name": "baffle",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject/EnclosedStationaryStoringObject",
+        "object_name": "hydraulic tank baffle",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/CoveringObject/FinishingObject",
+        "object_name": "roof skin",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/PressureProtectingObject",
+        "object_name": "safety valve",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "faulty"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "base",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/VisibleStateIndicator",
+        "object_name": "scoreboard base",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
+        "object_name": "filter",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "worn"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/ForceSeparatingObject",
+        "object_name": "centrifuge filter",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "worn"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/ElectricEarthingObject",
+        "object_name": "earth terminal",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "broken"
+    },
+    {
+        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
+        "object_name": "glass",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "object_name": "entry door glass",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/ForceSeparatingObject",
+        "object_name": "water separator",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+        "object_name": "control cable",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "seized"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "air conditioner control cable",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "seized"
+    },
+    {
+        "object_type": "PhysicalObject/RestrictingObject/ElectricityRestrictingObject",
+        "object_name": "diode",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "shorted"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "grease distributor",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
+        "object_name": "chip indicators",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/PowerSensingObject",
+        "object_name": "ignition switch",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/MagneticForceDrivingObject",
+        "object_name": "magnet",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "transmission magnet",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
+        "object_name": "screen",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "transmission screen",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/ForceSeparatingObject",
+        "object_name": "rock breaker",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/ForceSeparatingObject",
+        "object_name": "rock breaker base",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject/MoveableStoringObject",
+        "object_name": "bucket rock breaker base",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "cracked"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/VisibleStateIndicator",
+        "object_name": "safety flag",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "missing"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/AcousticWaveEmittingObject",
+        "object_name": "siren",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/PowerSensingObject",
+        "object_name": "smart meter",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "not communicating"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/ElectricEnergyTransformingObject",
+        "object_name": "transformer",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "trip"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/MultipleFormPresentingObject",
+        "object_name": "monitor",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "doesn't turn on"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/MultipleFormPresentingObject",
+        "object_name": "tv monitor",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "doesn't turn on"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/MultipleFormPresentingObject",
+        "object_name": "monitor",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "no signal"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/MultipleFormPresentingObject",
+        "object_name": "tv monitor",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "no signal"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
+        "object_name": "fuse",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/RestrictingObject/ElectricityStabilisingObject",
+        "object_name": "voltage regulator fuse",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState",
+        "state_name": "fault"
+    },
+    {
+        "object_type": "PhysicalObject/PresentingObject/ScalarDisplay",
+        "object_name": "display",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/ForceSensingObject",
+        "object_name": "weightometer display",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject/MoveableStoringObject",
+        "object_name": "trailer weightometer display",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject/ElectrochemicalStoringObject",
+        "object_name": "batteries",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
+        "object_name": "fuse",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/SurfaceTreatmentObject",
+        "object_name": "wiper fuse",
+        "event_relation": "hasPatient",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "unserviceable"
+    }
+]

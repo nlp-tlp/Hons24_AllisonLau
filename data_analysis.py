@@ -182,7 +182,7 @@ def maintie_analysis(gold):
                     unique_relation_count[relation_type] = 1
                 else:
                     unique_relation_count[relation_type] += 1
-                    
+    
     print_count("Entities", entity_count)
     print_count("Relations", relation_count)
     print_count("Unique Entities", unique_entity_count)
@@ -264,7 +264,7 @@ def maintie_head_tail(data):
     
 train, test, val, gold, silver = read_data()
 
-# maintie_analysis(gold)
+maintie_analysis(gold)
 # maintie_analysis(silver)
 # maintie_head_tail(gold)
 # maintie_head_tail(silver)

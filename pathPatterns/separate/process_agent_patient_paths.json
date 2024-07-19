@@ -1,0 +1,380 @@
+[
+    {
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "object_name": "door",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak",
+        "helper_type": "PhysicalObject/Substance/Gas",
+        "helper_name": "air"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "line",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaking",
+        "helper_type": "PhysicalObject/Substance/Gas",
+        "helper_name": "air"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "auto-greaser",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaking",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "oil"
+    },
+    {
+        "object_type": "PhysicalObject/CoveringObject/InfillingObject",
+        "object_name": "seals",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaking",
+        "helper_type": "PhysicalObject/Substance/Solid",
+        "helper_name": "dust"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
+        "object_name": "cabin seals",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaking",
+        "helper_type": "PhysicalObject/Substance/Solid",
+        "helper_name": "dust"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/CombustionEngine",
+        "object_name": "engine",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "oil"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "chord",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaking",
+        "helper_type": "PhysicalObject/Substance/Gas",
+        "helper_name": "air"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ThermalCoolingObject",
+        "object_name": "oil cooler",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak",
+        "helper_type": "PhysicalObject/ProtectingObject/TemperatureProtectingObject",
+        "helper_name": "coolant"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/CombustionEngine",
+        "object_name": "engine oil cooler",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak",
+        "helper_type": "PhysicalObject/ProtectingObject/TemperatureProtectingObject",
+        "helper_name": "coolant"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ThermalCoolingObject",
+        "object_name": "cooler",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak",
+        "helper_type": "PhysicalObject/ProtectingObject/TemperatureProtectingObject",
+        "helper_name": "coolant"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "jacket water pump",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak",
+        "helper_type": "PhysicalObject/ProtectingObject/TemperatureProtectingObject",
+        "helper_name": "coolant"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "water pump",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak",
+        "helper_type": "PhysicalObject/ProtectingObject/TemperatureProtectingObject",
+        "helper_name": "coolant"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "pump",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak",
+        "helper_type": "PhysicalObject/ProtectingObject/TemperatureProtectingObject",
+        "helper_name": "coolant"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "differential",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "oil"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "object_name": "window",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak",
+        "helper_type": "PhysicalObject/Substance/Solid",
+        "helper_name": "dust"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "grease pump",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "bypassing",
+        "helper_type": "PhysicalObject/Substance/Gas",
+        "helper_name": "air"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "pump",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "bypassing",
+        "helper_type": "PhysicalObject/Substance/Gas",
+        "helper_name": "air"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
+        "object_name": "air compressor",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "oil"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
+        "object_name": "compressor",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "oil"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "swingbox",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "oil"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/CombustionEngine",
+        "object_name": "engine",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaks",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "oil"
+    },
+    {
+        "object_type": "PhysicalObject/InterfacingObject/DetachableCoupling",
+        "object_name": "centre hitch",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaks",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "oil"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+        "object_name": "pump",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "oil"
+    },
+    {
+        "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
+        "object_name": "fan pump",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "oil"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "torque converter fan pump",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "oil"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "transmission",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "oil"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/CombustionEngine",
+        "object_name": "engine",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaking",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "oil"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
+        "object_name": "pilot filter",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "oil"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
+        "object_name": "filter",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "oil"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "accessory drive",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaking",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "oil"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "air conditioner accessory drive",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaking",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "oil"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/MechanicalEnergyDrivingObject",
+        "object_name": "drive",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaking",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "oil"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "air conditioner drive",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaking",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "oil"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/ElectricEnergyTransformingObject",
+        "object_name": "high voltage slip ring",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "grease"
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/ElectricEnergyTransformingObject",
+        "object_name": "slip ring",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "grease"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/SolidSubstanceFlowVaryingObject",
+        "object_name": "diverter valve",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "oil"
+    },
+    {
+        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
+        "object_name": "cover plate",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "oil"
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/CombustionHeatingObject",
+        "object_name": "oil burner cover plate",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "oil"
+    },
+    {
+        "object_type": "PhysicalObject/InformationProcessingObject/FluidSignallingObject",
+        "object_name": "pilot valve",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaking",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "oil"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/PressureProtectingObject",
+        "object_name": "safety valve",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak",
+        "helper_type": "PhysicalObject/Substance/Gas",
+        "helper_name": "air"
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject/EnclosedStationaryStoringObject",
+        "object_name": "air tank safety valve",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leak",
+        "helper_type": "PhysicalObject/Substance/Gas",
+        "helper_name": "air"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/ForceSeparatingObject",
+        "object_name": "water separator",
+        "event_relation": "hasAgent",
+        "process_type": "Process/UndesirableProcess",
+        "process_name": "leaking",
+        "helper_type": "PhysicalObject/Substance/Liquid",
+        "helper_name": "fuel"
+    }
+]
