@@ -1,35 +1,11 @@
 [
     {
-        "object_type": "PhysicalObject/HoldingObject/FramingObject",
-        "object_name": "window frame",
-        "event_relation": "hasProperty",
-        "property_type": "Property/UndesirableProperty",
-        "property_name": "crack",
-        "valid": false
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/ReinforcingObject",
-        "object_name": "cross member",
-        "event_relation": "hasProperty",
-        "property_type": "Property/UndesirableProperty",
-        "property_name": "crack",
-        "valid": false
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
-        "object_name": "chassis cross member",
-        "event_relation": "hasProperty",
-        "property_type": "Property/UndesirableProperty",
-        "property_name": "crack",
-        "valid": false
-    },
-    {
         "object_type": "PhysicalObject/StoringObject/EnclosedStationaryStoringObject",
         "object_name": "fuel tank",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "crack",
-        "valid": false
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/StoringObject/EnclosedStationaryStoringObject",
@@ -37,23 +13,31 @@
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "crack",
-        "valid": false
+        "valid": true
     },
     {
-        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
-        "object_name": "track frame",
+        "object_type": "PhysicalObject/HoldingObject/FramingObject",
+        "object_name": "window frame",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "crack",
-        "valid": false
+        "valid": true
     },
     {
-        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
-        "object_name": "frame",
+        "object_type": "PhysicalObject/RestrictingObject/AccessRestrictingObject",
+        "object_name": "glass window",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "crack",
-        "valid": false
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "object_name": "window",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "crack",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
@@ -61,7 +45,7 @@
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "crack",
-        "valid": false
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
@@ -69,31 +53,23 @@
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "crack",
-        "valid": false
+        "valid": true
     },
     {
-        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
-        "object_name": "boom foot",
+        "object_type": "PhysicalObject/HoldingObject/ReinforcingObject",
+        "object_name": "cross member",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "crack",
-        "valid": false
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
-        "object_name": "cable gantry",
+        "object_name": "chassis cross member",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "crack",
-        "valid": false
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
-        "object_name": "gantry",
-        "event_relation": "hasProperty",
-        "property_type": "Property/UndesirableProperty",
-        "property_name": "crack",
-        "valid": false
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
@@ -101,7 +77,7 @@
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "crack",
-        "valid": false
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/MatterProcessingObject/GrindingAndCrushingObject",
@@ -109,7 +85,7 @@
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "crack",
-        "valid": false
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/EnvironmentProtectingObject",
@@ -117,7 +93,63 @@
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "crack",
-        "valid": false
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "track frame",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "crack",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "frame",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "crack",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "cable gantry",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "crack",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "gantry",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "crack",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ThermalEnergyGuidingObject",
+        "object_name": "heat shield",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "crack",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "headboard",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "crack",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "boom foot",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "crack",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
@@ -136,36 +168,36 @@
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/RestrictingObject/AccessRestrictingObject",
-        "object_name": "glass window",
-        "event_relation": "hasProperty",
-        "property_type": "Property/UndesirableProperty",
-        "property_name": "crack",
-        "valid": false
-    },
-    {
-        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
-        "object_name": "window",
-        "event_relation": "hasProperty",
-        "property_type": "Property/UndesirableProperty",
-        "property_name": "crack",
-        "valid": false
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ThermalEnergyGuidingObject",
-        "object_name": "heat shield",
-        "event_relation": "hasProperty",
-        "property_type": "Property/UndesirableProperty",
-        "property_name": "crack",
-        "valid": false
-    },
-    {
         "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
-        "object_name": "headboard",
+        "object_name": "mounts",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
-        "property_name": "crack",
-        "valid": false
+        "property_name": "cracks",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/FireProtectingObject",
+        "object_name": "fire suppression mounts",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "cracks",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
+        "object_name": "cabin fire suppression mounts",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "cracks",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ThermalCoolingObject",
+        "object_name": "fuel cooler cabin fire suppression mounts",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "cracks",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/ReinforcingObject",
@@ -173,7 +205,7 @@
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "cracks",
-        "valid": false
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/CarryingObject",
@@ -181,119 +213,7 @@
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "cracks",
-        "valid": false
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
-        "object_name": "diagonal braces",
-        "event_relation": "hasProperty",
-        "property_type": "Property/UndesirableProperty",
-        "property_name": "cracks",
-        "valid": false
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
-        "object_name": "braces",
-        "event_relation": "hasProperty",
-        "property_type": "Property/UndesirableProperty",
-        "property_name": "cracks",
-        "valid": false
-    },
-    {
-        "object_type": "PhysicalObject/StoringObject/MoveableStoringObject",
-        "object_name": "mud bucket",
-        "event_relation": "hasProperty",
-        "property_type": "Property/UndesirableProperty",
-        "property_name": "cracks",
-        "valid": false
-    },
-    {
-        "object_type": "PhysicalObject/StoringObject/MoveableStoringObject",
-        "object_name": "bucket",
-        "event_relation": "hasProperty",
-        "property_type": "Property/UndesirableProperty",
-        "property_name": "cracks",
-        "valid": false
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
-        "object_name": "mounts",
-        "event_relation": "hasProperty",
-        "property_type": "Property/UndesirableProperty",
-        "property_name": "cracks",
-        "valid": false
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
-        "object_name": "cabin mounts",
-        "event_relation": "hasProperty",
-        "property_type": "Property/UndesirableProperty",
-        "property_name": "cracks",
-        "valid": false
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/FireProtectingObject",
-        "object_name": "fire suppression cabin mounts",
-        "event_relation": "hasProperty",
-        "property_type": "Property/UndesirableProperty",
-        "property_name": "cracks",
-        "valid": false
-    },
-    {
-        "object_type": "PhysicalObject/EmittingObject/ThermalCoolingObject",
-        "object_name": "fuel cooler fire suppression cabin mounts",
-        "event_relation": "hasProperty",
-        "property_type": "Property/UndesirableProperty",
-        "property_name": "cracks",
-        "valid": false
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/PreventiveProtectingObject",
-        "object_name": "handrail",
-        "event_relation": "hasProperty",
-        "property_type": "Property/UndesirableProperty",
-        "property_name": "cracks",
-        "valid": false
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/CarryingObject",
-        "object_name": "decking",
-        "event_relation": "hasProperty",
-        "property_type": "Property/UndesirableProperty",
-        "property_name": "cracks",
-        "valid": false
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
-        "object_name": "stick",
-        "event_relation": "hasProperty",
-        "property_type": "Property/UndesirableProperty",
-        "property_name": "cracks",
-        "valid": false
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
-        "object_name": "headboard",
-        "event_relation": "hasProperty",
-        "property_type": "Property/UndesirableProperty",
-        "property_name": "cracks",
-        "valid": false
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/SolidMatterGuidingObject",
-        "object_name": "dirt chute",
-        "event_relation": "hasProperty",
-        "property_type": "Property/UndesirableProperty",
-        "property_name": "cracks",
-        "valid": false
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/SolidMatterGuidingObject",
-        "object_name": "chute",
-        "event_relation": "hasProperty",
-        "property_type": "Property/UndesirableProperty",
-        "property_name": "cracks",
-        "valid": false
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
@@ -301,7 +221,87 @@
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "cracks",
-        "valid": false
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject/MoveableStoringObject",
+        "object_name": "mud bucket",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "cracks",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject/MoveableStoringObject",
+        "object_name": "bucket",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "cracks",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
+        "object_name": "stick",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "cracks",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "headboard",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "cracks",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "diagonal braces",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "cracks",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "braces",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "cracks",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/SolidMatterGuidingObject",
+        "object_name": "dirt chute",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "cracks",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/SolidMatterGuidingObject",
+        "object_name": "chute",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "cracks",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/PreventiveProtectingObject",
+        "object_name": "handrail",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "cracks",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/CarryingObject",
+        "object_name": "decking",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "cracks",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/JointingObject",
@@ -309,7 +309,7 @@
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "noisy",
-        "valid": false
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
@@ -317,7 +317,7 @@
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "noisy",
-        "valid": false
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
@@ -325,95 +325,95 @@
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "noisy",
-        "valid": false
-    },
-    {
-        "object_type": "PhysicalObject",
-        "object_name": "dragline air conditioner compressor bearing",
-        "event_relation": "hasProperty",
-        "property_type": "Property/UndesirableProperty",
-        "property_name": "noisy",
-        "valid": false
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
-        "object_name": "cabin dragline air conditioner compressor bearing",
+        "object_name": "operator cabin air conditioner compressor bearing",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "noisy",
-        "valid": false
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/DrivingObject/CombustionEngine",
-        "object_name": "engine cabin dragline air conditioner compressor bearing",
+        "object_name": "engine operator cabin air conditioner compressor bearing",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "noisy",
-        "valid": false
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
-        "object_name": "hydraulic motor engine cabin dragline air conditioner compressor bearing",
+        "object_name": "hydraulic motor engine operator cabin air conditioner compressor bearing",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "noisy",
-        "valid": false
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject",
+        "object_name": "dragline hydraulic motor engine operator cabin air conditioner compressor bearing",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "noisy",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
-        "object_name": "operator cabin hydraulic motor engine cabin dragline air conditioner compressor bearing",
+        "object_name": "cabin dragline hydraulic motor engine operator cabin air conditioner compressor bearing",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "noisy",
-        "valid": false
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
-        "object_name": "jockey pulley operator cabin hydraulic motor engine cabin dragline air conditioner compressor bearing",
-        "event_relation": "hasProperty",
-        "property_type": "Property/UndesirableProperty",
-        "property_name": "noisy",
-        "valid": false
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
-        "object_name": "steering cylinder jockey pulley operator cabin hydraulic motor engine cabin dragline air conditioner compressor bearing",
-        "event_relation": "hasProperty",
-        "property_type": "Property/UndesirableProperty",
-        "property_name": "noisy",
-        "valid": false
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/JointingObject",
-        "object_name": "roller steering cylinder jockey pulley operator cabin hydraulic motor engine cabin dragline air conditioner compressor bearing",
+        "object_name": "roller cabin dragline hydraulic motor engine operator cabin air conditioner compressor bearing",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "noisy",
-        "valid": false
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/ContinuousTransferObject",
-        "object_name": "drag roller steering cylinder jockey pulley operator cabin hydraulic motor engine cabin dragline air conditioner compressor bearing",
+        "object_name": "drag roller cabin dragline hydraulic motor engine operator cabin air conditioner compressor bearing",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "noisy",
-        "valid": false
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/DiscontinuousTransferObject",
-        "object_name": "hoist drag roller steering cylinder jockey pulley operator cabin hydraulic motor engine cabin dragline air conditioner compressor bearing",
+        "object_name": "hoist drag roller cabin dragline hydraulic motor engine operator cabin air conditioner compressor bearing",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "noisy",
-        "valid": false
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/ReinforcingObject",
-        "object_name": "equalizer bar hoist drag roller steering cylinder jockey pulley operator cabin hydraulic motor engine cabin dragline air conditioner compressor bearing",
+        "object_name": "equalizer bar hoist drag roller cabin dragline hydraulic motor engine operator cabin air conditioner compressor bearing",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "noisy",
-        "valid": false
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+        "object_name": "jockey pulley equalizer bar hoist drag roller cabin dragline hydraulic motor engine operator cabin air conditioner compressor bearing",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "noisy",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
+        "object_name": "steering cylinder jockey pulley equalizer bar hoist drag roller cabin dragline hydraulic motor engine operator cabin air conditioner compressor bearing",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "noisy",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
@@ -421,7 +421,7 @@
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "noisy",
-        "valid": false
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/FramingObject",

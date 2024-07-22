@@ -7,7 +7,7 @@
         "property_name": "charge",
         "helper_type": "State/UndesirableState/FailedState",
         "helper_name": "no",
-        "valid": false
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/TransformingObject/ElectricEnergyConvertingObject",
@@ -17,7 +17,7 @@
         "property_name": "charge",
         "helper_type": "State/UndesirableState/FailedState",
         "helper_name": "no",
-        "valid": false
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
@@ -27,106 +27,106 @@
         "property_name": "charge",
         "helper_type": "State/UndesirableState/FailedState",
         "helper_name": "no",
-        "valid": false
+        "valid": true
     },
     {
-        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
-        "object_name": "swing blower inverter batteries",
+        "object_type": "PhysicalObject/GeneratingObject/DiscontinuousTransferObject",
+        "object_name": "hoist blower inverter batteries",
         "event_relation": "hasProperty",
         "property_type": "Property/DesirableProperty",
         "property_name": "charge",
         "helper_type": "State/UndesirableState/FailedState",
         "helper_name": "no",
-        "valid": false
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/ContinuousTransferObject",
-        "object_name": "drag swing blower inverter batteries",
+        "object_name": "drag hoist blower inverter batteries",
         "event_relation": "hasProperty",
         "property_type": "Property/DesirableProperty",
         "property_name": "charge",
         "helper_type": "State/UndesirableState/FailedState",
         "helper_name": "no",
-        "valid": false
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/DiscontinuousTransferObject",
-        "object_name": "hoist drag swing blower inverter batteries",
+        "object_name": "hoist drag hoist blower inverter batteries",
         "event_relation": "hasProperty",
         "property_type": "Property/DesirableProperty",
         "property_name": "charge",
         "helper_type": "State/UndesirableState/FailedState",
         "helper_name": "no",
-        "valid": false
+        "valid": true
     },
     {
-        "object_type": "PhysicalObject/GeneratingObject/DiscontinuousTransferObject",
-        "object_name": "hoist hoist drag swing blower inverter batteries",
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "swing hoist drag hoist blower inverter batteries",
         "event_relation": "hasProperty",
         "property_type": "Property/DesirableProperty",
         "property_name": "charge",
         "helper_type": "State/UndesirableState/FailedState",
         "helper_name": "no",
-        "valid": false
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
-        "object_name": "air conditioner hoist hoist drag swing blower inverter batteries",
+        "object_name": "air conditioner swing hoist drag hoist blower inverter batteries",
         "event_relation": "hasProperty",
         "property_type": "Property/DesirableProperty",
         "property_name": "charge",
         "helper_type": "State/UndesirableState/FailedState",
         "helper_name": "no",
-        "valid": false
-    },
-    {
-        "object_type": "PhysicalObject",
-        "object_name": "dragline air conditioner hoist hoist drag swing blower inverter batteries",
-        "event_relation": "hasProperty",
-        "property_type": "Property/DesirableProperty",
-        "property_name": "charge",
-        "helper_type": "State/UndesirableState/FailedState",
-        "helper_name": "no",
-        "valid": false
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
-        "object_name": "cabin dragline air conditioner hoist hoist drag swing blower inverter batteries",
+        "object_name": "operator cabin air conditioner swing hoist drag hoist blower inverter batteries",
         "event_relation": "hasProperty",
         "property_type": "Property/DesirableProperty",
         "property_name": "charge",
         "helper_type": "State/UndesirableState/FailedState",
         "helper_name": "no",
-        "valid": false
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/DrivingObject/CombustionEngine",
-        "object_name": "engine cabin dragline air conditioner hoist hoist drag swing blower inverter batteries",
+        "object_name": "engine operator cabin air conditioner swing hoist drag hoist blower inverter batteries",
         "event_relation": "hasProperty",
         "property_type": "Property/DesirableProperty",
         "property_name": "charge",
         "helper_type": "State/UndesirableState/FailedState",
         "helper_name": "no",
-        "valid": false
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
-        "object_name": "hydraulic motor engine cabin dragline air conditioner hoist hoist drag swing blower inverter batteries",
+        "object_name": "hydraulic motor engine operator cabin air conditioner swing hoist drag hoist blower inverter batteries",
         "event_relation": "hasProperty",
         "property_type": "Property/DesirableProperty",
         "property_name": "charge",
         "helper_type": "State/UndesirableState/FailedState",
         "helper_name": "no",
-        "valid": false
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject",
+        "object_name": "dragline hydraulic motor engine operator cabin air conditioner swing hoist drag hoist blower inverter batteries",
+        "event_relation": "hasProperty",
+        "property_type": "Property/DesirableProperty",
+        "property_name": "charge",
+        "helper_type": "State/UndesirableState/FailedState",
+        "helper_name": "no",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
-        "object_name": "operator cabin hydraulic motor engine cabin dragline air conditioner hoist hoist drag swing blower inverter batteries",
+        "object_name": "cabin dragline hydraulic motor engine operator cabin air conditioner swing hoist drag hoist blower inverter batteries",
         "event_relation": "hasProperty",
         "property_type": "Property/DesirableProperty",
         "property_name": "charge",
         "helper_type": "State/UndesirableState/FailedState",
         "helper_name": "no",
-        "valid": false
+        "valid": true
     }
 ]

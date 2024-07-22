@@ -31,6 +31,7 @@ def get_entity_info(record, entity):
 # Function to get relation information
 def get_alternate_paths(query, record, object, event, valid, helper=None):
     """ Extract relation information from record """
+    num_valid = 0
     alternate_paths = []
     # If PhysicalObject has connect relations to other PhysicalObjects
     # connect_relations: hasPart, contains
@@ -82,9 +83,13 @@ def get_alternate_paths(query, record, object, event, valid, helper=None):
         path["valid"] = valid
         alternate_paths.append(path)
         
-    alternate_paths = remove_duplicates(alternate_paths)    
-    return alternate_paths, len(alternate_paths)
+    alternate_paths = remove_duplicates(alternate_paths)
+    for path in alternate_paths:
+        if path["valid"]:
+            num_valid += 1
+    return alternate_paths, len(alternate_paths), num_valid
 
+# Function to remove duplicate paths
 def remove_duplicates(paths):
     """ Remove duplicate paths """
     unique_paths = []
@@ -93,11 +98,22 @@ def remove_duplicates(paths):
             unique_paths.append(path)
     return unique_paths
 
+# Function to check validity of paths (if entities come from same entry)
+def check_validity(object_entries, event_entries):
+    """ Check if entities come from same entry """
+    # TODO: Do a query to check this instead
+    for obj_entry in object_entries:
+        for event_entry in event_entries:
+            if obj_entry == event_entry:
+                return True
+    return False
+
 def process_query_results(results, paths, complex=False):
     """ Process query results and extract relevant information """
 
-    num_direct_count = 0
-    num_alternates_count = 0
+    num_direct = 0
+    num_alternate = 0
+    num_valid = 0
     for record in results:
         # PhysicalObject - Equipment
         object_info = get_entity_info(record, "object")
@@ -120,13 +136,13 @@ def process_query_results(results, paths, complex=False):
             path["helper_name"] = helper_info["name"]
             
         # Check if path is confirmed valid (entities come from same entry)
-        path["valid"] = True if object_info["entry_id"] == event_info["entry_id"] else False
+        path["valid"] = check_validity(object_info["entry_id"], event_info["entry_id"])
         
         # Alternate paths (if PhysicalObject has connect or substitute relations)
         if complex: # Pass helper_info in generating alternate paths if complex
-            alternate_paths, num_alternates = get_alternate_paths(query, record, object_info, event_info, path['valid'], helper_info)
+            alternate_paths, alternate_count, valid_count = get_alternate_paths(query, record, object_info, event_info, path['valid'], helper_info)
         else:       # No helper_info if not complex
-            alternate_paths, num_alternates = get_alternate_paths(query, record, object_info, event_info, path['valid'])
+            alternate_paths, alternate_count, valid_count = get_alternate_paths(query, record, object_info, event_info, path['valid'])
         
         # Include paths only if they don't already exist
         potential_paths = [path] + alternate_paths
@@ -134,11 +150,14 @@ def process_query_results(results, paths, complex=False):
             if p not in paths:
                 paths.append(p)
 
-        num_direct_count += 1
-        num_alternates_count += num_alternates
+        num_direct += 1
+        num_alternate += alternate_count
+        num_valid += 1 if path["valid"] else 0
+        num_valid += valid_count
 
-    print("{:<40} {}".format(f"Number of {query['outfile']}:", num_direct_count))
-    print(" - {:<37} {}".format("Number of alternate paths:", num_alternates_count))
+    print("{:<40} {}".format(f"Number of {query['outfile']}:", num_direct))
+    print(" - {:<37} {}".format("Number of alternate paths:", num_alternate))
+    print("  - {:<36} {}".format("Number of valid paths:", num_valid))
 
 if __name__ == "__main__":
     # Connect to Neo4j
@@ -153,7 +172,7 @@ if __name__ == "__main__":
             paths = []
             process_query_results(results, paths, complex=False)
             list_to_json(paths, f"pathPatterns/{query['outfile']}.json")
-        
+
         for query in complex_queries:
             results = session.run(query["query"])
             paths = []
