@@ -8,7 +8,7 @@
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/MatterProcessingObject/GrindingAndCrushingObject",
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "blade liner",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
@@ -64,6 +64,14 @@
         "valid": true
     },
     {
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "object_name": "backhoe windscreen",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "crack",
+        "valid": true
+    },
+    {
         "object_type": "PhysicalObject/ProtectingObject/EnvironmentProtectingObject",
         "object_name": "rock deflector",
         "event_relation": "hasProperty",
@@ -112,8 +120,24 @@
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/ProtectingObject/FireProtectingObject",
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "fuel cooler mounts",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "cracks",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
         "object_name": "fire suppression mounts",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "cracks",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "cabin mounts",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "cracks",
@@ -184,6 +208,54 @@
         "valid": true
     },
     {
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "compressor bearing",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "noisy",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "air conditioner compressor bearing",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "noisy",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "roller bearing",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "noisy",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "jockey pulley bearing",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "noisy",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "equalizer bar bearing",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "noisy",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "steering cylinder bearing",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "noisy",
+        "valid": true
+    },
+    {
         "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
         "object_name": "stick",
         "event_relation": "hasProperty",
@@ -248,6 +320,14 @@
         "valid": true
     },
     {
+        "object_type": "PhysicalObject/HoldingObject/FramingObject",
+        "object_name": "cabin door frame",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "hole",
+        "valid": true
+    },
+    {
         "object_type": "PhysicalObject/RestrictingObject/AccessRestrictingObject",
         "object_name": "glass window",
         "event_relation": "hasProperty",
@@ -272,7 +352,7 @@
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_type": "PhysicalObject/HoldingObject/ReinforcingObject",
         "object_name": "chassis cross member",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
@@ -296,7 +376,7 @@
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/HoldingObject/CarryingObject",
+        "object_type": "PhysicalObject/HoldingObject/ReinforcingObject",
         "object_name": "mast cross braces",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",

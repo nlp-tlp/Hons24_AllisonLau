@@ -30,8 +30,58 @@
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/ControllingObject/MechanicalMovementControllingObject",
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
+        "object_name": "dogbone pin",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "no",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "grease",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "object_name": "steering pin",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "no",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "grease",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
+        "object_name": "clevis pin",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "no",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "grease",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
+        "object_name": "a-frame clevis pin",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "no",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "grease",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
+        "object_name": "mast raise cylinder pin",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState/DegradedState",
+        "state_name": "no",
+        "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "helper_name": "grease",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
+        "object_name": "steering cylinder pin",
         "event_relation": "hasAgent",
         "state_type": "State/UndesirableState/DegradedState",
         "state_name": "no",
@@ -80,8 +130,48 @@
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/StoringObject/MoveableStoringObject",
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
+        "object_name": "belly plate bolt",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "PhysicalObject/Substance/Liquid",
+        "helper_name": "loctite",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "object_name": "carousel bolt",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "PhysicalObject/Substance/Liquid",
+        "helper_name": "loctite",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
+        "object_name": "pump bolt",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "PhysicalObject/Substance/Liquid",
+        "helper_name": "loctite",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
+        "object_name": "brake pump bolt",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "PhysicalObject/Substance/Liquid",
+        "helper_name": "loctite",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
+        "object_name": "dogbone bolt",
         "event_relation": "hasAgent",
         "state_type": "State/UndesirableState",
         "state_name": "needs",

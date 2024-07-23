@@ -10,7 +10,7 @@
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/ControllingObject/MechanicalMovementControllingObject",
+        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
         "object_name": "steering hub caps",
         "event_relation": "hasAgent",
         "state_type": "State/UndesirableState/FailedState",
@@ -50,7 +50,7 @@
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/RestrictingObject/MovementRestrictingObject",
+        "object_type": "PhysicalObject/HumanInteractionObject/HandInteractionObject",
         "object_name": "brake switches",
         "event_relation": "hasAgent",
         "state_type": "State/UndesirableState",
@@ -60,7 +60,7 @@
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/GeneratingObject/DiscontinuousTransferObject",
+        "object_type": "PhysicalObject/HumanInteractionObject/HandInteractionObject",
         "object_name": "hoist brake switches",
         "event_relation": "hasAgent",
         "state_type": "State/UndesirableState",
@@ -90,7 +90,7 @@
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
+        "object_type": "PhysicalObject/StoringObject/OpenStationaryStoringObject",
         "object_name": "cabin seat",
         "event_relation": "hasAgent",
         "state_type": "State/UndesirableState/FailedState",
@@ -110,8 +110,78 @@
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+        "object_name": "head pulley shaft",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "requires",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replacing",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+        "object_name": "conveyor head pulley shaft",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "requires",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replacing",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+        "object_name": "steering shaft",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "requires",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replacing",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
         "object_name": "pto shaft",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "requires",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replacing",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+        "object_name": "water pump shaft",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "requires",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replacing",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+        "object_name": "engine water pump shaft",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "requires",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replacing",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+        "object_name": "drive shaft",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState/FailedState",
+        "state_name": "requires",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replacing",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+        "object_name": "pump drive shaft",
         "event_relation": "hasAgent",
         "state_type": "State/UndesirableState/FailedState",
         "state_name": "requires",
@@ -130,8 +200,318 @@
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/RestrictingObject/MovementRestrictingObject",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "air conditioner hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "brake hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "crowd cylinder hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "hitch hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "boom hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "steering hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "oil cooler hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "bucket cylinder hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "pump hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "steering pump hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "slew motor hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "clam cylinder hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "boom cylinder hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "fan hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "cooler fan hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "differential cooler fan hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "cooler hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "differential cooler hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "motor hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "pump motor hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "differential pump motor hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "transmission hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "tilt cylinder hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "hmu hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "filter hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "controller filter hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "transmission controller filter hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "engine fan hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "centrifuge hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "heater hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "roof heater hose",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replaced",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "cabin roof heater hose",
         "event_relation": "hasAgent",
         "state_type": "State/UndesirableState",
         "state_name": "needs",
@@ -150,6 +530,46 @@
         "valid": true
     },
     {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "dragline air conditioner",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity",
+        "helper_name": "boost",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "operator cabin air conditioner",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity",
+        "helper_name": "boost",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "engine air conditioner",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity",
+        "helper_name": "boost",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "cabin air conditioner",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity",
+        "helper_name": "boost",
+        "valid": true
+    },
+    {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "line",
         "event_relation": "hasAgent",
@@ -160,7 +580,7 @@
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/ControllingObject/OpenFlowControllingObject",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "air brake line",
         "event_relation": "hasAgent",
         "state_type": "State/UndesirableState",
@@ -180,7 +600,7 @@
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/ControllingObject/OpenFlowControllingObject",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "air brake line",
         "event_relation": "hasAgent",
         "state_type": "State/UndesirableState",
@@ -200,7 +620,7 @@
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/HoldingObject/CarryingObject",
+        "object_type": "PhysicalObject/ProtectingObject/EnvironmentProtectingObject",
         "object_name": "mast dust flap",
         "event_relation": "hasAgent",
         "state_type": "State/UndesirableState",
@@ -230,8 +650,58 @@
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/MatterProcessingObject/GrindingAndCrushingObject",
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
         "object_name": "blade light",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replacing",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "object_name": "boom light",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replacing",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "object_name": "a-frame light",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replacing",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "object_name": "keypad light",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replacing",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "object_name": "vims keypad light",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "replacing",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "object_name": "engine bay light",
         "event_relation": "hasAgent",
         "state_type": "State/UndesirableState",
         "state_name": "needs",
@@ -260,7 +730,7 @@
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
+        "object_type": "PhysicalObject/StoringObject/OpenStationaryStoringObject",
         "object_name": "cabin seat",
         "event_relation": "hasAgent",
         "state_type": "State/UndesirableState",
@@ -280,7 +750,27 @@
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "object_name": "door window",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Repair",
+        "helper_name": "resealing",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "object_name": "cabin door window",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "needs",
+        "helper_type": "Activity/MaintenanceActivity/Repair",
+        "helper_name": "resealing",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
         "object_name": "cabin window",
         "event_relation": "hasAgent",
         "state_type": "State/UndesirableState",
@@ -300,7 +790,7 @@
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_type": "PhysicalObject/HoldingObject/PositioningObject",
         "object_name": "coolant pipe clamps",
         "event_relation": "hasAgent",
         "state_type": "State/UndesirableState",
@@ -320,6 +810,16 @@
         "valid": true
     },
     {
+        "object_type": "PhysicalObject/MatterProcessingObject/GrindingAndCrushingObject",
+        "object_name": "get cutting edges",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "need",
+        "helper_type": "Activity/MaintenanceActivity/Replace",
+        "helper_name": "change out",
+        "valid": true
+    },
+    {
         "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
         "object_name": "air conditioner",
         "event_relation": "hasAgent",
@@ -330,8 +830,38 @@
         "valid": true
     },
     {
-        "object_type": "PhysicalObject",
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
         "object_name": "dragline air conditioner",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "need",
+        "helper_type": "Activity/MaintenanceActivity/Service",
+        "helper_name": "cleaning",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "operator cabin air conditioner",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "need",
+        "helper_type": "Activity/MaintenanceActivity/Service",
+        "helper_name": "cleaning",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "engine air conditioner",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "need",
+        "helper_type": "Activity/MaintenanceActivity/Service",
+        "helper_name": "cleaning",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "object_name": "cabin air conditioner",
         "event_relation": "hasAgent",
         "state_type": "State/UndesirableState",
         "state_name": "need",
@@ -362,6 +892,16 @@
     {
         "object_type": "PhysicalObject/HoldingObject/JointingObject",
         "object_name": "roller",
+        "event_relation": "hasAgent",
+        "state_type": "State/UndesirableState",
+        "state_name": "need",
+        "helper_type": "Activity/SupportingActivity/Assemble",
+        "helper_name": "fitted",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "drag roller",
         "event_relation": "hasAgent",
         "state_type": "State/UndesirableState",
         "state_name": "need",
@@ -410,7 +950,7 @@
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
         "object_name": "door struts",
         "event_relation": "hasAgent",
         "state_type": "State/UndesirableState/FailedState",

@@ -64,7 +64,7 @@
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_type": "PhysicalObject/HoldingObject/ReinforcingObject",
         "object_name": "chassis cross member",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
@@ -80,7 +80,7 @@
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/MatterProcessingObject/GrindingAndCrushingObject",
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
         "object_name": "backhoe windscreen",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
@@ -160,7 +160,7 @@
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/MatterProcessingObject/GrindingAndCrushingObject",
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "blade liner",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
@@ -176,7 +176,7 @@
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/ProtectingObject/FireProtectingObject",
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
         "object_name": "fire suppression mounts",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
@@ -184,16 +184,16 @@
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
-        "object_name": "cabin fire suppression mounts",
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "cabin mounts",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "cracks",
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/EmittingObject/ThermalCoolingObject",
-        "object_name": "fuel cooler cabin fire suppression mounts",
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "fuel cooler mounts",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "cracks",
@@ -208,7 +208,7 @@
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/HoldingObject/CarryingObject",
+        "object_type": "PhysicalObject/HoldingObject/ReinforcingObject",
         "object_name": "mast cross braces",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
@@ -312,7 +312,7 @@
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
         "object_name": "compressor bearing",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
@@ -321,31 +321,95 @@
     },
     {
         "object_type": "PhysicalObject/HoldingObject/JointingObject",
-        "object_name": "roller compressor bearing",
+        "object_name": "air conditioner compressor bearing",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "noisy",
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/HoldingObject/ReinforcingObject",
-        "object_name": "equalizer bar roller compressor bearing",
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "operator cabin air conditioner compressor bearing",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "noisy",
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
-        "object_name": "jockey pulley equalizer bar roller compressor bearing",
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "engine air conditioner compressor bearing",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "noisy",
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
-        "object_name": "steering cylinder jockey pulley equalizer bar roller compressor bearing",
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "hydraulic motor engine air conditioner compressor bearing",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "noisy",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "dragline air conditioner compressor bearing",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "noisy",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "cabin air conditioner compressor bearing",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "noisy",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "roller bearing",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "noisy",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "drag roller bearing",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "noisy",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "hoist drag roller bearing",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "noisy",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "equalizer bar bearing",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "noisy",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "jockey pulley bearing",
+        "event_relation": "hasProperty",
+        "property_type": "Property/UndesirableProperty",
+        "property_name": "noisy",
+        "valid": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "steering cylinder bearing",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "noisy",
@@ -368,7 +432,7 @@
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
+        "object_type": "PhysicalObject/HoldingObject/FramingObject",
         "object_name": "cabin door frame",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
