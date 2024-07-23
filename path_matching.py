@@ -36,11 +36,13 @@ def get_alternate_paths(query, record, object, event, valid, helper=None):
     # If PhysicalObject has connect relations to other PhysicalObjects
     # connect_relations: hasPart, contains
     current_obj = object["name"]
+    if current_obj == 'hose':
+        print(record["connect_objects"])
     for connect_obj in record["connect_objects"]:
-        current_obj = f"{connect_obj['text']} {current_obj}"
+        # current_obj = f"{connect_obj['text']} {current_obj}"
         path = {
             "object_type": get_entity_type(connect_obj),
-            "object_name": current_obj,
+            "object_name": f"{connect_obj['text']} {object["name"]}",
             "event_relation": query["relation"],
             f"{query['event']}_type": event['type'],
             f"{query['event']}_name": event['name'],
@@ -99,21 +101,19 @@ def remove_duplicates(paths):
     return unique_paths
 
 # Function to check validity of paths (if entities come from same entry)
-def check_validity(object_entries, event_entries):
+def check_validity(object, event, helper=None):
     """ Check if entities come from same entry """
-    # Query to check if entities come from same entry
-    # object_name = object_entries["name"]
-    # event_name = event_entries["name"]
-    # object_type = object_entries["type"].split("/")[0]
-    # event_type = event_entries["type"].split("/")[0]
-    # query = f"MATCH (o:{object_type} {{text: '{object_name}'}})-[:comesFrom]->(e:Entry)<-[:comesFrom]-(n:{event_type} {{text: '{event_name}'}}) RETURN e"
-    
-    # If both entities contain the same entry_id, then they come from the same entry
-    for obj_entry in object_entries["entry_id"]:
-        for event_entry in event_entries["entry_id"]:
-            if obj_entry == event_entry:
-                return True
-    return False
+    if helper:  # Check for common entry_id in object, event, and helper entities
+        object_set = set(object["entry_id"])
+        event_set = set(event["entry_id"])
+        helper_set = set(helper["entry_id"])
+        common = object_set.intersection(event_set).intersection(helper_set)
+        return True if common else False
+    else:   # Check for common entry_id in object and event entities
+        object_set = set(object["entry_id"])
+        event_set = set(event["entry_id"])
+        common = object_set.intersection(event_set)
+        return True if common else False
 
 # Function to process query results
 def process_query_results(results, paths, complex=False):
@@ -142,9 +142,11 @@ def process_query_results(results, paths, complex=False):
             helper_info = get_entity_info(record, query["helper"])
             path["helper_type"] = helper_info["type"]
             path["helper_name"] = helper_info["name"]
-            
-        # Check if path is confirmed valid (entities come from same entry)
-        path["valid"] = check_validity(object_info, event_info)
+            # Check if path is confirmed valid (entities come from same entry)
+            path["valid"] = check_validity(object_info, event_info, helper_info)
+        else:
+            # Check if path is confirmed valid (entities come from same entry)
+            path["valid"] = check_validity(object_info, event_info)
         
         # Alternate paths (if PhysicalObject has connect or substitute relations)
         if complex: # Pass helper_info in generating alternate paths if complex
@@ -166,6 +168,24 @@ def process_query_results(results, paths, complex=False):
     print("{:<40} {}".format(f"Number of {query['outfile']}:", num_direct))
     print(" - {:<37} {}".format("Number of alternate paths:", num_alternate))
     print("  - {:<36} {}".format("Number of valid paths:", num_valid))
+    print("-" * 50)
+
+def compare_files(file1, file2):
+    """ Compare two files and return uncommon paths """
+    with open(file1, 'r', encoding='utf-8') as f:
+        data1 = json.load(f)
+    with open(file2, 'r', encoding='utf-8') as f:
+        data2 = json.load(f)
+    
+    uncommon_paths = []
+    for path in data1:
+        if path not in data2:
+            uncommon_paths.append(path)
+    for path in data2:
+        if path not in data1:
+            uncommon_paths.append(path)
+    for path in uncommon_paths:
+        print(path)
 
 if __name__ == "__main__":
     # Connect to Neo4j
@@ -173,7 +193,7 @@ if __name__ == "__main__":
     USERNAME = "neo4j"
     PASSWORD = "password"
     DRIVER = GraphDatabase.driver(URI, auth=(USERNAME, PASSWORD))
-    OUTPATH = "pathPatterns/separate/"
+    OUTPATH = "pathPatterns/"
 
     with DRIVER.session() as session:
         for query in direct_queries:
@@ -181,11 +201,14 @@ if __name__ == "__main__":
             paths = []
             process_query_results(results, paths, complex=False)
             list_to_json(paths, f"{OUTPATH}{query['outfile']}.json")
+            # compare_files(f"{OUTPATH}{query['outfile']}.json", f"{OUTPATH}separate/{query['outfile']}.json")
+            break
 
         for query in complex_queries:
             results = session.run(query["query"])
             paths = []
             process_query_results(results, paths, complex=True)
             list_to_json(paths, f"{OUTPATH}{query['outfile']}.json")
+            # compare_files(f"{OUTPATH}{query['outfile']}.json", f"{OUTPATH}separate/{query['outfile']}.json")
 
     DRIVER.close()

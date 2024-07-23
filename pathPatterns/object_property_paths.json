@@ -320,72 +320,8 @@
         "valid": true
     },
     {
-        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
-        "object_name": "air conditioner compressor bearing",
-        "event_relation": "hasProperty",
-        "property_type": "Property/UndesirableProperty",
-        "property_name": "noisy",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
-        "object_name": "operator cabin air conditioner compressor bearing",
-        "event_relation": "hasProperty",
-        "property_type": "Property/UndesirableProperty",
-        "property_name": "noisy",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/CombustionEngine",
-        "object_name": "engine operator cabin air conditioner compressor bearing",
-        "event_relation": "hasProperty",
-        "property_type": "Property/UndesirableProperty",
-        "property_name": "noisy",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
-        "object_name": "hydraulic motor engine operator cabin air conditioner compressor bearing",
-        "event_relation": "hasProperty",
-        "property_type": "Property/UndesirableProperty",
-        "property_name": "noisy",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject",
-        "object_name": "dragline hydraulic motor engine operator cabin air conditioner compressor bearing",
-        "event_relation": "hasProperty",
-        "property_type": "Property/UndesirableProperty",
-        "property_name": "noisy",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
-        "object_name": "cabin dragline hydraulic motor engine operator cabin air conditioner compressor bearing",
-        "event_relation": "hasProperty",
-        "property_type": "Property/UndesirableProperty",
-        "property_name": "noisy",
-        "valid": true
-    },
-    {
         "object_type": "PhysicalObject/HoldingObject/JointingObject",
-        "object_name": "roller cabin dragline hydraulic motor engine operator cabin air conditioner compressor bearing",
-        "event_relation": "hasProperty",
-        "property_type": "Property/UndesirableProperty",
-        "property_name": "noisy",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/ContinuousTransferObject",
-        "object_name": "drag roller cabin dragline hydraulic motor engine operator cabin air conditioner compressor bearing",
-        "event_relation": "hasProperty",
-        "property_type": "Property/UndesirableProperty",
-        "property_name": "noisy",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/DiscontinuousTransferObject",
-        "object_name": "hoist drag roller cabin dragline hydraulic motor engine operator cabin air conditioner compressor bearing",
+        "object_name": "roller compressor bearing",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "noisy",
@@ -393,7 +329,7 @@
     },
     {
         "object_type": "PhysicalObject/HoldingObject/ReinforcingObject",
-        "object_name": "equalizer bar hoist drag roller cabin dragline hydraulic motor engine operator cabin air conditioner compressor bearing",
+        "object_name": "equalizer bar roller compressor bearing",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "noisy",
@@ -401,7 +337,7 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
-        "object_name": "jockey pulley equalizer bar hoist drag roller cabin dragline hydraulic motor engine operator cabin air conditioner compressor bearing",
+        "object_name": "jockey pulley equalizer bar roller compressor bearing",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "noisy",
@@ -409,7 +345,7 @@
     },
     {
         "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
-        "object_name": "steering cylinder jockey pulley equalizer bar hoist drag roller cabin dragline hydraulic motor engine operator cabin air conditioner compressor bearing",
+        "object_name": "steering cylinder jockey pulley equalizer bar roller compressor bearing",
         "event_relation": "hasProperty",
         "property_type": "Property/UndesirableProperty",
         "property_name": "noisy",
