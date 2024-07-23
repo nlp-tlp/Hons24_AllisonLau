@@ -6,7 +6,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leak",
         "helper_type": "PhysicalObject/Substance/Gas",
-        "helper_name": "air"
+        "helper_name": "air",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
@@ -15,7 +16,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leaking",
         "helper_type": "PhysicalObject/Substance/Gas",
-        "helper_name": "air"
+        "helper_name": "air",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
@@ -24,7 +26,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leaking",
         "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "helper_name": "oil"
+        "helper_name": "oil",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/CoveringObject/InfillingObject",
@@ -33,7 +36,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leaking",
         "helper_type": "PhysicalObject/Substance/Solid",
-        "helper_name": "dust"
+        "helper_name": "dust",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
@@ -42,7 +46,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leaking",
         "helper_type": "PhysicalObject/Substance/Solid",
-        "helper_name": "dust"
+        "helper_name": "dust",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/DrivingObject/CombustionEngine",
@@ -51,7 +56,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leak",
         "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "helper_name": "oil"
+        "helper_name": "oil",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
@@ -60,7 +66,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leaking",
         "helper_type": "PhysicalObject/Substance/Gas",
-        "helper_name": "air"
+        "helper_name": "air",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/EmittingObject/ThermalCoolingObject",
@@ -69,7 +76,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leak",
         "helper_type": "PhysicalObject/ProtectingObject/TemperatureProtectingObject",
-        "helper_name": "coolant"
+        "helper_name": "coolant",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/DrivingObject/CombustionEngine",
@@ -78,7 +86,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leak",
         "helper_type": "PhysicalObject/ProtectingObject/TemperatureProtectingObject",
-        "helper_name": "coolant"
+        "helper_name": "coolant",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/EmittingObject/ThermalCoolingObject",
@@ -87,7 +96,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leak",
         "helper_type": "PhysicalObject/ProtectingObject/TemperatureProtectingObject",
-        "helper_name": "coolant"
+        "helper_name": "coolant",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
@@ -96,7 +106,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leak",
         "helper_type": "PhysicalObject/ProtectingObject/TemperatureProtectingObject",
-        "helper_name": "coolant"
+        "helper_name": "coolant",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
@@ -105,7 +116,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leak",
         "helper_type": "PhysicalObject/ProtectingObject/TemperatureProtectingObject",
-        "helper_name": "coolant"
+        "helper_name": "coolant",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
@@ -114,7 +126,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leak",
         "helper_type": "PhysicalObject/ProtectingObject/TemperatureProtectingObject",
-        "helper_name": "coolant"
+        "helper_name": "coolant",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
@@ -123,7 +136,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leak",
         "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "helper_name": "oil"
+        "helper_name": "oil",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
@@ -132,7 +146,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leak",
         "helper_type": "PhysicalObject/Substance/Solid",
-        "helper_name": "dust"
+        "helper_name": "dust",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
@@ -141,7 +156,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "bypassing",
         "helper_type": "PhysicalObject/Substance/Gas",
-        "helper_name": "air"
+        "helper_name": "air",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
@@ -150,7 +166,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "bypassing",
         "helper_type": "PhysicalObject/Substance/Gas",
-        "helper_name": "air"
+        "helper_name": "air",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
@@ -159,7 +176,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leak",
         "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "helper_name": "oil"
+        "helper_name": "oil",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
@@ -168,7 +186,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leak",
         "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "helper_name": "oil"
+        "helper_name": "oil",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
@@ -177,7 +196,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leak",
         "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "helper_name": "oil"
+        "helper_name": "oil",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/DrivingObject/CombustionEngine",
@@ -186,7 +206,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leaks",
         "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "helper_name": "oil"
+        "helper_name": "oil",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/InterfacingObject/DetachableCoupling",
@@ -195,7 +216,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leaks",
         "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "helper_name": "oil"
+        "helper_name": "oil",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
@@ -204,7 +226,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leak",
         "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "helper_name": "oil"
+        "helper_name": "oil",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
@@ -213,7 +236,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leak",
         "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "helper_name": "oil"
+        "helper_name": "oil",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
@@ -222,7 +246,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leak",
         "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "helper_name": "oil"
+        "helper_name": "oil",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
@@ -231,7 +256,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leak",
         "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "helper_name": "oil"
+        "helper_name": "oil",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/DrivingObject/CombustionEngine",
@@ -240,7 +266,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leaking",
         "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "helper_name": "oil"
+        "helper_name": "oil",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
@@ -249,7 +276,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leak",
         "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "helper_name": "oil"
+        "helper_name": "oil",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
@@ -258,7 +286,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leak",
         "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "helper_name": "oil"
+        "helper_name": "oil",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
@@ -267,7 +296,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leaking",
         "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "helper_name": "oil"
+        "helper_name": "oil",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
@@ -276,7 +306,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leaking",
         "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "helper_name": "oil"
+        "helper_name": "oil",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/DrivingObject/MechanicalEnergyDrivingObject",
@@ -285,7 +316,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leaking",
         "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "helper_name": "oil"
+        "helper_name": "oil",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
@@ -294,7 +326,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leaking",
         "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "helper_name": "oil"
+        "helper_name": "oil",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/TransformingObject/ElectricEnergyTransformingObject",
@@ -303,7 +336,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leak",
         "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "helper_name": "grease"
+        "helper_name": "grease",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/TransformingObject/ElectricEnergyTransformingObject",
@@ -312,7 +346,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leak",
         "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "helper_name": "grease"
+        "helper_name": "grease",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/ControllingObject/SolidSubstanceFlowVaryingObject",
@@ -321,7 +356,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leak",
         "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "helper_name": "oil"
+        "helper_name": "oil",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/CoveringObject/ClosureObject",
@@ -330,7 +366,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leak",
         "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "helper_name": "oil"
+        "helper_name": "oil",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/EmittingObject/CombustionHeatingObject",
@@ -339,7 +376,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leak",
         "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "helper_name": "oil"
+        "helper_name": "oil",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/InformationProcessingObject/FluidSignallingObject",
@@ -348,7 +386,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leaking",
         "helper_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "helper_name": "oil"
+        "helper_name": "oil",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/PressureProtectingObject",
@@ -357,7 +396,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leak",
         "helper_type": "PhysicalObject/Substance/Gas",
-        "helper_name": "air"
+        "helper_name": "air",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/StoringObject/EnclosedStationaryStoringObject",
@@ -366,7 +406,8 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leak",
         "helper_type": "PhysicalObject/Substance/Gas",
-        "helper_name": "air"
+        "helper_name": "air",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/MatterProcessingObject/ForceSeparatingObject",
@@ -375,6 +416,7 @@
         "process_type": "Process/UndesirableProcess",
         "process_name": "leaking",
         "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "fuel"
+        "helper_name": "fuel",
+        "valid": true
     }
 ]

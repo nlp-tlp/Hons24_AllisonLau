@@ -4,1014 +4,1159 @@
         "object_name": "door",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "line",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
         "object_name": "drive",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/MechanicalToElectricalEnergyGeneratingObject",
         "object_name": "alternator drive",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
         "object_name": "auto-greaser",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
         "object_name": "stick cylinders",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
         "object_name": "cylinders",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "cooling hose",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/RestrictingObject/MovementRestrictingObject",
         "object_name": "brake cooling hose",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "hose",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "cooling return hose",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/RestrictingObject/MovementRestrictingObject",
         "object_name": "brake cooling return hose",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/RestrictingObject/MovementRestrictingObject",
         "object_name": "brake brake cooling return hose",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "return hose",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/CoveringObject/InfillingObject",
         "object_name": "seals",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
         "object_name": "cabin seals",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "hose",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
         "object_name": "slew motor hose",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
         "object_name": "hmu",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "hoses",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
         "object_name": "fan hoses",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/ControllingObject/SealedFluidVaryingObject",
         "object_name": "taps",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/EmittingObject",
         "object_name": "heater taps",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "hydraulic hose",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
         "object_name": "implement pump",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
         "object_name": "pump",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/ControllingObject",
         "object_name": "relay valve",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/ControllingObject/MechanicalMovementControllingObject",
         "object_name": "steering hose",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
         "object_name": "steering cylinder",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
         "object_name": "cylinder",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/DrivingObject/CombustionEngine",
         "object_name": "engine",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
         "object_name": "chord",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "coolant hose",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/EmittingObject/ThermalCoolingObject",
         "object_name": "oil cooler",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/DrivingObject/CombustionEngine",
         "object_name": "engine oil cooler",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/EmittingObject/ThermalCoolingObject",
         "object_name": "cooler",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
         "object_name": "jacket water pump",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
         "object_name": "water pump",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
         "object_name": "pump",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/InterfacingObject/DetachableCoupling",
         "object_name": "coupling",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "return pipe coupling",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/EmittingObject",
         "object_name": "cooler return pipe coupling",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
         "object_name": "fan hose",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/EmittingObject/ThermalCoolingObject",
         "object_name": "cooler fan hose",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
         "object_name": "differential cooler fan hose",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/EmittingObject/ThermalCoolingObject",
         "object_name": "cooler hose",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
         "object_name": "differential cooler hose",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/EmittingObject/ThermalCoolingObject",
         "object_name": "cooler pump",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
         "object_name": "differential cooler pump",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
         "object_name": "differential",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
         "object_name": "lube pump",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
         "object_name": "differential lube pump",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
         "object_name": "motor hose",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
         "object_name": "pump motor hose",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
         "object_name": "differential pump motor hose",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/CoveringObject/InfillingObject",
         "object_name": "duo-cone seals",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
         "object_name": "window",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "transfer pipe",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "pipe",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/StoringObject/EnclosedStationaryStoringObject",
         "object_name": "fuel tank",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/StoringObject/EnclosedStationaryStoringObject",
         "object_name": "tank",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/StoringObject/MechanicalEnergyStoringObject",
         "object_name": "accumulator",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/ControllingObject/MechanicalMovementControllingObject",
         "object_name": "steering accumulator",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/CarryingObject",
         "object_name": "pedestal seals",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
         "object_name": "swing pedestal seals",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
         "object_name": "grease pump",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "bypassing"
+        "process_name": "bypassing",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
         "object_name": "pump",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "bypassing"
+        "process_name": "bypassing",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
         "object_name": "lift cylinder",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
         "object_name": "air compressor",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
         "object_name": "compressor",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
         "object_name": "scavenge pump",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
         "object_name": "transmission hose",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
         "object_name": "swingbox",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/ControllingObject/SealedFluidVaryingObject",
         "object_name": "tap",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/InterfacingObject/CollectingInterfacingObject",
         "object_name": "air drain tap",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/DrivingObject/CombustionEngine",
         "object_name": "engine",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaks"
+        "process_name": "leaks",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/InterfacingObject/SealedFlowConnectingObject",
         "object_name": "fitting",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/StoringObject/EnclosedStationaryStoringObject",
         "object_name": "air tanks fitting",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/InterfacingObject/DetachableCoupling",
         "object_name": "centre hitch",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaks"
+        "process_name": "leaks",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/StoringObject/EnclosedStationaryStoringObject",
         "object_name": "bulk fuel tank",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/StoringObject/EnclosedStationaryStoringObject",
         "object_name": "fuel tank",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/StoringObject/EnclosedStationaryStoringObject",
         "object_name": "tank",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject",
         "object_name": "machine hydraulic hose",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "exhaust",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaks"
+        "process_name": "leaks",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
         "object_name": "stick cylinder",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/ControllingObject/SealedFluidSwitchingObject",
         "object_name": "plug",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
         "object_name": "hoist cylinder plug",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/EmittingObject/ThermalEnergyTransferObject",
         "object_name": "radiator",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
         "object_name": "hoist cylinder",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/CoveringObject/InfillingObject",
         "object_name": "input seal",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
         "object_name": "shaft input seal",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
         "object_name": "pto shaft input seal",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/CoveringObject/InfillingObject",
         "object_name": "seal",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
         "object_name": "air conditioner",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "lube hose",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
         "object_name": "differential lube hose",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "exhaust",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
         "object_name": "fan pump",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
         "object_name": "torque converter fan pump",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
         "object_name": "boom cylinder hose",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
         "object_name": "transmission",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/ControllingObject/SealedFluidVaryingObject",
         "object_name": "relief valves",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/EmittingObject/ThermalEnergyTransferObject",
         "object_name": "radiator relief valves",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/StoringObject/MechanicalEnergyStoringObject",
         "object_name": "accumulator",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/ControllingObject/MechanicalMovementControllingObject",
         "object_name": "steering accumulator",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/DrivingObject/CombustionEngine",
         "object_name": "engine",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
         "object_name": "centrifugal filter",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
         "object_name": "filter",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "steering hose",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "charge hose",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
         "object_name": "transmission charge hose",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
         "object_name": "pilot filter",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
         "object_name": "filter",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/StoringObject/EnclosedStationaryStoringObject",
         "object_name": "radiator tank",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
         "object_name": "pto input seal",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/ControllingObject/SealedFluidVaryingObject",
         "object_name": "adaptor",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/ControllingObject/SealedFluidVaryingObject",
         "object_name": "implement valve adaptor",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
         "object_name": "accessory drive",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
         "object_name": "air conditioner accessory drive",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/DrivingObject/MechanicalEnergyDrivingObject",
         "object_name": "drive",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
         "object_name": "air conditioner drive",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/MatterProcessingObject/ForceSeparatingObject",
         "object_name": "centrifuge hose",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/PressureProtectingObject",
         "object_name": "safety valve",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
         "object_name": "compressor safety valve",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "grease distributor",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/TransformingObject/ElectricEnergyTransformingObject",
         "object_name": "high voltage slip ring",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/TransformingObject/ElectricEnergyTransformingObject",
         "object_name": "slip ring",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/CoveringObject/InfillingObject",
         "object_name": "gasket",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/MatterProcessingObject/ForceSeparatingObject",
         "object_name": "oil centrifuge gasket",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/DrivingObject/CombustionEngine",
         "object_name": "engine oil centrifuge gasket",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/ControllingObject/SolidSubstanceFlowVaryingObject",
         "object_name": "diverter valve",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/CoveringObject/ClosureObject",
         "object_name": "cover plate",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/EmittingObject/CombustionHeatingObject",
         "object_name": "oil burner cover plate",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/PressureProtectingObject",
         "object_name": "pressure compensator",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "weeping"
+        "process_name": "weeping",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/InformationProcessingObject/FluidSignallingObject",
         "object_name": "pilot valve",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/PressureProtectingObject",
         "object_name": "pressure compensator",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/PressureProtectingObject",
         "object_name": "pressure control valve",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
         "object_name": "cabin pressure control valve",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/PressureProtectingObject",
         "object_name": "safety valve",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/StoringObject/EnclosedStationaryStoringObject",
         "object_name": "air tank safety valve",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/DrivingObject/ElectromagneticLinearDrivingObject",
         "object_name": "solenoid",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/InformationProcessingObject/FluidSignallingObject",
         "object_name": "pilot valve solenoid",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leak"
+        "process_name": "leak",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
         "object_name": "chip indicators",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/MatterProcessingObject/ForceSeparatingObject",
         "object_name": "water separator filter",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     },
     {
         "object_type": "PhysicalObject/MatterProcessingObject/ForceSeparatingObject",
         "object_name": "water separator",
         "event_relation": "hasAgent",
         "process_type": "Process/UndesirableProcess",
-        "process_name": "leaking"
+        "process_name": "leaking",
+        "valid": true
     }
 ]

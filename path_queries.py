@@ -1,3 +1,5 @@
+# This file contains the cypher queries for Neo4j to extract paths
+
 # Path queries
 PO_MATCH =  """
                 OPTIONAL MATCH (connect_objects:PhysicalObject)-[:hasPart|contains*1..]->(o)

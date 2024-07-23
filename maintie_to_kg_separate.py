@@ -22,7 +22,7 @@ def create_nodes(tx, entities, unique_entities, tokens, entry_id):
         if unique_entity_key not in unique_entities:
             entity_id = len(unique_entities)
             unique_entities[unique_entity_key] = entity_id
-            properties = {"id": entity_id, "text": entity_text, "type": entity_type, "entry_id": entry_id}
+            properties = {"id": entity_id, "text": entity_text, "type": entity_type, "entry_id": [entry_id]}
             query = f"MERGE (n:{entity_type} {{id: $id, text: $text, type: $type, entry_id: $entry_id}}) "
             for i, subtype in enumerate(sub_types):
                 properties[f"subtype{i}"] = subtype
@@ -57,7 +57,7 @@ def create_entry(tx, entry_text, entry_id):
     # Connect entry node to its entities
     tx.run(
         "MATCH (a:Entry {id: $id}), (b) "
-        "WHERE b.entry_id = $entry_id "
+        "WHERE ANY(eid IN b.entry_id WHERE eid = $entry_id) "
         "MERGE (b)-[:comesFrom]->(a)",
         id=entry_id, entry_id=entry_id
     )

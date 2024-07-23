@@ -101,13 +101,21 @@ def remove_duplicates(paths):
 # Function to check validity of paths (if entities come from same entry)
 def check_validity(object_entries, event_entries):
     """ Check if entities come from same entry """
-    # TODO: Do a query to check this instead
-    for obj_entry in object_entries:
-        for event_entry in event_entries:
+    # Query to check if entities come from same entry
+    # object_name = object_entries["name"]
+    # event_name = event_entries["name"]
+    # object_type = object_entries["type"].split("/")[0]
+    # event_type = event_entries["type"].split("/")[0]
+    # query = f"MATCH (o:{object_type} {{text: '{object_name}'}})-[:comesFrom]->(e:Entry)<-[:comesFrom]-(n:{event_type} {{text: '{event_name}'}}) RETURN e"
+    
+    # If both entities contain the same entry_id, then they come from the same entry
+    for obj_entry in object_entries["entry_id"]:
+        for event_entry in event_entries["entry_id"]:
             if obj_entry == event_entry:
                 return True
     return False
 
+# Function to process query results
 def process_query_results(results, paths, complex=False):
     """ Process query results and extract relevant information """
 
@@ -136,7 +144,7 @@ def process_query_results(results, paths, complex=False):
             path["helper_name"] = helper_info["name"]
             
         # Check if path is confirmed valid (entities come from same entry)
-        path["valid"] = check_validity(object_info["entry_id"], event_info["entry_id"])
+        path["valid"] = check_validity(object_info, event_info)
         
         # Alternate paths (if PhysicalObject has connect or substitute relations)
         if complex: # Pass helper_info in generating alternate paths if complex
@@ -164,19 +172,20 @@ if __name__ == "__main__":
     URI = "bolt://localhost:7687"
     USERNAME = "neo4j"
     PASSWORD = "password"
-    driver = GraphDatabase.driver(URI, auth=(USERNAME, PASSWORD))
+    DRIVER = GraphDatabase.driver(URI, auth=(USERNAME, PASSWORD))
+    OUTPATH = "pathPatterns/separate/"
 
-    with driver.session() as session:
+    with DRIVER.session() as session:
         for query in direct_queries:
             results = session.run(query["query"])
             paths = []
             process_query_results(results, paths, complex=False)
-            list_to_json(paths, f"pathPatterns/{query['outfile']}.json")
+            list_to_json(paths, f"{OUTPATH}{query['outfile']}.json")
 
         for query in complex_queries:
             results = session.run(query["query"])
             paths = []
             process_query_results(results, paths, complex=True)
-            list_to_json(paths, f"pathPatterns/{query['outfile']}.json")
+            list_to_json(paths, f"{OUTPATH}{query['outfile']}.json")
 
-    driver.close()
+    DRIVER.close()
