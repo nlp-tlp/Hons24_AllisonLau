@@ -89,14 +89,6 @@
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "hoist drag brake pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "slew pump oil",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -201,14 +193,6 @@
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "hydraulic motor engine fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "cooler fan pump oil",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -217,63 +201,7 @@
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "hydraulic motor cooler fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "differential cooler fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "air conditioner fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "operator cabin air conditioner fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "engine air conditioner fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "hydraulic motor engine air conditioner fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "dragline air conditioner fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "cabin air conditioner fan pump oil",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leak",
@@ -290,54 +218,6 @@
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "condenser fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "air conditioner condenser fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "operator cabin air conditioner condenser fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "engine air conditioner condenser fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "hydraulic motor engine air conditioner condenser fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "dragline air conditioner condenser fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "cabin air conditioner condenser fan pump oil",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leak",
@@ -641,14 +521,6 @@
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "hoist drag brake pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "slew pump oil",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -753,14 +625,6 @@
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "hydraulic motor engine fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "cooler fan pump oil",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -769,63 +633,7 @@
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "hydraulic motor cooler fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "differential cooler fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "air conditioner fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "operator cabin air conditioner fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "engine air conditioner fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "hydraulic motor engine air conditioner fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "dragline air conditioner fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "cabin air conditioner fan pump oil",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
@@ -842,54 +650,6 @@
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "condenser fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "air conditioner condenser fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "operator cabin air conditioner condenser fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "engine air conditioner condenser fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "hydraulic motor engine air conditioner condenser fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "dragline air conditioner condenser fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "cabin air conditioner condenser fan pump oil",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
@@ -1001,14 +761,6 @@
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
-        "object_name": "hoist drag blower inverter batteries",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "discharging",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
         "object_name": "swing blower inverter batteries",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -1018,46 +770,6 @@
     {
         "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
         "object_name": "air conditioner blower inverter batteries",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "discharging",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
-        "object_name": "operator cabin air conditioner blower inverter batteries",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "discharging",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
-        "object_name": "engine air conditioner blower inverter batteries",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "discharging",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
-        "object_name": "hydraulic motor engine air conditioner blower inverter batteries",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "discharging",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
-        "object_name": "dragline air conditioner blower inverter batteries",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "discharging",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
-        "object_name": "cabin air conditioner blower inverter batteries",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "discharging",
@@ -1185,14 +897,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hoist drag brake filter hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "water separator filter hose",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -1305,54 +1009,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "slew brake pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "swing brake pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hoist brake pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "walk motor brake pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "drag brake pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hoist drag brake pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "slew pump motor hose",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -1362,14 +1018,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "engine pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine pump motor hose",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "weeping",
@@ -1394,22 +1042,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "cooler pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor cooler pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "differential cooler pump motor hose",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "weeping",
@@ -1449,158 +1081,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine fan pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine fan pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cooler fan pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor cooler fan pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "differential cooler fan pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "air conditioner fan pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "operator cabin air conditioner fan pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine air conditioner fan pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine air conditioner fan pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "dragline air conditioner fan pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cabin air conditioner fan pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "torque converter fan pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "condenser fan pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "air conditioner condenser fan pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "operator cabin air conditioner condenser fan pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine air conditioner condenser fan pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine air conditioner condenser fan pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "dragline air conditioner condenser fan pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cabin air conditioner condenser fan pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "fan motor hose",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -1617,14 +1097,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine fan motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "cooler fan motor hose",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -1633,63 +1105,7 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor cooler fan motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "differential cooler fan motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "air conditioner fan motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "operator cabin air conditioner fan motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine air conditioner fan motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine air conditioner fan motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "dragline air conditioner fan motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cabin air conditioner fan motor hose",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "weeping",
@@ -1706,54 +1122,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "condenser fan motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "air conditioner condenser fan motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "operator cabin air conditioner condenser fan motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine air conditioner condenser fan motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine air conditioner condenser fan motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "dragline air conditioner condenser fan motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cabin air conditioner condenser fan motor hose",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "weeping",
@@ -1857,14 +1225,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine air conditioner fan hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "dragline air conditioner fan hose",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -1898,46 +1258,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "air conditioner condenser fan hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "operator cabin air conditioner condenser fan hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine air conditioner condenser fan hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine air conditioner condenser fan hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "dragline air conditioner condenser fan hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cabin air conditioner condenser fan hose",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "weeping",
@@ -2137,14 +1457,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hoist drag brake pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "slew pump hose",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -2249,14 +1561,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine fan pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "cooler fan pump hose",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -2265,63 +1569,7 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor cooler fan pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "differential cooler fan pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "air conditioner fan pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "operator cabin air conditioner fan pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine air conditioner fan pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine air conditioner fan pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "dragline air conditioner fan pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cabin air conditioner fan pump hose",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "weeping",
@@ -2338,54 +1586,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "condenser fan pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "air conditioner condenser fan pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "operator cabin air conditioner condenser fan pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine air conditioner condenser fan pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine air conditioner condenser fan pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "dragline air conditioner condenser fan pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cabin air conditioner condenser fan pump hose",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "weeping",
@@ -2577,14 +1777,6 @@
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "hoist drag brake pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "slew pump oil",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -2689,14 +1881,6 @@
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "hydraulic motor engine fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "cooler fan pump oil",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -2705,63 +1889,7 @@
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "hydraulic motor cooler fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "differential cooler fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "air conditioner fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "operator cabin air conditioner fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "engine air conditioner fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "hydraulic motor engine air conditioner fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "dragline air conditioner fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "cabin air conditioner fan pump oil",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaks",
@@ -2778,54 +1906,6 @@
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "condenser fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "air conditioner condenser fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "operator cabin air conditioner condenser fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "engine air conditioner condenser fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "hydraulic motor engine air conditioner condenser fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "dragline air conditioner condenser fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "cabin air conditioner condenser fan pump oil",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaks",
@@ -3545,14 +2625,6 @@
     },
     {
         "object_type": "PhysicalObject/TransformingObject/ElectricEnergyConvertingObject",
-        "object_name": "hydraulic motor engine air conditioner blower inverter",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "earthing out",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/TransformingObject/ElectricEnergyConvertingObject",
         "object_name": "dragline air conditioner blower inverter",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -3777,14 +2849,6 @@
     },
     {
         "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "hoist drag brake pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
         "object_name": "slew pump chip sensor",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -3889,14 +2953,6 @@
     },
     {
         "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "hydraulic motor engine fan pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
         "object_name": "cooler fan pump chip sensor",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -3905,63 +2961,7 @@
     },
     {
         "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "hydraulic motor cooler fan pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "differential cooler fan pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
         "object_name": "air conditioner fan pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "operator cabin air conditioner fan pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "engine air conditioner fan pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "hydraulic motor engine air conditioner fan pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "dragline air conditioner fan pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "cabin air conditioner fan pump chip sensor",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "alarm",
@@ -3978,54 +2978,6 @@
     {
         "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
         "object_name": "condenser fan pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "air conditioner condenser fan pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "operator cabin air conditioner condenser fan pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "engine air conditioner condenser fan pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "hydraulic motor engine air conditioner condenser fan pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "dragline air conditioner condenser fan pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "cabin air conditioner condenser fan pump chip sensor",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "alarm",
@@ -4098,14 +3050,6 @@
     {
         "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
         "object_name": "drag brake pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "hoist drag brake pump cavity",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "emptying",
@@ -4217,14 +3161,6 @@
     },
     {
         "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "hydraulic motor engine fan pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
         "object_name": "cooler fan pump cavity",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -4233,63 +3169,7 @@
     },
     {
         "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "hydraulic motor cooler fan pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "differential cooler fan pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
         "object_name": "air conditioner fan pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "operator cabin air conditioner fan pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "engine air conditioner fan pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "hydraulic motor engine air conditioner fan pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "dragline air conditioner fan pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "cabin air conditioner fan pump cavity",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "emptying",
@@ -4306,54 +3186,6 @@
     {
         "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
         "object_name": "condenser fan pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "air conditioner condenser fan pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "operator cabin air conditioner condenser fan pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "engine air conditioner condenser fan pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "hydraulic motor engine air conditioner condenser fan pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "dragline air conditioner condenser fan pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "cabin air conditioner condenser fan pump cavity",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "emptying",

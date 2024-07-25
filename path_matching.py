@@ -37,6 +37,9 @@ def get_alternate_paths(query, record, object, connect_objects, event, valid, he
     # If PhysicalObject has connect relations to other PhysicalObjects
     # connect_relations: hasPart, contains
     for connect_obj in connect_objects:
+        # Ignore connect relations with more than 4 objects
+        if len(connect_obj) > 3:
+            continue
         current_obj = object["name"]
         for obj in connect_obj:
             current_obj = f"{obj} {current_obj}"
@@ -167,6 +170,7 @@ def process_query_results(results, paths, complex=False):
 
     print("{:<40} {} ({} valid)".format(f"Number of {query['outfile']}:", num_direct, valid_direct))
     print(" - {:<37} {} ({} valid)".format("Number of alternate paths:", num_alternate, valid_alternate))
+    print(" = {:<37} {} ({} valid)".format("Total number of paths:", num_direct + num_alternate, valid_direct + valid_alternate))
     print("-" * 60)
 
 def compare_files(file1, file2):

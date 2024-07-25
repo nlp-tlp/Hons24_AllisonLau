@@ -345,14 +345,6 @@
     },
     {
         "object_type": "PhysicalObject/HoldingObject/JointingObject",
-        "object_name": "hydraulic motor engine air conditioner compressor bearing",
-        "event_relation": "hasProperty",
-        "event_type": "Property/UndesirableProperty",
-        "event_name": "noisy",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/JointingObject",
         "object_name": "dragline air conditioner compressor bearing",
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",

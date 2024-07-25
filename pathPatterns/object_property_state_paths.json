@@ -51,16 +51,6 @@
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
-        "object_name": "hoist drag blower inverter batteries",
-        "event_relation": "hasProperty",
-        "event_type": "Property/DesirableProperty",
-        "event_name": "charge",
-        "helper_type": "State/UndesirableState/FailedState",
-        "helper_name": "no",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
         "object_name": "swing blower inverter batteries",
         "event_relation": "hasProperty",
         "event_type": "Property/DesirableProperty",
@@ -72,56 +62,6 @@
     {
         "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
         "object_name": "air conditioner blower inverter batteries",
-        "event_relation": "hasProperty",
-        "event_type": "Property/DesirableProperty",
-        "event_name": "charge",
-        "helper_type": "State/UndesirableState/FailedState",
-        "helper_name": "no",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
-        "object_name": "operator cabin air conditioner blower inverter batteries",
-        "event_relation": "hasProperty",
-        "event_type": "Property/DesirableProperty",
-        "event_name": "charge",
-        "helper_type": "State/UndesirableState/FailedState",
-        "helper_name": "no",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
-        "object_name": "engine air conditioner blower inverter batteries",
-        "event_relation": "hasProperty",
-        "event_type": "Property/DesirableProperty",
-        "event_name": "charge",
-        "helper_type": "State/UndesirableState/FailedState",
-        "helper_name": "no",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
-        "object_name": "hydraulic motor engine air conditioner blower inverter batteries",
-        "event_relation": "hasProperty",
-        "event_type": "Property/DesirableProperty",
-        "event_name": "charge",
-        "helper_type": "State/UndesirableState/FailedState",
-        "helper_name": "no",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
-        "object_name": "dragline air conditioner blower inverter batteries",
-        "event_relation": "hasProperty",
-        "event_type": "Property/DesirableProperty",
-        "event_name": "charge",
-        "helper_type": "State/UndesirableState/FailedState",
-        "helper_name": "no",
-        "valid": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
-        "object_name": "cabin air conditioner blower inverter batteries",
         "event_relation": "hasProperty",
         "event_type": "Property/DesirableProperty",
         "event_name": "charge",
