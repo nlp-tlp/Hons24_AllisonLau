@@ -44,8 +44,8 @@ def get_alternate_paths(query, record, object, connect_objects, event, valid, he
                 "object_type": object['type'],
                 "object_name": current_obj,
                 "event_relation": query["relation"],
-                f"{query['event']}_type": event['type'],
-                f"{query['event']}_name": event['name'],
+                "event_type": event['type'],
+                "event_name": event['name'],
             }
             if helper:
                 path["helper_type"] = helper['type']
@@ -60,8 +60,8 @@ def get_alternate_paths(query, record, object, connect_objects, event, valid, he
             "object_type": get_entity_type(substitute_obj),
             "object_name": substitute_obj['text'],
             "event_relation": query["relation"],
-            f"{query['event']}_type": event['type'],
-            f"{query['event']}_name": event['name']
+            "event_type": event['type'],
+            "event_name": event['name']
         }
         if helper:
             path["helper_type"] = helper['type']
@@ -76,8 +76,8 @@ def get_alternate_paths(query, record, object, connect_objects, event, valid, he
             "object_type": object['type'],
             "object_name": object['name'],
             "event_relation": query["relation"],
-            f"{query['event']}_type": get_entity_type(substitute_event),
-            f"{query['event']}_name": substitute_event['text']
+            "event_type": get_entity_type(substitute_event),
+            "event_name": substitute_event['text']
         }
         if helper:
             path["helper_type"] = helper['type']
@@ -133,8 +133,8 @@ def process_query_results(results, paths, complex=False):
             "object_type": object_info["type"],
             "object_name": object_info["name"],
             "event_relation": query["relation"],
-            f"{query['event']}_type": event_info["type"],
-            f"{query['event']}_name": event_info["name"],
+            "event_type": event_info["type"],
+            "event_name": event_info["name"],
         }
         
         # If complex (there are helper entities that describe Undesirable event)
