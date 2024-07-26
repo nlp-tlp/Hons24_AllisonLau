@@ -7,7 +7,7 @@ from path_queries import direct_queries, complex_queries
 
 # Read all the paths extracted from MaintIE KG
 def get_all_paths(valid=True):
-    queries = direct_queries #+ complex_queries
+    queries = direct_queries + complex_queries
     output = []
     for query in queries:
         with open(f"pathPatterns/{query['outfile']}.json", encoding='utf-8') as f:
@@ -20,7 +20,7 @@ def get_all_paths(valid=True):
     return output
 
 # Craft and return prompt for generating MWO sentences
-def get_prompt(object, event):
+def get_prompt(object, event, helper=None):
     base_prompts = [
         "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.",
         "Create a Maintenance Work Order (MWO) sentence that includes the equipment and undesirable event listed below.",
@@ -39,8 +39,12 @@ def get_prompt(object, event):
     
     base = random.choice(base_prompts)
     instruction = random.choice(instructions)
-    prompt = f"{base}\nEquipment: {object}\nUndesirable Event: {event}\n{instruction}"
     
+    if helper != "None":
+        prompt = f"{base}\nEquipment: {object}\nUndesirable Event: {event}\nHelper Event: {helper}\n{instruction}"
+    else:
+        prompt = f"{base}\nEquipment: {object}\nUndesirable Event: {event}\n{instruction}"
+
     # prompt = f"Generate a Maintenance Work Order (MWO) sentence describing the "
     # prompt += "following equipment and undesirable event in natural language."
     # prompt += f"\nEquipment: {object}"
@@ -92,7 +96,10 @@ def generate_MWO(data, num_sentences, num_iterations):
         num_iterations -= 1
         
         # Get prompt for specific PhysicalObject and UndesirableEvent
-        prompt = get_prompt(current_pattern['object_name'], current_pattern['event_name'])
+        if 'helper_name' in current_pattern:
+            prompt = get_prompt(current_pattern['object_name'], current_pattern['event_name'], current_pattern['helper_name'])
+        else:
+            prompt = get_prompt(current_pattern['object_name'], current_pattern['event_name'])
         
         # Get fewshot message and append prompt
         fewshot = get_fewshot_message()
@@ -100,7 +107,7 @@ def generate_MWO(data, num_sentences, num_iterations):
         
         # Get LLM to generate humanised sentences for the pattern
         response = openai.ChatCompletion.create(
-                        model="gpt-3.5-turbo",
+                        model="gpt-4o-mini",
                         messages=messages,
                         temperature=0.7,
                         n=num_sentences
@@ -109,11 +116,12 @@ def generate_MWO(data, num_sentences, num_iterations):
         # Process the response from the LLM
         print(f"Equipment: {current_pattern['object_name']}")
         print(f"Undesirable Event: {current_pattern['event_name']}")
+        print(f"Helper Event: {current_pattern['helper_name'] if 'helper_name' in current_pattern else 'None'}")
         with open("MWOsentences.txt", "a", encoding='utf-8') as f:
             for choice in response['choices']:
                 output = choice['message']['content']
                 output = post_processing(output)
-                print(f"Sentence: {output}")
+                print(f"- {output}")
                 f.write(f"{output}\n") # Append sentence to text file
 
 if __name__ == "__main__":
@@ -134,8 +142,6 @@ if __name__ == "__main__":
     #     if print_examples(current['object_name'], current['event_name']):
     #         successful_calls += 1
 
-# May need to get more fewshot examples
-# Use different prompts with same meaning to generate more diverse sentences?
 
 # Experiment 1: Strictly follow the given path (equipment and undesirable event)
 # Experiment 2: Generate synonyms first then generate MWOs

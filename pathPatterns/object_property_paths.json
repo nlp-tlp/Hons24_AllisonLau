@@ -5,7 +5,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "crack",
-        "valid": true
+        "valid": true,
+        "alternate": false
     },
     {
         "object_type": "PhysicalObject/StoringObject/EnclosedStationaryStoringObject",
@@ -13,7 +14,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "crack",
-        "valid": true
+        "valid": true,
+        "alternate": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/FramingObject",
@@ -21,7 +23,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "crack",
-        "valid": true
+        "valid": true,
+        "alternate": false
     },
     {
         "object_type": "PhysicalObject/RestrictingObject/AccessRestrictingObject",
@@ -29,7 +32,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "crack",
-        "valid": true
+        "valid": true,
+        "alternate": false
     },
     {
         "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
@@ -37,7 +41,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "crack",
-        "valid": true
+        "valid": true,
+        "alternate": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
@@ -45,7 +50,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "crack",
-        "valid": true
+        "valid": true,
+        "alternate": false
     },
     {
         "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
@@ -53,7 +59,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "crack",
-        "valid": true
+        "valid": true,
+        "alternate": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/ReinforcingObject",
@@ -61,7 +68,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "crack",
-        "valid": true
+        "valid": true,
+        "alternate": false
     },
     {
         "object_type": "PhysicalObject/HoldingObject/ReinforcingObject",
@@ -69,7 +77,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "crack",
-        "valid": true
+        "valid": true,
+        "alternate": true
     },
     {
         "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
@@ -77,7 +86,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "crack",
-        "valid": true
+        "valid": true,
+        "alternate": false
     },
     {
         "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
@@ -85,7 +95,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "crack",
-        "valid": true
+        "valid": true,
+        "alternate": true
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/EnvironmentProtectingObject",
@@ -93,7 +104,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "crack",
-        "valid": true
+        "valid": true,
+        "alternate": false
     },
     {
         "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
@@ -101,7 +113,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "crack",
-        "valid": true
+        "valid": true,
+        "alternate": false
     },
     {
         "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
@@ -109,7 +122,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "crack",
-        "valid": true
+        "valid": true,
+        "alternate": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
@@ -117,7 +131,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "crack",
-        "valid": true
+        "valid": true,
+        "alternate": false
     },
     {
         "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
@@ -125,7 +140,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "crack",
-        "valid": true
+        "valid": true,
+        "alternate": true
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ThermalEnergyGuidingObject",
@@ -133,7 +149,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "crack",
-        "valid": true
+        "valid": true,
+        "alternate": false
     },
     {
         "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
@@ -141,7 +158,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "crack",
-        "valid": true
+        "valid": true,
+        "alternate": false
     },
     {
         "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
@@ -149,7 +167,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "crack",
-        "valid": true
+        "valid": true,
+        "alternate": false
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
@@ -157,7 +176,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "crack",
-        "valid": true
+        "valid": true,
+        "alternate": false
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
@@ -165,7 +185,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "crack",
-        "valid": true
+        "valid": true,
+        "alternate": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
@@ -173,7 +194,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "cracks",
-        "valid": true
+        "valid": true,
+        "alternate": false
     },
     {
         "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
@@ -181,7 +203,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "cracks",
-        "valid": true
+        "valid": true,
+        "alternate": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
@@ -189,7 +212,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "cracks",
-        "valid": true
+        "valid": true,
+        "alternate": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
@@ -197,7 +221,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "cracks",
-        "valid": true
+        "valid": true,
+        "alternate": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/ReinforcingObject",
@@ -205,7 +230,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "cracks",
-        "valid": true
+        "valid": true,
+        "alternate": false
     },
     {
         "object_type": "PhysicalObject/HoldingObject/ReinforcingObject",
@@ -213,7 +239,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "cracks",
-        "valid": true
+        "valid": true,
+        "alternate": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
@@ -221,7 +248,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "cracks",
-        "valid": true
+        "valid": true,
+        "alternate": false
     },
     {
         "object_type": "PhysicalObject/StoringObject/MoveableStoringObject",
@@ -229,7 +257,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "cracks",
-        "valid": true
+        "valid": true,
+        "alternate": false
     },
     {
         "object_type": "PhysicalObject/StoringObject/MoveableStoringObject",
@@ -237,7 +266,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "cracks",
-        "valid": true
+        "valid": true,
+        "alternate": true
     },
     {
         "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
@@ -245,7 +275,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "cracks",
-        "valid": true
+        "valid": true,
+        "alternate": false
     },
     {
         "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
@@ -253,7 +284,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "cracks",
-        "valid": true
+        "valid": true,
+        "alternate": false
     },
     {
         "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
@@ -261,7 +293,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "cracks",
-        "valid": true
+        "valid": true,
+        "alternate": false
     },
     {
         "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
@@ -269,7 +302,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "cracks",
-        "valid": true
+        "valid": true,
+        "alternate": true
     },
     {
         "object_type": "PhysicalObject/GuidingObject/SolidMatterGuidingObject",
@@ -277,7 +311,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "cracks",
-        "valid": true
+        "valid": true,
+        "alternate": false
     },
     {
         "object_type": "PhysicalObject/GuidingObject/SolidMatterGuidingObject",
@@ -285,7 +320,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "cracks",
-        "valid": true
+        "valid": true,
+        "alternate": true
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/PreventiveProtectingObject",
@@ -293,7 +329,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "cracks",
-        "valid": true
+        "valid": true,
+        "alternate": false
     },
     {
         "object_type": "PhysicalObject/HoldingObject/CarryingObject",
@@ -301,7 +338,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "cracks",
-        "valid": true
+        "valid": true,
+        "alternate": false
     },
     {
         "object_type": "PhysicalObject/HoldingObject/JointingObject",
@@ -309,7 +347,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "noisy",
-        "valid": true
+        "valid": true,
+        "alternate": false
     },
     {
         "object_type": "PhysicalObject/HoldingObject/JointingObject",
@@ -317,7 +356,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "noisy",
-        "valid": true
+        "valid": true,
+        "alternate": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/JointingObject",
@@ -325,7 +365,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "noisy",
-        "valid": true
+        "valid": true,
+        "alternate": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/JointingObject",
@@ -333,7 +374,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "noisy",
-        "valid": true
+        "valid": true,
+        "alternate": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/JointingObject",
@@ -341,7 +383,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "noisy",
-        "valid": true
+        "valid": true,
+        "alternate": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/JointingObject",
@@ -349,7 +392,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "noisy",
-        "valid": true
+        "valid": true,
+        "alternate": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/JointingObject",
@@ -357,7 +401,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "noisy",
-        "valid": true
+        "valid": true,
+        "alternate": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/JointingObject",
@@ -365,7 +410,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "noisy",
-        "valid": true
+        "valid": true,
+        "alternate": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/JointingObject",
@@ -373,7 +419,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "noisy",
-        "valid": true
+        "valid": true,
+        "alternate": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/JointingObject",
@@ -381,7 +428,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "noisy",
-        "valid": true
+        "valid": true,
+        "alternate": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/JointingObject",
@@ -389,7 +437,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "noisy",
-        "valid": true
+        "valid": true,
+        "alternate": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/JointingObject",
@@ -397,7 +446,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "noisy",
-        "valid": true
+        "valid": true,
+        "alternate": true
     },
     {
         "object_type": "PhysicalObject/HoldingObject/JointingObject",
@@ -405,7 +455,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "noisy",
-        "valid": true
+        "valid": true,
+        "alternate": true
     },
     {
         "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
@@ -413,7 +464,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "noisy",
-        "valid": true
+        "valid": true,
+        "alternate": false
     },
     {
         "object_type": "PhysicalObject/HoldingObject/FramingObject",
@@ -421,7 +473,8 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "hole",
-        "valid": true
+        "valid": true,
+        "alternate": false
     },
     {
         "object_type": "PhysicalObject/HoldingObject/FramingObject",
@@ -429,6 +482,7 @@
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "hole",
-        "valid": true
+        "valid": true,
+        "alternate": true
     }
 ]

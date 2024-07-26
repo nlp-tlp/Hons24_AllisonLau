@@ -35,7 +35,7 @@ def finetune_llm():
 
     # Fine-tune the LLM
     ft_job = openai.FineTuningJob.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4o-mini",
         training_file=train_data["id"],
     )
     ft_job_id = ft_job["id"]

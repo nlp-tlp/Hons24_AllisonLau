@@ -230,8 +230,8 @@ if __name__ == '__main__':
     # FT_MODEL = "ft:gpt-3.5-turbo-0125:uwa-system-health-lab::9ItG7n1t"
     # generate_data(gpt_model=FT_MODEL, output_dir="ft_specific2", is_fewshot=True, is_specific=True)
 
-    # FT_MODEL = "gpt-3.5-turbo"
-    generate_data(gpt_model="gpt-3.5-turbo", output_dir="output", is_fewshot=True, is_specific=True)
+    # FT_MODEL = "gpt-4o-mini"
+    generate_data(gpt_model="gpt-4o-mini", output_dir="output", is_fewshot=True, is_specific=True)
     # generate_data(gpt_model=FT_MODEL, output_dir="no_fewshot", is_fewshot=False, is_specific=False)
     # generate_data(gpt_model=FT_MODEL, output_dir="fs_specific", is_fewshot=True, is_specific=True)
     # generate_data(gpt_model=FT_MODEL, output_dir="fs_all", is_fewshot=True, is_specific=False)

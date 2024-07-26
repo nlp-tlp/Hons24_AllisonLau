@@ -5,7 +5,8 @@ import ast
 import csv
 import json
 import random
-from generate_data import get_fewshot, FMCODES
+from llm_generate import get_fewshot, FMCODES
+from path_queries import direct_queries, complex_queries
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -75,6 +76,31 @@ def prepare_data_for_fmc(dir_name='observations'):
     train_size, val_size, total_size = len(train_data), len(val_data), len(training_data)
     print(f"Train ({train_size}), Val ({val_size}), Total ({total_size})\t- {dir_name} prepared.")
 
+def prepare_path_for_validation():
+    """ Extract paths that are not confirmed valid for human validation in csv file. """
+    queries = direct_queries + complex_queries
+    requires_validation = []
+    for query in queries:
+        with open(f"pathPatterns/{query['outfile']}.json", encoding='utf-8') as f:
+            data = json.load(f)
+            for path in data:
+                # If path does not come from entry and is not an alternate path
+                if not path['valid'] and not path['alternate']:
+                    requires_validation.append({
+                        "Physical Object": path['object_name'],
+                        "Undesirable Event": path['event_name'],
+                        "Helper PO/Event": path['helper_name'] if 'helper_name' in path else "",
+                        "Valid": ""
+                    })
+                    
+    # Save into csv file with headers = [PhysicalObject,UndesirableEvent,Valid]
+    # where Valid is to be filled by human with x if valid, and empty if invalid
+    with open("pathPatterns/paths_to_validate.csv", "w", encoding='utf-8', newline='') as f:
+        writer = csv.DictWriter(f, fieldnames=["Physical Object", "Undesirable Event", "Helper PO/Event", "Valid"])
+        writer.writeheader()
+        for path in requires_validation:
+            writer.writerow(path)
+
 if __name__ == "__main__":
     # prepare_data_for_llm()
     # prepare_data_for_fmc("fs_all")
@@ -82,5 +108,5 @@ if __name__ == "__main__":
     # prepare_data_for_fmc("ft_specific1")
     # prepare_data_for_fmc("ft_specific2")
     # prepare_data_for_fmc("no_fewshot")
-    prepare_data_for_fmc("count")
-    pass
+    # prepare_data_for_fmc("count")
+    prepare_path_for_validation()

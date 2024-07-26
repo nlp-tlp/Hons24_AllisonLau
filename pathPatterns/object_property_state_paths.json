@@ -7,7 +7,8 @@
         "event_name": "charge",
         "helper_type": "State/UndesirableState/FailedState",
         "helper_name": "no",
-        "valid": true
+        "valid": true,
+        "alternate": false
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
@@ -17,7 +18,8 @@
         "event_name": "charge",
         "helper_type": "State/UndesirableState/FailedState",
         "helper_name": "no",
-        "valid": true
+        "valid": true,
+        "alternate": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
@@ -27,7 +29,8 @@
         "event_name": "charge",
         "helper_type": "State/UndesirableState/FailedState",
         "helper_name": "no",
-        "valid": true
+        "valid": true,
+        "alternate": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
@@ -37,7 +40,8 @@
         "event_name": "charge",
         "helper_type": "State/UndesirableState/FailedState",
         "helper_name": "no",
-        "valid": true
+        "valid": true,
+        "alternate": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
@@ -47,7 +51,8 @@
         "event_name": "charge",
         "helper_type": "State/UndesirableState/FailedState",
         "helper_name": "no",
-        "valid": true
+        "valid": true,
+        "alternate": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
@@ -57,7 +62,8 @@
         "event_name": "charge",
         "helper_type": "State/UndesirableState/FailedState",
         "helper_name": "no",
-        "valid": true
+        "valid": true,
+        "alternate": true
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
@@ -67,6 +73,7 @@
         "event_name": "charge",
         "helper_type": "State/UndesirableState/FailedState",
         "helper_name": "no",
-        "valid": true
+        "valid": true,
+        "alternate": true
     }
 ]

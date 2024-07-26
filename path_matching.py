@@ -54,6 +54,7 @@ def get_alternate_paths(query, record, object, connect_objects, event, valid, he
                 path["helper_type"] = helper['type']
                 path["helper_name"] = helper['name']
             path["valid"] = valid
+            path['alternate'] = True
             alternate_paths.append(path)
 
     # If PhysicalObject has substitute relations to other PhysicalObjects
@@ -70,6 +71,7 @@ def get_alternate_paths(query, record, object, connect_objects, event, valid, he
             path["helper_type"] = helper['type']
             path["helper_name"] = helper['name']
         path["valid"] = valid
+        path['alternate'] = True
         alternate_paths.append(path)
 
     # If Event has substitute relations to its own Events (Property, Process, State
@@ -86,13 +88,11 @@ def get_alternate_paths(query, record, object, connect_objects, event, valid, he
             path["helper_type"] = helper['type']
             path["helper_name"] = helper['name']
         path["valid"] = valid
+        path['alternate'] = True
         alternate_paths.append(path)
-        
+
     alternate_paths = remove_duplicates(alternate_paths)
-    for path in alternate_paths:
-        if path["valid"]:
-            num_valid += 1
-    return alternate_paths, len(alternate_paths), num_valid
+    return alternate_paths
 
 # Function to remove duplicate paths
 def remove_duplicates(paths):
@@ -118,12 +118,32 @@ def check_validity(object, event, helper=None):
         common = object_set.intersection(event_set)
         return True if common else False
 
+# Function to print count of paths (valid and alternate paths)
+def print_path_counts(paths):
+    num_direct, valid_direct = 0, 0
+    num_alternate, valid_alternate = 0, 0
+    for path in paths:
+        if path['alternate']:
+            num_alternate += 1
+            if path['valid']:
+                valid_alternate += 1
+        else:
+            num_direct += 1
+            if path['valid']:
+                valid_direct += 1
+    total_paths = num_direct + num_alternate
+    total_valid = valid_direct + valid_alternate
+
+    print(query["outfile"])
+    print(f"{'Direct':<10}{num_direct:<6} ({valid_direct:<3} valid)")
+    print(f"{'Alternate':<10}{num_alternate:<6} ({valid_alternate:<3} valid)")
+    print(f"{'Total':<10}{total_paths:<6} ({total_valid:<3} valid)")
+    print(f"{'-' * 30}")
+
 # Function to process query results
 def process_query_results(results, paths, complex=False):
     """ Process query results and extract relevant information """
 
-    num_direct, valid_direct = 0, 0
-    num_alternate, valid_alternate = 0, 0
     for record in results:
         # PhysicalObject - Equipment
         object_info = get_entity_info(record, "object")
@@ -150,28 +170,20 @@ def process_query_results(results, paths, complex=False):
         else:
             # Check if path is confirmed valid (entities come from same entry)
             path["valid"] = check_validity(object_info, event_info)
+            
+        path['alternate'] = False
         
         # Alternate paths (if PhysicalObject has connect or substitute relations)
         if complex: # Pass helper_info in generating alternate paths if complex
-            alternate_paths, alternate_count, valid_count = get_alternate_paths(query, record, object_info, connect_objects, event_info, path['valid'], helper_info)
+            alternate_paths = get_alternate_paths(query, record, object_info, connect_objects, event_info, path['valid'], helper_info)
         else:       # No helper_info if not complex
-            alternate_paths, alternate_count, valid_count = get_alternate_paths(query, record, object_info, connect_objects, event_info, path['valid'])
+            alternate_paths = get_alternate_paths(query, record, object_info, connect_objects, event_info, path['valid'])
         
         # Include paths only if they don't already exist
         potential_paths = [path] + alternate_paths
         for p in potential_paths:
             if p not in paths:
                 paths.append(p)
-
-        num_direct += 1
-        num_alternate += alternate_count
-        valid_direct += 1 if path["valid"] else 0
-        valid_alternate += valid_count
-
-    print("{:<40} {} ({} valid)".format(f"Number of {query['outfile']}:", num_direct, valid_direct))
-    print(" - {:<37} {} ({} valid)".format("Number of alternate paths:", num_alternate, valid_alternate))
-    print(" = {:<37} {} ({} valid)".format("Total number of paths:", num_direct + num_alternate, valid_direct + valid_alternate))
-    print("-" * 60)
 
 def compare_files(file1, file2):
     """ Compare two files and return uncommon paths """
@@ -205,12 +217,14 @@ if __name__ == "__main__":
             results = session.run(query["query"])
             paths = []
             process_query_results(results, paths, complex=False)
+            print_path_counts(paths)
             list_to_json(paths, f"{OUTPATH}{query['outfile']}.json")
 
         for query in complex_queries:
             results = session.run(query["query"])
             paths = []
             process_query_results(results, paths, complex=True)
+            print_path_counts(paths)
             list_to_json(paths, f"{OUTPATH}{query['outfile']}.json")
     
     # compare_files("pathPatterns/object_property_paths.json", "pathPatterns/separate/object_property_paths.json")

@@ -259,7 +259,7 @@ def maintie_head_tail(data):
             head_tail_relation.append((head_type, tail_type, r['type']))
     head_tail_relation = sorted(set(head_tail_relation))
     for h, t, r in head_tail_relation:
-        print(f"{h} -> {r} -> {t}")
+        print(f"{h} - {r} -> {t}")
     print("Total:", len(head_tail_relation))
     
 train, test, val, gold, silver = read_data()
