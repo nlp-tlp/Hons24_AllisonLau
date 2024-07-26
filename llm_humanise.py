@@ -39,8 +39,8 @@ def get_prompt(object, event, helper=None):
     
     base = random.choice(base_prompts)
     instruction = random.choice(instructions)
-    
-    if helper != "None":
+
+    if helper:
         prompt = f"{base}\nEquipment: {object}\nUndesirable Event: {event}\nHelper Event: {helper}\n{instruction}"
     else:
         prompt = f"{base}\nEquipment: {object}\nUndesirable Event: {event}\n{instruction}"
@@ -58,14 +58,23 @@ def get_fewshot_message():
     with open("fewshot.csv", encoding='utf-8') as f:
         data = csv.reader(f)
         for row in data:
-            user = {"role": "user", "content": get_prompt(row[0], row[1])}
-            assistant = {"role": "assistant", "content": row[2]}
+            if len(row) == 3:   # object, event, sentence
+                user = {"role": "user", "content": get_prompt(row[0], row[1])}
+                assistant = {"role": "assistant", "content": row[2]}
+            elif len(row) == 4: # object, event, helper, sentence
+                user = {"role": "user", "content": get_prompt(row[0], row[1], row[2])}
+                assistant = {"role": "assistant", "content": row[3]}
             message.append(user)
             message.append(assistant)
+    
+    # Save fewshot message to json file
+    with open("fewshot.json", "w", encoding='utf-8') as f:
+        json.dump(message, f, indent=4)
+    
     return message
 
 # Print some fewshot examples from MaintIE gold dataset
-def print_examples(object, event):
+def print_examples(object, event, helper=None):
     data = []
     with open("datasets/MaintIE/gold_release.json", encoding='utf-8') as f:
         gold = json.load(f)
@@ -74,7 +83,11 @@ def print_examples(object, event):
             data.append(text)
     for sentence in data:
         event_exists = re.search(rf'\b{event}\b', sentence)
-        if object in sentence and event_exists:
+        helper_exists = re.search(rf'\b{helper}\b', sentence) if helper else None
+        if object in sentence and event_exists and helper_exists:
+            print(f"{object},{event},{helper},{sentence}")
+            return True
+        elif object in sentence and event_exists:
             print(f"{object},{event},{sentence}")
             return True
     return False
@@ -132,22 +145,16 @@ if __name__ == "__main__":
     data = get_all_paths(valid=True)
 
     # Generate 5 humanised sentences for 1 path (equipment and undesirable event)
-    generate_MWO(data, num_sentences=5, num_iterations=5)
+    # generate_MWO(data, num_sentences=5, num_iterations=5)
     
     # =============================================================================
     # Uncomment this if you want to get more fewshot examples
     # successful_calls = 0
     # while successful_calls < 5:
     #     current = random.choice(data)
-    #     if print_examples(current['object_name'], current['event_name']):
-    #         successful_calls += 1
-
-
-# Experiment 1: Strictly follow the given path (equipment and undesirable event)
-# Experiment 2: Generate synonyms first then generate MWOs
-# - Problem: How do you know the synonyms are correct?
-# - Solution: cross-check with IEC 81346-2 standard?
-# Experiment 3: Generate equipment and undesirable event given the class and example
-# - Problem: How do you know the generated equipment and undesirable event are correct?
-# - Solution: cross-check with IEC 81346-2 standard?
-
+    #     if 'helper_name' in current:
+    #         if print_examples(current['object_name'], current['event_name'], current['helper_name']):
+    #             successful_calls += 1
+    #     else:
+    #         if print_examples(current['object_name'], current['event_name']):
+    #             successful_calls += 1
