@@ -4,6 +4,7 @@ import json
 import random
 import openai
 from path_queries import direct_queries, complex_queries
+from llm_generate_prompt import get_prompt
 
 # Read all the paths extracted from MaintIE KG
 def get_all_paths(valid=True):
@@ -18,39 +19,6 @@ def get_all_paths(valid=True):
             output.extend(data)
     print(f"Total number of paths: {len(output)}")
     return output
-
-# Craft and return prompt for generating MWO sentences
-def get_prompt(object, event, helper=None):
-    base_prompts = [
-        "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.",
-        "Create a Maintenance Work Order (MWO) sentence that includes the equipment and undesirable event listed below.",
-        "Write a Maintenance Work Order (MWO) sentence detailing the specified equipment and undesirable event.",
-        "Formulate a Maintenance Work Order (MWO) sentence mentioning the given equipment and undesirable event.",
-        "Compose a Maintenance Work Order (MWO) sentence that describes the equipment and undesirable event provided."
-    ]
-    
-    instructions = [
-        "The sentence can have a maximum of 8 words.",
-        "Ensure the sentence does not exceed 8 words.",
-        "Limit the sentence to a maximum of 8 words.",
-        "The sentence should be no more than 8 words.",
-        "Keep the sentence within an 8-word limit."
-    ]
-    
-    base = random.choice(base_prompts)
-    instruction = random.choice(instructions)
-
-    if helper:
-        prompt = f"{base}\nEquipment: {object}\nUndesirable Event: {event}\nHelper Event: {helper}\n{instruction}"
-    else:
-        prompt = f"{base}\nEquipment: {object}\nUndesirable Event: {event}\n{instruction}"
-
-    # prompt = f"Generate a Maintenance Work Order (MWO) sentence describing the "
-    # prompt += "following equipment and undesirable event in natural language."
-    # prompt += f"\nEquipment: {object}"
-    # prompt += f"\nUndesirable Event: {event}"
-    # prompt += "\nThe sentence can have a maximum of 8 words."
-    return prompt
 
 # Get fewshot message given fewshot csv file (object,event,sentence)
 def get_fewshot_message():
@@ -145,7 +113,7 @@ if __name__ == "__main__":
     data = get_all_paths(valid=True)
 
     # Generate 5 humanised sentences for 1 path (equipment and undesirable event)
-    # generate_MWO(data, num_sentences=5, num_iterations=5)
+    generate_MWO(data, num_sentences=5, num_iterations=5)
     
     # =============================================================================
     # Uncomment this if you want to get more fewshot examples
@@ -158,3 +126,14 @@ if __name__ == "__main__":
     #     else:
     #         if print_examples(current['object_name'], current['event_name']):
     #             successful_calls += 1
+
+
+# Get GPT to generate different sentences
+# "Generate five different ways to describe the same issue."
+# "Provide varied descriptions for the following maintenance events."
+# "Create five unique sentences for the same maintenance issue."
+# "Write five different sentences for the same maintenance problem."
+# "Formulate five distinct sentences for the same maintenance event."
+# This requires different fewshot learning
+
+# Synonyms

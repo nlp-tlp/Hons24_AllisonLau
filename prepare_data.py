@@ -5,7 +5,7 @@ import ast
 import csv
 import json
 import random
-from llm_generate import get_fewshot, FMCODES
+from llm_generate_data import get_fewshot, FMCODES
 from path_queries import direct_queries, complex_queries
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
