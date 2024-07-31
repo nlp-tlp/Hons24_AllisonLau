@@ -40,7 +40,7 @@ def prepare_data_for_llm():
         for data in dataset:
             file.write(json.dumps(data) + "\n")
 
-def prepare_data_for_fmc(dir_name='observations'):
+def prepare_data_for_fmc_old(dir_name='observations'):
     """ Prepare data for training the Flair text classification model. """
 
     data_folder = os.path.join(BASE_DIR, "LLM_observations", dir_name)
@@ -101,12 +101,16 @@ def prepare_path_for_validation():
         for path in requires_validation:
             writer.writerow(path)
 
+def prepare_data_for_fmc(pathlist):
+    """ Prepare data for training the Flair text classification model. """
+    pass
+
 if __name__ == "__main__":
     # prepare_data_for_llm()
-    # prepare_data_for_fmc("fs_all")
-    # prepare_data_for_fmc("fs_specific")
-    # prepare_data_for_fmc("ft_specific1")
-    # prepare_data_for_fmc("ft_specific2")
-    # prepare_data_for_fmc("no_fewshot")
-    # prepare_data_for_fmc("count")
+    # prepare_data_for_fmc_old("fs_all")
+    # prepare_data_for_fmc_old("fs_specific")
+    # prepare_data_for_fmc_old("ft_specific1")
+    # prepare_data_for_fmc_old("ft_specific2")
+    # prepare_data_for_fmc_old("no_fewshot")
+    # prepare_data_for_fmc_old("count")
     prepare_path_for_validation()

@@ -4,7 +4,7 @@ import json
 import random
 import openai
 from path_queries import direct_queries, complex_queries
-from llm_generate_prompt import get_prompt
+from llm_paraphrase import initialise_prompts, get_prompt, process_mwo_response
 
 # Read all the paths extracted from MaintIE KG
 def get_all_paths(valid=True):
@@ -20,20 +20,38 @@ def get_all_paths(valid=True):
     print(f"Total number of paths: {len(output)}")
     return output
 
-# Get fewshot message given fewshot csv file (object,event,sentence)
-def get_fewshot_message():
+# Get fewshot message given fewshot csv file
+# Header: object_name, event_name, helper_name, example0, example1, example2, example3, example4, example5
+def get_fewshot_message(base_prompts, instructions, num_examples=5):
     message = [{"role": "system", "content": "You are a technician recording maintenance work orders."}]
     with open("fewshot.csv", encoding='utf-8') as f:
         data = csv.reader(f)
-        for row in data:
-            if len(row) == 3:   # object, event, sentence
-                user = {"role": "user", "content": get_prompt(row[0], row[1])}
-                assistant = {"role": "assistant", "content": row[2]}
-            elif len(row) == 4: # object, event, helper, sentence
-                user = {"role": "user", "content": get_prompt(row[0], row[1], row[2])}
-                assistant = {"role": "assistant", "content": row[3]}
-            message.append(user)
-            message.append(assistant)
+        next(data) # Ignore header
+        
+        # If single-example prompt
+        if num_examples == 1:
+            for row in data:
+                if len(row) == 4:
+                    if row[2] == "": # No helper
+                        user = {"role": "user", "content": get_prompt(base_prompts, instructions, row[0], row[1])}
+                    else:            # Has helper
+                        user = {"role": "user", "content": get_prompt(base_prompts, instructions, row[0], row[1], row[2])}
+                    assistant = {"role": "assistant", "content": row[3]}
+                message.append(user)
+                message.append(assistant)   
+        
+        # If multi-example prompt
+        elif num_examples == 5:
+            for row in data:
+                if len(row) > 4:
+                    if row[2] == "": # No helper
+                        user = {"role": "user", "content": get_prompt(base_prompts, instructions, row[0], row[1])}
+                    else:
+                        user = {"role": "user", "content": get_prompt(base_prompts, instructions, row[0], row[1], row[2])}
+                    example = f"1. {row[3]}\n2. {row[4]}\n3. {row[5]}\n4. {row[6]}\n5. {row[7]}"
+                    assistant = {"role": "assistant", "content": example}
+                message.append(user)
+                message.append(assistant)
     
     # Save fewshot message to json file
     with open("fewshot.json", "w", encoding='utf-8') as f:
@@ -60,15 +78,15 @@ def print_examples(object, event, helper=None):
             return True
     return False
 
-# Process the response from the LLM
-def post_processing(response):
+# Process single response from the LLM
+def process_single_response(response):
     response = response.lower()                     # Case folding
     response = re.sub(r'[^\w\s]', ' ', response)    # Remove punctuation
     response = re.sub(r"\s+", " ", response)        # Remove extra spaces
     return response
     
 # Select random pattern and generate MWO sentences
-def generate_MWO(data, num_sentences, num_iterations):
+def generate_MWO(data, base_prompts, instructions, num_sentences, num_iterations):
     
     while num_iterations > 0 and data:
         # Choose random pattern from data and remove it
@@ -78,12 +96,12 @@ def generate_MWO(data, num_sentences, num_iterations):
         
         # Get prompt for specific PhysicalObject and UndesirableEvent
         if 'helper_name' in current_pattern:
-            prompt = get_prompt(current_pattern['object_name'], current_pattern['event_name'], current_pattern['helper_name'])
+            prompt = get_prompt(base_prompts, instructions, current_pattern['object_name'], current_pattern['event_name'], current_pattern['helper_name'])
         else:
-            prompt = get_prompt(current_pattern['object_name'], current_pattern['event_name'])
+            prompt = get_prompt(base_prompts, instructions, current_pattern['object_name'], current_pattern['event_name'])
         
         # Get fewshot message and append prompt
-        fewshot = get_fewshot_message()
+        fewshot = get_fewshot_message(base_prompts, instructions, num_examples=num_sentences)
         messages = fewshot + [{"role": "user", "content": prompt}]
         
         # Get LLM to generate humanised sentences for the pattern
@@ -91,7 +109,7 @@ def generate_MWO(data, num_sentences, num_iterations):
                         model="gpt-4o-mini",
                         messages=messages,
                         temperature=0.7,
-                        n=num_sentences
+                        n=1
                     )
 
         # Process the response from the LLM
@@ -101,19 +119,28 @@ def generate_MWO(data, num_sentences, num_iterations):
         with open("MWOsentences.txt", "a", encoding='utf-8') as f:
             for choice in response['choices']:
                 output = choice['message']['content']
-                output = post_processing(output)
-                print(f"- {output}")
-                f.write(f"{output}\n") # Append sentence to text file
+                
+                output = process_mwo_response(output)
+                for sentence in output:
+                    print(f"- {sentence}")
+                    f.write(f"{sentence}\n")
+                
+                # output = process_single_response(output)
+                # print(f"- {output}")
+                # f.write(f"{output}\n") # Append sentence to text file
 
 if __name__ == "__main__":
     # Set OpenAI API key
     openai.api_key = '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'
-    
+
     # Read all the paths extracted from Main tIE KG
     data = get_all_paths(valid=True)
 
+    # Initialise list of prompt and instruction prompts
+    base_prompts, instructions = initialise_prompts(num_variants=5, num_examples=5)
+
     # Generate 5 humanised sentences for 1 path (equipment and undesirable event)
-    generate_MWO(data, num_sentences=5, num_iterations=5)
+    generate_MWO(data, base_prompts, instructions, num_sentences=5, num_iterations=1)
     
     # =============================================================================
     # Uncomment this if you want to get more fewshot examples

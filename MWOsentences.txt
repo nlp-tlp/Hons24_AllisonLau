@@ -1,25 +1,29 @@
-injector assembly is faulty
-injector assembly is faulty
-replace faulty injector assembly
-replace faulty injector assembly
-injector assembly is faulty
-fan motor hose has a leak
-fan motor hose has a leak
-fan motor hose has a leak
-fan motor hose has a leak
-fan motor hose has a leak
-blower inverter batteries not holding charge
-blower inverter batteries not charging
-blower inverter batteries not holding charge
-blower inverter batteries need no charge
-blower inverter batteries not charging
-replace broken joystick
-replace broken joystick
-joystick is broken
-replace broken joystick
-joystick is broken
-vims keypad light needs replacing
-vims keypad light needs replacing
-vims keypad light needs replacing
-vims keypad light needs replacing
-vims keypad light needs replacing
+inverter batteries are discharging too quickly
+discharging inverter batteries require immediate attention
+inverter batteries showing signs of discharging
+inverter batteries are discharging unexpectedly
+discharging issue found in inverter batteries 
+
+cabin air conditioner control cable is seized
+control cable for cabin air conditioner seized
+cabin air conditioner control cable has seized
+seized cabin air conditioner control cable
+cabin air conditioner control cable is not functioning
+
+air conditioner fan pump chip sensor alarm activated
+alarm triggered by air conditioner fan pump sensor
+air conditioner fan pump chip sensor shows alarm
+air conditioner fan pump sensor has an alarm
+alarm present on air conditioner fan pump sensor
+
+brake system has a pressure fault
+pressure fault detected in brake equipment
+equipment brake exhibits pressure fault
+brake pressure fault requires immediate attention
+mwo issued for brake pressure fault repair
+
+cooler pump is broken and needs replacement
+the cooler pump is found to be broken
+broken cooler pump requires immediate attention and repair
+cooler pump is not functioning and broken
+broken cooler pump needs to be replaced immediately

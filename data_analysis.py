@@ -261,21 +261,30 @@ def maintie_head_tail(data):
     for h, t, r in head_tail_relation:
         print(f"{h} - {r} -> {t}")
     print("Total:", len(head_tail_relation))
+
+if __name__ == "__main__":
+    # Load datasets
+    train, test, val, gold, silver = read_data()
+
+    # MaintIE dataset analysis
+    # maintie_analysis(gold)
+    # maintie_analysis(silver)
     
-train, test, val, gold, silver = read_data()
+    # MaintIE relations analysis
+    # maintie_head_tail(gold)
+    # maintie_head_tail(silver)
 
-maintie_analysis(gold)
-# maintie_analysis(silver)
-# maintie_head_tail(gold)
-# maintie_head_tail(silver)
+    # MaintIE number of tokens analysis
+    # number_tokens_analysis(gold, "MaintIE Gold")
+    # number_tokens_analysis(silver, "MaintIE Silver")
+    # number_tokens_analysis(gold+silver, "MaintIE Gold + Silver")
 
-# number_tokens_analysis(gold, "MaintIE Gold")
-# number_tokens_analysis(silver, "MaintIE Silver")
-# number_tokens_analysis(gold+silver, "MaintIE Gold + Silver")
+    # FMC-MWO2KG raw dataset analysis
+    # raw_mwo2kg_analysis(train+test+val)
 
-# raw_mwo2kg_analysis(train+test+val)
-
-# events_list = get_events(gold)
-# write_csv(events_list['UndesirableState'], 'undesirable_state.csv', ['Event', 'Text', 'Failure Mode'])
-# write_csv(events_list['UndesirableProperty'], 'undesirable_property.csv', ['Event', 'Text', 'Failure Mode'])
-# write_csv(events_list['UndesirableProcess'], 'undesirable_process.csv', ['Event', 'Text', 'Failure Mode'])
+    # Get Undesirable Events from MaintIE gold dataset
+    events_list = get_events(gold)
+    header = ["Event", "Text", "Failure Mode"]
+    write_csv(events_list['UndesirableState'], 'datasets/FMC-MWO2KG/undesirable_state.csv', header)
+    write_csv(events_list['UndesirableProperty'], 'datasets/FMC-MWO2KG/undesirable_property.csv', header)
+    write_csv(events_list['UndesirableProcess'], 'datasets/FMC-MWO2KG/undesirable_process.csv', header)
