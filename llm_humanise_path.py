@@ -39,8 +39,8 @@ def get_fewshot_message(base_prompts, instructions, num_examples=5):
                     else:            # Has helper
                         user = {"role": "user", "content": get_prompt(base_prompts, instructions, row[0], row[1], row[2])}
                     assistant = {"role": "assistant", "content": row[3]}
-                message.append(user)
-                message.append(assistant)   
+                    message.append(user)
+                    message.append(assistant)   
 
         # If multi-example prompt
         elif num_examples == 5:
@@ -52,8 +52,8 @@ def get_fewshot_message(base_prompts, instructions, num_examples=5):
                         user = {"role": "user", "content": get_prompt(base_prompts, instructions, row[0], row[1], row[2])}
                     example = f"1. {row[3]}\n2. {row[4]}\n3. {row[5]}\n4. {row[6]}\n5. {row[7]}"
                     assistant = {"role": "assistant", "content": example}
-                message.append(user)
-                message.append(assistant)
+                    message.append(user)
+                    message.append(assistant)
 
     # Save fewshot message to json file
     with open("fewshot.json", "w", encoding='utf-8') as f:
