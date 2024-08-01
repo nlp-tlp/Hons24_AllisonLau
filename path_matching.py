@@ -189,53 +189,67 @@ def process_query_results(results, paths, complex=False):
 # Function to update path json files with human validated unconfirmed paths
 def update_paths_validated():
     """ Go through validated unconfirmed paths and update path json files """
+    # Store validated paths in dictionary
+    validated = {}
     with open("pathPatterns/paths_to_validate.csv", "r", encoding="utf-8") as f:
         reader = csv.reader(f)
         next(reader) # Ignore header
         for row in reader:
             if row[0].endswith("PATHS"):
-                    # TODO
-                    # Store validated paths in dictionary
-                    # {pathtype: [{object_name: "", event_name: "", helper_name: "", valid: True/False}]}
-
-                    # For each path type, open json file and update the fields
-
-
-                
-                # pathtype = row[0].lower()
-                # pathfile = open(f"pathPatterns/{pathtype}.json", "r", encoding="utf-8")
-                # pathdata = json.load(pathfile)
-                # pathfile.close()
-                # for path in pathdata:
-                #     if not path['valid'] and not path['alternate']:
-                #         if row[0] == path['object_name'] and row[1] == path['event_name'] and row[2] == path['helper_name']:
-                #         pathdata['valid'] = True if row[3] == 'x' else False
-                # list_to_json(pathdata, pathfile)
-            
-        
-        
+                pathtype = row[0].lower()
+                validated[pathtype] = []
+            else:
+                if row[3].lower() == 'x':
+                    validated[pathtype].append({
+                        "object_name": row[0],
+                        "event_name": row[1],
+                        "helper_name": row[2],
+                        "valid": True
+                    })
+    # For each path type, open json file and update the fields
+    for pathtype in validated:
+        pathname = f"pathPatterns/{pathtype}.json"
+        pathfile = open(pathname, "r", encoding="utf-8")
+        pathdata = json.load(pathfile)
+        pathfile.close()
+        for i, path in enumerate(pathdata):
+            if not path['valid'] and not path['alternate']:
+                for valid_path in validated[pathtype]:
+                    if (path['object_name'] == valid_path['object_name'] and
+                        path['event_name'] == valid_path['event_name'] and
+                        path['helper_name'] == valid_path['helper_name']):
+                        path['valid'] = True
+                        for j in range(i+1, len(pathdata)):
+                            if pathdata[j]['alternate'] == True:
+                                pathdata[j]['valid'] = True
+                            else:
+                                break
+        list_to_json(pathdata, pathname)
 
 if __name__ == "__main__":
-    # Connect to Neo4j
-    URI = "bolt://localhost:7687"
-    USERNAME = "neo4j"
-    PASSWORD = "password"
-    DRIVER = GraphDatabase.driver(URI, auth=(USERNAME, PASSWORD))
-    OUTPATH = "pathPatterns/"
+    # # Connect to Neo4j
+    # URI = "bolt://localhost:7687"
+    # USERNAME = "neo4j"
+    # PASSWORD = "password"
+    # DRIVER = GraphDatabase.driver(URI, auth=(USERNAME, PASSWORD))
+    # OUTPATH = "pathPatterns/"
 
-    with DRIVER.session() as session:
-        for query in direct_queries:
-            results = session.run(query["query"])
-            paths = []
-            process_query_results(results, paths, complex=False)
-            print_path_counts(paths)
-            list_to_json(paths, f"{OUTPATH}{query['outfile']}.json")
+    # with DRIVER.session() as session:
+    #     for query in direct_queries:
+    #         results = session.run(query["query"])
+    #         paths = []
+    #         process_query_results(results, paths, complex=False)
+    #         print_path_counts(paths)
+    #         list_to_json(paths, f"{OUTPATH}{query['outfile']}.json")
 
-        for query in complex_queries:
-            results = session.run(query["query"])
-            paths = []
-            process_query_results(results, paths, complex=True)
-            print_path_counts(paths)
-            list_to_json(paths, f"{OUTPATH}{query['outfile']}.json")
+    #     for query in complex_queries:
+    #         results = session.run(query["query"])
+    #         paths = []
+    #         process_query_results(results, paths, complex=True)
+    #         print_path_counts(paths)
+    #         list_to_json(paths, f"{OUTPATH}{query['outfile']}.json")
 
-    DRIVER.close()
+    # DRIVER.close()
+    
+    update_paths_validated()
+              
