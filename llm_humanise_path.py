@@ -8,6 +8,7 @@ from llm_paraphrase import initialise_prompts, get_prompt, process_mwo_response
 
 # Read all the paths extracted from MaintIE KG
 def get_all_paths(valid=True):
+    """ Read all the paths extracted from MaintIE Gold Dataset KG """
     queries = direct_queries + complex_queries
     output = []
     for query in queries:
@@ -23,11 +24,12 @@ def get_all_paths(valid=True):
 # Get fewshot message given fewshot csv file
 # Header: object_name, event_name, helper_name, example0, example1, example2, example3, example4, example5
 def get_fewshot_message(base_prompts, instructions, num_examples=5):
+    """ Get fewshot message given fewshot csv file """
     message = [{"role": "system", "content": "You are a technician recording maintenance work orders."}]
     with open("fewshot.csv", encoding='utf-8') as f:
         data = csv.reader(f)
         next(data) # Ignore header
-        
+
         # If single-example prompt
         if num_examples == 1:
             for row in data:
@@ -39,7 +41,7 @@ def get_fewshot_message(base_prompts, instructions, num_examples=5):
                     assistant = {"role": "assistant", "content": row[3]}
                 message.append(user)
                 message.append(assistant)   
-        
+
         # If multi-example prompt
         elif num_examples == 5:
             for row in data:
@@ -52,15 +54,16 @@ def get_fewshot_message(base_prompts, instructions, num_examples=5):
                     assistant = {"role": "assistant", "content": example}
                 message.append(user)
                 message.append(assistant)
-    
+
     # Save fewshot message to json file
     with open("fewshot.json", "w", encoding='utf-8') as f:
         json.dump(message, f, indent=4)
-    
+
     return message
 
 # Print some fewshot examples from MaintIE gold dataset
 def print_examples(object, event, helper=None):
+    """ Print some fewshot examples from the gold dataset """
     data = []
     with open("datasets/MaintIE/gold_release.json", encoding='utf-8') as f:
         gold = json.load(f)
@@ -84,26 +87,26 @@ def process_single_response(response):
     response = re.sub(r'[^\w\s]', ' ', response)    # Remove punctuation
     response = re.sub(r"\s+", " ", response)        # Remove extra spaces
     return response
-    
+
 # Select random pattern and generate MWO sentences
 def generate_MWO(data, base_prompts, instructions, num_sentences, num_iterations):
-    
+
     while num_iterations > 0 and data:
         # Choose random pattern from data and remove it
         current_pattern = random.choice(data)
         data.remove(current_pattern)
         num_iterations -= 1
-        
+
         # Get prompt for specific PhysicalObject and UndesirableEvent
         if 'helper_name' in current_pattern:
             prompt = get_prompt(base_prompts, instructions, current_pattern['object_name'], current_pattern['event_name'], current_pattern['helper_name'])
         else:
             prompt = get_prompt(base_prompts, instructions, current_pattern['object_name'], current_pattern['event_name'])
-        
+
         # Get fewshot message and append prompt
         fewshot = get_fewshot_message(base_prompts, instructions, num_examples=num_sentences)
         messages = fewshot + [{"role": "user", "content": prompt}]
-        
+
         # Get LLM to generate humanised sentences for the pattern
         response = openai.ChatCompletion.create(
                         model="gpt-4o-mini",
@@ -119,12 +122,12 @@ def generate_MWO(data, base_prompts, instructions, num_sentences, num_iterations
         with open("MWOsentences.txt", "a", encoding='utf-8') as f:
             for choice in response['choices']:
                 output = choice['message']['content']
-                
+
                 output = process_mwo_response(output)
                 for sentence in output:
                     print(f"- {sentence}")
                     f.write(f"{sentence}\n")
-                
+
                 # output = process_single_response(output)
                 # print(f"- {output}")
                 # f.write(f"{output}\n") # Append sentence to text file
@@ -141,7 +144,7 @@ if __name__ == "__main__":
 
     # Generate 5 humanised sentences for 1 path (equipment and undesirable event)
     generate_MWO(data, base_prompts, instructions, num_sentences=5, num_iterations=1)
-    
+
     # =============================================================================
     # Uncomment this if you want to get more fewshot examples
     # successful_calls = 0

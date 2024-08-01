@@ -31,10 +31,10 @@ def paraphrase_prompt(prompt, keywords=None, num_paraphrases=5):
     """ Paraphrase the prompt to generate more diverse responses. """
     # Paraphrase the prompt num_paraphrases times
     paraphrase_prompt = f"Paraphrase the following sentence {num_paraphrases} times.\n{prompt}\n"
+    paraphrase_prompt += "\n" + "Do not add any new information or alter the meaning."
     if keywords:
         string_keywords = ", ".join(keywords)
         paraphrase_prompt += "Must include the following keywords: " + string_keywords
-    paraphrase_prompt += "\n" + "Do not add any new information or alter the meaning."
     response = openai.ChatCompletion.create(
                     model="gpt-4o-mini",
                     messages=[
