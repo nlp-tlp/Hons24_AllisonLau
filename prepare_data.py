@@ -79,27 +79,33 @@ def prepare_data_for_fmc_old(dir_name='observations'):
 def prepare_path_for_validation():
     """ Extract paths that are not confirmed valid for human validation in csv file. """
     queries = direct_queries + complex_queries
-    requires_validation = []
+    requires_validation = {}
     for query in queries:
         with open(f"pathPatterns/{query['outfile']}.json", encoding='utf-8') as f:
+            requires_validation[query['outfile']] = []
             data = json.load(f)
             for path in data:
                 # If path does not come from entry and is not an alternate path
                 if not path['valid'] and not path['alternate']:
-                    requires_validation.append({
+                    requires_validation[query['outfile']].append({
                         "Physical Object": path['object_name'],
                         "Undesirable Event": path['event_name'],
                         "Helper PO/Event": path['helper_name'] if 'helper_name' in path else "",
                         "Valid": ""
                     })
+
+    # Only keep path types that require validation
+    requires_validation = {k: v for k, v in requires_validation.items() if v}
                     
     # Save into csv file with headers = [PhysicalObject,UndesirableEvent,Valid]
     # where Valid is to be filled by human with x if valid, and empty if invalid
     with open("pathPatterns/paths_to_validate.csv", "w", encoding='utf-8', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=["Physical Object", "Undesirable Event", "Helper PO/Event", "Valid"])
         writer.writeheader()
-        for path in requires_validation:
-            writer.writerow(path)
+        for pathtype, paths in requires_validation.items():
+            writer.writerow({"Physical Object": pathtype.upper(), "Undesirable Event": "", "Helper PO/Event": "", "Valid": ""})
+            for path in paths:
+                writer.writerow(path)
 
 def prepare_data_for_fmc(pathlist):
     """ Prepare data for training the Flair text classification model. """

@@ -1,3 +1,4 @@
+import csv
 import json
 from neo4j import GraphDatabase
 from path_queries import direct_queries, complex_queries, get_connect_objects
@@ -185,24 +186,34 @@ def process_query_results(results, paths, complex=False):
             if p not in paths:
                 paths.append(p)
 
-def compare_files(file1, file2):
-    """ Compare two files and return uncommon paths """
-    with open(file1, 'r', encoding='utf-8') as f:
-        data1 = json.load(f)
-    with open(file2, 'r', encoding='utf-8') as f:
-        data2 = json.load(f)
-    
-    uncommon_paths = []
-    print(f"Not in {file2}:")
-    for path in data1:
-        if path not in data2:
-            uncommon_paths.append(path)
-            print(f"- object: {path['object_name']}, event: {path['property_name']}")
-    print(f"Not in {file1}:")
-    for path in data2:
-        if path not in data1:
-            uncommon_paths.append(path)
-            print(f"- object: {path['object_name']}, event: {path['property_name']}")
+# Function to update path json files with human validated unconfirmed paths
+def update_paths_validated():
+    """ Go through validated unconfirmed paths and update path json files """
+    with open("pathPatterns/paths_to_validate.csv", "r", encoding="utf-8") as f:
+        reader = csv.reader(f)
+        next(reader) # Ignore header
+        for row in reader:
+            if row[0].endswith("PATHS"):
+                    # TODO
+                    # Store validated paths in dictionary
+                    # {pathtype: [{object_name: "", event_name: "", helper_name: "", valid: True/False}]}
+
+                    # For each path type, open json file and update the fields
+
+
+                
+                # pathtype = row[0].lower()
+                # pathfile = open(f"pathPatterns/{pathtype}.json", "r", encoding="utf-8")
+                # pathdata = json.load(pathfile)
+                # pathfile.close()
+                # for path in pathdata:
+                #     if not path['valid'] and not path['alternate']:
+                #         if row[0] == path['object_name'] and row[1] == path['event_name'] and row[2] == path['helper_name']:
+                #         pathdata['valid'] = True if row[3] == 'x' else False
+                # list_to_json(pathdata, pathfile)
+            
+        
+        
 
 if __name__ == "__main__":
     # Connect to Neo4j
@@ -226,7 +237,5 @@ if __name__ == "__main__":
             process_query_results(results, paths, complex=True)
             print_path_counts(paths)
             list_to_json(paths, f"{OUTPATH}{query['outfile']}.json")
-    
-    # compare_files("pathPatterns/object_property_paths.json", "pathPatterns/separate/object_property_paths.json")
 
     DRIVER.close()
