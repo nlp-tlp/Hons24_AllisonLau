@@ -146,6 +146,18 @@ def paraphrase_MWO(sentence, keywords=None, num_paraphrases=5):
 if __name__ == "__main__":
    # Set OpenAI API key
     openai.api_key = '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'
-    sentence = "air horn working intermittently"
-    keywords = ["air horn", "working intermittently"]
-    paraphrase_MWO(sentence, keywords=keywords, num_paraphrases=5)
+    # sentence = "air horn working intermittently"
+    # keywords = ["air horn", "working intermittently"]
+    # paraphrase_MWO(sentence, keywords=keywords, num_paraphrases=5)
+
+    instruction = "The sentence can have a maximum of 8 words."
+    instructions_dummy = [
+        "The sentence can have a maximum of 8 words.",
+        "Each sentence can have a maximum of 8 words.",
+        "The sentence should have a maximum of 8 words.",
+        "Each sentence should have a maximum of 8 words.",
+        "The sentence must have a maximum of 8 words."
+    ]
+    similarity = check_similarity(instruction, instructions_dummy)
+    for prompt, sim in zip(instructions_dummy, similarity):
+        print(f"{sim:.4f} - {prompt}")

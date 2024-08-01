@@ -49,22 +49,22 @@ def show_codes(lines):
 
 def read_data():
     """ Read the data from the files. """
-    with open('datasets/FMC-MWO2KG/train.txt', 'r', encoding='utf-8') as file:
+    with open('data/FMC-MWO2KG/train.txt', 'r', encoding='utf-8') as file:
         train_file = file.readlines()
         train_lines = [(line.split(',')[0], line.split(',')[1].strip()) for line in train_file]
 
-    with open('datasets/FMC-MWO2KG/test.txt', 'r', encoding='utf-8') as file:
+    with open('data/FMC-MWO2KG/test.txt', 'r', encoding='utf-8') as file:
         test_file = file.readlines()
         test_lines = [(line.split(',')[0], line.split(',')[1].strip()) for line in test_file]
 
-    with open('datasets/FMC-MWO2KG/dev.txt', 'r', encoding='utf-8') as file:
+    with open('data/FMC-MWO2KG/dev.txt', 'r', encoding='utf-8') as file:
         val_file = file.readlines()
         val_lines = [(line.split(',')[0], line.split(',')[1].strip()) for line in val_file]
 
-    with open('datasets/MaintIE/gold_release.json', 'r', encoding='utf-8') as file:
+    with open('data/MaintIE/gold_release.json', 'r', encoding='utf-8') as file:
         gold_data = json.load(file)
 
-    with open('datasets/MaintIE/silver_release.json', 'r', encoding='utf-8') as file:
+    with open('data/MaintIE/silver_release.json', 'r', encoding='utf-8') as file:
         silver_data = json.load(file)
 
     return train_lines, test_lines, val_lines, gold_data, silver_data
@@ -212,7 +212,7 @@ def number_tokens_analysis(maintie_data, data_name):
     print()
 
 def raw_mwo2kg_analysis(obs_data):
-    with open('datasets/FMC-MWO2KG/raw.csv', 'r', encoding='utf-8') as file:
+    with open('data/FMC-MWO2KG/raw.csv', 'r', encoding='utf-8') as file:
         reader = csv.reader(file)
         lines = list(reader)
 
@@ -229,7 +229,7 @@ def raw_mwo2kg_analysis(obs_data):
                 aligned_data.append(r)
 
     print(f"Aligned Data: {len(aligned_data)}")
-    with open('datasets/FMC-MWO2KG/aligned.txt', 'w', newline='', encoding='utf-8') as file:
+    with open('data/FMC-MWO2KG/aligned.txt', 'w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
         writer.writerows(aligned_data)
 
@@ -285,6 +285,6 @@ if __name__ == "__main__":
     # Get Undesirable Events from MaintIE gold dataset
     events_list = get_events(gold)
     header = ["Event", "Text", "Failure Mode"]
-    write_csv(events_list['UndesirableState'], 'datasets/FMC-MWO2KG/undesirable_state.csv', header)
-    write_csv(events_list['UndesirableProperty'], 'datasets/FMC-MWO2KG/undesirable_property.csv', header)
-    write_csv(events_list['UndesirableProcess'], 'datasets/FMC-MWO2KG/undesirable_process.csv', header)
+    write_csv(events_list['UndesirableState'], 'data/FMC-MWO2KG/undesirable_state.csv', header)
+    write_csv(events_list['UndesirableProperty'], 'data/FMC-MWO2KG/undesirable_property.csv', header)
+    write_csv(events_list['UndesirableProcess'], 'data/FMC-MWO2KG/undesirable_process.csv', header)

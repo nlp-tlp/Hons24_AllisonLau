@@ -93,7 +93,7 @@ if __name__ == "__main__":
     driver = GraphDatabase.driver(URI, auth=(USERNAME, PASSWORD))
 
     # Get data from MaintIE dataset
-    with open('datasets/MaintIE/gold_release.json', 'r', encoding='utf-8') as file:
+    with open('data/MaintIE/gold_release.json', 'r', encoding='utf-8') as file:
         data = json.load(file)
 
     # Process data

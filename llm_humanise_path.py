@@ -65,7 +65,7 @@ def get_fewshot_message(base_prompts, instructions, num_examples=5):
 def print_examples(object, event, helper=None):
     """ Print some fewshot examples from the gold dataset """
     data = []
-    with open("datasets/MaintIE/gold_release.json", encoding='utf-8') as f:
+    with open("data/MaintIE/gold_release.json", encoding='utf-8') as f:
         gold = json.load(f)
         for d in gold:
             text = d['text'].replace("<id> ", "").replace(" <id>", "")
@@ -140,10 +140,10 @@ if __name__ == "__main__":
     data = get_all_paths(valid=True)
 
     # Initialise list of prompt and instruction prompts
-    base_prompts, instructions = initialise_prompts(num_variants=5, num_examples=5)
+    # base_prompts, instructions = initialise_prompts(num_variants=5, num_examples=5)
 
     # Generate 5 humanised sentences for 1 path (equipment and undesirable event)
-    generate_MWO(data, base_prompts, instructions, num_sentences=5, num_iterations=1)
+    # generate_MWO(data, base_prompts, instructions, num_sentences=5, num_iterations=1)
 
     # =============================================================================
     # Uncomment this if you want to get more fewshot examples

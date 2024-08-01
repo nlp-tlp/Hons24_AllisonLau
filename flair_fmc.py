@@ -6,7 +6,7 @@ from flair.models import TextClassifier
 from flair.data import Sentence
 import os
 
-def train_fmc(dir_name='datasets/FMC-MWO2KG', output_file='fmc-mwo2kg'):
+def train_fmc(dir_name='data/FMC-MWO2KG', output_file='fmc-mwo2kg'):
     current_path = os.path.dirname(os.path.abspath(__file__))
 
     # 1. what label do we want to predict?
@@ -52,7 +52,7 @@ def train_fmc(dir_name='datasets/FMC-MWO2KG', output_file='fmc-mwo2kg'):
                     patience=5,
                     embeddings_storage_mode='gpu')
 
-def test_fmc(dir_name='datasets/FMC-MWO2KG', output_file='fmc-mwo2kg'):
+def test_fmc(dir_name='data/FMC-MWO2KG', output_file='fmc-mwo2kg'):
     model = TextClassifier.load(f'FlairModels/{output_file}/final-model.pt')
 
     test_sents = []
@@ -102,7 +102,7 @@ def predict_fmc(filename, output_file='fmc-mwo2kg'):
             f.write('\n')  
 
 if __name__=="__main__":
-    # train_fmc(dir_name="datasets/FMC-MWO2KG", output_file='fmc-mwo2kg')
+    # train_fmc(dir_name="data/FMC-MWO2KG", output_file='fmc-mwo2kg')
     # test_fmc(output_file='fmc-mwo2kg')
  
     # train_fmc(dir_name="LLM_fmc_data/fs_specific", output_file='fmc-fs_specific')
