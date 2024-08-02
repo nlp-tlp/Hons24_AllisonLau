@@ -2,7 +2,7 @@ import re
 import csv
 import json
 import random
-import openai
+from openai import OpenAI
 from path_queries import direct_queries, complex_queries
 from llm_paraphrase import initialise_prompts, get_prompt, process_mwo_response
 
@@ -89,8 +89,8 @@ def process_single_response(response):
     return response
 
 # Select random pattern and generate MWO sentences
-def generate_MWO(data, base_prompts, instructions, num_sentences, num_iterations):
-
+def generate_MWO(openai, data, base_prompts, instructions, num_sentences, num_iterations):
+    # Iterate the number of patterns
     while num_iterations > 0 and data:
         # Choose random pattern from data and remove it
         current_pattern = random.choice(data)
@@ -99,16 +99,18 @@ def generate_MWO(data, base_prompts, instructions, num_sentences, num_iterations
 
         # Get prompt for specific PhysicalObject and UndesirableEvent
         if 'helper_name' in current_pattern:
-            prompt = get_prompt(base_prompts, instructions, current_pattern['object_name'], current_pattern['event_name'], current_pattern['helper_name'])
+            prompt = get_prompt(base_prompts, instructions, current_pattern['object_name'], 
+                                current_pattern['event_name'], current_pattern['helper_name'])
         else:
-            prompt = get_prompt(base_prompts, instructions, current_pattern['object_name'], current_pattern['event_name'])
+            prompt = get_prompt(base_prompts, instructions, 
+                                current_pattern['object_name'], current_pattern['event_name'])
 
         # Get fewshot message and append prompt
         fewshot = get_fewshot_message(base_prompts, instructions, num_examples=num_sentences)
         messages = fewshot + [{"role": "user", "content": prompt}]
 
         # Get LLM to generate humanised sentences for the pattern
-        response = openai.ChatCompletion.create(
+        response = openai.chat.completions.create(
                         model="gpt-4o-mini",
                         messages=messages,
                         temperature=0.7,
@@ -120,8 +122,8 @@ def generate_MWO(data, base_prompts, instructions, num_sentences, num_iterations
         print(f"Undesirable Event: {current_pattern['event_name']}")
         print(f"Helper Event: {current_pattern['helper_name'] if 'helper_name' in current_pattern else 'None'}")
         with open("MWOsentences.txt", "a", encoding='utf-8') as f:
-            for choice in response['choices']:
-                output = choice['message']['content']
+            for choice in response.choices:
+                output = choice.message.content
 
                 output = process_mwo_response(output)
                 for sentence in output:
@@ -134,16 +136,16 @@ def generate_MWO(data, base_prompts, instructions, num_sentences, num_iterations
 
 if __name__ == "__main__":
     # Set OpenAI API key
-    openai.api_key = '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'
+    client = OpenAI(api_key='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')
 
     # Read all the paths extracted from Main tIE KG
     data = get_all_paths(valid=True)
 
     # Initialise list of prompt and instruction prompts
-    # base_prompts, instructions = initialise_prompts(num_variants=5, num_examples=5)
+    # base_prompts, instructions = initialise_prompts(client, num_variants=5, num_examples=5)
 
     # Generate 5 humanised sentences for 1 path (equipment and undesirable event)
-    # generate_MWO(data, base_prompts, instructions, num_sentences=5, num_iterations=1)
+    # generate_MWO(client, data, base_prompts, instructions, num_sentences=5, num_iterations=1)
 
     # =============================================================================
     # Uncomment this if you want to get more fewshot examples

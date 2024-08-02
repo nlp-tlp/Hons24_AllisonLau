@@ -4,7 +4,7 @@ import os
 import csv
 import ast
 import random
-import openai
+from openai import OpenAI
 from nltk.tokenize import word_tokenize
 from nltk.probability import FreqDist
 
@@ -142,7 +142,7 @@ def process_generated_data(choices, num_samples=100):
     all_observations = []
     for choice in choices:
         try:
-            response = choice['message']['content']
+            response = choice.message.content
             observations = response.split(',')
             # Remove empty strings and whitespace
             observations = [item.strip() for item in observations if item.strip()]
@@ -172,7 +172,7 @@ def lexical_diversity(observations):
     return round(ttr, 2)
 
 # Generate synthetic observations for each failure mode using GPT
-def generate_data(gpt_model, output_dir, is_fewshot, is_specific, temp=0.8, num_samples=100):
+def generate_data(openai, gpt_model, output_dir, is_fewshot, is_specific, temp=0.8, num_samples=100):
     """ Generate synthetic observations for each failure mode using GPT. """
 
     fewshot_examples = get_fewshot() # get_fewshot_examples() for unmodified version
@@ -194,7 +194,7 @@ def generate_data(gpt_model, output_dir, is_fewshot, is_specific, temp=0.8, num_
                 fewshot_prompt = get_example_prompt(fewshot_examples)
         prompt = generate_prompt + contraint_prompt + format_prompt + number_prompt + fewshot_prompt
 
-        response = openai.ChatCompletion.create(
+        response = openai.chat.completions.create(
                         model=gpt_model,
                         messages=[
                             {"role": "system", "content": "You are a failure mode code expert."},
@@ -204,7 +204,7 @@ def generate_data(gpt_model, output_dir, is_fewshot, is_specific, temp=0.8, num_
                         n=2 # number of completions to generate
                     )
 
-        observations, amount = process_generated_data(response['choices'], num_samples=num_samples)
+        observations, amount = process_generated_data(response.choices, num_samples=num_samples)
         generated_data[code] = observations
 
         print(f"[{i+1}/{len(fmcodes)}] Generated {amount} observations for {code} ({failure_name})")
@@ -216,23 +216,23 @@ def generate_data(gpt_model, output_dir, is_fewshot, is_specific, temp=0.8, num_
 
 if __name__ == '__main__':
     # Set OpenAI API key
-    openai.api_key = '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'
+    client = OpenAI(api_key='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')
 
     # FT_MODEL = "ft:gpt-3.5-turbo-0125:uwa-system-health-lab::9H6zu921"
-    # generate_data(gpt_model=FT_MODEL, output_dir="ft1_specific", is_fewshot=True, is_specific=True)
+    # generate_data(client, gpt_model=FT_MODEL, output_dir="ft1_specific", is_fewshot=True, is_specific=True)
     # FT_MODEL = "ft:gpt-3.5-turbo-0125:uwa-system-health-lab::9H72oH8q"
-    # generate_data(gpt_model=FT_MODEL, output_dir="ft2_specific", is_fewshot=True, is_specific=True)
+    # generate_data(client, gpt_model=FT_MODEL, output_dir="ft2_specific", is_fewshot=True, is_specific=True)
     # FT_MODEL = "ft:gpt-3.5-turbo-0125:uwa-system-health-lab::9GJuFmqj"
-    # generate_data(gpt_model=FT_MODEL, output_dir="ft3_specific", is_fewshot=True, is_specific=True)
+    # generate_data(client, gpt_model=FT_MODEL, output_dir="ft3_specific", is_fewshot=True, is_specific=True)
 
     # FT_MODEL = "ft:gpt-3.5-turbo-0125:uwa-system-health-lab::9ItKIgm3"
-    # generate_data(gpt_model=FT_MODEL, output_dir="ft_specific1", is_fewshot=True, is_specific=True)
+    # generate_data(client, gpt_model=FT_MODEL, output_dir="ft_specific1", is_fewshot=True, is_specific=True)
     # FT_MODEL = "ft:gpt-3.5-turbo-0125:uwa-system-health-lab::9ItG7n1t"
-    # generate_data(gpt_model=FT_MODEL, output_dir="ft_specific2", is_fewshot=True, is_specific=True)
+    # generate_data(client, gpt_model=FT_MODEL, output_dir="ft_specific2", is_fewshot=True, is_specific=True)
 
     # FT_MODEL = "gpt-4o-mini"
-    generate_data(gpt_model="gpt-4o-mini", output_dir="output", is_fewshot=True, is_specific=True)
-    # generate_data(gpt_model=FT_MODEL, output_dir="no_fewshot", is_fewshot=False, is_specific=False)
-    # generate_data(gpt_model=FT_MODEL, output_dir="fs_specific", is_fewshot=True, is_specific=True)
-    # generate_data(gpt_model=FT_MODEL, output_dir="fs_all", is_fewshot=True, is_specific=False)
+    generate_data(client, gpt_model="gpt-4o-mini", output_dir="output", is_fewshot=True, is_specific=True)
+    # generate_data(client, gpt_model=FT_MODEL, output_dir="no_fewshot", is_fewshot=False, is_specific=False)
+    # generate_data(client, gpt_model=FT_MODEL, output_dir="fs_specific", is_fewshot=True, is_specific=True)
+    # generate_data(client, gpt_model=FT_MODEL, output_dir="fs_all", is_fewshot=True, is_specific=False)
     print("Data generation completed!")

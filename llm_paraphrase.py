@@ -1,7 +1,7 @@
 import re
-import openai
 import random
-from sentence_transformers import SentenceTransformer, SimilarityFunction
+from openai import OpenAI
+from sentence_transformers import SentenceTransformer
 
 # Post-process LLM response of prompt paraphrases into a list of sentences
 def process_prompt_response(response):
@@ -27,7 +27,7 @@ def process_mwo_response(response):
     return output
 
 # Get LLM to paraphrase prompts for generating more diverse responses
-def paraphrase_prompt(prompt, keywords=None, num_paraphrases=5):
+def paraphrase_prompt(openai, prompt, keywords=None, num_paraphrases=5):
     """ Paraphrase the prompt to generate more diverse responses. """
     # Paraphrase the prompt num_paraphrases times
     paraphrase_prompt = f"Paraphrase the following sentence {num_paraphrases} times.\n{prompt}\n"
@@ -35,7 +35,7 @@ def paraphrase_prompt(prompt, keywords=None, num_paraphrases=5):
     if keywords:
         string_keywords = ", ".join(keywords)
         paraphrase_prompt += "Must include the following keywords: " + string_keywords
-    response = openai.ChatCompletion.create(
+    response = openai.chat.completions.create(
                     model="gpt-4o-mini",
                     messages=[
                             {"role": "system", "content": "You are a sentence paraphraser."},
@@ -62,7 +62,7 @@ def check_similarity(original, paraphrases):
     return similarities.tolist()[0]
 
 # Initialise list of prompt variants
-def initialise_prompts(num_variants, num_examples):
+def initialise_prompts(openai, num_variants, num_examples):
     """ Initialise list of prompt variants. """
 
     # Base prompt for generating MWO sentences
@@ -74,7 +74,7 @@ def initialise_prompts(num_variants, num_examples):
         elif num_examples == 5:
             base_prompt = f"Generate {num_examples} different Maintenance Work Order (MWO) sentences describing the following equipment and undesirable event."
             keywords = [f"{num_examples}", "Maintenance Work Order", "MWO", "equipment", "undesirable event", "sentence"]
-        base_prompts = paraphrase_prompt(base_prompt, keywords, num_variants)
+        base_prompts = paraphrase_prompt(openai, base_prompt, keywords, num_variants)
         similarity = check_similarity(base_prompt, base_prompts)
         for prompt, sim in zip(base_prompts, similarity):
             if sim > 0.9:
@@ -89,7 +89,7 @@ def initialise_prompts(num_variants, num_examples):
         elif num_examples == 5:
             instruction = "Each sentence can have a maximum of 8 words."
         keywords = ["sentence", "8"]
-        instructions = paraphrase_prompt(instruction, keywords, num_variants)
+        instructions = paraphrase_prompt(openai, instruction, keywords, num_variants)
         similarity = check_similarity(instruction, instructions)
         for prompt, sim in zip(instructions, similarity):
             if sim > 0.9:
@@ -121,7 +121,7 @@ def get_prompt(base_prompts, instructions, object, event, helper=None):
     return prompt
 
 # Get LLM to paraphrase MWO sentences with PhysicalObject and UndesirableEvent
-def paraphrase_MWO(sentence, keywords=None, num_paraphrases=5):
+def paraphrase_MWO(openai, sentence, keywords=None, num_paraphrases=5):
     """ GPT paraphrases MWO sentences. """
     # Paraphrase the MWO sentence num_paraphrases times
     paraphrase_prompt = f"Paraphrase the following sentence {num_paraphrases} times.\n{sentence}\n"
@@ -130,7 +130,7 @@ def paraphrase_MWO(sentence, keywords=None, num_paraphrases=5):
         paraphrase_prompt += "Must include the following keywords: " + string_keywords
     paraphrase_prompt += "\nYou may change the sentence from passive to active voice or vice versa."
     paraphrase_prompt += "\nThe sentence can have a maximum of 8 words."
-    response = openai.ChatCompletion.create(
+    response = openai.chat.completions.create(
                     model="gpt-4o-mini",
                     messages=[
                             {"role": "system", "content": "You are a sentence paraphraser."},
@@ -144,12 +144,16 @@ def paraphrase_MWO(sentence, keywords=None, num_paraphrases=5):
     return output
 
 if __name__ == "__main__":
-   # Set OpenAI API key
-    openai.api_key = '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'
+    # Set OpenAI API key
+    client = OpenAI(api_key='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')
+
+    # Test Paraphrase MWO Sentencces
     # sentence = "air horn working intermittently"
     # keywords = ["air horn", "working intermittently"]
-    # paraphrase_MWO(sentence, keywords=keywords, num_paraphrases=5)
+    # x = paraphrase_MWO(client, sentence, keywords=keywords, num_paraphrases=5)
+    # print(x)
 
+    # Test Paraphrase Instruction Prompt
     # instruction = "The sentence can have a maximum of 8 words."
     # instructions_dummy = [
     #     "The sentence can have a maximum of 8 words.",
