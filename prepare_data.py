@@ -5,22 +5,14 @@ import ast
 import csv
 import json
 import random
-from llm_generate_data import get_fewshot, FMCODES
+from GivenCodes.llm_generate_data import get_fewshot, FMCODES
 from path_queries import direct_queries, complex_queries
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
-MAX_ROWS = 10
-
-SYSTEM_CONTENT = (
-    "Generate observations (from maintenance work orders) for the given failure mode code."
-)
-
-SYSTEM_DICT = {"role": "system", "content": SYSTEM_CONTENT}
-
 def prepare_data_for_llm():
-    """ Prepare data for training the GPT-3.5 model. """
-
+    """ Prepare data for finetuning the GPT-3.5 model. """
+    SYSTEM_CONTENT = "Generate observations (from maintenance work orders) for the given failure mode code."
+    SYSTEM_DICT = {"role": "system", "content": SYSTEM_CONTENT}
+    
     dataset = []
     in_filepath = os.path.join(BASE_DIR, "label2obs", "data.csv")
     with open(in_filepath, "r", encoding="utf-8") as file:
@@ -112,6 +104,8 @@ def prepare_data_for_fmc(pathlist):
     pass
 
 if __name__ == "__main__":
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    
     # prepare_data_for_llm()
     # prepare_data_for_fmc_old("fs_all")
     # prepare_data_for_fmc_old("fs_specific")
