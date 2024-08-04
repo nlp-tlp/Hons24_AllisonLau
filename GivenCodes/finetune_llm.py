@@ -61,7 +61,7 @@ def finetune_llm():
     print("Fine-tuning completed.")
     ft_job_result = openai.FineTuningJob.retrieve(ft_job_id)
 
-    out_filepath = os.path.join(BASE_DIR, "FinetuneModels", f"results-{ft_job_id}.json")
+    out_filepath = os.path.join(BASE_DIR, "FinetuneLLMs", f"results-{ft_job_id}.json")
     with open(out_filepath, "w", encoding='utf-8') as file:
         json.dump(ft_job_result, file, indent=4)
 

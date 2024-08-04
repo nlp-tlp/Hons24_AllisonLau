@@ -33,8 +33,6 @@ FMCODES = {
     'Failure to open': "FTO"
 }
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
 # Gets the set of labels (failure mode codes) from FULL ISO14224
 def get_fmcodes():
     """ Returns a list of labels (failure mode codes) from ISO14224. """
@@ -53,7 +51,7 @@ def get_fewshot_examples():
     # Read each line data from txt file
     examples = {}
     for ds in ["train", "dev", "test"]:
-        filepath = os.path.join(BASE_DIR, 'FMC-MWO2KG', f'{ds}.txt')
+        filepath = os.path.join(BASE_DIR, '../FMC-MWO2KG', f'{ds}.txt')
         with open(filepath, 'r', encoding='utf-8') as file:
             lines = file.readlines()
             lines = [line.strip() for line in lines]
@@ -125,6 +123,7 @@ def get_example_prompt(fewshot_examples):
         i += 1
     return fewshot_output
 
+# Save the generated observations to csv file
 def save_observations_to_csv(filename, observations):
     """ Save the generated observations for each label to csv file. """
     directory = os.path.dirname(filename)
@@ -215,6 +214,8 @@ def generate_data(openai, gpt_model, output_dir, is_fewshot, is_specific, temp=0
     return generated_data
 
 if __name__ == '__main__':
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
     # Set OpenAI API key
     client = OpenAI(api_key='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')
 
@@ -231,7 +232,7 @@ if __name__ == '__main__':
     # generate_data(client, gpt_model=FT_MODEL, output_dir="ft_specific2", is_fewshot=True, is_specific=True)
 
     # FT_MODEL = "gpt-4o-mini"
-    generate_data(client, gpt_model="gpt-4o-mini", output_dir="output", is_fewshot=True, is_specific=True)
+    # generate_data(client, gpt_model="gpt-4o-mini", output_dir="output", is_fewshot=True, is_specific=True)
     # generate_data(client, gpt_model=FT_MODEL, output_dir="no_fewshot", is_fewshot=False, is_specific=False)
     # generate_data(client, gpt_model=FT_MODEL, output_dir="fs_specific", is_fewshot=True, is_specific=True)
     # generate_data(client, gpt_model=FT_MODEL, output_dir="fs_all", is_fewshot=True, is_specific=False)
