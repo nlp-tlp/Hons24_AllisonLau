@@ -83,6 +83,7 @@ def print_examples(object, event, helper=None):
 
 # Process single response from the LLM
 def process_single_response(response):
+    """ Process single response from the LLM """
     response = response.lower()                     # Case folding
     response = re.sub(r'[^\w\s]', ' ', response)    # Remove punctuation
     response = re.sub(r"\s+", " ", response)        # Remove extra spaces
@@ -90,6 +91,7 @@ def process_single_response(response):
 
 # Select random pattern and generate MWO sentences
 def generate_MWO(openai, data, base_prompts, instructions, num_sentences, num_iterations):
+    """ Select a random valid path and generate MWO sentences """
     # Iterate the number of patterns
     while num_iterations > 0 and data:
         # Choose random pattern from data and remove it
@@ -158,14 +160,3 @@ if __name__ == "__main__":
     #     else:
     #         if print_examples(current['object_name'], current['event_name']):
     #             successful_calls += 1
-
-
-# Get GPT to generate different sentences
-# "Generate five different ways to describe the same issue."
-# "Provide varied descriptions for the following maintenance events."
-# "Create five unique sentences for the same maintenance issue."
-# "Write five different sentences for the same maintenance problem."
-# "Formulate five distinct sentences for the same maintenance event."
-# This requires different fewshot learning
-
-# Synonyms
