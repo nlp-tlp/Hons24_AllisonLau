@@ -1,229 +1,229 @@
-wrong,correct
-'won  t release', won't release
-/repair, repair
-0 ring, o-ring
-2-way, two way radio
-2way, two way
-@, at
-accum, accumulator
-a/c unit, air conditioner
-a/c, air conditioner
-a/con, air conditioner
-a/cond heater, air conditioner heater
-a/cond, air conditioner
-ac unit, air conditioner
-ac unit, air conditioner
-air - con, air conditioner
-air / con, air conditioner
-air con, air conditioner
-air cond unit, air conditioner
-air cond, air conditioner
-air condition, air conditioner
-air conditioner unit, air conditioner
-air conditioning, air conditioner
-air/con, air conditioner
-aircon, air conditioner
-aircond, air conditioner
-aircondition, air conditioner
-airconditioner, air conditioner
-allingment, alignment
-alram, alarm
-aux, auxiliary
-auxilary, auxiliary
-auxillary, auxiliary
-auxilliary, auxiliary
-batterie, battery
-batt, battery
-beltr, belt
-bent up, bent
-BFWP, boiler feed water pump
-boken,broken
-break-out, break out
-breakout, break out
-brg, bearing
-bull ho, bull hose
-c/o, changeout
-cab air conditioner, air conditioner
-carasel, carousel
-carasoul, carousel
-carosal, carousel
-carosel, carousel
-carosuel, carousel
-carousell, carousel
-catridge, cartridge
-changeout, change out
-c/o, change out
-c / out, change out
-c/out, change out
-chassi, chassis
-chubb, contractor_6
-clean up, clean
-cleanup, clean
-cm, condition monitoring
-collapesed, collapse
-collasped, collapse
-compresure, compressor
-comprsor, compressor
-condute, conduit
-con mon, condition monitoring
-conmon, condition monitoring
-corrored,corrode
-cpu, central processing unit
-cracking, crack
-craacking,crack
-cracks, crack
-craked,crack
-creap, creep
-creaping, creep
-c/water, cooling water
-cyclinder, cylinder
-cyl, cylinder
-cylender, cylinder
-d/e, drive end
-demob, demobilise
-deterioated,deteriorate
-def.check, check
-dril, drill
-e stop, emergency stop
-ecu, engine control unit
-e/l, earth leakage
-eng, engine
-enweld, contractor
-evap fans, evaporative fans
-fab, fabricate
-faulty,fault
-faut, fault
-faulted, fault
-faulting, fault
-flr, floor
-fron, front
-fulctuating, fluctuate
-gbx, gearbox
-g/p, gland packing
-greas, grease
-groundconnections,ground connection
-grd, ground
-grs, contractor_3
-guage, gauge
-gaurd, guard
-gw, gland water
-g/w, gland water
-g\w, gland water
-hr, hour
-hv, high voltage
-hyd fitting, hydraulic fitting
-hyd line, hydraulic line
-hyd, hydraulic
-hyd., hydraulic
-hydrauilc, hydraulic
-hydraulics line, hydraulic line
-hydraulics, hydraulic
-hp, high pressure
-insp, inspect
-isn't, is not
-innadequate, inadequate
-jakstas, contractor_2
-kw, kilowatt
-l/h, left hand 
-l/h/s, left hand side
-lh side, left hand side
-lh, left hand 
-lhs, left hand side
-laek, leak
-leakage, leak
-leakin, leak
-leaking, leak
-left hand, left hand side
-lose,lost
-loses,lost
-loosing, lose
-lowe, lower
-lv, low voltage
-mag, magnetic
-mag sept, magnetic seperator
-make up,make-up
-maintanance, maintenance
-maintainance, maintenance
-mech seal, mechanical seal
-moter, motor
-n/a, NA
-noisey, noisy
-not cold, not cold enough
-nrv, non return valve
-o ring, oring
-ol, overload
-o/temp, over temperature
-o/load, overload
-on front of, front
-over temp, over temperature
-overhaul, repair
-p/b,push button
-pd, positive displacement
-PLC, programmable logic controller
-poasitioner, positioner
-postioner, positioner
-perma lube,permalube
-rcd, residual current device
-r/h, right hand side
-r/h/s, right hand side
-rear of, rear
-receiv, receive
-re-instate, reinstate
-re-attach, reattach
-re-terminate, reterminate
-re-design, redesign
-re - locate, relocate
-re - instate, reinstate
-re - attach, reattach
-re - terminate, reterminate
-re design, redesign
-re - locate, relocate
-re-locate, relocate
-reqiuerd, require
-reapair, repair
-reqiuerd, require
-repairs, repair
-repl, replace
-repalce, replace
-repiars, repair
-replaec, replace
-rh side, right hand side
-rh, right hand 
-rhs, right hand side
-right hand, right hand 
-ROM, run of mine
-rtd, temperature sensor
-sce, safety critical element
-servicing, service
-shuitting down, shutting down
-shuting, shut
-svce, service
-sw, software
-switche, switch
-tacho, tachometer
-temp, temperature
-top of, top
-traming, tramming
-tripping on, trip
-tripping out, trip
-trrack, track
-turbo/manifold, turbo manifold
-two way, two way radio
-u/f, underflow
-u/flow, underflow
-u/s, unserviceable
-va, vibration analysis
-valves,valve
-vac, vacuum
-VA, vibration analysis
-vib, vibration
-vibs, vibration
-vlv, valve
-vfd, variable frequency drive
-vsd, variable speed drive
-vv, valve
-v/v, valve
-wo n't, will not 
-wont, will not
-won't, will not
-wtp, water treatment pump
+Correct,Wrong
+NA,n/a
+accumulator,accum
+air conditioner,a/c unit
+air conditioner,a/c
+air conditioner,a/con
+air conditioner,a/cond
+air conditioner,ac unit
+air conditioner,ac unit
+air conditioner,air - con
+air conditioner,air / con
+air conditioner,air con
+air conditioner,air cond unit
+air conditioner,air cond
+air conditioner,air condition
+air conditioner,air conditioner unit
+air conditioner,air conditioning
+air conditioner,air/con
+air conditioner,aircon
+air conditioner,aircond
+air conditioner,aircondition
+air conditioner,airconditioner
+air conditioner,cab air conditioner
+air conditioner heater,a/cond heater
+alarm,alram
+alignment,allingment
+at,@
+auxiliary,aux
+auxiliary,auxilary
+auxiliary,auxillary
+auxiliary,auxilliary
+battery,batterie
+battery,batt
+bearing,brg
+belt,beltr
+bent,bent up
+boiler feed water pump,BFWP
+break out,break-out
+break out,breakout
+broken,boken
+bull hose,bull ho
+carousel,carasel
+carousel,carasoul
+carousel,carosal
+carousel,carosel
+carousel,carosuel
+carousel,carousell
+cartridge,catridge
+central processing unit,cpu
+change out,changeout
+change out,c/o
+change out,c / out
+change out,c/out
+changeout,c/o
+chassis,chassi
+check,def.check
+clean,clean up
+clean,cleanup
+collapse,collapesed
+collapse,collasped
+compressor,compresure
+compressor,comprsor
+condition monitoring,cm
+condition monitoring,con mon
+condition monitoring,conmon
+conduit,condute
+contractor,enweld
+contractor_2,jakstas
+contractor_3,grs
+contractor_6,chubb
+cooling water,c/water
+corrode,corrored
+crack,cracking
+crack,craacking
+crack,cracks
+crack,craked
+creep,creap
+creep,creaping
+cylinder,cyclinder
+cylinder,cyl
+cylinder,cylender
+demobilise,demob
+deteriorate,deterioated
+drill,dril
+drive end,d/e
+earth leakage,e/l
+emergency stop,e stop
+engine,eng
+engine control unit,ecu
+evaporative fans,evap fans
+fabricate,fab
+fault,faulty
+fault,faut
+fault,faulted
+fault,faulting
+floor,flr
+fluctuate,fulctuating
+front,fron
+front,on front of
+gauge,guage
+gearbox,gbx
+gland packing,g/p
+gland water,gw
+gland water,g/w
+gland water,g\w
+grease,greas
+ground,grd
+ground connection,groundconnections
+guard,gaurd
+high pressure,hp
+high voltage,hv
+hour,hr
+hydraulic,hyd
+hydraulic,hyd.
+hydraulic,hydrauilc
+hydraulic,hydraulics
+hydraulic fitting,hyd fitting
+hydraulic line,hyd line
+hydraulic line,hydraulics line
+inadequate,innadequate
+inspect,insp
+is not,isn't
+kilowatt,kw
+leak,laek
+leak,leakage
+leak,leakin
+leak,leaking
+left hand ,l/h
+left hand ,lh
+left hand side,l/h/s
+left hand side,lh side
+left hand side,lhs
+left hand side,left hand
+lose,loosing
+lost,lose
+lost,loses
+low voltage,lv
+lower,lowe
+magnetic,mag
+magnetic seperator,mag sept
+maintenance,maintanance
+maintenance,maintainance
+make-up,make up
+mechanical seal,mech seal
+motor,moter
+noisy,noisey
+non return valve,nrv
+not cold enough,not cold
+o-ring,0 ring
+oring,o ring
+over temperature,o/temp
+over temperature,over temp
+overload,ol
+overload,o/load
+permalube,perma lube
+positioner,poasitioner
+positioner,postioner
+positive displacement,pd
+programmable logic controller,PLC
+push button,p/b
+rear,rear of
+reattach,re-attach
+reattach,re - attach
+receive,receiv
+redesign,re-design
+redesign,re design
+reinstate,re-instate
+reinstate,re - instate
+relocate,re - locate
+relocate,re - locate
+relocate,re-locate
+repair,/repair
+repair,overhaul
+repair,reapair
+repair,repairs
+repair,repiars
+replace,repl
+replace,repalce
+replace,replaec
+require,reqiuerd
+require,reqiuerd
+residual current device,rcd
+reterminate,re-terminate
+reterminate,re - terminate
+right hand ,rh
+right hand ,right hand
+right hand side,r/h
+right hand side,r/h/s
+right hand side,rh side
+right hand side,rhs
+run of mine,ROM
+safety critical element,sce
+service,servicing
+service,svce
+shut,shuting
+shutting down,shuitting down
+software,sw
+switch,switche
+tachometer,tacho
+temperature,temp
+temperature sensor,rtd
+top,top of
+track,trrack
+tramming,traming
+trip,tripping on
+trip,tripping out
+turbo manifold,turbo/manifold
+two way,2way
+two way radio,2-way
+two way radio,two way
+underflow,u/f
+underflow,u/flow
+unserviceable,u/s
+vacuum,vac
+valve,valves
+valve,vlv
+valve,vv
+valve,v/v
+variable frequency drive,vfd
+variable speed drive,vsd
+vibration,vib
+vibration,vibs
+vibration analysis,va
+vibration analysis,VA
+water treatment pump,wtp
+will not,wont
+will not,won't
+will not ,wo n't
+won't release,'won  t release'
