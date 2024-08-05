@@ -48,6 +48,8 @@ bearing,brng
 bearings,brgs
 bearings,bngs
 been,b
+belt,blt
+bill of materials,bom
 boiler feed water pump,bfwp
 boilermaker,boily
 boilermakers,boilys
@@ -56,9 +58,12 @@ bracket,bkt
 bracket,brk
 brake,brk
 break out,break-out
+breakdown maintenance,bm
 broken,brkn
+brown boveri and cie,bbc
 bucket,bkt
 bucket,buc
+bucket elevator,b/e
 building,bldg
 busbars,bus
 by-pass,bypass
@@ -67,7 +72,9 @@ bypass,by-pass
 bypassing,by-passing
 cabin,cab
 cabin light,cablight
+calibrate,cal
 camshaft,cam
+canister empty,lc
 carbody,car
 cartridge,cartr
 central processing unit,cpu
@@ -75,6 +82,7 @@ centre,cntr
 centre,ctr
 centre,c/
 centre,cent
+certified master inspector,cmi
 chain,chn
 change,change out
 change,chge
@@ -87,6 +95,7 @@ change out,change
 check,chk
 check,ch
 christmas,xmas
+chute,chu
 circuit breaker,cb
 circuit breaker,c/b
 circuit breaker,c/breaker
@@ -95,6 +104,7 @@ circumference,circum
 clean,clean up
 clean up,clean
 coaxial,coax
+coke and revert,c/r
 collect,col
 communication,comm
 communications,comms
@@ -105,28 +115,38 @@ compressor,compress
 condition,cond
 condition monitoring,cm
 condition monitoring,con mon
+condition monitoring,cmn
 conditioner,con
 conditioner,cond
 conditioner,a/c
 conditioner,aircon
 connection,conn
-continuously cont,
+continuously,cont
 control,ctrl
 controls,ctrls
 controls,ctrlz
 converter,conv
+conveyor,cvr
+conveyor maintenance,cm
+conveyor maintenance shutdown,cmsd
+conveyor maintenance shutdown,cmsd
 cooler,cool
 cooling,cool
 cooling water,cool/water
 cooling water,c/water
 copper,cu
+copper free liquor,cfl
 corner,crnr
+corrective action,ca
 counter weight,c/weight
+coupling,cpl
 cover,cov
 crankcase,crank
 crib hut,c/hut
+critical control execution,cce
 cross,x
 cross cabin,xcab
+cross travel,c/t
 crossover,x-over
 cylinder,cyl
 cylinder,cylind
@@ -140,8 +160,10 @@ diaphragm,dia
 differential,diff
 dipstick,dip
 directional,dir
+distributed control system,dcs
 distributor,d/b
 dogbone,dog
+dosed thickener overflow,dto
 drag rope,d/rope
 dragline,d/l
 dragline,dl
@@ -153,6 +175,7 @@ drive,drvit
 drive,drv
 drive,drvl
 drive,drvcondu
+drive assembly,drv
 drive end,d/e
 driveline,drive
 driveline,drive/line
@@ -168,9 +191,11 @@ electrical,e/c
 electrical,e/l
 electrical connection,e/con
 electrical leakage,e/leakage
+elevasted work platform,ewp
 emergency,emer
 emergency,emerg
 emergency,em
+emergency roll out,ero
 emergency-stop,emergency
 emergency-stop,e-stop
 emergency-stop,e
@@ -200,6 +225,7 @@ fabrication,fab
 fault,flt
 faults,flts
 faulty,flty
+fibre reinformed plastic,frp
 filter,filt
 filter,fltr
 filter,filt
@@ -225,6 +251,9 @@ front,frnt
 front,f/
 front left hand,flh
 front right hand,frh
+fuller kinion pump,fkp
+functional testing,ft
+furnance shutdown,fsd
 gearbox,g/box
 gearbox,gbox
 gearbox,gear
@@ -233,6 +262,7 @@ gearbox,gbx
 gearboxes,gboxs
 gearboxes,gear
 gearcase,gear
+general power outlet,gpo
 generator,gen
 generator set,genset
 generator set,gen set
@@ -240,6 +270,7 @@ generator sets,gensets
 generator sets,gen sets
 gland water,gw
 gland water,g/w
+gravity take-up,gtu
 ground,grd
 ground,grnd
 group,grp
@@ -248,6 +279,8 @@ handrail,hand
 handrail,h/rail
 handrails,h/rails
 handrails,hand
+hazard,haz
+hazardous area,ha
 headlight,head
 headlight,h/light
 high,h
@@ -260,7 +293,9 @@ high pressure,h/p
 high pressure,hi-pressure
 high voltage,hv
 high voltage,h/v
+hoist,hst
 horizontal,horiz
+hot gas fan,hgf
 hour,hr
 housing,hous
 hydraulic,hydoil
@@ -269,21 +304,27 @@ hydraulic hose,hyd-hose
 hydraulic tank,hyd-tank
 hydrocarbon,hydro
 hydrocool,hydro
+idler,idl
 ignition,ign
 ignition,ignt
 implement,impl
 implement,impl
+improve,imp
+incident,inc
 injection,injec
 injection,inj
 injection,inje
 injector,inject
+inlet guide vane,igv
 inline,in-line
 inoperable,inop
+input open permissive,iop
 inspect,ins
 inspect,insp
 inspection,insp
 install,inst
 install,ins
+interim temporary control,itc
 intermediate,inter
 intermediate,int
 internal,inter
@@ -335,6 +376,7 @@ left turn,l/turn
 level,lvl
 lever,lvr
 lights,lts
+linear variable differential transformer,lvdt
 location,locn
 location,loc
 lockout,lock
@@ -351,19 +393,33 @@ lower left,l/r
 lower right,lr
 lower right,l/r
 machine,mach
+machine vapour re-compression,mvr
+magnet,mgt
+magnet monorail,mnr
 magnetic,mag
 magnetic seperator,mag sept
+main air compressor,
+main cooling water tower,mcwt
 maintenance,maint
 maintenance,mtce
 maintenance,mainten
+major job,mj
+major overhaul,mjo
+major service,mjs
+major shutdown,msd
 make up,make-up
 make-up,make up
 manifold,man
 manifold,manif
+matte granulation,gran
 mechanical,mech
+medium pressure,mp
+metal detector,mdt
+metal free liquor,mfl
 mid-life,midlife
 minesite,mine
 minesite,m/site
+minor service,mns
 misfire,miss
 mobile,mob
 mobilise,mob
@@ -371,8 +427,13 @@ modification,mod
 modifications,mods
 modular,module
 motor,mtr
+motor control center,mcc
 motor generator,mg
 mount,mun
+nano filtration,nf
+non destructive test,ndt
+non drive end,nde
+non-return value,nrv
 north,nth
 not operating,n/o
 not working,n/w
@@ -383,6 +444,7 @@ o-ring,o/ring
 o-ring,org
 o-ring,0-ring
 o-ring,0/ring
+off site repair,osr
 okay,ok
 operation,opp
 operation,op
@@ -399,6 +461,7 @@ over temperature,overtemp
 overcharging,o/charging
 overfill,over
 overfull,over
+overhaul,o/h
 overhaul,o/haul
 overheat,o/heat
 overheating,o/heating
@@ -414,7 +477,11 @@ perform,perf
 performed,perf
 permalube,perma
 permalubes,perma
+permit to work,ptw
+plant control center,pcc
 please,pls
+plug and insert,p&i
+plug and insert,p and i
 plugged,plgd
 point,pnt
 point,pt
@@ -426,15 +493,20 @@ power steering,p-steering
 pre-cleaner,precleaner
 pre-lube,prelube
 precleaner,pre-cleaner
+predictive maintenance,pdm
 prelube,pre-lube
 preparation,prep
 prepare,prep
 pressure,press
+pressure filter leaves,plf
+pressure safety valve,psv
+pressure swing absorption plant,psa
 primary,prim
 problem,prob
 problems,probs
 profile,prof
 programmable logic controller,plc
+project,pro
 propel,prpl
 proximity,proxy
 proximity,prox
@@ -479,17 +551,21 @@ refurbishment,refurb
 regas,re-gas
 regulator,reg
 regulators,regs
+regulatory,reg
 reinstall,re-install
 reinstate,re-instate
+relief valve,rv
 relocate,re-locate
 remaining,remove#
+remote terminal unit,rtu
 remove number,remove#
 repair,rep
 repair and replace,r&r
-replace,rep
 replace,repl
+replace,rpl
 replacement,rep
 replacement,repl
+report,rpt
 reposition,re-position
 require,req
 requires,reqs
@@ -504,7 +580,9 @@ reticulation,retic
 retrofit,retro
 return,re
 reverse,rev
+reverse jet scrubber,rjs
 rewind,re-wind
+rework,rew
 right,rt
 right,rht
 right,r/
@@ -538,9 +616,15 @@ right turn,r/turn
 rotochamber,roto
 rotochamber,rotor
 run of mine,rom
+run to failure,rtf
+safety,sfty
+safety,sft
 safety critical element,sce
+safety critical element,sce
+scaffold requirement,scaf
 scavenger,scav
 scope,sc
+scraper,scp
 screen,scrn
 second,2nd
 secondary,2ndary
@@ -556,12 +640,15 @@ service,svce
 service,srv
 service,serv
 service,ser
+service,svc
 set up,set-up
 set up,set
 set-up,set up
 set-up,set
 shaft,sft
 sheave,shve
+shift electrician,se
+shift technician,st
 shock absorber,shockie
 shock absorber,shocky
 shock absorbers,shockies
@@ -572,22 +659,28 @@ shutdown,sd
 small,sml
 software,sw
 sometimes,s/times
+sonic frequency,sf
 south,sth
+specialised engineering services,ses
 specifications,spec
 speed,spd
 speedometer,speedo
 stage,stg
+statement of work,sow
 statutory,stat
 steer,str
 storage,strg
 structure,struct
+structure,strc
 substation,sub
+substation,ss
 supply,sup
 supply,sply
 support,supp
 support,supt
 suppression,supp
 surface,surf
+survey,svy
 suspension,susp
 suspension,sus
 swing,swg
@@ -609,7 +702,10 @@ temperature sensor,rtd
 temperatures,temps
 terminal,term
 termination,term
+test,tst
 text,txt
+thermo couple,t/c
+thermo couple,tc
 thermography,thermo
 thermostat,thermo
 thermostats,thermos
@@ -627,6 +723,7 @@ tower,twr
 track,trk
 transfer,trans
 transfer,trn
+transformer,tr
 transmission,tx
 transmission,trans
 transmission,tranny
@@ -651,6 +748,8 @@ update,up-date
 update,up
 upgrade,up
 upper,upr
+uptake shaft,u/s
+uptake shaft,us
 vacuum,vac
 valve,vlv
 valve,vv
@@ -666,15 +765,18 @@ visibility,vis
 voltage,v
 voltage,vltg
 voltage,volt
+waist heat boiler,whb
 walk-through,walkthrough
 walkthrough,walk-through
 walkways,w/ways
 walkways,walkw
 water,wtr
 water pump,w/pump
+water quality management system,wqms
 water treatment pump,wtp
 week,wk
 weekly,wkly
+weightometer,wtm
 wheel bearings,w/bearings
 window,w/dow
 with,w

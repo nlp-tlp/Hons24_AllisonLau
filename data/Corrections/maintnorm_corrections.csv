@@ -21,6 +21,7 @@ Correct,Wrong
 - replace,-replace
 - smokey,-SMOKEY
 - wedges,-Wedges
+-=[,acumulator
 / carbody,/carbody
 / change,/Change
 / change,/CO
@@ -126,7 +127,6 @@ accessory,ACCESSORT
 accident,acc
 accident,ACC
 accidentally,ACCIDENTLY
--=[,acumulator
 accumulator,ACCUM
 accumulator,accumu
 accumulator,accu
