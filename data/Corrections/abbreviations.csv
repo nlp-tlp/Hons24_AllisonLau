@@ -297,6 +297,7 @@ hoist,hst
 horizontal,horiz
 hot gas fan,hgf
 hour,hr
+hour,h
 housing,hous
 hydraulic,hydoil
 hydraulic,hyd
@@ -426,6 +427,8 @@ mobilise,mob
 modification,mod
 modifications,mods
 modular,module
+month,mth
+month,m
 motor,mtr
 motor control center,mcc
 motor generator,mg
