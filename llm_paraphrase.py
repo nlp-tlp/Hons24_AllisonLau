@@ -1,6 +1,8 @@
+import os
 import re
 import random
 from openai import OpenAI
+from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer
 
 # Post-process LLM response of prompt paraphrases into a list of sentences
@@ -145,7 +147,9 @@ def paraphrase_MWO(openai, sentence, keywords=None, num_paraphrases=5):
 
 if __name__ == "__main__":
     # Set OpenAI API key
-    client = OpenAI(api_key='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')
+    load_dotenv()
+    api_key = os.getenv("API_KEY")
+    client = OpenAI(api_key=api_key)
 
     # Test Paraphrase MWO Sentencces
     # sentence = "air horn working intermittently"

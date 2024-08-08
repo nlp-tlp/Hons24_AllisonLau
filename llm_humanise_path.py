@@ -1,8 +1,10 @@
+import os
 import re
 import csv
 import json
 import random
 from openai import OpenAI
+from dotenv import load_dotenv
 from path_queries import direct_queries, complex_queries
 from llm_paraphrase import initialise_prompts, get_prompt, process_mwo_response
 
@@ -138,7 +140,9 @@ def generate_MWO(openai, data, base_prompts, instructions, num_sentences, num_it
 
 if __name__ == "__main__":
     # Set OpenAI API key
-    client = OpenAI(api_key='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')
+    load_dotenv()
+    api_key = os.getenv("API_KEY")
+    client = OpenAI(api_key=api_key)
 
     # Read all the paths extracted from Main tIE KG
     data = get_all_paths(valid=True)

@@ -5,6 +5,7 @@ import csv
 import ast
 import random
 from openai import OpenAI
+from dotenv import load_dotenv
 from nltk.tokenize import word_tokenize
 from nltk.probability import FreqDist
 
@@ -217,7 +218,9 @@ if __name__ == '__main__':
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
     # Set OpenAI API key
-    client = OpenAI(api_key='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')
+    load_dotenv()
+    api_key = os.getenv("API_KEY")
+    client = OpenAI(api_key=api_key)
 
     # FT_MODEL = "ft:gpt-3.5-turbo-0125:uwa-system-health-lab::9H6zu921"
     # generate_data(client, gpt_model=FT_MODEL, output_dir="ft1_specific", is_fewshot=True, is_specific=True)
