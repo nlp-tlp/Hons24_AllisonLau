@@ -3,51 +3,51 @@ Object: park brake
 Event: alarm fault
 Number of sentences: 47
 ----------------------------------------
-- park brake system has alarm fault
-- park brake shows an alarm fault
-- an alarm fault affects the park brake system
-- an alarm fault is caused by the park brake
-- alarm fault occurring with park brake
-- alarm fault is triggered by the park brake
-- park brake system shows an alarm fault
-- park brake alarm shows a fault
-- there is an alarm fault in the park brake
-- alarm fault in park brake system
-- park brake triggers an alarm fault
-- alarm fault indicated by the park brake
-- the park brake system has an alarm fault
-- there is a fault in the park brake alarm
-- alarm fault present in park brake
-- alarm fault identified in park brake
-- park brake is indicating an alarm fault
-- park brake alarm is faulty
-- the park brake has an alarm fault
-- an alarm fault exists in the park brake system
-- the park brake triggers an alarm fault
-- there s an alarm fault with the park brake
-- park brake shows alarm fault
-- alarm fault occurs due to park brake issues
-- an alarm fault affects the park brake
-- the park brake system triggers an alarm fault
-- the park brake has an alarm fault issue
-- an alarm fault has been found in the park brake
-- park brake has an alarm fault
-- an alarm fault has been found in park brake
-- an alarm fault is shown by the park brake
-- park brake reveals an alarm fault issue
-- an alarm fault in the park brake was detected
-- park brake system alarm is faulty
-- the park brake has a detected alarm fault
-- the park brake indicates an alarm fault
-- park brake is experiencing alarm fault
-- park brake alarm fault detected
-- an alarm fault exists in the park brake
-- the park brake shows an alarm fault
-- park brake system has an alarm fault
-- the alarm fault indicates a park brake issue
-- there is an alarm fault with the park brake
-- alarm fault detected in the park brake system
-- alarm fault detected in the park brake
-- the alarm fault is affecting the park brake
-- an alarm fault is present in the park brake
+~ park brake system has alarm fault
+~ park brake shows an alarm fault
+~ an alarm fault affects the park brake system
+~ an alarm fault is caused by the park brake
+~ alarm fault occurring with park brake
+~ alarm fault is triggered by the park brake
+~ park brake system shows an alarm fault
+~ park brake alarm shows a fault
+~ there is an alarm fault in the park brake
+~ alarm fault in park brake system
+~ park brake triggers an alarm fault
+~ alarm fault indicated by the park brake
+~ the park brake system has an alarm fault
+~ there is a fault in the park brake alarm
+~ alarm fault present in park brake
+~ alarm fault identified in park brake
+~ park brake is indicating an alarm fault
+~ park brake alarm is faulty
+~ the park brake has an alarm fault
+~ an alarm fault exists in the park brake system
+~ the park brake triggers an alarm fault
+~ there s an alarm fault with the park brake
+~ park brake shows alarm fault
+~ alarm fault occurs due to park brake issues
+~ an alarm fault affects the park brake
+~ the park brake system triggers an alarm fault
+~ the park brake has an alarm fault issue
+~ an alarm fault has been found in the park brake
+~ park brake has an alarm fault
+~ an alarm fault has been found in park brake
+~ an alarm fault is shown by the park brake
+~ park brake reveals an alarm fault issue
+~ an alarm fault in the park brake was detected
+~ park brake system alarm is faulty
+~ the park brake has a detected alarm fault
+~ the park brake indicates an alarm fault
+~ park brake is experiencing alarm fault
+~ park brake alarm fault detected
+~ an alarm fault exists in the park brake
+~ the park brake shows an alarm fault
+~ park brake system has an alarm fault
+~ the alarm fault indicates a park brake issue
+~ there is an alarm fault with the park brake
+~ alarm fault detected in the park brake system
+~ alarm fault detected in the park brake
+~ the alarm fault is affecting the park brake
+~ an alarm fault is present in the park brake
 ========================================

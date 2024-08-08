@@ -128,5 +128,5 @@ if __name__ == "__main__":
         f.write(f"Number of sentences: {len(sentences)}\n")
         f.write("----------------------------------------\n")
         for sentence in sentences:
-            f.write(f"- {sentence}\n")
+            f.write(f"~ {sentence}\n")
         f.write("========================================\n")
