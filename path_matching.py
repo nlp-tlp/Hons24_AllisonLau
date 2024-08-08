@@ -191,7 +191,7 @@ def update_paths_validated():
     """ Go through validated unconfirmed paths and update path json files """
     # Store validated paths in dictionary
     validated = {}
-    with open("pathPatterns/paths_to_validate.csv", "r", encoding="utf-8") as f:
+    with open("path_patterns/paths_to_validate.csv", "r", encoding="utf-8") as f:
         reader = csv.reader(f)
         next(reader) # Ignore header
         for row in reader:
@@ -208,7 +208,7 @@ def update_paths_validated():
                     })
     # For each path type, open json file and update the fields
     for pathtype in validated:
-        pathname = f"pathPatterns/{pathtype}.json"
+        pathname = f"path_patterns/{pathtype}.json"
         pathfile = open(pathname, "r", encoding="utf-8")
         pathdata = json.load(pathfile)
         pathfile.close()
@@ -232,7 +232,7 @@ if __name__ == "__main__":
     # USERNAME = "neo4j"
     # PASSWORD = "password"
     # DRIVER = GraphDatabase.driver(URI, auth=(USERNAME, PASSWORD))
-    # OUTPATH = "pathPatterns/"
+    # OUTPATH = "path_patterns/"
 
     # with DRIVER.session() as session:
     #     for query in direct_queries:

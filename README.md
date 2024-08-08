@@ -13,7 +13,7 @@ This python script contains code for dataset preparation and dataset analysis.
 ### Extracting paths (equipment and undesirable event combination) from Neo4j
 1. Queries for extracting paths are stored in `path_queries.py`.
 2. Run `python path_matching.py` to extract paths from Neo4j.
-3. Different paths are stored in their respective json files in `pathPatterns` directory.
+3. Different paths are stored in their respective json files in `path_patterns` directory.
 
 ### LLM Generate data given Path (equipment and undesirable event combination)
 1. Run `python llm_humanise.py` to generate MWO sentences from valid paths.

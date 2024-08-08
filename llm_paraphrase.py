@@ -105,7 +105,14 @@ def initialise_prompts(openai, num_variants, num_examples):
 
 # Craft and return prompt for generating MWO sentences
 def get_prompt(base_prompts, instructions, object, event, helper=None):
-    """ Craft and return prompt for generating MWO sentences. """    
+    """ Craft and return prompt for generating MWO sentences.
+        Prompt: Generate 5 different Maintenance Work Order (MWO) sentence describing the
+                following equipment and undesirable event in natural language. 
+                Equipment: {object}
+                Undesirable Event: {event}
+                Helper Event: {helper}
+                Each sentence can have a maximum of 8 words.
+    """
     # Randomly select base prompt and instruction prompt
     base = random.choice(base_prompts)
     instruction = random.choice(instructions)
@@ -114,16 +121,10 @@ def get_prompt(base_prompts, instructions, object, event, helper=None):
         prompt = f"{base}\nEquipment: {object}\nUndesirable Event: {event}\nHelper Event: {helper}\n{instruction}"
     else:
         prompt = f"{base}\nEquipment: {object}\nUndesirable Event: {event}\n{instruction}"
-
-    # prompt = f"Generate a Maintenance Work Order (MWO) sentence describing the "
-    # prompt += "following equipment and undesirable event in natural language."
-    # prompt += f"\nEquipment: {object}"
-    # prompt += f"\nUndesirable Event: {event}"
-    # prompt += "\nThe sentence can have a maximum of 8 words."
     return prompt
 
 # Get LLM to paraphrase MWO sentences with PhysicalObject and UndesirableEvent
-def paraphrase_MWO(openai, sentence, keywords=None, num_paraphrases=5):
+def paraphrase_mwo(openai, sentence, keywords=None, num_paraphrases=5):
     """ GPT paraphrases MWO sentences. """
     # Paraphrase the MWO sentence num_paraphrases times
     paraphrase_prompt = f"Paraphrase the following sentence {num_paraphrases} times.\n{sentence}\n"

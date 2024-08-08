@@ -73,7 +73,7 @@ def prepare_path_for_validation():
     queries = direct_queries + complex_queries
     requires_validation = {}
     for query in queries:
-        with open(f"pathPatterns/{query['outfile']}.json", encoding='utf-8') as f:
+        with open(f"path_patterns/{query['outfile']}.json", encoding='utf-8') as f:
             requires_validation[query['outfile']] = []
             data = json.load(f)
             for path in data:
@@ -91,7 +91,7 @@ def prepare_path_for_validation():
                     
     # Save into csv file with headers = [PhysicalObject,UndesirableEvent,Valid]
     # where Valid is to be filled by human with x if valid, and empty if invalid
-    with open("pathPatterns/paths_to_validate.csv", "w", encoding='utf-8', newline='') as f:
+    with open("path_patterns/paths_to_validate.csv", "w", encoding='utf-8', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=["Physical Object", "Undesirable Event", "Helper PO/Event", "Valid"])
         writer.writeheader()
         for pathtype, paths in requires_validation.items():
