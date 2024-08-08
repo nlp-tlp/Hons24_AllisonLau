@@ -28,7 +28,7 @@ def get_all_paths(valid=True):
 def get_fewshot_message(base_prompts, instructions):
     """ Get fewshot message given fewshot csv file """
     message = [{"role": "system", "content": "You are a technician recording maintenance work orders."}]
-    with open("fewshot.csv", encoding='utf-8') as f:
+    with open("fewshot_messages/fewshot.csv", encoding='utf-8') as f:
         fewshot_data = csv.reader(f)
         next(fewshot_data) # Ignore header
         for row in fewshot_data:
@@ -43,7 +43,7 @@ def get_fewshot_message(base_prompts, instructions):
                 message.append(assistant)
 
     # Save fewshot message to json file
-    with open("fewshot.json", "w", encoding='utf-8') as f:
+    with open("fewshot_messages/fewshot.json", "w", encoding='utf-8') as f:
         json.dump(message, f, indent=4)
 
     return message
@@ -64,7 +64,7 @@ def generate_mwo(client, base_prompts, instructions, path):
     fewshot = get_fewshot_message(base_prompts, instructions)
 
     # Generate 5 completions (max 5x5 sentences) for each path
-    sentences = [] # Max 25 sentences
+    sentences = [] # Max 25 sentences (avg 10)
     for _ in range(num):
         prompt = get_prompt(base_prompts, instructions, path['object_name'], path['event_name'])
         message = fewshot + [{"role": "user", "content": prompt}]
@@ -81,7 +81,7 @@ def generate_mwo(client, base_prompts, instructions, path):
     print(f"{len(sentences)} unique number of sentences")
 
     # Generate 5 paraphrases (max 5x25=125 sentences) for each sentence
-    paraphrases = [] # Max 125 sentences
+    paraphrases = [] # Max 125 sentences (avg 40)
     for sentence in sentences:
         response_paraphrases = paraphrase_mwo(client, sentence, keywords, num)
         response_similarities = check_similarity(sentence, response_paraphrases)
@@ -119,6 +119,14 @@ if __name__ == "__main__":
     sentences = generate_mwo(client, base_prompts, instructions, path)
 
     # Save sentences to text file
-    with open(f"mwo_sentences/{path['outfile']}.txt", "w", encoding='utf-8') as f:
+    with open("mwo_sentences/path_sentences.txt", "a", encoding='utf-8') as f:
+        f.write("========================================\n")
+        f.write(f"Object: {path['object_name']}\n")
+        f.write(f"Event: {path['event_name']}\n")
+        if 'helper_name' in path:
+            f.write(f"Helper: {path['helper_name']}\n")
+        f.write(f"Number of sentences: {len(sentences)}\n")
+        f.write("----------------------------------------\n")
         for sentence in sentences:
-            f.write(f"{sentence}\n")
+            f.write(f"- {sentence}\n")
+        f.write("========================================\n")

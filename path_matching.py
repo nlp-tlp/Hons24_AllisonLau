@@ -32,7 +32,6 @@ def get_entity_info(record, entity):
 # Function to get relation information
 def get_alternate_paths(query, record, object, connect_objects, event, valid, helper=None):
     """ Extract relation information from record """
-    num_valid = 0
     alternate_paths = []
     
     # If PhysicalObject has connect relations to other PhysicalObjects
@@ -120,7 +119,8 @@ def check_validity(object, event, helper=None):
         return True if common else False
 
 # Function to print count of paths (valid and alternate paths)
-def print_path_counts(paths):
+def print_path_counts(query, paths):
+    """ Print count of paths (valid and alternate paths) """
     num_direct, valid_direct = 0, 0
     num_alternate, valid_alternate = 0, 0
     for path in paths:
@@ -142,7 +142,7 @@ def print_path_counts(paths):
     print(f"{'-' * 30}")
 
 # Function to process query results
-def process_query_results(results, paths, complex=False):
+def process_query_results(query, results, paths, complex=False):
     """ Process query results and extract relevant information """
 
     for record in results:
@@ -160,7 +160,7 @@ def process_query_results(results, paths, complex=False):
             "event_type": event_info["type"],
             "event_name": event_info["name"],
         }
-        
+
         # If complex (there are helper entities that describe Undesirable event)
         if complex:
             helper_info = get_entity_info(record, query["helper"])
@@ -171,15 +171,15 @@ def process_query_results(results, paths, complex=False):
         else:
             # Check if path is confirmed valid (entities come from same entry)
             path["valid"] = check_validity(object_info, event_info)
-            
+
         path['alternate'] = False
-        
+
         # Alternate paths (if PhysicalObject has connect or substitute relations)
         if complex: # Pass helper_info in generating alternate paths if complex
             alternate_paths = get_alternate_paths(query, record, object_info, connect_objects, event_info, path['valid'], helper_info)
         else:       # No helper_info if not complex
             alternate_paths = get_alternate_paths(query, record, object_info, connect_objects, event_info, path['valid'])
-        
+
         # Include paths only if they don't already exist
         potential_paths = [path] + alternate_paths
         for p in potential_paths:
@@ -187,44 +187,57 @@ def process_query_results(results, paths, complex=False):
                 paths.append(p)
 
 # Function to update path json files with human validated unconfirmed paths
-def update_paths_validated():
+def update_paths_validated(filepath="path_patterns/paths_to_validate.csv"):
     """ Go through validated unconfirmed paths and update path json files """
     # Store validated paths in dictionary
-    validated = {}
-    with open("path_patterns/paths_to_validate.csv", "r", encoding="utf-8") as f:
+    yes_paths, no_paths, unsure_paths = {}, [], []
+    num_yes, num_no, num_unsure = 0, 0, 0
+    with open(filepath, "r", encoding="utf-8") as f:
         reader = csv.reader(f)
         next(reader) # Ignore header
         for row in reader:
             if row[0].endswith("PATHS"):
                 pathtype = row[0].lower()
-                validated[pathtype] = []
+                yes_paths[pathtype] = []
             else:
-                if row[3].lower() == 'x':
-                    validated[pathtype].append({
+                if row[3].lower() == 'y':
+                    yes_paths[pathtype].append({
                         "object_name": row[0],
                         "event_name": row[1],
                         "helper_name": row[2],
                         "valid": True
                     })
+                    num_yes += 1
+                elif row[3].lower() == 'n':
+                    no_paths.append([row[0], row[1], row[2]])
+                    num_no += 1
+                elif row[3].lower() == '?':
+                    unsure_paths.append([row[0], row[1], row[2]])
+                    num_unsure += 1
+    print(f"Number of yes paths: {num_yes}")
+    print(f"Number of no paths: {num_no}")
+    print(f"Number of ? paths: {num_unsure}")
+    print(unsure_paths)
+
     # For each path type, open json file and update the fields
-    for pathtype in validated:
-        pathname = f"path_patterns/{pathtype}.json"
-        pathfile = open(pathname, "r", encoding="utf-8")
-        pathdata = json.load(pathfile)
-        pathfile.close()
-        for i, path in enumerate(pathdata):
-            if not path['valid'] and not path['alternate']:
-                for valid_path in validated[pathtype]:
-                    if (path['object_name'] == valid_path['object_name'] and
-                        path['event_name'] == valid_path['event_name'] and
-                        path['helper_name'] == valid_path['helper_name']):
-                        path['valid'] = True
-                        for j in range(i+1, len(pathdata)):
-                            if pathdata[j]['alternate'] == True:
-                                pathdata[j]['valid'] = True
-                            else:
-                                break
-        list_to_json(pathdata, pathname)
+    # for pathtype in yes_paths.items():
+    #     pathname = f"path_patterns/{pathtype}.json"
+    #     pathfile = open(pathname, "r", encoding="utf-8")
+    #     pathdata = json.load(pathfile)
+    #     pathfile.close()
+    #     for i, path in enumerate(pathdata):
+    #         if not path['valid'] and not path['alternate']:
+    #             for valid_path in yes_paths[pathtype]:
+    #                 if (path['object_name'] == valid_path['object_name'] and
+    #                     path['event_name'] == valid_path['event_name'] and
+    #                     path['helper_name'] == valid_path['helper_name']):
+    #                     path['valid'] = True
+    #                     for j in range(i+1, len(pathdata)):
+    #                         if pathdata[j]['alternate'] is True:
+    #                             pathdata[j]['valid'] = True
+    #                         else:
+    #                             break
+    #     list_to_json(pathdata, pathname)
 
 if __name__ == "__main__":
     # # Connect to Neo4j
@@ -238,18 +251,18 @@ if __name__ == "__main__":
     #     for query in direct_queries:
     #         results = session.run(query["query"])
     #         paths = []
-    #         process_query_results(results, paths, complex=False)
-    #         print_path_counts(paths)
+    #         process_query_results(query, results, paths, complex=False)
+    #         print_path_counts(query, paths)
     #         list_to_json(paths, f"{OUTPATH}{query['outfile']}.json")
 
     #     for query in complex_queries:
     #         results = session.run(query["query"])
     #         paths = []
-    #         process_query_results(results, paths, complex=True)
-    #         print_path_counts(paths)
+    #         process_query_results(query, results, paths, complex=True)
+    #         print_path_counts(query, paths)
     #         list_to_json(paths, f"{OUTPATH}{query['outfile']}.json")
 
     # DRIVER.close()
     
-    update_paths_validated()
+    update_paths_validated(filepath='path_patterns/paths_to_validate_mh.csv')
               
