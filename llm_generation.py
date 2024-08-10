@@ -66,7 +66,6 @@ def generate_mwo(client, base_prompts, instructions, path):
     # Generate 5 completions (max 5x5 sentences) for each path
     sentences = [] # Max 25 sentences (avg 10)
     for _ in range(num):
-        prompt = get_prompt(base_prompts, instructions, path['object_name'], path['event_name'])
         message = fewshot + [{"role": "user", "content": prompt}]
         response = client.chat.completions.create(
                         model="gpt-4o-mini",
