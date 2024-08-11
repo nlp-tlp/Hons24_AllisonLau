@@ -172,10 +172,10 @@ def replace_homophone(word):
     return word # No homophones found
 
 # Introduce different typos in a sentence (default probability=0.1)
-def introduce_typos(sentence, chance=0.15, max_typos=3):
+def introduce_typos(sentence, chance=0.1, max_typos=3):
     """ Introduce typos in a sentence with a given probability. """
     typo_funcs = [add_space, swap_adjacent, omit_letter, double_letter, adjacent_key, adjacent_add, replace_homophone]
-    typo_probs = [10, 16, 16, 15, 14, 15, 14]  # Probabilities for each typo function
+    typo_probs = [10, 16, 16, 16, 13, 16, 13]  # Probabilities for each typo function
 
     if random.random() < chance:
         sentence = omit_space(sentence)

@@ -1,0 +1,126 @@
+[
+    {
+        "role": "system",
+        "content": "You are a maintenance work order sentence paraphraser."
+    },
+    {
+        "role": "user",
+        "content": "Paraphrase the following sentence 5 times.\nsteering cylinder bearings have excess play\nMust include the following keywords: steering cylinder bearings, excess play\nYou may change the sentence from passive to active voice or vice versa.\nThe sentence can have a maximum of 8 words."
+    },
+    {
+        "role": "assistant",
+        "content": "1. steering cylinder bearings exhibit excess play\n2. steering cylinder bearings are showing excess play\n3. excess play in steering cylinder bearings\n4. bearings in steering cylinder have excess play\n5. steering cylinder bearings show excess play"
+    },
+    {
+        "role": "user",
+        "content": "Paraphrase the following sentence 5 times.\nblade skin cracked\nMust include the following keywords: blade skin, cracked\nYou may change the sentence from passive to active voice or vice versa.\nThe sentence can have a maximum of 8 words."
+    },
+    {
+        "role": "assistant",
+        "content": "1. blade skin is cracked\n2. crack in blade skin\n3. blade skin shows signs of cracking\n4. cracks have appeared in the blade skin\n5. cracked blade skin"
+    },
+    {
+        "role": "user",
+        "content": "Paraphrase the following sentence 5 times.\ncabin jacking cylinder ends unserviceable\nMust include the following keywords: jacking cylinder ends, unserviceable\nYou may change the sentence from passive to active voice or vice versa.\nThe sentence can have a maximum of 8 words."
+    },
+    {
+        "role": "assistant",
+        "content": "1. jacking cylinder ends are unserviceable\n2. ends of jacking cylinder are unservicerable\n3. unserviceable jacking cylinder ends\n4. found unserviceable jacking cylinder ends\n5. jacking cylinder ends found unserviceable"
+    },
+    {
+        "role": "user",
+        "content": "Paraphrase the following sentence 5 times.\ncrack in blade liner left hand side\nMust include the following keywords: blade liner, crack\nYou may change the sentence from passive to active voice or vice versa.\nThe sentence can have a maximum of 8 words."
+    },
+    {
+        "role": "assistant",
+        "content": "1. blade liner crack on left hand side\n2. blade liner has a crack on left side\n3. crack found in blade liner\n4. blade liner has a crack\n5. left hand side of blade liner cracked"
+    },
+    {
+        "role": "user",
+        "content": "Paraphrase the following sentence 5 times.\npark brake indicator light going on and off\nMust include the following keywords: park brake indicator light, going on and off\nYou may change the sentence from passive to active voice or vice versa.\nThe sentence can have a maximum of 8 words."
+    },
+    {
+        "role": "assistant",
+        "content": "1. park brake indicator light keeps going on and off\n2. park brake indicator light intermittently goes on and off\n3. indicator light for park brake going on and off\n4. indicator light for park brake keeps going on and off\n5. park brake indicator light goes on and off"
+    },
+    {
+        "role": "user",
+        "content": "Paraphrase the following sentence 5 times.\nair horn stuck on\nMust include the following keywords: air horn, stuck on\nYou may change the sentence from passive to active voice or vice versa.\nThe sentence can have a maximum of 8 words."
+    },
+    {
+        "role": "assistant",
+        "content": "1. the air horn is stuck on\n2. air horn remains stuck on\n3. air horn is continuously stuck on\n4. air horn stuck on position\n5. air horn only stuck on"
+    },
+    {
+        "role": "user",
+        "content": "Paraphrase the following sentence 5 times.\ncracks in fire suppression mounts\nMust include the following keywords: fire suppression mounts, cracks\nYou may change the sentence from passive to active voice or vice versa.\nThe sentence can have a maximum of 8 words."
+    },
+    {
+        "role": "assistant",
+        "content": "1. fire supression mounts have visible cracks\n2. fire supression mounts is cracking\n3. cracks in fire supression mounts\n4. cracks found on fire supression mounts\n5. cracking in fire supression mounts"
+    },
+    {
+        "role": "user",
+        "content": "Paraphrase the following sentence 5 times.\ncabin window needs resealing\nMust include the following keywords: cabin window, needs, resealing\nYou may change the sentence from passive to active voice or vice versa.\nThe sentence can have a maximum of 8 words."
+    },
+    {
+        "role": "assistant",
+        "content": "1. cabin window needs to be resealed\n2. resealing required for cabin window\n3. reseal cabin window\n4. cabin window requires resealing\n5. cabin window to be resealed"
+    },
+    {
+        "role": "user",
+        "content": "Paraphrase the following sentence 5 times.\nfire extinguisher out of date\nMust include the following keywords: fire extinguisher, out of date\nYou may change the sentence from passive to active voice or vice versa.\nThe sentence can have a maximum of 8 words."
+    },
+    {
+        "role": "assistant",
+        "content": "1. fire extinguisher is out of date\n2. fire extinguisher expired\n3. fire extinguisher past expiry date\n4. outdated fire extinguisher\n5. out of date fire extinguisher"
+    },
+    {
+        "role": "user",
+        "content": "Paraphrase the following sentence 5 times.\nair horn working intermittently\nMust include the following keywords: air horn, working intermittently\nYou may change the sentence from passive to active voice or vice versa.\nThe sentence can have a maximum of 8 words."
+    },
+    {
+        "role": "assistant",
+        "content": "1. air horn is working intermittently\n2. air horn intermittently working\n3. air horn operating intermittently\n4. air horn working in intermittent manner\n5. air horn only working intermittently"
+    },
+    {
+        "role": "user",
+        "content": "Paraphrase the following sentence 5 times.\nchange out leaking hydraulic hose\nMust include the following keywords: hydraulic hose, leaking\nYou may change the sentence from passive to active voice or vice versa.\nThe sentence can have a maximum of 8 words."
+    },
+    {
+        "role": "assistant",
+        "content": "1. hydraulic hose is leaking\n2. hydraulic hose has a leak\n3. leaking hydraulic hose\n4. replace the leacking hydraulic hose\n5. leaking hydraulic hose needs to be changed out"
+    },
+    {
+        "role": "user",
+        "content": "Paraphrase the following sentence 5 times.\nglass window has large crack\nMust include the following keywords: glass window, crack\nYou may change the sentence from passive to active voice or vice versa.\nThe sentence can have a maximum of 8 words."
+    },
+    {
+        "role": "assistant",
+        "content": "1. glass window is cracked\n2. crack in glass window\n3. crack found in glass window\n4. cracked glass window\n5. large crack in glass window"
+    },
+    {
+        "role": "user",
+        "content": "Paraphrase the following sentence 5 times.\nchange out leaking relay valve\nMust include the following keywords: relay valve, leaking\nYou may change the sentence from passive to active voice or vice versa.\nThe sentence can have a maximum of 8 words."
+    },
+    {
+        "role": "assistant",
+        "content": "1. relay valve is leaking\n2. relay valve has a leak\n3. leaking relay valve\n4. replace leaking relay valve\n5. leaking relay valve needs change out"
+    },
+    {
+        "role": "user",
+        "content": "Paraphrase the following sentence 5 times.\ncrack onside rock deflector\nMust include the following keywords: rock deflector, crack\nYou may change the sentence from passive to active voice or vice versa.\nThe sentence can have a maximum of 8 words."
+    },
+    {
+        "role": "assistant",
+        "content": "1. rock deflector has a crack\n2. rock deflector is cracked\n3. crack found in rock deflector\n4. rock deflector crack on the side\n5. cracking rock deflector"
+    },
+    {
+        "role": "user",
+        "content": "Paraphrase the following sentence 5 times.\nbeacon mount is broken\nMust include the following keywords: beacon mount, broken\nYou may change the sentence from passive to active voice or vice versa.\nThe sentence can have a maximum of 8 words."
+    },
+    {
+        "role": "assistant",
+        "content": "1. beacon mount has broken\n2. broken beacon mount\n3. beacon mount in broken state\n4. beacon mount found broken\n5. replace broken beacon mount"
+    }
+]
