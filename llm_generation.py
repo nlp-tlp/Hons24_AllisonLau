@@ -6,7 +6,7 @@ import random
 from openai import OpenAI
 from dotenv import load_dotenv
 from path_queries import direct_queries, complex_queries
-from llm_paraphrase import initialise_prompts, get_prompt, process_mwo_response, paraphrase_mwo, check_similarity
+from llm_paraphrase import initialise_prompts, get_generate_prompt, process_mwo_response, paraphrase_mwo, check_similarity
 
 # Read all the paths extracted from MaintIE KG
 def get_all_paths(valid=True):
@@ -25,7 +25,7 @@ def get_all_paths(valid=True):
 
 # Get fewshot message given fewshot csv file
 # Header: object_name, event_name, helper_name, example0, example1, example2, example3, example4, example5
-def get_fewshot_message(base_prompts, instructions):
+def get_generate_fewshot(base_prompts, instructions):
     """ Get fewshot message given fewshot csv file """
     message = [{"role": "system", "content": "You are a technician recording maintenance work orders."}]
     with open("fewshot_messages/fewshot.csv", encoding='utf-8') as f:
@@ -34,16 +34,16 @@ def get_fewshot_message(base_prompts, instructions):
         for row in fewshot_data:
             if len(row) > 4:
                 if row[2] == "": # No helper
-                    user = {"role": "user", "content": get_prompt(base_prompts, instructions, row[0], row[1])}
+                    user = {"role": "user", "content": get_generate_prompt(base_prompts, instructions, row[0], row[1])}
                 else:
-                    user = {"role": "user", "content": get_prompt(base_prompts, instructions, row[0], row[1], row[2])}
+                    user = {"role": "user", "content": get_generate_prompt(base_prompts, instructions, row[0], row[1], row[2])}
                 example = f"1. {row[3]}\n2. {row[4]}\n3. {row[5]}\n4. {row[6]}\n5. {row[7]}"
                 assistant = {"role": "assistant", "content": example}
                 message.append(user)
                 message.append(assistant)
 
     # Save fewshot message to json file
-    with open("fewshot_messages/fewshot.json", "w", encoding='utf-8') as f:
+    with open("fewshot_messages/fewshot_generate.json", "w", encoding='utf-8') as f:
         json.dump(message, f, indent=4)
 
     return message
@@ -54,14 +54,14 @@ def generate_mwo(client, base_prompts, instructions, path):
     num = 5
     # Get prompt for current path's PhysicalObject and UndesirableEvent
     if 'helper_name' in path:
-        prompt = get_prompt(base_prompts, instructions, path['object_name'], path['event_name'], path['helper_name'])
+        prompt = get_generate_prompt(base_prompts, instructions, path['object_name'], path['event_name'], path['helper_name'])
         keywords = [path['object_name'], path['event_name'], path['helper_name']]
     else:
-        prompt = get_prompt(base_prompts, instructions, path['object_name'], path['event_name'])
+        prompt = get_generate_prompt(base_prompts, instructions, path['object_name'], path['event_name'])
         keywords = [path['object_name'], path['event_name']]
 
     # Get fewshot message
-    fewshot = get_fewshot_message(base_prompts, instructions)
+    fewshot = get_generate_fewshot(base_prompts, instructions)
 
     # Generate 5 completions (max 5x5 sentences) for each path
     sentences = [] # Max 25 sentences (avg 10)

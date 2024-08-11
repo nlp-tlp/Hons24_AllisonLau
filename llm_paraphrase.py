@@ -1,5 +1,7 @@
 import os
 import re
+import csv
+import json
 import random
 from openai import OpenAI
 from dotenv import load_dotenv
@@ -22,7 +24,6 @@ def process_mwo_response(response):
     sentences = response.split('\n')
     for sentence in sentences:
         processed = re.sub(r'^\d+\.\s*', '', sentence) # Remove numbering
-        processed = re.sub(r'[^\w\s]', ' ', processed) # Remove punctuation
         processed = re.sub(r'\s+', ' ', processed)     # Remove extra spaces
         processed = processed.lower().strip()          # Case folding and strip
         output.append(processed)
@@ -104,7 +105,7 @@ def initialise_prompts(openai, num_variants, num_examples):
     return base_prompts, instructions
 
 # Craft and return prompt for generating MWO sentences
-def get_prompt(base_prompts, instructions, object, event, helper=None):
+def get_generate_prompt(base_prompts, instructions, object, event, helper=None):
     """ Craft and return prompt for generating MWO sentences.
         Prompt: Generate 5 different Maintenance Work Order (MWO) sentence describing the
                 following equipment and undesirable event in natural language. 
@@ -123,22 +124,48 @@ def get_prompt(base_prompts, instructions, object, event, helper=None):
         prompt = f"{base}\nEquipment: {object}\nUndesirable Event: {event}\n{instruction}"
     return prompt
 
+# Craft and return prompt for paraphrasing MWO sentences
+def get_paraphrase_prompt(sentence, keywords, num_paraphrases=5):
+    """ Craft and return prompt for paraphrasing MWO sentences. """
+    prompt = f"Paraphrase the following sentence {num_paraphrases} times.\n{sentence}\n"
+    string_keywords = ", ".join(keywords)
+    prompt += "Must include the following keywords: " + string_keywords
+    prompt += "\nYou may change the sentence from passive to active voice or vice versa."
+    prompt += "\nThe sentence can have a maximum of 8 words."
+    return prompt    
+
+def get_paraphrase_fewshot():
+    message = [{"role": "system", "content": "You are a maintenance work order sentence paraphraser."}]
+    with open("fewshot_messages/fewshot.csv", encoding='utf-8') as f:
+        fewshot_data = csv.reader(f)
+        next(fewshot_data) # Ignore header
+        for row in fewshot_data:
+            if len(row) > 4:
+                if row[2] == "": # No helper
+                    keywords = [row[0], row[1]]
+                else:
+                    keywords = [row[0], row[1], row[2]]
+                user = {"role": "user", "content": get_paraphrase_prompt(row[3], keywords)}
+                example = f"1. {row[4]}\n2. {row[5]}\n3. {row[6]}\n4. {row[7]}\n5. {row[8]}"
+                assistant = {"role": "assistant", "content": example}
+                message.append(user)
+                message.append(assistant)
+    
+    # Save fewshot message to json file
+    with open("fewshot_messages/fewshot_paraphrase.json", "w", encoding='utf-8') as f:
+        json.dump(message, f, indent=4)
+
+    return message
+
 # Get LLM to paraphrase MWO sentences with PhysicalObject and UndesirableEvent
 def paraphrase_mwo(openai, sentence, keywords=None, num_paraphrases=5):
     """ GPT paraphrases MWO sentences. """
     # Paraphrase the MWO sentence num_paraphrases times
-    paraphrase_prompt = f"Paraphrase the following sentence {num_paraphrases} times.\n{sentence}\n"
-    if keywords:
-        string_keywords = ", ".join(keywords)
-        paraphrase_prompt += "Must include the following keywords: " + string_keywords
-    paraphrase_prompt += "\nYou may change the sentence from passive to active voice or vice versa."
-    paraphrase_prompt += "\nThe sentence can have a maximum of 8 words."
+    prompt = get_paraphrase_prompt(sentence, keywords, num_paraphrases)
+    message = get_paraphrase_fewshot() + [{"role": "user", "content": prompt}]
     response = openai.chat.completions.create(
                     model="gpt-4o-mini",
-                    messages=[
-                            {"role": "system", "content": "You are a sentence paraphraser."},
-                            {"role": "user", "content": paraphrase_prompt},
-                        ],
+                    messages=message,
                     top_p=0.9,
                     temperature=0.9,
                     n=1
