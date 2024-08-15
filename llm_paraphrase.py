@@ -84,44 +84,59 @@ def initialise_prompts(openai, num_variants, num_examples):
                 base_prompts.append(prompt)
         base_prompts = list(set(base_prompts)) # Remove duplicates
 
-    # Word-limit instruction for generating MWO sentences
-    instructions = []
-    while len(instructions) < num_variants:
+    # Word verbose-limit instruction for generating MWO sentences
+    limit_words = []
+    while len(limit_words) < num_variants:
+        instruction = "Avoid verbosity and use minimal stop words."
+        keywords = ["verbosity", "stop words"]
+        limit_words = paraphrase_prompt(openai, instruction, keywords, num_variants)
+        similarity = check_similarity(instruction, limit_words)
+        for prompt, sim in zip(limit_words, similarity):
+            if sim > 0.9:
+                limit_words.append(prompt)
+        limit_words = list(set(limit_words)) # Remove duplicates
+
+    # Word count-limit instruction for generating MWO sentences
+    limit_count = []
+    while len(limit_count) < num_variants:
         if num_examples == 1:
             instruction = "The sentence can have a maximum of 8 words."
         elif num_examples == 5:
             instruction = "Each sentence can have a maximum of 8 words."
         keywords = ["sentence", "8"]
-        instructions = paraphrase_prompt(openai, instruction, keywords, num_variants)
-        similarity = check_similarity(instruction, instructions)
-        for prompt, sim in zip(instructions, similarity):
+        limit_count = paraphrase_prompt(openai, instruction, keywords, num_variants)
+        similarity = check_similarity(instruction, limit_count)
+        for prompt, sim in zip(limit_count, similarity):
             if sim > 0.9:
-                instructions.append(prompt)
-        instructions = list(set(instructions)) # Remove duplicates
+                limit_count.append(prompt)
+        limit_count = list(set(limit_count)) # Remove duplicates
 
     # Make sure list has correct number of variants
     base_prompts = base_prompts[:num_variants]
-    instructions = instructions[:num_variants]
-    return base_prompts, instructions
+    limit_words = limit_words[:num_variants]
+    limit_count = limit_count[:num_variants]
+    return base_prompts, limit_words, limit_count
 
 # Craft and return prompt for generating MWO sentences
-def get_generate_prompt(base_prompts, instructions, object, event, helper=None):
+def get_generate_prompt(base_prompts, limit_words, limit_count, object, event, helper=None):
     """ Craft and return prompt for generating MWO sentences.
         Prompt: Generate 5 different Maintenance Work Order (MWO) sentence describing the
                 following equipment and undesirable event in natural language. 
                 Equipment: {object}
                 Undesirable Event: {event}
                 Helper Event: {helper}
+                Avoid verbosity and use minimal stop words.
                 Each sentence can have a maximum of 8 words.
     """
     # Randomly select base prompt and instruction prompt
     base = random.choice(base_prompts)
-    instruction = random.choice(instructions)
+    words = random.choice(limit_words)
+    count = random.choice(limit_count)
 
     if helper:
-        prompt = f"{base}\nEquipment: {object}\nUndesirable Event: {event}\nHelper Event: {helper}\n{instruction}"
+        prompt = f"{base}\nEquipment: {object}\nUndesirable Event: {event}\nHelper Event: {helper}\n{words}\n{count}"
     else:
-        prompt = f"{base}\nEquipment: {object}\nUndesirable Event: {event}\n{instruction}"
+        prompt = f"{base}\nEquipment: {object}\nUndesirable Event: {event}\n{words}\n{count}"
     return prompt
 
 # Craft and return prompt for paraphrasing MWO sentences
@@ -131,6 +146,7 @@ def get_paraphrase_prompt(sentence, keywords, num_paraphrases=5):
     string_keywords = ", ".join(keywords)
     prompt += "Must include the following keywords: " + string_keywords
     prompt += "\nYou may change the sentence from passive to active voice or vice versa."
+    prompt += "\nAvoid verbosity and use minimal stop words."
     prompt += "\nThe sentence can have a maximum of 8 words."
     return prompt    
 
