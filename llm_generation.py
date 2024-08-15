@@ -25,7 +25,7 @@ def get_all_paths(valid=True):
 
 # Get fewshot message given fewshot csv file
 # Header: object_name, event_name, helper_name, example0, example1, example2, example3, example4, example5
-def get_generate_fewshot(base_prompts, instructions):
+def get_generate_fewshot(base_prompts, limit_words, limit_count):
     """ Get fewshot message given fewshot csv file """
     message = [{"role": "system", "content": "You are a technician recording maintenance work orders."}]
     with open("fewshot_messages/fewshot.csv", encoding='utf-8') as f:
@@ -34,9 +34,9 @@ def get_generate_fewshot(base_prompts, instructions):
         for row in fewshot_data:
             if len(row) > 4:
                 if row[2] == "": # No helper
-                    user = {"role": "user", "content": get_generate_prompt(base_prompts, instructions, row[0], row[1])}
+                    user = {"role": "user", "content": get_generate_prompt(base_prompts, limit_words, limit_count, row[0], row[1])}
                 else:
-                    user = {"role": "user", "content": get_generate_prompt(base_prompts, instructions, row[0], row[1], row[2])}
+                    user = {"role": "user", "content": get_generate_prompt(base_prompts, limit_words, limit_count, row[0], row[1], row[2])}
                 example = f"1. {row[3]}\n2. {row[4]}\n3. {row[5]}\n4. {row[6]}\n5. {row[7]}"
                 assistant = {"role": "assistant", "content": example}
                 message.append(user)
@@ -48,20 +48,28 @@ def get_generate_fewshot(base_prompts, instructions):
 
     return message
 
+# Remove sentences that do not have the object and event terms
+def filter_sentences(sentences, keywords):
+    """ Remove sentences that do not have the object and event terms """
+    for sentence in sentences:
+        if not all(word in sentence for word in keywords):
+            sentences.remove(sentence)
+    return sentences
+
 # Overall generation process
-def generate_mwo(client, base_prompts, instructions, path):
+def generate_mwo(client, base_prompts, limit_words, limit_count, path):
     """ Generate MWO sentences for each path """
     num = 5
     # Get prompt for current path's PhysicalObject and UndesirableEvent
     if 'helper_name' in path:
-        prompt = get_generate_prompt(base_prompts, instructions, path['object_name'], path['event_name'], path['helper_name'])
+        prompt = get_generate_prompt(base_prompts, limit_words, limit_count, path['object_name'], path['event_name'], path['helper_name'])
         keywords = [path['object_name'], path['event_name'], path['helper_name']]
     else:
-        prompt = get_generate_prompt(base_prompts, instructions, path['object_name'], path['event_name'])
+        prompt = get_generate_prompt(base_prompts, limit_words, limit_count, path['object_name'], path['event_name'])
         keywords = [path['object_name'], path['event_name']]
 
     # Get fewshot message
-    fewshot = get_generate_fewshot(base_prompts, instructions)
+    fewshot = get_generate_fewshot(base_prompts, limit_words, limit_count)
 
     # Generate 5 completions (max 5x5 sentences) for each path
     sentences = [] # Max 25 sentences (avg 10)
@@ -77,10 +85,11 @@ def generate_mwo(client, base_prompts, instructions, path):
         response_sentences = process_mwo_response(response.choices[0].message.content)
         sentences.extend(response_sentences)
     sentences = list(set(sentences)) # Remove duplicates
+    # sentences = filter_sentences(sentences, keywords)
     print(f"{len(sentences)} unique number of sentences")
 
     # Generate 5 paraphrases (max 5x25=125 sentences) for each sentence
-    paraphrases = [] # Max 125 sentences (avg 40)
+    paraphrases = [] # Max 125 sentences (avg 20)
     for sentence in sentences:
         response_paraphrases = paraphrase_mwo(client, sentence, keywords, num)
         response_similarities = check_similarity(sentence, response_paraphrases)
@@ -88,6 +97,7 @@ def generate_mwo(client, base_prompts, instructions, path):
             if sim > 0.9:
                 paraphrases.append(para)
     paraphrases = list(set(paraphrases)) # Remove duplicates
+    # paraphrases = filter_sentences(paraphrases, keywords)
     print(f"{len(paraphrases)} unique number of paraphrases")
 
     # Add paraphrases to sentences
@@ -108,14 +118,14 @@ if __name__ == "__main__":
     data = get_all_paths(valid=True)
 
     # Initialise base prompts and instructions
-    base_prompts, instructions = initialise_prompts(client, num_variants=5, num_examples=5)
+    base_prompts, limit_words, limit_count = initialise_prompts(client, num_variants=5, num_examples=5)
 
     # Select random path
     random.seed(42)
     path = random.choice(data)
 
     # Generate MWO sentences for the selected path
-    sentences = generate_mwo(client, base_prompts, instructions, path)
+    sentences = generate_mwo(client, base_prompts, limit_words, limit_count, path)
 
     # Save sentences to text file
     with open("mwo_sentences/path_sentences.txt", "a", encoding='utf-8') as f:

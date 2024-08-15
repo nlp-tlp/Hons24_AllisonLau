@@ -1,824 +1,484 @@
 ========================================
-Output for same prompt
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
+OUTPUT FOR SAME PROMPT
+- Number of unique: 2
 park brake has alarm fault
 park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
+========================================
+========================================
+OUTPUT FOR VARIANT PROMPTS
+- Number of unique: 7
+park brake alarm fault needs repair
 park brake shows alarm fault
+park brake has alarm fault needing repair
 park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault detected
-========================================
-========================================
-Output for variant prompts
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault needs troubleshooting
+park brake alarm fault requires attention
 park brake alarm fault needs attention
-park brake shows alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake shows alarm fault
-park brake alarm fault detected
 park brake has alarm fault
-park brake shows alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake has alarm fault
-park brake shows alarm fault
-park brake has alarm fault
-park brake has alarm fault
-park brake has alarm fault
-park brake shows alarm fault
-park brake has alarm fault
-park brake has alarm fault
-park brake has alarm fault
-park brake has alarm fault
-park brake has alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake shows alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault needs attention
-park brake shows alarm fault
-park brake has alarm fault
-park brake alarm fault detected
-park brake has alarm fault
-park brake has alarm fault
-park brake has alarm fault
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake has alarm fault
-park brake has alarm fault
-park brake shows alarm fault
-park brake has alarm fault
-park brake has alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake shows alarm fault
-park brake has alarm fault
-park brake alarm fault detected
-park brake has alarm fault
-park brake has alarm fault
-park brake shows alarm fault
-park brake alarm fault detected
-park brake shows alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
+========================================
+========================================
+OUTPUT FOR SAME PROMPT
+- Number of unique: 2
 park brake has alarm fault
 park brake alarm fault detected
 ========================================
 ========================================
-Output in N completions
-park brake alarm fault detected
-park brake alarm fault detected
+OUTPUT FOR VARIANT PROMPTS
+- Number of unique: 7
+park brake alarm fault needs repair
 park brake shows alarm fault
-park brake shows alarm fault
-park brake shows alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake has alarm fault
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake shows alarm fault
-park brake shows alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake shows alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake shows alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-========================================
-========================================
-Output in 1 completion
-park brake alarm fault detected
-park brake has alarm fault
-alarm fault on park brake
-park brake showing alarm fault
-park brake alarm is faulty
-park brake alarm fault detected
-alarm fault in park brake system
-park brake shows alarm fault
-park brake alarm is faulty
-park brake has an alarm fault
-park brake alarm fault detected
-park brake shows alarm fault
-alarm fault in park brake system
-park brake is experiencing alarm fault
-park brake indicates alarm fault issue
-park brake alarm fault detected
-alarm fault in park brake
-park brake shows alarm fault
-park brake is experiencing alarm fault
 park brake alarm fault needs investigation
 park brake alarm fault detected
-alarm fault in park brake system
-park brake shows alarm fault
-park brake has an alarm fault
-alarm fault present in park brake
-park brake shows alarm fault
-alarm fault in park brake system
-park brake alarm is faulty
-park brake indicates alarm fault
-alarm fault detected in park brake
-park brake alarm fault detected
+park brake alarm fault needs attention
 park brake has alarm fault
-alarm fault in park brake system
-park brake system shows alarm fault
-park brake indicator shows alarm fault
-park brake alarm fault detected
-alarm fault in park brake system
-park brake shows alarm fault
-park brake has an alarm fault
-alarm fault occurring in park brake
-park brake alarm fault detected
-park brake shows alarm fault
-alarm fault in park brake system
-park brake experiencing alarm fault
-park brake indicates alarm fault
-park brake alarm fault detected
-park brake shows alarm fault
-alarm fault in park brake system
-park brake experiencing alarm fault
-alarm fault reported for park brake
-park brake alarm fault detected
-park brake has alarm fault
-alarm fault in park brake system
-park brake system shows alarm fault
-park brake indicator shows alarm fault
-park brake alarm fault detected
-park brake shows alarm fault
-alarm fault in park brake system
-park brake has an alarm fault
-park brake system indicates alarm fault
-park brake alarm fault detected
-alarm fault in park brake system
-park brake shows alarm fault
-park brake experiencing alarm fault
-park brake has an alarm fault
-park brake alarm fault detected
-alarm fault in park brake system
-park brake has alarm fault
-park brake system shows alarm fault
-park brake alarm is faulty
-park brake alarm fault detected
-park brake shows alarm fault
-alarm fault in park brake system
-park brake alarm malfunctioning
-park brake indicates alarm fault
-park brake alarm fault detected
-alarm fault in park brake system
-park brake system shows alarm fault
-park brake has an alarm fault
-alarm fault reported for park brake
-park brake alarm fault detected
-park brake has alarm fault
-alarm fault on park brake
-park brake system shows alarm fault
-park brake indicating alarm fault
-park brake alarm fault detected
-alarm fault in park brake system
-park brake shows alarm fault
-park brake has an alarm fault
-alarm fault reported for park brake
-park brake alarm fault detected
-alarm fault in park brake system
-park brake shows alarm fault
-park brake has an alarm fault
-park brake system alarm fault present
-park brake alarm fault detected
-alarm fault in park brake system
-park brake system has alarm fault
-park brake shows alarm fault
-park brake alarm is faulty
+park brake alarm fault occurred
 ========================================
 ========================================
-Output for Paraphrasing
-alarm fault found in the park brake system
-the park brake has an alarm fault detected
-park brake system shows an alarm fault issue
-park brake alarm fault detected
-an alarm fault has been identified in the park brake
-alarm fault for the park brake has been found
-a fault has been detected in the park brake alarm
-park brake alarm fault detected
-park brake alarm fault has been identified
-detecting an alarm fault in the park brake
-alarm fault detected in the park brake system
-the park brake has an alarm fault issue
-an alarm fault is identified in the park brake
-park brake alarm fault detected
-park brake system shows an alarm fault detected
-detected an alarm fault in the park brake
-there is a fault in the park brake alarm
-the park brake system has an alarm fault
-park brake alarm fault detected
-a fault in the park brake alarm was detected
-there is a fault in the park brake alarm
-park brake system shows an alarm fault
-an alarm fault has occurred in the park brake
-detected alarm fault in the park brake system
-park brake alarm fault detected
-park brake shows an alarm fault detected
-the park brake has a detected alarm fault
-alarm fault detected for the park brake
-park brake alarm fault detected
-detected alarm fault in the park brake
-the park brake is signaling an alarm fault
-alarm fault detected for the park brake
-detected alarm fault in the park brake system
-park brake alarm fault detected
-park brake shows an alarm fault
-park brake reveals an alarm fault issue
-park brake system shows an alarm fault
-park brake alarm fault detected
-alarm fault identified for the park brake
-detecting an alarm fault in the park brake
-alarm fault found in the park brake system
-park brake system shows alarm fault detected
-park brake alarm fault detected
-park brake alarm fault has been identified
-detected alarm fault in park brake mechanism
-the park brake shows an alarm fault issue
-alarm fault found in the park brake system
-a fault in the park brake alarm has been detected
-there is an alarm fault with the park brake
-park brake alarm fault detected
-alarm fault identified in the park brake
-park brake system shows an alarm fault
-the park brake has a detected alarm fault
-detected alarm fault in the park brake system
-park brake alarm fault detected
-the alarm fault indicates a park brake issue
+OUTPUT FOR SAME PROMPT
+- Number of unique: 2
 park brake has alarm fault
-there is an alarm fault with the park brake
-park brake shows an alarm fault condition
-the park brake system has an alarm fault
-park brake alarm has a fault detected
-alarm fault identified in the park brake
-there is an alarm fault with the park brake
-park brake alarm fault detected
-detected a fault in the park brake alarm
-the alarm fault indicates a park brake issue
-alarm fault detected in the park brake system
-the park brake shows an alarm fault
-park brake has alarm fault
-a fault in the alarm affects the park brake
-the park brake shows an alarm fault
-there is a detected alarm fault in the park brake
-alarm fault detected for the park brake
-park brake alarm fault has been identified
-park brake alarm fault detected
-alarm fault identified in the park brake
-alarm fault detected in the park brake system
-there is a detected alarm fault in the park brake
-park brake system shows an alarm fault
-the park brake has an alarm fault detected
-detecting alarm fault in the park brake
-alarm fault detected in the park brake system
-a fault in the park brake alarm has been found
-park brake alarm fault detected
-park brake alarm fault has been identified
-alarm fault identified in the park brake
-park brake shows an alarm fault detected
-the park brake has an alarm fault issue
-detected alarm fault in the park brake system
-park brake alarm fault detected
-detected an alarm fault in the park brake
-the park brake shows an alarm fault
-park brake alarm fault detected
-park brake system detected an alarm fault
-alarm fault for park brake identified
-detected an alarm fault in the park brake
-the park brake shows an alarm fault issue
-park brake system has an alarm fault
-an alarm fault was identified in the park brake
 park brake alarm fault detected
 ========================================
 ========================================
-Output for Generation
-park brake alarm fault detected
+OUTPUT FOR VARIANT PROMPTS
+- Number of unique: 7
+park brake alarm fault needs repair
 park brake shows alarm fault
-alarm fault present in park brake
-park brake has an alarm fault
+park brake alarm fault present
+park brake alarm fault detected
 park brake alarm fault requires attention
-park brake alarm fault detected
-alarm fault in park brake system
-park brake shows alarm fault
-park brake alarm is faulty
-park brake system alarm fault present
-park brake alarm fault detected
-alarm fault in park brake system
-park brake system has alarm fault
-park brake alarm is faulty
-park brake indicates alarm fault
-park brake alarm fault detected
-park brake shows alarm fault
-alarm fault in park brake system
-park brake is indicating alarm fault
-park brake alarm malfunctioning
-park brake alarm fault detected
-alarm fault in park brake system
-park brake shows alarm fault
-park brake alarm is faulty
+park brake alarm fault needs attention
+park brake has alarm fault
+========================================
+========================================
+OUTPUT FOR SAME PROMPT
+- Number of unique: 2
 park brake has alarm fault
 park brake alarm fault detected
-alarm fault in park brake system
-park brake system shows alarm fault
-park brake is indicating alarm fault
-alarm fault occurring in park brake
+========================================
+========================================
+OUTPUT FOR VARIANT PROMPTS
+- Number of unique: 8
+park brake alarm fault needs repair
+park brake shows alarm fault
+park brake alarm fault present
 park brake alarm fault detected
+park brake alarm fault requires attention
+park brake alarm fault needs attention
+park brake has alarm fault
+park brake alarm fault occurred
+========================================
+========================================
+OUTPUT FOR SAME PROMPT
+- Number of unique: 2
+park brake has alarm fault
+park brake alarm fault detected
+========================================
+========================================
+OUTPUT FOR VARIANT PROMPTS
+- Number of unique: 9
+park brake alarm fault needs repair
+park brake shows alarm fault
+park brake alarm fault needs investigation
+park brake alarm fault present
+park brake alarm fault detected
+park brake alarm fault requires attention
+park brake alarm fault needs attention
+park brake has alarm fault
+park brake alarm fault occurred
+========================================
+========================================
+OUTPUT IN N COMPLETIONS
+- Number of unique: 2
+park brake has alarm fault
+park brake alarm fault detected
+========================================
+========================================
+OUTPUT IN 1 COMPLETION
+- Number of unique: 18
+park brake indicating alarm fault
 alarm fault in park brake
-park brake has alarm fault
-park brake alarm is faulty
-park brake alarm showing fault
-park brake alarm fault detected
-park brake has alarm fault
-alarm fault in park brake system
-park brake system shows alarm fault
-park brake indicates alarm fault
-park brake alarm fault detected
-park brake has alarm fault
-alarm fault in park brake system
-park brake system shows alarm fault
-park brake alarm is faulty
-park brake alarm fault detected
-alarm fault in park brake system
-park brake system shows alarm fault
-park brake has an alarm fault
-alarm fault reported for park brake
-park brake alarm fault detected
-alarm fault in park brake
-park brake shows alarm fault
 park brake experiencing alarm fault
-alarm fault reported for park brake
-park brake alarm fault detected
-alarm fault in park brake system
+park brake system alarm fault
 park brake shows alarm fault
-park brake has an alarm fault
-alarm fault present in park brake
-park brake alarm fault detected
-park brake shows alarm fault
-alarm fault in park brake system
-park brake alarm is faulty
-park brake has an alarm fault
-park brake alarm fault detected
-park brake has alarm fault
-alarm fault in park brake system
-park brake system shows alarm fault
 park brake indicates alarm fault
-park brake alarm fault detected
-park brake shows alarm fault
-alarm fault in park brake system
-park brake is experiencing alarm fault
-park brake has an alarm fault
-park brake alarm fault detected
-alarm fault in park brake system
-park brake shows alarm fault
-park brake alarm indicates fault
+alarm fault on park brake
+park brake alarm malfunctioning
+park brake showing alarm fault
 fault in park brake alarm system
 park brake alarm fault detected
-alarm fault in park brake system
-park brake system has alarm fault
-park brake showing alarm fault
-park brake indicates alarm fault
-park brake alarm fault detected
+fault detected in park brake alarm
+park brake alarm is faulty
+park brake alarm indicates fault
 alarm fault in park brake system
 park brake system shows alarm fault
-park brake has an alarm fault
+park brake has alarm fault
+faulty alarm on park brake
+========================================
+========================================
+OUTPUT IN N COMPLETIONS
+- Number of unique: 2
+park brake has alarm fault
+park brake alarm fault detected
+========================================
+========================================
+OUTPUT IN 1 COMPLETION
+- Number of unique: 20
+park brake alarm malfunctioning
+alarm fault in park brake system
+park brake alarm fault issue
+park brake experiencing alarm fault
+park brake alarm fault detected
+park brake system shows alarm fault
+fault in park brake alarm
+park brake alarm malfunction
+park brake alarm showing fault
+park brake is experiencing alarm fault
+alarm fault found in park brake
+alarm fault in park brake
+park brake shows alarm fault
+park brake alarm is faulty
+park brake alarm shows fault
+park brake indicates alarm fault
+fault detected in park brake alarm
+park brake showing alarm fault
+alarm fault occurs with park brake
+park brake has alarm fault
+========================================
+========================================
+OUTPUT IN N COMPLETIONS
+- Number of unique: 2
+park brake has alarm fault
+park brake alarm fault detected
+========================================
+========================================
+OUTPUT IN 1 COMPLETION
+- Number of unique: 20
+park brake alarm malfunctioning
+alarm fault in park brake system
+park brake experiencing alarm fault
+park brake system alarm fault
+alarm fault on park brake
+park brake alarm fault detected
+fault in park brake alarm
+park brake alarm showing fault
+park brake indicating alarm fault
+alarm fault in park brake
+park brake shows alarm fault
+fault in park brake alarm system
+park brake alarm is faulty
+park brake alarm indicates fault
+park brake alarm shows fault
+faulty alarm in park brake
+park brake indicates alarm fault
+fault detected in park brake alarm
+park brake showing alarm fault
+park brake has alarm fault
+========================================
+========================================
+OUTPUT IN N COMPLETIONS
+- Number of unique: 2
+park brake has alarm fault
+park brake alarm fault detected
+========================================
+========================================
+OUTPUT IN 1 COMPLETION
+- Number of unique: 19
+park brake alarm malfunctioning
+alarm fault in park brake system
+park brake system alarm fault
+park brake alarm fault present
+park brake alarm fault detected
+fault in park brake alarm
+park brake alarm malfunction
+park brake alarm showing fault
+park brake is experiencing alarm fault
+park brake indicating alarm fault
+park brake alarm indicating fault
+alarm fault in park brake
+park brake shows alarm fault
+fault in park brake alarm system
+park brake alarm is faulty
 alarm fault present in park brake
+park brake showing alarm fault
+park brake has alarm fault
+alarm issue with park brake
+========================================
+========================================
+OUTPUT IN N COMPLETIONS
+- Number of unique: 2
+park brake has alarm fault
 park brake alarm fault detected
+========================================
+========================================
+OUTPUT IN 1 COMPLETION
+- Number of unique: 20
+park brake alarm malfunctioning
+alarm fault reported for park brake
 alarm fault in park brake system
+park brake experiencing alarm fault
+alarm fault on park brake
+park brake alarm fault present
+park brake alarm fault detected
+park brake system shows alarm fault
+fault in park brake alarm
+park brake alarm malfunction
+alarm fault found in park brake
+park brake indicating alarm fault
+alarm fault in park brake
 park brake shows alarm fault
-park brake has an alarm fault
-park brake system alarm fault present
-park brake shows alarm fault
+park brake alarm is faulty
+park brake alarm indicates fault
+alarm fault present in park brake
+park brake showing alarm fault
+park brake alarm fault occurring
+park brake has alarm fault
+========================================
+========================================
+OUTPUT IN N COMPLETIONS
+- Number of unique: 2
+park brake has alarm fault
+park brake alarm fault detected
+========================================
+========================================
+OUTPUT IN 1 COMPLETION
+- Number of unique: 21
+park brake system has alarm fault
+park brake alarm malfunctioning
 alarm fault in park brake system
+faulty alarm on park brake
+park brake experiencing alarm fault
+park brake alarm fault present
+park brake alarm fault detected
+park brake system shows alarm fault
+park brake alarm malfunction
+park brake alarm fault observed
+park brake indicating alarm fault
+park brake alarm indicating fault
+alarm fault in park brake
+park brake shows alarm fault
+fault in park brake alarm system
+park brake alarm is faulty
+park brake alarm shows fault
+faulty alarm in park brake
+fault detected in park brake alarm
+park brake showing alarm fault
+park brake has alarm fault
+========================================
+========================================
+OUTPUT FOR PARAPHRASING
+- Number of unique: 12
+alarm fault found in park brake
+detected alarm fault in park brake
+park brake alarm fault identified
+alarm fault detected in park brake
+park brake has detected alarm fault
+park brake alarm shows fault detected
+park brake shows alarm fault
+park brake alarm fault found
+alarm fault on park brake detected
 park brake alarm fault detected
 park brake has an alarm fault
+detected park brake alarm fault
+========================================
+========================================
+OUTPUT FOR GENERATION
+- Number of unique: 18
+park brake indicating alarm fault
+park brake alarm shows fault
+alarm fault in park brake
+park brake experiencing alarm fault
+park brake shows alarm fault
+park brake alarm malfunctioning
+park brake system alarm fault
+park brake system has alarm fault
+park brake alarm fault present
+park brake showing alarm fault
+alarm fault with park brake system
+park brake alarm fault detected
+fault found in park brake alarm
+park brake alarm is faulty
+park brake alarm indicates fault
+alarm fault in park brake system
+alarm fault reported for park brake
+park brake has alarm fault
+========================================
+========================================
+OUTPUT FOR PARAPHRASING
+- Number of unique: 17
+alarm fault found in park brake
+detected alarm fault in park brake
+detected alarm fault for park brake
+park brake fault detected in alarm
+park brake is faulty, alarm issue
+alarm fault present in park brake
+park brake alarm fault identified
+alarm fault detected in park brake
+park brake has a fault alarm
+alarm fault in park brake
+park brake is indicating alarm fault
+park brake shows alarm fault
+park brake alarm fault found
+alarm fault on park brake detected
+park brake has an alarm fault
+park brake alarm fault detected
+detected park brake alarm fault
+========================================
+========================================
+OUTPUT FOR GENERATION
+- Number of unique: 19
+park brake system has alarm fault
+park brake alarm malfunctioning
+alarm fault in park brake system
+park brake system alarm fault
+park brake alarm fault detected
+park brake system shows alarm fault
+fault in park brake alarm
+park brake alarm indicating fault
+alarm fault in park brake
+park brake shows alarm fault
+alarm fault with park brake system
+park brake alarm indicates fault
+park brake alarm is faulty
+park brake alarm shows fault
+park brake indicates alarm fault
+park brake indicator shows alarm fault
+fault detected in park brake alarm
+park brake showing alarm fault
+park brake has alarm fault
+========================================
+========================================
+OUTPUT FOR PARAPHRASING
+- Number of unique: 19
+park brake alarm fault identified
+alarm fault detected in park brake
+park brake has a fault alarm
+alarm fault on park brake detected
+detected park brake alarm fault
+park brake has alarm fault detected
+park brake alarm fault found
+alarm fault with park brake
+park brake alarm fault detected
+alarm fault found in park brake
+alarm fault in park brake
+park brake shows alarm fault
+detected alarm fault for park brake
+detected alarm fault in park brake
+alarm fault present in park brake
+park brake indicates alarm fault
+detected fault in park brake alarm
+park brake has an alarm fault
+park brake has alarm fault
+========================================
+========================================
+OUTPUT FOR GENERATION
+- Number of unique: 20
+park brake system has alarm fault
+park brake alarm malfunctioning
 alarm fault identified in park brake
+alarm fault in park brake system
+faulty alarm on park brake
+park brake experiencing alarm fault
+park brake system alarm fault
+park brake alarm fault detected
+park brake system shows alarm fault
+fault in park brake alarm
+park brake alarm malfunction
+park brake indicating alarm fault
+alarm fault in park brake
+park brake shows alarm fault
+park brake alarm is faulty
+park brake alarm indicates fault
+park brake alarm shows fault
+park brake showing alarm fault
+fault found in park brake alarm
+park brake has alarm fault
 ========================================
 ========================================
-Output for same prompt
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-========================================
-========================================
-Output for variant prompts
-park brake alarm fault detected
+OUTPUT FOR PARAPHRASING
+- Number of unique: 18
+detected alarm fault for park brake
+alarm fault found in park brake
+detected alarm fault in park brake
+park brake alarm fault identified
+alarm fault detected in park brake
+park brake has a fault alarm
+alarm fault in park brake
 park brake shows alarm fault
-park brake has alarm fault
-park brake alarm fault detected
-park brake has alarm fault
-park brake has alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake has alarm fault
-park brake has alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake has alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake shows alarm fault
-park brake has an alarm fault
-park brake has alarm fault
-park brake alarm fault detected
-park brake has alarm fault
-park brake has alarm fault
-park brake has alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake has alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault detected
-park brake shows alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake shows alarm fault
-park brake has alarm fault
-park brake shows alarm fault
-park brake alarm fault detected
-park brake has alarm fault
-park brake has alarm fault
-park brake has alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault detected
-park brake has alarm fault
-park brake shows alarm fault
-park brake alarm fault detected
-park brake shows alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault detected
-park brake has alarm fault
-park brake has alarm fault
-park brake has alarm fault
-park brake has alarm fault
-park brake alarm fault detected
-park brake has alarm fault
-park brake has alarm fault
-park brake has alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake has alarm fault
-park brake alarm fault detected
-park brake has alarm fault
-park brake shows alarm fault
-park brake has alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault needs investigation
-park brake shows alarm fault
-park brake has alarm fault
-park brake alarm fault detected
-park brake has alarm fault
-park brake alarm fault detected
-park brake alarm fault detected
-park brake alarm fault detected
-park brake has alarm fault
-park brake shows alarm fault
-park brake shows alarm fault
-park brake has alarm fault
-park brake alarm fault detected
+park brake alarm fault found
+park brake indicates alarm fault
+detected fault in park brake alarm
+alarm fault on park brake detected
+alarm fault for park brake detected
 park brake alarm fault detected
 park brake has an alarm fault
 park brake has alarm fault
+detected park brake alarm fault
+alarm fault in park brake detected
+========================================
+========================================
+OUTPUT FOR GENERATION
+- Number of unique: 18
+alarm fault found in park brake
+park brake indicating alarm fault
+park brake alarm shows fault
+alarm fault in park brake
+faulty alarm in park brake
+park brake shows alarm fault
+park brake system alarm fault
+park brake alarm malfunctioning
+fault detected in park brake alarm
+park brake showing alarm fault
+park brake alarm fault present
+park brake alarm fault detected
+fault in park brake alarm system
+park brake alarm is faulty
+park brake alarm indicates fault
+alarm fault in park brake system
 park brake has alarm fault
+park brake is experiencing alarm fault
+========================================
+========================================
+OUTPUT FOR PARAPHRASING
+- Number of unique: 19
+park brake alarm fault identified
+alarm fault detected in park brake
+park brake has a fault alarm
+alarm fault on park brake detected
+park brake is faulty with alarm
+park brake has alarm fault detected
+detected park brake alarm fault
+park brake alarm fault found
+park brake alarm fault detected
+alarm fault found in park brake
+park brake indicating alarm fault
+alarm fault in park brake
+park brake shows alarm fault
+detected alarm fault for park brake
+detected alarm fault in park brake
+fault in park brake alarm detected
+park brake indicates alarm fault
+park brake has an alarm fault
+park brake has alarm fault
+========================================
+========================================
+OUTPUT FOR GENERATION
+- Number of unique: 18
+park brake indicating alarm fault
+alarm fault in park brake
+park brake alarm showing fault
+park brake system alarm fault
+park brake shows alarm fault
+park brake alarm malfunctioning
+alarm fault on park brake
+park brake alarm fault present
+park brake showing alarm fault
+park brake indicator shows alarm fault
+park brake alarm fault detected
+park brake system shows alarm fault
+park brake alarm is faulty
+fault in park brake alarm
+alarm fault in park brake system
+park brake alarm indicates fault
+park brake has alarm fault
+park brake is experiencing alarm fault
 ========================================

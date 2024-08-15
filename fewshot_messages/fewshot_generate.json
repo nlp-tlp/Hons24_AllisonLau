@@ -1,0 +1,126 @@
+[
+    {
+        "role": "system",
+        "content": "You are a technician recording maintenance work orders."
+    },
+    {
+        "role": "user",
+        "content": "Generate 5 unique sentences about a Maintenance Work Order (MWO) concerning the equipment and the undesirable event.\nEquipment: steering cylinder bearings\nUndesirable Event: excess play\nLimit stop words and avoid unnecessary verbosity.\nA sentence must have a maximum of 8 words."
+    },
+    {
+        "role": "assistant",
+        "content": "1. steering cylinder bearings have excess play\n2. steering cylinder bearings exhibit excess play\n3. steering cylinder bearings are showing excess play\n4. excess play in steering cylinder bearings\n5. bearings in steering cylinder have excess play"
+    },
+    {
+        "role": "user",
+        "content": "\nEquipment: blade skin\nUndesirable Event: cracked\nMinimize stop words and avoid verbosity.\nEach sentence can contain up to 8 words."
+    },
+    {
+        "role": "assistant",
+        "content": "1. blade skin cracked\n2. blade skin is cracked\n3. crack in blade skin\n4. blade skin shows signs of cracking\n5. cracks have appeared in the blade skin"
+    },
+    {
+        "role": "user",
+        "content": "Write 5 different sentences for a Maintenance Work Order (MWO) that highlight the equipment and the undesirable event.\nEquipment: jacking cylinder ends\nUndesirable Event: unserviceable\nSteer clear of verbosity while reducing stop words.\nEach sentence can contain up to 8 words."
+    },
+    {
+        "role": "assistant",
+        "content": "1. cabin jacking cylinder ends unserviceable\n2. jacking cylinder ends are unserviceable\n3. ends of jacking cylinder are unservicerable\n4. unserviceable jacking cylinder ends\n5. found unserviceable jacking cylinder ends"
+    },
+    {
+        "role": "user",
+        "content": "\nEquipment: blade liner\nUndesirable Event: crack\nAvoid verbosity and minimize stop words.\nA sentence must have a maximum of 8 words."
+    },
+    {
+        "role": "assistant",
+        "content": "1. crack in blade liner left hand side\n2. blade liner crack on left hand side\n3. blade liner has a crack on left side\n4. crack found in blade liner\n5. blade liner has a crack"
+    },
+    {
+        "role": "user",
+        "content": "Generate 5 unique sentences about a Maintenance Work Order (MWO) concerning the equipment and the undesirable event.\nEquipment: park brake indicator light\nUndesirable Event: going on and off\nMinimize stop words and avoid verbosity.\nEvery sentence is allowed a maximum of 8 words."
+    },
+    {
+        "role": "assistant",
+        "content": "1. park brake indicator light going on and off\n2. park brake indicator light keeps going on and off\n3. park brake indicator light intermittently goes on and off\n4. indicator light for park brake going on and off\n5. indicator light for park brake keeps going on and off"
+    },
+    {
+        "role": "user",
+        "content": "\nEquipment: air horn\nUndesirable Event: stuck on\nMinimize stop words and avoid verbosity.\nA sentence must have a maximum of 8 words."
+    },
+    {
+        "role": "assistant",
+        "content": "1. air horn stuck on\n2. the air horn is stuck on\n3. air horn remains stuck on\n4. air horn is continuously stuck on\n5. air horn stuck on position"
+    },
+    {
+        "role": "user",
+        "content": "Write 5 different sentences for a Maintenance Work Order (MWO) that highlight the equipment and the undesirable event.\nEquipment: fire suppression mounts\nUndesirable Event: cracks\nSteer clear of verbosity while reducing stop words.\nA sentence must have a maximum of 8 words."
+    },
+    {
+        "role": "assistant",
+        "content": "1. cracks in fire suppression mounts\n2. fire supression mounts have visible cracks\n3. fire supression mounts is cracking\n4. cracks in fire supression mounts\n5. cracks found on fire supression mounts"
+    },
+    {
+        "role": "user",
+        "content": "Produce 5 varied sentences regarding a Maintenance Work Order (MWO) that describe the equipment and the undesirable event.\nEquipment: cabin window\nUndesirable Event: needs\nHelper Event: resealing\nMinimize stop words and avoid verbosity.\nLimit each sentence to no more than 8 words."
+    },
+    {
+        "role": "assistant",
+        "content": "1. cabin window needs resealing\n2. cabin window needs to be resealed\n3. resealing required for cabin window\n4. reseal cabin window\n5. cabin window requires resealing"
+    },
+    {
+        "role": "user",
+        "content": "\nEquipment: fire extinguisher\nUndesirable Event: out of date\nLimit stop words and avoid unnecessary verbosity.\nYou can use a maximum of 8 words per sentence."
+    },
+    {
+        "role": "assistant",
+        "content": "1. fire extinguisher out of date\n2. fire extinguisher is out of date\n3. fire extinguisher expired\n4. fire extinguisher past expiry date\n5. outdated fire extinguisher"
+    },
+    {
+        "role": "user",
+        "content": "Formulate 5 separate sentences relating to a Maintenance Work Order (MWO) that discuss the equipment and the undesirable event.\nEquipment: air horn\nUndesirable Event: working intermittently\nRefrain from verbosity and limit stop words.\nA sentence must have a maximum of 8 words."
+    },
+    {
+        "role": "assistant",
+        "content": "1. air horn working intermittently\n2. air horn is working intermittently\n3. air horn intermittently working\n4. air horn operating intermittently\n5. air horn working in intermittent manner"
+    },
+    {
+        "role": "user",
+        "content": "Generate 5 unique sentences about a Maintenance Work Order (MWO) concerning the equipment and the undesirable event.\nEquipment: hydraulic hose\nUndesirable Event: leaking\nRefrain from verbosity and limit stop words.\nEach sentence can contain up to 8 words."
+    },
+    {
+        "role": "assistant",
+        "content": "1. change out leaking hydraulic hose\n2. hydraulic hose is leaking\n3. hydraulic hose has a leak\n4. leaking hydraulic hose\n5. replace the leacking hydraulic hose"
+    },
+    {
+        "role": "user",
+        "content": "\nEquipment: glass window\nUndesirable Event: crack\nSteer clear of verbosity while reducing stop words.\nEach sentence can contain up to 8 words."
+    },
+    {
+        "role": "assistant",
+        "content": "1. glass window has large crack\n2. glass window is cracked\n3. crack in glass window\n4. crack found in glass window\n5. cracked glass window"
+    },
+    {
+        "role": "user",
+        "content": "Formulate 5 separate sentences relating to a Maintenance Work Order (MWO) that discuss the equipment and the undesirable event.\nEquipment: relay valve\nUndesirable Event: leaking\nRefrain from verbosity and limit stop words.\nEvery sentence is allowed a maximum of 8 words."
+    },
+    {
+        "role": "assistant",
+        "content": "1. change out leaking relay valve\n2. relay valve is leaking\n3. relay valve has a leak\n4. leaking relay valve\n5. replace leaking relay valve"
+    },
+    {
+        "role": "user",
+        "content": "Formulate 5 separate sentences relating to a Maintenance Work Order (MWO) that discuss the equipment and the undesirable event.\nEquipment: rock deflector\nUndesirable Event: crack\nAvoid verbosity and minimize stop words.\nYou can use a maximum of 8 words per sentence."
+    },
+    {
+        "role": "assistant",
+        "content": "1. crack onside rock deflector\n2. rock deflector has a crack\n3. rock deflector is cracked\n4. crack found in rock deflector\n5. rock deflector crack on the side"
+    },
+    {
+        "role": "user",
+        "content": "Write 5 different sentences for a Maintenance Work Order (MWO) that highlight the equipment and the undesirable event.\nEquipment: beacon mount\nUndesirable Event: broken\nAvoid verbosity and minimize stop words.\nYou can use a maximum of 8 words per sentence."
+    },
+    {
+        "role": "assistant",
+        "content": "1. beacon mount is broken\n2. beacon mount has broken\n3. broken beacon mount\n4. beacon mount in broken state\n5. beacon mount found broken"
+    }
+]

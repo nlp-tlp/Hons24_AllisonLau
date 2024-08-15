@@ -1,53 +1,78 @@
 ========================================
 Object: park brake
 Event: alarm fault
-Number of sentences: 47
+Number of sentences: 34
 ----------------------------------------
-~ park brake system has alarm fault
-~ park brake shows an alarm fault
-~ an alarm fault affects the park brake system
-~ an alarm fault is caused by the park brake
-~ alarm fault occurring with park brake
-~ alarm fault is triggered by the park brake
-~ park brake system shows an alarm fault
-~ park brake alarm shows a fault
-~ there is an alarm fault in the park brake
-~ alarm fault in park brake system
-~ park brake triggers an alarm fault
-~ alarm fault indicated by the park brake
-~ the park brake system has an alarm fault
-~ there is a fault in the park brake alarm
-~ alarm fault present in park brake
-~ alarm fault identified in park brake
-~ park brake is indicating an alarm fault
-~ park brake alarm is faulty
-~ the park brake has an alarm fault
-~ an alarm fault exists in the park brake system
-~ the park brake triggers an alarm fault
-~ there s an alarm fault with the park brake
-~ park brake shows alarm fault
-~ alarm fault occurs due to park brake issues
-~ an alarm fault affects the park brake
-~ the park brake system triggers an alarm fault
-~ the park brake has an alarm fault issue
-~ an alarm fault has been found in the park brake
+~ park brake alarm indicates fault
+~ park brake alarm not operational
+~ park brake alarm not functioning
+~ found alarm fault in park brake
+~ alarm fault in park brake detected
+~ alarm shows park brake fault
 ~ park brake has an alarm fault
-~ an alarm fault has been found in park brake
-~ an alarm fault is shown by the park brake
-~ park brake reveals an alarm fault issue
-~ an alarm fault in the park brake was detected
-~ park brake system alarm is faulty
-~ the park brake has a detected alarm fault
-~ the park brake indicates an alarm fault
+~ park brake shows alarm fault
+~ park brake alarm fault found
+~ alarm fault with park brake
+~ detected park brake alarm fault
+~ alarm fault in park brake
+~ park brake indicates alarm fault
+~ park brake alarm fault identified
+~ alarm fault in park brake system
+~ park brake alarm is faulty
+~ park brake alarm fault present
+~ detected alarm fault in park brake
+~ park brake shows a fault alarm
+~ alarm fault on park brake
+~ park brake alarm has a fault
+~ park brake alarm has fault
+~ park brake alarm is malfunctioning
+~ park brake has a fault alarm
+~ park brake alarm shows fault
+~ detected fault in park brake alarm
+~ alarm fault detected in park brake
+~ faulty park brake alarm
+~ park brake alarm fault observed
+~ park brake alarm is not working
+~ park brake has alarm fault
 ~ park brake is experiencing alarm fault
 ~ park brake alarm fault detected
-~ an alarm fault exists in the park brake
-~ the park brake shows an alarm fault
-~ park brake system has an alarm fault
-~ the alarm fault indicates a park brake issue
-~ there is an alarm fault with the park brake
-~ alarm fault detected in the park brake system
-~ alarm fault detected in the park brake
-~ the alarm fault is affecting the park brake
-~ an alarm fault is present in the park brake
+~ park brake alarm not working
+========================================
+========================================
+Object: park brake
+Event: alarm fault
+Number of sentences: 32
+----------------------------------------
+~ park brake experiencing alarm fault
+~ park brake alarm shows fault
+~ fault in park brake alarm
+~ park brake displays alarm fault
+~ park brake alarm is malfunctioning
+~ alarm fault appears in park brake
+~ park brake showing alarm fault
+~ park brake alarm fault present
+~ detected fault in park brake alarm
+~ faulty park brake alarm
+~ park brake alarm fault detected
+~ park brake alarm fault identified
+~ park brake shows alarm fault
+~ park brake has a fault alarm
+~ detected alarm fault in park brake
+~ alarm fault in park brake system
+~ park brake indicates alarm fault
+~ alarm shows park brake fault
+~ park brake alarm is faulty
+~ alarm fault present in park brake
+~ park brake has alarm fault
+~ park brake has alarm fault detected
+~ alarm fault detected in park brake
+~ fault found in park brake alarm
+~ park brake system alarm fault
+~ park brake is experiencing alarm fault
+~ park brake has an alarm fault
+~ park brake is showing alarm fault
+~ fault detected in park brake alarm
+~ park brake alarm has a fault
+~ alarm fault in park brake
+~ park brake alarm indicates a fault
 ========================================
