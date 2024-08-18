@@ -1,78 +1,128 @@
 ========================================
-Object: park brake
-Event: alarm fault
-Number of sentences: 34
+Object: cabin air conditioner hose
+Event: leak
+Helper: hydraulic oil
+Number of sentences: 22
 ----------------------------------------
-~ park brake alarm indicates fault
-~ park brake alarm not operational
-~ park brake alarm not functioning
-~ found alarm fault in park brake
-~ alarm fault in park brake detected
-~ alarm shows park brake fault
-~ park brake has an alarm fault
-~ park brake shows alarm fault
-~ park brake alarm fault found
-~ alarm fault with park brake
-~ detected park brake alarm fault
-~ alarm fault in park brake
-~ park brake indicates alarm fault
-~ park brake alarm fault identified
-~ alarm fault in park brake system
-~ park brake alarm is faulty
-~ park brake alarm fault present
-~ detected alarm fault in park brake
-~ park brake shows a fault alarm
-~ alarm fault on park brake
-~ park brake alarm has a fault
-~ park brake alarm has fault
-~ park brake alarm is malfunctioning
-~ park brake has a fault alarm
-~ park brake alarm shows fault
-~ detected fault in park brake alarm
-~ alarm fault detected in park brake
-~ faulty park brake alarm
-~ park brake alarm fault observed
-~ park brake alarm is not working
-~ park brake has alarm fault
-~ park brake is experiencing alarm fault
-~ park brake alarm fault detected
-~ park brake alarm not working
+~ cabin air conditioner hose is leaking hydraulic oil
+~ leak in cabin air conditioner hose, hydraulic oil
+~ hydraulic oil leak from air conditioner hose
+~ hydraulic oil leak in cabin air conditioner hose
+~ cabin air conditioner hose has hydraulic oil leak
+~ cabin air conditioner hose leaking hydraulic oil
+~ leak of hydraulic oil in cabin air conditioner hose
+~ hydraulic oil leak from cabin air conditioner hose
+~ cabin air conditioner hose exhibits oil leak
+~ cabin air conditioner hose has a leak
+~ cabin air conditioner hose has a hydraulic oil leak
+~ cabin air conditioner hose shows hydraulic oil leak
+~ cabin air conditioner hose shows oil leak
+~ leak in cabin air conditioner hose detected
+~ cabin air conditioner hose shows leak of oil
+~ hydraulic oil leaking from air conditioner hose
+~ cabin air conditioner hose shows leak of hydraulic oil
+~ leaking hydraulic oil from cabin air conditioner hose
+~ leak in cabin air conditioner hose
+~ hydraulic oil is leaking from cabin air conditioner hose
+~ leak of hydraulic oil from cabin air conditioner hose
+~ hydraulic oil leaking from cabin air conditioner hose
 ========================================
 ========================================
-Object: park brake
-Event: alarm fault
-Number of sentences: 32
+Object: brake pump hose
+Event: weeping
+Number of sentences: 37
 ----------------------------------------
-~ park brake experiencing alarm fault
-~ park brake alarm shows fault
-~ fault in park brake alarm
-~ park brake displays alarm fault
-~ park brake alarm is malfunctioning
-~ alarm fault appears in park brake
-~ park brake showing alarm fault
-~ park brake alarm fault present
-~ detected fault in park brake alarm
-~ faulty park brake alarm
-~ park brake alarm fault detected
-~ park brake alarm fault identified
-~ park brake shows alarm fault
-~ park brake has a fault alarm
-~ detected alarm fault in park brake
-~ alarm fault in park brake system
-~ park brake indicates alarm fault
-~ alarm shows park brake fault
-~ park brake alarm is faulty
-~ alarm fault present in park brake
-~ park brake has alarm fault
-~ park brake has alarm fault detected
-~ alarm fault detected in park brake
-~ fault found in park brake alarm
-~ park brake system alarm fault
-~ park brake is experiencing alarm fault
-~ park brake has an alarm fault
-~ park brake is showing alarm fault
-~ fault detected in park brake alarm
-~ park brake alarm has a fault
-~ alarm fault in park brake
-~ park brake alarm indicates a fault
+~ brake pump hose weeping fluid
+~ brake pump hose shows weeping signs
+~ brake pump hose is weeping
+~ brake pump hose found weeping
+~ weeping brake pump hose requires replacement
+~ weeping brake pump hose detected
+~ brake pump hose has weeping issue
+~ signs of weeping in brake pump hose
+~ weeping from brake pump hose
+~ brake pump hose shows weeping
+~ replace weeping brake pump hose
+~ weeping brake pump hose needs replacement
+~ observed weeping in brake pump hose
+~ brake pump hose has weeping
+~ replace the weeping brake pump hose
+~ weeping found on brake pump hose
+~ brake pump hose found to be weeping
+~ brake pump hose is weeping fluid
+~ weeping observed on brake pump hose
+~ change out weeping brake pump hose
+~ brake pump hose has a weep
+~ weeping observed in brake pump hose
+~ weeping found in brake pump hose
+~ brake pump hose exhibits weeping
+~ weeping fluid from brake pump hose
+~ brake pump hose has a weeping issue
+~ brake pump hose shows signs of weeping
+~ there is weeping in brake pump hose
+~ detected weeping brake pump hose
+~ weeping detected on brake pump hose
+~ weeping brake pump hose
+~ weeping detected in brake pump hose
+~ fluid is weeping from brake pump hose
+~ weep detected in brake pump hose
+~ weeping brake pump hose found
+~ brake pump hose showing signs of weeping
+~ brake pump hose showing weeping
+========================================
+========================================
+Object: pump motor hose
+Event: leaking
+Helper: fuel
+Number of sentences: 18
+----------------------------------------
+~ pump motor hose has leaking fuel
+~ fuel leak occurs from pump motor hose
+~ fuel leak found in pump motor hose
+~ fuel leaking from pump motor hose
+~ fuel leak detected in pump motor hose
+~ leaking pump motor hose with fuel
+~ leaking fuel from pump motor hose
+~ fuel leak from pump motor hose
+~ detected fuel leak in pump motor hose
+~ pump motor hose has fuel leak
+~ leaking pump motor hose carries fuel
+~ fuel is leaking from pump motor hose
+~ pump motor hose leaking fuel
+~ fuel leak in pump motor hose
+~ pump motor hose with fuel leak
+~ pump motor hose is leaking fuel
+~ pump motor hose has a fuel leak
+~ pump motor hose has fuel leaking
+========================================
+========================================
+Object: dragline air conditioner
+Event: unserviceable
+Number of sentences: 25
+----------------------------------------
+~ unserviceable dragline air conditioner detected
+~ dragline air conditioner found to be unserviceable
+~ air conditioner for dragline is unserviceable
+~ unserviceable dragline air conditioner needs service
+~ dragline air conditioner needs servicing, unserviceable
+~ dragline air conditioner declared unserviceable
+~ unserviceable dragline air conditioner identified
+~ dragline air conditioner detected as unserviceable
+~ dragline air conditioner became unserviceable
+~ air conditioner on dragline is unserviceable
+~ dragline air conditioner is unserviceable
+~ dragline air conditioner requires service, unserviceable
+~ the dragline air conditioner is unserviceable
+~ dragline air conditioner needs service, unserviceable
+~ dragline air conditioner has become unserviceable
+~ detected unserviceable dragline air conditioner
+~ unserviceable dragline air conditioner
+~ dragline air conditioner deemed not serviceable
+~ dragline air conditioner in unserviceable condition
+~ the air conditioner on dragline is unserviceable
+~ dragline air conditioner found unserviceable
+~ unserviceable condition of dragline air conditioner
+~ unserviceable dragline air conditioner found
+~ dragline air conditioner now unserviceable
+~ dragline air conditioner deemed unserviceable
 ========================================

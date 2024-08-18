@@ -3,6 +3,8 @@ import re
 import csv
 import random
 import nltk
+from openai import OpenAI
+from dotenv import load_dotenv
 from nltk.corpus import cmudict
 from Levenshtein import distance as levenshtein_distance
 
@@ -172,7 +174,7 @@ def replace_homophone(word):
     return word # No homophones found
 
 # Introduce different typos in a sentence (default probability=0.1)
-def introduce_typos(sentence, chance=0.1, max_typos=3):
+def rule_introduce_typos(sentence, chance=0.1, max_typos=3):
     """ Introduce typos in a sentence with a given probability. """
     typo_funcs = [add_space, swap_adjacent, omit_letter, double_letter, adjacent_key, adjacent_add, replace_homophone]
     typo_probs = [10, 16, 16, 16, 13, 16, 13]  # Probabilities for each typo function
@@ -193,15 +195,54 @@ def introduce_typos(sentence, chance=0.1, max_typos=3):
 
     return ' '.join(words)
 
+# Introduce typos in a sentence using OpenAI GPT-4
+def llm_introduce_typos(openai, sentence):
+    # Chance for no typos
+    if random.random() < 0.15:
+        return sentence
+    prompt = (
+        f"Introduce a few typos into the following sentence to make it look like it was written by a human. "
+        f"Use a mix of the following typo types, but avoid overdoing it. The typo types are:\n"
+        f"1. Missing space between words (e.g., air conditioner -> airconditioner)\n"
+        f"2. Additional space within words (e.g., permalube -> perma lube)\n"
+        f"3. Swapped adjacent characters (e.g., crack -> carck)\n"
+        f"4. Missing characters in a word (e.g., crack -> crak)\n"
+        f"5. Double-up characters in a word (e.g., crack -> craack)\n"
+        f"6. Incorrect character in a word (due to keys proximity) (e.g., crack -> xrack)\n"
+        f"7. Extra characters in a word (due to keys proximity) (e.g., crack -> cracvk)\n"
+        f"8. Incorrect spelling (homophones) (e.g., motor -> moter)\n\n"
+        f"Here is the sentence to modify: '{sentence}'"
+        f"Return the modified sentence and nothing else."
+    )
+    response = openai.chat.completions.create(
+        model="gpt-4o-mini",
+        messages=[{"role": "system", "content": "You are an expert in adding realistic typos to sentences."},
+                  {"role": "user", "content": prompt}],
+        temperature=0.9,
+        top_p=0.9,
+        n=1
+    )
+    if response.choices[0].message.content.startswith("'") and response.choices[0].message.content.endswith("'"):
+        return response.choices[0].message.content[1:-1]
+    return response.choices[0].message.content
+
 # Humanise a MWO sentence
-def humanise_sentence(sentence):
+def humanise_sentence(sentence, llm=False):
     """ Humanise a sentence by introducing contractions, abbreviations, and typos. """
     sentence = introduce_contractions(sentence)
     sentence = introduce_abbreviations(sentence)
-    sentence = introduce_typos(sentence)
+    if llm:
+        sentence = llm_introduce_typos(client, sentence)
+    else:
+        sentence = rule_introduce_typos(sentence)
     return sentence
 
 if __name__ == '__main__':
+    # Load environment variables
+    load_dotenv()
+    api_key = os.getenv("API_KEY")
+    client = OpenAI(api_key=api_key)
+    
     # Initialise global variables (dictionaries)
     initialise_globals()
     

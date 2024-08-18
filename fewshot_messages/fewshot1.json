@@ -5,7 +5,7 @@
     },
     {
         "role": "user",
-        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: fuse\nUndesirable Event: keep blowing\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
+        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: fuse\nUndesirable Event: keep blowing\nYou must use the terms given above.\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
     },
     {
         "role": "assistant",
@@ -13,7 +13,7 @@
     },
     {
         "role": "user",
-        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: bolt\nUndesirable Event: popped\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
+        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: bolt\nUndesirable Event: popped\nYou must use the terms given above.\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
     },
     {
         "role": "assistant",
@@ -21,7 +21,7 @@
     },
     {
         "role": "user",
-        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: guide\nUndesirable Event: unserviceable\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
+        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: guide\nUndesirable Event: unserviceable\nYou must use the terms given above.\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
     },
     {
         "role": "assistant",
@@ -29,7 +29,7 @@
     },
     {
         "role": "user",
-        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: air\nUndesirable Event: bypassing\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
+        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: air\nUndesirable Event: bypassing\nYou must use the terms given above.\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
     },
     {
         "role": "assistant",
@@ -37,7 +37,7 @@
     },
     {
         "role": "user",
-        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: sight glasses\nUndesirable Event: unserviceable\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
+        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: sight glasses\nUndesirable Event: unserviceable\nYou must use the terms given above.\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
     },
     {
         "role": "assistant",
@@ -45,7 +45,7 @@
     },
     {
         "role": "user",
-        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: lock\nUndesirable Event: broken\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
+        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: lock\nUndesirable Event: broken\nYou must use the terms given above.\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
     },
     {
         "role": "assistant",
@@ -53,7 +53,7 @@
     },
     {
         "role": "user",
-        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: roller\nUndesirable Event: unserviceable\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
+        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: roller\nUndesirable Event: unserviceable\nYou must use the terms given above.\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
     },
     {
         "role": "assistant",
@@ -61,7 +61,7 @@
     },
     {
         "role": "user",
-        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: grease pump\nUndesirable Event: bypassing\nHelper Event: air\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
+        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: grease pump\nUndesirable Event: bypassing\nHelper Event: air\nYou must use the terms given above.\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
     },
     {
         "role": "assistant",
@@ -69,7 +69,7 @@
     },
     {
         "role": "user",
-        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: isolator\nUndesirable Event: needs\nHelper Event: clean out\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
+        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: isolator\nUndesirable Event: needs\nHelper Event: clean out\nYou must use the terms given above.\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
     },
     {
         "role": "assistant",
@@ -77,7 +77,7 @@
     },
     {
         "role": "user",
-        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: air conditioner pressure switch\nUndesirable Event: unserviceable\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
+        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: air conditioner pressure switch\nUndesirable Event: unserviceable\nYou must use the terms given above.\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
     },
     {
         "role": "assistant",
@@ -85,7 +85,7 @@
     },
     {
         "role": "user",
-        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: scoreboard base\nUndesirable Event: cracked\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
+        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: scoreboard base\nUndesirable Event: cracked\nYou must use the terms given above.\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
     },
     {
         "role": "assistant",
@@ -93,7 +93,7 @@
     },
     {
         "role": "user",
-        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: lighting\nUndesirable Event: requires\nHelper Event: testing\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
+        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: lighting\nUndesirable Event: requires\nHelper Event: testing\nYou must use the terms given above.\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
     },
     {
         "role": "assistant",
@@ -101,7 +101,7 @@
     },
     {
         "role": "user",
-        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: engine mount\nUndesirable Event: movement\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
+        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: engine mount\nUndesirable Event: movement\nYou must use the terms given above.\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
     },
     {
         "role": "assistant",
@@ -109,7 +109,7 @@
     },
     {
         "role": "user",
-        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: stick\nUndesirable Event: cracks\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
+        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: stick\nUndesirable Event: cracks\nYou must use the terms given above.\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
     },
     {
         "role": "assistant",
@@ -117,7 +117,7 @@
     },
     {
         "role": "user",
-        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: glass\nUndesirable Event: cracked\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
+        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: glass\nUndesirable Event: cracked\nYou must use the terms given above.\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
     },
     {
         "role": "assistant",
@@ -125,7 +125,7 @@
     },
     {
         "role": "user",
-        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: cross member\nUndesirable Event: crack\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
+        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: cross member\nUndesirable Event: crack\nYou must use the terms given above.\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
     },
     {
         "role": "assistant",
@@ -133,7 +133,7 @@
     },
     {
         "role": "user",
-        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: transmission screen\nUndesirable Event: unserviceable\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
+        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: transmission screen\nUndesirable Event: unserviceable\nYou must use the terms given above.\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
     },
     {
         "role": "assistant",
@@ -141,7 +141,7 @@
     },
     {
         "role": "user",
-        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: tracks\nUndesirable Event: need\nHelper Event: adjusting\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
+        "content": "Generate a Maintenance Work Order (MWO) sentence describing the following equipment and undesirable event.\nEquipment: tracks\nUndesirable Event: need\nHelper Event: adjusting\nYou must use the terms given above.\nAvoid verbosity and use minimal stop words.\nEach sentence can have a maximum of 8 words."
     },
     {
         "role": "assistant",

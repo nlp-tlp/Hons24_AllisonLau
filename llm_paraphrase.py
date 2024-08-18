@@ -125,6 +125,7 @@ def get_generate_prompt(base_prompts, limit_words, limit_count, object, event, h
                 Equipment: {object}
                 Undesirable Event: {event}
                 Helper Event: {helper}
+                You must use the terms given above.
                 Avoid verbosity and use minimal stop words.
                 Each sentence can have a maximum of 8 words.
     """
@@ -134,9 +135,11 @@ def get_generate_prompt(base_prompts, limit_words, limit_count, object, event, h
     count = random.choice(limit_count)
 
     if helper:
-        prompt = f"{base}\nEquipment: {object}\nUndesirable Event: {event}\nHelper Event: {helper}\n{words}\n{count}"
+        prompt = f"{base}\nEquipment: {object}\nUndesirable Event: {event}\nHelper Event: {helper}"
+        prompt += f"\nYou must use the terms given above.\n{words}\n{count}"
     else:
-        prompt = f"{base}\nEquipment: {object}\nUndesirable Event: {event}\n{words}\n{count}"
+        prompt = f"{base}\nEquipment: {object}\nUndesirable Event: {event}"
+        prompt += f"\nYou must use the terms given above.\n{words}\n{count}"
     return prompt
 
 # Craft and return prompt for paraphrasing MWO sentences
@@ -144,7 +147,7 @@ def get_paraphrase_prompt(sentence, keywords, num_paraphrases=5):
     """ Craft and return prompt for paraphrasing MWO sentences. """
     prompt = f"Paraphrase the following sentence {num_paraphrases} times.\n{sentence}\n"
     string_keywords = ", ".join(keywords)
-    prompt += "Must include the following keywords: " + string_keywords
+    prompt += "You must include the following keywords: " + string_keywords
     prompt += "\nYou may change the sentence from passive to active voice or vice versa."
     prompt += "\nAvoid verbosity and use minimal stop words."
     prompt += "\nThe sentence can have a maximum of 8 words."
