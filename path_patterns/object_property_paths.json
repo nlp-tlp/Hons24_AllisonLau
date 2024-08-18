@@ -1,57 +1,13 @@
 [
     {
-        "object_type": "PhysicalObject/StoringObject/EnclosedStationaryStoringObject",
-        "object_name": "fuel tank",
-        "event_relation": "hasProperty",
-        "event_type": "Property/UndesirableProperty",
-        "event_name": "crack",
-        "valid": true,
-        "alternate": false
-    },
-    {
-        "object_type": "PhysicalObject/StoringObject/EnclosedStationaryStoringObject",
-        "object_name": "tank",
-        "event_relation": "hasProperty",
-        "event_type": "Property/UndesirableProperty",
-        "event_name": "crack",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/FramingObject",
-        "object_name": "window frame",
-        "event_relation": "hasProperty",
-        "event_type": "Property/UndesirableProperty",
-        "event_name": "crack",
-        "valid": true,
-        "alternate": false
-    },
-    {
-        "object_type": "PhysicalObject/RestrictingObject/AccessRestrictingObject",
-        "object_name": "glass window",
-        "event_relation": "hasProperty",
-        "event_type": "Property/UndesirableProperty",
-        "event_name": "crack",
-        "valid": true,
-        "alternate": false
-    },
-    {
-        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
-        "object_name": "window",
-        "event_relation": "hasProperty",
-        "event_type": "Property/UndesirableProperty",
-        "event_name": "crack",
-        "valid": true,
-        "alternate": true
-    },
-    {
         "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
         "object_name": "chord",
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "crack",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
     },
     {
         "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
@@ -60,25 +16,28 @@
         "event_type": "Property/UndesirableProperty",
         "event_name": "crack",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Structural deficiency"
     },
     {
-        "object_type": "PhysicalObject/HoldingObject/ReinforcingObject",
-        "object_name": "cross member",
+        "object_type": "PhysicalObject/RestrictingObject/AccessRestrictingObject",
+        "object_name": "glass window",
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "crack",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
     },
     {
-        "object_type": "PhysicalObject/HoldingObject/ReinforcingObject",
-        "object_name": "chassis cross member",
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "object_name": "window",
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "crack",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Structural deficiency"
     },
     {
         "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
@@ -87,7 +46,8 @@
         "event_type": "Property/UndesirableProperty",
         "event_name": "crack",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
     },
     {
         "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
@@ -96,52 +56,8 @@
         "event_type": "Property/UndesirableProperty",
         "event_name": "crack",
         "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/EnvironmentProtectingObject",
-        "object_name": "rock deflector",
-        "event_relation": "hasProperty",
-        "event_type": "Property/UndesirableProperty",
-        "event_name": "crack",
-        "valid": true,
-        "alternate": false
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
-        "object_name": "track frame",
-        "event_relation": "hasProperty",
-        "event_type": "Property/UndesirableProperty",
-        "event_name": "crack",
-        "valid": true,
-        "alternate": false
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
-        "object_name": "frame",
-        "event_relation": "hasProperty",
-        "event_type": "Property/UndesirableProperty",
-        "event_name": "crack",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
-        "object_name": "cable gantry",
-        "event_relation": "hasProperty",
-        "event_type": "Property/UndesirableProperty",
-        "event_name": "crack",
-        "valid": true,
-        "alternate": false
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
-        "object_name": "gantry",
-        "event_relation": "hasProperty",
-        "event_type": "Property/UndesirableProperty",
-        "event_name": "crack",
-        "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Structural deficiency"
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ThermalEnergyGuidingObject",
@@ -150,16 +66,48 @@
         "event_type": "Property/UndesirableProperty",
         "event_name": "crack",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
     },
     {
         "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
-        "object_name": "headboard",
+        "object_name": "cable gantry",
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "crack",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "gantry",
+        "event_relation": "hasProperty",
+        "event_type": "Property/UndesirableProperty",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "track frame",
+        "event_relation": "hasProperty",
+        "event_type": "Property/UndesirableProperty",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "frame",
+        "event_relation": "hasProperty",
+        "event_type": "Property/UndesirableProperty",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Structural deficiency"
     },
     {
         "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
@@ -168,7 +116,18 @@
         "event_type": "Property/UndesirableProperty",
         "event_name": "crack",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": "Noise"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "headboard",
+        "event_relation": "hasProperty",
+        "event_type": "Property/UndesirableProperty",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
@@ -177,7 +136,8 @@
         "event_type": "Property/UndesirableProperty",
         "event_name": "crack",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
@@ -186,106 +146,68 @@
         "event_type": "Property/UndesirableProperty",
         "event_name": "crack",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Structural deficiency"
     },
     {
-        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
-        "object_name": "mounts",
+        "object_type": "PhysicalObject/HoldingObject/FramingObject",
+        "object_name": "window frame",
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
-        "event_name": "cracks",
+        "event_name": "crack",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
     },
     {
-        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
-        "object_name": "fire suppression mounts",
+        "object_type": "PhysicalObject/StoringObject/EnclosedStationaryStoringObject",
+        "object_name": "fuel tank",
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
-        "event_name": "cracks",
+        "event_name": "crack",
         "valid": true,
-        "alternate": true
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
     },
     {
-        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
-        "object_name": "cabin mounts",
+        "object_type": "PhysicalObject/StoringObject/EnclosedStationaryStoringObject",
+        "object_name": "tank",
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
-        "event_name": "cracks",
+        "event_name": "crack",
         "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
-        "object_name": "fuel cooler mounts",
-        "event_relation": "hasProperty",
-        "event_type": "Property/UndesirableProperty",
-        "event_name": "cracks",
-        "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Structural deficiency"
     },
     {
         "object_type": "PhysicalObject/HoldingObject/ReinforcingObject",
-        "object_name": "cross braces",
+        "object_name": "cross member",
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
-        "event_name": "cracks",
+        "event_name": "crack",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
     },
     {
         "object_type": "PhysicalObject/HoldingObject/ReinforcingObject",
-        "object_name": "mast cross braces",
+        "object_name": "chassis cross member",
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
-        "event_name": "cracks",
+        "event_name": "crack",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Structural deficiency"
     },
     {
-        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
-        "object_name": "boom",
+        "object_type": "PhysicalObject/ProtectingObject/EnvironmentProtectingObject",
+        "object_name": "rock deflector",
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
-        "event_name": "cracks",
+        "event_name": "crack",
         "valid": true,
-        "alternate": false
-    },
-    {
-        "object_type": "PhysicalObject/StoringObject/MoveableStoringObject",
-        "object_name": "mud bucket",
-        "event_relation": "hasProperty",
-        "event_type": "Property/UndesirableProperty",
-        "event_name": "cracks",
-        "valid": true,
-        "alternate": false
-    },
-    {
-        "object_type": "PhysicalObject/StoringObject/MoveableStoringObject",
-        "object_name": "bucket",
-        "event_relation": "hasProperty",
-        "event_type": "Property/UndesirableProperty",
-        "event_name": "cracks",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
-        "object_name": "stick",
-        "event_relation": "hasProperty",
-        "event_type": "Property/UndesirableProperty",
-        "event_name": "cracks",
-        "valid": true,
-        "alternate": false
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
-        "object_name": "headboard",
-        "event_relation": "hasProperty",
-        "event_type": "Property/UndesirableProperty",
-        "event_name": "cracks",
-        "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
     },
     {
         "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
@@ -294,7 +216,8 @@
         "event_type": "Property/UndesirableProperty",
         "event_name": "cracks",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
     },
     {
         "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
@@ -303,34 +226,8 @@
         "event_type": "Property/UndesirableProperty",
         "event_name": "cracks",
         "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/SolidMatterGuidingObject",
-        "object_name": "dirt chute",
-        "event_relation": "hasProperty",
-        "event_type": "Property/UndesirableProperty",
-        "event_name": "cracks",
-        "valid": true,
-        "alternate": false
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/SolidMatterGuidingObject",
-        "object_name": "chute",
-        "event_relation": "hasProperty",
-        "event_type": "Property/UndesirableProperty",
-        "event_name": "cracks",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/PreventiveProtectingObject",
-        "object_name": "handrail",
-        "event_relation": "hasProperty",
-        "event_type": "Property/UndesirableProperty",
-        "event_name": "cracks",
-        "valid": true,
-        "alternate": false
+        "alternate": true,
+        "failure_mode": "Structural deficiency"
     },
     {
         "object_type": "PhysicalObject/HoldingObject/CarryingObject",
@@ -339,7 +236,148 @@
         "event_type": "Property/UndesirableProperty",
         "event_name": "cracks",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/PreventiveProtectingObject",
+        "object_name": "handrail",
+        "event_relation": "hasProperty",
+        "event_type": "Property/UndesirableProperty",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "mounts",
+        "event_relation": "hasProperty",
+        "event_type": "Property/UndesirableProperty",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "fire suppression mounts",
+        "event_relation": "hasProperty",
+        "event_type": "Property/UndesirableProperty",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "cabin mounts",
+        "event_relation": "hasProperty",
+        "event_type": "Property/UndesirableProperty",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "fuel cooler mounts",
+        "event_relation": "hasProperty",
+        "event_type": "Property/UndesirableProperty",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "headboard",
+        "event_relation": "hasProperty",
+        "event_type": "Property/UndesirableProperty",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "boom",
+        "event_relation": "hasProperty",
+        "event_type": "Property/UndesirableProperty",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/SolidMatterGuidingObject",
+        "object_name": "dirt chute",
+        "event_relation": "hasProperty",
+        "event_type": "Property/UndesirableProperty",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/SolidMatterGuidingObject",
+        "object_name": "chute",
+        "event_relation": "hasProperty",
+        "event_type": "Property/UndesirableProperty",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/ReinforcingObject",
+        "object_name": "cross braces",
+        "event_relation": "hasProperty",
+        "event_type": "Property/UndesirableProperty",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/ReinforcingObject",
+        "object_name": "mast cross braces",
+        "event_relation": "hasProperty",
+        "event_type": "Property/UndesirableProperty",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
+        "object_name": "stick",
+        "event_relation": "hasProperty",
+        "event_type": "Property/UndesirableProperty",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject/MoveableStoringObject",
+        "object_name": "mud bucket",
+        "event_relation": "hasProperty",
+        "event_type": "Property/UndesirableProperty",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_type": "PhysicalObject/StoringObject/MoveableStoringObject",
+        "object_name": "bucket",
+        "event_relation": "hasProperty",
+        "event_type": "Property/UndesirableProperty",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Structural deficiency"
     },
     {
         "object_type": "PhysicalObject/HoldingObject/JointingObject",
@@ -348,52 +386,8 @@
         "event_type": "Property/UndesirableProperty",
         "event_name": "noisy",
         "valid": true,
-        "alternate": false
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/JointingObject",
-        "object_name": "compressor bearing",
-        "event_relation": "hasProperty",
-        "event_type": "Property/UndesirableProperty",
-        "event_name": "noisy",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/JointingObject",
-        "object_name": "air conditioner compressor bearing",
-        "event_relation": "hasProperty",
-        "event_type": "Property/UndesirableProperty",
-        "event_name": "noisy",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/JointingObject",
-        "object_name": "roller bearing",
-        "event_relation": "hasProperty",
-        "event_type": "Property/UndesirableProperty",
-        "event_name": "noisy",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/JointingObject",
-        "object_name": "drag roller bearing",
-        "event_relation": "hasProperty",
-        "event_type": "Property/UndesirableProperty",
-        "event_name": "noisy",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/JointingObject",
-        "object_name": "equalizer bar bearing",
-        "event_relation": "hasProperty",
-        "event_type": "Property/UndesirableProperty",
-        "event_name": "noisy",
-        "valid": true,
-        "alternate": true
+        "alternate": false,
+        "failure_mode": "Noise"
     },
     {
         "object_type": "PhysicalObject/HoldingObject/JointingObject",
@@ -402,7 +396,58 @@
         "event_type": "Property/UndesirableProperty",
         "event_name": "noisy",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Noise"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "compressor bearing",
+        "event_relation": "hasProperty",
+        "event_type": "Property/UndesirableProperty",
+        "event_name": "noisy",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Noise"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "air conditioner compressor bearing",
+        "event_relation": "hasProperty",
+        "event_type": "Property/UndesirableProperty",
+        "event_name": "noisy",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Noise"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "roller bearing",
+        "event_relation": "hasProperty",
+        "event_type": "Property/UndesirableProperty",
+        "event_name": "noisy",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Noise"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "drag roller bearing",
+        "event_relation": "hasProperty",
+        "event_type": "Property/UndesirableProperty",
+        "event_name": "noisy",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Noise"
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/JointingObject",
+        "object_name": "equalizer bar bearing",
+        "event_relation": "hasProperty",
+        "event_type": "Property/UndesirableProperty",
+        "event_name": "noisy",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Noise"
     },
     {
         "object_type": "PhysicalObject/HoldingObject/JointingObject",
@@ -411,7 +456,8 @@
         "event_type": "Property/UndesirableProperty",
         "event_name": "noisy",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Noise"
     },
     {
         "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
@@ -420,7 +466,8 @@
         "event_type": "Property/UndesirableProperty",
         "event_name": "noisy",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
     },
     {
         "object_type": "PhysicalObject/HoldingObject/FramingObject",
@@ -429,7 +476,8 @@
         "event_type": "Property/UndesirableProperty",
         "event_name": "hole",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
     },
     {
         "object_type": "PhysicalObject/HoldingObject/FramingObject",
@@ -438,6 +486,7 @@
         "event_type": "Property/UndesirableProperty",
         "event_name": "hole",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Structural deficiency"
     }
 ]

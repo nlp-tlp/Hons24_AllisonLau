@@ -8,7 +8,8 @@
         "helper_type": "State/UndesirableState/FailedState",
         "helper_name": "no",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": null
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",

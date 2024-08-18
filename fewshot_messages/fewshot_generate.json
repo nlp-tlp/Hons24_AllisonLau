@@ -5,7 +5,7 @@
     },
     {
         "role": "user",
-        "content": "Produce 5 varied sentences regarding a Maintenance Work Order (MWO) that describe the equipment and the undesirable event.\nEquipment: steering cylinder bearings\nUndesirable Event: excess play\nYou must use the terms given above.\nAvoid verbosity and use fewer stop words.\nEach sentence should not exceed 8 words."
+        "content": "Formulate 5 varied sentences regarding a Maintenance Work Order (MWO) that detail the equipment and the undesirable event.\nEquipment: steering cylinder bearings\nUndesirable Event: excess play\nYou must use the terms given above.\nEliminate verbosity and cut down on stop words.\nA sentence must not exceed 8 words."
     },
     {
         "role": "assistant",
@@ -13,7 +13,7 @@
     },
     {
         "role": "user",
-        "content": "Write 5 different sentences about a Maintenance Work Order (MWO) that outline the equipment and the undesirable event.\nEquipment: blade skin\nUndesirable Event: cracked\nYou must use the terms given above.\nUse minimal stop words and steer clear of verbosity.\nEach sentence can have up to 8 words."
+        "content": "Generate 5 alternative sentences concerning a Maintenance Work Order (MWO) that specify the equipment and the undesirable event.\nEquipment: blade skin\nUndesirable Event: cracked\nYou must use the terms given above.\nRefrain from verbosity and reduce stop words.\nEach sentence can have 8 words maximum."
     },
     {
         "role": "assistant",
@@ -21,7 +21,7 @@
     },
     {
         "role": "user",
-        "content": "Formulate 5 separate sentences for a Maintenance Work Order (MWO) discussing the equipment and the undesirable event.\nEquipment: jacking cylinder ends\nUndesirable Event: unserviceable\nYou must use the terms given above.\nRefrain from verbosity and limit stop words.\nYou can use a maximum of 8 words."
+        "content": "Formulate 5 varied sentences regarding a Maintenance Work Order (MWO) that detail the equipment and the undesirable event.\nEquipment: jacking cylinder ends\nUndesirable Event: unserviceable\nYou must use the terms given above.\nPrevent verbosity and use fewer stop words.\nA sentence must not exceed 8 words."
     },
     {
         "role": "assistant",
@@ -29,7 +29,7 @@
     },
     {
         "role": "user",
-        "content": "Write 5 different sentences about a Maintenance Work Order (MWO) that outline the equipment and the undesirable event.\nEquipment: blade liner\nUndesirable Event: crack\nYou must use the terms given above.\nStay away from verbosity and minimize stop words.\nLimit each sentence to 8 words only."
+        "content": "Write 5 different sentences for a Maintenance Work Order (MWO) describing the equipment along with the undesirable event.\nEquipment: blade liner\nUndesirable Event: crack\nYou must use the terms given above.\nSteer clear of verbosity and limit stop words.\nAn 8-word sentence is the limit allowed."
     },
     {
         "role": "assistant",
@@ -37,7 +37,7 @@
     },
     {
         "role": "user",
-        "content": "Develop 5 unique sentences that pertain to a Maintenance Work Order (MWO) featuring the equipment and the undesirable event.\nEquipment: park brake indicator light\nUndesirable Event: going on and off\nYou must use the terms given above.\nAvoid verbosity and use fewer stop words.\nEach sentence can have up to 8 words."
+        "content": "Produce 5 unique sentences related to a Maintenance Work Order (MWO) that convey information about the equipment and the undesirable event.\nEquipment: park brake indicator light\nUndesirable Event: going on and off\nYou must use the terms given above.\nPrevent verbosity and use fewer stop words.\nLimit each sentence to a maximum of 8."
     },
     {
         "role": "assistant",
@@ -45,7 +45,7 @@
     },
     {
         "role": "user",
-        "content": "Develop 5 unique sentences that pertain to a Maintenance Work Order (MWO) featuring the equipment and the undesirable event.\nEquipment: air horn\nUndesirable Event: stuck on\nYou must use the terms given above.\nRefrain from verbosity and limit stop words.\nLimit each sentence to 8 words only."
+        "content": "Write 5 different sentences for a Maintenance Work Order (MWO) describing the equipment along with the undesirable event.\nEquipment: air horn\nUndesirable Event: stuck on\nYou must use the terms given above.\nEliminate verbosity and cut down on stop words.\nYou can write a sentence of 8 words."
     },
     {
         "role": "assistant",
@@ -53,7 +53,7 @@
     },
     {
         "role": "user",
-        "content": "Create 5 distinct sentences for a Maintenance Work Order (MWO) that detail the equipment and the undesirable event.\nEquipment: fire suppression mounts\nUndesirable Event: cracks\nYou must use the terms given above.\nStay away from verbosity and minimize stop words.\nEach sentence can have up to 8 words."
+        "content": "Create 5 distinct sentences for a Maintenance Work Order (MWO) that outline the equipment and the undesirable event.\nEquipment: fire suppression mounts\nUndesirable Event: cracks\nYou must use the terms given above.\nRefrain from verbosity and reduce stop words.\nYou can write a sentence of 8 words."
     },
     {
         "role": "assistant",
@@ -61,7 +61,7 @@
     },
     {
         "role": "user",
-        "content": "Develop 5 unique sentences that pertain to a Maintenance Work Order (MWO) featuring the equipment and the undesirable event.\nEquipment: cabin window\nUndesirable Event: needs\nHelper Event: resealing\nYou must use the terms given above.\nUse minimal stop words and steer clear of verbosity.\nA sentence may consist of 8 words max."
+        "content": "Create 5 distinct sentences for a Maintenance Work Order (MWO) that outline the equipment and the undesirable event.\nEquipment: cabin window\nUndesirable Event: needs\nHelper Event: resealing\nYou must use the terms given above.\nEliminate verbosity and cut down on stop words.\nAn 8-word sentence is the limit allowed."
     },
     {
         "role": "assistant",
@@ -69,7 +69,7 @@
     },
     {
         "role": "user",
-        "content": "Create 5 distinct sentences for a Maintenance Work Order (MWO) that detail the equipment and the undesirable event.\nEquipment: fire extinguisher\nUndesirable Event: out of date\nYou must use the terms given above.\nAvoid verbosity and use fewer stop words.\nA sentence may consist of 8 words max."
+        "content": "Generate 5 alternative sentences concerning a Maintenance Work Order (MWO) that specify the equipment and the undesirable event.\nEquipment: fire extinguisher\nUndesirable Event: out of date\nYou must use the terms given above.\nEliminate verbosity and cut down on stop words.\nA sentence must not exceed 8 words."
     },
     {
         "role": "assistant",
@@ -77,7 +77,7 @@
     },
     {
         "role": "user",
-        "content": "Produce 5 varied sentences regarding a Maintenance Work Order (MWO) that describe the equipment and the undesirable event.\nEquipment: air horn\nUndesirable Event: working intermittently\nYou must use the terms given above.\nUse minimal stop words and steer clear of verbosity.\nYou can use a maximum of 8 words."
+        "content": "Create 5 distinct sentences for a Maintenance Work Order (MWO) that outline the equipment and the undesirable event.\nEquipment: air horn\nUndesirable Event: working intermittently\nYou must use the terms given above.\nSteer clear of verbosity and limit stop words.\nLimit each sentence to a maximum of 8."
     },
     {
         "role": "assistant",
@@ -85,7 +85,7 @@
     },
     {
         "role": "user",
-        "content": "Develop 5 unique sentences that pertain to a Maintenance Work Order (MWO) featuring the equipment and the undesirable event.\nEquipment: hydraulic hose\nUndesirable Event: leaking\nYou must use the terms given above.\nAvoid verbosity and use fewer stop words.\nEach sentence should not exceed 8 words."
+        "content": "Create 5 distinct sentences for a Maintenance Work Order (MWO) that outline the equipment and the undesirable event.\nEquipment: hydraulic hose\nUndesirable Event: leaking\nYou must use the terms given above.\nPrevent verbosity and use fewer stop words.\nYou can write a sentence of 8 words."
     },
     {
         "role": "assistant",
@@ -93,7 +93,7 @@
     },
     {
         "role": "user",
-        "content": "Develop 5 unique sentences that pertain to a Maintenance Work Order (MWO) featuring the equipment and the undesirable event.\nEquipment: glass window\nUndesirable Event: crack\nYou must use the terms given above.\nRefrain from verbosity and limit stop words.\nEach sentence can have up to 8 words."
+        "content": "Produce 5 unique sentences related to a Maintenance Work Order (MWO) that convey information about the equipment and the undesirable event.\nEquipment: glass window\nUndesirable Event: crack\nYou must use the terms given above.\nAvoid verbosity and minimize stop words.\nAn 8-word sentence is the limit allowed."
     },
     {
         "role": "assistant",
@@ -101,7 +101,7 @@
     },
     {
         "role": "user",
-        "content": "Develop 5 unique sentences that pertain to a Maintenance Work Order (MWO) featuring the equipment and the undesirable event.\nEquipment: relay valve\nUndesirable Event: leaking\nYou must use the terms given above.\nStay away from verbosity and minimize stop words.\nYou can use a maximum of 8 words."
+        "content": "Generate 5 alternative sentences concerning a Maintenance Work Order (MWO) that specify the equipment and the undesirable event.\nEquipment: relay valve\nUndesirable Event: leaking\nYou must use the terms given above.\nEliminate verbosity and cut down on stop words.\nAn 8-word sentence is the limit allowed."
     },
     {
         "role": "assistant",
@@ -109,7 +109,7 @@
     },
     {
         "role": "user",
-        "content": "Formulate 5 separate sentences for a Maintenance Work Order (MWO) discussing the equipment and the undesirable event.\nEquipment: rock deflector\nUndesirable Event: crack\nYou must use the terms given above.\nUse minimal stop words and steer clear of verbosity.\nLimit each sentence to 8 words only."
+        "content": "Formulate 5 varied sentences regarding a Maintenance Work Order (MWO) that detail the equipment and the undesirable event.\nEquipment: rock deflector\nUndesirable Event: crack\nYou must use the terms given above.\nRefrain from verbosity and reduce stop words.\nYou can write a sentence of 8 words."
     },
     {
         "role": "assistant",
@@ -117,7 +117,7 @@
     },
     {
         "role": "user",
-        "content": "Develop 5 unique sentences that pertain to a Maintenance Work Order (MWO) featuring the equipment and the undesirable event.\nEquipment: beacon mount\nUndesirable Event: broken\nYou must use the terms given above.\nStay away from verbosity and minimize stop words.\nYou can use a maximum of 8 words."
+        "content": "Write 5 different sentences for a Maintenance Work Order (MWO) describing the equipment along with the undesirable event.\nEquipment: beacon mount\nUndesirable Event: broken\nYou must use the terms given above.\nRefrain from verbosity and reduce stop words.\nEach sentence can have 8 words maximum."
     },
     {
         "role": "assistant",

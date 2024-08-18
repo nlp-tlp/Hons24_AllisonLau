@@ -126,3 +126,39 @@ Number of sentences: 25
 ~ dragline air conditioner now unserviceable
 ~ dragline air conditioner deemed unserviceable
 ========================================
+========================================
+Object: parts washer pump
+Event: leaking
+Number of sentences: 30
+----------------------------------------
+~ parts washer pump has signs of leaking,Leaking
+~ leaking parts washer pump requires repair,Leaking
+~ parts washer pump found leaking,Leaking
+~ leaking parts washer pump requires replacement,Leaking
+~ parts washer pump shows leakage,Leaking
+~ parts washer pump has a leak,Leaking
+~ leaking parts washer pump needs replacement,Leaking
+~ replace the leaking parts washer pump,Leaking
+~ fluid leaking from parts washer pump,Leaking
+~ parts washer pump has leak,Leaking
+~ signs of leaking in parts washer pump,Leaking
+~ found leaking parts washer pump,Leaking
+~ leaking from parts washer pump,Leaking
+~ leaking detected in parts washer pump,Leaking
+~ parts washer pump is leaking fluid,Leaking
+~ parts washer pump needs replacing due to leaking,Leaking
+~ repair leaking parts washer pump,Leaking
+~ parts washer pump shows signs of leaking,Leaking
+~ leaking parts washer pump needs repair,Leaking
+~ parts washer pump leaking fluid detected,Leaking
+~ fix leaking parts washer pump,Leaking
+~ parts washer pump leaking fluid,Leaking
+~ parts washer pump is leaking,Leaking
+~ leak found in parts washer pump,Leaking
+~ parts washer pump shows leaking,Leaking
+~ parts washer pump found to be leaking,Leaking
+~ leaking fluid from parts washer pump,Leaking
+~ leaking parts washer pump,Leaking
+~ replace leaking parts washer pump,Leaking
+~ leak detected in parts washer pump,Leaking
+========================================

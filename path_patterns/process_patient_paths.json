@@ -1,246 +1,13 @@
 [
     {
-        "object_type": "PhysicalObject/Substance/Solid",
-        "object_name": "dust",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": false
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "hydraulic oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": false
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": false
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "drag rope pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "brake pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "slew pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "engine pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "steering pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "parts washer pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "cooler pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "swing pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "pto pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "differential pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "centre hitch oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "transmission oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "air compressor oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "swingbox oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "engine oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "hydraulic motor engine oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "thrust bearing oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "differential oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/TemperatureProtectingObject",
-        "object_name": "coolant",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": false
-    },
-    {
-        "object_type": "PhysicalObject/Substance/Liquid",
-        "object_name": "fuel",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": false
-    },
-    {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "grease",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leak",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
@@ -249,7 +16,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "leak",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
@@ -258,7 +26,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "leak",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
@@ -267,7 +36,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "leak",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
@@ -276,7 +46,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "leak",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
@@ -285,7 +56,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "leak",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
@@ -294,7 +66,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "leak",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
@@ -303,7 +76,18 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "leak",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/Substance/Liquid",
+        "object_name": "fuel",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/Substance/Gas",
@@ -312,61 +96,258 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "leak",
         "valid": true,
-        "alternate": false
-    },
-    {
-        "object_type": "PhysicalObject/Substance/Solid",
-        "object_name": "dust",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/TemperatureProtectingObject",
         "object_name": "coolant",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
+        "event_name": "leak",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": "Leaking"
     },
     {
-        "object_type": "PhysicalObject/Substance/Gas",
-        "object_name": "air",
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "oil",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
+        "event_name": "leak",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": "Leaking"
     },
     {
-        "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
-        "object_name": "centrifugal oil filter",
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "pump oil",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
+        "event_name": "leak",
         "valid": true,
-        "alternate": false
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
-        "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
-        "object_name": "oil filter",
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "brake pump oil",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
+        "event_name": "leak",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
-        "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
-        "object_name": "filter",
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "cooler pump oil",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
+        "event_name": "leak",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "fan pump oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "swing pump oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "engine pump oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "parts washer pump oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "slew pump oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "drag rope pump oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "pto pump oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "steering pump oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "differential pump oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "transmission oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "engine oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "hydraulic motor engine oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "swingbox oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "thrust bearing oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "centre hitch oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "air compressor oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "differential oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/Substance/Solid",
+        "object_name": "dust",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "hydraulic oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/Substance/Liquid",
@@ -375,7 +356,68 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/Substance/Gas",
+        "object_name": "air",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leaking",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/Substance/Solid",
+        "object_name": "dust",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leaking",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
+        "object_name": "centrifugal oil filter",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leaking",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
+        "object_name": "oil filter",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leaking",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
+        "object_name": "filter",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leaking",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/TemperatureProtectingObject",
+        "object_name": "coolant",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leaking",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
@@ -384,7 +426,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
@@ -393,16 +436,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
         "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "drag rope pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
@@ -411,43 +446,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
         "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "slew pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "engine pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "steering pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "parts washer pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
@@ -456,34 +456,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
         "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "swing pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "pto pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "differential pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
@@ -492,16 +466,88 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "centre hitch oil",
+        "object_name": "swing pump oil",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "engine pump oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leaking",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "parts washer pump oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leaking",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "slew pump oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leaking",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "drag rope pump oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leaking",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "pto pump oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leaking",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "steering pump oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leaking",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "differential pump oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leaking",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
@@ -510,25 +556,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
         "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "air compressor oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "swingbox oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
@@ -537,7 +566,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
@@ -546,7 +576,18 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "swingbox oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leaking",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
@@ -555,7 +596,28 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "centre hitch oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leaking",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "air compressor oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leaking",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
@@ -564,7 +626,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
@@ -573,7 +636,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "discharging",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": null
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
@@ -600,322 +664,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "weeping",
         "valid": true,
-        "alternate": false
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "crowd cylinder hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "air conditioner hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "operator cabin air conditioner hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine air conditioner hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "dragline air conditioner hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cabin air conditioner hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "filter hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "brake filter hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "water separator filter hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "controller filter hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "centrifuge filter hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "tilt cylinder hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "steering hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "clam cylinder hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hoist motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "swing motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "fan motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "wiper motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "drag motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "fan hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine fan hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cooler fan hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "air conditioner fan hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "torque converter fan hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "condenser fan hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "centrifuge hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "boom hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cooler hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor cooler hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "differential cooler hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hmu hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "boom cylinder hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "transmission hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
+        "alternate": false,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
@@ -924,7 +674,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "weeping",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
@@ -933,7 +684,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "weeping",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
@@ -942,151 +694,18 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "weeping",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hitch hose",
+        "object_name": "steering hose",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "weeping",
         "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "heater hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "roof heater hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "drag rope pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "brake pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "slew pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "steering pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "parts washer pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cooler pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "swing pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "pto pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "differential pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "fan pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "bucket cylinder hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
@@ -1095,16 +714,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "weeping",
         "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "slew brake hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
@@ -1113,7 +724,18 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "weeping",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "slew brake hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
@@ -1122,7 +744,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "weeping",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
@@ -1131,7 +754,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "weeping",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
@@ -1140,7 +764,208 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "weeping",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "hitch hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "fan hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "engine fan hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "torque converter fan hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "air conditioner fan hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "condenser fan hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "cooler fan hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "bucket cylinder hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "boom hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "cooler hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "hydraulic motor cooler hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "differential cooler hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "motor hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "drag motor hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "wiper motor hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "pump motor hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "fan motor hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "swing motor hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "hoist motor hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "crowd cylinder hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
@@ -1149,7 +974,308 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "weeping",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "transmission hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "tilt cylinder hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "boom cylinder hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "heater hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "roof heater hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "filter hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "brake filter hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "centrifuge filter hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "controller filter hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "water separator filter hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "hmu hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "centrifuge hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "pump hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "brake pump hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "cooler pump hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "fan pump hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "swing pump hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "engine pump hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "parts washer pump hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "slew pump hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "drag rope pump hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "pto pump hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "steering pump hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "differential pump hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "clam cylinder hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "air conditioner hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "operator cabin air conditioner hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "dragline air conditioner hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "engine air conditioner hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "cabin air conditioner hose",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
@@ -1158,7 +1284,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "creeping",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
     },
     {
         "object_type": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
@@ -1167,7 +1294,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "creeping",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Structural deficiency"
     },
     {
         "object_type": "PhysicalObject/ControllingObject/SealedFluidVaryingObject",
@@ -1176,16 +1304,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "falling off",
         "valid": true,
-        "alternate": false
-    },
-    {
-        "object_type": "PhysicalObject/ControllingObject/SealedFluidVaryingObject",
-        "object_name": "ripper control valve",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "falling off",
-        "valid": true,
-        "alternate": true
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
     },
     {
         "object_type": "PhysicalObject/ControllingObject/SealedFluidVaryingObject",
@@ -1194,7 +1314,18 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "falling off",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_type": "PhysicalObject/ControllingObject/SealedFluidVaryingObject",
+        "object_name": "ripper control valve",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "falling off",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Structural deficiency"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
@@ -1203,7 +1334,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaks",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
@@ -1212,16 +1344,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaks",
         "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "drag rope pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
@@ -1230,43 +1354,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaks",
         "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "slew pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "engine pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "steering pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "parts washer pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
@@ -1275,34 +1364,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaks",
         "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "swing pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "pto pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "differential pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
@@ -1311,16 +1374,88 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaks",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "centre hitch oil",
+        "object_name": "swing pump oil",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaks",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "engine pump oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leaks",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "parts washer pump oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leaks",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "slew pump oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leaks",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "drag rope pump oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leaks",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "pto pump oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leaks",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "steering pump oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leaks",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "differential pump oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leaks",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
@@ -1329,25 +1464,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaks",
         "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "air compressor oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "swingbox oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
@@ -1356,7 +1474,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaks",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
@@ -1365,7 +1484,18 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaks",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "swingbox oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leaks",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
@@ -1374,7 +1504,28 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaks",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "centre hitch oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leaks",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
+        "object_name": "air compressor oil",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "leaks",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
@@ -1383,20 +1534,49 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaks",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Leaking"
     },
     {
-        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
-        "object_name": "column",
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "mount",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "movement",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": null
     },
     {
-        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
-        "object_name": "steering column",
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "engine mount",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "movement",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "hydraulic motor engine mount",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "movement",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "transmission mount",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "movement",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+        "object_name": "beacon mount",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "movement",
@@ -1410,7 +1590,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "movement",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": null
     },
     {
         "object_type": "PhysicalObject/HoldingObject/FasteningObject",
@@ -1432,7 +1613,7 @@
     },
     {
         "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "object_name": "boom foot clevis pin",
+        "object_name": "a-frame clevis pin",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "movement",
@@ -1441,7 +1622,7 @@
     },
     {
         "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "object_name": "a-frame clevis pin",
+        "object_name": "boom foot clevis pin",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "movement",
@@ -1476,44 +1657,18 @@
         "alternate": true
     },
     {
-        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
-        "object_name": "mount",
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "column",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "movement",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": null
     },
     {
-        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
-        "object_name": "transmission mount",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "movement",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
-        "object_name": "engine mount",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "movement",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
-        "object_name": "hydraulic motor engine mount",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "movement",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/StructuralSupportingObject",
-        "object_name": "beacon mount",
+        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+        "object_name": "steering column",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "movement",
@@ -1527,124 +1682,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "bypassing",
         "valid": true,
-        "alternate": false
-    },
-    {
-        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
-        "object_name": "cover",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "cracking",
-        "valid": true,
-        "alternate": false
-    },
-    {
-        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
-        "object_name": "crowd cylinder cover",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "cracking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
-        "object_name": "engine cover",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "cracking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
-        "object_name": "hydraulic motor engine cover",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "cracking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
-        "object_name": "air conditioner cover",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "cracking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
-        "object_name": "operator cabin air conditioner cover",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "cracking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
-        "object_name": "engine air conditioner cover",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "cracking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
-        "object_name": "dragline air conditioner cover",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "cracking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
-        "object_name": "cabin air conditioner cover",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "cracking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
-        "object_name": "pinion cover",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "cracking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
-        "object_name": "differential pinion cover",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "cracking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
-        "object_name": "battery cover",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "cracking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
-        "object_name": "tilt cylinder cover",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "cracking",
-        "valid": true,
-        "alternate": true
+        "alternate": false,
+        "failure_mode": null
     },
     {
         "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
@@ -1653,7 +1692,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "cracking",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
     },
     {
         "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
@@ -1662,7 +1702,138 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "cracking",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
+        "object_name": "cover",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "cracking",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
+        "object_name": "crowd cylinder cover",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "cracking",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
+        "object_name": "tilt cylinder cover",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "cracking",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
+        "object_name": "engine cover",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "cracking",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
+        "object_name": "hydraulic motor engine cover",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "cracking",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
+        "object_name": "pinion cover",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "cracking",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
+        "object_name": "differential pinion cover",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "cracking",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
+        "object_name": "battery cover",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "cracking",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
+        "object_name": "air conditioner cover",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "cracking",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
+        "object_name": "operator cabin air conditioner cover",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "cracking",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
+        "object_name": "dragline air conditioner cover",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "cracking",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
+        "object_name": "engine air conditioner cover",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "cracking",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
+        "object_name": "cabin air conditioner cover",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "cracking",
+        "valid": true,
+        "alternate": true,
+        "failure_mode": "Structural deficiency"
     },
     {
         "object_type": "PhysicalObject/EmittingObject/LightObject",
@@ -1671,7 +1842,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "going on and off",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": "Failure to function"
     },
     {
         "object_type": "PhysicalObject/EmittingObject/LightObject",
@@ -1680,7 +1852,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "going on and off",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Failure to function"
     },
     {
         "object_type": "PhysicalObject/EmittingObject/LightObject",
@@ -1689,7 +1862,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "going on and off",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Failure to function"
     },
     {
         "object_type": "PhysicalObject/DrivingObject/CombustionEngine",
@@ -1698,7 +1872,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "overheating",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": "Overheating"
     },
     {
         "object_type": "PhysicalObject/DrivingObject/CombustionEngine",
@@ -1707,7 +1882,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "overheating",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Overheating"
     },
     {
         "object_type": "PhysicalObject/DrivingObject/CombustionEngine",
@@ -1716,7 +1892,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "vibration",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": "Vibration"
     },
     {
         "object_type": "PhysicalObject/DrivingObject/CombustionEngine",
@@ -1725,7 +1902,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "vibration",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Vibration"
     },
     {
         "object_type": "PhysicalObject/HumanInteractionObject/MovementInteractionObject",
@@ -1734,7 +1912,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "bogging",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": null
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
@@ -1743,7 +1922,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "tripping out",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": null
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
@@ -1765,7 +1945,7 @@
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
-        "object_name": "engine air conditioner compressor",
+        "object_name": "dragline air conditioner compressor",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "tripping out",
@@ -1774,7 +1954,7 @@
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
-        "object_name": "dragline air conditioner compressor",
+        "object_name": "engine air conditioner compressor",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "tripping out",
@@ -1797,7 +1977,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "exhausting",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": null
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/PressureProtectingObject",
@@ -1824,7 +2005,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "coming up",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": null
     },
     {
         "object_type": "PhysicalObject/MatterProcessingObject/MixingObject",
@@ -1833,7 +2015,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "running constantly",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": "Failure to stop on demand"
     },
     {
         "object_type": "PhysicalObject/MatterProcessingObject/MixingObject",
@@ -1842,7 +2025,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "running constantly",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Failure to stop on demand"
     },
     {
         "object_type": "PhysicalObject/MatterProcessingObject/MixingObject",
@@ -1851,7 +2035,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "running constantly",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Failure to stop on demand"
     },
     {
         "object_type": "PhysicalObject/MatterProcessingObject/MixingObject",
@@ -1860,7 +2045,8 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "running constantly",
         "valid": true,
-        "alternate": true
+        "alternate": true,
+        "failure_mode": "Failure to stop on demand"
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
@@ -1869,29 +2055,12 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "keep blowing",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": null
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
-        "object_name": "wiper fuse",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "keep blowing",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
-        "object_name": "starter fuse",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "keep blowing",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
-        "object_name": "engine starter fuse",
+        "object_name": "voltage regulator fuse",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "keep blowing",
@@ -1909,15 +2078,6 @@
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
-        "object_name": "roof lights fuse",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "keep blowing",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
         "object_name": "mast lights fuse",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -1927,7 +2087,16 @@
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
-        "object_name": "voltage regulator fuse",
+        "object_name": "roof lights fuse",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "keep blowing",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
+        "object_name": "wiper fuse",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "keep blowing",
@@ -1954,7 +2123,7 @@
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
-        "object_name": "engine air conditioner fuse",
+        "object_name": "dragline air conditioner fuse",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "keep blowing",
@@ -1963,7 +2132,7 @@
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
-        "object_name": "dragline air conditioner fuse",
+        "object_name": "engine air conditioner fuse",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "keep blowing",
@@ -1989,17 +2158,45 @@
         "alternate": true
     },
     {
+        "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
+        "object_name": "starter fuse",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "keep blowing",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
+        "object_name": "engine starter fuse",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "keep blowing",
+        "valid": true,
+        "alternate": true
+    },
+    {
         "object_type": "PhysicalObject/TransformingObject/ElectricEnergyConvertingObject",
         "object_name": "inverter",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "earthing out",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": null
     },
     {
         "object_type": "PhysicalObject/TransformingObject/ElectricEnergyConvertingObject",
         "object_name": "blower inverter",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "earthing out",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_type": "PhysicalObject/TransformingObject/ElectricEnergyConvertingObject",
+        "object_name": "swing blower inverter",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "earthing out",
@@ -2026,15 +2223,6 @@
     },
     {
         "object_type": "PhysicalObject/TransformingObject/ElectricEnergyConvertingObject",
-        "object_name": "swing blower inverter",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "earthing out",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/TransformingObject/ElectricEnergyConvertingObject",
         "object_name": "air conditioner blower inverter",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -2049,29 +2237,12 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "keeps blowing",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": null
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
-        "object_name": "wiper fuse",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "keeps blowing",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
-        "object_name": "starter fuse",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "keeps blowing",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
-        "object_name": "engine starter fuse",
+        "object_name": "voltage regulator fuse",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "keeps blowing",
@@ -2089,15 +2260,6 @@
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
-        "object_name": "roof lights fuse",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "keeps blowing",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
         "object_name": "mast lights fuse",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -2107,7 +2269,16 @@
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
-        "object_name": "voltage regulator fuse",
+        "object_name": "roof lights fuse",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "keeps blowing",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
+        "object_name": "wiper fuse",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "keeps blowing",
@@ -2134,7 +2305,7 @@
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
-        "object_name": "engine air conditioner fuse",
+        "object_name": "dragline air conditioner fuse",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "keeps blowing",
@@ -2143,7 +2314,7 @@
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
-        "object_name": "dragline air conditioner fuse",
+        "object_name": "engine air conditioner fuse",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "keeps blowing",
@@ -2169,26 +2340,36 @@
         "alternate": true
     },
     {
+        "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
+        "object_name": "starter fuse",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "keeps blowing",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
+        "object_name": "engine starter fuse",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "keeps blowing",
+        "valid": true,
+        "alternate": true
+    },
+    {
         "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
         "object_name": "chip sensor",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "alarm",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": null
     },
     {
         "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
         "object_name": "pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "drag rope pump chip sensor",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "alarm",
@@ -2206,43 +2387,16 @@
     },
     {
         "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "slew pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "engine pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "steering pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "parts washer pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
         "object_name": "cooler pump chip sensor",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "alarm",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
+        "object_name": "fan pump chip sensor",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "alarm",
@@ -2260,7 +2414,52 @@
     },
     {
         "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
+        "object_name": "engine pump chip sensor",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "alarm",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
+        "object_name": "parts washer pump chip sensor",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "alarm",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
+        "object_name": "slew pump chip sensor",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "alarm",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
+        "object_name": "drag rope pump chip sensor",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "alarm",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
         "object_name": "pto pump chip sensor",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "alarm",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
+        "object_name": "steering pump chip sensor",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "alarm",
@@ -2277,35 +2476,18 @@
         "alternate": true
     },
     {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "fan pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true,
-        "alternate": true
-    },
-    {
         "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
         "object_name": "cavity",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "emptying",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": null
     },
     {
         "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
         "object_name": "pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "drag rope pump cavity",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "emptying",
@@ -2323,43 +2505,16 @@
     },
     {
         "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "slew pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "engine pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "steering pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "parts washer pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
         "object_name": "cooler pump cavity",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "emptying",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
+        "object_name": "fan pump cavity",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "emptying",
@@ -2377,6 +2532,42 @@
     },
     {
         "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
+        "object_name": "engine pump cavity",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "emptying",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
+        "object_name": "parts washer pump cavity",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "emptying",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
+        "object_name": "slew pump cavity",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "emptying",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
+        "object_name": "drag rope pump cavity",
+        "event_relation": "hasPatient",
+        "event_type": "Process/UndesirableProcess",
+        "event_name": "emptying",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
         "object_name": "pto pump cavity",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -2386,7 +2577,7 @@
     },
     {
         "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "differential pump cavity",
+        "object_name": "steering pump cavity",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "emptying",
@@ -2395,7 +2586,7 @@
     },
     {
         "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "fan pump cavity",
+        "object_name": "differential pump cavity",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "emptying",
@@ -2418,6 +2609,7 @@
         "event_type": "Process/UndesirableProcess",
         "event_name": "overgreasing",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": null
     }
 ]

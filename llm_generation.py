@@ -121,7 +121,7 @@ if __name__ == "__main__":
     base_prompts, limit_words, limit_count = initialise_prompts(client, num_variants=5, num_examples=5)
 
     # Select random path
-    random.seed(42)
+    random.seed(123)
     path = random.choice(data)
 
     # Generate MWO sentences for the selected path
@@ -137,5 +137,8 @@ if __name__ == "__main__":
         f.write(f"Number of sentences: {len(sentences)}\n")
         f.write("----------------------------------------\n")
         for sentence in sentences:
-            f.write(f"~ {sentence}\n")
+            if 'failure_mode' in path:
+                f.write(f"~ {sentence},{path['failure_mode']}\n")
+            else:
+                f.write(f"~ {sentence}\n")
         f.write("========================================\n")
