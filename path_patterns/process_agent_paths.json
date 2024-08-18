@@ -216,42 +216,6 @@
         "alternate": true
     },
     {
-        "object_type": "PhysicalObject/ProtectingObject/PressureProtectingObject",
-        "object_name": "operator cabin air conditioner compressor safety valve",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/PressureProtectingObject",
-        "object_name": "engine air conditioner compressor safety valve",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/PressureProtectingObject",
-        "object_name": "dragline air conditioner compressor safety valve",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/PressureProtectingObject",
-        "object_name": "cabin air conditioner compressor safety valve",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
         "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
         "object_name": "transmission",
         "event_relation": "hasAgent",
@@ -326,15 +290,6 @@
     {
         "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
         "object_name": "drag brake pump",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
-        "object_name": "hoist drag brake pump",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leak",
@@ -460,15 +415,6 @@
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
-        "object_name": "hydraulic motor engine fan pump",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
         "object_name": "cooler fan pump",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
@@ -478,61 +424,7 @@
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
-        "object_name": "hydraulic motor cooler fan pump",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
-        "object_name": "differential cooler fan pump",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
         "object_name": "air conditioner fan pump",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
-        "object_name": "operator cabin air conditioner fan pump",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
-        "object_name": "engine air conditioner fan pump",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
-        "object_name": "dragline air conditioner fan pump",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
-        "object_name": "cabin air conditioner fan pump",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leak",
@@ -551,15 +443,6 @@
     {
         "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
         "object_name": "condenser fan pump",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
-        "object_name": "air conditioner condenser fan pump",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leak",
@@ -784,24 +667,6 @@
     },
     {
         "object_type": "PhysicalObject/InterfacingObject/DetachableCoupling",
-        "object_name": "hydraulic motor cooler return pipe coupling",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/DetachableCoupling",
-        "object_name": "differential cooler return pipe coupling",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/DetachableCoupling",
         "object_name": "hydraulic pump coupling",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
@@ -865,15 +730,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine air conditioner hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "dragline air conditioner hose",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
@@ -910,51 +766,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "slew brake filter hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "swing brake filter hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hoist brake filter hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "walk motor brake filter hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "drag brake filter hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "water separator filter hose",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
@@ -964,25 +775,7 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "fuel filter water separator filter hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "controller filter hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "transmission controller filter hose",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leak",
@@ -1063,151 +856,7 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "drag rope pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "brake pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "slew pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "steering pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "parts washer pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cooler pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "swing pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "pto pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "differential pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "fan pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "fan motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine fan motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cooler fan motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "air conditioner fan motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "torque converter fan motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "condenser fan motor hose",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leak",
@@ -1234,15 +883,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hoist drag motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "fan hose",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
@@ -1261,15 +901,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine fan hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "cooler fan hose",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
@@ -1279,61 +910,7 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor cooler fan hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "differential cooler fan hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "air conditioner fan hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "operator cabin air conditioner fan hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine air conditioner fan hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "dragline air conditioner fan hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cabin air conditioner fan hose",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leak",
@@ -1352,15 +929,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "condenser fan hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "air conditioner condenser fan hose",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leak",
@@ -1468,15 +1036,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine oil cooler hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "hitch hose",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
@@ -1496,15 +1055,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "roof heater hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cabin roof heater hose",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leak",
@@ -1540,51 +1090,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "slew brake pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "swing brake pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hoist brake pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "walk motor brake pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "drag brake pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "slew pump hose",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
@@ -1595,15 +1100,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "engine pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine pump hose",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leak",
@@ -1631,24 +1127,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "cooler pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor cooler pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "differential cooler pump hose",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leak",
@@ -1685,51 +1163,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "fan pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine fan pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cooler fan pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "air conditioner fan pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "torque converter fan pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "condenser fan pump hose",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leak",
@@ -1801,15 +1234,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hoist drag brake hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "slew motor hose",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
@@ -1847,15 +1271,6 @@
     {
         "object_type": "PhysicalObject/ControllingObject/SealedFluidVaryingObject",
         "object_name": "roof heater taps",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ControllingObject/SealedFluidVaryingObject",
-        "object_name": "cabin roof heater taps",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
@@ -1935,15 +1350,6 @@
         "alternate": true
     },
     {
-        "object_type": "PhysicalObject/CoveringObject/InfillingObject",
-        "object_name": "hydraulic motor engine oil centrifuge gasket",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
         "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
         "object_name": "pump",
         "event_relation": "hasAgent",
@@ -2009,15 +1415,6 @@
     {
         "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
         "object_name": "drag brake pump",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
-        "object_name": "hoist drag brake pump",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
@@ -2143,15 +1540,6 @@
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
-        "object_name": "hydraulic motor engine fan pump",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
         "object_name": "cooler fan pump",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
@@ -2161,61 +1549,7 @@
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
-        "object_name": "hydraulic motor cooler fan pump",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
-        "object_name": "differential cooler fan pump",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
         "object_name": "air conditioner fan pump",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
-        "object_name": "operator cabin air conditioner fan pump",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
-        "object_name": "engine air conditioner fan pump",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
-        "object_name": "dragline air conditioner fan pump",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
-        "object_name": "cabin air conditioner fan pump",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
@@ -2234,15 +1568,6 @@
     {
         "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
         "object_name": "condenser fan pump",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
-        "object_name": "air conditioner condenser fan pump",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
@@ -2323,15 +1648,6 @@
     },
     {
         "object_type": "PhysicalObject/CoveringObject/InfillingObject",
-        "object_name": "conveyor head pulley shaft input seal",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/CoveringObject/InfillingObject",
         "object_name": "water pump shaft input seal",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
@@ -2341,43 +1657,7 @@
     },
     {
         "object_type": "PhysicalObject/CoveringObject/InfillingObject",
-        "object_name": "engine water pump shaft input seal",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/CoveringObject/InfillingObject",
         "object_name": "drive shaft input seal",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/CoveringObject/InfillingObject",
-        "object_name": "alternator drive shaft input seal",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/CoveringObject/InfillingObject",
-        "object_name": "air conditioner drive shaft input seal",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/CoveringObject/InfillingObject",
-        "object_name": "pump drive shaft input seal",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
@@ -2468,15 +1748,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "drag brake cooling return hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hoist drag brake cooling return hose",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
@@ -2665,15 +1936,6 @@
     },
     {
         "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
-        "object_name": "hoist drag brake filter",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
         "object_name": "water separator filter",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
@@ -2809,42 +2071,6 @@
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/PressureProtectingObject",
-        "object_name": "operator cabin air conditioner compressor safety valve",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/PressureProtectingObject",
-        "object_name": "engine air conditioner compressor safety valve",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/PressureProtectingObject",
-        "object_name": "dragline air conditioner compressor safety valve",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/PressureProtectingObject",
-        "object_name": "cabin air conditioner compressor safety valve",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/PressureProtectingObject",
         "object_name": "pressure compensator",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
@@ -2882,15 +2108,6 @@
     {
         "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
         "object_name": "engine air conditioner accessory drive",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
-        "object_name": "hydraulic motor engine air conditioner accessory drive",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
@@ -2980,15 +2197,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine fan hoses",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "cooler fan hoses",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
@@ -2998,61 +2206,7 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor cooler fan hoses",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "differential cooler fan hoses",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "air conditioner fan hoses",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "operator cabin air conditioner fan hoses",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine air conditioner fan hoses",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "dragline air conditioner fan hoses",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cabin air conditioner fan hoses",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
@@ -3071,15 +2225,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "condenser fan hoses",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "air conditioner condenser fan hoses",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
@@ -3133,151 +2278,7 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "drag rope pump motor hoses",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "brake pump motor hoses",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "slew pump motor hoses",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine pump motor hoses",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "steering pump motor hoses",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "parts washer pump motor hoses",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cooler pump motor hoses",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "swing pump motor hoses",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "pto pump motor hoses",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "differential pump motor hoses",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "fan pump motor hoses",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "fan motor hoses",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine fan motor hoses",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cooler fan motor hoses",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "air conditioner fan motor hoses",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "torque converter fan motor hoses",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "condenser fan motor hoses",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
@@ -3296,15 +2297,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "drag motor hoses",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hoist drag motor hoses",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
@@ -3368,15 +2360,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "drag brake cooling hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hoist drag brake cooling hose",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
@@ -3466,15 +2449,6 @@
     },
     {
         "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
-        "object_name": "hydraulic motor engine air conditioner drive",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
         "object_name": "dragline air conditioner drive",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
@@ -3520,51 +2494,6 @@
     },
     {
         "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
-        "object_name": "slew brake pump drive",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
-        "object_name": "swing brake pump drive",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
-        "object_name": "hoist brake pump drive",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
-        "object_name": "walk motor brake pump drive",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
-        "object_name": "drag brake pump drive",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
         "object_name": "slew pump drive",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
@@ -3575,15 +2504,6 @@
     {
         "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
         "object_name": "engine pump drive",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
-        "object_name": "hydraulic motor engine pump drive",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
@@ -3611,24 +2531,6 @@
     {
         "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
         "object_name": "cooler pump drive",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
-        "object_name": "hydraulic motor cooler pump drive",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
-        "object_name": "differential cooler pump drive",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
@@ -3665,51 +2567,6 @@
     {
         "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
         "object_name": "fan pump drive",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
-        "object_name": "engine fan pump drive",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
-        "object_name": "cooler fan pump drive",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
-        "object_name": "air conditioner fan pump drive",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
-        "object_name": "torque converter fan pump drive",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
-        "object_name": "condenser fan pump drive",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
@@ -3853,15 +2710,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine air conditioner hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "dragline air conditioner hose",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
@@ -3898,51 +2746,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "slew brake filter hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "swing brake filter hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hoist brake filter hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "walk motor brake filter hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "drag brake filter hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "water separator filter hose",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
@@ -3952,25 +2755,7 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "fuel filter water separator filter hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "controller filter hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "transmission controller filter hose",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
@@ -4051,151 +2836,7 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "drag rope pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "brake pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "slew pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "steering pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "parts washer pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cooler pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "swing pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "pto pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "differential pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "fan pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "fan motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine fan motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cooler fan motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "air conditioner fan motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "torque converter fan motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "condenser fan motor hose",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
@@ -4222,15 +2863,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hoist drag motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "fan hose",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
@@ -4249,15 +2881,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine fan hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "cooler fan hose",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
@@ -4267,61 +2890,7 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor cooler fan hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "differential cooler fan hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "air conditioner fan hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "operator cabin air conditioner fan hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine air conditioner fan hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "dragline air conditioner fan hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cabin air conditioner fan hose",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
@@ -4340,15 +2909,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "condenser fan hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "air conditioner condenser fan hose",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
@@ -4456,15 +3016,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine oil cooler hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "hitch hose",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
@@ -4484,15 +3035,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "roof heater hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cabin roof heater hose",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
@@ -4528,51 +3070,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "slew brake pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "swing brake pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hoist brake pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "walk motor brake pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "drag brake pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "slew pump hose",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
@@ -4583,15 +3080,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "engine pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine pump hose",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
@@ -4619,24 +3107,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "cooler pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor cooler pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "differential cooler pump hose",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
@@ -4673,51 +3143,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "fan pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine fan pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cooler fan pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "air conditioner fan pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "torque converter fan pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "condenser fan pump hose",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
@@ -4781,15 +3206,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "drag brake hose",
-        "event_relation": "hasAgent",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hoist drag brake hose",
         "event_relation": "hasAgent",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",

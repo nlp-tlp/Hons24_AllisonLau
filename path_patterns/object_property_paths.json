@@ -370,42 +370,6 @@
     },
     {
         "object_type": "PhysicalObject/HoldingObject/JointingObject",
-        "object_name": "operator cabin air conditioner compressor bearing",
-        "event_relation": "hasProperty",
-        "event_type": "Property/UndesirableProperty",
-        "event_name": "noisy",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/JointingObject",
-        "object_name": "engine air conditioner compressor bearing",
-        "event_relation": "hasProperty",
-        "event_type": "Property/UndesirableProperty",
-        "event_name": "noisy",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/JointingObject",
-        "object_name": "dragline air conditioner compressor bearing",
-        "event_relation": "hasProperty",
-        "event_type": "Property/UndesirableProperty",
-        "event_name": "noisy",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/JointingObject",
-        "object_name": "cabin air conditioner compressor bearing",
-        "event_relation": "hasProperty",
-        "event_type": "Property/UndesirableProperty",
-        "event_name": "noisy",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/JointingObject",
         "object_name": "roller bearing",
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
@@ -416,15 +380,6 @@
     {
         "object_type": "PhysicalObject/HoldingObject/JointingObject",
         "object_name": "drag roller bearing",
-        "event_relation": "hasProperty",
-        "event_type": "Property/UndesirableProperty",
-        "event_name": "noisy",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/JointingObject",
-        "object_name": "hoist drag roller bearing",
         "event_relation": "hasProperty",
         "event_type": "Property/UndesirableProperty",
         "event_name": "noisy",

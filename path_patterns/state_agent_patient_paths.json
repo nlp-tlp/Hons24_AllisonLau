@@ -95,7 +95,7 @@
         "event_name": "needs",
         "helper_type": "PhysicalObject/Substance/Liquid",
         "helper_name": "loctite",
-        "valid": false,
+        "valid": true,
         "alternate": false
     },
     {
@@ -106,7 +106,7 @@
         "event_name": "needs",
         "helper_type": "PhysicalObject/Substance/Liquid",
         "helper_name": "loctite",
-        "valid": false,
+        "valid": true,
         "alternate": true
     },
     {
@@ -271,7 +271,7 @@
         "event_name": "needs",
         "helper_type": "PhysicalObject/Substance/Liquid",
         "helper_name": "loctite",
-        "valid": false,
+        "valid": true,
         "alternate": false
     },
     {
@@ -282,7 +282,7 @@
         "event_name": "needs",
         "helper_type": "PhysicalObject/Substance/Liquid",
         "helper_name": "loctite",
-        "valid": false,
+        "valid": true,
         "alternate": true
     },
     {
@@ -408,61 +408,6 @@
     },
     {
         "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "object_name": "slew brake pump bolt",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "object_name": "swing brake pump bolt",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "object_name": "hoist brake pump bolt",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "object_name": "walk motor brake pump bolt",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "object_name": "drag brake pump bolt",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "object_name": "slew pump bolt",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
@@ -475,17 +420,6 @@
     {
         "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "object_name": "engine pump bolt",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "object_name": "hydraulic motor engine pump bolt",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
         "event_name": "needs",
@@ -519,28 +453,6 @@
     {
         "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "object_name": "cooler pump bolt",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "object_name": "hydraulic motor cooler pump bolt",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "object_name": "differential cooler pump bolt",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
         "event_name": "needs",
@@ -585,61 +497,6 @@
     {
         "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "object_name": "fan pump bolt",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "object_name": "engine fan pump bolt",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "object_name": "cooler fan pump bolt",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "object_name": "air conditioner fan pump bolt",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "object_name": "torque converter fan pump bolt",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "object_name": "condenser fan pump bolt",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
         "event_name": "needs",
@@ -727,61 +584,6 @@
     },
     {
         "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "object_name": "slew brake pump bolt",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "object_name": "swing brake pump bolt",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "object_name": "hoist brake pump bolt",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "object_name": "walk motor brake pump bolt",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "object_name": "drag brake pump bolt",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "object_name": "slew pump bolt",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
@@ -794,17 +596,6 @@
     {
         "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "object_name": "engine pump bolt",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "object_name": "hydraulic motor engine pump bolt",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
         "event_name": "needs",
@@ -838,28 +629,6 @@
     {
         "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "object_name": "cooler pump bolt",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "object_name": "hydraulic motor cooler pump bolt",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "object_name": "differential cooler pump bolt",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
         "event_name": "needs",
@@ -904,61 +673,6 @@
     {
         "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "object_name": "fan pump bolt",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "object_name": "engine fan pump bolt",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "object_name": "cooler fan pump bolt",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "object_name": "air conditioner fan pump bolt",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "object_name": "torque converter fan pump bolt",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "object_name": "condenser fan pump bolt",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
         "event_name": "needs",
@@ -1074,7 +788,7 @@
         "event_name": "needs",
         "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
         "helper_name": "aerial",
-        "valid": false,
+        "valid": true,
         "alternate": false
     },
     {
@@ -1156,17 +870,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine air conditioner hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "dragline air conditioner hose",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
@@ -1211,61 +914,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "slew brake filter hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "swing brake filter hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hoist brake filter hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "walk motor brake filter hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "drag brake filter hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "water separator filter hose",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
@@ -1277,29 +925,7 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "fuel filter water separator filter hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "controller filter hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "transmission controller filter hose",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
         "event_name": "needs",
@@ -1398,183 +1024,7 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "drag rope pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "brake pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "slew pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "steering pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "parts washer pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cooler pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "swing pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "pto pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "differential pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "fan pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "fan motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine fan motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cooler fan motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "air conditioner fan motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "torque converter fan motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "condenser fan motor hose",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
         "event_name": "needs",
@@ -1607,17 +1057,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hoist drag motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "fan hose",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
@@ -1640,17 +1079,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine fan hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "cooler fan hose",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
@@ -1662,73 +1090,7 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor cooler fan hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "differential cooler fan hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "air conditioner fan hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "operator cabin air conditioner fan hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine air conditioner fan hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "dragline air conditioner fan hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cabin air conditioner fan hose",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
         "event_name": "needs",
@@ -1751,17 +1113,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "condenser fan hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "air conditioner condenser fan hose",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
         "event_name": "needs",
@@ -1893,17 +1244,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine oil cooler hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "hitch hose",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
@@ -1927,17 +1267,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "roof heater hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cabin roof heater hose",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
         "event_name": "needs",
@@ -1981,61 +1310,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "slew brake pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "swing brake pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hoist brake pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "walk motor brake pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "drag brake pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "slew pump hose",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
@@ -2048,17 +1322,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "engine pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine pump hose",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
         "event_name": "needs",
@@ -2092,28 +1355,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "cooler pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor cooler pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "differential cooler pump hose",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
         "event_name": "needs",
@@ -2158,61 +1399,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "fan pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine fan pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cooler fan pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "air conditioner fan pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "torque converter fan pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "condenser fan pump hose",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
         "event_name": "needs",
@@ -2290,17 +1476,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "drag brake hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/Substance/Liquid",
-        "helper_name": "loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hoist drag brake hose",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
         "event_name": "needs",
@@ -2377,17 +1552,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine air conditioner hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "dragline air conditioner hose",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
@@ -2432,61 +1596,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "slew brake filter hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "swing brake filter hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hoist brake filter hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "walk motor brake filter hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "drag brake filter hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "water separator filter hose",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
@@ -2498,29 +1607,7 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "fuel filter water separator filter hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "controller filter hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "transmission controller filter hose",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
         "event_name": "needs",
@@ -2619,183 +1706,7 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "drag rope pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "brake pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "slew pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "steering pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "parts washer pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cooler pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "swing pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "pto pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "differential pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "fan pump motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "fan motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine fan motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cooler fan motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "air conditioner fan motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "torque converter fan motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "condenser fan motor hose",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
         "event_name": "needs",
@@ -2828,17 +1739,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hoist drag motor hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "fan hose",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
@@ -2861,17 +1761,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine fan hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "cooler fan hose",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
@@ -2883,73 +1772,7 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor cooler fan hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "differential cooler fan hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "air conditioner fan hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "operator cabin air conditioner fan hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine air conditioner fan hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "dragline air conditioner fan hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cabin air conditioner fan hose",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
         "event_name": "needs",
@@ -2972,17 +1795,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "condenser fan hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "air conditioner condenser fan hose",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
         "event_name": "needs",
@@ -3114,17 +1926,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine oil cooler hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "hitch hose",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
@@ -3148,17 +1949,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "roof heater hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cabin roof heater hose",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
         "event_name": "needs",
@@ -3202,61 +1992,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "slew brake pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "swing brake pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hoist brake pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "walk motor brake pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "drag brake pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "slew pump hose",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
@@ -3269,17 +2004,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "engine pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine pump hose",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
         "event_name": "needs",
@@ -3313,28 +2037,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "cooler pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor cooler pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "differential cooler pump hose",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
         "event_name": "needs",
@@ -3379,61 +2081,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "fan pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine fan pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cooler fan pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "air conditioner fan pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "torque converter fan pump hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "condenser fan pump hose",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
         "event_name": "needs",
@@ -3511,17 +2158,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "drag brake hose",
-        "event_relation": "hasAgent",
-        "event_type": "State/UndesirableState",
-        "event_name": "needs",
-        "helper_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "helper_name": "aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hoist drag brake hose",
         "event_relation": "hasAgent",
         "event_type": "State/UndesirableState",
         "event_name": "needs",
@@ -3549,7 +2185,7 @@
         "event_name": "needs",
         "helper_type": "PhysicalObject/Substance/Liquid",
         "helper_name": "loctite",
-        "valid": false,
+        "valid": true,
         "alternate": false
     },
     {

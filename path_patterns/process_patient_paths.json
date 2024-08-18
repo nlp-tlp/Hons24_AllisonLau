@@ -64,51 +64,6 @@
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "slew brake pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "swing brake pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "hoist brake pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "walk motor brake pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "drag brake pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "slew pump oil",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -119,15 +74,6 @@
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "engine pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "hydraulic motor engine pump oil",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leak",
@@ -155,24 +101,6 @@
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "cooler pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "hydraulic motor cooler pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "differential cooler pump oil",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leak",
@@ -209,51 +137,6 @@
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "engine fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "cooler fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "air conditioner fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "torque converter fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "condenser fan pump oil",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leak",
@@ -397,24 +280,6 @@
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "boom foot clevis pin grease",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "a-frame clevis pin grease",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "steering cylinder pin grease",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -550,51 +415,6 @@
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "slew brake pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "swing brake pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "hoist brake pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "walk motor brake pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "drag brake pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "slew pump oil",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -605,15 +425,6 @@
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "engine pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "hydraulic motor engine pump oil",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
@@ -641,24 +452,6 @@
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "cooler pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "hydraulic motor cooler pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "differential cooler pump oil",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
@@ -695,51 +488,6 @@
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "engine fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "cooler fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "air conditioner fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "torque converter fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "condenser fan pump oil",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaking",
@@ -846,42 +594,6 @@
         "alternate": true
     },
     {
-        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
-        "object_name": "hoist blower inverter batteries",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "discharging",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
-        "object_name": "drag blower inverter batteries",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "discharging",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
-        "object_name": "swing blower inverter batteries",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "discharging",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
-        "object_name": "air conditioner blower inverter batteries",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "discharging",
-        "valid": true,
-        "alternate": true
-    },
-    {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "hose",
         "event_relation": "hasPatient",
@@ -928,15 +640,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine air conditioner hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "dragline air conditioner hose",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -973,51 +676,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "slew brake filter hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "swing brake filter hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hoist brake filter hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "walk motor brake filter hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "drag brake filter hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "water separator filter hose",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -1027,25 +685,7 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "fuel filter water separator filter hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "controller filter hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "transmission controller filter hose",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "weeping",
@@ -1126,151 +766,7 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "drag rope pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "brake pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "slew pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "steering pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "parts washer pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cooler pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "swing pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "pto pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "differential pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "fan pump motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "fan motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine fan motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cooler fan motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "air conditioner fan motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "torque converter fan motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "condenser fan motor hose",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "weeping",
@@ -1297,15 +793,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hoist drag motor hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "fan hose",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -1324,15 +811,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine fan hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "cooler fan hose",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -1342,61 +820,7 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor cooler fan hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "differential cooler fan hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "air conditioner fan hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "operator cabin air conditioner fan hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine air conditioner fan hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "dragline air conditioner fan hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cabin air conditioner fan hose",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "weeping",
@@ -1415,15 +839,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "condenser fan hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "air conditioner condenser fan hose",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "weeping",
@@ -1531,15 +946,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine oil cooler hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "hitch hose",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -1559,15 +965,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "roof heater hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cabin roof heater hose",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "weeping",
@@ -1603,51 +1000,6 @@
     },
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "slew brake pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "swing brake pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hoist brake pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "walk motor brake pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "drag brake pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "slew pump hose",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -1658,15 +1010,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "engine pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor engine pump hose",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "weeping",
@@ -1694,24 +1037,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "cooler pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hydraulic motor cooler pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "differential cooler pump hose",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "weeping",
@@ -1748,51 +1073,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "fan pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "engine fan pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "cooler fan pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "air conditioner fan pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "torque converter fan pump hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "condenser fan pump hose",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "weeping",
@@ -1856,15 +1136,6 @@
     {
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "object_name": "drag brake hose",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "object_name": "hoist drag brake hose",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "weeping",
@@ -1963,51 +1234,6 @@
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "slew brake pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "swing brake pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "hoist brake pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "walk motor brake pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "drag brake pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "slew pump oil",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -2018,15 +1244,6 @@
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "engine pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "hydraulic motor engine pump oil",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaks",
@@ -2054,24 +1271,6 @@
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "cooler pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "hydraulic motor cooler pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "differential cooler pump oil",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaks",
@@ -2108,51 +1307,6 @@
     {
         "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
         "object_name": "fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "engine fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "cooler fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "air conditioner fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "torque converter fan pump oil",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "leaks",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/WearProtectingObject",
-        "object_name": "condenser fan pump oil",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "leaks",
@@ -2440,15 +1594,6 @@
     },
     {
         "object_type": "PhysicalObject/CoveringObject/ClosureObject",
-        "object_name": "hydraulic motor engine air conditioner cover",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "cracking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/CoveringObject/ClosureObject",
         "object_name": "dragline air conditioner cover",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -2629,15 +1774,6 @@
     },
     {
         "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
-        "object_name": "hydraulic motor engine air conditioner compressor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "tripping out",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
         "object_name": "dragline air conditioner compressor",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -2764,15 +1900,6 @@
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
-        "object_name": "hydraulic motor engine starter fuse",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "keep blowing",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
         "object_name": "lights fuse",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -2783,15 +1910,6 @@
     {
         "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
         "object_name": "roof lights fuse",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "keep blowing",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
-        "object_name": "cabin roof lights fuse",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "keep blowing",
@@ -2837,15 +1955,6 @@
     {
         "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
         "object_name": "engine air conditioner fuse",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "keep blowing",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
-        "object_name": "hydraulic motor engine air conditioner fuse",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "keep blowing",
@@ -2917,15 +2026,6 @@
     },
     {
         "object_type": "PhysicalObject/TransformingObject/ElectricEnergyConvertingObject",
-        "object_name": "hoist drag blower inverter",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "earthing out",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/TransformingObject/ElectricEnergyConvertingObject",
         "object_name": "swing blower inverter",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -2936,42 +2036,6 @@
     {
         "object_type": "PhysicalObject/TransformingObject/ElectricEnergyConvertingObject",
         "object_name": "air conditioner blower inverter",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "earthing out",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/TransformingObject/ElectricEnergyConvertingObject",
-        "object_name": "operator cabin air conditioner blower inverter",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "earthing out",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/TransformingObject/ElectricEnergyConvertingObject",
-        "object_name": "engine air conditioner blower inverter",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "earthing out",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/TransformingObject/ElectricEnergyConvertingObject",
-        "object_name": "dragline air conditioner blower inverter",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "earthing out",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/TransformingObject/ElectricEnergyConvertingObject",
-        "object_name": "cabin air conditioner blower inverter",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "earthing out",
@@ -3016,15 +2080,6 @@
     },
     {
         "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
-        "object_name": "hydraulic motor engine starter fuse",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "keeps blowing",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
         "object_name": "lights fuse",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -3035,15 +2090,6 @@
     {
         "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
         "object_name": "roof lights fuse",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "keeps blowing",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
-        "object_name": "cabin roof lights fuse",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "keeps blowing",
@@ -3089,15 +2135,6 @@
     {
         "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
         "object_name": "engine air conditioner fuse",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "keeps blowing",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
-        "object_name": "hydraulic motor engine air conditioner fuse",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "keeps blowing",
@@ -3169,51 +2206,6 @@
     },
     {
         "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "slew brake pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "swing brake pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "hoist brake pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "walk motor brake pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "drag brake pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
         "object_name": "slew pump chip sensor",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -3224,15 +2216,6 @@
     {
         "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
         "object_name": "engine pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "hydraulic motor engine pump chip sensor",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "alarm",
@@ -3260,24 +2243,6 @@
     {
         "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
         "object_name": "cooler pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "hydraulic motor cooler pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "differential cooler pump chip sensor",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "alarm",
@@ -3314,51 +2279,6 @@
     {
         "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
         "object_name": "fan pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "engine fan pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "cooler fan pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "air conditioner fan pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "torque converter fan pump chip sensor",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "alarm",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/SensingObject/ConcentrationSensingObject",
-        "object_name": "condenser fan pump chip sensor",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "alarm",
@@ -3403,51 +2323,6 @@
     },
     {
         "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "slew brake pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "swing brake pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "hoist brake pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "walk motor brake pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "drag brake pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
         "object_name": "slew pump cavity",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
@@ -3458,15 +2333,6 @@
     {
         "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
         "object_name": "engine pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "hydraulic motor engine pump cavity",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "emptying",
@@ -3494,24 +2360,6 @@
     {
         "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
         "object_name": "cooler pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "hydraulic motor cooler pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "differential cooler pump cavity",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "emptying",
@@ -3548,51 +2396,6 @@
     {
         "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
         "object_name": "fan pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "engine fan pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "cooler fan pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "air conditioner fan pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "torque converter fan pump cavity",
-        "event_relation": "hasPatient",
-        "event_type": "Process/UndesirableProcess",
-        "event_name": "emptying",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
-        "object_name": "condenser fan pump cavity",
         "event_relation": "hasPatient",
         "event_type": "Process/UndesirableProcess",
         "event_name": "emptying",

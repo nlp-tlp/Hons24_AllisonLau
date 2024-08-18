@@ -31,49 +31,5 @@
         "helper_name": "no",
         "valid": true,
         "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
-        "object_name": "hoist blower inverter batteries",
-        "event_relation": "hasProperty",
-        "event_type": "Property/DesirableProperty",
-        "event_name": "charge",
-        "helper_type": "State/UndesirableState/FailedState",
-        "helper_name": "no",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
-        "object_name": "drag blower inverter batteries",
-        "event_relation": "hasProperty",
-        "event_type": "Property/DesirableProperty",
-        "event_name": "charge",
-        "helper_type": "State/UndesirableState/FailedState",
-        "helper_name": "no",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
-        "object_name": "swing blower inverter batteries",
-        "event_relation": "hasProperty",
-        "event_type": "Property/DesirableProperty",
-        "event_name": "charge",
-        "helper_type": "State/UndesirableState/FailedState",
-        "helper_name": "no",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
-        "object_name": "air conditioner blower inverter batteries",
-        "event_relation": "hasProperty",
-        "event_type": "Property/DesirableProperty",
-        "event_name": "charge",
-        "helper_type": "State/UndesirableState/FailedState",
-        "helper_name": "no",
-        "valid": true,
-        "alternate": true
     }
 ]
