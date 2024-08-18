@@ -67,8 +67,8 @@ def introduce_contractions(sentence, chance=0.5):
             sentence = re.sub(pattern, random.choice(contracted), sentence, flags=re.I)
     return sentence
 
-# Introduce abbreviations in a sentence (default probability=0.5)
-def introduce_abbreviations(sentence, chance=0.5):
+# Introduce abbreviations in a sentence (default probability=0.4)
+def introduce_abbreviations(sentence, chance=0.4):
     """ Introduce abbreviations in a sentence """
     abbreviations = shuffle_dictionary(ABBREVIATIONS_DICT) # Shuffle
     for original, variations in abbreviations.items():
@@ -173,8 +173,8 @@ def replace_homophone(word):
         return random.choice(homophones)
     return word # No homophones found
 
-# Introduce different typos in a sentence (default probability=0.1)
-def rule_introduce_typos(sentence, chance=0.1, max_typos=3):
+# Introduce different typos in a sentence (default probability=0.08)
+def rule_introduce_typos(sentence, chance=0.08, max_typos=3):
     """ Introduce typos in a sentence with a given probability. """
     typo_funcs = [add_space, swap_adjacent, omit_letter, double_letter, adjacent_key, adjacent_add, replace_homophone]
     typo_probs = [10, 16, 16, 16, 13, 16, 13]  # Probabilities for each typo function
@@ -232,7 +232,7 @@ def humanise_sentence(sentence, llm=False):
     sentence = introduce_contractions(sentence)
     sentence = introduce_abbreviations(sentence)
     if llm:
-        sentence = llm_introduce_typos(client, sentence)
+        sentence = llm_introduce_typos(llm, sentence)
     else:
         sentence = rule_introduce_typos(sentence)
     return sentence

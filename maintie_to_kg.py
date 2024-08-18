@@ -1,3 +1,4 @@
+import csv
 import json
 from neo4j import GraphDatabase
 
@@ -69,6 +70,26 @@ def create_entry(tx, entry_text, entry_id):
         id=entry_id, entry_id=entry_id
     )
 
+# Function to read MaintIE manual mapping of failure mode codes
+def read_failure_mode_mapping(filepath):
+    with open(filepath, 'r', encoding='utf-8') as file:
+        reader = csv.reader(file)
+        next(reader)
+        failure_mode_mapping = {}
+        for row in reader:
+            if row[3] != "":
+                failure_mode_mapping[row[0]] = row[3]
+    return failure_mode_mapping
+
+# Function to label entry to failure mode codes
+def entry_failure_mode(tx, failure_mode_mapping):
+    for entry_text, failure_mode in failure_mode_mapping.items():
+        tx.run(
+            "MATCH (a:Entry {text: $entry_text}) "
+            "SET a.failure_mode = $failure_mode",
+            entry_text=entry_text, failure_mode=failure_mode
+        )
+
 # Function to create graph
 def create_graph(tx, data):
     """ Create graph from MaintIE dataset. """
@@ -79,7 +100,8 @@ def create_graph(tx, data):
         tokens = entry["tokens"]
         current_entities, unique_entities = create_nodes(tx, entities, unique_entities, tokens, entry_id)
         create_relations(tx, relations, unique_entities, current_entities)
-        create_entry(tx, entry['text'], entry_id)
+        create_entry(tx, entry['text'], entry_id) 
+        entry_failure_mode(tx, read_failure_mode_mapping('data/MaintIE/gold_undesirable_mapped.csv'))
 
     print(f"Created {len(unique_entities)} entities.")
     print(f"Created {len(data)} entry entities.")
