@@ -1,34 +1,19 @@
 [
     {
-        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
         "object_name": "batteries",
-        "event_relation": "hasProperty",
-        "event_type": "Property/DesirableProperty",
-        "event_name": "charge",
-        "helper_type": "State/UndesirableState/FailedState",
-        "helper_name": "no",
+        "event_name": "no charge",
         "valid": true,
         "alternate": false
     },
     {
-        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
         "object_name": "inverter batteries",
-        "event_relation": "hasProperty",
-        "event_type": "Property/DesirableProperty",
-        "event_name": "charge",
-        "helper_type": "State/UndesirableState/FailedState",
-        "helper_name": "no",
+        "event_name": "no charge",
         "valid": true,
         "alternate": true
     },
     {
-        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
         "object_name": "blower inverter batteries",
-        "event_relation": "hasProperty",
-        "event_type": "Property/DesirableProperty",
-        "event_name": "charge",
-        "helper_type": "State/UndesirableState/FailedState",
-        "helper_name": "no",
+        "event_name": "no charge",
         "valid": true,
         "alternate": true
     }
