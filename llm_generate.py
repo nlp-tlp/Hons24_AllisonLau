@@ -38,6 +38,7 @@ def get_generate_prompt(prompt_variations, object, event):
                 You must use all terms given above and do not add new information.
                 Avoid verbosity and use minimal stop words.
                 Each sentence can have a maximum of 8 words.
+                Do not use these terms: {blacklisted_words}.
     """
     # Randomly select base prompt and instruction prompt
     base_prompts, limit_words, limit_count = prompt_variations

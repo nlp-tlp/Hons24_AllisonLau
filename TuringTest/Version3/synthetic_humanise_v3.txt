@@ -1,213 +1,213 @@
-replace headboard with cracks
-repair carcks on cross braces
-repair crack in headboard
-chute is cracked
+replace headboard w. cracks
+rep cracks on cross braces
+rep crack in headboard
+chute is crackeed
 replace cracked glass window
 crack in heat shield
-repair cracks in mus bkt
+repair cracks in mud buc
 cracked blade liner needs replacement
-noise from jockey ply brng
-rep crack in rock deflector
-cracked mast cross braces
+noise from jockey ply brg
+repair crack in rock deflector
+cracked mast x braces
 chord has crack
-adjust noisy bearing
-dooor frame with hole
-repair crack in boom chofd
+adj noisy brg
+door frame with hole
+repair crack in boom chord
 repair cracks in fs mounts
 decking has cracks
-equalizer bar bearingmaking noise
-brg on compressor noisy
-hand is cracked
+equalizer bar brg making noise
+bear on compressor noisy
+h/rail is cracked
 cracked w/dow
-cracked cab. mounts need repair
+cracked cabin mounts need repair
 mounts have cracks
-replace cracked chassis cross member
-noise fr hydraulic lift cylind.
-stee ring cylinder bearring is noisy
+repl cracked chassis cross member
+noise fr hydraulic lift cylinder
+steering cylinder bearing is noisy
 roller bearing has noise
 cracked cable gantry
-inspect cracks in stick
+ins cracks in stick
 crack in windscreen
 leak in condenser fan hose
-leaking filt
-repair leaking seal
-pump motor hoses are leaking
-hyd motor engi oil cooler leaking
+leaking fltr
+rep leaking seal
+pmp motor hoses are leakig
+hyd. mtr engine oil cooler leaking
 fix transmission hose leak
-cabin seals need repl. due to leaks
+cab seals need replacing due to leaks
 fan pump drive has leak
-centrifuge filterr leaking
+centrifugefilt leaking
 repair leak on cov plate
 tank is leaking
-d/rope pump hose has leak
-leak in hst brk. hose
-repair leaking cooling re hose
-replace leaking pl ug
-fix leaking lubepump
-slew pmp hose is leaking
+drag rope pump hose has leak
+leak in hst brake hose
+rep leaking cooling return hose
+c/o leaking plug
+fix leaking lube pump
+slew pump hose is leaking
 pump drive has a leak
-replace leaking alternator drv
-rep leaking brk pmp hose
-repair leak in sldw brake pmp
-jacket water pmp leak needs rep
-slew pump has a leak
-repair leak in oil cooler
-replace leaking fan mtr hose
+replace leaking alt drv
+rep leaking brake pmp hose
+repair leak in slew brake pmp
+jacket wtr. pump leak needs rep
+slew pmp has a leak
+repair leak in oil cool
+replace leaking fan motor hose
 leaking chip indicators
-diff. pump drive has lak
-leak in hoist mtr hose
+diff. pump drive has leak
+leak in hoist motor hose
 fan mtr hoses leaking
-repair leak in hmu hose
+rep leak in hmu hose
 blower inverter batteries are discharging
-opr cab fuse is blowing
-air conditioner compressor continuously tripping out
-blowing fuse isue
-cracked engi cover
-emptying d/rope pump cavity
+operatorcab. fuse is blowing
+aircon. comp continuously tripping out
+blowing fuse issue
+cracked engine cover
+emptying d/rope pmp cavity
 steering pump oil leaks
-leak found in fan pump oil
-repair weeeping brk filter hose
+leak found in fan pmp oil
+repair weeping brake filter hose
 weeping found in transmission hose
 batteries discharging too quickly
-fix earthing out hoist blower inverter
-leaking hyd motor engine oiul
+fix earthing out hist blower inverter
+leaking hyd motor engine oil
 fix bogging tele-remote
-differential oil is leaking
+diff oil is leaking
 weeping hose
-repair pin grease leak
+rep pin grease leak
 alarm activated in pto pump chip sensor
 roof heater hose found weeping
-leaks in fan pmp oli
-blowing engine air conditioner fuse
-steering pump oil leaking
+leaks in fan pump oil
+blowing engi. air conditioner fuse
+steering pmp. oil leaking
 parts washer pump chip sensor alarm
-steering cylinder pin grease is leaking
-brake pump cavity emptying issue
+steering chamber pin grease is leaking
+brake pmpcavity emptying issue
 alarm sounding 4 d/rope pump sensor
-oil leaking from cooler pump
-weeing found on slew pump hose
-cracking on covre
-rpl cabin aircon fusxe blowing
-boarding ladder is not wor king
+oil leaking fr cooler pmp
+weeping found on slew pump hose
+cracking on cov
+replace cab air conditioner fuse blowing
+boardinng ladder ain' t working
 unserviceable hose on diff pump
-not working thermmostat
-replace u.s. d/line air conditioner fan
-emergency gate latch found n/w
-snapped drive shaft
-rep drag roller bearings with excess play
-repair damage to auto-greaser door
-engine flt present
-differential lock is brkn
-steering sft needs repl
-controller filter needs rep worn
+n/wthermostat
+replace unserviceable d/l air conditioner fan
+emer gate latch found not working
+snapped drive sft
+rep drag roller bngs with excess play
+rep dmg 2 auto-greaser door
+engi flt present
+differential lock is broken
+steering shaft needds rep
+controller filt needs replacement worn
 engine air conditioner guard broken
-change out w/pump sft unserviceable
+/co water pump sft unserviceable
 tilt cylinder guard found brkn
-auto-lube system fault
-d/line air conditioner not producing cold
-engine water ppm shaft snapped
-broken brake hose clamp
-hmku hose o-ring blown
-swg brake pump brkn cond.
-fan pmp contamination switch stays on
-blownm hose in boom cylinder
-bolt is popped
-operator cab air conditionrer has fault
-change out transmission magnet u/s
-u/s t/conv fan needs rep
-repair fault ibn welding board
+auto-lube sys. flt
+dragline airconditioner not producing cold
+engine water pump shaft snapped
+brkn brake hose clamp
+hmu hose oring blown
+swing brake pump broken cond
+fan pump contamination switch stays on
+blown hose in boom cylinder
+bolt is popt
+operator cab ac unit has fault
+c/o transmission mgt. u/s
+unserviceable t/c fan needs replacement
+repair flt in weldingboard
 slew pump oil was found
-cabin smoke detector needs replacement missing
-inverter batteriesare not charged
+cab. smoke detector needs replacement missing
+inverter batteries arenot charged
 batteries need charging no charge
 blower inverter batteries are uncharged
 filter hose requires fitting
-roller need 2 change out
+roller need 2 c/out
 pmp hose is in need of repair
-rep hitch hose needed
+repair hitch hose needed
 hose reqs extending
-need clean up steering pump hse
-clam cylind hose requires repl
+need clean out steering pump hose
+clam cylinder hose reqs co
 replace the bolt
-parts washer pump bolt needs replaced
-seat requires exxtending
-change out pmp mtr hose
+parts washer pmp bolt needs replaced
+seat reqsextending
+/co pmp. motor hose
 extending needed 4 mast dust flap
-wtr separator fltr hose needs repair
-replacing needed for carousel bolt
-adjusting needed for cutting edges
-hydraulic mtr. engine air conditioner unit needs to be fitted
-hitch hose needs replaced
-c/o engine w/pump shaft needed
-replacing needed for engine pupm bolt
-hitchhose reqs clean out
-c/o walkmotor brake switches
+wtr separator filter hose needs repair
+replacing needed 4 carousel bolt
+adjustnig needed 4 cutting edges
+hydraulic motor engine aircond needs 2 be fitted
+hitch hose needs rep
+replacing engine wtr pmp shaft needed
+replacing needed 4 eng pump bolt
+hitch hose requires clean
+change out walk motor brake switches
 replace steering shaft
-swing brake hose is in need of rep
-w/dow needs a rep
-centrifuge hose requires repair
-cleaning needed for engine air conditioner
-hoist brk hose needs 2 be cleaned
-engine aircond hose needs replacing
-air conditioner requires replacement
-wtr pump shaft must be repl
+sgw brake hose is in need of repair
+w/dow needs a replacement
+centrifuge hose requires rep
+cleaning needed fo eng a/cond
+hst brake hose needs 2 be cleaned
+engine a/con hose needs replacing
+a/cond requires replacement
+wtr pmp. shaft must be replaced
 revolving frame has oil
-coolant pipe clamps require loctite
-clevis pinneeds grease
-seat needsloctite
-dropped cellin batt
-grease missing from steering cylinder pin
+coolant pipe clamps req loctite
+clevis pin needs grease
+seat needs loctite
+dropped cell in battery
+greease missing from steering cyliinder pin
 a-frame clevis pin no grease
 loctite is needed on belly plate bolt
-engine pump bolt needs loctite
-cool pump bolt needs loctite
+eng pump bolt needs loctite
+cooler pump bolt needsloctite
 apply loctite on clamps
 no grease on pin
-apply loctite on bolt
-dogbone bolt needs loctite
-loctite needed on brk pump bolt
-pmp bolt needs loctite
+apply loctite on bot
+dogbone bolt needxs loctite
+loctite needed on brake pump bolt
+pmp. bolt needs loctite
 no grease in dogbone pin
-loctite needed on slew pump bolt
-window frame requires loctite
-apply loctite 2 pto pump bolt
-loctite application needed on cab seat
+loctite needed on slew pmp bolt
+w/dow frame requires loctite
+apply loctite to pto pump bolt
+loctite application needed on cabin seat
 oil found on frame
-loctite needed on differential pump bolt
+loctite needed on differentialpump bolt
 fan pump bolt needs loctite
 steering pin lacking grease
-cabin needs an aerial
-install missing smoke detector in cabin
-aerial required foram/fm radio
-radio requires new aerial
-loctite needed on steering pump bolt
+cab needs an aerial
+install missing smoke detector in cab
+aerial required 4 am/fm radio
+radio reqs new aerial
+loctite needed on steering pmp bolt
 motor hose has oil leak
-replace leaking a/c fan pmp
-wiper motor hose needs oil leak repair
-change out leaking bucket cylinder hose
-controller filt hose leaks oil
-leaking fuel fr air conditioner hose
-leak fuel fr tilt cylinder hosae
-fltr hose has leaking oil
-fuel leaking fr. fan pump
-leak of oil in slew pmmp
-leak oil from diff cool pump
-fuel leak in bucket cylinder hose
-leak of hydoil from cooler fan hose
+replace leaking air-con fan pump
+wiper mtr hose needs oil leak rep
+replace leaking bkt cyl. hose
+controller filterhose leaks oil
+leaking fuel from a/c hose
+leak fuel from tilt cylinder hose
+filter hose has leaking oil
+fuel leakingfrom fan pump
+leak of oil in slew pmp.
+leak oil from differential cooler pmp
+fuel leak in bucket cylind hose
+leak of hyd oil from cooler fan hose
 diverter valve leaking hyd oil
-slew pmp hose hhas coolant leak
-leak air in compr sfty vv.
+slew pump hose has coolant leak
+leak air in compressor safety valve
 motor hoses found leaking fuel
-oil leak in re hose
-tx has oil leak
-hydraulic oil leak fr. hst brake pump
-replace charge hose leaking oil
-leak oil from transmission hose
-oil leak in engi ac umit
-leak of hydraulic oil in crowd chamber hose
-leaking coolant iin filter hose
-coolant leak from transmission hose
-heater hose has aire leak
-compr. safety valve leaks fuel
-hyd oil leak from brk pump hose
-oil leaking fr brk filter hose
+oil leak in return hose
+transmission has oil leak
+hydraulic oil leak from hoist brake pmp
+replace charge hose leaking oli
+leak oil frtransmission hose
+oil leak in eng. air conditioner
+leak of hydraulic oil in crowd cylinder hose
+leaking coolant in filter hose
+coolant leak fr transmission hose
+heater hose has air leak
+compressor saafety valve leaks fuel
+hydoil leak frombrake pump hose
+oil leaking from brake filter hose
