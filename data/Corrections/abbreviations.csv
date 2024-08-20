@@ -8,6 +8,7 @@ adjust,adj
 adjustment,adj
 adjustment,adjt
 aftercooler,a/cooler
+aftercooler,aft/cooler
 air conditioner,air-con
 air conditioner,air/con
 air conditioner,aircon
@@ -55,7 +56,7 @@ boilermaker,boily
 boilermakers,boilys
 bottom,bot
 bracket,bkt
-bracket,brk
+bracket,brkt
 brake,brk
 break out,break-out
 breakdown maintenance,bm
@@ -84,15 +85,16 @@ centre,c/
 centre,cent
 certified master inspector,cmi
 chain,chn
-change,change out
-change,chge
-change,c/o
 change out,change-out
 change out,c/out
 change out,c/o
 change out,co
 change out,/co
 change out,change
+changing out,c/o
+changing out,co
+changing out,c/out
+changing out,/co
 check,chk
 check,ch
 christmas,xmas
@@ -102,8 +104,9 @@ circuit breaker,c/b
 circuit breaker,c/breaker
 circuit breakers,c/breakers
 circumference,circum
-clean,clean up
 clean up,clean
+clean out,clean
+clean out,clean up
 coaxial,coax
 coke and revert,c/r
 collect,col
@@ -117,10 +120,6 @@ condition,cond
 condition monitoring,cm
 condition monitoring,con mon
 condition monitoring,cmn
-conditioner,con
-conditioner,cond
-conditioner,a/c
-conditioner,aircon
 connection,conn
 continuously,cont
 control,ctrl
@@ -169,13 +168,8 @@ drag rope,d/rope
 dragline,d/l
 dragline,dl
 dragline,d/line
-drive,drvnd
 drive,dve
-drive,drvitti
-drive,drvit
 drive,drv
-drive,drvl
-drive,drvcondu
 drive assembly,drv
 drive end,d/e
 driveline,drive
@@ -300,7 +294,7 @@ hot gas fan,hgf
 hour,hr
 hour,h
 housing,hous
-hydraulic,hydoil
+hydraulic oil,hydoil
 hydraulic,hyd
 hydraulic hose,hyd-hose
 hydraulic tank,hyd-tank
@@ -439,6 +433,7 @@ non destructive test,ndt
 non drive end,nde
 non-return value,nrv
 north,nth
+north,/nth
 not operating,n/o
 not working,n/w
 number,#
@@ -567,6 +562,22 @@ repair,rep
 repair and replace,r&r
 replace,repl
 replace,rpl
+replace,rep
+replace,change out
+replace,c/o
+replace,c/out
+replaced,repl
+replaced,rpl
+replaced,rep
+replaced,change out
+replaced,c/o
+replaced,c/out
+replacing,repl
+replacing,rpl
+replacing,changing out
+replacing,co
+replacing,c/o
+replacing,c/out
 replacement,rep
 replacement,repl
 report,rpt
@@ -747,7 +758,7 @@ universal,uni
 universal joint,universal
 universal joint,uni
 unserviceable,u/s
-unserviceable,us
+unserviceable,u.s.
 update,up-date
 update,up
 upgrade,up

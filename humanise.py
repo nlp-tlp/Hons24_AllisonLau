@@ -80,14 +80,29 @@ def introduce_abbreviations(sentence, chance=0.4):
             sentence = re.sub(pattern, variation, sentence, flags=re.I)
     return sentence
 
-# Add periods to abbreviations if abbreviation matches initials (default probability=0.5)
-def add_periods(original, abbreviation, chance=0.5):
-    """ Add periods to abbreviations if abbreviation matches initials """
+# Add periods to abbreviations if condition is met (default probability=0.08)
+def add_periods(original_word, abbreviated_word, chance=0.08):
+    """ Add periods to an abbreviation if the condition is met """
+    original = original_word.lower()
+    abbreviation = abbreviated_word.lower()
     words = original.split()
     initials = ''.join(word[0] for word in words if word)
     # Check if abbreviation matches initials
-    if initials.lower() == abbreviation.lower() and random.random() < chance:
+    if initials == abbreviation and random.random() < chance:
         return '.'.join(initials) + '.'
+    # Check if original starts with abbreviation
+    elif words[0].startswith(abbreviation) and words[0] != abbreviation and random.random() < chance:
+        return abbreviation + '.'
+    # Check if original contains abbreviation
+    elif original.find(abbreviation) != -1 and words[0] != abbreviation and random.random() < chance:
+        return abbreviation + '.'
+    # Check if original has all abbreviation characters in order
+    elif all(char in iter(original) for char in abbreviation) and random.random() < chance:
+        if original.replace('-', '') == abbreviation: # auto-greaser -> autogreaser
+            return abbreviation
+        if abbreviation in words:
+            return abbreviation
+        return abbreviation + '.'
     return abbreviation
 
 # Missing spaces in a sentence
@@ -102,7 +117,7 @@ def omit_space(sentence):
 # Extra space in a word
 def add_space(word):
     """ Randomly adds a space within a word. """
-    if len(word) < 2:
+    if len(word) < 3:
         return word  # Not enough characters to add a space
     index = random.randint(1, len(word) - 1)  # Ensure space is not at the beginning
     return word[:index] + ' ' + word[index:]
@@ -110,9 +125,9 @@ def add_space(word):
 # Swap adjacent letters in a word
 def swap_adjacent(word):
     """ Randomly swaps two adjacent letters in a given word. """
-    if len(word) < 2: # Not enough letters to swap
+    if len(word) < 3: # Not enough letters to swap
         return word
-    index = random.randint(0, len(word) - 2)
+    index = random.randint(1, len(word) - 2)
     return word[:index] + word[index + 1] + word[index] + word[index + 2:]
 
 # Missing letter in a word
@@ -120,7 +135,7 @@ def omit_letter(word):
     """ Randomly omits one letter from a given word. """
     if len(word) < 3: # Do not omit from short words
         return word
-    index = random.randint(0, len(word) - 1)
+    index = random.randint(1, len(word) - 1)
     return word[:index] + word[index + 1:]
 
 # Double up a letter in a word
@@ -134,9 +149,9 @@ def double_letter(word):
 # Replace a letter in a word with an adjacent letter (keyboard)
 def adjacent_key(word):
     """ Randomly replaces a letter in a given word with an adjacent letter. """
-    if len(word) < 1: # Not a word
+    if len(word) < 2: # Cannot replace only letter
         return word
-    index = random.randint(0, len(word) - 1)
+    index = random.randint(1, len(word) - 1)
     letter = word[index]
     if letter in KEYBOARD_DICT:
         replacement = random.choice(KEYBOARD_DICT[letter])
@@ -146,9 +161,9 @@ def adjacent_key(word):
 # Add adjacent letter before or after a letter in a word
 def adjacent_add(word):
     """ Randomly adds an adjacent letter before or after a letter in a given word. """
-    if len(word) < 1: # Not a word
+    if len(word) < 2: # Not a word
         return word
-    index = random.randint(0, len(word) - 1)
+    index = random.randint(1, len(word) - 1)
     letter = word[index]
     if letter in KEYBOARD_DICT:
         addition = random.choice(KEYBOARD_DICT[letter])
@@ -174,24 +189,25 @@ def replace_homophone(word):
     return word # No homophones found
 
 # Introduce different typos in a sentence (default probability=0.08)
-def rule_introduce_typos(sentence, chance=0.08, max_typos=3):
+def rule_introduce_typos(sentence, chance=0.05, max_typos=3):
     """ Introduce typos in a sentence with a given probability. """
     typo_funcs = [add_space, swap_adjacent, omit_letter, double_letter, adjacent_key, adjacent_add, replace_homophone]
-    typo_probs = [10, 16, 16, 16, 13, 16, 13]  # Probabilities for each typo function
-
+    typo_probs = [8, 16, 16, 17, 13, 16, 14]  # Probabilities for each typo function
+    
     if random.random() < chance:
         sentence = omit_space(sentence)
     
+    
+    # For each word, there is a chance to introduce a typo type
+        
     # For each word, there is a chance to introduce a typo type
     words = sentence.split()
-    typo_count = 0
-    for i, word in enumerate(words):
-        if typo_count >= max_typos:
-            break
+    typos = random.sample(range(len(words)), min(len(words), max_typos))
+    for i in typos:
         if random.random() < chance:
-            typo_func = random.choices(typo_funcs, weights=typo_probs)[0]
+            word = words[i]
+            typo_func = random.choices(typo_funcs, weights=typo_probs, k=1)[0]
             words[i] = typo_func(word)
-            typo_count += 1
 
     return ' '.join(words)
 
