@@ -129,3 +129,16 @@ def get_connect_objects(driver, entity):
             object_list = record["connect_objects"][:-1]
             connect_objects.append(object_list[::-1])
     return connect_objects
+
+# Function to return failure mode of an entry entity
+def get_failure_mode(driver, entry_id):
+    """ Return failure mode of an entry entity """
+    query = f"""
+                MATCH (e:Entry {{id: {entry_id}}})
+                RETURN e.failure_mode AS failure_mode
+            """
+    with driver.session() as session:
+        results = session.run(query)
+        for record in results:
+            failure_mode = record["failure_mode"]
+    return failure_mode

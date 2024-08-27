@@ -1,13 +1,26 @@
 [
     {
         "object_name": "cabin",
-        "event_name": "missing safety flag",
+        "event_name": "missing smoke detector",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Minor in-service problems"
+    },
+    {
+        "object_name": "cabin",
+        "event_name": "missing flag",
         "valid": false,
         "alternate": false
     },
     {
         "object_name": "cabin",
-        "event_name": "missing bolt",
+        "event_name": "missing cutting edge",
+        "valid": false,
+        "alternate": false
+    },
+    {
+        "object_name": "cabin",
+        "event_name": "missing poppet valve",
         "valid": false,
         "alternate": false
     },
@@ -25,360 +38,156 @@
     },
     {
         "object_name": "cabin",
-        "event_name": "missing cutting edge",
+        "event_name": "missing safety flag",
         "valid": false,
         "alternate": false
     },
     {
         "object_name": "cabin",
-        "event_name": "missing flag",
+        "event_name": "missing bolt",
         "valid": false,
         "alternate": false
     },
     {
-        "object_name": "cabin",
-        "event_name": "missing poppet valve",
-        "valid": false,
-        "alternate": false
-    },
-    {
-        "object_name": "cabin",
-        "event_name": "missing smoke detector",
-        "valid": true,
-        "alternate": false
-    },
-    {
-        "object_name": "seat",
-        "event_name": "needs loctite",
-        "valid": true,
-        "alternate": false
-    },
-    {
-        "object_name": "cabin seat",
-        "event_name": "needs loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "seat",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": false
-    },
-    {
-        "object_name": "cabin seat",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "air conditioner",
+        "object_name": "window",
         "event_name": "needs loctite",
         "valid": false,
         "alternate": false
     },
     {
-        "object_name": "operator cabin air conditioner",
+        "object_name": "door window",
         "event_name": "needs loctite",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "engine air conditioner",
+        "object_name": "cabin door window",
         "event_name": "needs loctite",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "hydraulic motor engine air conditioner",
+        "object_name": "auto-greaser door window",
         "event_name": "needs loctite",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "dragline air conditioner",
+        "object_name": "cabin window",
         "event_name": "needs loctite",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "cabin air conditioner",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "air conditioner",
+        "object_name": "window",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": false
     },
     {
-        "object_name": "operator cabin air conditioner",
+        "object_name": "door window",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "engine air conditioner",
+        "object_name": "cabin door window",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "hydraulic motor engine air conditioner",
+        "object_name": "auto-greaser door window",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "dragline air conditioner",
+        "object_name": "cabin window",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "cabin air conditioner",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "clamps",
-        "event_name": "needs loctite",
-        "valid": true,
-        "alternate": false
-    },
-    {
-        "object_name": "coolant pipe clamps",
-        "event_name": "needs loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "clamps",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": false
-    },
-    {
-        "object_name": "coolant pipe clamps",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "am / fm radio",
+        "object_name": "light",
         "event_name": "needs loctite",
         "valid": false,
         "alternate": false
     },
     {
-        "object_name": "radio",
+        "object_name": "boom light",
         "event_name": "needs loctite",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "am / fm radio",
-        "event_name": "needs aerial",
-        "valid": true,
-        "alternate": false
-    },
-    {
-        "object_name": "radio",
-        "event_name": "needs aerial",
-        "valid": true,
+        "object_name": "blade light",
+        "event_name": "needs loctite",
+        "valid": false,
         "alternate": true
     },
     {
-        "object_name": "bolt",
+        "object_name": "engine bay light",
         "event_name": "needs loctite",
-        "valid": true,
-        "alternate": false
-    },
-    {
-        "object_name": "carousel bolt",
-        "event_name": "needs loctite",
-        "valid": true,
+        "valid": false,
         "alternate": true
     },
     {
-        "object_name": "pump bolt",
+        "object_name": "a-frame light",
         "event_name": "needs loctite",
-        "valid": true,
+        "valid": false,
         "alternate": true
     },
     {
-        "object_name": "drag rope pump bolt",
+        "object_name": "keypad light",
         "event_name": "needs loctite",
-        "valid": true,
+        "valid": false,
         "alternate": true
     },
     {
-        "object_name": "brake pump bolt",
+        "object_name": "vims keypad light",
         "event_name": "needs loctite",
-        "valid": true,
+        "valid": false,
         "alternate": true
     },
     {
-        "object_name": "slew pump bolt",
-        "event_name": "needs loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "engine pump bolt",
-        "event_name": "needs loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "steering pump bolt",
-        "event_name": "needs loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "parts washer pump bolt",
-        "event_name": "needs loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "cooler pump bolt",
-        "event_name": "needs loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "swing pump bolt",
-        "event_name": "needs loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "pto pump bolt",
-        "event_name": "needs loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "differential pump bolt",
-        "event_name": "needs loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "fan pump bolt",
-        "event_name": "needs loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "belly plate bolt",
-        "event_name": "needs loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "dogbone bolt",
-        "event_name": "needs loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "bolt",
+        "object_name": "light",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": false
     },
     {
-        "object_name": "carousel bolt",
+        "object_name": "boom light",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "pump bolt",
+        "object_name": "blade light",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "drag rope pump bolt",
+        "object_name": "engine bay light",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "brake pump bolt",
+        "object_name": "a-frame light",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "slew pump bolt",
+        "object_name": "keypad light",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "engine pump bolt",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "steering pump bolt",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "parts washer pump bolt",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "cooler pump bolt",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "swing pump bolt",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "pto pump bolt",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "differential pump bolt",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "fan pump bolt",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "belly plate bolt",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "dogbone bolt",
+        "object_name": "vims keypad light",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
@@ -408,18 +217,6 @@
         "alternate": true
     },
     {
-        "object_name": "joystick",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": false
-    },
-    {
-        "object_name": "joystick",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": false
-    },
-    {
         "object_name": "cabin",
         "event_name": "needs loctite",
         "valid": false,
@@ -432,13 +229,13 @@
         "alternate": false
     },
     {
-        "object_name": "isolator",
+        "object_name": "joystick",
         "event_name": "needs loctite",
         "valid": false,
         "alternate": false
     },
     {
-        "object_name": "isolator",
+        "object_name": "joystick",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": false
@@ -450,13 +247,85 @@
         "alternate": false
     },
     {
+        "object_name": "filter hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "water separator filter hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "brake filter hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "centrifuge filter hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "controller filter hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "heater hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "roof heater hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
         "object_name": "crowd cylinder hose",
         "event_name": "needs loctite",
         "valid": false,
         "alternate": true
     },
     {
+        "object_name": "clam cylinder hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "hitch hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "boom cylinder hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "steering hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
         "object_name": "air conditioner hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "cabin air conditioner hose",
         "event_name": "needs loctite",
         "valid": false,
         "alternate": true
@@ -480,181 +349,19 @@
         "alternate": true
     },
     {
-        "object_name": "cabin air conditioner hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "filter hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "brake filter hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "water separator filter hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "controller filter hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "centrifuge filter hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "tilt cylinder hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "steering hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "clam cylinder hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "motor hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "hoist motor hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "swing motor hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "pump motor hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "fan motor hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "wiper motor hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "drag motor hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "fan hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "engine fan hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "cooler fan hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "air conditioner fan hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "torque converter fan hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "condenser fan hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "centrifuge hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
         "object_name": "boom hose",
         "event_name": "needs loctite",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "cooler hose",
+        "object_name": "slew motor hose",
         "event_name": "needs loctite",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "hydraulic motor cooler hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "differential cooler hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "hmu hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "boom cylinder hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "transmission hose",
+        "object_name": "tilt cylinder hose",
         "event_name": "needs loctite",
         "valid": false,
         "alternate": true
@@ -678,19 +385,73 @@
         "alternate": true
     },
     {
-        "object_name": "hitch hose",
+        "object_name": "centrifuge hose",
         "event_name": "needs loctite",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "heater hose",
+        "object_name": "cooler hose",
         "event_name": "needs loctite",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "roof heater hose",
+        "object_name": "differential cooler hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "hydraulic motor cooler hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "motor hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "pump motor hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "drag motor hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "hoist motor hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "wiper motor hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "fan motor hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "swing motor hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "bucket cylinder hose",
         "event_name": "needs loctite",
         "valid": false,
         "alternate": true
@@ -702,7 +463,7 @@
         "alternate": true
     },
     {
-        "object_name": "drag rope pump hose",
+        "object_name": "steering pump hose",
         "event_name": "needs loctite",
         "valid": false,
         "alternate": true
@@ -714,49 +475,13 @@
         "alternate": true
     },
     {
-        "object_name": "slew pump hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "engine pump hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "steering pump hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "parts washer pump hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
         "object_name": "cooler pump hose",
         "event_name": "needs loctite",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "swing pump hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "pto pump hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "differential pump hose",
+        "object_name": "drag rope pump hose",
         "event_name": "needs loctite",
         "valid": false,
         "alternate": true
@@ -768,7 +493,85 @@
         "alternate": true
     },
     {
-        "object_name": "bucket cylinder hose",
+        "object_name": "slew pump hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "differential pump hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "engine pump hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "pto pump hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "parts washer pump hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "swing pump hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "hmu hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "transmission hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "fan hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "cooler fan hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "torque converter fan hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "condenser fan hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "air conditioner fan hose",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "engine fan hose",
         "event_name": "needs loctite",
         "valid": false,
         "alternate": true
@@ -786,13 +589,7 @@
         "alternate": true
     },
     {
-        "object_name": "swing brake hose",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "hoist brake hose",
+        "object_name": "drag brake hose",
         "event_name": "needs loctite",
         "valid": false,
         "alternate": true
@@ -804,13 +601,13 @@
         "alternate": true
     },
     {
-        "object_name": "drag brake hose",
+        "object_name": "hoist brake hose",
         "event_name": "needs loctite",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "slew motor hose",
+        "object_name": "swing brake hose",
         "event_name": "needs loctite",
         "valid": false,
         "alternate": true
@@ -822,13 +619,85 @@
         "alternate": false
     },
     {
+        "object_name": "filter hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "water separator filter hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "brake filter hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "centrifuge filter hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "controller filter hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "heater hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "roof heater hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
         "object_name": "crowd cylinder hose",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
+        "object_name": "clam cylinder hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "hitch hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "boom cylinder hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "steering hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
         "object_name": "air conditioner hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "cabin air conditioner hose",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
@@ -852,181 +721,19 @@
         "alternate": true
     },
     {
-        "object_name": "cabin air conditioner hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "filter hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "brake filter hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "water separator filter hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "controller filter hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "centrifuge filter hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "tilt cylinder hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "steering hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "clam cylinder hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "motor hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "hoist motor hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "swing motor hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "pump motor hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "fan motor hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "wiper motor hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "drag motor hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "fan hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "engine fan hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "cooler fan hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "air conditioner fan hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "torque converter fan hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "condenser fan hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "centrifuge hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
         "object_name": "boom hose",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "cooler hose",
+        "object_name": "slew motor hose",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "hydraulic motor cooler hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "differential cooler hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "hmu hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "boom cylinder hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "transmission hose",
+        "object_name": "tilt cylinder hose",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
@@ -1050,19 +757,73 @@
         "alternate": true
     },
     {
-        "object_name": "hitch hose",
+        "object_name": "centrifuge hose",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "heater hose",
+        "object_name": "cooler hose",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "roof heater hose",
+        "object_name": "differential cooler hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "hydraulic motor cooler hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "motor hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "pump motor hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "drag motor hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "hoist motor hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "wiper motor hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "fan motor hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "swing motor hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "bucket cylinder hose",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
@@ -1074,7 +835,7 @@
         "alternate": true
     },
     {
-        "object_name": "drag rope pump hose",
+        "object_name": "steering pump hose",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
@@ -1086,49 +847,13 @@
         "alternate": true
     },
     {
-        "object_name": "slew pump hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "engine pump hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "steering pump hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "parts washer pump hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
         "object_name": "cooler pump hose",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "swing pump hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "pto pump hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "differential pump hose",
+        "object_name": "drag rope pump hose",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
@@ -1140,7 +865,85 @@
         "alternate": true
     },
     {
-        "object_name": "bucket cylinder hose",
+        "object_name": "slew pump hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "differential pump hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "engine pump hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "pto pump hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "parts washer pump hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "swing pump hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "hmu hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "transmission hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "fan hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "cooler fan hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "torque converter fan hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "condenser fan hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "air conditioner fan hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "engine fan hose",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
@@ -1158,13 +961,7 @@
         "alternate": true
     },
     {
-        "object_name": "swing brake hose",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "hoist brake hose",
+        "object_name": "drag brake hose",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
@@ -1176,13 +973,230 @@
         "alternate": true
     },
     {
-        "object_name": "drag brake hose",
+        "object_name": "hoist brake hose",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "slew motor hose",
+        "object_name": "swing brake hose",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "clamps",
+        "event_name": "needs loctite",
+        "valid": true,
+        "alternate": false
+    },
+    {
+        "object_name": "coolant pipe clamps",
+        "event_name": "needs loctite",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "clamps",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": false
+    },
+    {
+        "object_name": "coolant pipe clamps",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "bolt",
+        "event_name": "needs loctite",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": null
+    },
+    {
+        "object_name": "carousel bolt",
+        "event_name": "needs loctite",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "pump bolt",
+        "event_name": "needs loctite",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "steering pump bolt",
+        "event_name": "needs loctite",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "brake pump bolt",
+        "event_name": "needs loctite",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "cooler pump bolt",
+        "event_name": "needs loctite",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "drag rope pump bolt",
+        "event_name": "needs loctite",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "fan pump bolt",
+        "event_name": "needs loctite",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "slew pump bolt",
+        "event_name": "needs loctite",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "differential pump bolt",
+        "event_name": "needs loctite",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "engine pump bolt",
+        "event_name": "needs loctite",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "pto pump bolt",
+        "event_name": "needs loctite",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "parts washer pump bolt",
+        "event_name": "needs loctite",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "swing pump bolt",
+        "event_name": "needs loctite",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "dogbone bolt",
+        "event_name": "needs loctite",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "belly plate bolt",
+        "event_name": "needs loctite",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "bolt",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": false
+    },
+    {
+        "object_name": "carousel bolt",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "pump bolt",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "steering pump bolt",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "brake pump bolt",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "cooler pump bolt",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "drag rope pump bolt",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "fan pump bolt",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "slew pump bolt",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "differential pump bolt",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "engine pump bolt",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "pto pump bolt",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "parts washer pump bolt",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "swing pump bolt",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "dogbone bolt",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "belly plate bolt",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
@@ -1200,150 +1214,6 @@
         "alternate": false
     },
     {
-        "object_name": "light",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": false
-    },
-    {
-        "object_name": "blade light",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "boom light",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "engine bay light",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "keypad light",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "vims keypad light",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "a-frame light",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "light",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": false
-    },
-    {
-        "object_name": "blade light",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "boom light",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "engine bay light",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "keypad light",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "vims keypad light",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "a-frame light",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "window",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": false
-    },
-    {
-        "object_name": "door window",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "auto-greaser door window",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "cabin door window",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "cabin window",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "window",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": false
-    },
-    {
-        "object_name": "door window",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "auto-greaser door window",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "cabin door window",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "cabin window",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
         "object_name": "line",
         "event_name": "needs loctite",
         "valid": false,
@@ -1363,6 +1233,139 @@
     },
     {
         "object_name": "air brake line",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "isolator",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": false
+    },
+    {
+        "object_name": "isolator",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": false
+    },
+    {
+        "object_name": "seat",
+        "event_name": "needs loctite",
+        "valid": true,
+        "alternate": false
+    },
+    {
+        "object_name": "cabin seat",
+        "event_name": "needs loctite",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "seat",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": false
+    },
+    {
+        "object_name": "cabin seat",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "am / fm radio",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": false
+    },
+    {
+        "object_name": "radio",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "am / fm radio",
+        "event_name": "needs aerial",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Breakdown"
+    },
+    {
+        "object_name": "radio",
+        "event_name": "needs aerial",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "air conditioner",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": false
+    },
+    {
+        "object_name": "cabin air conditioner",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "operator cabin air conditioner",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "engine air conditioner",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "hydraulic motor engine air conditioner",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "dragline air conditioner",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "air conditioner",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": false
+    },
+    {
+        "object_name": "cabin air conditioner",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "operator cabin air conditioner",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "engine air conditioner",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "hydraulic motor engine air conditioner",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "dragline air conditioner",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
@@ -1371,7 +1374,8 @@
         "object_name": "revolving frame",
         "event_name": "found oil",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": null
     },
     {
         "object_name": "frame",
@@ -1381,98 +1385,99 @@
     },
     {
         "object_name": "pin",
-        "event_name": "no grease",
-        "valid": true,
+        "event_name": "no grease lines",
+        "valid": false,
         "alternate": false
     },
     {
-        "object_name": "dogbone pin",
-        "event_name": "no grease",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "clevis pin",
-        "event_name": "no grease",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "boom foot clevis pin",
-        "event_name": "no grease",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "a-frame clevis pin",
-        "event_name": "no grease",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "steering cylinder pin",
-        "event_name": "no grease",
-        "valid": true,
+        "object_name": "mast raise cylinder pin",
+        "event_name": "no grease lines",
+        "valid": false,
         "alternate": true
     },
     {
         "object_name": "steering pin",
-        "event_name": "no grease",
-        "valid": true,
+        "event_name": "no grease lines",
+        "valid": false,
         "alternate": true
     },
     {
-        "object_name": "mast raise cylinder pin",
-        "event_name": "no grease",
-        "valid": true,
+        "object_name": "clevis pin",
+        "event_name": "no grease lines",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "a-frame clevis pin",
+        "event_name": "no grease lines",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "boom foot clevis pin",
+        "event_name": "no grease lines",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "dogbone pin",
+        "event_name": "no grease lines",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "steering cylinder pin",
+        "event_name": "no grease lines",
+        "valid": false,
         "alternate": true
     },
     {
         "object_name": "pin",
-        "event_name": "no grease lines",
-        "valid": false,
-        "alternate": false
+        "event_name": "no grease",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": null
     },
     {
-        "object_name": "dogbone pin",
-        "event_name": "no grease lines",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "clevis pin",
-        "event_name": "no grease lines",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "boom foot clevis pin",
-        "event_name": "no grease lines",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "a-frame clevis pin",
-        "event_name": "no grease lines",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "steering cylinder pin",
-        "event_name": "no grease lines",
-        "valid": false,
+        "object_name": "mast raise cylinder pin",
+        "event_name": "no grease",
+        "valid": true,
         "alternate": true
     },
     {
         "object_name": "steering pin",
-        "event_name": "no grease lines",
-        "valid": false,
+        "event_name": "no grease",
+        "valid": true,
         "alternate": true
     },
     {
-        "object_name": "mast raise cylinder pin",
-        "event_name": "no grease lines",
-        "valid": false,
+        "object_name": "clevis pin",
+        "event_name": "no grease",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "a-frame clevis pin",
+        "event_name": "no grease",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "boom foot clevis pin",
+        "event_name": "no grease",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "dogbone pin",
+        "event_name": "no grease",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "steering cylinder pin",
+        "event_name": "no grease",
+        "valid": true,
         "alternate": true
     },
     {
@@ -1485,12 +1490,14 @@
         "object_name": "radiator",
         "event_name": "blocked grass",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": "Plugged / choked"
     },
     {
         "object_name": "battery",
         "event_name": "dropped cell",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": "Breakdown"
     }
 ]

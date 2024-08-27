@@ -3,7 +3,8 @@
         "object_name": "batteries",
         "event_name": "no charge",
         "valid": true,
-        "alternate": false
+        "alternate": false,
+        "failure_mode": null
     },
     {
         "object_name": "inverter batteries",
