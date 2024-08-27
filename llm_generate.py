@@ -145,7 +145,7 @@ if __name__ == "__main__":
     paths = get_samples(paths_dict, num_samples=30)
     
     # Custom path
-    # paths = [{'object_name': 'fuel', 'event_name': 'leaking'}]
+    paths = [{'object_name': 'fuel', 'event_name': 'leaking'}]
     
     # Generate MWO sentences for each path
     for path in paths:

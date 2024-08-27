@@ -129,12 +129,12 @@ Event: leak
 Helper: coolant
 Number of sentences: 13
 ----------------------------------------
-~ leak in swing brake hose
+~ leak in swing brake hose                  !!
 ~ swing brake hose coolant leak
 ~ swing brake hose has a coolant leak
-~ swing brake hose has a leak
+~ swing brake hose has a leak               !!
 ~ leak in swing brake hose coolant
-~ leak found in swing brake hose
+~ leak found in swing brake hose            !!
 ~ swing brake hose shows coolant leak
 ~ coolant leak from swing brake hose
 ~ swing brake hose coolant leak detected
@@ -12197,4 +12197,22 @@ Number of sentences: 9
 ~ brake filter hose has oil leak
 ~ brake filter hose leaking oil
 ~ oil leak in brake filter hose
+========================================
+========================================
+Object: fuel
+Event: leaking
+Number of sentences: 12
+----------------------------------------
+~ fuel is leaking
+~ fuel leak present
+~ replace leaking fuel
+~ leaking fuel
+~ fuel leaking
+~ replace leaking fuel line
+~ fuel leak detected
+~ fuel line is leaking
+~ fuel leaking from system
+~ fuel leaking detected
+~ repair leaking fuel
+~ fuel leaking from tank
 ========================================
