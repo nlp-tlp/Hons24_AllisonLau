@@ -7,7 +7,7 @@
 <id> air filters plugged,plugged,PLU,Plugged / choked,
 <id> air horn disconnected,disconnected,BRD,Breakdown,
 <id> air horn doesn't work,doesn't work,FTS,Failure to start on demand,
-Sentence,fault,,,
+<id> air horn fault,fault,,,
 <id> air horn not working,not working,BRD,Breakdown,
 <id> air horn not working compressor awaiting,not working,BRD,Breakdown,
 <id> air horn stuck on,stuck on,STP,Failure to stop on demand,
