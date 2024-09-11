@@ -17,7 +17,7 @@ def get_paraphrase_prompt(sentence, keywords, num_paraphrases=5):
     prompt += "\nYou may change the sentence from passive to active voice or vice versa."
     prompt += "\nAvoid verbosity and use minimal stop words."
     prompt += "\nThe sentence can have a maximum of 8 words."
-    return prompt    
+    return prompt
 
 def get_paraphrase_fewshot():
     message = [{"role": "system", "content": "You are a maintenance work order sentence paraphraser."}]

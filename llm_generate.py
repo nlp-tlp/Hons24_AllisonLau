@@ -9,7 +9,7 @@ from path_queries import direct_queries, complex_queries
 from llm_prompt import initialise_prompts
 
 BLACKLIST = ['shows signs of', 'showing signs of', 'detected', 
-             'observed', 'requires attention', 'identified', "application"]
+             'observed', 'requires attention', 'identified', 'application']
 
 # Read all the paths extracted from MaintIE KG
 def get_all_paths(valid=True):
