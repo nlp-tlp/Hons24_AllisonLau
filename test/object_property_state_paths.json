@@ -1,0 +1,21 @@
+[
+    {
+        "object_name": "batteries",
+        "event_name": "no charge",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": null
+    },
+    {
+        "object_name": "inverter batteries",
+        "event_name": "no charge",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "blower inverter batteries",
+        "event_name": "no charge",
+        "valid": true,
+        "alternate": true
+    }
+]

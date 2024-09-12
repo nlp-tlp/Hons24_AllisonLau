@@ -1,0 +1,322 @@
+[
+    {
+        "object_name": "headboard",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "glass window",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "window",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "cable gantry",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "gantry",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "window frame",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "rock deflector",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "liner",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "blade liner",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "cross member",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "chassis cross member",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "fuel tank",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "tank",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "windscreen",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "backhoe windscreen",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "boom foot",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Noise"
+    },
+    {
+        "object_name": "track frame",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "frame",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "chord",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "boom chord",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "heat shield",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "boom",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "handrail",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "diagonal braces",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "braces",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "cross braces",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "mast cross braces",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "headboard",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "stick",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "decking",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "dirt chute",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "chute",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "mud bucket",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "bucket",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "mounts",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "cabin mounts",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "fire suppression mounts",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "fuel cooler mounts",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "bearing",
+        "event_name": "noisy",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Noise"
+    },
+    {
+        "object_name": "steering cylinder bearing",
+        "event_name": "noisy",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "compressor bearing",
+        "event_name": "noisy",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "air conditioner compressor bearing",
+        "event_name": "noisy",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "equalizer bar bearing",
+        "event_name": "noisy",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "jockey pulley bearing",
+        "event_name": "noisy",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "roller bearing",
+        "event_name": "noisy",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "drag roller bearing",
+        "event_name": "noisy",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "hydraulic lift cylinder",
+        "event_name": "noisy",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "door frame",
+        "event_name": "hole",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "cabin door frame",
+        "event_name": "hole",
+        "valid": true,
+        "alternate": true
+    }
+]
