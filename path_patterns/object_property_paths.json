@@ -1,20 +1,20 @@
 [
     {
-        "object_name": "headboard",
+        "object_name": "window frame",
         "event_name": "crack",
         "valid": true,
         "alternate": false,
         "failure_mode": "Structural deficiency"
     },
     {
-        "object_name": "glass window",
+        "object_name": "chord",
         "event_name": "crack",
         "valid": true,
         "alternate": false,
         "failure_mode": "Structural deficiency"
     },
     {
-        "object_name": "window",
+        "object_name": "boom chord",
         "event_name": "crack",
         "valid": true,
         "alternate": true
@@ -33,41 +33,14 @@
         "alternate": true
     },
     {
-        "object_name": "window frame",
+        "object_name": "track frame",
         "event_name": "crack",
         "valid": true,
         "alternate": false,
         "failure_mode": "Structural deficiency"
     },
     {
-        "object_name": "rock deflector",
-        "event_name": "crack",
-        "valid": true,
-        "alternate": false,
-        "failure_mode": "Structural deficiency"
-    },
-    {
-        "object_name": "liner",
-        "event_name": "crack",
-        "valid": true,
-        "alternate": false,
-        "failure_mode": "Structural deficiency"
-    },
-    {
-        "object_name": "blade liner",
-        "event_name": "crack",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "cross member",
-        "event_name": "crack",
-        "valid": true,
-        "alternate": false,
-        "failure_mode": "Structural deficiency"
-    },
-    {
-        "object_name": "chassis cross member",
+        "object_name": "frame",
         "event_name": "crack",
         "valid": true,
         "alternate": true
@@ -86,6 +59,19 @@
         "alternate": true
     },
     {
+        "object_name": "cross member",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "chassis cross member",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": true
+    },
+    {
         "object_name": "windscreen",
         "event_name": "crack",
         "valid": true,
@@ -99,39 +85,6 @@
         "alternate": true
     },
     {
-        "object_name": "boom foot",
-        "event_name": "crack",
-        "valid": true,
-        "alternate": false,
-        "failure_mode": "Noise"
-    },
-    {
-        "object_name": "track frame",
-        "event_name": "crack",
-        "valid": true,
-        "alternate": false,
-        "failure_mode": "Structural deficiency"
-    },
-    {
-        "object_name": "frame",
-        "event_name": "crack",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "chord",
-        "event_name": "crack",
-        "valid": true,
-        "alternate": false,
-        "failure_mode": "Structural deficiency"
-    },
-    {
-        "object_name": "boom chord",
-        "event_name": "crack",
-        "valid": true,
-        "alternate": true
-    },
-    {
         "object_name": "heat shield",
         "event_name": "crack",
         "valid": true,
@@ -139,14 +92,80 @@
         "failure_mode": "Structural deficiency"
     },
     {
-        "object_name": "boom",
+        "object_name": "boom foot",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Noise"
+    },
+    {
+        "object_name": "glass window",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "window",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "liner",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "blade liner",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "rock deflector",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "headboard",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "mud bucket",
         "event_name": "cracks",
         "valid": true,
         "alternate": false,
         "failure_mode": "Structural deficiency"
     },
     {
-        "object_name": "handrail",
+        "object_name": "bucket",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "dirt chute",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "chute",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "headboard",
         "event_name": "cracks",
         "valid": true,
         "alternate": false,
@@ -166,20 +185,14 @@
         "alternate": true
     },
     {
-        "object_name": "cross braces",
+        "object_name": "boom",
         "event_name": "cracks",
         "valid": true,
         "alternate": false,
         "failure_mode": "Structural deficiency"
     },
     {
-        "object_name": "mast cross braces",
-        "event_name": "cracks",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "headboard",
+        "object_name": "handrail",
         "event_name": "cracks",
         "valid": true,
         "alternate": false,
@@ -200,27 +213,14 @@
         "failure_mode": "Structural deficiency"
     },
     {
-        "object_name": "dirt chute",
+        "object_name": "cross braces",
         "event_name": "cracks",
         "valid": true,
         "alternate": false,
         "failure_mode": "Structural deficiency"
     },
     {
-        "object_name": "chute",
-        "event_name": "cracks",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "mud bucket",
-        "event_name": "cracks",
-        "valid": true,
-        "alternate": false,
-        "failure_mode": "Structural deficiency"
-    },
-    {
-        "object_name": "bucket",
+        "object_name": "mast cross braces",
         "event_name": "cracks",
         "valid": true,
         "alternate": true
@@ -264,6 +264,12 @@
         "alternate": true
     },
     {
+        "object_name": "equalizer bar bearing",
+        "event_name": "noisy",
+        "valid": true,
+        "alternate": true
+    },
+    {
         "object_name": "compressor bearing",
         "event_name": "noisy",
         "valid": true,
@@ -276,18 +282,6 @@
         "alternate": true
     },
     {
-        "object_name": "equalizer bar bearing",
-        "event_name": "noisy",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "jockey pulley bearing",
-        "event_name": "noisy",
-        "valid": true,
-        "alternate": true
-    },
-    {
         "object_name": "roller bearing",
         "event_name": "noisy",
         "valid": true,
@@ -295,6 +289,12 @@
     },
     {
         "object_name": "drag roller bearing",
+        "event_name": "noisy",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "jockey pulley bearing",
         "event_name": "noisy",
         "valid": true,
         "alternate": true
