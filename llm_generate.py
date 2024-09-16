@@ -12,7 +12,7 @@ BLACKLIST = ['shows signs of', 'showing signs of', 'detected',
              'observed', 'requires attention', 'identified', 'application']
 
 # Read all the paths extracted from MaintIE KG
-def get_all_paths(valid=True):
+def get_all_paths(valid=True, label=False):
     """ Read all the paths extracted from MaintIE Gold Dataset KG """
     queries = direct_queries + complex_queries
     paths_list = []
@@ -20,8 +20,12 @@ def get_all_paths(valid=True):
     for query in queries:
         with open(f"path_patterns/{query['outfile']}.json", encoding='utf-8') as f:
             paths_json = json.load(f)
-            if valid:
+            if valid and label:
+                paths_json = [path for path in paths_json if path['valid'] == valid and 'failure_mode' in path]
+            elif valid:
                 paths_json = [path for path in paths_json if path['valid'] == valid]
+            elif label:
+                paths_json = [path for path in paths_json if 'failure_mode' in path]
             print(f"{len(paths_json)}\tpaths in {query['outfile']}")
             paths_dict[query['outfile']] = paths_json
             paths_list.extend(paths_json)
@@ -31,8 +35,8 @@ def get_all_paths(valid=True):
 # Craft and return prompt for generating MWO sentences
 def get_generate_prompt(prompt_variations, object, event):
     """ Craft and return prompt for generating MWO sentences.
-        Prompt: Generate 5 different Maintenance Work Order (MWO) sentence describing the
-                following equipment undesirable event in natural language. 
+        Prompt: Generate 5 different Maintenance Work Order (MWO) sentence describing 
+                the following equipment undesirable event. 
                 Equipment: {object}
                 Undesirable Event: {event}
                 You must use all terms given above and do not add new information.
@@ -88,9 +92,9 @@ def process_mwo_response(response):
         output.append(processed)
     return output
 
-# Overall generation process
-def generate_mwo(client, prompt_variations, path):
-    """ Generate MWO sentences for each path """
+# Overall generation process for diversity
+def generate_diverse_mwo(client, prompt_variations, path):
+    """ Generate diverse MWO sentences for each path """
     num = 5
     # Get prompt for current path's PhysicalObject and UndesirableEvent
     object = path['object_name']
@@ -117,7 +121,28 @@ def generate_mwo(client, prompt_variations, path):
     print(f"{object} {event} - {len(sentences)} sentences")
     return sentences
 
-# Get samples from different path types
+def generate_mwo(client, prompt_variations, path):
+    """ Generate MWO sentences for each path """
+    # Get prompt for current path's PhysicalObject and UndesirableEvent
+    object = path['object_name']
+    event = path['event_name']
+    prompt = get_generate_prompt(prompt_variations, object, event)
+    fewshot = get_generate_fewshot(prompt_variations)
+    message = fewshot + [{"role": "user", "content": prompt}]
+    
+    # Generate 1 completion for path (max 5 sentences)
+    response = client.chat.completions.create(
+                    model="gpt-4o-mini",
+                    messages=message,
+                    temperature=0.9,
+                    top_p=0.9,
+                    n=1
+            )
+    sentences = process_mwo_response(response.choices[0].message.content)
+    print(f"{object} {event} - {len(sentences)} sentences")
+    return sentences
+
+# Get samples from different path types (num samples per path type)
 def get_samples(paths_dict, num_samples=30):
     """ Get samples from different path types """
     samples = []
@@ -162,6 +187,10 @@ if __name__ == "__main__":
                 f.write(f"~ {sentence}\n")
             f.write("========================================\n")
             
-        # Save one random to synthetic_generate data
-        with open('TuringTest/synthetic_generate.txt', 'a', encoding='utf-8') as f:
-            f.write(f"{random.choice(sentences)}\n")
+        # Save generated sentences to txt file (labelled with failure mode)
+        with open(f"mwo_sentences/synthetic.txt", "w", encoding='utf-8') as f:
+            for sentence in sentences:
+                if 'failure_mode' in path:
+                    f.write(f"{sentence},{path['failure_mode']}\n")
+                else:
+                    f.write(f"{sentence},None\n")

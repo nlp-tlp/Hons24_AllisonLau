@@ -139,6 +139,7 @@ def get_failure_mode(driver, entry_id):
             """
     with driver.session() as session:
         results = session.run(query)
-        for record in results:
-            failure_mode = record["failure_mode"]
-    return failure_mode
+        record = results.single()
+        if record:
+            return record["failure_mode"]
+        return None

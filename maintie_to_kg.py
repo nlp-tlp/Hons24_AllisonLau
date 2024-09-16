@@ -79,7 +79,7 @@ def read_failure_mode_mapping(filepath):
         for row in reader:
             if row[3] != "":
                 failure_mode_mapping[row[0]] = row[3]
-    return failure_mode_mapping
+    return failure_mode_mapping # entry_text: failure_mode
 
 # Function to label entry to failure mode codes
 def entry_failure_mode(tx, failure_mode_mapping):

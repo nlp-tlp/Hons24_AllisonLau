@@ -1,23 +1,10 @@
 [
     {
-        "object_name": "window frame",
+        "object_name": "headboard",
         "event_name": "crack",
         "valid": true,
         "alternate": false,
         "failure_mode": "Structural deficiency"
-    },
-    {
-        "object_name": "chord",
-        "event_name": "crack",
-        "valid": true,
-        "alternate": false,
-        "failure_mode": "Structural deficiency"
-    },
-    {
-        "object_name": "boom chord",
-        "event_name": "crack",
-        "valid": true,
-        "alternate": true
     },
     {
         "object_name": "cable gantry",
@@ -28,6 +15,33 @@
     },
     {
         "object_name": "gantry",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "window frame",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "rock deflector",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "liner",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "blade liner",
         "event_name": "crack",
         "valid": true,
         "alternate": true
@@ -59,19 +73,6 @@
         "alternate": true
     },
     {
-        "object_name": "cross member",
-        "event_name": "crack",
-        "valid": true,
-        "alternate": false,
-        "failure_mode": "Structural deficiency"
-    },
-    {
-        "object_name": "chassis cross member",
-        "event_name": "crack",
-        "valid": true,
-        "alternate": true
-    },
-    {
         "object_name": "windscreen",
         "event_name": "crack",
         "valid": true,
@@ -85,11 +86,17 @@
         "alternate": true
     },
     {
-        "object_name": "heat shield",
+        "object_name": "cross member",
         "event_name": "crack",
         "valid": true,
         "alternate": false,
         "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "chassis cross member",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": true
     },
     {
         "object_name": "boom foot",
@@ -97,6 +104,13 @@
         "valid": true,
         "alternate": false,
         "failure_mode": "Noise"
+    },
+    {
+        "object_name": "heat shield",
+        "event_name": "crack",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
     },
     {
         "object_name": "glass window",
@@ -112,60 +126,27 @@
         "alternate": true
     },
     {
-        "object_name": "liner",
+        "object_name": "chord",
         "event_name": "crack",
         "valid": true,
         "alternate": false,
         "failure_mode": "Structural deficiency"
     },
     {
-        "object_name": "blade liner",
+        "object_name": "boom chord",
         "event_name": "crack",
         "valid": true,
         "alternate": true
     },
     {
-        "object_name": "rock deflector",
-        "event_name": "crack",
-        "valid": true,
-        "alternate": false,
-        "failure_mode": "Structural deficiency"
-    },
-    {
-        "object_name": "headboard",
-        "event_name": "crack",
-        "valid": true,
-        "alternate": false,
-        "failure_mode": "Structural deficiency"
-    },
-    {
-        "object_name": "mud bucket",
+        "object_name": "boom",
         "event_name": "cracks",
         "valid": true,
         "alternate": false,
         "failure_mode": "Structural deficiency"
     },
     {
-        "object_name": "bucket",
-        "event_name": "cracks",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "dirt chute",
-        "event_name": "cracks",
-        "valid": true,
-        "alternate": false,
-        "failure_mode": "Structural deficiency"
-    },
-    {
-        "object_name": "chute",
-        "event_name": "cracks",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "headboard",
+        "object_name": "handrail",
         "event_name": "cracks",
         "valid": true,
         "alternate": false,
@@ -185,14 +166,7 @@
         "alternate": true
     },
     {
-        "object_name": "boom",
-        "event_name": "cracks",
-        "valid": true,
-        "alternate": false,
-        "failure_mode": "Structural deficiency"
-    },
-    {
-        "object_name": "handrail",
+        "object_name": "headboard",
         "event_name": "cracks",
         "valid": true,
         "alternate": false,
@@ -213,6 +187,19 @@
         "failure_mode": "Structural deficiency"
     },
     {
+        "object_name": "dirt chute",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "chute",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": true
+    },
+    {
         "object_name": "cross braces",
         "event_name": "cracks",
         "valid": true,
@@ -221,6 +208,19 @@
     },
     {
         "object_name": "mast cross braces",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "mud bucket",
+        "event_name": "cracks",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Structural deficiency"
+    },
+    {
+        "object_name": "bucket",
         "event_name": "cracks",
         "valid": true,
         "alternate": true
@@ -239,13 +239,13 @@
         "alternate": true
     },
     {
-        "object_name": "fire suppression mounts",
+        "object_name": "fuel cooler mounts",
         "event_name": "cracks",
         "valid": true,
         "alternate": true
     },
     {
-        "object_name": "fuel cooler mounts",
+        "object_name": "fire suppression mounts",
         "event_name": "cracks",
         "valid": true,
         "alternate": true

@@ -1,130 +1,24 @@
 [
     {
-        "object_name": "oil",
+        "object_name": "air",
         "event_name": "leak",
         "valid": true,
         "alternate": false,
         "failure_mode": "Leaking"
     },
     {
-        "object_name": "transmission oil",
+        "object_name": "coolant",
         "event_name": "leak",
         "valid": true,
-        "alternate": true
+        "alternate": false,
+        "failure_mode": "Leaking"
     },
     {
-        "object_name": "engine oil",
+        "object_name": "fuel",
         "event_name": "leak",
         "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "hydraulic motor engine oil",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "air compressor oil",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "thrust bearing oil",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "centre hitch oil",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "swingbox oil",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "pump oil",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "swing pump oil",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "parts washer pump oil",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "engine pump oil",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "differential pump oil",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "drag rope pump oil",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "cooler pump oil",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "slew pump oil",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "brake pump oil",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "steering pump oil",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "pto pump oil",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "fan pump oil",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "differential oil",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": true
+        "alternate": false,
+        "failure_mode": "Leaking"
     },
     {
         "object_name": "grease",
@@ -176,27 +70,6 @@
         "alternate": true
     },
     {
-        "object_name": "fuel",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": false,
-        "failure_mode": "Leaking"
-    },
-    {
-        "object_name": "air",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": false,
-        "failure_mode": "Leaking"
-    },
-    {
-        "object_name": "coolant",
-        "event_name": "leak",
-        "valid": true,
-        "alternate": false,
-        "failure_mode": "Leaking"
-    },
-    {
         "object_name": "hydraulic oil",
         "event_name": "leak",
         "valid": true,
@@ -217,18 +90,131 @@
         "failure_mode": "Leaking"
     },
     {
-        "object_name": "fuel",
-        "event_name": "leaking",
+        "object_name": "oil",
+        "event_name": "leak",
         "valid": true,
         "alternate": false,
         "failure_mode": "Leaking"
     },
     {
-        "object_name": "coolant",
-        "event_name": "leaking",
+        "object_name": "transmission oil",
+        "event_name": "leak",
         "valid": true,
-        "alternate": false,
-        "failure_mode": "Leaking"
+        "alternate": true
+    },
+    {
+        "object_name": "thrust bearing oil",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "air compressor oil",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "centre hitch oil",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "swingbox oil",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "differential oil",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "pump oil",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "parts washer pump oil",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "engine pump oil",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "swing pump oil",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "drag rope pump oil",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "brake pump oil",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "cooler pump oil",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "steering pump oil",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "fan pump oil",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "pto pump oil",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "differential pump oil",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "slew pump oil",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "engine oil",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "hydraulic motor engine oil",
+        "event_name": "leak",
+        "valid": true,
+        "alternate": true
     },
     {
         "object_name": "centrifugal oil filter",
@@ -250,14 +236,21 @@
         "alternate": true
     },
     {
-        "object_name": "air",
+        "object_name": "dust",
         "event_name": "leaking",
         "valid": true,
         "alternate": false,
         "failure_mode": "Leaking"
     },
     {
-        "object_name": "dust",
+        "object_name": "coolant",
+        "event_name": "leaking",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Leaking"
+    },
+    {
+        "object_name": "air",
         "event_name": "leaking",
         "valid": true,
         "alternate": false,
@@ -277,25 +270,13 @@
         "alternate": true
     },
     {
-        "object_name": "engine oil",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "hydraulic motor engine oil",
+        "object_name": "thrust bearing oil",
         "event_name": "leaking",
         "valid": true,
         "alternate": true
     },
     {
         "object_name": "air compressor oil",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "thrust bearing oil",
         "event_name": "leaking",
         "valid": true,
         "alternate": true
@@ -313,13 +294,13 @@
         "alternate": true
     },
     {
-        "object_name": "pump oil",
+        "object_name": "differential oil",
         "event_name": "leaking",
         "valid": true,
         "alternate": true
     },
     {
-        "object_name": "swing pump oil",
+        "object_name": "pump oil",
         "event_name": "leaking",
         "valid": true,
         "alternate": true
@@ -337,7 +318,7 @@
         "alternate": true
     },
     {
-        "object_name": "differential pump oil",
+        "object_name": "swing pump oil",
         "event_name": "leaking",
         "valid": true,
         "alternate": true
@@ -349,19 +330,13 @@
         "alternate": true
     },
     {
-        "object_name": "cooler pump oil",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "slew pump oil",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
         "object_name": "brake pump oil",
+        "event_name": "leaking",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "cooler pump oil",
         "event_name": "leaking",
         "valid": true,
         "alternate": true
@@ -373,22 +348,47 @@
         "alternate": true
     },
     {
-        "object_name": "pto pump oil",
-        "event_name": "leaking",
-        "valid": true,
-        "alternate": true
-    },
-    {
         "object_name": "fan pump oil",
         "event_name": "leaking",
         "valid": true,
         "alternate": true
     },
     {
-        "object_name": "differential oil",
+        "object_name": "pto pump oil",
         "event_name": "leaking",
         "valid": true,
         "alternate": true
+    },
+    {
+        "object_name": "differential pump oil",
+        "event_name": "leaking",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "slew pump oil",
+        "event_name": "leaking",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "engine oil",
+        "event_name": "leaking",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "hydraulic motor engine oil",
+        "event_name": "leaking",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "fuel",
+        "event_name": "leaking",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Leaking"
     },
     {
         "object_name": "batteries",
@@ -417,109 +417,7 @@
         "failure_mode": "Leaking"
     },
     {
-        "object_name": "cooler hose",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "differential cooler hose",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "hydraulic motor cooler hose",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "slew motor hose",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "centrifuge hose",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "filter hose",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "water separator filter hose",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "centrifuge filter hose",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "controller filter hose",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "brake filter hose",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "hitch hose",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "crowd cylinder hose",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "boom cylinder hose",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "oil cooler hose",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "axle oil cooler hose",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "engine oil cooler hose",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
         "object_name": "pump hose",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "swing pump hose",
         "event_name": "weeping",
         "valid": true,
         "alternate": true
@@ -537,7 +435,7 @@
         "alternate": true
     },
     {
-        "object_name": "differential pump hose",
+        "object_name": "swing pump hose",
         "event_name": "weeping",
         "valid": true,
         "alternate": true
@@ -549,19 +447,13 @@
         "alternate": true
     },
     {
-        "object_name": "cooler pump hose",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "slew pump hose",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
         "object_name": "brake pump hose",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "cooler pump hose",
         "event_name": "weeping",
         "valid": true,
         "alternate": true
@@ -573,49 +465,73 @@
         "alternate": true
     },
     {
-        "object_name": "pto pump hose",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
         "object_name": "fan pump hose",
         "event_name": "weeping",
         "valid": true,
         "alternate": true
     },
     {
-        "object_name": "fan hose",
+        "object_name": "pto pump hose",
         "event_name": "weeping",
         "valid": true,
         "alternate": true
     },
     {
-        "object_name": "air conditioner fan hose",
+        "object_name": "differential pump hose",
         "event_name": "weeping",
         "valid": true,
         "alternate": true
     },
     {
-        "object_name": "torque converter fan hose",
+        "object_name": "slew pump hose",
         "event_name": "weeping",
         "valid": true,
         "alternate": true
     },
     {
-        "object_name": "condenser fan hose",
+        "object_name": "centrifuge hose",
         "event_name": "weeping",
         "valid": true,
         "alternate": true
     },
     {
-        "object_name": "cooler fan hose",
+        "object_name": "filter hose",
         "event_name": "weeping",
         "valid": true,
         "alternate": true
     },
     {
-        "object_name": "engine fan hose",
+        "object_name": "brake filter hose",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "controller filter hose",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "centrifuge filter hose",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "water separator filter hose",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "clam cylinder hose",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "boom cylinder hose",
         "event_name": "weeping",
         "valid": true,
         "alternate": true
@@ -633,13 +549,19 @@
         "alternate": true
     },
     {
-        "object_name": "brake hose",
+        "object_name": "bucket cylinder hose",
         "event_name": "weeping",
         "valid": true,
         "alternate": true
     },
     {
-        "object_name": "slew brake hose",
+        "object_name": "steering hose",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "brake hose",
         "event_name": "weeping",
         "valid": true,
         "alternate": true
@@ -663,13 +585,37 @@
         "alternate": true
     },
     {
+        "object_name": "slew brake hose",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true
+    },
+    {
         "object_name": "drag brake hose",
         "event_name": "weeping",
         "valid": true,
         "alternate": true
     },
     {
-        "object_name": "steering hose",
+        "object_name": "slew motor hose",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "cooler hose",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "differential cooler hose",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "hydraulic motor cooler hose",
         "event_name": "weeping",
         "valid": true,
         "alternate": true
@@ -681,19 +627,7 @@
         "alternate": true
     },
     {
-        "object_name": "wiper motor hose",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
         "object_name": "drag motor hose",
-        "event_name": "weeping",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "hoist motor hose",
         "event_name": "weeping",
         "valid": true,
         "alternate": true
@@ -705,7 +639,7 @@
         "alternate": true
     },
     {
-        "object_name": "swing motor hose",
+        "object_name": "wiper motor hose",
         "event_name": "weeping",
         "valid": true,
         "alternate": true
@@ -717,7 +651,55 @@
         "alternate": true
     },
     {
+        "object_name": "hoist motor hose",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "swing motor hose",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "boom hose",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "oil cooler hose",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "axle oil cooler hose",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "engine oil cooler hose",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "crowd cylinder hose",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true
+    },
+    {
         "object_name": "hmu hose",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "hitch hose",
         "event_name": "weeping",
         "valid": true,
         "alternate": true
@@ -729,31 +711,37 @@
         "alternate": true
     },
     {
-        "object_name": "air conditioner hose",
+        "object_name": "fan hose",
         "event_name": "weeping",
         "valid": true,
         "alternate": true
     },
     {
-        "object_name": "engine air conditioner hose",
+        "object_name": "air conditioner fan hose",
         "event_name": "weeping",
         "valid": true,
         "alternate": true
     },
     {
-        "object_name": "dragline air conditioner hose",
+        "object_name": "torque converter fan hose",
         "event_name": "weeping",
         "valid": true,
         "alternate": true
     },
     {
-        "object_name": "operator cabin air conditioner hose",
+        "object_name": "cooler fan hose",
         "event_name": "weeping",
         "valid": true,
         "alternate": true
     },
     {
-        "object_name": "cabin air conditioner hose",
+        "object_name": "engine fan hose",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "condenser fan hose",
         "event_name": "weeping",
         "valid": true,
         "alternate": true
@@ -765,19 +753,31 @@
         "alternate": true
     },
     {
-        "object_name": "clam cylinder hose",
+        "object_name": "air conditioner hose",
         "event_name": "weeping",
         "valid": true,
         "alternate": true
     },
     {
-        "object_name": "bucket cylinder hose",
+        "object_name": "cabin air conditioner hose",
         "event_name": "weeping",
         "valid": true,
         "alternate": true
     },
     {
-        "object_name": "boom hose",
+        "object_name": "engine air conditioner hose",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "operator cabin air conditioner hose",
+        "event_name": "weeping",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "dragline air conditioner hose",
         "event_name": "weeping",
         "valid": true,
         "alternate": true
@@ -803,13 +803,13 @@
         "failure_mode": "Structural deficiency"
     },
     {
-        "object_name": "ripper control valve",
+        "object_name": "steering control valve",
         "event_name": "falling off",
         "valid": true,
         "alternate": true
     },
     {
-        "object_name": "steering control valve",
+        "object_name": "ripper control valve",
         "event_name": "falling off",
         "valid": true,
         "alternate": true
@@ -828,25 +828,13 @@
         "alternate": true
     },
     {
-        "object_name": "engine oil",
-        "event_name": "leaks",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "hydraulic motor engine oil",
+        "object_name": "thrust bearing oil",
         "event_name": "leaks",
         "valid": true,
         "alternate": true
     },
     {
         "object_name": "air compressor oil",
-        "event_name": "leaks",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "thrust bearing oil",
         "event_name": "leaks",
         "valid": true,
         "alternate": true
@@ -864,13 +852,13 @@
         "alternate": true
     },
     {
-        "object_name": "pump oil",
+        "object_name": "differential oil",
         "event_name": "leaks",
         "valid": true,
         "alternate": true
     },
     {
-        "object_name": "swing pump oil",
+        "object_name": "pump oil",
         "event_name": "leaks",
         "valid": true,
         "alternate": true
@@ -888,7 +876,7 @@
         "alternate": true
     },
     {
-        "object_name": "differential pump oil",
+        "object_name": "swing pump oil",
         "event_name": "leaks",
         "valid": true,
         "alternate": true
@@ -900,19 +888,13 @@
         "alternate": true
     },
     {
-        "object_name": "cooler pump oil",
-        "event_name": "leaks",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "slew pump oil",
-        "event_name": "leaks",
-        "valid": true,
-        "alternate": true
-    },
-    {
         "object_name": "brake pump oil",
+        "event_name": "leaks",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "cooler pump oil",
         "event_name": "leaks",
         "valid": true,
         "alternate": true
@@ -924,19 +906,37 @@
         "alternate": true
     },
     {
-        "object_name": "pto pump oil",
-        "event_name": "leaks",
-        "valid": true,
-        "alternate": true
-    },
-    {
         "object_name": "fan pump oil",
         "event_name": "leaks",
         "valid": true,
         "alternate": true
     },
     {
-        "object_name": "differential oil",
+        "object_name": "pto pump oil",
+        "event_name": "leaks",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "differential pump oil",
+        "event_name": "leaks",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "slew pump oil",
+        "event_name": "leaks",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "engine oil",
+        "event_name": "leaks",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "hydraulic motor engine oil",
         "event_name": "leaks",
         "valid": true,
         "alternate": true
@@ -1011,13 +1011,13 @@
         "failure_mode": null
     },
     {
-        "object_name": "transmission mount",
+        "object_name": "beacon mount",
         "event_name": "movement",
         "valid": true,
         "alternate": true
     },
     {
-        "object_name": "beacon mount",
+        "object_name": "transmission mount",
         "event_name": "movement",
         "valid": true,
         "alternate": true
@@ -1062,42 +1062,6 @@
         "failure_mode": "Structural deficiency"
     },
     {
-        "object_name": "air conditioner cover",
-        "event_name": "cracking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "engine air conditioner cover",
-        "event_name": "cracking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "dragline air conditioner cover",
-        "event_name": "cracking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "operator cabin air conditioner cover",
-        "event_name": "cracking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "cabin air conditioner cover",
-        "event_name": "cracking",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "tilt cylinder cover",
-        "event_name": "cracking",
-        "valid": true,
-        "alternate": true
-    },
-    {
         "object_name": "engine cover",
         "event_name": "cracking",
         "valid": true,
@@ -1105,6 +1069,12 @@
     },
     {
         "object_name": "hydraulic motor engine cover",
+        "event_name": "cracking",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "tilt cylinder cover",
         "event_name": "cracking",
         "valid": true,
         "alternate": true
@@ -1123,6 +1093,36 @@
     },
     {
         "object_name": "battery cover",
+        "event_name": "cracking",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "air conditioner cover",
+        "event_name": "cracking",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "cabin air conditioner cover",
+        "event_name": "cracking",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "engine air conditioner cover",
+        "event_name": "cracking",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "operator cabin air conditioner cover",
+        "event_name": "cracking",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "dragline air conditioner cover",
         "event_name": "cracking",
         "valid": true,
         "alternate": true
@@ -1199,13 +1199,13 @@
         "alternate": true
     },
     {
-        "object_name": "engine air conditioner compressor",
+        "object_name": "cabin air conditioner compressor",
         "event_name": "tripping out",
         "valid": true,
         "alternate": true
     },
     {
-        "object_name": "dragline air conditioner compressor",
+        "object_name": "engine air conditioner compressor",
         "event_name": "tripping out",
         "valid": true,
         "alternate": true
@@ -1217,7 +1217,7 @@
         "alternate": true
     },
     {
-        "object_name": "cabin air conditioner compressor",
+        "object_name": "dragline air conditioner compressor",
         "event_name": "tripping out",
         "valid": true,
         "alternate": true
@@ -1281,25 +1281,13 @@
         "failure_mode": null
     },
     {
-        "object_name": "lights fuse",
-        "event_name": "keep blowing",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "roof lights fuse",
-        "event_name": "keep blowing",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "mast lights fuse",
-        "event_name": "keep blowing",
-        "valid": true,
-        "alternate": true
-    },
-    {
         "object_name": "air conditioner fuse",
+        "event_name": "keep blowing",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "cabin air conditioner fuse",
         "event_name": "keep blowing",
         "valid": true,
         "alternate": true
@@ -1311,19 +1299,37 @@
         "alternate": true
     },
     {
-        "object_name": "dragline air conditioner fuse",
-        "event_name": "keep blowing",
-        "valid": true,
-        "alternate": true
-    },
-    {
         "object_name": "operator cabin air conditioner fuse",
         "event_name": "keep blowing",
         "valid": true,
         "alternate": true
     },
     {
-        "object_name": "cabin air conditioner fuse",
+        "object_name": "dragline air conditioner fuse",
+        "event_name": "keep blowing",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "voltage regulator fuse",
+        "event_name": "keep blowing",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "lights fuse",
+        "event_name": "keep blowing",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "mast lights fuse",
+        "event_name": "keep blowing",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "roof lights fuse",
         "event_name": "keep blowing",
         "valid": true,
         "alternate": true
@@ -1353,12 +1359,6 @@
         "alternate": true
     },
     {
-        "object_name": "voltage regulator fuse",
-        "event_name": "keep blowing",
-        "valid": true,
-        "alternate": true
-    },
-    {
         "object_name": "inverter",
         "event_name": "earthing out",
         "valid": true,
@@ -1367,6 +1367,12 @@
     },
     {
         "object_name": "blower inverter",
+        "event_name": "earthing out",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "swing blower inverter",
         "event_name": "earthing out",
         "valid": true,
         "alternate": true
@@ -1390,12 +1396,6 @@
         "alternate": true
     },
     {
-        "object_name": "swing blower inverter",
-        "event_name": "earthing out",
-        "valid": true,
-        "alternate": true
-    },
-    {
         "object_name": "fuse",
         "event_name": "keeps blowing",
         "valid": true,
@@ -1403,25 +1403,13 @@
         "failure_mode": null
     },
     {
-        "object_name": "lights fuse",
-        "event_name": "keeps blowing",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "roof lights fuse",
-        "event_name": "keeps blowing",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "mast lights fuse",
-        "event_name": "keeps blowing",
-        "valid": true,
-        "alternate": true
-    },
-    {
         "object_name": "air conditioner fuse",
+        "event_name": "keeps blowing",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "cabin air conditioner fuse",
         "event_name": "keeps blowing",
         "valid": true,
         "alternate": true
@@ -1433,19 +1421,37 @@
         "alternate": true
     },
     {
-        "object_name": "dragline air conditioner fuse",
-        "event_name": "keeps blowing",
-        "valid": true,
-        "alternate": true
-    },
-    {
         "object_name": "operator cabin air conditioner fuse",
         "event_name": "keeps blowing",
         "valid": true,
         "alternate": true
     },
     {
-        "object_name": "cabin air conditioner fuse",
+        "object_name": "dragline air conditioner fuse",
+        "event_name": "keeps blowing",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "voltage regulator fuse",
+        "event_name": "keeps blowing",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "lights fuse",
+        "event_name": "keeps blowing",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "mast lights fuse",
+        "event_name": "keeps blowing",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "roof lights fuse",
         "event_name": "keeps blowing",
         "valid": true,
         "alternate": true
@@ -1475,12 +1481,6 @@
         "alternate": true
     },
     {
-        "object_name": "voltage regulator fuse",
-        "event_name": "keeps blowing",
-        "valid": true,
-        "alternate": true
-    },
-    {
         "object_name": "chip sensor",
         "event_name": "alarm",
         "valid": true,
@@ -1489,12 +1489,6 @@
     },
     {
         "object_name": "pump chip sensor",
-        "event_name": "alarm",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "swing pump chip sensor",
         "event_name": "alarm",
         "valid": true,
         "alternate": true
@@ -1512,7 +1506,7 @@
         "alternate": true
     },
     {
-        "object_name": "differential pump chip sensor",
+        "object_name": "swing pump chip sensor",
         "event_name": "alarm",
         "valid": true,
         "alternate": true
@@ -1524,19 +1518,13 @@
         "alternate": true
     },
     {
-        "object_name": "cooler pump chip sensor",
-        "event_name": "alarm",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "slew pump chip sensor",
-        "event_name": "alarm",
-        "valid": true,
-        "alternate": true
-    },
-    {
         "object_name": "brake pump chip sensor",
+        "event_name": "alarm",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "cooler pump chip sensor",
         "event_name": "alarm",
         "valid": true,
         "alternate": true
@@ -1548,13 +1536,25 @@
         "alternate": true
     },
     {
+        "object_name": "fan pump chip sensor",
+        "event_name": "alarm",
+        "valid": true,
+        "alternate": true
+    },
+    {
         "object_name": "pto pump chip sensor",
         "event_name": "alarm",
         "valid": true,
         "alternate": true
     },
     {
-        "object_name": "fan pump chip sensor",
+        "object_name": "differential pump chip sensor",
+        "event_name": "alarm",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "slew pump chip sensor",
         "event_name": "alarm",
         "valid": true,
         "alternate": true
@@ -1567,13 +1567,13 @@
         "failure_mode": null
     },
     {
-        "object_name": "pump cavity",
+        "object_name": "pto cavity",
         "event_name": "emptying",
         "valid": true,
         "alternate": true
     },
     {
-        "object_name": "swing pump cavity",
+        "object_name": "pump cavity",
         "event_name": "emptying",
         "valid": true,
         "alternate": true
@@ -1591,7 +1591,7 @@
         "alternate": true
     },
     {
-        "object_name": "differential pump cavity",
+        "object_name": "swing pump cavity",
         "event_name": "emptying",
         "valid": true,
         "alternate": true
@@ -1603,19 +1603,13 @@
         "alternate": true
     },
     {
-        "object_name": "cooler pump cavity",
-        "event_name": "emptying",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "slew pump cavity",
-        "event_name": "emptying",
-        "valid": true,
-        "alternate": true
-    },
-    {
         "object_name": "brake pump cavity",
+        "event_name": "emptying",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "cooler pump cavity",
         "event_name": "emptying",
         "valid": true,
         "alternate": true
@@ -1627,19 +1621,25 @@
         "alternate": true
     },
     {
-        "object_name": "pto pump cavity",
-        "event_name": "emptying",
-        "valid": true,
-        "alternate": true
-    },
-    {
         "object_name": "fan pump cavity",
         "event_name": "emptying",
         "valid": true,
         "alternate": true
     },
     {
-        "object_name": "pto cavity",
+        "object_name": "pto pump cavity",
+        "event_name": "emptying",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "differential pump cavity",
+        "event_name": "emptying",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "slew pump cavity",
         "event_name": "emptying",
         "valid": true,
         "alternate": true
