@@ -1,6 +1,7 @@
 [
     {
         "object_name": "batteries",
+        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
         "event_name": "no charge",
         "valid": true,
         "alternate": false,
