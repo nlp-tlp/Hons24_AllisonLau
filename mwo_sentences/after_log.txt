@@ -11606,3 +11606,3336 @@ Number of sentences: 12
 ~ repair leaking fuel
 ~ fuel leaking from tank
 ========================================
+========================================
+Object: gantry
+Event: crack
+Number of sentences: 5
+----------------------------------------
+~ gantry has a crack
+~ crack in gantry
+~ gantry cracked
+~ repair crack on gantry
+~ cracked gantry needs repair
+========================================
+========================================
+Object: tank
+Event: crack
+Number of sentences: 5
+----------------------------------------
+~ tank has a crack
+~ crack found in tank
+~ tank is cracked
+~ cracked tank
+~ repair crack in tank
+========================================
+========================================
+Object: headboard
+Event: cracks
+Number of sentences: 5
+----------------------------------------
+~ headboard has cracks
+~ cracks found in headboard
+~ headboard is cracked
+~ repair cracks on headboard
+~ headboard cracks need fixing
+========================================
+========================================
+Object: liner
+Event: crack
+Number of sentences: 5
+----------------------------------------
+~ liner has a crack
+~ crack in liner
+~ cracked liner
+~ repair crack in liner
+~ liner is cracked
+========================================
+========================================
+Object: windscreen
+Event: crack
+Number of sentences: 5
+----------------------------------------
+~ windscreen has a crack
+~ crack found in windscreen
+~ cracked windscreen
+~ windscreen crack
+~ repair crack in windscreen
+========================================
+========================================
+Object: mud bucket
+Event: cracks
+Number of sentences: 5
+----------------------------------------
+~ mud bucket has cracks
+~ cracks in mud bucket
+~ mud bucket is cracked
+~ repair cracks on mud bucket
+~ cracked mud bucket needs repair
+========================================
+========================================
+Object: boom
+Event: cracks
+Number of sentences: 5
+----------------------------------------
+~ boom has cracks
+~ cracks found on boom
+~ boom is cracked
+~ cracked boom
+~ repair cracks in boom
+========================================
+========================================
+Object: headboard
+Event: crack
+Number of sentences: 5
+----------------------------------------
+~ headboard has a crack
+~ crack in headboard
+~ headboard is cracked
+~ repair cracked headboard
+~ headboard crack found
+========================================
+========================================
+Object: compressor bearing
+Event: noisy
+Number of sentences: 5
+----------------------------------------
+~ compressor bearing is noisy
+~ noisy compressor bearing
+~ compressor bearing making noise
+~ compressor bearing has noise
+~ repair noisy compressor bearing
+========================================
+========================================
+Object: drag roller bearing
+Event: noisy
+Number of sentences: 5
+----------------------------------------
+~ drag roller bearing is noisy
+~ noisy drag roller bearing
+~ drag roller bearing making noise
+~ drag roller bearing has noise
+~ replace noisy drag roller bearing
+========================================
+========================================
+Object: fuel cooler mounts
+Event: cracks
+Number of sentences: 5
+----------------------------------------
+~ fuel cooler mounts have cracks
+~ cracks in fuel cooler mounts
+~ fuel cooler mounts are cracked
+~ cracked fuel cooler mounts
+~ repair cracks in fuel cooler mounts
+========================================
+========================================
+Object: rock deflector
+Event: crack
+Number of sentences: 5
+----------------------------------------
+~ rock deflector has a crack
+~ crack in rock deflector
+~ rock deflector is cracked
+~ repair crack in rock deflector
+~ cracked rock deflector needs repair
+========================================
+========================================
+Object: window frame
+Event: crack
+Number of sentences: 5
+----------------------------------------
+~ window frame has a crack
+~ crack in window frame
+~ window frame is cracked
+~ repair crack in window frame
+~ cracked window frame needs repair
+========================================
+========================================
+Object: cross braces
+Event: cracks
+Number of sentences: 5
+----------------------------------------
+~ cross braces have cracks
+~ cracks in cross braces
+~ cross braces cracked
+~ repair cracks in cross braces
+~ cracked cross braces need repair
+========================================
+========================================
+Object: braces
+Event: cracks
+Number of sentences: 5
+----------------------------------------
+~ braces have cracks
+~ cracks in braces
+~ cracked braces
+~ repair cracks in braces
+~ replace cracked braces
+========================================
+========================================
+Object: dirt chute
+Event: cracks
+Number of sentences: 5
+----------------------------------------
+~ dirt chute has cracks
+~ cracks found in dirt chute
+~ cracked dirt chute
+~ dirt chute cracking
+~ repair cracks on dirt chute
+========================================
+========================================
+Object: cabin mounts
+Event: cracks
+Number of sentences: 5
+----------------------------------------
+~ cabin mounts have cracks
+~ cracks in cabin mounts
+~ cabin mounts cracked
+~ cracked cabin mounts
+~ repair cracks in cabin mounts
+========================================
+========================================
+Object: roller bearing
+Event: noisy
+Number of sentences: 5
+----------------------------------------
+~ roller bearing is noisy
+~ noisy roller bearing
+~ roller bearing making noise
+~ noise from roller bearing
+~ roller bearing producing noise
+========================================
+========================================
+Object: blade liner
+Event: crack
+Number of sentences: 5
+----------------------------------------
+~ blade liner has a crack
+~ crack found in blade liner
+~ cracked blade liner
+~ repair crack in blade liner
+~ blade liner crack detected
+========================================
+========================================
+Object: boom chord
+Event: crack
+Number of sentences: 5
+----------------------------------------
+~ boom chord has a crack
+~ crack found in boom chord
+~ boom chord is cracked
+~ cracked boom chord
+~ repair crack in boom chord
+========================================
+========================================
+Object: equalizer bar bearing
+Event: noisy
+Number of sentences: 5
+----------------------------------------
+~ equalizer bar bearing is noisy
+~ noisy equalizer bar bearing
+~ equalizer bar bearing making noise
+~ equalizer bar bearing has noise
+~ repair noisy equalizer bar bearing
+========================================
+========================================
+Object: jockey pulley bearing
+Event: noisy
+Number of sentences: 5
+----------------------------------------
+~ jockey pulley bearing is noisy
+~ noisy jockey pulley bearing
+~ jockey pulley bearing making noise
+~ noise from jockey pulley bearing
+~ jockey pulley bearing has noise
+========================================
+========================================
+Object: boom foot
+Event: crack
+Number of sentences: 5
+----------------------------------------
+~ boom foot has a crack
+~ crack in boom foot
+~ boom foot cracked
+~ repair crack in boom foot
+~ cracked boom foot
+========================================
+========================================
+Object: bucket
+Event: cracks
+Number of sentences: 5
+----------------------------------------
+~ bucket has cracks
+~ cracks in bucket
+~ bucket is cracked
+~ repair cracks on bucket
+~ cracked bucket needs repair
+========================================
+========================================
+Object: fire suppression mounts
+Event: cracks
+Number of sentences: 5
+----------------------------------------
+~ fire suppression mounts have cracks
+~ cracks in fire suppression mounts
+~ fire suppression mounts cracked
+~ cracked fire suppression mounts
+~ repair cracks on fire suppression mounts
+========================================
+========================================
+Object: cabin door frame
+Event: hole
+Number of sentences: 5
+----------------------------------------
+~ cabin door frame has a hole
+~ hole in cabin door frame
+~ cabin door frame with hole
+~ cabin door frame needs hole repair
+~ repair hole in cabin door frame
+========================================
+========================================
+Object: handrail
+Event: cracks
+Number of sentences: 5
+----------------------------------------
+~ handrail has cracks
+~ cracks found in handrail
+~ handrail cracked
+~ repair cracks in handrail
+~ handrail needs crack repair
+========================================
+========================================
+Object: window
+Event: crack
+Number of sentences: 5
+----------------------------------------
+~ window has a crack
+~ crack in window
+~ window is cracked
+~ cracked window
+~ repair crack in window
+========================================
+========================================
+Object: door frame
+Event: hole
+Number of sentences: 5
+----------------------------------------
+~ door frame has a hole
+~ hole in door frame
+~ door frame with hole
+~ repair hole in door frame
+~ door frame contains hole
+========================================
+========================================
+Object: fuel tank
+Event: crack
+Number of sentences: 5
+----------------------------------------
+~ fuel tank has a crack
+~ crack found in fuel tank
+~ fuel tank crack
+~ repair crack in fuel tank
+~ cracked fuel tank
+========================================
+========================================
+Object: engine pump
+Event: leaking
+Number of sentences: 5
+----------------------------------------
+~ engine pump is leaking
+~ leaking engine pump
+~ engine pump has a leak
+~ replace leaking engine pump
+~ engine pump leaking oil
+========================================
+========================================
+Object: brake hose
+Event: leak
+Number of sentences: 5
+----------------------------------------
+~ brake hose has a leak
+~ brake hose leaking
+~ leak in brake hose
+~ replace leaking brake hose
+~ brake hose leak detected
+========================================
+========================================
+Object: bucket cylinder hose
+Event: leaking
+Number of sentences: 5
+----------------------------------------
+~ bucket cylinder hose is leaking
+~ leaking bucket cylinder hose
+~ bucket cylinder hose has leak
+~ replace leaking bucket cylinder hose
+~ bucket cylinder hose leaking issue
+========================================
+========================================
+Object: accumulator
+Event: leak
+Number of sentences: 5
+----------------------------------------
+~ accumulator has a leak
+~ leak found in accumulator
+~ accumulator is leaking
+~ replace leaking accumulator
+~ repair leak in accumulator
+========================================
+========================================
+Object: roof heater taps
+Event: leaking
+Number of sentences: 5
+----------------------------------------
+~ roof heater taps are leaking
+~ leaking roof heater taps
+~ roof heater taps leaking water
+~ replace leaking roof heater taps
+~ repair leaking roof heater taps
+========================================
+========================================
+Object: air tank safety valve
+Event: leaking
+Number of sentences: 5
+----------------------------------------
+~ air tank safety valve is leaking
+~ leaking air tank safety valve
+~ air tank safety valve leaking
+~ replace leaking air tank safety valve
+~ air tank safety valve has leak
+========================================
+========================================
+Object: drag motor hoses
+Event: leaking
+Number of sentences: 5
+----------------------------------------
+~ drag motor hoses are leaking
+~ leaking drag motor hoses
+~ drag motor hoses leaking
+~ replace leaking drag motor hoses
+~ leak found in drag motor hoses
+========================================
+========================================
+Object: walk motor brake pump
+Event: leak
+Number of sentences: 5
+----------------------------------------
+~ walk motor brake pump has a leak
+~ walk motor brake pump leaking
+~ leak in walk motor brake pump
+~ replace leaking walk motor brake pump
+~ walk motor brake pump needs repair for leak
+========================================
+========================================
+Object: brake filter hose
+Event: leaking
+Number of sentences: 5
+----------------------------------------
+~ brake filter hose is leaking
+~ brake filter hose leaking
+~ leaking brake filter hose
+~ replace leaking brake filter hose
+~ repair leaking brake filter hose
+========================================
+========================================
+Object: drag rope pump hose
+Event: leak
+Number of sentences: 5
+----------------------------------------
+~ drag rope pump hose has a leak
+~ drag rope pump hose leaking
+~ leak in drag rope pump hose
+~ drag rope pump hose is leaking
+~ replace leaking drag rope pump hose
+========================================
+========================================
+Object: engine
+Event: leaks
+Number of sentences: 5
+----------------------------------------
+~ engine has leaks
+~ engine leaks present
+~ leaking engine
+~ engine is leaking
+~ repair leaks in engine
+========================================
+========================================
+Object: drag rope pump
+Event: leak
+Number of sentences: 5
+----------------------------------------
+~ drag rope pump has a leak
+~ leak found in drag rope pump
+~ drag rope pump leaking
+~ repair leak in drag rope pump
+~ drag rope pump leak needs fixing
+========================================
+========================================
+Object: brake pump hose
+Event: leaking
+Number of sentences: 5
+----------------------------------------
+~ brake pump hose is leaking
+~ brake pump hose leaking
+~ leaking brake pump hose
+~ replace leaking brake pump hose
+~ leak in brake pump hose
+========================================
+========================================
+Object: operator cabin air conditioner accessory drive
+Event: leaking
+Number of sentences: 5
+----------------------------------------
+~ operator cabin air conditioner accessory drive leaking
+~ leaking operator cabin air conditioner accessory drive
+~ operator cabin air conditioner leaking
+~ accessory drive leaking in operator cabin air conditioner
+~ air conditioner accessory drive is leaking
+========================================
+========================================
+Object: brake pump hose
+Event: leak
+Number of sentences: 5
+----------------------------------------
+~ brake pump hose has a leak
+~ leak in brake pump hose
+~ brake pump hose leaking
+~ replace leaking brake pump hose
+~ fix leak in brake pump hose
+========================================
+========================================
+Object: cooler pump hose
+Event: leaking
+Number of sentences: 5
+----------------------------------------
+~ cooler pump hose is leaking
+~ cooler pump hose leaking
+~ leaking cooler pump hose
+~ replace leaking cooler pump hose
+~ cooler pump hose needs replacing due leaking
+========================================
+========================================
+Object: engine pump hose
+Event: leaking
+Number of sentences: 5
+----------------------------------------
+~ engine pump hose is leaking
+~ leaking engine pump hose
+~ engine pump hose leaking
+~ replace leaking engine pump hose
+~ engine pump hose has leak
+========================================
+========================================
+Object: hose
+Event: leak
+Number of sentences: 5
+----------------------------------------
+~ hose has a leak
+~ leak in hose
+~ hose is leaking
+~ replace leaking hose
+~ hose leak found
+========================================
+========================================
+Object: motor hose
+Event: leaking
+Number of sentences: 5
+----------------------------------------
+~ motor hose is leaking
+~ leaking motor hose
+~ motor hose has a leak
+~ replace leaking motor hose
+~ motor hose leaking needs replacement
+========================================
+========================================
+Object: cabin air conditioner drive
+Event: leaking
+Number of sentences: 5
+----------------------------------------
+~ cabin air conditioner drive is leaking
+~ leaking cabin air conditioner drive
+~ cabin air conditioner drive leaking
+~ cabin air conditioner drive has leak
+~ replace leaking cabin air conditioner drive
+========================================
+========================================
+Object: charge hose
+Event: leaking
+Number of sentences: 5
+----------------------------------------
+~ charge hose is leaking
+~ leaking charge hose
+~ charge hose has a leak
+~ replace leaking charge hose
+~ charge hose leaking needs replacement
+========================================
+========================================
+Object: pump drive
+Event: leaking
+Number of sentences: 5
+----------------------------------------
+~ pump drive is leaking
+~ leaking pump drive
+~ pump drive leaking fluid
+~ pump drive has a leak
+~ replace leaking pump drive
+========================================
+========================================
+Object: tank
+Event: leak
+Number of sentences: 5
+----------------------------------------
+~ tank has a leak
+~ leak found in tank
+~ tank leaking
+~ replace leaking tank
+~ repair leak in tank
+========================================
+========================================
+Object: steering pump drive
+Event: leaking
+Number of sentences: 5
+----------------------------------------
+~ steering pump drive is leaking
+~ leaking steering pump drive
+~ steering pump drive leaking
+~ replace leaking steering pump drive
+~ adjust leaking steering pump drive
+========================================
+========================================
+Object: pressure compensator
+Event: weeping
+Number of sentences: 5
+----------------------------------------
+~ pressure compensator is weeping
+~ weeping pressure compensator
+~ pressure compensator has weeping
+~ replace weeping pressure compensator
+~ pressure compensator weeping issue
+========================================
+========================================
+Object: air conditioner fan pump
+Event: leak
+Number of sentences: 5
+----------------------------------------
+~ air conditioner fan pump has a leak
+~ air conditioner fan pump leaking
+~ leak in air conditioner fan pump
+~ air conditioner fan pump leak
+~ replace leaking air conditioner fan pump
+========================================
+========================================
+Object: centrifuge filter
+Event: leaking
+Number of sentences: 5
+----------------------------------------
+~ centrifuge filter is leaking
+~ leaking centrifuge filter
+~ centrifuge filter has a leak
+~ replace leaking centrifuge filter
+~ centrifuge filter leaking needs replacement
+========================================
+========================================
+Object: cooler fan hose
+Event: leak
+Number of sentences: 5
+----------------------------------------
+~ cooler fan hose has a leak
+~ leak in cooler fan hose
+~ cooler fan hose leaking
+~ replace leaking cooler fan hose
+~ cooler fan hose needs repair for leak
+========================================
+========================================
+Object: pilot valve solenoid
+Event: leak
+Number of sentences: 5
+----------------------------------------
+~ pilot valve solenoid has a leak
+~ leak in pilot valve solenoid
+~ pilot valve solenoid leaking
+~ replace leaking pilot valve solenoid
+~ pilot valve solenoid is leaking
+========================================
+========================================
+Object: head pulley shaft input seal
+Event: leaking
+Number of sentences: 5
+----------------------------------------
+~ head pulley shaft input seal leaking
+~ leaking head pulley shaft input seal
+~ head pulley shaft input seal is leaking
+~ replace leaking head pulley shaft input seal
+~ repair leaking head pulley shaft input seal
+========================================
+========================================
+Object: control valve
+Event: falling off
+Number of sentences: 5
+----------------------------------------
+~ control valve is falling off
+~ control valve falling off
+~ control valve has fallen off
+~ falling off control valve
+~ replace falling off control valve
+========================================
+========================================
+Object: engine pump oil
+Event: leaking
+Number of sentences: 5
+----------------------------------------
+~ engine pump oil is leaking
+~ leaking engine pump oil
+~ engine pump oil leaking
+~ replace leaking engine pump oil
+~ engine pump oil has leak
+========================================
+========================================
+Object: pto cavity
+Event: emptying
+Number of sentences: 5
+----------------------------------------
+~ pto cavity is emptying
+~ pto cavity emptying
+~ pto cavity needs emptying
+~ emptying pto cavity
+~ pto cavity is in emptying state
+========================================
+========================================
+Object: dust
+Event: leak
+Number of sentences: 5
+----------------------------------------
+~ dust leak present
+~ dust is leaking
+~ leak in dust
+~ dust has a leak
+~ repair dust leak
+========================================
+========================================
+Object: engine mount
+Event: movement
+Number of sentences: 5
+----------------------------------------
+~ engine mount has movement
+~ movement in engine mount
+~ engine mount is moving
+~ engine mount movement detected
+~ check engine mount movement
+========================================
+========================================
+Object: grease
+Event: leak
+Number of sentences: 5
+----------------------------------------
+~ grease leak
+~ leak in grease
+~ grease is leaking
+~ leaking grease
+~ repair grease leak
+========================================
+========================================
+Object: cylinder
+Event: creeping
+Number of sentences: 5
+----------------------------------------
+~ cylinder is creeping
+~ creeping cylinder
+~ cylinder has creeping
+~ cylinder movement is creeping
+~ creeping found in cylinder
+========================================
+========================================
+Object: slew pump chip sensor
+Event: alarm
+Number of sentences: 5
+----------------------------------------
+~ slew pump chip sensor alarm
+~ alarm from slew pump chip sensor
+~ slew pump chip sensor has alarm
+~ alarm triggered by slew pump chip sensor
+~ slew pump chip sensor is alarming
+========================================
+========================================
+Object: operator cabin air conditioner fuse
+Event: keeps blowing
+Number of sentences: 5
+----------------------------------------
+~ operator cabin air conditioner fuse keeps blowing
+~ air conditioner fuse keeps blowing
+~ fuse for air conditioner keeps blowing
+~ operator cabin air conditioner fuse blowing repeatedly
+~ blowing fuse for operator cabin air conditioner
+========================================
+========================================
+Object: slew pump oil
+Event: leaking
+Number of sentences: 5
+----------------------------------------
+~ slew pump oil is leaking
+~ leaking slew pump oil
+~ slew pump oil leaking
+~ replace leaking slew pump oil
+~ slew pump oil has a leak
+========================================
+========================================
+Object: air compressor oil
+Event: leaking
+Number of sentences: 5
+----------------------------------------
+~ air compressor oil is leaking
+~ leaking air compressor oil
+~ air compressor oil leaking
+~ replace leaking air compressor oil
+~ fix leaking air compressor oil
+========================================
+========================================
+Object: parts washer pump oil
+Event: leaking
+Number of sentences: 5
+----------------------------------------
+~ parts washer pump oil is leaking
+~ leaking parts washer pump oil
+~ parts washer pump oil leaking
+~ replace leaking parts washer pump oil
+~ parts washer pump oil has leak
+========================================
+========================================
+Object: steering column
+Event: movement
+Number of sentences: 5
+----------------------------------------
+~ steering column has movement
+~ movement in steering column
+~ steering column movement
+~ check movement in steering column
+~ steering column is moving
+========================================
+========================================
+Object: operator cabin air conditioner cover
+Event: cracking
+Number of sentences: 5
+----------------------------------------
+~ operator cabin air conditioner cover cracking
+~ air conditioner cover in operator cabin cracking
+~ cracking on operator cabin air conditioner cover
+~ operator cabin air conditioner cover is cracking
+~ replace cracking operator cabin air conditioner cover
+========================================
+========================================
+Object: cooler hose
+Event: weeping
+Number of sentences: 5
+----------------------------------------
+~ cooler hose is weeping
+~ weeping cooler hose
+~ cooler hose has weeping
+~ cooler hose is weeping fluid
+~ replace weeping cooler hose
+========================================
+========================================
+Object: engine
+Event: vibration
+Number of sentences: 5
+----------------------------------------
+~ engine has vibration
+~ vibration in engine
+~ engine vibration detected
+~ engine is vibrating
+~ repair engine vibration
+========================================
+========================================
+Object: inverter
+Event: earthing out
+Number of sentences: 5
+----------------------------------------
+~ inverter is earthing out
+~ inverter earthing out
+~ earthing out inverter
+~ inverter keeps earthing out
+~ earthing issue with inverter
+========================================
+========================================
+Object: swing pump hose
+Event: weeping
+Number of sentences: 5
+----------------------------------------
+~ swing pump hose is weeping
+~ swing pump hose weeping
+~ weeping swing pump hose
+~ replace weeping swing pump hose
+~ swing pump hose has weeping issue
+========================================
+========================================
+Object: fuse
+Event: keep blowing
+Number of sentences: 5
+----------------------------------------
+~ fuse keeps blowing
+~ fuse is blowing repeatedly
+~ blowing fuse needs replacement
+~ fuse keeps blowing out
+~ replace fuse that keeps blowing
+========================================
+========================================
+Object: clevis pin grease
+Event: leak
+Number of sentences: 5
+----------------------------------------
+~ clevis pin grease has a leak
+~ leak in clevis pin grease
+~ clevis pin grease leaking
+~ replace leaking clevis pin grease
+~ clevis pin grease leak found
+========================================
+========================================
+Object: operator cabin air conditioner compressor
+Event: tripping out
+Number of sentences: 5
+----------------------------------------
+~ compressor tripping out
+~ air conditioner compressor is tripping out
+~ operator cabin compressor tripping out
+~ tripping out operator cabin compressor
+~ air conditioner compressor keeps tripping out
+========================================
+========================================
+Object: starter fuse
+Event: keeps blowing
+Number of sentences: 5
+----------------------------------------
+~ starter fuse keeps blowing
+~ starter fuse is blowing
+~ blowing starter fuse
+~ starter fuse keeps blowing repeatedly
+~ replace starter fuse keeps blowing
+========================================
+========================================
+Object: hose
+Event: weeping
+Number of sentences: 5
+----------------------------------------
+~ hose is weeping
+~ weeping hose
+~ hose found weeping
+~ replace weeping hose
+~ hose needs replacement due to weeping
+========================================
+========================================
+Object: transmission oil
+Event: leaks
+Number of sentences: 5
+----------------------------------------
+~ transmission oil leaks
+~ leaking transmission oil
+~ transmission oil has leaks
+~ replace leaking transmission oil
+~ fix leaks in transmission oil
+========================================
+========================================
+Object: dragline air conditioner fuse
+Event: keep blowing
+Number of sentences: 5
+----------------------------------------
+~ dragline air conditioner fuse keeps blowing
+~ dragline air conditioner fuse is blowing
+~ fuse for dragline air conditioner keeps blowing
+~ dragline air conditioner fuse blowing repeatedly
+~ replace dragline air conditioner fuse blowing
+========================================
+========================================
+Object: drag blower inverter
+Event: earthing out
+Number of sentences: 5
+----------------------------------------
+~ drag blower inverter earthing out
+~ earthing out drag blower inverter
+~ drag blower inverter is earthing out
+~ drag blower inverter experiencing earthing out
+~ drag blower inverter has earthing out
+========================================
+========================================
+Object: differential pump oil
+Event: leak
+Number of sentences: 5
+----------------------------------------
+~ differential pump oil has a leak
+~ leak in differential pump oil
+~ differential pump oil leaking
+~ replace leaking differential pump oil
+~ differential pump oil leak found
+========================================
+========================================
+Object: wiper fuse
+Event: keeps blowing
+Number of sentences: 5
+----------------------------------------
+~ wiper fuse keeps blowing
+~ wiper fuse is blowing
+~ wiper fuse keeps blowing repeatedly
+~ replace wiper fuse keeps blowing
+~ wiper fuse continues to blow
+========================================
+========================================
+Object: brake filter hose
+Event: weeping
+Number of sentences: 5
+----------------------------------------
+~ brake filter hose is weeping
+~ brake filter hose weeping
+~ weeping brake filter hose
+~ brake filter hose has weeping
+~ replace weeping brake filter hose
+========================================
+========================================
+Object: steering control valve
+Event: falling off
+Number of sentences: 5
+----------------------------------------
+~ steering control valve is falling off
+~ steering control valve falling off
+~ falling off steering control valve
+~ steering control valve has fallen off
+~ replace falling off steering control valve
+========================================
+========================================
+Object: padding
+Event: worn
+Number of sentences: 5
+----------------------------------------
+~ padding is worn
+~ worn padding
+~ padding has worn areas
+~ padding found worn
+~ replace worn padding
+========================================
+========================================
+Object: lights
+Event: blown
+Number of sentences: 5
+----------------------------------------
+~ lights are blown
+~ blown lights
+~ lights have blown
+~ replace blown lights
+~ blown lights need replacement
+========================================
+========================================
+Object: tyre
+Event: unserviceable
+Number of sentences: 5
+----------------------------------------
+~ tyre is unserviceable
+~ unserviceable tyre
+~ tyre found unserviceable
+~ replace unserviceable tyre
+~ unserviceable tyre needs replacement
+========================================
+========================================
+Object: extinguisher
+Event: out of date
+Number of sentences: 5
+----------------------------------------
+~ extinguisher is out of date
+~ extinguisher out of date
+~ out of date extinguisher
+~ replace out of date extinguisher
+~ extinguisher needs updating
+========================================
+========================================
+Object: battery cover hinges
+Event: seized
+Number of sentences: 5
+----------------------------------------
+~ battery cover hinges seized
+~ battery cover hinges are seized
+~ seized battery cover hinges
+~ battery cover hinges found seized
+~ replace seized battery cover hinges
+========================================
+========================================
+Object: clevis pin grease
+Event: no
+Number of sentences: 5
+----------------------------------------
+~ clevis pin grease is missing
+~ no clevis pin grease
+~ clevis pin grease not present
+~ clevis pin grease unavailable
+~ clevis pin grease not found
+========================================
+========================================
+Object: cooler hose clamp
+Event: broken
+Number of sentences: 5
+----------------------------------------
+~ cooler hose clamp is broken
+~ broken cooler hose clamp
+~ cooler hose clamp found broken
+~ replace broken cooler hose clamp
+~ cooler hose clamp needs replacing
+========================================
+========================================
+Object: hoist drag brake
+Event: out of adjustment
+Number of sentences: 5
+----------------------------------------
+~ hoist drag brake out of adjustment
+~ hoist drag brake is out of adjustment
+~ out of adjustment hoist drag brake
+~ adjust hoist drag brake
+~ hoist drag brake needs adjustment
+========================================
+========================================
+Object: airhorn
+Event: not working
+Number of sentences: 5
+----------------------------------------
+~ airhorn is not working
+~ airhorn not working
+~ airhorn found not working
+~ replace airhorn not working
+~ airhorn needs repair not working
+========================================
+========================================
+Object: engine fan speed resistor
+Event: not working
+Number of sentences: 5
+----------------------------------------
+~ engine fan speed resistor not working
+~ engine fan speed resistor is not working
+~ not working engine fan speed resistor
+~ engine fan speed resistor failure
+~ replace engine fan speed resistor not working
+========================================
+========================================
+Object: hydraulic pipe
+Event: cracked
+Number of sentences: 5
+----------------------------------------
+~ hydraulic pipe is cracked
+~ cracked hydraulic pipe
+~ hydraulic pipe has crack
+~ replace cracked hydraulic pipe
+~ crack found in hydraulic pipe
+========================================
+========================================
+Object: auto-spray
+Event: not working
+Number of sentences: 5
+----------------------------------------
+~ auto-spray not working
+~ auto-spray is not working
+~ auto-spray not functioning
+~ auto-spray currently not working
+~ repair auto-spray not working
+========================================
+========================================
+Object: lights fuse
+Event: fault
+Number of sentences: 5
+----------------------------------------
+~ lights fuse has a fault
+~ fault in lights fuse
+~ lights fuse fault
+~ replace lights fuse fault
+~ lights fuse found faulty
+========================================
+========================================
+Object: shaft universal joint
+Event: unserviceable
+Number of sentences: 5
+----------------------------------------
+~ shaft universal joint is unserviceable
+~ unserviceable shaft universal joint
+~ shaft universal joint found unserviceable
+~ replace unserviceable shaft universal joint
+~ shaft universal joint unserviceable
+========================================
+========================================
+Object: line
+Event: blown
+Number of sentences: 5
+----------------------------------------
+~ line is blown
+~ blown line
+~ line has blown
+~ replace blown line
+~ repair blown line
+========================================
+========================================
+Object: cabin power point
+Event: cracked
+Number of sentences: 5
+----------------------------------------
+~ cabin power point is cracked
+~ cracked cabin power point
+~ cabin power point has crack
+~ repair cracked cabin power point
+~ crack in cabin power point
+========================================
+========================================
+Object: cabin air conditioner thermostat
+Event: unserviceable
+Number of sentences: 5
+----------------------------------------
+~ cabin air conditioner thermostat unserviceable
+~ unserviceable cabin air conditioner thermostat
+~ cabin air conditioner thermostat is unserviceable
+~ replace unserviceable cabin air conditioner thermostat
+~ cabin air conditioner thermostat found unserviceable
+========================================
+========================================
+Object: pipe
+Event: cracked
+Number of sentences: 5
+----------------------------------------
+~ pipe is cracked
+~ cracked pipe
+~ pipe has a crack
+~ repair cracked pipe
+~ crack in pipe
+========================================
+========================================
+Object: fan pump bolt
+Event: broken
+Number of sentences: 5
+----------------------------------------
+~ fan pump bolt is broken
+~ broken fan pump bolt
+~ fan pump bolt found broken
+~ replace broken fan pump bolt
+~ fan pump bolt broken
+========================================
+========================================
+Object: cabin air conditioner belt
+Event: broken
+Number of sentences: 5
+----------------------------------------
+~ cabin air conditioner belt is broken
+~ broken cabin air conditioner belt
+~ cabin air conditioner belt found broken
+~ replace broken cabin air conditioner belt
+~ cabin air conditioner belt needs replacement
+========================================
+========================================
+Object: clam cylinder hose clamp
+Event: broken
+Number of sentences: 5
+----------------------------------------
+~ clam cylinder hose clamp is broken
+~ broken clam cylinder hose clamp
+~ clam cylinder hose clamp found broken
+~ replace broken clam cylinder hose clamp
+~ clam cylinder hose clamp needs replacement
+========================================
+========================================
+Object: screen
+Event: unserviceable
+Number of sentences: 5
+----------------------------------------
+~ screen is unserviceable
+~ unserviceable screen
+~ replace unserviceable screen
+~ screen found unserviceable
+~ screen unserviceable
+========================================
+========================================
+Object: glass
+Event: cracked
+Number of sentences: 5
+----------------------------------------
+~ glass is cracked
+~ cracked glass
+~ glass has a crack
+~ repair cracked glass
+~ crack found in glass
+========================================
+========================================
+Object: air conditioner compressor earth terminal
+Event: broken
+Number of sentences: 5
+----------------------------------------
+~ air conditioner compressor earth terminal broken
+~ broken air conditioner compressor earth terminal
+~ air conditioner compressor earth terminal is broken
+~ replace broken air conditioner compressor earth terminal
+~ repair broken air conditioner compressor earth terminal
+========================================
+========================================
+Object: engine air conditioner
+Event: unserviceable
+Number of sentences: 5
+----------------------------------------
+~ engine air conditioner is unserviceable
+~ engine air conditioner unserviceable
+~ unserviceable engine air conditioner
+~ replace unserviceable engine air conditioner
+~ engine air conditioner found unserviceable
+========================================
+========================================
+Object: steering shaft universal joint
+Event: unserviceable
+Number of sentences: 5
+----------------------------------------
+~ steering shaft universal joint unserviceable
+~ unserviceable steering shaft universal joint
+~ steering shaft universal joint is unserviceable
+~ replace unserviceable steering shaft universal joint
+~ steering shaft universal joint found unserviceable
+========================================
+========================================
+Object: auto-greaser door window
+Event: broken
+Number of sentences: 5
+----------------------------------------
+~ auto-greaser door window is broken
+~ broken auto-greaser door window
+~ auto-greaser door window found broken
+~ replace broken auto-greaser door window
+~ repair broken auto-greaser door window
+========================================
+========================================
+Object: heater hose
+Event: unserviceable
+Number of sentences: 5
+----------------------------------------
+~ heater hose is unserviceable
+~ unserviceable heater hose
+~ heater hose found unserviceable
+~ replace unserviceable heater hose
+~ heater hose unserviceable
+========================================
+========================================
+Object: pump bolt
+Event: missing
+Number of sentences: 5
+----------------------------------------
+~ pump bolt is missing
+~ missing pump bolt
+~ pump bolt found missing
+~ replace missing pump bolt
+~ pump bolt needs replacement missing
+========================================
+========================================
+Object: pto shaft universal joint
+Event: failed
+Number of sentences: 5
+----------------------------------------
+~ pto shaft universal joint failed
+~ pto shaft universal joint is failed
+~ failed pto shaft universal joint
+~ replace failed pto shaft universal joint
+~ pto shaft universal joint has failed
+========================================
+========================================
+Object: inverter batteries
+Event: no charge
+Number of sentences: 5
+----------------------------------------
+~ inverter batteries have no charge
+~ inverter batteries are not charged
+~ no charge in inverter batteries
+~ inverter batteries showing no charge
+~ replace inverter batteries with no charge
+========================================
+========================================
+Object: batteries
+Event: no charge
+Number of sentences: 5
+----------------------------------------
+~ batteries have no charge
+~ batteries are not charged
+~ batteries show no charge
+~ batteries need charging
+~ no charge in batteries
+========================================
+========================================
+Object: blower inverter batteries
+Event: no charge
+Number of sentences: 5
+----------------------------------------
+~ blower inverter batteries have no charge
+~ blower inverter batteries are not charging
+~ no charge in blower inverter batteries
+~ blower inverter batteries show no charge
+~ replace blower inverter batteries with no charge
+========================================
+========================================
+Object: cabin air conditioner hose
+Event: needs replaced
+Number of sentences: 5
+----------------------------------------
+~ cabin air conditioner hose needs replaced
+~ replace cabin air conditioner hose
+~ cabin air conditioner hose needs to be replaced
+~ cabin air conditioner hose requires replacement
+~ cabin air conditioner hose needs replacement
+========================================
+========================================
+Object: hitch hose
+Event: needs replacing
+Number of sentences: 5
+----------------------------------------
+~ hitch hose needs replacing
+~ replace hitch hose
+~ hitch hose needs to be replaced
+~ hitch hose requires replacing
+~ need replacing hitch hose
+========================================
+========================================
+Object: engine air conditioner
+Event: needs repair
+Number of sentences: 5
+----------------------------------------
+~ engine air conditioner needs repair
+~ needs repair for engine air conditioner
+~ engine air conditioner requires repair
+~ repair needed for engine air conditioner
+~ engine air conditioner is in need of repair
+========================================
+========================================
+Object: parts washer pump hose
+Event: needs clean out
+Number of sentences: 5
+----------------------------------------
+~ parts washer pump hose needs clean out
+~ clean out needed for pump hose
+~ pump hose needs clean out
+~ parts washer pump hose needs cleaning
+~ need clean out parts washer pump hose
+========================================
+========================================
+Object: steering pump hose
+Event: needs replaced
+Number of sentences: 5
+----------------------------------------
+~ steering pump hose needs replaced
+~ replace steering pump hose
+~ steering pump hose needs to be replaced
+~ steering pump hose requires replacement
+~ steering pump hose needs a replacement
+========================================
+========================================
+Object: engine oil cooler hose
+Event: needs fitting
+Number of sentences: 5
+----------------------------------------
+~ engine oil cooler hose needs fitting
+~ fitting needed for engine oil cooler hose
+~ engine oil cooler hose needs new fitting
+~ fitting for engine oil cooler hose needed
+~ adjust fitting on engine oil cooler hose
+========================================
+========================================
+Object: head pulley shaft
+Event: requires replacing
+Number of sentences: 5
+----------------------------------------
+~ head pulley shaft requires replacing
+~ head pulley shaft needs replacing
+~ replacing needed for head pulley shaft
+~ head pulley shaft needs to be replaced
+~ replace head pulley shaft
+========================================
+========================================
+Object: hmu hose
+Event: needs extending
+Number of sentences: 5
+----------------------------------------
+~ hmu hose needs extending
+~ hmu hose needs to be extended
+~ extend hmu hose
+~ hmu hose requires extending
+~ extending needed for hmu hose
+========================================
+========================================
+Object: engine air conditioner hose
+Event: needs repair
+Number of sentences: 5
+----------------------------------------
+~ engine air conditioner hose needs repair
+~ repair needed for engine air conditioner hose
+~ engine air conditioner hose requires repair
+~ engine air conditioner hose needs to be repaired
+~ repair engine air conditioner hose needed
+========================================
+========================================
+Object: drag roller
+Event: need change out
+Number of sentences: 5
+----------------------------------------
+~ drag roller need change out
+~ drag roller needs change out
+~ change out needed for drag roller
+~ drag roller needs to be changed out
+~ drag roller requires change out
+========================================
+========================================
+Object: belly plate bolt
+Event: needs replaced
+Number of sentences: 5
+----------------------------------------
+~ belly plate bolt needs replaced
+~ replace belly plate bolt
+~ belly plate bolt needs to be replaced
+~ belly plate bolt requires replacement
+~ replace the belly plate bolt
+========================================
+========================================
+Object: operator cabin air conditioner hose
+Event: needs replaced
+Number of sentences: 5
+----------------------------------------
+~ operator cabin air conditioner hose needs replaced
+~ replace operator cabin air conditioner hose
+~ operator cabin air conditioner hose needs replacement
+~ operator cabin air conditioner hose requires replacement
+~ replace the air conditioner hose in cabin
+========================================
+========================================
+Object: engine fan hose
+Event: needs extending
+Number of sentences: 5
+----------------------------------------
+~ engine fan hose needs extending
+~ engine fan hose requires extending
+~ extend engine fan hose
+~ engine fan hose needs to be extended
+~ extending needed for engine fan hose
+========================================
+========================================
+Object: motor hose
+Event: needs extending
+Number of sentences: 5
+----------------------------------------
+~ motor hose needs extending
+~ extend motor hose needed
+~ motor hose needs to be extended
+~ extending required for motor hose
+~ motor hose requires extending
+========================================
+========================================
+Object: slew motor hose
+Event: needs fitting
+Number of sentences: 5
+----------------------------------------
+~ slew motor hose needs fitting
+~ fitting needed for slew motor hose
+~ slew motor hose requires fitting
+~ need fitting on slew motor hose
+~ adjust fitting on slew motor hose
+========================================
+========================================
+Object: roof heater hose
+Event: needs clean out
+Number of sentences: 5
+----------------------------------------
+~ roof heater hose needs clean out
+~ clean out needed for roof heater hose
+~ roof heater hose needs to be cleaned
+~ roof heater hose requires clean out
+~ clean out roof heater hose needed
+========================================
+========================================
+Object: vims keypad light
+Event: needs clean out
+Number of sentences: 5
+----------------------------------------
+~ vims keypad light needs clean out
+~ clean out needed for vims keypad light
+~ vims keypad light needs cleaning out
+~ vims keypad light needs a clean out
+~ clean out required for vims keypad light
+========================================
+========================================
+Object: cooler fan hose
+Event: needs clean out
+Number of sentences: 5
+----------------------------------------
+~ cooler fan hose needs clean out
+~ clean out needed for cooler fan hose
+~ cooler fan hose needs to be cleaned
+~ need clean out cooler fan hose
+~ clean out cooler fan hose needed
+========================================
+========================================
+Object: brake switches
+Event: need cleaning
+Number of sentences: 5
+----------------------------------------
+~ brake switches need cleaning
+~ cleaning needed for brake switches
+~ brake switches need to be cleaned
+~ need cleaning brake switches
+~ clean brake switches needed
+========================================
+========================================
+Object: engine air conditioner hose
+Event: needs replaced
+Number of sentences: 5
+----------------------------------------
+~ engine air conditioner hose needs replaced
+~ replace engine air conditioner hose
+~ engine air conditioner hose needs to be replaced
+~ engine air conditioner hose requires replacement
+~ engine air conditioner hose needs replacing
+========================================
+========================================
+Object: fan hose
+Event: needs replaced
+Number of sentences: 5
+----------------------------------------
+~ fan hose needs replaced
+~ replace fan hose needed
+~ fan hose needs to be replaced
+~ fan hose requires replacement
+~ fan hose needs a replacement
+========================================
+========================================
+Object: auto-greaser door window
+Event: needs replacing
+Number of sentences: 5
+----------------------------------------
+~ auto-greaser door window needs replacing
+~ replace auto-greaser door window
+~ auto-greaser door window needs a replacement
+~ auto-greaser door window requires replacing
+~ replacing needed for auto-greaser door window
+========================================
+========================================
+Object: engine pump hose
+Event: needs repair
+Number of sentences: 5
+----------------------------------------
+~ engine pump hose needs repair
+~ needs repair engine pump hose
+~ repair needed for engine pump hose
+~ engine pump hose requires repair
+~ repair engine pump hose needed
+========================================
+========================================
+Object: mast dust flap
+Event: needs repair
+Number of sentences: 5
+----------------------------------------
+~ mast dust flap needs repair
+~ mast dust flap requires repair
+~ repair needed for mast dust flap
+~ mast dust flap needs to be repaired
+~ need repair mast dust flap
+========================================
+========================================
+Object: boom hose
+Event: needs extending
+Number of sentences: 5
+----------------------------------------
+~ boom hose needs extending
+~ extend boom hose
+~ boom hose needs to be extended
+~ extending needed for boom hose
+~ boom hose requires extending
+========================================
+========================================
+Object: slew brake hose
+Event: needs fitting
+Number of sentences: 5
+----------------------------------------
+~ slew brake hose needs fitting
+~ fitting needed for slew brake hose
+~ slew brake hose requires fitting
+~ slew brake hose needs a fitting
+~ adjust fitting on slew brake hose
+========================================
+========================================
+Object: slew brake hose
+Event: needs replacing
+Number of sentences: 5
+----------------------------------------
+~ slew brake hose needs replacing
+~ replace slew brake hose
+~ slew brake hose requires replacing
+~ needs replacing slew brake hose
+~ replacing needed for slew brake hose
+========================================
+========================================
+Object: transmission hose
+Event: needs replacing
+Number of sentences: 5
+----------------------------------------
+~ transmission hose needs replacing
+~ replace transmission hose
+~ transmission hose needs to be replaced
+~ replacing needed for transmission hose
+~ transmission hose requires replacing
+========================================
+========================================
+Object: differential pump bolt
+Event: needs replacing
+Number of sentences: 5
+----------------------------------------
+~ differential pump bolt needs replacing
+~ replace differential pump bolt
+~ differential pump bolt needs to be replaced
+~ replacing needed for differential pump bolt
+~ differential pump bolt requires replacing
+========================================
+========================================
+Object: parts washer pump hose
+Event: needs repair
+Number of sentences: 5
+----------------------------------------
+~ parts washer pump hose needs repair
+~ repair needed for parts washer pump hose
+~ parts washer pump hose requires repair
+~ parts washer pump hose needs to be repaired
+~ repair parts washer pump hose needed
+========================================
+========================================
+Object: clevis pin
+Event: no grease
+Number of sentences: 5
+----------------------------------------
+~ clevis pin has no grease
+~ clevis pin needs grease
+~ no grease on clevis pin
+~ grease missing from clevis pin
+~ clevis pin requires grease
+========================================
+========================================
+Object: coolant pipe clamps
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ coolant pipe clamps need loctite
+~ coolant pipe clamps require loctite
+~ loctite needed for coolant pipe clamps
+~ coolant pipe clamps need adjusting with loctite
+~ apply loctite to coolant pipe clamps
+========================================
+========================================
+Object: frame
+Event: found oil
+Number of sentences: 5
+----------------------------------------
+~ oil found on frame
+~ frame has found oil
+~ found oil on frame
+~ frame is found with oil
+~ frame found with oil
+========================================
+========================================
+Object: brake pump bolt
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ brake pump bolt needs loctite
+~ loctite needed for brake pump bolt
+~ brake pump bolt requires loctite
+~ apply loctite on brake pump bolt
+~ brake pump bolt needs locking adhesive
+========================================
+========================================
+Object: battery
+Event: dropped cell
+Number of sentences: 5
+----------------------------------------
+~ battery has dropped cell
+~ dropped cell in battery
+~ battery dropped cell
+~ battery with dropped cell
+~ replace battery with dropped cell
+========================================
+========================================
+Object: am / fm radio
+Event: needs aerial
+Number of sentences: 5
+----------------------------------------
+~ am / fm radio needs aerial
+~ aerial needed for am / fm radio
+~ am / fm radio requires new aerial
+~ am / fm radio needs an aerial
+~ replace aerial for am / fm radio
+========================================
+========================================
+Object: pin
+Event: no grease
+Number of sentences: 5
+----------------------------------------
+~ pin has no grease
+~ no grease on pin
+~ pin needs grease
+~ pin is without grease
+~ add grease to pin
+========================================
+========================================
+Object: boom foot clevis pin
+Event: no grease
+Number of sentences: 5
+----------------------------------------
+~ boom foot clevis pin has no grease
+~ no grease on boom foot clevis pin
+~ boom foot clevis pin needs grease
+~ grease missing from boom foot clevis pin
+~ boom foot clevis pin no grease present
+========================================
+========================================
+Object: cabin seat
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ cabin seat needs loctite
+~ loctite needed for cabin seat
+~ cabin seat requires loctite
+~ apply loctite to cabin seat
+~ cabin seat needs to use loctite
+========================================
+========================================
+Object: steering cylinder pin
+Event: no grease
+Number of sentences: 5
+----------------------------------------
+~ steering cylinder pin has no grease
+~ no grease on steering cylinder pin
+~ steering cylinder pin needs grease
+~ steering cylinder pin lacking grease
+~ no grease found on steering cylinder pin
+========================================
+========================================
+Object: engine pump bolt
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ engine pump bolt needs loctite
+~ loctite needed for engine pump bolt
+~ engine pump bolt requires loctite
+~ apply loctite to engine pump bolt
+~ engine pump bolt needs to be loctited
+========================================
+========================================
+Object: cabin
+Event: missing smoke detector
+Number of sentences: 5
+----------------------------------------
+~ cabin missing smoke detector
+~ smoke detector missing from cabin
+~ cabin has missing smoke detector
+~ replace missing smoke detector in cabin
+~ cabin needs smoke detector replacement
+========================================
+========================================
+Object: drag rope pump bolt
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ drag rope pump bolt needs loctite
+~ loctite needed for drag rope pump bolt
+~ drag rope pump bolt requires loctite
+~ need loctite on drag rope pump bolt
+~ apply loctite to drag rope pump bolt
+========================================
+========================================
+Object: differential pump bolt
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ differential pump bolt needs loctite
+~ loctite needed for differential pump bolt
+~ differential pump bolt requires loctite
+~ apply loctite on differential pump bolt
+~ differential pump bolt needs loctite application
+========================================
+========================================
+Object: slew pump bolt
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ slew pump bolt needs loctite
+~ loctite needed for slew pump bolt
+~ slew pump bolt requires loctite
+~ apply loctite to slew pump bolt
+~ slew pump bolt needs tightening with loctite
+========================================
+========================================
+Object: belly plate bolt
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ belly plate bolt needs loctite
+~ loctite needed for belly plate bolt
+~ belly plate bolt needs to be loctite
+~ apply loctite to belly plate bolt
+~ loctite required for belly plate bolt
+========================================
+========================================
+Object: dogbone bolt
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ dogbone bolt needs loctite
+~ loctite needed for dogbone bolt
+~ dogbone bolt requires loctite
+~ apply loctite to dogbone bolt
+~ dogbone bolt needs to be loctited
+========================================
+========================================
+Object: pto pump bolt
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ pto pump bolt needs loctite
+~ loctite needed for pto pump bolt
+~ pto pump bolt requires loctite
+~ apply loctite to pto pump bolt
+~ pto pump bolt needs loctite application
+========================================
+========================================
+Object: radio
+Event: needs aerial
+Number of sentences: 5
+----------------------------------------
+~ radio needs aerial
+~ radio requires new aerial
+~ aerial needed for radio
+~ radio needs its aerial
+~ replace aerial on radio
+========================================
+========================================
+Object: clamps
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ clamps need loctite
+~ loctite needed for clamps
+~ clamps require loctite
+~ apply loctite to clamps
+~ clamps need loctite application
+========================================
+========================================
+Object: carousel bolt
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ carousel bolt needs loctite
+~ loctite needed for carousel bolt
+~ carousel bolt requires loctite
+~ apply loctite to carousel bolt
+~ carousel bolt needs to be loctited
+========================================
+========================================
+Object: a-frame clevis pin
+Event: no grease
+Number of sentences: 5
+----------------------------------------
+~ a-frame clevis pin has no grease
+~ no grease on a-frame clevis pin
+~ a-frame clevis pin needs grease
+~ grease missing on a-frame clevis pin
+~ a-frame clevis pin shows no grease
+========================================
+========================================
+Object: bolt
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ bolt needs loctite
+~ loctite needed for bolt
+~ bolt requires loctite
+~ bolt needs to be loctited
+~ apply loctite on bolt
+========================================
+========================================
+Object: dogbone pin
+Event: no grease
+Number of sentences: 5
+----------------------------------------
+~ dogbone pin has no grease
+~ no grease in dogbone pin
+~ dogbone pin needs grease
+~ grease missing from dogbone pin
+~ dogbone pin is without grease
+========================================
+========================================
+Object: parts washer pump bolt
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ parts washer pump bolt needs loctite
+~ loctite needed for parts washer pump bolt
+~ parts washer pump bolt requires loctite
+~ loctite application needed on pump bolt
+~ pump bolt needs loctite sealing
+========================================
+========================================
+Object: cooler pump bolt
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ cooler pump bolt needs loctite
+~ loctite needed for cooler pump bolt
+~ cooler pump bolt requires loctite
+~ apply loctite to cooler pump bolt
+~ cooler pump bolt needs loctite application
+========================================
+========================================
+Object: mast raise cylinder pin
+Event: no grease
+Number of sentences: 5
+----------------------------------------
+~ mast raise cylinder pin has no grease
+~ no grease in mast raise cylinder pin
+~ mast raise cylinder pin needs grease
+~ mast raise cylinder pin is without grease
+~ grease missing from mast raise cylinder pin
+========================================
+========================================
+Object: revolving frame
+Event: found oil
+Number of sentences: 5
+----------------------------------------
+~ oil found on revolving frame
+~ revolving frame has found oil
+~ found oil on revolving frame
+~ revolving frame found oil leak
+~ oil leak found on revolving frame
+========================================
+========================================
+Object: steering pin
+Event: no grease
+Number of sentences: 5
+----------------------------------------
+~ steering pin has no grease
+~ no grease on steering pin
+~ steering pin needs grease
+~ grease missing from steering pin
+~ steering pin without grease
+========================================
+========================================
+Object: radiator
+Event: blocked grass
+Number of sentences: 5
+----------------------------------------
+~ radiator blocked by grass
+~ grass blocking radiator
+~ radiator is blocked by grass
+~ blocked radiator due to grass
+~ grass obstructing radiator flow
+========================================
+========================================
+Object: centrifuge hose
+Event: leak grease
+Number of sentences: 5
+----------------------------------------
+~ centrifuge hose leaking grease
+~ centrifuge hose has grease leak
+~ grease leak in centrifuge hose
+~ centrifuge hose leaks grease
+~ replace leaking centrifuge hose
+========================================
+========================================
+Object: hose
+Event: leak oil
+Number of sentences: 5
+----------------------------------------
+~ hose leaking oil
+~ oil leak in hose
+~ hose has oil leak
+~ leak oil from hose
+~ repair hose leaking oil
+========================================
+========================================
+Object: cooler pump hose
+Event: leak fuel
+Number of sentences: 5
+----------------------------------------
+~ cooler pump hose leaking fuel
+~ cooler pump hose leak fuel
+~ fuel leak in cooler pump hose
+~ cooler pump hose has fuel leak
+~ fuel leaking from cooler pump hose
+========================================
+========================================
+Object: condenser fan hose
+Event: leaking air
+Number of sentences: 5
+----------------------------------------
+~ condenser fan hose leaking air
+~ leaking air from condenser fan hose
+~ condenser fan hose is leaking air
+~ air leaking from condenser fan hose
+~ replace leaking condenser fan hose
+========================================
+========================================
+Object: swing brake hose
+Event: leaking coolant
+Number of sentences: 5
+----------------------------------------
+~ swing brake hose leaking coolant
+~ coolant leaking from swing brake hose
+~ swing brake hose has leaking coolant
+~ leaking coolant in swing brake hose
+~ replace leaking swing brake hose
+========================================
+========================================
+Object: hoist motor hose
+Event: leak coolant
+Number of sentences: 5
+----------------------------------------
+~ hoist motor hose leaking coolant
+~ leak coolant from hoist motor hose
+~ hoist motor hose has coolant leak
+~ coolant leak in hoist motor hose
+~ replace hoist motor hose leaking coolant
+========================================
+========================================
+Object: slew motor hose
+Event: leak fuel
+Number of sentences: 5
+----------------------------------------
+~ slew motor hose leaking fuel
+~ fuel leak from slew motor hose
+~ slew motor hose has fuel leak
+~ leak fuel in slew motor hose
+~ replace slew motor hose leaking fuel
+========================================
+========================================
+Object: drag brake pump
+Event: leak fuel
+Number of sentences: 5
+----------------------------------------
+~ drag brake pump leaks fuel
+~ fuel leaking from drag brake pump
+~ drag brake pump has fuel leak
+~ leak fuel from drag brake pump
+~ drag brake pump is leaking fuel
+========================================
+========================================
+Object: drag rope pump
+Event: leaking fuel
+Number of sentences: 5
+----------------------------------------
+~ drag rope pump leaking fuel
+~ leaking fuel from drag rope pump
+~ drag rope pump is leaking fuel
+~ fuel leaking from drag rope pump
+~ drag rope pump has leaking fuel
+========================================
+========================================
+Object: walk motor brake cooling return hose
+Event: leaking coolant
+Number of sentences: 5
+----------------------------------------
+~ walk motor brake cooling return hose leaking coolant
+~ leaking coolant from walk motor brake cooling return hose
+~ walk motor brake cooling return hose has coolant leak
+~ coolant leaking from walk motor brake cooling return hose
+~ walk motor brake cooling return hose coolant leak
+========================================
+========================================
+Object: pto pump hose
+Event: leak coolant
+Number of sentences: 5
+----------------------------------------
+~ pto pump hose leaking coolant
+~ pto pump hose has coolant leak
+~ coolant leak from pto pump hose
+~ leak coolant in pto pump hose
+~ replace pto pump hose leaking coolant
+========================================
+========================================
+Object: cooler pump hose
+Event: leaking fuel
+Number of sentences: 5
+----------------------------------------
+~ cooler pump hose leaking fuel
+~ fuel leaking from cooler pump hose
+~ cooler pump hose has fuel leak
+~ leaking fuel from cooler pump hose
+~ replace leaking cooler pump hose
+========================================
+========================================
+Object: crowd cylinder hose
+Event: leak hydraulic oil
+Number of sentences: 5
+----------------------------------------
+~ crowd cylinder hose leaking hydraulic oil
+~ leak hydraulic oil from crowd cylinder hose
+~ crowd cylinder hose has hydraulic oil leak
+~ hydraulic oil leak in crowd cylinder hose
+~ crowd cylinder hose needs hydraulic oil repair
+========================================
+========================================
+Object: wiper motor hose
+Event: leak oil
+Number of sentences: 5
+----------------------------------------
+~ wiper motor hose leaking oil
+~ wiper motor hose has oil leak
+~ leak oil from wiper motor hose
+~ wiper motor hose leaks oil
+~ replace wiper motor hose leaking oil
+========================================
+========================================
+Object: radiator relief valves
+Event: leaking air
+Number of sentences: 5
+----------------------------------------
+~ radiator relief valves leaking air
+~ leaking air from radiator relief valves
+~ radiator relief valves have leaking air
+~ air leaking from radiator relief valves
+~ replace leaking radiator relief valves
+========================================
+========================================
+Object: air conditioner fan hose
+Event: leak grease
+Number of sentences: 5
+----------------------------------------
+~ air conditioner fan hose leaks grease
+~ grease leaking from air conditioner fan hose
+~ air conditioner fan hose is leaking grease
+~ air conditioner fan hose has grease leak
+~ leak grease in air conditioner fan hose
+========================================
+========================================
+Object: diverter valve
+Event: leak dust
+Number of sentences: 5
+----------------------------------------
+~ diverter valve leaking dust
+~ diverter valve has dust leak
+~ dust leak from diverter valve
+~ leak dust in diverter valve
+~ diverter valve is leaking dust
+========================================
+========================================
+Object: dragline air conditioner hose
+Event: leak air
+Number of sentences: 5
+----------------------------------------
+~ dragline air conditioner hose leaking air
+~ dragline air conditioner hose has air leak
+~ air leaking from dragline air conditioner hose
+~ leak air in dragline air conditioner hose
+~ replace dragline air conditioner hose leaking air
+========================================
+========================================
+Object: hydraulic motor engine oil cooler
+Event: leak coolant
+Number of sentences: 5
+----------------------------------------
+~ hydraulic motor engine oil cooler leaking coolant
+~ hydraulic motor engine oil cooler has coolant leak
+~ coolant leak in hydraulic motor engine oil cooler
+~ leak coolant from hydraulic motor engine oil cooler
+~ hydraulic motor engine oil cooler leak coolant
+========================================
+========================================
+Object: differential
+Event: leak oil
+Number of sentences: 5
+----------------------------------------
+~ differential is leaking oil
+~ oil leak in differential
+~ differential leak oil
+~ leaking oil from differential
+~ differential leaking oil
+========================================
+========================================
+Object: shaft input seal
+Event: leaking air
+Number of sentences: 5
+----------------------------------------
+~ shaft input seal leaking air
+~ leaking air from shaft input seal
+~ shaft input seal is leaking air
+~ air leaking from shaft input seal
+~ replace leaking air shaft input seal
+========================================
+========================================
+Object: condenser fan pump
+Event: leak coolant
+Number of sentences: 5
+----------------------------------------
+~ condenser fan pump leaking coolant
+~ coolant leak from condenser fan pump
+~ condenser fan pump leaks coolant
+~ leak coolant from condenser fan pump
+~ condenser fan pump has coolant leak
+========================================
+========================================
+Object: swing brake filter
+Event: leaking oil
+Number of sentences: 5
+----------------------------------------
+~ swing brake filter leaking oil
+~ swing brake filter is leaking oil
+~ leaking oil from swing brake filter
+~ oil leaking from swing brake filter
+~ replace leaking swing brake filter
+========================================
+========================================
+Object: cooler fan hose
+Event: leak hydraulic oil
+Number of sentences: 5
+----------------------------------------
+~ cooler fan hose leaking hydraulic oil
+~ cooler fan hose has hydraulic oil leak
+~ leak of hydraulic oil from cooler fan hose
+~ cooler fan hose leaks hydraulic oil
+~ hydraulic oil leak in cooler fan hose
+========================================
+========================================
+Object: swing motor hoses
+Event: leaking oil
+Number of sentences: 5
+----------------------------------------
+~ swing motor hoses leaking oil
+~ leaking oil from swing motor hoses
+~ swing motor hoses have oil leak
+~ oil leaking from swing motor hoses
+~ replace leaking swing motor hoses
+========================================
+========================================
+Object: transmission hose
+Event: leak oil
+Number of sentences: 5
+----------------------------------------
+~ transmission hose leaking oil
+~ oil leak from transmission hose
+~ transmission hose has oil leak
+~ leak oil in transmission hose
+~ replace transmission hose leaking oil
+========================================
+========================================
+Object: hoist brake hose
+Event: leak hydraulic oil
+Number of sentences: 5
+----------------------------------------
+~ hoist brake hose leaking hydraulic oil
+~ leak of hydraulic oil from hoist brake hose
+~ hoist brake hose has hydraulic oil leak
+~ hydraulic oil leak in hoist brake hose
+~ replace hoist brake hose leaking hydraulic oil
+========================================
+========================================
+Object: wiper motor hose
+Event: leak hydraulic oil
+Number of sentences: 5
+----------------------------------------
+~ wiper motor hose leaking hydraulic oil
+~ wiper motor hose has hydraulic oil leak
+~ leak hydraulic oil from wiper motor hose
+~ hydraulic oil leak in wiper motor hose
+~ wiper motor hose leak hydraulic oil
+========================================
+========================================
+Object: swing brake hose
+Event: leak hydraulic oil
+Number of sentences: 5
+----------------------------------------
+~ swing brake hose leaking hydraulic oil
+~ hydraulic oil leaking from swing brake hose
+~ leak hydraulic oil in swing brake hose
+~ swing brake hose has hydraulic oil leak
+~ hydraulic oil leak from swing brake hose
+========================================
+========================================
+Object: pump motor hose
+Event: leaking fuel
+Number of sentences: 5
+----------------------------------------
+~ pump motor hose leaking fuel
+~ fuel leaking from pump motor hose
+~ leaking fuel from pump motor hose
+~ pump motor hose is leaking fuel
+~ replace leaking pump motor hose
+========================================
+========================================
+Object: engine pump o-ring
+Event: blown
+Number of sentences: 5
+----------------------------------------
+~ engine pump o-ring is blown
+~ blown engine pump o-ring
+~ engine pump o-ring blown
+~ replace blown engine pump o-ring
+~ blown o-ring in engine pump
+========================================
+========================================
+Object: motor hose
+Event: unserviceable
+Number of sentences: 5
+----------------------------------------
+~ motor hose is unserviceable
+~ unserviceable motor hose
+~ motor hose found unserviceable
+~ replace unserviceable motor hose
+~ motor hose deemed unserviceable
+========================================
+========================================
+Object: weightometer
+Event: not working
+Number of sentences: 5
+----------------------------------------
+~ weightometer is not working
+~ weightometer not working
+~ weightometer found not working
+~ replace not working weightometer
+~ not working weightometer
+========================================
+========================================
+Object: thermostat
+Event: unserviceable
+Number of sentences: 5
+----------------------------------------
+~ thermostat is unserviceable
+~ unserviceable thermostat
+~ thermostat found unserviceable
+~ replace unserviceable thermostat
+~ thermostat needs replacement unserviceable
+========================================
+========================================
+Object: transmission hose o-ring
+Event: blown
+Number of sentences: 5
+----------------------------------------
+~ transmission hose o-ring is blown
+~ blown transmission hose o-ring
+~ transmission hose o-ring blown
+~ replace blown transmission hose o-ring
+~ blown o-ring in transmission hose
+========================================
+========================================
+Object: engine air conditioner control cable
+Event: tight
+Number of sentences: 5
+----------------------------------------
+~ engine air conditioner control cable is tight
+~ tight engine air conditioner control cable
+~ engine air conditioner control cable too tight
+~ control cable for engine air conditioner tight
+~ adjust tight engine air conditioner control cable
+========================================
+========================================
+Object: air conditioner fan hose
+Event: blown
+Number of sentences: 5
+----------------------------------------
+~ air conditioner fan hose is blown
+~ blown air conditioner fan hose
+~ air conditioner fan hose blown
+~ replace blown air conditioner fan hose
+~ air conditioner fan hose needs replacing
+========================================
+========================================
+Object: control valve
+Event: unserviceable
+Number of sentences: 5
+----------------------------------------
+~ control valve is unserviceable
+~ unserviceable control valve
+~ control valve found unserviceable
+~ replace unserviceable control valve
+~ control valve needs replacement unserviceable
+========================================
+========================================
+Object: brake
+Event: temperature error
+Number of sentences: 5
+----------------------------------------
+~ brake has temperature error
+~ temperature error in brake
+~ brake temperature error detected
+~ brake temperature error present
+~ address brake temperature error
+========================================
+========================================
+Object: siren
+Event: unserviceable
+Number of sentences: 5
+----------------------------------------
+~ siren is unserviceable
+~ unserviceable siren
+~ siren found unserviceable
+~ replace unserviceable siren
+~ siren unserviceable and needs replacement
+========================================
+========================================
+Object: engine oil
+Event: found
+Number of sentences: 5
+----------------------------------------
+~ engine oil found
+~ found engine oil
+~ engine oil was found
+~ found in engine oil
+~ engine oil found in system
+========================================
+========================================
+Object: brake pump pressure gauge
+Event: not working
+Number of sentences: 5
+----------------------------------------
+~ brake pump pressure gauge not working
+~ brake pump pressure gauge is not working
+~ pressure gauge for brake pump not working
+~ brake pump pressure gauge found not working
+~ replace brake pump pressure gauge not working
+========================================
+========================================
+Object: exhaust clamp
+Event: broken
+Number of sentences: 5
+----------------------------------------
+~ exhaust clamp is broken
+~ broken exhaust clamp
+~ exhaust clamp found broken
+~ replace broken exhaust clamp
+~ repair broken exhaust clamp
+========================================
+========================================
+Object: axle oil cooler hose
+Event: blown
+Number of sentences: 5
+----------------------------------------
+~ axle oil cooler hose is blown
+~ blown axle oil cooler hose
+~ axle oil cooler hose blown
+~ replace blown axle oil cooler hose
+~ blown hose for axle oil cooler
+========================================
+========================================
+Object: hydraulic motor engine air conditioner
+Event: unserviceable
+Number of sentences: 5
+----------------------------------------
+~ hydraulic motor engine air conditioner unserviceable
+~ hydraulic motor engine air conditioner is unserviceable
+~ unserviceable hydraulic motor engine air conditioner
+~ replace unserviceable hydraulic motor engine air conditioner
+~ hydraulic motor engine air conditioner found unserviceable
+========================================
+========================================
+Object: thrust bearing oil
+Event: found
+Number of sentences: 5
+----------------------------------------
+~ thrust bearing oil found
+~ thrust bearing oil was found
+~ found thrust bearing oil
+~ thrust bearing oil located
+~ thrust bearing oil discovered
+========================================
+========================================
+Object: hoist brake
+Event: out of adjustment
+Number of sentences: 5
+----------------------------------------
+~ hoist brake out of adjustment
+~ hoist brake is out of adjustment
+~ out of adjustment hoist brake
+~ hoist brake needs adjustment
+~ adjust hoist brake out of adjustment
+========================================
+========================================
+Object: cooler pump lube system
+Event: faults
+Number of sentences: 5
+----------------------------------------
+~ cooler pump lube system has faults
+~ faults in cooler pump lube system
+~ cooler pump lube system is faulty
+~ cooler pump lube system experiencing faults
+~ repair faults in cooler pump lube system
+========================================
+========================================
+Object: guide
+Event: unserviceable
+Number of sentences: 5
+----------------------------------------
+~ guide is unserviceable
+~ unserviceable guide
+~ guide found unserviceable
+~ replace unserviceable guide
+~ guide needs replacement unserviceable
+========================================
+========================================
+Object: swing motor rtd
+Event: wired incorrectly
+Number of sentences: 5
+----------------------------------------
+~ swing motor rtd wired incorrectly
+~ swing motor rtd is wired incorrectly
+~ incorrect wiring of swing motor rtd
+~ swing motor rtd incorrectly wired
+~ wiring for swing motor rtd incorrect
+========================================
+========================================
+Object: air conditioner compressor
+Event: not working
+Number of sentences: 5
+----------------------------------------
+~ air conditioner compressor not working
+~ air conditioner compressor is not working
+~ compressor of air conditioner not working
+~ air conditioner compressor not functioning
+~ air conditioner compressor found not working
+========================================
+========================================
+Object: drag motor lube
+Event: fault
+Number of sentences: 5
+----------------------------------------
+~ drag motor lube has fault
+~ fault in drag motor lube
+~ drag motor lube is faulty
+~ drag motor lube shows fault
+~ replace drag motor lube fault
+========================================
+========================================
+Object: control cable
+Event: broken
+Number of sentences: 5
+----------------------------------------
+~ control cable is broken
+~ control cable broken
+~ broken control cable
+~ replace broken control cable
+~ control cable found broken
+========================================
+========================================
+Object: parts washer pump pressure gauge
+Event: not working
+Number of sentences: 5
+----------------------------------------
+~ parts washer pump pressure gauge not working
+~ pressure gauge on parts washer pump not working
+~ parts washer pump pressure gauge is not working
+~ not working parts washer pump pressure gauge
+~ replace parts washer pump pressure gauge not working
+========================================
+========================================
+Object: handrail weld
+Event: broken
+Number of sentences: 5
+----------------------------------------
+~ handrail weld is broken
+~ broken handrail weld
+~ handrail weld found broken
+~ repair broken handrail weld
+~ replace broken handrail weld
+========================================
+========================================
+Object: fuel tank
+Event: cracked
+Number of sentences: 5
+----------------------------------------
+~ fuel tank is cracked
+~ fuel tank has a crack
+~ cracked fuel tank
+~ crack found in fuel tank
+~ repair cracked fuel tank
+========================================
+========================================
+Object: swing pump
+Event: broken
+Number of sentences: 5
+----------------------------------------
+~ swing pump is broken
+~ swing pump broken
+~ broken swing pump
+~ replace broken swing pump
+~ swing pump found broken
+========================================
+========================================
+Object: condenser fan hose
+Event: blown
+Number of sentences: 5
+----------------------------------------
+~ condenser fan hose is blown
+~ blown condenser fan hose
+~ condenser fan hose found blown
+~ replace blown condenser fan hose
+~ blown hose in condenser fan
+========================================
+========================================
+Object: operator cabin air conditioner hose
+Event: blown
+Number of sentences: 5
+----------------------------------------
+~ operator cabin air conditioner hose is blown
+~ blown operator cabin air conditioner hose
+~ operator cabin air conditioner hose blown
+~ replace blown air conditioner hose
+~ air conditioner hose in operator cabin blown
+========================================
+========================================
+Object: exhaust shield
+Event: cracked
+Number of sentences: 5
+----------------------------------------
+~ exhaust shield is cracked
+~ cracked exhaust shield
+~ exhaust shield has a crack
+~ crack in exhaust shield
+~ repair cracked exhaust shield
+========================================
+========================================
+Object: lighting
+Event: requires tagging
+Number of sentences: 5
+----------------------------------------
+~ lighting requires tagging
+~ tagging required for lighting
+~ lighting needs tagging
+~ lighting needs to be tagged
+~ lighting requires to be tagged
+========================================
+========================================
+Object: cabin seat
+Event: needs replacing
+Number of sentences: 5
+----------------------------------------
+~ cabin seat needs replacing
+~ replace cabin seat needed
+~ cabin seat needs to be replaced
+~ replacing needed for cabin seat
+~ cabin seat requires replacing
+========================================
+========================================
+Object: fan motor hose
+Event: needs replacing
+Number of sentences: 5
+----------------------------------------
+~ fan motor hose needs replacing
+~ fan motor hose needs to be replaced
+~ replacing needed for fan motor hose
+~ replace fan motor hose needed
+~ fan motor hose needs replacement
+========================================
+========================================
+Object: filter hose
+Event: needs fitting
+Number of sentences: 5
+----------------------------------------
+~ filter hose needs fitting
+~ fitting needed for filter hose
+~ filter hose requires fitting
+~ filter hose needs to fit
+~ filter hose fitting required
+========================================
+========================================
+Object: bolt
+Event: needs replacing
+Number of sentences: 5
+----------------------------------------
+~ bolt needs replacing
+~ replacing needed for bolt
+~ bolt needs to be replaced
+~ bolt requires replacing
+~ replace bolt needed
+========================================
+========================================
+Object: cooler pump bolt
+Event: needs replacing
+Number of sentences: 5
+----------------------------------------
+~ cooler pump bolt needs replacing
+~ replace cooler pump bolt
+~ cooler pump bolt needs to be replaced
+~ cooler pump bolt requires replacing
+~ replacing needed for cooler pump bolt
+========================================
+========================================
+Object: hmu hose
+Event: needs fitting
+Number of sentences: 5
+----------------------------------------
+~ hmu hose needs fitting
+~ fitting needed for hmu hose
+~ hmu hose needs new fitting
+~ adjust fitting on hmu hose
+~ replace fitting on hmu hose
+========================================
+========================================
+Object: controller filter hose
+Event: needs clean out
+Number of sentences: 5
+----------------------------------------
+~ controller filter hose needs clean out
+~ clean out needed for controller filter hose
+~ controller filter hose needs to be cleaned
+~ clean out required for controller filter hose
+~ need clean out controller filter hose
+========================================
+========================================
+Object: hoist motor hose
+Event: needs extending
+Number of sentences: 5
+----------------------------------------
+~ hoist motor hose needs extending
+~ hoist motor hose needs to be extended
+~ extending needed for hoist motor hose
+~ hoist motor hose needs extension
+~ extend hoist motor hose needed
+========================================
+========================================
+Object: walk motor brake hose
+Event: needs repair
+Number of sentences: 5
+----------------------------------------
+~ walk motor brake hose needs repair
+~ walk motor brake hose requires repair
+~ repair needed for walk motor brake hose
+~ walk motor brake hose needs to repair
+~ repair walk motor brake hose needed
+========================================
+========================================
+Object: drag rope pump hose
+Event: needs replacing
+Number of sentences: 5
+----------------------------------------
+~ drag rope pump hose needs replacing
+~ replacing needed for drag rope pump hose
+~ drag rope pump hose needs to be replaced
+~ replace drag rope pump hose
+~ drag rope pump hose requires replacing
+========================================
+========================================
+Object: gauges
+Event: requires replacing
+Number of sentences: 5
+----------------------------------------
+~ gauges require replacing
+~ gauges need replacing
+~ replacing required for gauges
+~ replace gauges needed
+~ gauges need to be replaced
+========================================
+========================================
+Object: engine pump hose
+Event: needs repair
+Number of sentences: 5
+----------------------------------------
+~ engine pump hose needs repair
+~ repair needed for engine pump hose
+~ engine pump hose needs to be repaired
+~ engine pump hose requires repair
+~ need repair for engine pump hose
+========================================
+========================================
+Object: shaft
+Event: requires replacing
+Number of sentences: 5
+----------------------------------------
+~ shaft requires replacing
+~ replacing required for shaft
+~ shaft needs replacing
+~ replace shaft needed
+~ shaft needs to be replaced
+========================================
+========================================
+Object: air brake line
+Event: needs replacing
+Number of sentences: 5
+----------------------------------------
+~ air brake line needs replacing
+~ replace air brake line
+~ air brake line requires replacing
+~ air brake line needs to be replaced
+~ replacing needed for air brake line
+========================================
+========================================
+Object: boom cylinder hose
+Event: needs replacing
+Number of sentences: 5
+----------------------------------------
+~ boom cylinder hose needs replacing
+~ replacing needed for boom cylinder hose
+~ boom cylinder hose needs to be replaced
+~ replace boom cylinder hose
+~ boom cylinder hose requires replacing
+========================================
+========================================
+Object: dogbone bolt
+Event: needs replaced
+Number of sentences: 5
+----------------------------------------
+~ dogbone bolt needs replaced
+~ replace dogbone bolt needed
+~ dogbone bolt needs to be replaced
+~ dogbone bolt requires replaced
+~ replace the dogbone bolt
+========================================
+========================================
+Object: dust flap
+Event: needs replaced
+Number of sentences: 5
+----------------------------------------
+~ dust flap needs replaced
+~ dust flap needs to be replaced
+~ replace dust flap needed
+~ need to replace dust flap
+~ dust flap replacement needed
+========================================
+========================================
+Object: cabin door struts
+Event: require replacing
+Number of sentences: 5
+----------------------------------------
+~ cabin door struts require replacing
+~ replacing required for cabin door struts
+~ cabin door struts need replacing
+~ cabin door struts need to be replaced
+~ replace cabin door struts needed
+========================================
+========================================
+Object: belly plate bolt
+Event: needs replaced
+Number of sentences: 5
+----------------------------------------
+~ belly plate bolt needs replaced
+~ belly plate bolt needs to be replaced
+~ replace belly plate bolt needed
+~ belly plate bolt replacement needed
+~ belly plate bolt requires replacement
+========================================
+========================================
+Object: brake pump hose
+Event: needs extending
+Number of sentences: 5
+----------------------------------------
+~ brake pump hose needs extending
+~ extending needed for brake pump hose
+~ brake pump hose requires extending
+~ need extending brake pump hose
+~ extend brake pump hose needed
+========================================
+========================================
+Object: cooler fan hose
+Event: needs clean out
+Number of sentences: 5
+----------------------------------------
+~ cooler fan hose needs clean out
+~ clean out needed for cooler fan hose
+~ cooler fan hose needs to be cleaned
+~ need clean out cooler fan hose
+~ clean out required for cooler fan hose
+========================================
+========================================
+Object: engine bay light
+Event: needs replacing
+Number of sentences: 5
+----------------------------------------
+~ engine bay light needs replacing
+~ replace engine bay light
+~ engine bay light needs to be replaced
+~ engine bay light requires replacing
+~ replacing needed for engine bay light
+========================================
+========================================
+Object: swing motor hose
+Event: needs replacing
+Number of sentences: 5
+----------------------------------------
+~ swing motor hose needs replacing
+~ replacing needed for swing motor hose
+~ swing motor hose needs to be replaced
+~ swing motor hose requires replacing
+~ replace swing motor hose needed
+========================================
+========================================
+Object: brake filter hose
+Event: needs replaced
+Number of sentences: 5
+----------------------------------------
+~ brake filter hose needs replaced
+~ replace brake filter hose needed
+~ brake filter hose needs to be replaced
+~ brake filter hose requires replaced
+~ needs replaced brake filter hose
+========================================
+========================================
+Object: dragline air conditioner
+Event: need change out
+Number of sentences: 5
+----------------------------------------
+~ dragline air conditioner needs change out
+~ change out needed for dragline air conditioner
+~ dragline air conditioner needs to change out
+~ dragline air conditioner requires change out
+~ need change out dragline air conditioner
+========================================
+========================================
+Object: walk motor brake switches
+Event: need cleaning
+Number of sentences: 5
+----------------------------------------
+~ walk motor brake switches need cleaning
+~ cleaning needed for walk motor brake switches
+~ walk motor brake switches need to be cleaned
+~ need cleaning for walk motor brake switches
+~ clean walk motor brake switches needed
+========================================
+========================================
+Object: drag rope pump bolt
+Event: needs replacing
+Number of sentences: 5
+----------------------------------------
+~ drag rope pump bolt needs replacing
+~ replace drag rope pump bolt
+~ drag rope pump bolt requires replacing
+~ drag rope pump bolt needs a replacement
+~ drag rope pump bolt is needing replacement
+========================================
+========================================
+Object: slew pump hose
+Event: needs clean out
+Number of sentences: 5
+----------------------------------------
+~ slew pump hose needs clean out
+~ clean out needed for slew pump hose
+~ slew pump hose needs to be cleaned
+~ needs clean out for slew pump hose
+~ clean out required on slew pump hose
+========================================
+========================================
+Object: swing brake hose
+Event: needs replaced
+Number of sentences: 5
+----------------------------------------
+~ swing brake hose needs replaced
+~ replace swing brake hose
+~ swing brake hose needs to be replaced
+~ swing brake hose requires replacement
+~ replacement needed for swing brake hose
+========================================
+========================================
+Object: cooler hose
+Event: blown
+Number of sentences: 5
+----------------------------------------
+~ cooler hose is blown
+~ blown cooler hose
+~ cooler hose has blown
+~ replace blown cooler hose
+~ blown hose in cooler
+========================================
+========================================
+Object: pump contamination switch
+Event: unserviceable
+Number of sentences: 5
+----------------------------------------
+~ pump contamination switch unserviceable
+~ unserviceable pump contamination switch
+~ pump contamination switch is unserviceable
+~ replace unserviceable pump contamination switch
+~ pump contamination switch found unserviceable
+========================================
+========================================
+Object: pump chip sensor harness
+Event: unserviceable
+Number of sentences: 5
+----------------------------------------
+~ pump chip sensor harness unserviceable
+~ pump chip sensor harness is unserviceable
+~ unserviceable pump chip sensor harness
+~ replace unserviceable pump chip sensor harness
+~ pump chip sensor harness found unserviceable
+========================================
+========================================
+Object: drivers window
+Event: fault
+Number of sentences: 5
+----------------------------------------
+~ drivers window has a fault
+~ fault in drivers window
+~ drivers window fault found
+~ drivers window is faulty
+~ replace drivers window fault
+========================================
+========================================
+Object: box coupling
+Event: unserviceable
+Number of sentences: 5
+----------------------------------------
+~ box coupling unserviceable
+~ box coupling is unserviceable
+~ unserviceable box coupling
+~ replace unserviceable box coupling
+~ box coupling found unserviceable
+========================================
+========================================
+Object: centrifuge hose
+Event: blown
+Number of sentences: 5
+----------------------------------------
+~ centrifuge hose is blown
+~ blown centrifuge hose
+~ centrifuge hose blown
+~ replace blown centrifuge hose
+~ blown hose on centrifuge
+========================================
+========================================
+Object: controller filter hose
+Event: unserviceable
+Number of sentences: 5
+----------------------------------------
+~ controller filter hose unserviceable
+~ unserviceable controller filter hose
+~ controller filter hose is unserviceable
+~ replace unserviceable controller filter hose
+~ controller filter hose found unserviceable
+========================================
+========================================
+Object: mirror
+Event: broken
+Number of sentences: 5
+----------------------------------------
+~ mirror is broken
+~ broken mirror
+~ mirror found broken
+~ replace broken mirror
+~ repair broken mirror
+========================================
+========================================
+Object: clevis pin
+Event: out
+Number of sentences: 5
+----------------------------------------
+~ clevis pin is out
+~ clevis pin out
+~ clevis pin has come out
+~ out clevis pin
+~ replace out clevis pin
+========================================
+========================================
+Object: cabin air conditioner fan
+Event: unserviceable
+Number of sentences: 5
+----------------------------------------
+~ cabin air conditioner fan unserviceable
+~ cabin air conditioner fan is unserviceable
+~ unserviceable cabin air conditioner fan
+~ replace unserviceable cabin air conditioner fan
+~ cabin air conditioner fan found unserviceable
+========================================
+========================================
+Object: window
+Event: broken
+Number of sentences: 5
+----------------------------------------
+~ window is broken
+~ broken window
+~ window found broken
+~ repair broken window
+~ replace broken window
+========================================
+========================================
+Object: steering shaft universal joint
+Event: worn
+Number of sentences: 5
+----------------------------------------
+~ steering shaft universal joint is worn
+~ worn steering shaft universal joint
+~ steering shaft universal joint worn
+~ replace worn steering shaft universal joint
+~ steering shaft universal joint has worn
+========================================
+========================================
+Object: speedometer
+Event: not working
+Number of sentences: 5
+----------------------------------------
+~ speedometer is not working
+~ speedometer not working
+~ speedometer not functioning
+~ speedometer not operational
+~ speedometer has stopped working
+========================================
+========================================
+Object: slew pump cavity
+Event: low
+Number of sentences: 5
+----------------------------------------
+~ slew pump cavity low
+~ slew pump cavity is low
+~ low slew pump cavity
+~ cavity of slew pump low
+~ low level in slew pump cavity
+========================================
+========================================
+Object: pto
+Event: not meshing
+Number of sentences: 5
+----------------------------------------
+~ pto not meshing
+~ pto is not meshing
+~ pto found not meshing
+~ not meshing pto
+~ repair pto not meshing
+========================================
+========================================
+Object: transmission
+Event: slipping fault
+Number of sentences: 5
+----------------------------------------
+~ transmission has slipping fault
+~ slipping fault in transmission
+~ transmission slipping fault present
+~ transmission experiencing slipping fault
+~ repair slipping fault in transmission
+========================================
+========================================
+Object: drag iov
+Event: fault
+Number of sentences: 5
+----------------------------------------
+~ drag iov has a fault
+~ fault in drag iov
+~ drag iov fault found
+~ drag iov is faulty
+~ replace drag iov with fault
+========================================
+========================================
+Object: generator
+Event: fault
+Number of sentences: 5
+----------------------------------------
+~ generator has fault
+~ fault in generator
+~ generator fault found
+~ generator is faulty
+~ repair fault in generator
+========================================
+========================================
+Object: brake
+Event: temperature error
+Number of sentences: 5
+----------------------------------------
+~ brake has temperature error
+~ temperature error in brake
+~ brake temperature error
+~ brake shows temperature error
+~ fix brake temperature error
+========================================
+========================================
+Object: walk motor brake sensor
+Event: not reading
+Number of sentences: 5
+----------------------------------------
+~ walk motor brake sensor not reading
+~ walk motor brake sensor is not reading
+~ sensor for walk motor brake not reading
+~ walk motor brake sensor not functioning
+~ not reading walk motor brake sensor
+========================================
+========================================
+Object: compressor
+Event: not working
+Number of sentences: 5
+----------------------------------------
+~ compressor not working
+~ compressor is not working
+~ not working compressor
+~ compressor found not working
+~ replace not working compressor
+========================================
+========================================
+Object: pto pump contamination switch
+Event: on
+Number of sentences: 5
+----------------------------------------
+~ pto pump contamination switch is on
+~ contamination switch for pto pump on
+~ pto pump contamination switch remains on
+~ contamination switch on pto pump
+~ pto pump contamination switch stays on
+========================================
+========================================
+Object: mast lights harness
+Event: unserviceable
+Number of sentences: 5
+----------------------------------------
+~ mast lights harness unserviceable
+~ mast lights harness is unserviceable
+~ unserviceable mast lights harness
+~ replace unserviceable mast lights harness
+~ mast lights harness found unserviceable
+========================================
+========================================
+Object: boom hose o-ring
+Event: blown
+Number of sentences: 5
+----------------------------------------
+~ boom hose o-ring is blown
+~ blown boom hose o-ring
+~ boom hose o-ring blown
+~ replace blown boom hose o-ring
+~ blown o-ring in boom hose
+========================================
+========================================
+Object: operator cabin air conditioner
+Event: warm
+Number of sentences: 5
+----------------------------------------
+~ operator cabin air conditioner is warm
+~ operator cabin air conditioner warm
+~ air conditioner in operator cabin warm
+~ operator cabin air conditioner feels warm
+~ warm operator cabin air conditioner
+========================================
+========================================
+Object: operator cabin air conditioner fuse
+Event: fault
+Number of sentences: 5
+----------------------------------------
+~ operator cabin air conditioner fuse fault
+~ fault in air conditioner fuse
+~ air conditioner fuse has fault
+~ operator cabin air conditioner fuse is faulty
+~ replace faulty air conditioner fuse
+========================================
+========================================
+Object: air conditioner
+Event: faults
+Number of sentences: 5
+----------------------------------------
+~ air conditioner has faults
+~ air conditioner faults found
+~ faults in air conditioner
+~ air conditioner experiencing faults
+~ repair faults in air conditioner
+========================================
+========================================
+Object: hoist brake filter
+Event: worn
+Number of sentences: 5
+----------------------------------------
+~ hoist brake filter is worn
+~ worn hoist brake filter
+~ hoist brake filter worn
+~ replace worn hoist brake filter
+~ worn filter for hoist brake
+========================================
+========================================
+Object: motor hose
+Event: blown
+Number of sentences: 5
+----------------------------------------
+~ motor hose is blown
+~ blown motor hose
+~ motor hose blown
+~ replace blown motor hose
+~ blown hose in motor
+========================================
+========================================
+Object: compressor
+Event: unserviceable
+Number of sentences: 5
+----------------------------------------
+~ compressor is unserviceable
+~ unserviceable compressor
+~ compressor found unserviceable
+~ replace unserviceable compressor
+~ compressor needs replacement unserviceable
+========================================

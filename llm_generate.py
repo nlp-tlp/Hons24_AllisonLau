@@ -121,6 +121,7 @@ def generate_diverse_mwo(client, prompt_variations, path):
     print(f"{object} {event} - {len(sentences)} sentences")
     return sentences
 
+# Overall generation for MWO sentences
 def generate_mwo(client, prompt_variations, path):
     """ Generate MWO sentences for each path """
     # Get prompt for current path's PhysicalObject and UndesirableEvent
@@ -143,10 +144,12 @@ def generate_mwo(client, prompt_variations, path):
     return sentences
 
 # Get samples from different path types (num samples per path type)
-def get_samples(paths_dict, num_samples=30):
+def get_samples(paths_dict, num_samples=30, exclude=[]):
     """ Get samples from different path types """
     samples = []
-    for paths in paths_dict.values():
+    for key, paths in paths_dict.items():
+        if key in exclude:
+            continue
         if len(paths) < num_samples:
             paths = random.sample(paths, len(paths))
         else:
@@ -162,22 +165,24 @@ if __name__ == "__main__":
     
     # Read all the paths extracted from MaintIE KG
     paths_list, paths_dict = get_all_paths(valid=True)
-    
+
     # Initialise base prompts and instructions
     prompt_variations = initialise_prompts(client, num_variants=5, num_examples=5)
     
     # Sample random paths from each path type
-    paths = get_samples(paths_dict, num_samples=30)
-    
+    paths = get_samples(paths_dict, num_samples=30, exclude=['process_agent_paths', 'process_patient_paths', 
+                                                             'process_agent_patient_paths', 'object_property_paths', 'state_agent_activity_paths',
+                                                             'state_agent_patient_paths', 'object_property_state_paths'])
+
     # Custom path
-    paths = [{'object_name': 'fuel', 'event_name': 'leaking'}]
+    # paths = [{'object_name': 'fuel', 'event_name': 'leaking'}]
     
     # Generate MWO sentences for each path
     for path in paths:
         sentences = generate_mwo(client, prompt_variations, path)
         
         # Save generated sentences to log text file
-        with open("mwo_sentences/generate.txt", "a", encoding='utf-8') as f:
+        with open("mwo_sentences/after_log.txt", "a", encoding='utf-8') as f:
             f.write("========================================\n")
             f.write(f"Object: {path['object_name']}\n")
             f.write(f"Event: {path['event_name']}\n")
@@ -187,10 +192,7 @@ if __name__ == "__main__":
                 f.write(f"~ {sentence}\n")
             f.write("========================================\n")
             
-        # Save generated sentences to txt file (labelled with failure mode)
-        with open(f"mwo_sentences/synthetic.txt", "w", encoding='utf-8') as f:
+        # Save generated sentences to csv file
+        with open(f"mwo_sentences/synthetic.csv", "a", encoding='utf-8') as f:
             for sentence in sentences:
-                if 'failure_mode' in path:
-                    f.write(f"{sentence},{path['failure_mode']}\n")
-                else:
-                    f.write(f"{sentence},None\n")
+                f.write(f"{sentence},{path['object_type']},{path['object_name']},{path['event_name']}\n")

@@ -9,12 +9,14 @@
     },
     {
         "object_name": "inverter batteries",
+        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
         "event_name": "no charge",
         "valid": true,
         "alternate": true
     },
     {
         "object_name": "blower inverter batteries",
+        "object_type": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
         "event_name": "no charge",
         "valid": true,
         "alternate": true
