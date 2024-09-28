@@ -1,0 +1,101 @@
+out of date
+damaged
+flat
+seized
+warm
+loose
+charging fault
+needs
+disconnected
+sounds continuously
+tight
+mismatched
+doesn't turn on
+slipping fault
+overstroke fault
+error
+electrical fault
+doesn't work
+tray up fault
+<num> V supply error
+<num> v supply error
+shot
+not meshing
+out of adjustment
+no signal
+blown
+out
+worn out
+pressure fault
+found
+no excitation
+fault
+overheat fault
+missing
+issues
+hydraulic fault
+bent
+requires
+boost fault
+not communicating
+popped
+release fault
+corroded
+low power fault
+no
+excess play
+failed
+need
+low
+supply error
+slow
+cracked
+worn
+does not self assign
+out of service
+not counting
+temperature fault
+faults
+not charging
+overcharge fault
+on
+intermittent fault
+no reception
+unserviceable
+won't start
+dropped
+faulty
+fuel fault
+damage
+will not start
+logic box fault
+to be fixed
+wired incorrectly
+fail
+not reading
+broken
+melted
+snapped
+plugged
+electrical faults
+working intermittently
+ground fault
+trip
+power fault
+temperature error
+overcharged
+blocked
+require
+locked
+stuck on
+charge fault
+overload fault
+not cold
+tripped
+not working
+<num> volt supply error
+sticking
+shutdown fault
+shorted
+no good
+alarm fault

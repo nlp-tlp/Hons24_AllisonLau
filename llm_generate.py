@@ -171,8 +171,7 @@ if __name__ == "__main__":
     
     # Sample random paths from each path type
     paths = get_samples(paths_dict, num_samples=30, exclude=['process_agent_paths', 'process_patient_paths', 
-                                                             'process_agent_patient_paths', 'object_property_paths', 'state_agent_activity_paths',
-                                                             'state_agent_patient_paths', 'object_property_state_paths'])
+                                                             'process_agent_patient_paths', 'state_agent_activity_paths'])
 
     # Custom path
     # paths = [{'object_name': 'fuel', 'event_name': 'leaking'}]
@@ -193,6 +192,6 @@ if __name__ == "__main__":
             f.write("========================================\n")
             
         # Save generated sentences to csv file
-        with open(f"mwo_sentences/synthetic.csv", "a", encoding='utf-8') as f:
+        with open(f"mwo_sentences/order_synthetic.csv", "a", encoding='utf-8') as f:
             for sentence in sentences:
                 f.write(f"{sentence},{path['object_type']},{path['object_name']},{path['event_name']}\n")
