@@ -1,101 +1,101 @@
-out of date
-damaged
-flat
-seized
-warm
-loose
-charging fault
-needs
-disconnected
-sounds continuously
-tight
-mismatched
-doesn't turn on
-slipping fault
-overstroke fault
-error
-electrical fault
-doesn't work
-tray up fault
-<num> V supply error
-<num> v supply error
-shot
-not meshing
-out of adjustment
-no signal
-blown
-out
-worn out
-pressure fault
-found
-no excitation
-fault
-overheat fault
-missing
-issues
-hydraulic fault
-bent
-requires
-boost fault
-not communicating
-popped
-release fault
-corroded
-low power fault
-no
-excess play
-failed
 need
-low
-supply error
-slow
-cracked
-worn
-does not self assign
-out of service
-not counting
-temperature fault
-faults
-not charging
-overcharge fault
-on
-intermittent fault
-no reception
-unserviceable
-won't start
-dropped
-faulty
-fuel fault
-damage
-will not start
-logic box fault
-to be fixed
-wired incorrectly
-fail
-not reading
-broken
-melted
-snapped
-plugged
-electrical faults
-working intermittently
-ground fault
-trip
-power fault
-temperature error
-overcharged
-blocked
-require
-locked
-stuck on
+no signal
 charge fault
-overload fault
-not cold
-tripped
-not working
-<num> volt supply error
+won't start
+tray up fault
+will not start
+worn out
+dropped
+supply error
+bent
+excess play
+slow
+fault
+warm
+not communicating
+hydraulic fault
 sticking
-shutdown fault
-shorted
+melted
+<num> volt supply error
+low power fault
+blown
+no reception
+require
+loose
+requires
+<num> V supply error
+needs
+damage
+worn
+found
 no good
+overload fault
+overstroke fault
+out
+overcharged
+damaged
+<num> v supply error
+doesn't work
+pressure fault
+out of date
+error
+power fault
+unserviceable
+sounds continuously
+intermittent fault
+electrical fault
+cracked
+ground fault
+out of adjustment
+does not self assign
+not cold
+not reading
+shutdown fault
+overheat fault
+release fault
+on
+out of service
+doesn't turn on
+no
+issues
+working intermittently
+not charging
+charging fault
+not counting
+mismatched
+flat
+plugged
+shorted
+blocked
+faults
+seized
+electrical faults
+missing
+temperature error
+faulty
+not meshing
+logic box fault
+tripped
+no excitation
+stuck on
 alarm fault
+disconnected
+broken
+not working
+wired incorrectly
+shot
+to be fixed
+locked
+temperature fault
+boost fault
+tight
+popped
+slipping fault
+low
+overcharge fault
+fuel fault
+corroded
+failed
+trip
+snapped
+fail

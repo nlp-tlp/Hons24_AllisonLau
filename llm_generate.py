@@ -190,7 +190,7 @@ if __name__ == "__main__":
             for sentence in sentences:
                 f.write(f"~ {sentence}\n")
             f.write("========================================\n")
-            
+
         # Save generated sentences to csv file
         with open(f"mwo_sentences/order_synthetic.csv", "a", encoding='utf-8') as f:
             for sentence in sentences:
