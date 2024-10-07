@@ -104,9 +104,9 @@ circuit breaker,c/b
 circuit breaker,c/breaker
 circuit breakers,c/breakers
 circumference,circum
-clean up,clean
 clean out,clean
 clean out,clean up
+clean up,clean
 coaxial,coax
 coke and revert,c/r
 collect,col
@@ -294,9 +294,9 @@ hot gas fan,hgf
 hour,hr
 hour,h
 housing,hous
-hydraulic oil,hydoil
 hydraulic,hyd
 hydraulic hose,hyd-hose
+hydraulic oil,hydoil
 hydraulic tank,hyd-tank
 hydrocarbon,hydro
 hydrocool,hydro
@@ -572,14 +572,14 @@ replaced,rep
 replaced,change out
 replaced,c/o
 replaced,c/out
+replacement,rep
+replacement,repl
 replacing,repl
 replacing,rpl
 replacing,changing out
 replacing,co
 replacing,c/o
 replacing,c/out
-replacement,rep
-replacement,repl
 report,rpt
 reposition,re-position
 require,req

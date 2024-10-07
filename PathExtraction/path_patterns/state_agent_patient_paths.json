@@ -2,7 +2,7 @@
     {
         "object_name": "cabin",
         "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
-        "event_name": "missing bolt",
+        "event_name": "missing flag",
         "valid": false,
         "alternate": false
     },
@@ -16,7 +16,21 @@
     {
         "object_name": "cabin",
         "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
-        "event_name": "missing flag",
+        "event_name": "missing bolt",
+        "valid": false,
+        "alternate": false
+    },
+    {
+        "object_name": "cabin",
+        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
+        "event_name": "missing fuel breather",
+        "valid": false,
+        "alternate": false
+    },
+    {
+        "object_name": "cabin",
+        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
+        "event_name": "missing cutting edge",
         "valid": false,
         "alternate": false
     },
@@ -31,7 +45,7 @@
     {
         "object_name": "cabin",
         "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
-        "event_name": "missing cutting edge",
+        "event_name": "missing fuel cap",
         "valid": false,
         "alternate": false
     },
@@ -43,280 +57,28 @@
         "alternate": false
     },
     {
-        "object_name": "cabin",
-        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
-        "event_name": "missing fuel cap",
-        "valid": false,
-        "alternate": false
-    },
-    {
-        "object_name": "cabin",
-        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
-        "event_name": "missing fuel breather",
-        "valid": false,
-        "alternate": false
-    },
-    {
-        "object_name": "joystick",
-        "object_type": "PhysicalObject/HumanInteractionObject/MovementInteractionObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": false
-    },
-    {
-        "object_name": "joystick",
-        "object_type": "PhysicalObject/HumanInteractionObject/MovementInteractionObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": false
-    },
-    {
-        "object_name": "light",
-        "object_type": "PhysicalObject/EmittingObject/LightObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": false
-    },
-    {
-        "object_name": "blade light",
-        "object_type": "PhysicalObject/EmittingObject/LightObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "boom light",
-        "object_type": "PhysicalObject/EmittingObject/LightObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "a-frame light",
-        "object_type": "PhysicalObject/EmittingObject/LightObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "engine bay light",
-        "object_type": "PhysicalObject/EmittingObject/LightObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "keypad light",
-        "object_type": "PhysicalObject/EmittingObject/LightObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "vims keypad light",
-        "object_type": "PhysicalObject/EmittingObject/LightObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "light",
-        "object_type": "PhysicalObject/EmittingObject/LightObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": false
-    },
-    {
-        "object_name": "blade light",
-        "object_type": "PhysicalObject/EmittingObject/LightObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "boom light",
-        "object_type": "PhysicalObject/EmittingObject/LightObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "a-frame light",
-        "object_type": "PhysicalObject/EmittingObject/LightObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "engine bay light",
-        "object_type": "PhysicalObject/EmittingObject/LightObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "keypad light",
-        "object_type": "PhysicalObject/EmittingObject/LightObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "vims keypad light",
-        "object_type": "PhysicalObject/EmittingObject/LightObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "window",
-        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": false
-    },
-    {
-        "object_name": "cabin window",
-        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "door window",
-        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "auto-greaser door window",
-        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "cabin door window",
-        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "window",
-        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": false
-    },
-    {
-        "object_name": "cabin window",
-        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "door window",
-        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "auto-greaser door window",
-        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "cabin door window",
-        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "seat",
-        "object_type": "PhysicalObject/StoringObject/OpenStationaryStoringObject",
-        "event_name": "needs loctite",
-        "valid": true,
-        "alternate": false
-    },
-    {
-        "object_name": "cabin seat",
-        "object_type": "PhysicalObject/StoringObject/OpenStationaryStoringObject",
-        "event_name": "needs loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "seat",
-        "object_type": "PhysicalObject/StoringObject/OpenStationaryStoringObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": false
-    },
-    {
-        "object_name": "cabin seat",
-        "object_type": "PhysicalObject/StoringObject/OpenStationaryStoringObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
         "object_name": "air conditioner",
         "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
-        "event_name": "needs loctite",
+        "event_name": "needs aerial",
         "valid": false,
         "alternate": false
-    },
-    {
-        "object_name": "cabin air conditioner",
-        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "engine air conditioner",
-        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "hydraulic motor engine air conditioner",
-        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
     },
     {
         "object_name": "operator cabin air conditioner",
         "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
-        "event_name": "needs loctite",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "cabin air conditioner",
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
         "object_name": "dragline air conditioner",
-        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "air conditioner",
-        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": false
-    },
-    {
-        "object_name": "cabin air conditioner",
         "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
         "event_name": "needs aerial",
         "valid": false,
@@ -337,897 +99,225 @@
         "alternate": true
     },
     {
+        "object_name": "air conditioner",
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": false
+    },
+    {
         "object_name": "operator cabin air conditioner",
         "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
-        "event_name": "needs aerial",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "cabin air conditioner",
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "event_name": "needs loctite",
         "valid": false,
         "alternate": true
     },
     {
         "object_name": "dragline air conditioner",
         "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
-        "event_name": "needs aerial",
+        "event_name": "needs loctite",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "cabin",
-        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
+        "object_name": "engine air conditioner",
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
         "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "hydraulic motor engine air conditioner",
+        "object_type": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "window frame",
+        "object_type": "PhysicalObject/HoldingObject/FramingObject",
+        "event_name": "needs aerial",
         "valid": false,
         "alternate": false
     },
     {
-        "object_name": "cabin",
-        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
-        "event_name": "needs aerial",
+        "object_name": "window frame",
+        "object_type": "PhysicalObject/HoldingObject/FramingObject",
+        "event_name": "needs loctite",
         "valid": true,
         "alternate": false
     },
     {
-        "object_name": "hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": false
-    },
-    {
-        "object_name": "pump hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "parts washer pump hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "engine pump hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "swing pump hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "drag rope pump hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "brake pump hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "cooler pump hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "steering pump hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "fan pump hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "pto pump hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "differential pump hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "slew pump hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "centrifuge hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "filter hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "brake filter hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "controller filter hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "centrifuge filter hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "water separator filter hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "clam cylinder hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "boom cylinder hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "heater hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "roof heater hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "bucket cylinder hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "steering hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "brake hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "swing brake hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "hoist brake hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "walk motor brake hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "slew brake hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "drag brake hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "slew motor hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "cooler hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "differential cooler hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "hydraulic motor cooler hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "motor hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "drag motor hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "pump motor hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "wiper motor hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "fan motor hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "hoist motor hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "swing motor hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "boom hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "oil cooler hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "axle oil cooler hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "engine oil cooler hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "crowd cylinder hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "hmu hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "hitch hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "transmission hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "fan hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "air conditioner fan hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "torque converter fan hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "cooler fan hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "engine fan hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "condenser fan hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "tilt cylinder hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "air conditioner hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "cabin air conditioner hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "engine air conditioner hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "operator cabin air conditioner hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "dragline air conditioner hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "hose",
+        "object_name": "line",
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": false
     },
     {
-        "object_name": "pump hose",
+        "object_name": "air brake line",
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "parts washer pump hose",
+        "object_name": "line",
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": false
+    },
+    {
+        "object_name": "air brake line",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "dust flap",
+        "object_type": "PhysicalObject/ProtectingObject/EnvironmentProtectingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": false
+    },
+    {
+        "object_name": "mast dust flap",
+        "object_type": "PhysicalObject/ProtectingObject/EnvironmentProtectingObject",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "engine pump hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "dust flap",
+        "object_type": "PhysicalObject/ProtectingObject/EnvironmentProtectingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": false
+    },
+    {
+        "object_name": "mast dust flap",
+        "object_type": "PhysicalObject/ProtectingObject/EnvironmentProtectingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "bolt",
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": false
+    },
+    {
+        "object_name": "pump bolt",
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "swing pump hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "fan pump bolt",
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "drag rope pump hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "brake pump bolt",
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "brake pump hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "swing pump bolt",
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "cooler pump hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "engine pump bolt",
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "steering pump hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "slew pump bolt",
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "fan pump hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "steering pump bolt",
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "pto pump hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "cooler pump bolt",
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "differential pump hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "differential pump bolt",
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "slew pump hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "parts washer pump bolt",
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "centrifuge hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "pto pump bolt",
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "filter hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "drag rope pump bolt",
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "brake filter hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "carousel bolt",
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "controller filter hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "dogbone bolt",
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "centrifuge filter hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "water separator filter hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "clam cylinder hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "boom cylinder hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "heater hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "roof heater hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "bucket cylinder hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "steering hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "brake hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "swing brake hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "hoist brake hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "walk motor brake hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "slew brake hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "drag brake hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "slew motor hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "cooler hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "differential cooler hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "hydraulic motor cooler hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "motor hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "drag motor hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "pump motor hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "wiper motor hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "fan motor hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "hoist motor hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "swing motor hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "boom hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "oil cooler hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "axle oil cooler hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "engine oil cooler hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "crowd cylinder hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "hmu hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "hitch hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "transmission hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "fan hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "air conditioner fan hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "torque converter fan hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "cooler fan hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "engine fan hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "condenser fan hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "tilt cylinder hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "air conditioner hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "cabin air conditioner hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "engine air conditioner hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "operator cabin air conditioner hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "dragline air conditioner hose",
-        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "object_name": "belly plate bolt",
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": true
@@ -1248,28 +338,7 @@
         "alternate": true
     },
     {
-        "object_name": "parts washer pump bolt",
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "event_name": "needs loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "engine pump bolt",
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "event_name": "needs loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "swing pump bolt",
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "event_name": "needs loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "drag rope pump bolt",
+        "object_name": "fan pump bolt",
         "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "event_name": "needs loctite",
         "valid": true,
@@ -1283,7 +352,21 @@
         "alternate": true
     },
     {
-        "object_name": "cooler pump bolt",
+        "object_name": "swing pump bolt",
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
+        "event_name": "needs loctite",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "engine pump bolt",
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
+        "event_name": "needs loctite",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "slew pump bolt",
         "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "event_name": "needs loctite",
         "valid": true,
@@ -1297,14 +380,7 @@
         "alternate": true
     },
     {
-        "object_name": "fan pump bolt",
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "event_name": "needs loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "pto pump bolt",
+        "object_name": "cooler pump bolt",
         "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "event_name": "needs loctite",
         "valid": true,
@@ -1318,7 +394,28 @@
         "alternate": true
     },
     {
-        "object_name": "slew pump bolt",
+        "object_name": "parts washer pump bolt",
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
+        "event_name": "needs loctite",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "pto pump bolt",
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
+        "event_name": "needs loctite",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "drag rope pump bolt",
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
+        "event_name": "needs loctite",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "carousel bolt",
         "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "event_name": "needs loctite",
         "valid": true,
@@ -1339,207 +436,144 @@
         "alternate": true
     },
     {
-        "object_name": "carousel bolt",
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "event_name": "needs loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "bolt",
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
+        "object_name": "joystick",
+        "object_type": "PhysicalObject/HumanInteractionObject/MovementInteractionObject",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": false
     },
     {
-        "object_name": "pump bolt",
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "parts washer pump bolt",
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "engine pump bolt",
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "swing pump bolt",
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "drag rope pump bolt",
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "brake pump bolt",
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "cooler pump bolt",
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "steering pump bolt",
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "fan pump bolt",
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "pto pump bolt",
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "differential pump bolt",
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "slew pump bolt",
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "dogbone bolt",
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "belly plate bolt",
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "carousel bolt",
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "window frame",
-        "object_type": "PhysicalObject/HoldingObject/FramingObject",
+        "object_name": "joystick",
+        "object_type": "PhysicalObject/HumanInteractionObject/MovementInteractionObject",
         "event_name": "needs loctite",
+        "valid": false,
+        "alternate": false
+    },
+    {
+        "object_name": "light",
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": false
+    },
+    {
+        "object_name": "blade light",
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "keypad light",
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "vims keypad light",
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "boom light",
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "a-frame light",
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "engine bay light",
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "light",
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": false
+    },
+    {
+        "object_name": "blade light",
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "keypad light",
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "vims keypad light",
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "boom light",
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "a-frame light",
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "engine bay light",
+        "object_type": "PhysicalObject/EmittingObject/LightObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "cabin",
+        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
+        "event_name": "needs aerial",
         "valid": true,
         "alternate": false
     },
     {
-        "object_name": "window frame",
-        "object_type": "PhysicalObject/HoldingObject/FramingObject",
+        "object_name": "cabin",
+        "object_type": "PhysicalObject/HoldingObject/EnclosingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": false
+    },
+    {
+        "object_name": "isolator",
+        "object_type": "PhysicalObject/ControllingObject/ElectricControllingObject",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": false
     },
     {
-        "object_name": "clamps",
-        "object_type": "PhysicalObject/HoldingObject/PositioningObject",
-        "event_name": "needs loctite",
-        "valid": true,
-        "alternate": false
-    },
-    {
-        "object_name": "coolant pipe clamps",
-        "object_type": "PhysicalObject/HoldingObject/PositioningObject",
-        "event_name": "needs loctite",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "clamps",
-        "object_type": "PhysicalObject/HoldingObject/PositioningObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": false
-    },
-    {
-        "object_name": "coolant pipe clamps",
-        "object_type": "PhysicalObject/HoldingObject/PositioningObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "dust flap",
-        "object_type": "PhysicalObject/ProtectingObject/EnvironmentProtectingObject",
+        "object_name": "isolator",
+        "object_type": "PhysicalObject/ControllingObject/ElectricControllingObject",
         "event_name": "needs loctite",
         "valid": false,
         "alternate": false
-    },
-    {
-        "object_name": "mast dust flap",
-        "object_type": "PhysicalObject/ProtectingObject/EnvironmentProtectingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "dust flap",
-        "object_type": "PhysicalObject/ProtectingObject/EnvironmentProtectingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": false
-    },
-    {
-        "object_name": "mast dust flap",
-        "object_type": "PhysicalObject/ProtectingObject/EnvironmentProtectingObject",
-        "event_name": "needs aerial",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "am / fm radio",
-        "object_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": false
-    },
-    {
-        "object_name": "radio",
-        "object_type": "PhysicalObject",
-        "event_name": "needs loctite",
-        "valid": false,
-        "alternate": true
     },
     {
         "object_name": "am / fm radio",
@@ -1557,44 +591,1010 @@
         "alternate": true
     },
     {
-        "object_name": "isolator",
-        "object_type": "PhysicalObject/ControllingObject/ElectricControllingObject",
+        "object_name": "am / fm radio",
+        "object_type": "PhysicalObject/TransformingObject/SignalConvertingObject",
         "event_name": "needs loctite",
         "valid": false,
         "alternate": false
     },
     {
-        "object_name": "isolator",
-        "object_type": "PhysicalObject/ControllingObject/ElectricControllingObject",
+        "object_name": "radio",
+        "object_type": "PhysicalObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "window",
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
         "event_name": "needs aerial",
         "valid": false,
         "alternate": false
     },
     {
-        "object_name": "line",
+        "object_name": "cabin window",
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "door window",
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "cabin door window",
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "auto-greaser door window",
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "window",
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": false
+    },
+    {
+        "object_name": "cabin window",
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "door window",
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "cabin door window",
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "auto-greaser door window",
+        "object_type": "PhysicalObject/ControllingObject/SpaceAccessObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "clamps",
+        "object_type": "PhysicalObject/HoldingObject/PositioningObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": false
+    },
+    {
+        "object_name": "coolant pipe clamps",
+        "object_type": "PhysicalObject/HoldingObject/PositioningObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "clamps",
+        "object_type": "PhysicalObject/HoldingObject/PositioningObject",
+        "event_name": "needs loctite",
+        "valid": true,
+        "alternate": false
+    },
+    {
+        "object_name": "coolant pipe clamps",
+        "object_type": "PhysicalObject/HoldingObject/PositioningObject",
+        "event_name": "needs loctite",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "seat",
+        "object_type": "PhysicalObject/StoringObject/OpenStationaryStoringObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": false
+    },
+    {
+        "object_name": "cabin seat",
+        "object_type": "PhysicalObject/StoringObject/OpenStationaryStoringObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "seat",
+        "object_type": "PhysicalObject/StoringObject/OpenStationaryStoringObject",
+        "event_name": "needs loctite",
+        "valid": true,
+        "alternate": false
+    },
+    {
+        "object_name": "cabin seat",
+        "object_type": "PhysicalObject/StoringObject/OpenStationaryStoringObject",
+        "event_name": "needs loctite",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": false
+    },
+    {
+        "object_name": "bucket cylinder hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "boom cylinder hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "hmu hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "oil cooler hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "engine oil cooler hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "axle oil cooler hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "slew motor hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "clam cylinder hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "filter hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "water separator filter hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "brake filter hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "controller filter hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "centrifuge filter hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "pump hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "fan pump hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "brake pump hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "swing pump hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "engine pump hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "slew pump hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "steering pump hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "cooler pump hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "differential pump hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "parts washer pump hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "pto pump hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "drag rope pump hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "boom hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "steering hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "centrifuge hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "air conditioner hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "operator cabin air conditioner hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "cabin air conditioner hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "dragline air conditioner hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "engine air conditioner hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "cooler hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "hydraulic motor cooler hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "differential cooler hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "crowd cylinder hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "tilt cylinder hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "heater hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "roof heater hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "motor hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "swing motor hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "drag motor hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "wiper motor hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "hoist motor hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "fan motor hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "pump motor hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "transmission hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "fan hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "engine fan hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "torque converter fan hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "air conditioner fan hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "cooler fan hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "condenser fan hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "hitch hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "brake hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "swing brake hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "drag brake hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "hoist brake hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "walk motor brake hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "slew brake hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs aerial",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "hose",
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "event_name": "needs loctite",
         "valid": false,
         "alternate": false
     },
     {
-        "object_name": "air brake line",
+        "object_name": "bucket cylinder hose",
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
         "event_name": "needs loctite",
         "valid": false,
         "alternate": true
     },
     {
-        "object_name": "line",
+        "object_name": "boom cylinder hose",
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
+        "event_name": "needs loctite",
         "valid": false,
-        "alternate": false
+        "alternate": true
     },
     {
-        "object_name": "air brake line",
+        "object_name": "hmu hose",
         "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
-        "event_name": "needs aerial",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "oil cooler hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "engine oil cooler hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "axle oil cooler hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "slew motor hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "clam cylinder hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "filter hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "water separator filter hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "brake filter hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "controller filter hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "centrifuge filter hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "pump hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "fan pump hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "brake pump hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "swing pump hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "engine pump hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "slew pump hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "steering pump hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "cooler pump hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "differential pump hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "parts washer pump hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "pto pump hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "drag rope pump hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "boom hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "steering hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "centrifuge hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "air conditioner hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "operator cabin air conditioner hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "cabin air conditioner hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "dragline air conditioner hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "engine air conditioner hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "cooler hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "hydraulic motor cooler hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "differential cooler hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "crowd cylinder hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "tilt cylinder hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "heater hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "roof heater hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "motor hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "swing motor hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "drag motor hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "wiper motor hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "hoist motor hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "fan motor hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "pump motor hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "transmission hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "fan hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "engine fan hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "torque converter fan hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "air conditioner fan hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "cooler fan hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "condenser fan hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "hitch hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "brake hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "swing brake hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "drag brake hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "hoist brake hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "walk motor brake hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "slew brake hose",
+        "object_type": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+        "event_name": "needs loctite",
         "valid": false,
         "alternate": true
     },
@@ -1622,7 +1622,7 @@
         "failure_mode": null
     },
     {
-        "object_name": "mast raise cylinder pin",
+        "object_name": "steering cylinder pin",
         "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "event_name": "no grease",
         "valid": true,
@@ -1636,13 +1636,6 @@
         "alternate": true
     },
     {
-        "object_name": "boom foot clevis pin",
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "event_name": "no grease",
-        "valid": true,
-        "alternate": true
-    },
-    {
         "object_name": "a-frame clevis pin",
         "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "event_name": "no grease",
@@ -1650,14 +1643,7 @@
         "alternate": true
     },
     {
-        "object_name": "steering cylinder pin",
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "event_name": "no grease",
-        "valid": true,
-        "alternate": true
-    },
-    {
-        "object_name": "dogbone pin",
+        "object_name": "boom foot clevis pin",
         "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "event_name": "no grease",
         "valid": true,
@@ -1665,6 +1651,20 @@
     },
     {
         "object_name": "steering pin",
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
+        "event_name": "no grease",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "mast raise cylinder pin",
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
+        "event_name": "no grease",
+        "valid": true,
+        "alternate": true
+    },
+    {
+        "object_name": "dogbone pin",
         "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "event_name": "no grease",
         "valid": true,
@@ -1678,7 +1678,7 @@
         "alternate": false
     },
     {
-        "object_name": "mast raise cylinder pin",
+        "object_name": "steering cylinder pin",
         "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "event_name": "no grease lines",
         "valid": false,
@@ -1692,13 +1692,6 @@
         "alternate": true
     },
     {
-        "object_name": "boom foot clevis pin",
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "event_name": "no grease lines",
-        "valid": false,
-        "alternate": true
-    },
-    {
         "object_name": "a-frame clevis pin",
         "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "event_name": "no grease lines",
@@ -1706,14 +1699,7 @@
         "alternate": true
     },
     {
-        "object_name": "steering cylinder pin",
-        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
-        "event_name": "no grease lines",
-        "valid": false,
-        "alternate": true
-    },
-    {
-        "object_name": "dogbone pin",
+        "object_name": "boom foot clevis pin",
         "object_type": "PhysicalObject/HoldingObject/FasteningObject",
         "event_name": "no grease lines",
         "valid": false,
@@ -1727,12 +1713,18 @@
         "alternate": true
     },
     {
-        "object_name": "radiator",
-        "object_type": "PhysicalObject/EmittingObject/ThermalEnergyTransferObject",
-        "event_name": "blocked grass",
-        "valid": true,
-        "alternate": false,
-        "failure_mode": "Plugged / choked"
+        "object_name": "mast raise cylinder pin",
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
+        "event_name": "no grease lines",
+        "valid": false,
+        "alternate": true
+    },
+    {
+        "object_name": "dogbone pin",
+        "object_type": "PhysicalObject/HoldingObject/FasteningObject",
+        "event_name": "no grease lines",
+        "valid": false,
+        "alternate": true
     },
     {
         "object_name": "radiator",
@@ -1740,6 +1732,14 @@
         "event_name": "blocked dryer",
         "valid": false,
         "alternate": false
+    },
+    {
+        "object_name": "radiator",
+        "object_type": "PhysicalObject/EmittingObject/ThermalEnergyTransferObject",
+        "event_name": "blocked grass",
+        "valid": true,
+        "alternate": false,
+        "failure_mode": "Plugged / choked"
     },
     {
         "object_name": "battery",

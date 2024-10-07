@@ -1,5 +1,6 @@
 import os
 import re
+import sys
 from openai import OpenAI
 from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer

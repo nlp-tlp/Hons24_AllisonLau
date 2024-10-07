@@ -15962,3 +15962,1026 @@ Number of sentences: 5
 ~ brake pump bolt requires loctite application
 ~ ensure brake pump bolt has loctite
 ========================================
+========================================
+Object: chord
+Event: crack
+Number of sentences: 5
+----------------------------------------
+~ chord has a crack
+~ crack found in chord
+~ cracked chord
+~ repair crack in chord
+~ chord is cracked
+========================================
+========================================
+Object: fuel tank
+Event: crack
+Number of sentences: 5
+----------------------------------------
+~ fuel tank has a crack
+~ crack found in fuel tank
+~ fuel tank cracked
+~ repair crack in fuel tank
+~ cracked fuel tank
+========================================
+========================================
+Object: stick
+Event: cracks
+Number of sentences: 5
+----------------------------------------
+~ stick has cracks
+~ cracks found on stick
+~ stick is cracked
+~ repair cracks in stick
+~ stick exhibits cracks
+========================================
+========================================
+Object: boom
+Event: cracks
+Number of sentences: 5
+----------------------------------------
+~ boom has cracks
+~ cracks found in boom
+~ boom cracking
+~ repair cracks in boom
+~ cracked boom needs repair
+========================================
+========================================
+Object: cable gantry
+Event: crack
+Number of sentences: 5
+----------------------------------------
+~ cable gantry has a crack
+~ crack in cable gantry
+~ cable gantry cracked
+~ repair crack in cable gantry
+~ cracked cable gantry needs repair
+========================================
+========================================
+Object: heat shield
+Event: crack
+Number of sentences: 5
+----------------------------------------
+~ heat shield has a crack
+~ crack in heat shield
+~ heat shield is cracked
+~ repair crack in heat shield
+~ cracked heat shield needs replacement
+========================================
+========================================
+Object: gantry
+Event: crack
+Number of sentences: 5
+----------------------------------------
+~ gantry has a crack
+~ crack in gantry
+~ gantry is cracked
+~ cracked gantry
+~ repair crack in gantry
+========================================
+========================================
+Object: decking
+Event: cracks
+Number of sentences: 5
+----------------------------------------
+~ decking has cracks
+~ cracks found in decking
+~ decking is cracked
+~ repair cracks in decking
+~ decking with cracks needs repair
+========================================
+========================================
+Object: rock deflector
+Event: crack
+Number of sentences: 5
+----------------------------------------
+~ rock deflector has a crack
+~ crack in rock deflector
+~ rock deflector cracked
+~ repair crack in rock deflector
+~ cracked rock deflector needs repair
+========================================
+========================================
+Object: fuel cooler mounts
+Event: cracks
+Number of sentences: 5
+----------------------------------------
+~ fuel cooler mounts have cracks
+~ cracks in fuel cooler mounts
+~ fuel cooler mounts cracked
+~ repair cracks on fuel cooler mounts
+~ fuel cooler mounts showing cracks
+========================================
+========================================
+Object: compressor bearing
+Event: noisy
+Number of sentences: 5
+----------------------------------------
+~ compressor bearing is noisy
+~ noisy compressor bearing
+~ compressor bearing making noise
+~ noise from compressor bearing
+~ compressor bearing has noise
+========================================
+========================================
+Object: air conditioner compressor bearing
+Event: noisy
+Number of sentences: 5
+----------------------------------------
+~ air conditioner compressor bearing is noisy
+~ noisy air conditioner compressor bearing
+~ compressor bearing making noise
+~ air conditioner compressor bearing noisy operation
+~ replace noisy air conditioner compressor bearing
+========================================
+========================================
+Object: window
+Event: crack
+Number of sentences: 5
+----------------------------------------
+~ window has a crack
+~ crack in window
+~ window is cracked
+~ repair cracked window
+~ cracked window needs replacement
+========================================
+========================================
+Object: boom chord
+Event: crack
+Number of sentences: 5
+----------------------------------------
+~ boom chord has crack
+~ crack in boom chord
+~ boom chord is cracked
+~ repair crack in boom chord
+~ cracked boom chord
+========================================
+========================================
+Object: headboard
+Event: crack
+Number of sentences: 5
+----------------------------------------
+~ headboard has a crack
+~ crack in headboard
+~ headboard is cracked
+~ repair crack in headboard
+~ cracked headboard needs fixing
+========================================
+========================================
+Object: windscreen
+Event: crack
+Number of sentences: 5
+----------------------------------------
+~ windscreen has a crack
+~ crack in windscreen
+~ windscreen cracked
+~ replace cracked windscreen
+~ repair crack on windscreen
+========================================
+========================================
+Object: cross braces
+Event: cracks
+Number of sentences: 5
+----------------------------------------
+~ cross braces have cracks
+~ cracks in cross braces
+~ cross braces are cracked
+~ repair cracks in cross braces
+~ cracked cross braces need repair
+========================================
+========================================
+Object: headboard
+Event: cracks
+Number of sentences: 5
+----------------------------------------
+~ headboard has cracks
+~ cracks in headboard
+~ headboard cracking
+~ repair cracked headboard
+~ cracked headboard needs replacement
+========================================
+========================================
+Object: track frame
+Event: crack
+Number of sentences: 5
+----------------------------------------
+~ track frame has a crack
+~ crack found in track frame
+~ track frame cracked
+~ repair crack in track frame
+~ track frame needs crack repair
+========================================
+========================================
+Object: cabin door frame
+Event: hole
+Number of sentences: 5
+----------------------------------------
+~ cabin door frame has a hole
+~ hole in cabin door frame
+~ cabin door frame is damaged with hole
+~ repair hole in cabin door frame
+~ hole found in cabin door frame
+========================================
+========================================
+Object: window frame
+Event: crack
+Number of sentences: 5
+----------------------------------------
+~ window frame has a crack
+~ crack found in window frame
+~ window frame cracked
+~ repair crack in window frame
+~ cracked window frame needs repair
+========================================
+========================================
+Object: drag roller bearing
+Event: noisy
+Number of sentences: 5
+----------------------------------------
+~ drag roller bearing is noisy
+~ noisy drag roller bearing
+~ drag roller bearing making noise
+~ noise from drag roller bearing
+~ replace noisy drag roller bearing
+========================================
+========================================
+Object: chassis cross member
+Event: crack
+Number of sentences: 5
+----------------------------------------
+~ chassis cross member has a crack
+~ crack in chassis cross member
+~ chassis cross member cracked
+~ repair crack in chassis cross member
+~ cracked chassis cross member needs repair
+========================================
+========================================
+Object: cross member
+Event: crack
+Number of sentences: 5
+----------------------------------------
+~ cross member has a crack
+~ crack in cross member
+~ cross member is cracked
+~ repair crack in cross member
+~ cracked cross member needs repair
+========================================
+========================================
+Object: liner
+Event: crack
+Number of sentences: 5
+----------------------------------------
+~ liner has a crack
+~ crack in liner
+~ cracked liner
+~ repair crack in liner
+~ replace cracked liner
+========================================
+========================================
+Object: fire suppression mounts
+Event: cracks
+Number of sentences: 5
+----------------------------------------
+~ fire suppression mounts have cracks
+~ cracks in fire suppression mounts
+~ fire suppression mounts are cracked
+~ cracked fire suppression mounts
+~ repair cracks in fire suppression mounts
+========================================
+========================================
+Object: tank
+Event: crack
+Number of sentences: 5
+----------------------------------------
+~ tank has a crack
+~ crack found in tank
+~ tank is cracked
+~ repair crack in tank
+~ tank cracking needs repair
+========================================
+========================================
+Object: frame
+Event: crack
+Number of sentences: 5
+----------------------------------------
+~ frame has a crack
+~ crack in frame
+~ frame is cracked
+~ repair crack in frame
+~ cracked frame needs repair
+========================================
+========================================
+Object: jockey pulley bearing
+Event: noisy
+Number of sentences: 5
+----------------------------------------
+~ jockey pulley bearing is noisy
+~ noisy jockey pulley bearing
+~ jockey pulley bearing making noise
+~ noise from jockey pulley bearing
+~ replace noisy jockey pulley bearing
+========================================
+========================================
+Object: backhoe windscreen
+Event: crack
+Number of sentences: 5
+----------------------------------------
+~ backhoe windscreen has a crack
+~ crack in backhoe windscreen
+~ backhoe windscreen is cracked
+~ repair crack in backhoe windscreen
+~ cracked backhoe windscreen needs replacement
+========================================
+========================================
+Object: steering shaft
+Event: unserviceable
+Number of sentences: 5
+----------------------------------------
+~ steering shaft is unserviceable
+~ unserviceable steering shaft
+~ steering shaft found unserviceable
+~ replace unserviceable steering shaft
+~ steering shaft needs replacement unserviceable
+========================================
+========================================
+Object: mast lights fuse
+Event: fault
+Number of sentences: 5
+----------------------------------------
+~ mast lights fuse has a fault
+~ fault in mast lights fuse
+~ mast lights fuse fault
+~ replace faulty mast lights fuse
+~ mast lights fuse found faulty
+========================================
+========================================
+Object: transmission
+Event: failed
+Number of sentences: 5
+----------------------------------------
+~ transmission has failed
+~ failed transmission
+~ transmission failed
+~ replace failed transmission
+~ transmission is failed
+========================================
+========================================
+Object: windscreen
+Event: to be fixed
+Number of sentences: 5
+----------------------------------------
+~ windscreen needs to be fixed
+~ windscreen is to be fixed
+~ fix the windscreen
+~ windscreen to be fixed
+~ repair windscreen needed
+========================================
+========================================
+Object: line
+Event: blown
+Number of sentences: 5
+----------------------------------------
+~ line is blown
+~ blown line
+~ line has blown
+~ replace blown line
+~ blown line needs replacement
+========================================
+========================================
+Object: engine air conditioner control cable
+Event: seized
+Number of sentences: 5
+----------------------------------------
+~ engine air conditioner control cable seized
+~ control cable for engine air conditioner seized
+~ seized engine air conditioner control cable
+~ engine air conditioner control cable is seized
+~ replace seized engine air conditioner control cable
+========================================
+========================================
+Object: plate
+Event: bent
+Number of sentences: 5
+----------------------------------------
+~ plate is bent
+~ bent plate
+~ plate has a bend
+~ repair bent plate
+~ replace bent plate
+========================================
+========================================
+Object: cavity
+Event: low
+Number of sentences: 5
+----------------------------------------
+~ cavity pressure is low
+~ cavity has low levels
+~ low pressure in cavity
+~ cavity is low
+~ cavity level is low
+========================================
+========================================
+Object: park brake
+Event: alarm fault
+Number of sentences: 5
+----------------------------------------
+~ park brake has alarm fault
+~ park brake alarm fault
+~ alarm fault in park brake
+~ park brake experiencing alarm fault
+~ repair park brake alarm fault
+========================================
+========================================
+Object: hoist drag brake
+Event: out of adjustment
+Number of sentences: 5
+----------------------------------------
+~ hoist drag brake out of adjustment
+~ hoist drag brake is out of adjustment
+~ out of adjustment hoist drag brake
+~ adjust hoist drag brake
+~ hoist drag brake needs adjustment
+========================================
+========================================
+Object: air conditioner
+Event: faults
+Number of sentences: 5
+----------------------------------------
+~ air conditioner has faults
+~ faults in air conditioner
+~ air conditioner experiencing faults
+~ air conditioner faults found
+~ repair faults in air conditioner
+========================================
+========================================
+Object: operator cabin air conditioner fuse
+Event: blown
+Number of sentences: 5
+----------------------------------------
+~ operator cabin air conditioner fuse blown
+~ blown operator cabin air conditioner fuse
+~ operator cabin air conditioner fuse is blown
+~ replace blown air conditioner fuse
+~ air conditioner fuse blown in operator cabin
+========================================
+========================================
+Object: blade control cable
+Event: broken
+Number of sentences: 5
+----------------------------------------
+~ blade control cable is broken
+~ broken blade control cable
+~ blade control cable found broken
+~ replace broken blade control cable
+~ repair broken blade control cable
+========================================
+========================================
+Object: water pump shaft universal joint
+Event: failed
+Number of sentences: 5
+----------------------------------------
+~ water pump shaft universal joint failed
+~ universal joint for water pump shaft failed
+~ failed water pump shaft universal joint
+~ water pump shaft universal joint is failed
+~ replace failed water pump shaft universal joint
+========================================
+========================================
+Object: axle
+Event: fault
+Number of sentences: 5
+----------------------------------------
+~ axle has a fault
+~ fault in axle
+~ axle fault found
+~ repair fault on axle
+~ faulty axle needs replacement
+========================================
+========================================
+Object: pto shaft
+Event: unserviceable
+Number of sentences: 5
+----------------------------------------
+~ pto shaft is unserviceable
+~ unserviceable pto shaft
+~ pto shaft found unserviceable
+~ replace unserviceable pto shaft
+~ unserviceable condition of pto shaft
+========================================
+========================================
+Object: hoist brake
+Event: out of adjustment
+Number of sentences: 5
+----------------------------------------
+~ hoist brake is out of adjustment
+~ hoist brake out of adjustment
+~ out of adjustment hoist brake
+~ adjust hoist brake
+~ hoist brake needs adjustment
+========================================
+========================================
+Object: hydraulic motor engine
+Event: shutdown fault
+Number of sentences: 5
+----------------------------------------
+~ hydraulic motor engine shutdown fault
+~ shutdown fault in hydraulic motor engine
+~ hydraulic motor engine has shutdown fault
+~ hydraulic motor engine experiencing shutdown fault
+~ repair hydraulic motor engine shutdown fault
+========================================
+========================================
+Object: flow regulator
+Event: unserviceable
+Number of sentences: 5
+----------------------------------------
+~ flow regulator is unserviceable
+~ unserviceable flow regulator
+~ flow regulator found unserviceable
+~ replace unserviceable flow regulator
+~ flow regulator needs replacement unserviceable
+========================================
+========================================
+Object: air conditioner condenser fan
+Event: unserviceable
+Number of sentences: 5
+----------------------------------------
+~ air conditioner condenser fan unserviceable
+~ unserviceable air conditioner condenser fan
+~ air conditioner condenser fan is unserviceable
+~ replace unserviceable air conditioner condenser fan
+~ air conditioner condenser fan found unserviceable
+========================================
+========================================
+Object: operator cabin air conditioner control cable
+Event: broken
+Number of sentences: 5
+----------------------------------------
+~ control cable is broken
+~ broken air conditioner control cable
+~ operator cabin control cable broken
+~ control cable for air conditioner broken
+~ replace broken control cable
+========================================
+========================================
+Object: engine air conditioner thermostat
+Event: unserviceable
+Number of sentences: 5
+----------------------------------------
+~ engine air conditioner thermostat unserviceable
+~ unserviceable engine air conditioner thermostat
+~ engine air conditioner thermostat is unserviceable
+~ replace unserviceable engine air conditioner thermostat
+~ engine air conditioner thermostat found unserviceable
+========================================
+========================================
+Object: battery cell
+Event: dropped
+Number of sentences: 5
+----------------------------------------
+~ battery cell is dropped
+~ dropped battery cell
+~ battery cell has been dropped
+~ replace dropped battery cell
+~ inspect dropped battery cell
+========================================
+========================================
+Object: walkway
+Event: cracked
+Number of sentences: 5
+----------------------------------------
+~ walkway is cracked
+~ cracked walkway
+~ crack in walkway
+~ walkway has a crack
+~ repair cracked walkway
+========================================
+========================================
+Object: dash lights
+Event: on
+Number of sentences: 5
+----------------------------------------
+~ dash lights are on
+~ dash lights remain on
+~ dash lights stay on
+~ dash lights continuously on
+~ dash lights keep being on
+========================================
+========================================
+Object: siren
+Event: not working
+Number of sentences: 5
+----------------------------------------
+~ siren is not working
+~ siren not working
+~ siren found not working
+~ replace siren not working
+~ siren needs repair not working
+========================================
+========================================
+Object: air conditioner thermostat
+Event: unserviceable
+Number of sentences: 5
+----------------------------------------
+~ air conditioner thermostat is unserviceable
+~ unserviceable air conditioner thermostat
+~ air conditioner thermostat found unserviceable
+~ replace unserviceable air conditioner thermostat
+~ air conditioner thermostat needs replacement unserviceable
+========================================
+========================================
+Object: swing brake hose
+Event: blown
+Number of sentences: 5
+----------------------------------------
+~ swing brake hose is blown
+~ blown swing brake hose
+~ swing brake hose has blown
+~ replace blown swing brake hose
+~ swing brake hose blown out
+========================================
+========================================
+Object: cabin air conditioner
+Event: electrical faults
+Number of sentences: 5
+----------------------------------------
+~ cabin air conditioner has electrical faults
+~ electrical faults in cabin air conditioner
+~ cabin air conditioner electrical faults found
+~ electrical faults affecting cabin air conditioner
+~ repair electrical faults in cabin air conditioner
+========================================
+========================================
+Object: brake sensor
+Event: not reading
+Number of sentences: 5
+----------------------------------------
+~ brake sensor not reading
+~ brake sensor is not reading
+~ not reading brake sensor
+~ brake sensor fails to read
+~ faulty brake sensor not reading
+========================================
+========================================
+Object: inverter batteries
+Event: no charge
+Number of sentences: 5
+----------------------------------------
+~ inverter batteries have no charge
+~ no charge in inverter batteries
+~ inverter batteries are not charged
+~ inverter batteries show no charge
+~ replace inverter batteries with no charge
+========================================
+========================================
+Object: blower inverter batteries
+Event: no charge
+Number of sentences: 5
+----------------------------------------
+~ blower inverter batteries have no charge
+~ no charge in blower inverter batteries
+~ blower inverter batteries are not charged
+~ blower inverter batteries need charging
+~ replace blower inverter batteries with no charge
+========================================
+========================================
+Object: batteries
+Event: no charge
+Number of sentences: 5
+----------------------------------------
+~ batteries have no charge
+~ batteries showing no charge
+~ no charge in batteries
+~ batteries are without charge
+~ batteries need charging due to no charge
+========================================
+========================================
+Object: parts washer pump bolt
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ parts washer pump bolt needs loctite
+~ loctite needed for parts washer pump bolt
+~ parts washer pump bolt needs loctite applied
+~ apply loctite on parts washer pump bolt
+~ parts washer pump bolt requires loctite
+========================================
+========================================
+Object: a-frame clevis pin
+Event: no grease
+Number of sentences: 5
+----------------------------------------
+~ a-frame clevis pin has no grease
+~ no grease on a-frame clevis pin
+~ a-frame clevis pin needs grease
+~ grease missing from a-frame clevis pin
+~ a-frame clevis pin without grease
+========================================
+========================================
+Object: cabin
+Event: missing smoke detector
+Number of sentences: 5
+----------------------------------------
+~ cabin missing smoke detector
+~ smoke detector missing from cabin
+~ cabin lacks smoke detector
+~ smoke detector not in cabin
+~ replace missing smoke detector in cabin
+========================================
+========================================
+Object: bolt
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ bolt needs loctite
+~ loctite required for bolt
+~ bolt requires loctite
+~ needs loctite on bolt
+~ apply loctite to bolt
+========================================
+========================================
+Object: swing pump bolt
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ swing pump bolt needs loctite
+~ loctite needed for swing pump bolt
+~ swing pump bolt requires loctite
+~ apply loctite on swing pump bolt
+~ swing pump bolt needs loctite application
+========================================
+========================================
+Object: cabin
+Event: needs aerial
+Number of sentences: 5
+----------------------------------------
+~ cabin needs aerial
+~ aerial needed for cabin
+~ cabin requires aerial
+~ install aerial on cabin
+~ cabin needs to install aerial
+========================================
+========================================
+Object: pto pump bolt
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ pto pump bolt needs loctite
+~ loctite needed for pto pump bolt
+~ pto pump bolt requires loctite
+~ pto pump bolt needs to be loctited
+~ apply loctite to pto pump bolt
+========================================
+========================================
+Object: dogbone pin
+Event: no grease
+Number of sentences: 5
+----------------------------------------
+~ dogbone pin has no grease
+~ no grease on dogbone pin
+~ dogbone pin needs grease
+~ dogbone pin is dry
+~ grease missing from dogbone pin
+========================================
+========================================
+Object: revolving frame
+Event: found oil
+Number of sentences: 5
+----------------------------------------
+~ revolving frame found oil
+~ found oil on revolving frame
+~ oil found on revolving frame
+~ revolving frame has found oil
+~ revolving frame shows oil presence
+========================================
+========================================
+Object: belly plate bolt
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ belly plate bolt needs loctite
+~ loctite needed on belly plate bolt
+~ belly plate bolt requires loctite
+~ apply loctite to belly plate bolt
+~ belly plate bolt needs loctite application
+========================================
+========================================
+Object: differential pump bolt
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ differential pump bolt needs loctite
+~ apply loctite on differential pump bolt
+~ differential pump bolt requires loctite
+~ loctite needed for differential pump bolt
+~ differential pump bolt needs loctite application
+========================================
+========================================
+Object: am / fm radio
+Event: needs aerial
+Number of sentences: 5
+----------------------------------------
+~ am/fm radio needs aerial
+~ aerial needed for am/fm radio
+~ am/fm radio requires new aerial
+~ am/fm radio needs new aerial
+~ replace aerial on am/fm radio
+========================================
+========================================
+Object: cabin seat
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ cabin seat needs loctite
+~ loctite needed for cabin seat
+~ cabin seat requires loctite
+~ apply loctite to cabin seat
+~ cabin seat needs loctite application
+========================================
+========================================
+Object: mast raise cylinder pin
+Event: no grease
+Number of sentences: 5
+----------------------------------------
+~ mast raise cylinder pin has no grease
+~ no grease in mast raise cylinder pin
+~ mast raise cylinder pin needs grease
+~ mast raise cylinder pin is without grease
+~ add grease to mast raise cylinder pin
+========================================
+========================================
+Object: drag rope pump bolt
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ drag rope pump bolt needs loctite
+~ loctite needed for drag rope pump bolt
+~ drag rope pump bolt needs adjusting loctite
+~ apply loctite on drag rope pump bolt
+~ drag rope pump bolt requires loctite
+========================================
+========================================
+Object: window frame
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ window frame needs loctite
+~ loctite needed for window frame
+~ window frame requires loctite
+~ apply loctite to window frame
+~ window frame needs loctite application
+========================================
+========================================
+Object: brake pump bolt
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ brake pump bolt needs loctite
+~ loctite needed for brake pump bolt
+~ brake pump bolt requires loctite
+~ apply loctite to brake pump bolt
+~ brake pump bolt needs loctite application
+========================================
+========================================
+Object: battery
+Event: dropped cell
+Number of sentences: 5
+----------------------------------------
+~ battery has dropped cell
+~ dropped cell in battery
+~ battery cell is dropped
+~ replace dropped cell in battery
+~ battery needs dropped cell replacement
+========================================
+========================================
+Object: dogbone bolt
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ dogbone bolt needs loctite
+~ loctite needed for dogbone bolt
+~ dogbone bolt requires loctite
+~ apply loctite on dogbone bolt
+~ dogbone bolt needs loctite application
+========================================
+========================================
+Object: steering pump bolt
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ steering pump bolt needs loctite
+~ loctite needed for steering pump bolt
+~ steering pump bolt requires loctite
+~ apply loctite to steering pump bolt
+~ steering pump bolt needs loctite application
+========================================
+========================================
+Object: cooler pump bolt
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ cooler pump bolt needs loctite
+~ loctite needed for cooler pump bolt
+~ cooler pump bolt requires loctite
+~ apply loctite on cooler pump bolt
+~ cooler pump bolt needs loctite application
+========================================
+========================================
+Object: clamps
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ clamps need loctite
+~ loctite needed for clamps
+~ clamps require loctite
+~ apply loctite on clamps
+~ clamps need loctite application
+========================================
+========================================
+Object: seat
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ seat needs loctite
+~ loctite needed for seat
+~ seat requires loctite
+~ apply loctite on seat
+~ loctite application needed on seat
+========================================
+========================================
+Object: engine pump bolt
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ engine pump bolt needs loctite
+~ loctite needed on engine pump bolt
+~ engine pump bolt requires loctite
+~ apply loctite to engine pump bolt
+~ engine pump bolt needs loctite application
+========================================
+========================================
+Object: pin
+Event: no grease
+Number of sentences: 5
+----------------------------------------
+~ pin has no grease
+~ pin is dry no grease
+~ no grease on pin
+~ pin needs grease
+~ add grease to pin
+========================================
+========================================
+Object: slew pump bolt
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ slew pump bolt needs loctite
+~ loctite needed for slew pump bolt
+~ slew pump bolt requires loctite
+~ apply loctite to slew pump bolt
+~ slew pump bolt needs loctite application
+========================================
+========================================
+Object: steering cylinder pin
+Event: no grease
+Number of sentences: 5
+----------------------------------------
+~ steering cylinder pin has no grease
+~ no grease on steering cylinder pin
+~ steering cylinder pin needs grease
+~ grease missing from steering cylinder pin
+~ steering cylinder pin without grease
+========================================
+========================================
+Object: radio
+Event: needs aerial
+Number of sentences: 5
+----------------------------------------
+~ radio needs aerial
+~ radio requires an aerial
+~ aerial needed for radio
+~ radio aerial needs replacement
+~ replace aerial on radio
+========================================
+========================================
+Object: pump bolt
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ pump bolt needs loctite
+~ loctite needed on pump bolt
+~ pump bolt requires loctite
+~ pump bolt needs to be loctited
+~ apply loctite to pump bolt
+========================================
+========================================
+Object: clevis pin
+Event: no grease
+Number of sentences: 5
+----------------------------------------
+~ clevis pin has no grease
+~ no grease on clevis pin
+~ clevis pin needs grease
+~ grease missing from clevis pin
+~ clevis pin lacking grease
+========================================

@@ -5,7 +5,7 @@
     },
     {
         "role": "user",
-        "content": "Formulate 5 unique sentences about the equipment and an undesirable event related to the Maintenance Work Order (MWO).\nEquipment: steering cylinder bearings\nUndesirable Event: excess play\nYou must use all terms given above and do not add new information.\nSkip verbosity and cut down on stop words.\nA sentence should have a maximum of 8 words.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
+        "content": "Produce 5 different sentences for a Maintenance Work Order (MWO) that describe both the equipment and an undesirable event.\nEquipment: steering cylinder bearings\nUndesirable Event: excess play\nYou must use all terms given above and do not add new information.\nAvoid verbosity and minimize stop words.\nLimit each sentence to 8 words only.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
     },
     {
         "role": "assistant",
@@ -13,7 +13,7 @@
     },
     {
         "role": "user",
-        "content": "Formulate 5 unique sentences about the equipment and an undesirable event related to the Maintenance Work Order (MWO).\nEquipment: blade skin\nUndesirable Event: cracked\nYou must use all terms given above and do not add new information.\nSkip verbosity and cut down on stop words.\nA sentence should have a maximum of 8 words.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
+        "content": "Write 5 distinct sentences regarding a Maintenance Work Order (MWO) that discuss the equipment and an undesirable event.\nEquipment: blade skin\nUndesirable Event: cracked\nYou must use all terms given above and do not add new information.\nSteer clear of verbosity and limit stop words.\nEnsure each sentence has 8 words maximum.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
     },
     {
         "role": "assistant",
@@ -21,7 +21,7 @@
     },
     {
         "role": "user",
-        "content": "Produce 5 different sentences that discuss the equipment and an undesirable event in relation to the Maintenance Work Order (MWO).\nEquipment: jacking cylinder ends\nUndesirable Event: unserviceable\nYou must use all terms given above and do not add new information.\nEliminate verbosity while using fewer stop words.\nPlease use 8 words in each sentence.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
+        "content": "Produce 5 different sentences for a Maintenance Work Order (MWO) that describe both the equipment and an undesirable event.\nEquipment: jacking cylinder ends\nUndesirable Event: unserviceable\nYou must use all terms given above and do not add new information.\nEliminate verbosity and reduce stop words.\nMaximum length for a sentence is 8 words.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
     },
     {
         "role": "assistant",
@@ -29,7 +29,7 @@
     },
     {
         "role": "user",
-        "content": "Create 5 distinct sentences regarding a Maintenance Work Order (MWO) that pertains to the equipment and an undesirable event.\nEquipment: blade liner\nUndesirable Event: crack\nYou must use all terms given above and do not add new information.\nSteer clear of verbosity and reduce stop words.\nLimit each sentence to a maximum of 8.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
+        "content": "Create 5 separate sentences for a Maintenance Work Order (MWO) that detail the equipment and the undesirable event.\nEquipment: blade liner\nUndesirable Event: crack\nYou must use all terms given above and do not add new information.\nEliminate verbosity and reduce stop words.\nLimit each sentence to 8 words only.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
     },
     {
         "role": "assistant",
@@ -37,7 +37,7 @@
     },
     {
         "role": "user",
-        "content": "Formulate 5 unique sentences about the equipment and an undesirable event related to the Maintenance Work Order (MWO).\nEquipment: park brake indicator light\nUndesirable Event: going on and off\nYou must use all terms given above and do not add new information.\nRefrain from verbosity and limit stop words.\nEach sentence must contain 8 words.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
+        "content": "Produce 5 different sentences for a Maintenance Work Order (MWO) that describe both the equipment and an undesirable event.\nEquipment: park brake indicator light\nUndesirable Event: going on and off\nYou must use all terms given above and do not add new information.\nPrevent verbosity and use fewer stop words.\nEnsure each sentence has 8 words maximum.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
     },
     {
         "role": "assistant",
@@ -45,7 +45,7 @@
     },
     {
         "role": "user",
-        "content": "Create 5 distinct sentences regarding a Maintenance Work Order (MWO) that pertains to the equipment and an undesirable event.\nEquipment: air horn\nUndesirable Event: stuck on\nYou must use all terms given above and do not add new information.\nSteer clear of verbosity and reduce stop words.\nA sentence should have a maximum of 8 words.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
+        "content": "Create 5 separate sentences for a Maintenance Work Order (MWO) that detail the equipment and the undesirable event.\nEquipment: air horn\nUndesirable Event: stuck on\nYou must use all terms given above and do not add new information.\nPrevent verbosity and use fewer stop words.\nEnsure each sentence has 8 words maximum.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
     },
     {
         "role": "assistant",
@@ -53,7 +53,7 @@
     },
     {
         "role": "user",
-        "content": "Create 5 distinct sentences regarding a Maintenance Work Order (MWO) that pertains to the equipment and an undesirable event.\nEquipment: fire suppression mounts\nUndesirable Event: cracks\nYou must use all terms given above and do not add new information.\nRefrain from verbosity and limit stop words.\nLimit each sentence to a maximum of 8.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
+        "content": "Produce 5 different sentences for a Maintenance Work Order (MWO) that describe both the equipment and an undesirable event.\nEquipment: fire suppression mounts\nUndesirable Event: cracks\nYou must use all terms given above and do not add new information.\nPrevent verbosity and use fewer stop words.\nLimit each sentence to 8 words only.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
     },
     {
         "role": "assistant",
@@ -61,7 +61,7 @@
     },
     {
         "role": "user",
-        "content": "Create 5 distinct sentences regarding a Maintenance Work Order (MWO) that pertains to the equipment and an undesirable event.\nEquipment: cabin window\nUndesirable Event: needs resealing\nYou must use all terms given above and do not add new information.\nSteer clear of verbosity and reduce stop words.\nPlease use 8 words in each sentence.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
+        "content": "Formulate 5 unique sentences about a Maintenance Work Order (MWO) concerning the equipment and an undesirable event.\nEquipment: cabin window\nUndesirable Event: needs resealing\nYou must use all terms given above and do not add new information.\nEliminate verbosity and reduce stop words.\nEach sentence can contain a maximum of 8 words.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
     },
     {
         "role": "assistant",
@@ -69,7 +69,7 @@
     },
     {
         "role": "user",
-        "content": "Produce 5 different sentences that discuss the equipment and an undesirable event in relation to the Maintenance Work Order (MWO).\nEquipment: air horn\nUndesirable Event: working intermittently\nYou must use all terms given above and do not add new information.\nSteer clear of verbosity and reduce stop words.\nPlease use 8 words in each sentence.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
+        "content": "Create 5 separate sentences for a Maintenance Work Order (MWO) that detail the equipment and the undesirable event.\nEquipment: air horn\nUndesirable Event: working intermittently\nYou must use all terms given above and do not add new information.\nAvoid verbosity and minimize stop words.\nEnsure each sentence has 8 words maximum.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
     },
     {
         "role": "assistant",
@@ -77,7 +77,7 @@
     },
     {
         "role": "user",
-        "content": "Formulate 5 unique sentences about the equipment and an undesirable event related to the Maintenance Work Order (MWO).\nEquipment: hydraulic hose\nUndesirable Event: leaking\nYou must use all terms given above and do not add new information.\nSteer clear of verbosity and reduce stop words.\nA sentence should have a maximum of 8 words.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
+        "content": "Create 5 separate sentences for a Maintenance Work Order (MWO) that detail the equipment and the undesirable event.\nEquipment: hydraulic hose\nUndesirable Event: leaking\nYou must use all terms given above and do not add new information.\nAvoid verbosity and minimize stop words.\nA sentence must not exceed 8 words total.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
     },
     {
         "role": "assistant",
@@ -85,7 +85,7 @@
     },
     {
         "role": "user",
-        "content": "\nEquipment: glass window\nUndesirable Event: crack\nYou must use all terms given above and do not add new information.\nEliminate verbosity while using fewer stop words.\nEach sentence must contain 8 words.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
+        "content": "Produce 5 different sentences for a Maintenance Work Order (MWO) that describe both the equipment and an undesirable event.\nEquipment: glass window\nUndesirable Event: crack\nYou must use all terms given above and do not add new information.\nRefrain from verbosity and cut down on stop words.\nLimit each sentence to 8 words only.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
     },
     {
         "role": "assistant",
@@ -93,7 +93,7 @@
     },
     {
         "role": "user",
-        "content": "Create 5 distinct sentences regarding a Maintenance Work Order (MWO) that pertains to the equipment and an undesirable event.\nEquipment: relay valve\nUndesirable Event: leaking\nYou must use all terms given above and do not add new information.\nEliminate verbosity while using fewer stop words.\nPlease use 8 words in each sentence.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
+        "content": "Develop 5 varied sentences related to a Maintenance Work Order (MWO) that include information about the equipment and an undesirable event.\nEquipment: relay valve\nUndesirable Event: leaking\nYou must use all terms given above and do not add new information.\nAvoid verbosity and minimize stop words.\nA sentence must not exceed 8 words total.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
     },
     {
         "role": "assistant",
@@ -101,7 +101,7 @@
     },
     {
         "role": "user",
-        "content": "Develop 5 varied sentences focusing on a Maintenance Work Order (MWO) concerning the equipment and an undesirable event.\nEquipment: rock deflector\nUndesirable Event: crack\nYou must use all terms given above and do not add new information.\nEliminate verbosity while using fewer stop words.\nPlease use 8 words in each sentence.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
+        "content": "Formulate 5 unique sentences about a Maintenance Work Order (MWO) concerning the equipment and an undesirable event.\nEquipment: rock deflector\nUndesirable Event: crack\nYou must use all terms given above and do not add new information.\nSteer clear of verbosity and limit stop words.\nEnsure each sentence has 8 words maximum.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
     },
     {
         "role": "assistant",
@@ -109,7 +109,7 @@
     },
     {
         "role": "user",
-        "content": "Formulate 5 unique sentences about the equipment and an undesirable event related to the Maintenance Work Order (MWO).\nEquipment: beacon mount\nUndesirable Event: broken\nYou must use all terms given above and do not add new information.\nSkip verbosity and cut down on stop words.\nEach sentence must contain 8 words.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
+        "content": "Create 5 separate sentences for a Maintenance Work Order (MWO) that detail the equipment and the undesirable event.\nEquipment: beacon mount\nUndesirable Event: broken\nYou must use all terms given above and do not add new information.\nAvoid verbosity and minimize stop words.\nA sentence must not exceed 8 words total.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
     },
     {
         "role": "assistant",
@@ -117,7 +117,7 @@
     },
     {
         "role": "user",
-        "content": "Formulate 5 unique sentences about the equipment and an undesirable event related to the Maintenance Work Order (MWO).\nEquipment: fuse\nUndesirable Event: keep blowing\nYou must use all terms given above and do not add new information.\nAvoid verbosity and minimize stop words.\nPlease use 8 words in each sentence.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
+        "content": "Produce 5 different sentences for a Maintenance Work Order (MWO) that describe both the equipment and an undesirable event.\nEquipment: fuse\nUndesirable Event: keep blowing\nYou must use all terms given above and do not add new information.\nAvoid verbosity and minimize stop words.\nEnsure each sentence has 8 words maximum.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
     },
     {
         "role": "assistant",
@@ -125,7 +125,7 @@
     },
     {
         "role": "user",
-        "content": "Produce 5 different sentences that discuss the equipment and an undesirable event in relation to the Maintenance Work Order (MWO).\nEquipment: bolt\nUndesirable Event: popped\nYou must use all terms given above and do not add new information.\nEliminate verbosity while using fewer stop words.\nA sentence should have a maximum of 8 words.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
+        "content": "Formulate 5 unique sentences about a Maintenance Work Order (MWO) concerning the equipment and an undesirable event.\nEquipment: bolt\nUndesirable Event: popped\nYou must use all terms given above and do not add new information.\nAvoid verbosity and minimize stop words.\nA sentence must not exceed 8 words total.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
     },
     {
         "role": "assistant",
@@ -133,7 +133,7 @@
     },
     {
         "role": "user",
-        "content": "Produce 5 different sentences that discuss the equipment and an undesirable event in relation to the Maintenance Work Order (MWO).\nEquipment: chain guide\nUndesirable Event: unserviceable\nYou must use all terms given above and do not add new information.\nRefrain from verbosity and limit stop words.\nEach sentence can only be 8 words long.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
+        "content": "Formulate 5 unique sentences about a Maintenance Work Order (MWO) concerning the equipment and an undesirable event.\nEquipment: chain guide\nUndesirable Event: unserviceable\nYou must use all terms given above and do not add new information.\nPrevent verbosity and use fewer stop words.\nEnsure each sentence has 8 words maximum.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
     },
     {
         "role": "assistant",
@@ -141,7 +141,7 @@
     },
     {
         "role": "user",
-        "content": "Develop 5 varied sentences focusing on a Maintenance Work Order (MWO) concerning the equipment and an undesirable event.\nEquipment: sight glasses\nUndesirable Event: unserviceable\nYou must use all terms given above and do not add new information.\nSteer clear of verbosity and reduce stop words.\nEach sentence can only be 8 words long.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
+        "content": "Write 5 distinct sentences regarding a Maintenance Work Order (MWO) that discuss the equipment and an undesirable event.\nEquipment: sight glasses\nUndesirable Event: unserviceable\nYou must use all terms given above and do not add new information.\nPrevent verbosity and use fewer stop words.\nA sentence must not exceed 8 words total.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
     },
     {
         "role": "assistant",
@@ -149,7 +149,7 @@
     },
     {
         "role": "user",
-        "content": "Create 5 distinct sentences regarding a Maintenance Work Order (MWO) that pertains to the equipment and an undesirable event.\nEquipment: lock\nUndesirable Event: broken\nYou must use all terms given above and do not add new information.\nSkip verbosity and cut down on stop words.\nLimit each sentence to a maximum of 8.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
+        "content": "Develop 5 varied sentences related to a Maintenance Work Order (MWO) that include information about the equipment and an undesirable event.\nEquipment: lock\nUndesirable Event: broken\nYou must use all terms given above and do not add new information.\nEliminate verbosity and reduce stop words.\nEnsure each sentence has 8 words maximum.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
     },
     {
         "role": "assistant",
@@ -157,7 +157,7 @@
     },
     {
         "role": "user",
-        "content": "Develop 5 varied sentences focusing on a Maintenance Work Order (MWO) concerning the equipment and an undesirable event.\nEquipment: roller\nUndesirable Event: unserviceable\nYou must use all terms given above and do not add new information.\nEliminate verbosity while using fewer stop words.\nEach sentence can only be 8 words long.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
+        "content": "Formulate 5 unique sentences about a Maintenance Work Order (MWO) concerning the equipment and an undesirable event.\nEquipment: roller\nUndesirable Event: unserviceable\nYou must use all terms given above and do not add new information.\nAvoid verbosity and minimize stop words.\nA sentence must not exceed 8 words total.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
     },
     {
         "role": "assistant",
@@ -165,7 +165,7 @@
     },
     {
         "role": "user",
-        "content": "Formulate 5 unique sentences about the equipment and an undesirable event related to the Maintenance Work Order (MWO).\nEquipment: grease pump\nUndesirable Event: bypassing air\nYou must use all terms given above and do not add new information.\nSkip verbosity and cut down on stop words.\nPlease use 8 words in each sentence.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
+        "content": "Write 5 distinct sentences regarding a Maintenance Work Order (MWO) that discuss the equipment and an undesirable event.\nEquipment: grease pump\nUndesirable Event: bypassing air\nYou must use all terms given above and do not add new information.\nAvoid verbosity and minimize stop words.\nMaximum length for a sentence is 8 words.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
     },
     {
         "role": "assistant",
@@ -173,7 +173,7 @@
     },
     {
         "role": "user",
-        "content": "Create 5 distinct sentences regarding a Maintenance Work Order (MWO) that pertains to the equipment and an undesirable event.\nEquipment: isolator\nUndesirable Event: needs clean out\nYou must use all terms given above and do not add new information.\nRefrain from verbosity and limit stop words.\nLimit each sentence to a maximum of 8.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
+        "content": "Develop 5 varied sentences related to a Maintenance Work Order (MWO) that include information about the equipment and an undesirable event.\nEquipment: isolator\nUndesirable Event: needs clean out\nYou must use all terms given above and do not add new information.\nEliminate verbosity and reduce stop words.\nA sentence must not exceed 8 words total.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
     },
     {
         "role": "assistant",
@@ -181,7 +181,7 @@
     },
     {
         "role": "user",
-        "content": "Produce 5 different sentences that discuss the equipment and an undesirable event in relation to the Maintenance Work Order (MWO).\nEquipment: air conditioner pressure switch\nUndesirable Event: unserviceable\nYou must use all terms given above and do not add new information.\nRefrain from verbosity and limit stop words.\nEach sentence must contain 8 words.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
+        "content": "Create 5 separate sentences for a Maintenance Work Order (MWO) that detail the equipment and the undesirable event.\nEquipment: air conditioner pressure switch\nUndesirable Event: unserviceable\nYou must use all terms given above and do not add new information.\nAvoid verbosity and minimize stop words.\nA sentence must not exceed 8 words total.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
     },
     {
         "role": "assistant",
@@ -189,7 +189,7 @@
     },
     {
         "role": "user",
-        "content": "\nEquipment: scoreboard base\nUndesirable Event: cracked\nYou must use all terms given above and do not add new information.\nSkip verbosity and cut down on stop words.\nEach sentence must contain 8 words.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
+        "content": "Develop 5 varied sentences related to a Maintenance Work Order (MWO) that include information about the equipment and an undesirable event.\nEquipment: scoreboard base\nUndesirable Event: cracked\nYou must use all terms given above and do not add new information.\nPrevent verbosity and use fewer stop words.\nEnsure each sentence has 8 words maximum.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
     },
     {
         "role": "assistant",
@@ -197,7 +197,7 @@
     },
     {
         "role": "user",
-        "content": "Formulate 5 unique sentences about the equipment and an undesirable event related to the Maintenance Work Order (MWO).\nEquipment: lighting\nUndesirable Event: requires testing\nYou must use all terms given above and do not add new information.\nRefrain from verbosity and limit stop words.\nA sentence should have a maximum of 8 words.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
+        "content": "Create 5 separate sentences for a Maintenance Work Order (MWO) that detail the equipment and the undesirable event.\nEquipment: lighting\nUndesirable Event: requires testing\nYou must use all terms given above and do not add new information.\nAvoid verbosity and minimize stop words.\nA sentence must not exceed 8 words total.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
     },
     {
         "role": "assistant",
@@ -205,7 +205,7 @@
     },
     {
         "role": "user",
-        "content": "\nEquipment: engine mount\nUndesirable Event: movement\nYou must use all terms given above and do not add new information.\nAvoid verbosity and minimize stop words.\nA sentence should have a maximum of 8 words.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
+        "content": "Write 5 distinct sentences regarding a Maintenance Work Order (MWO) that discuss the equipment and an undesirable event.\nEquipment: engine mount\nUndesirable Event: movement\nYou must use all terms given above and do not add new information.\nAvoid verbosity and minimize stop words.\nLimit each sentence to 8 words only.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
     },
     {
         "role": "assistant",
@@ -213,7 +213,7 @@
     },
     {
         "role": "user",
-        "content": "Produce 5 different sentences that discuss the equipment and an undesirable event in relation to the Maintenance Work Order (MWO).\nEquipment: stick\nUndesirable Event: cracks\nYou must use all terms given above and do not add new information.\nSkip verbosity and cut down on stop words.\nLimit each sentence to a maximum of 8.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
+        "content": "Develop 5 varied sentences related to a Maintenance Work Order (MWO) that include information about the equipment and an undesirable event.\nEquipment: stick\nUndesirable Event: cracks\nYou must use all terms given above and do not add new information.\nSteer clear of verbosity and limit stop words.\nMaximum length for a sentence is 8 words.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
     },
     {
         "role": "assistant",
@@ -221,7 +221,7 @@
     },
     {
         "role": "user",
-        "content": "Formulate 5 unique sentences about the equipment and an undesirable event related to the Maintenance Work Order (MWO).\nEquipment: glass\nUndesirable Event: cracked\nYou must use all terms given above and do not add new information.\nSteer clear of verbosity and reduce stop words.\nLimit each sentence to a maximum of 8.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
+        "content": "Formulate 5 unique sentences about a Maintenance Work Order (MWO) concerning the equipment and an undesirable event.\nEquipment: glass\nUndesirable Event: cracked\nYou must use all terms given above and do not add new information.\nPrevent verbosity and use fewer stop words.\nLimit each sentence to 8 words only.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
     },
     {
         "role": "assistant",
@@ -229,7 +229,7 @@
     },
     {
         "role": "user",
-        "content": "\nEquipment: cross member\nUndesirable Event: crack\nYou must use all terms given above and do not add new information.\nEliminate verbosity while using fewer stop words.\nPlease use 8 words in each sentence.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
+        "content": "Develop 5 varied sentences related to a Maintenance Work Order (MWO) that include information about the equipment and an undesirable event.\nEquipment: cross member\nUndesirable Event: crack\nYou must use all terms given above and do not add new information.\nEliminate verbosity and reduce stop words.\nLimit each sentence to 8 words only.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
     },
     {
         "role": "assistant",
@@ -237,7 +237,7 @@
     },
     {
         "role": "user",
-        "content": "Produce 5 different sentences that discuss the equipment and an undesirable event in relation to the Maintenance Work Order (MWO).\nEquipment: transmission screen\nUndesirable Event: unserviceable\nYou must use all terms given above and do not add new information.\nAvoid verbosity and minimize stop words.\nEach sentence can only be 8 words long.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
+        "content": "Create 5 separate sentences for a Maintenance Work Order (MWO) that detail the equipment and the undesirable event.\nEquipment: transmission screen\nUndesirable Event: unserviceable\nYou must use all terms given above and do not add new information.\nEliminate verbosity and reduce stop words.\nLimit each sentence to 8 words only.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
     },
     {
         "role": "assistant",
@@ -245,7 +245,7 @@
     },
     {
         "role": "user",
-        "content": "Produce 5 different sentences that discuss the equipment and an undesirable event in relation to the Maintenance Work Order (MWO).\nEquipment: tracks\nUndesirable Event: need adjusting\nYou must use all terms given above and do not add new information.\nSkip verbosity and cut down on stop words.\nPlease use 8 words in each sentence.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
+        "content": "Formulate 5 unique sentences about a Maintenance Work Order (MWO) concerning the equipment and an undesirable event.\nEquipment: tracks\nUndesirable Event: need adjusting\nYou must use all terms given above and do not add new information.\nAvoid verbosity and minimize stop words.\nLimit each sentence to 8 words only.Do not use these terms: 'shows signs of', 'showing signs of', 'detected', 'observed', 'requires attention', 'identified', 'application'."
     },
     {
         "role": "assistant",

@@ -101,7 +101,7 @@ def create_graph(tx, data):
         current_entities, unique_entities = create_nodes(tx, entities, unique_entities, tokens, entry_id)
         create_relations(tx, relations, unique_entities, current_entities)
         create_entry(tx, entry['text'], entry_id) 
-        entry_failure_mode(tx, read_failure_mode_mapping('data/MaintIE/gold_undesirable_mapped.csv'))
+        entry_failure_mode(tx, read_failure_mode_mapping('../data/MaintIE/gold_undesirable_mapped.csv'))
 
     print(f"Created {len(unique_entities)} entities.")
     print(f"Created {len(data)} entry entities.")

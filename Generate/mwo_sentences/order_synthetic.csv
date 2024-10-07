@@ -1978,3 +1978,468 @@ loctite needed for brake pump bolt,PhysicalObject/HoldingObject/FasteningObject,
 apply loctite to brake pump bolt,PhysicalObject/HoldingObject/FasteningObject,brake pump bolt,needs loctite
 brake pump bolt requires loctite application,PhysicalObject/HoldingObject/FasteningObject,brake pump bolt,needs loctite
 ensure brake pump bolt has loctite,PhysicalObject/HoldingObject/FasteningObject,brake pump bolt,needs loctite
+chord has a crack,PhysicalObject/HoldingObject/StructuralSupportingObject,chord,crack
+crack found in chord,PhysicalObject/HoldingObject/StructuralSupportingObject,chord,crack
+cracked chord,PhysicalObject/HoldingObject/StructuralSupportingObject,chord,crack
+repair crack in chord,PhysicalObject/HoldingObject/StructuralSupportingObject,chord,crack
+chord is cracked,PhysicalObject/HoldingObject/StructuralSupportingObject,chord,crack
+fuel tank has a crack,PhysicalObject/StoringObject/EnclosedStationaryStoringObject,fuel tank,crack
+crack found in fuel tank,PhysicalObject/StoringObject/EnclosedStationaryStoringObject,fuel tank,crack
+fuel tank cracked,PhysicalObject/StoringObject/EnclosedStationaryStoringObject,fuel tank,crack
+repair crack in fuel tank,PhysicalObject/StoringObject/EnclosedStationaryStoringObject,fuel tank,crack
+cracked fuel tank,PhysicalObject/StoringObject/EnclosedStationaryStoringObject,fuel tank,crack
+stick has cracks,PhysicalObject/DrivingObject/FluidPoweredDrivingObject,stick,cracks
+cracks found on stick,PhysicalObject/DrivingObject/FluidPoweredDrivingObject,stick,cracks
+stick is cracked,PhysicalObject/DrivingObject/FluidPoweredDrivingObject,stick,cracks
+repair cracks in stick,PhysicalObject/DrivingObject/FluidPoweredDrivingObject,stick,cracks
+stick exhibits cracks,PhysicalObject/DrivingObject/FluidPoweredDrivingObject,stick,cracks
+boom has cracks,PhysicalObject/HoldingObject/StructuralSupportingObject,boom,cracks
+cracks found in boom,PhysicalObject/HoldingObject/StructuralSupportingObject,boom,cracks
+boom cracking,PhysicalObject/HoldingObject/StructuralSupportingObject,boom,cracks
+repair cracks in boom,PhysicalObject/HoldingObject/StructuralSupportingObject,boom,cracks
+cracked boom needs repair,PhysicalObject/HoldingObject/StructuralSupportingObject,boom,cracks
+cable gantry has a crack,PhysicalObject/HoldingObject/StructuralSupportingObject,cable gantry,crack
+crack in cable gantry,PhysicalObject/HoldingObject/StructuralSupportingObject,cable gantry,crack
+cable gantry cracked,PhysicalObject/HoldingObject/StructuralSupportingObject,cable gantry,crack
+repair crack in cable gantry,PhysicalObject/HoldingObject/StructuralSupportingObject,cable gantry,crack
+cracked cable gantry needs repair,PhysicalObject/HoldingObject/StructuralSupportingObject,cable gantry,crack
+heat shield has a crack,PhysicalObject/GuidingObject/ThermalEnergyGuidingObject,heat shield,crack
+crack in heat shield,PhysicalObject/GuidingObject/ThermalEnergyGuidingObject,heat shield,crack
+heat shield is cracked,PhysicalObject/GuidingObject/ThermalEnergyGuidingObject,heat shield,crack
+repair crack in heat shield,PhysicalObject/GuidingObject/ThermalEnergyGuidingObject,heat shield,crack
+cracked heat shield needs replacement,PhysicalObject/GuidingObject/ThermalEnergyGuidingObject,heat shield,crack
+gantry has a crack,PhysicalObject,gantry,crack
+crack in gantry,PhysicalObject,gantry,crack
+gantry is cracked,PhysicalObject,gantry,crack
+cracked gantry,PhysicalObject,gantry,crack
+repair crack in gantry,PhysicalObject,gantry,crack
+decking has cracks,PhysicalObject/HoldingObject/CarryingObject,decking,cracks
+cracks found in decking,PhysicalObject/HoldingObject/CarryingObject,decking,cracks
+decking is cracked,PhysicalObject/HoldingObject/CarryingObject,decking,cracks
+repair cracks in decking,PhysicalObject/HoldingObject/CarryingObject,decking,cracks
+decking with cracks needs repair,PhysicalObject/HoldingObject/CarryingObject,decking,cracks
+rock deflector has a crack,PhysicalObject/ProtectingObject/EnvironmentProtectingObject,rock deflector,crack
+crack in rock deflector,PhysicalObject/ProtectingObject/EnvironmentProtectingObject,rock deflector,crack
+rock deflector cracked,PhysicalObject/ProtectingObject/EnvironmentProtectingObject,rock deflector,crack
+repair crack in rock deflector,PhysicalObject/ProtectingObject/EnvironmentProtectingObject,rock deflector,crack
+cracked rock deflector needs repair,PhysicalObject/ProtectingObject/EnvironmentProtectingObject,rock deflector,crack
+fuel cooler mounts have cracks,PhysicalObject/HoldingObject/StructuralSupportingObject,fuel cooler mounts,cracks
+cracks in fuel cooler mounts,PhysicalObject/HoldingObject/StructuralSupportingObject,fuel cooler mounts,cracks
+fuel cooler mounts cracked,PhysicalObject/HoldingObject/StructuralSupportingObject,fuel cooler mounts,cracks
+repair cracks on fuel cooler mounts,PhysicalObject/HoldingObject/StructuralSupportingObject,fuel cooler mounts,cracks
+fuel cooler mounts showing cracks,PhysicalObject/HoldingObject/StructuralSupportingObject,fuel cooler mounts,cracks
+compressor bearing is noisy,PhysicalObject/HoldingObject/JointingObject,compressor bearing,noisy
+noisy compressor bearing,PhysicalObject/HoldingObject/JointingObject,compressor bearing,noisy
+compressor bearing making noise,PhysicalObject/HoldingObject/JointingObject,compressor bearing,noisy
+noise from compressor bearing,PhysicalObject/HoldingObject/JointingObject,compressor bearing,noisy
+compressor bearing has noise,PhysicalObject/HoldingObject/JointingObject,compressor bearing,noisy
+air conditioner compressor bearing is noisy,PhysicalObject/HoldingObject/JointingObject,air conditioner compressor bearing,noisy
+noisy air conditioner compressor bearing,PhysicalObject/HoldingObject/JointingObject,air conditioner compressor bearing,noisy
+compressor bearing making noise,PhysicalObject/HoldingObject/JointingObject,air conditioner compressor bearing,noisy
+air conditioner compressor bearing noisy operation,PhysicalObject/HoldingObject/JointingObject,air conditioner compressor bearing,noisy
+replace noisy air conditioner compressor bearing,PhysicalObject/HoldingObject/JointingObject,air conditioner compressor bearing,noisy
+window has a crack,PhysicalObject,window,crack
+crack in window,PhysicalObject,window,crack
+window is cracked,PhysicalObject,window,crack
+repair cracked window,PhysicalObject,window,crack
+cracked window needs replacement,PhysicalObject,window,crack
+boom chord has crack,PhysicalObject/HoldingObject/StructuralSupportingObject,boom chord,crack
+crack in boom chord,PhysicalObject/HoldingObject/StructuralSupportingObject,boom chord,crack
+boom chord is cracked,PhysicalObject/HoldingObject/StructuralSupportingObject,boom chord,crack
+repair crack in boom chord,PhysicalObject/HoldingObject/StructuralSupportingObject,boom chord,crack
+cracked boom chord,PhysicalObject/HoldingObject/StructuralSupportingObject,boom chord,crack
+headboard has a crack,PhysicalObject/HoldingObject/StructuralSupportingObject,headboard,crack
+crack in headboard,PhysicalObject/HoldingObject/StructuralSupportingObject,headboard,crack
+headboard is cracked,PhysicalObject/HoldingObject/StructuralSupportingObject,headboard,crack
+repair crack in headboard,PhysicalObject/HoldingObject/StructuralSupportingObject,headboard,crack
+cracked headboard needs fixing,PhysicalObject/HoldingObject/StructuralSupportingObject,headboard,crack
+windscreen has a crack,PhysicalObject/ControllingObject/SpaceAccessObject,windscreen,crack
+crack in windscreen,PhysicalObject/ControllingObject/SpaceAccessObject,windscreen,crack
+windscreen cracked,PhysicalObject/ControllingObject/SpaceAccessObject,windscreen,crack
+replace cracked windscreen,PhysicalObject/ControllingObject/SpaceAccessObject,windscreen,crack
+repair crack on windscreen,PhysicalObject/ControllingObject/SpaceAccessObject,windscreen,crack
+cross braces have cracks,PhysicalObject/HoldingObject/ReinforcingObject,cross braces,cracks
+cracks in cross braces,PhysicalObject/HoldingObject/ReinforcingObject,cross braces,cracks
+cross braces are cracked,PhysicalObject/HoldingObject/ReinforcingObject,cross braces,cracks
+repair cracks in cross braces,PhysicalObject/HoldingObject/ReinforcingObject,cross braces,cracks
+cracked cross braces need repair,PhysicalObject/HoldingObject/ReinforcingObject,cross braces,cracks
+headboard has cracks,PhysicalObject/HoldingObject/StructuralSupportingObject,headboard,cracks
+cracks in headboard,PhysicalObject/HoldingObject/StructuralSupportingObject,headboard,cracks
+headboard cracking,PhysicalObject/HoldingObject/StructuralSupportingObject,headboard,cracks
+repair cracked headboard,PhysicalObject/HoldingObject/StructuralSupportingObject,headboard,cracks
+cracked headboard needs replacement,PhysicalObject/HoldingObject/StructuralSupportingObject,headboard,cracks
+track frame has a crack,PhysicalObject/HoldingObject/StructuralSupportingObject,track frame,crack
+crack found in track frame,PhysicalObject/HoldingObject/StructuralSupportingObject,track frame,crack
+track frame cracked,PhysicalObject/HoldingObject/StructuralSupportingObject,track frame,crack
+repair crack in track frame,PhysicalObject/HoldingObject/StructuralSupportingObject,track frame,crack
+track frame needs crack repair,PhysicalObject/HoldingObject/StructuralSupportingObject,track frame,crack
+cabin door frame has a hole,PhysicalObject/HoldingObject/FramingObject,cabin door frame,hole
+hole in cabin door frame,PhysicalObject/HoldingObject/FramingObject,cabin door frame,hole
+cabin door frame is damaged with hole,PhysicalObject/HoldingObject/FramingObject,cabin door frame,hole
+repair hole in cabin door frame,PhysicalObject/HoldingObject/FramingObject,cabin door frame,hole
+hole found in cabin door frame,PhysicalObject/HoldingObject/FramingObject,cabin door frame,hole
+window frame has a crack,PhysicalObject/HoldingObject/FramingObject,window frame,crack
+crack found in window frame,PhysicalObject/HoldingObject/FramingObject,window frame,crack
+window frame cracked,PhysicalObject/HoldingObject/FramingObject,window frame,crack
+repair crack in window frame,PhysicalObject/HoldingObject/FramingObject,window frame,crack
+cracked window frame needs repair,PhysicalObject/HoldingObject/FramingObject,window frame,crack
+drag roller bearing is noisy,PhysicalObject/HoldingObject/JointingObject,drag roller bearing,noisy
+noisy drag roller bearing,PhysicalObject/HoldingObject/JointingObject,drag roller bearing,noisy
+drag roller bearing making noise,PhysicalObject/HoldingObject/JointingObject,drag roller bearing,noisy
+noise from drag roller bearing,PhysicalObject/HoldingObject/JointingObject,drag roller bearing,noisy
+replace noisy drag roller bearing,PhysicalObject/HoldingObject/JointingObject,drag roller bearing,noisy
+chassis cross member has a crack,PhysicalObject/HoldingObject/ReinforcingObject,chassis cross member,crack
+crack in chassis cross member,PhysicalObject/HoldingObject/ReinforcingObject,chassis cross member,crack
+chassis cross member cracked,PhysicalObject/HoldingObject/ReinforcingObject,chassis cross member,crack
+repair crack in chassis cross member,PhysicalObject/HoldingObject/ReinforcingObject,chassis cross member,crack
+cracked chassis cross member needs repair,PhysicalObject/HoldingObject/ReinforcingObject,chassis cross member,crack
+cross member has a crack,PhysicalObject/HoldingObject/ReinforcingObject,cross member,crack
+crack in cross member,PhysicalObject/HoldingObject/ReinforcingObject,cross member,crack
+cross member is cracked,PhysicalObject/HoldingObject/ReinforcingObject,cross member,crack
+repair crack in cross member,PhysicalObject/HoldingObject/ReinforcingObject,cross member,crack
+cracked cross member needs repair,PhysicalObject/HoldingObject/ReinforcingObject,cross member,crack
+liner has a crack,PhysicalObject/ProtectingObject/WearProtectingObject,liner,crack
+crack in liner,PhysicalObject/ProtectingObject/WearProtectingObject,liner,crack
+cracked liner,PhysicalObject/ProtectingObject/WearProtectingObject,liner,crack
+repair crack in liner,PhysicalObject/ProtectingObject/WearProtectingObject,liner,crack
+replace cracked liner,PhysicalObject/ProtectingObject/WearProtectingObject,liner,crack
+fire suppression mounts have cracks,PhysicalObject/HoldingObject/StructuralSupportingObject,fire suppression mounts,cracks
+cracks in fire suppression mounts,PhysicalObject/HoldingObject/StructuralSupportingObject,fire suppression mounts,cracks
+fire suppression mounts are cracked,PhysicalObject/HoldingObject/StructuralSupportingObject,fire suppression mounts,cracks
+cracked fire suppression mounts,PhysicalObject/HoldingObject/StructuralSupportingObject,fire suppression mounts,cracks
+repair cracks in fire suppression mounts,PhysicalObject/HoldingObject/StructuralSupportingObject,fire suppression mounts,cracks
+tank has a crack,PhysicalObject,tank,crack
+crack found in tank,PhysicalObject,tank,crack
+tank is cracked,PhysicalObject,tank,crack
+repair crack in tank,PhysicalObject,tank,crack
+tank cracking needs repair,PhysicalObject,tank,crack
+frame has a crack,PhysicalObject,frame,crack
+crack in frame,PhysicalObject,frame,crack
+frame is cracked,PhysicalObject,frame,crack
+repair crack in frame,PhysicalObject,frame,crack
+cracked frame needs repair,PhysicalObject,frame,crack
+jockey pulley bearing is noisy,PhysicalObject/HoldingObject/JointingObject,jockey pulley bearing,noisy
+noisy jockey pulley bearing,PhysicalObject/HoldingObject/JointingObject,jockey pulley bearing,noisy
+jockey pulley bearing making noise,PhysicalObject/HoldingObject/JointingObject,jockey pulley bearing,noisy
+noise from jockey pulley bearing,PhysicalObject/HoldingObject/JointingObject,jockey pulley bearing,noisy
+replace noisy jockey pulley bearing,PhysicalObject/HoldingObject/JointingObject,jockey pulley bearing,noisy
+backhoe windscreen has a crack,PhysicalObject/ControllingObject/SpaceAccessObject,backhoe windscreen,crack
+crack in backhoe windscreen,PhysicalObject/ControllingObject/SpaceAccessObject,backhoe windscreen,crack
+backhoe windscreen is cracked,PhysicalObject/ControllingObject/SpaceAccessObject,backhoe windscreen,crack
+repair crack in backhoe windscreen,PhysicalObject/ControllingObject/SpaceAccessObject,backhoe windscreen,crack
+cracked backhoe windscreen needs replacement,PhysicalObject/ControllingObject/SpaceAccessObject,backhoe windscreen,crack
+steering shaft is unserviceable,PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject,steering shaft,unserviceable
+unserviceable steering shaft,PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject,steering shaft,unserviceable
+steering shaft found unserviceable,PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject,steering shaft,unserviceable
+replace unserviceable steering shaft,PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject,steering shaft,unserviceable
+steering shaft needs replacement unserviceable,PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject,steering shaft,unserviceable
+mast lights fuse has a fault,PhysicalObject/ProtectingObject/OvercurrentProtectingObject,mast lights fuse,fault
+fault in mast lights fuse,PhysicalObject/ProtectingObject/OvercurrentProtectingObject,mast lights fuse,fault
+mast lights fuse fault,PhysicalObject/ProtectingObject/OvercurrentProtectingObject,mast lights fuse,fault
+replace faulty mast lights fuse,PhysicalObject/ProtectingObject/OvercurrentProtectingObject,mast lights fuse,fault
+mast lights fuse found faulty,PhysicalObject/ProtectingObject/OvercurrentProtectingObject,mast lights fuse,fault
+transmission has failed,PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject,transmission,failed
+failed transmission,PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject,transmission,failed
+transmission failed,PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject,transmission,failed
+replace failed transmission,PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject,transmission,failed
+transmission is failed,PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject,transmission,failed
+windscreen needs to be fixed,PhysicalObject/ControllingObject/SpaceAccessObject,windscreen,to be fixed
+windscreen is to be fixed,PhysicalObject/ControllingObject/SpaceAccessObject,windscreen,to be fixed
+fix the windscreen,PhysicalObject/ControllingObject/SpaceAccessObject,windscreen,to be fixed
+windscreen to be fixed,PhysicalObject/ControllingObject/SpaceAccessObject,windscreen,to be fixed
+repair windscreen needed,PhysicalObject/ControllingObject/SpaceAccessObject,windscreen,to be fixed
+line is blown,PhysicalObject,line,blown
+blown line,PhysicalObject,line,blown
+line has blown,PhysicalObject,line,blown
+replace blown line,PhysicalObject,line,blown
+blown line needs replacement,PhysicalObject,line,blown
+engine air conditioner control cable seized,PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject,engine air conditioner control cable,seized
+control cable for engine air conditioner seized,PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject,engine air conditioner control cable,seized
+seized engine air conditioner control cable,PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject,engine air conditioner control cable,seized
+engine air conditioner control cable is seized,PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject,engine air conditioner control cable,seized
+replace seized engine air conditioner control cable,PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject,engine air conditioner control cable,seized
+plate is bent,PhysicalObject,plate,bent
+bent plate,PhysicalObject,plate,bent
+plate has a bend,PhysicalObject,plate,bent
+repair bent plate,PhysicalObject,plate,bent
+replace bent plate,PhysicalObject,plate,bent
+cavity pressure is low,PhysicalObject/InterfacingObject/SpaceLinkingObject,cavity,low
+cavity has low levels,PhysicalObject/InterfacingObject/SpaceLinkingObject,cavity,low
+low pressure in cavity,PhysicalObject/InterfacingObject/SpaceLinkingObject,cavity,low
+cavity is low,PhysicalObject/InterfacingObject/SpaceLinkingObject,cavity,low
+cavity level is low,PhysicalObject/InterfacingObject/SpaceLinkingObject,cavity,low
+park brake has alarm fault,PhysicalObject/RestrictingObject/MovementRestrictingObject,park brake,alarm fault
+park brake alarm fault,PhysicalObject/RestrictingObject/MovementRestrictingObject,park brake,alarm fault
+alarm fault in park brake,PhysicalObject/RestrictingObject/MovementRestrictingObject,park brake,alarm fault
+park brake experiencing alarm fault,PhysicalObject/RestrictingObject/MovementRestrictingObject,park brake,alarm fault
+repair park brake alarm fault,PhysicalObject/RestrictingObject/MovementRestrictingObject,park brake,alarm fault
+hoist drag brake out of adjustment,PhysicalObject/RestrictingObject/MovementRestrictingObject,hoist drag brake,out of adjustment
+hoist drag brake is out of adjustment,PhysicalObject/RestrictingObject/MovementRestrictingObject,hoist drag brake,out of adjustment
+out of adjustment hoist drag brake,PhysicalObject/RestrictingObject/MovementRestrictingObject,hoist drag brake,out of adjustment
+adjust hoist drag brake,PhysicalObject/RestrictingObject/MovementRestrictingObject,hoist drag brake,out of adjustment
+hoist drag brake needs adjustment,PhysicalObject/RestrictingObject/MovementRestrictingObject,hoist drag brake,out of adjustment
+air conditioner has faults,PhysicalObject/EmittingObject/ElectricCoolingObject,air conditioner,faults
+faults in air conditioner,PhysicalObject/EmittingObject/ElectricCoolingObject,air conditioner,faults
+air conditioner experiencing faults,PhysicalObject/EmittingObject/ElectricCoolingObject,air conditioner,faults
+air conditioner faults found,PhysicalObject/EmittingObject/ElectricCoolingObject,air conditioner,faults
+repair faults in air conditioner,PhysicalObject/EmittingObject/ElectricCoolingObject,air conditioner,faults
+operator cabin air conditioner fuse blown,PhysicalObject/ProtectingObject/OvercurrentProtectingObject,operator cabin air conditioner fuse,blown
+blown operator cabin air conditioner fuse,PhysicalObject/ProtectingObject/OvercurrentProtectingObject,operator cabin air conditioner fuse,blown
+operator cabin air conditioner fuse is blown,PhysicalObject/ProtectingObject/OvercurrentProtectingObject,operator cabin air conditioner fuse,blown
+replace blown air conditioner fuse,PhysicalObject/ProtectingObject/OvercurrentProtectingObject,operator cabin air conditioner fuse,blown
+air conditioner fuse blown in operator cabin,PhysicalObject/ProtectingObject/OvercurrentProtectingObject,operator cabin air conditioner fuse,blown
+blade control cable is broken,PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject,blade control cable,broken
+broken blade control cable,PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject,blade control cable,broken
+blade control cable found broken,PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject,blade control cable,broken
+replace broken blade control cable,PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject,blade control cable,broken
+repair broken blade control cable,PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject,blade control cable,broken
+water pump shaft universal joint failed,PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject,water pump shaft universal joint,failed
+universal joint for water pump shaft failed,PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject,water pump shaft universal joint,failed
+failed water pump shaft universal joint,PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject,water pump shaft universal joint,failed
+water pump shaft universal joint is failed,PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject,water pump shaft universal joint,failed
+replace failed water pump shaft universal joint,PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject,water pump shaft universal joint,failed
+axle has a fault,PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject,axle,fault
+fault in axle,PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject,axle,fault
+axle fault found,PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject,axle,fault
+repair fault on axle,PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject,axle,fault
+faulty axle needs replacement,PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject,axle,fault
+pto shaft is unserviceable,PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject,pto shaft,unserviceable
+unserviceable pto shaft,PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject,pto shaft,unserviceable
+pto shaft found unserviceable,PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject,pto shaft,unserviceable
+replace unserviceable pto shaft,PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject,pto shaft,unserviceable
+unserviceable condition of pto shaft,PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject,pto shaft,unserviceable
+hoist brake is out of adjustment,PhysicalObject/RestrictingObject/MovementRestrictingObject,hoist brake,out of adjustment
+hoist brake out of adjustment,PhysicalObject/RestrictingObject/MovementRestrictingObject,hoist brake,out of adjustment
+out of adjustment hoist brake,PhysicalObject/RestrictingObject/MovementRestrictingObject,hoist brake,out of adjustment
+adjust hoist brake,PhysicalObject/RestrictingObject/MovementRestrictingObject,hoist brake,out of adjustment
+hoist brake needs adjustment,PhysicalObject/RestrictingObject/MovementRestrictingObject,hoist brake,out of adjustment
+hydraulic motor engine shutdown fault,PhysicalObject/DrivingObject/CombustionEngine,hydraulic motor engine,shutdown fault
+shutdown fault in hydraulic motor engine,PhysicalObject/DrivingObject/CombustionEngine,hydraulic motor engine,shutdown fault
+hydraulic motor engine has shutdown fault,PhysicalObject/DrivingObject/CombustionEngine,hydraulic motor engine,shutdown fault
+hydraulic motor engine experiencing shutdown fault,PhysicalObject/DrivingObject/CombustionEngine,hydraulic motor engine,shutdown fault
+repair hydraulic motor engine shutdown fault,PhysicalObject/DrivingObject/CombustionEngine,hydraulic motor engine,shutdown fault
+flow regulator is unserviceable,PhysicalObject/RestrictingObject/FlowRestrictor,flow regulator,unserviceable
+unserviceable flow regulator,PhysicalObject/RestrictingObject/FlowRestrictor,flow regulator,unserviceable
+flow regulator found unserviceable,PhysicalObject/RestrictingObject/FlowRestrictor,flow regulator,unserviceable
+replace unserviceable flow regulator,PhysicalObject/RestrictingObject/FlowRestrictor,flow regulator,unserviceable
+flow regulator needs replacement unserviceable,PhysicalObject/RestrictingObject/FlowRestrictor,flow regulator,unserviceable
+air conditioner condenser fan unserviceable,PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject,air conditioner condenser fan,unserviceable
+unserviceable air conditioner condenser fan,PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject,air conditioner condenser fan,unserviceable
+air conditioner condenser fan is unserviceable,PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject,air conditioner condenser fan,unserviceable
+replace unserviceable air conditioner condenser fan,PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject,air conditioner condenser fan,unserviceable
+air conditioner condenser fan found unserviceable,PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject,air conditioner condenser fan,unserviceable
+control cable is broken,PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject,operator cabin air conditioner control cable,broken
+broken air conditioner control cable,PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject,operator cabin air conditioner control cable,broken
+operator cabin control cable broken,PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject,operator cabin air conditioner control cable,broken
+control cable for air conditioner broken,PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject,operator cabin air conditioner control cable,broken
+replace broken control cable,PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject,operator cabin air conditioner control cable,broken
+engine air conditioner thermostat unserviceable,PhysicalObject/SensingObject/TemperatureSensingObject,engine air conditioner thermostat,unserviceable
+unserviceable engine air conditioner thermostat,PhysicalObject/SensingObject/TemperatureSensingObject,engine air conditioner thermostat,unserviceable
+engine air conditioner thermostat is unserviceable,PhysicalObject/SensingObject/TemperatureSensingObject,engine air conditioner thermostat,unserviceable
+replace unserviceable engine air conditioner thermostat,PhysicalObject/SensingObject/TemperatureSensingObject,engine air conditioner thermostat,unserviceable
+engine air conditioner thermostat found unserviceable,PhysicalObject/SensingObject/TemperatureSensingObject,engine air conditioner thermostat,unserviceable
+battery cell is dropped,PhysicalObject/StoringObject/ElectrochemicalStoringObject,battery cell,dropped
+dropped battery cell,PhysicalObject/StoringObject/ElectrochemicalStoringObject,battery cell,dropped
+battery cell has been dropped,PhysicalObject/StoringObject/ElectrochemicalStoringObject,battery cell,dropped
+replace dropped battery cell,PhysicalObject/StoringObject/ElectrochemicalStoringObject,battery cell,dropped
+inspect dropped battery cell,PhysicalObject/StoringObject/ElectrochemicalStoringObject,battery cell,dropped
+walkway is cracked,PhysicalObject/HoldingObject/CarryingObject,walkway,cracked
+cracked walkway,PhysicalObject/HoldingObject/CarryingObject,walkway,cracked
+crack in walkway,PhysicalObject/HoldingObject/CarryingObject,walkway,cracked
+walkway has a crack,PhysicalObject/HoldingObject/CarryingObject,walkway,cracked
+repair cracked walkway,PhysicalObject/HoldingObject/CarryingObject,walkway,cracked
+dash lights are on,PhysicalObject/EmittingObject/LightObject,dash lights,on
+dash lights remain on,PhysicalObject/EmittingObject/LightObject,dash lights,on
+dash lights stay on,PhysicalObject/EmittingObject/LightObject,dash lights,on
+dash lights continuously on,PhysicalObject/EmittingObject/LightObject,dash lights,on
+dash lights keep being on,PhysicalObject/EmittingObject/LightObject,dash lights,on
+siren is not working,PhysicalObject/EmittingObject/AcousticWaveEmittingObject,siren,not working
+siren not working,PhysicalObject/EmittingObject/AcousticWaveEmittingObject,siren,not working
+siren found not working,PhysicalObject/EmittingObject/AcousticWaveEmittingObject,siren,not working
+replace siren not working,PhysicalObject/EmittingObject/AcousticWaveEmittingObject,siren,not working
+siren needs repair not working,PhysicalObject/EmittingObject/AcousticWaveEmittingObject,siren,not working
+air conditioner thermostat is unserviceable,PhysicalObject/SensingObject/TemperatureSensingObject,air conditioner thermostat,unserviceable
+unserviceable air conditioner thermostat,PhysicalObject/SensingObject/TemperatureSensingObject,air conditioner thermostat,unserviceable
+air conditioner thermostat found unserviceable,PhysicalObject/SensingObject/TemperatureSensingObject,air conditioner thermostat,unserviceable
+replace unserviceable air conditioner thermostat,PhysicalObject/SensingObject/TemperatureSensingObject,air conditioner thermostat,unserviceable
+air conditioner thermostat needs replacement unserviceable,PhysicalObject/SensingObject/TemperatureSensingObject,air conditioner thermostat,unserviceable
+swing brake hose is blown,PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject,swing brake hose,blown
+blown swing brake hose,PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject,swing brake hose,blown
+swing brake hose has blown,PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject,swing brake hose,blown
+replace blown swing brake hose,PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject,swing brake hose,blown
+swing brake hose blown out,PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject,swing brake hose,blown
+cabin air conditioner has electrical faults,PhysicalObject/EmittingObject/ElectricCoolingObject,cabin air conditioner,electrical faults
+electrical faults in cabin air conditioner,PhysicalObject/EmittingObject/ElectricCoolingObject,cabin air conditioner,electrical faults
+cabin air conditioner electrical faults found,PhysicalObject/EmittingObject/ElectricCoolingObject,cabin air conditioner,electrical faults
+electrical faults affecting cabin air conditioner,PhysicalObject/EmittingObject/ElectricCoolingObject,cabin air conditioner,electrical faults
+repair electrical faults in cabin air conditioner,PhysicalObject/EmittingObject/ElectricCoolingObject,cabin air conditioner,electrical faults
+brake sensor not reading,PhysicalObject/SensingObject,brake sensor,not reading
+brake sensor is not reading,PhysicalObject/SensingObject,brake sensor,not reading
+not reading brake sensor,PhysicalObject/SensingObject,brake sensor,not reading
+brake sensor fails to read,PhysicalObject/SensingObject,brake sensor,not reading
+faulty brake sensor not reading,PhysicalObject/SensingObject,brake sensor,not reading
+inverter batteries have no charge,PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject,inverter batteries,no charge
+no charge in inverter batteries,PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject,inverter batteries,no charge
+inverter batteries are not charged,PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject,inverter batteries,no charge
+inverter batteries show no charge,PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject,inverter batteries,no charge
+replace inverter batteries with no charge,PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject,inverter batteries,no charge
+blower inverter batteries have no charge,PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject,blower inverter batteries,no charge
+no charge in blower inverter batteries,PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject,blower inverter batteries,no charge
+blower inverter batteries are not charged,PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject,blower inverter batteries,no charge
+blower inverter batteries need charging,PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject,blower inverter batteries,no charge
+replace blower inverter batteries with no charge,PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject,blower inverter batteries,no charge
+batteries have no charge,PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject,batteries,no charge
+batteries showing no charge,PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject,batteries,no charge
+no charge in batteries,PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject,batteries,no charge
+batteries are without charge,PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject,batteries,no charge
+batteries need charging due to no charge,PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject,batteries,no charge
+parts washer pump bolt needs loctite,PhysicalObject/HoldingObject/FasteningObject,parts washer pump bolt,needs loctite
+loctite needed for parts washer pump bolt,PhysicalObject/HoldingObject/FasteningObject,parts washer pump bolt,needs loctite
+parts washer pump bolt needs loctite applied,PhysicalObject/HoldingObject/FasteningObject,parts washer pump bolt,needs loctite
+apply loctite on parts washer pump bolt,PhysicalObject/HoldingObject/FasteningObject,parts washer pump bolt,needs loctite
+parts washer pump bolt requires loctite,PhysicalObject/HoldingObject/FasteningObject,parts washer pump bolt,needs loctite
+a-frame clevis pin has no grease,PhysicalObject/HoldingObject/FasteningObject,a-frame clevis pin,no grease
+no grease on a-frame clevis pin,PhysicalObject/HoldingObject/FasteningObject,a-frame clevis pin,no grease
+a-frame clevis pin needs grease,PhysicalObject/HoldingObject/FasteningObject,a-frame clevis pin,no grease
+grease missing from a-frame clevis pin,PhysicalObject/HoldingObject/FasteningObject,a-frame clevis pin,no grease
+a-frame clevis pin without grease,PhysicalObject/HoldingObject/FasteningObject,a-frame clevis pin,no grease
+cabin missing smoke detector,PhysicalObject/HoldingObject/EnclosingObject,cabin,missing smoke detector
+smoke detector missing from cabin,PhysicalObject/HoldingObject/EnclosingObject,cabin,missing smoke detector
+cabin lacks smoke detector,PhysicalObject/HoldingObject/EnclosingObject,cabin,missing smoke detector
+smoke detector not in cabin,PhysicalObject/HoldingObject/EnclosingObject,cabin,missing smoke detector
+replace missing smoke detector in cabin,PhysicalObject/HoldingObject/EnclosingObject,cabin,missing smoke detector
+bolt needs loctite,PhysicalObject/HoldingObject/FasteningObject,bolt,needs loctite
+loctite required for bolt,PhysicalObject/HoldingObject/FasteningObject,bolt,needs loctite
+bolt requires loctite,PhysicalObject/HoldingObject/FasteningObject,bolt,needs loctite
+needs loctite on bolt,PhysicalObject/HoldingObject/FasteningObject,bolt,needs loctite
+apply loctite to bolt,PhysicalObject/HoldingObject/FasteningObject,bolt,needs loctite
+swing pump bolt needs loctite,PhysicalObject/HoldingObject/FasteningObject,swing pump bolt,needs loctite
+loctite needed for swing pump bolt,PhysicalObject/HoldingObject/FasteningObject,swing pump bolt,needs loctite
+swing pump bolt requires loctite,PhysicalObject/HoldingObject/FasteningObject,swing pump bolt,needs loctite
+apply loctite on swing pump bolt,PhysicalObject/HoldingObject/FasteningObject,swing pump bolt,needs loctite
+swing pump bolt needs loctite application,PhysicalObject/HoldingObject/FasteningObject,swing pump bolt,needs loctite
+cabin needs aerial,PhysicalObject/HoldingObject/EnclosingObject,cabin,needs aerial
+aerial needed for cabin,PhysicalObject/HoldingObject/EnclosingObject,cabin,needs aerial
+cabin requires aerial,PhysicalObject/HoldingObject/EnclosingObject,cabin,needs aerial
+install aerial on cabin,PhysicalObject/HoldingObject/EnclosingObject,cabin,needs aerial
+cabin needs to install aerial,PhysicalObject/HoldingObject/EnclosingObject,cabin,needs aerial
+pto pump bolt needs loctite,PhysicalObject/HoldingObject/FasteningObject,pto pump bolt,needs loctite
+loctite needed for pto pump bolt,PhysicalObject/HoldingObject/FasteningObject,pto pump bolt,needs loctite
+pto pump bolt requires loctite,PhysicalObject/HoldingObject/FasteningObject,pto pump bolt,needs loctite
+pto pump bolt needs to be loctited,PhysicalObject/HoldingObject/FasteningObject,pto pump bolt,needs loctite
+apply loctite to pto pump bolt,PhysicalObject/HoldingObject/FasteningObject,pto pump bolt,needs loctite
+dogbone pin has no grease,PhysicalObject/HoldingObject/FasteningObject,dogbone pin,no grease
+no grease on dogbone pin,PhysicalObject/HoldingObject/FasteningObject,dogbone pin,no grease
+dogbone pin needs grease,PhysicalObject/HoldingObject/FasteningObject,dogbone pin,no grease
+dogbone pin is dry,PhysicalObject/HoldingObject/FasteningObject,dogbone pin,no grease
+grease missing from dogbone pin,PhysicalObject/HoldingObject/FasteningObject,dogbone pin,no grease
+revolving frame found oil,PhysicalObject/HoldingObject/StructuralSupportingObject,revolving frame,found oil
+found oil on revolving frame,PhysicalObject/HoldingObject/StructuralSupportingObject,revolving frame,found oil
+oil found on revolving frame,PhysicalObject/HoldingObject/StructuralSupportingObject,revolving frame,found oil
+revolving frame has found oil,PhysicalObject/HoldingObject/StructuralSupportingObject,revolving frame,found oil
+revolving frame shows oil presence,PhysicalObject/HoldingObject/StructuralSupportingObject,revolving frame,found oil
+belly plate bolt needs loctite,PhysicalObject/HoldingObject/FasteningObject,belly plate bolt,needs loctite
+loctite needed on belly plate bolt,PhysicalObject/HoldingObject/FasteningObject,belly plate bolt,needs loctite
+belly plate bolt requires loctite,PhysicalObject/HoldingObject/FasteningObject,belly plate bolt,needs loctite
+apply loctite to belly plate bolt,PhysicalObject/HoldingObject/FasteningObject,belly plate bolt,needs loctite
+belly plate bolt needs loctite application,PhysicalObject/HoldingObject/FasteningObject,belly plate bolt,needs loctite
+differential pump bolt needs loctite,PhysicalObject/HoldingObject/FasteningObject,differential pump bolt,needs loctite
+apply loctite on differential pump bolt,PhysicalObject/HoldingObject/FasteningObject,differential pump bolt,needs loctite
+differential pump bolt requires loctite,PhysicalObject/HoldingObject/FasteningObject,differential pump bolt,needs loctite
+loctite needed for differential pump bolt,PhysicalObject/HoldingObject/FasteningObject,differential pump bolt,needs loctite
+differential pump bolt needs loctite application,PhysicalObject/HoldingObject/FasteningObject,differential pump bolt,needs loctite
+am/fm radio needs aerial,PhysicalObject/TransformingObject/SignalConvertingObject,am / fm radio,needs aerial
+aerial needed for am/fm radio,PhysicalObject/TransformingObject/SignalConvertingObject,am / fm radio,needs aerial
+am/fm radio requires new aerial,PhysicalObject/TransformingObject/SignalConvertingObject,am / fm radio,needs aerial
+am/fm radio needs new aerial,PhysicalObject/TransformingObject/SignalConvertingObject,am / fm radio,needs aerial
+replace aerial on am/fm radio,PhysicalObject/TransformingObject/SignalConvertingObject,am / fm radio,needs aerial
+cabin seat needs loctite,PhysicalObject/StoringObject/OpenStationaryStoringObject,cabin seat,needs loctite
+loctite needed for cabin seat,PhysicalObject/StoringObject/OpenStationaryStoringObject,cabin seat,needs loctite
+cabin seat requires loctite,PhysicalObject/StoringObject/OpenStationaryStoringObject,cabin seat,needs loctite
+apply loctite to cabin seat,PhysicalObject/StoringObject/OpenStationaryStoringObject,cabin seat,needs loctite
+cabin seat needs loctite application,PhysicalObject/StoringObject/OpenStationaryStoringObject,cabin seat,needs loctite
+mast raise cylinder pin has no grease,PhysicalObject/HoldingObject/FasteningObject,mast raise cylinder pin,no grease
+no grease in mast raise cylinder pin,PhysicalObject/HoldingObject/FasteningObject,mast raise cylinder pin,no grease
+mast raise cylinder pin needs grease,PhysicalObject/HoldingObject/FasteningObject,mast raise cylinder pin,no grease
+mast raise cylinder pin is without grease,PhysicalObject/HoldingObject/FasteningObject,mast raise cylinder pin,no grease
+add grease to mast raise cylinder pin,PhysicalObject/HoldingObject/FasteningObject,mast raise cylinder pin,no grease
+drag rope pump bolt needs loctite,PhysicalObject/HoldingObject/FasteningObject,drag rope pump bolt,needs loctite
+loctite needed for drag rope pump bolt,PhysicalObject/HoldingObject/FasteningObject,drag rope pump bolt,needs loctite
+drag rope pump bolt needs adjusting loctite,PhysicalObject/HoldingObject/FasteningObject,drag rope pump bolt,needs loctite
+apply loctite on drag rope pump bolt,PhysicalObject/HoldingObject/FasteningObject,drag rope pump bolt,needs loctite
+drag rope pump bolt requires loctite,PhysicalObject/HoldingObject/FasteningObject,drag rope pump bolt,needs loctite
+window frame needs loctite,PhysicalObject/HoldingObject/FramingObject,window frame,needs loctite
+loctite needed for window frame,PhysicalObject/HoldingObject/FramingObject,window frame,needs loctite
+window frame requires loctite,PhysicalObject/HoldingObject/FramingObject,window frame,needs loctite
+apply loctite to window frame,PhysicalObject/HoldingObject/FramingObject,window frame,needs loctite
+window frame needs loctite application,PhysicalObject/HoldingObject/FramingObject,window frame,needs loctite
+brake pump bolt needs loctite,PhysicalObject/HoldingObject/FasteningObject,brake pump bolt,needs loctite
+loctite needed for brake pump bolt,PhysicalObject/HoldingObject/FasteningObject,brake pump bolt,needs loctite
+brake pump bolt requires loctite,PhysicalObject/HoldingObject/FasteningObject,brake pump bolt,needs loctite
+apply loctite to brake pump bolt,PhysicalObject/HoldingObject/FasteningObject,brake pump bolt,needs loctite
+brake pump bolt needs loctite application,PhysicalObject/HoldingObject/FasteningObject,brake pump bolt,needs loctite
+battery has dropped cell,PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject,battery,dropped cell
+dropped cell in battery,PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject,battery,dropped cell
+battery cell is dropped,PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject,battery,dropped cell
+replace dropped cell in battery,PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject,battery,dropped cell
+battery needs dropped cell replacement,PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject,battery,dropped cell
+dogbone bolt needs loctite,PhysicalObject/HoldingObject/FasteningObject,dogbone bolt,needs loctite
+loctite needed for dogbone bolt,PhysicalObject/HoldingObject/FasteningObject,dogbone bolt,needs loctite
+dogbone bolt requires loctite,PhysicalObject/HoldingObject/FasteningObject,dogbone bolt,needs loctite
+apply loctite on dogbone bolt,PhysicalObject/HoldingObject/FasteningObject,dogbone bolt,needs loctite
+dogbone bolt needs loctite application,PhysicalObject/HoldingObject/FasteningObject,dogbone bolt,needs loctite
+steering pump bolt needs loctite,PhysicalObject/HoldingObject/FasteningObject,steering pump bolt,needs loctite
+loctite needed for steering pump bolt,PhysicalObject/HoldingObject/FasteningObject,steering pump bolt,needs loctite
+steering pump bolt requires loctite,PhysicalObject/HoldingObject/FasteningObject,steering pump bolt,needs loctite
+apply loctite to steering pump bolt,PhysicalObject/HoldingObject/FasteningObject,steering pump bolt,needs loctite
+steering pump bolt needs loctite application,PhysicalObject/HoldingObject/FasteningObject,steering pump bolt,needs loctite
+cooler pump bolt needs loctite,PhysicalObject/HoldingObject/FasteningObject,cooler pump bolt,needs loctite
+loctite needed for cooler pump bolt,PhysicalObject/HoldingObject/FasteningObject,cooler pump bolt,needs loctite
+cooler pump bolt requires loctite,PhysicalObject/HoldingObject/FasteningObject,cooler pump bolt,needs loctite
+apply loctite on cooler pump bolt,PhysicalObject/HoldingObject/FasteningObject,cooler pump bolt,needs loctite
+cooler pump bolt needs loctite application,PhysicalObject/HoldingObject/FasteningObject,cooler pump bolt,needs loctite
+clamps need loctite,PhysicalObject/HoldingObject/PositioningObject,clamps,needs loctite
+loctite needed for clamps,PhysicalObject/HoldingObject/PositioningObject,clamps,needs loctite
+clamps require loctite,PhysicalObject/HoldingObject/PositioningObject,clamps,needs loctite
+apply loctite on clamps,PhysicalObject/HoldingObject/PositioningObject,clamps,needs loctite
+clamps need loctite application,PhysicalObject/HoldingObject/PositioningObject,clamps,needs loctite
+seat needs loctite,PhysicalObject/StoringObject/OpenStationaryStoringObject,seat,needs loctite
+loctite needed for seat,PhysicalObject/StoringObject/OpenStationaryStoringObject,seat,needs loctite
+seat requires loctite,PhysicalObject/StoringObject/OpenStationaryStoringObject,seat,needs loctite
+apply loctite on seat,PhysicalObject/StoringObject/OpenStationaryStoringObject,seat,needs loctite
+loctite application needed on seat,PhysicalObject/StoringObject/OpenStationaryStoringObject,seat,needs loctite
+engine pump bolt needs loctite,PhysicalObject/HoldingObject/FasteningObject,engine pump bolt,needs loctite
+loctite needed on engine pump bolt,PhysicalObject/HoldingObject/FasteningObject,engine pump bolt,needs loctite
+engine pump bolt requires loctite,PhysicalObject/HoldingObject/FasteningObject,engine pump bolt,needs loctite
+apply loctite to engine pump bolt,PhysicalObject/HoldingObject/FasteningObject,engine pump bolt,needs loctite
+engine pump bolt needs loctite application,PhysicalObject/HoldingObject/FasteningObject,engine pump bolt,needs loctite
+pin has no grease,PhysicalObject/HoldingObject/FasteningObject,pin,no grease
+pin is dry no grease,PhysicalObject/HoldingObject/FasteningObject,pin,no grease
+no grease on pin,PhysicalObject/HoldingObject/FasteningObject,pin,no grease
+pin needs grease,PhysicalObject/HoldingObject/FasteningObject,pin,no grease
+add grease to pin,PhysicalObject/HoldingObject/FasteningObject,pin,no grease
+slew pump bolt needs loctite,PhysicalObject/HoldingObject/FasteningObject,slew pump bolt,needs loctite
+loctite needed for slew pump bolt,PhysicalObject/HoldingObject/FasteningObject,slew pump bolt,needs loctite
+slew pump bolt requires loctite,PhysicalObject/HoldingObject/FasteningObject,slew pump bolt,needs loctite
+apply loctite to slew pump bolt,PhysicalObject/HoldingObject/FasteningObject,slew pump bolt,needs loctite
+slew pump bolt needs loctite application,PhysicalObject/HoldingObject/FasteningObject,slew pump bolt,needs loctite
+steering cylinder pin has no grease,PhysicalObject/HoldingObject/FasteningObject,steering cylinder pin,no grease
+no grease on steering cylinder pin,PhysicalObject/HoldingObject/FasteningObject,steering cylinder pin,no grease
+steering cylinder pin needs grease,PhysicalObject/HoldingObject/FasteningObject,steering cylinder pin,no grease
+grease missing from steering cylinder pin,PhysicalObject/HoldingObject/FasteningObject,steering cylinder pin,no grease
+steering cylinder pin without grease,PhysicalObject/HoldingObject/FasteningObject,steering cylinder pin,no grease
+radio needs aerial,PhysicalObject,radio,needs aerial
+radio requires an aerial,PhysicalObject,radio,needs aerial
+aerial needed for radio,PhysicalObject,radio,needs aerial
+radio aerial needs replacement,PhysicalObject,radio,needs aerial
+replace aerial on radio,PhysicalObject,radio,needs aerial
+pump bolt needs loctite,PhysicalObject/HoldingObject/FasteningObject,pump bolt,needs loctite
+loctite needed on pump bolt,PhysicalObject/HoldingObject/FasteningObject,pump bolt,needs loctite
+pump bolt requires loctite,PhysicalObject/HoldingObject/FasteningObject,pump bolt,needs loctite
+pump bolt needs to be loctited,PhysicalObject/HoldingObject/FasteningObject,pump bolt,needs loctite
+apply loctite to pump bolt,PhysicalObject/HoldingObject/FasteningObject,pump bolt,needs loctite
+clevis pin has no grease,PhysicalObject/HoldingObject/FasteningObject,clevis pin,no grease
+no grease on clevis pin,PhysicalObject/HoldingObject/FasteningObject,clevis pin,no grease
+clevis pin needs grease,PhysicalObject/HoldingObject/FasteningObject,clevis pin,no grease
+grease missing from clevis pin,PhysicalObject/HoldingObject/FasteningObject,clevis pin,no grease
+clevis pin lacking grease,PhysicalObject/HoldingObject/FasteningObject,clevis pin,no grease

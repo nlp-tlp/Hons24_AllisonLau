@@ -1,11 +1,15 @@
 import os
 import re
+import sys
 import csv
 import json
 import random
 from openai import OpenAI
 from dotenv import load_dotenv
-from PathExtraction.path_queries import direct_queries, complex_queries
+
+sys.path.append(os.path.abspath('../PathExtraction'))
+
+from path_queries import direct_queries, complex_queries
 from llm_prompt import initialise_prompts
 
 BLACKLIST = ['shows signs of', 'showing signs of', 'detected', 
@@ -18,7 +22,7 @@ def get_all_paths(valid=True, label=False):
     paths_list = []
     paths_dict = {}
     for query in queries:
-        with open(f"path_patterns/{query['outfile']}.json", encoding='utf-8') as f:
+        with open(f"../PathExtraction/path_patterns/{query['outfile']}.json", encoding='utf-8') as f:
             paths_json = json.load(f)
             if valid and label:
                 paths_json = [path for path in paths_json if path['valid'] == valid and 'failure_mode' in path]
