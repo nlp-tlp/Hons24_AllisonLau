@@ -197,11 +197,8 @@ def rule_introduce_typos(sentence, chance=0.05, max_typos=3):
     if random.random() < chance:
         sentence = omit_space(sentence)
     
-    
-    # For each word, there is a chance to introduce a typo type
-        
-    # For each word, there is a chance to introduce a typo type
     words = sentence.split()
+    # Randomly select up to 3 words for chance to introduce typos
     typos = random.sample(range(len(words)), min(len(words), max_typos))
     for i in typos:
         if random.random() < chance:

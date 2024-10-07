@@ -30,23 +30,36 @@ The code for extracting equipment-failure paths from the MaintIE Knowledge Graph
 3. Run `python maintie_to_kg.py` to load the MaintIE dataset into Neo4j.
 
 #### Extracting paths (equipment and undesirable event combination) from Neo4j
+
 1. Queries for extracting paths are stored in `path_queries.py`.
-2. Run `python path_matching.py` to extract paths from Neo4j.
+2. Run `python path_matching.ipynb` to extract paths from Neo4j.
 3. Different paths are stored in their respective json files in `path_patterns` directory.
 4. Analysis of paths can be found - total number of paths, frequency of equipment, frequency of undesirable events, frequency of inherent function of *PhysicalObjects*.
 
 ### MWO Sentence Generation via LLM (GPT-4o mini)
 
-
+- `llm_generate.py`: code to prepare few-shot examples, generate synthetic MWO sentences using GP-4o mini, processing of LM outputs
+    - `get_generate_prompt()`: prepare prompt for LLM
+    - `get_generate_fewshot()`: prepare few-shot examples for LLM 
+    - `generate_mwo()`: generate synthetic MWO sentences using LLM (simple)
+    - `generate_diverse_mwo()`: generate diverse synthetic MWO sentences using LLM
+    - `process_mwo_response()`: process LLM outputs of synthetic MWO sentences
+- `llm_prompt.py`: code to get list of prompt variations, processing of LLM outputs, and paraphrasing the prompts
+    - `initialise_prompts()`: get list of prompt variations for LLM
+    - `process_prompt_response()`: process LLM outputs of prompt variations
+    - `paraphrase_prompt()`: paraphrase the prompts for LLM
+- `diversity_experiment.py`: experiments for increasing the diversity of the LLM-generated MWO sentences per path
+    - Same prompt VS Variations of prompt
+    - Single generation VS Batch generation
+    - Generation VS Paraphrasing
+- You can find the few-shot examples used in the `fewshot_messages` directory.
+- Some logs of the LLM-generated MWO sentences can be found in the `mwo_sentences` directory.
 
 ### MWO Sentence Humanisation via Rule-based Approach (Probabilistic Rules)
 
-#### Introduce Contractions
-
-
-#### Introduce Abbreviations
-
-#### Introduce Typographical Errors
-
-
-###
+- `humanise_experiment.ipynb`: experiments for humanising synthetic MWO sentences
+- `humanise.py`: rule-based approach for humanising synthetic MWO sentences
+    - `introduce_contractions()`: introduce English contractions to synthetic MWO sentences (50% probability)
+    - `introduce_abbreviations()`: introduce abbreviations/jargon to synthetic MWO sentences (40% probability)
+    - `rule_introduce_typos()`: introduce up to 3 typos in the synthetic MWO sentences 
+    - `humanise_sentence()`: apply the above rules to humanise synthetic MWO sentences
