@@ -68,3 +68,9 @@ The code for humanising synthetic MWO sentences can be found in the (`Humanise`)
     - `introduce_abbreviations()`: introduce abbreviations/jargon to synthetic MWO sentences (40% probability)
     - `rule_introduce_typos()`: introduce up to 3 typos in the synthetic MWO sentences 
     - `humanise_sentence()`: apply the above rules to humanise synthetic MWO sentences
+
+### Evaluation of Synthetic MWO Sentences
+
+The code for evaluating the synthetic MWO sentences can be found in the (`Evaluation`)[https://github.com/nlp-tlp/Hons24_AllisonLau/tree/main/Evaluation] directory under `evaluation.ipynb`. The following evaluations are performed:
+- Turing Test
+- Ranking Test (replicated from (Bikaun 2022)[https://github.com/nlp-tlp/cfg_technical_short_text])
