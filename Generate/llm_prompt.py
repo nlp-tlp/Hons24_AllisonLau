@@ -110,14 +110,14 @@ if __name__ == "__main__":
     client = OpenAI(api_key=api_key)
     
     # Test Paraphrase Instruction Prompt
-    # instruction = "The sentence can have a maximum of 8 words."
-    # instructions_dummy = [
-    #     "The sentence can have a maximum of 8 words.",
-    #     "Each sentence can have a maximum of 8 words.",
-    #     "The sentence should have a maximum of 8 words.",
-    #     "Each sentence should have a maximum of 8 words.",
-    #     "The sentence must have a maximum of 8 words."
-    # ]
-    # similarity = check_similarity(instruction, instructions_dummy)
-    # for prompt, sim in zip(instructions_dummy, similarity):
-    #     print(f"{sim:.4f} - {prompt}")
+    instruction = "The sentence can have a maximum of 8 words."
+    instructions_dummy = [
+        "The sentence can have a maximum of 8 words.",
+        "Each sentence can have a maximum of 8 words.",
+        "The sentence should have a maximum of 8 words.",
+        "Each sentence should have a maximum of 8 words.",
+        "The sentence must have a maximum of 8 words."
+    ]
+    similarity = check_similarity(instruction, instructions_dummy)
+    for prompt, sim in zip(instructions_dummy, similarity):
+        print(f"{sim:.4f} - {prompt}")

@@ -176,7 +176,7 @@ if __name__ == "__main__":
     prompt_variations = initialise_prompts(client, num_variants=5, num_examples=5)
     
     # Sample random paths from each path type
-    paths = get_samples(paths_dict, num_samples=30)
+    paths = get_samples(paths_dict, num_samples=1)
 
     # Custom path
     # paths = [{'object_name': 'fuel', 'event_name': 'leaking'}]

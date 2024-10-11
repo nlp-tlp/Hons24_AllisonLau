@@ -2443,3 +2443,43 @@ no grease on clevis pin,PhysicalObject/HoldingObject/FasteningObject,clevis pin,
 clevis pin needs grease,PhysicalObject/HoldingObject/FasteningObject,clevis pin,no grease
 grease missing from clevis pin,PhysicalObject/HoldingObject/FasteningObject,clevis pin,no grease
 clevis pin lacking grease,PhysicalObject/HoldingObject/FasteningObject,clevis pin,no grease
+chassis cross member has crack,PhysicalObject/HoldingObject/ReinforcingObject,chassis cross member,crack
+crack in chassis cross member,PhysicalObject/HoldingObject/ReinforcingObject,chassis cross member,crack
+chassis cross member cracked,PhysicalObject/HoldingObject/ReinforcingObject,chassis cross member,crack
+repair crack in chassis cross member,PhysicalObject/HoldingObject/ReinforcingObject,chassis cross member,crack
+cracked chassis cross member,PhysicalObject/HoldingObject/ReinforcingObject,chassis cross member,crack
+drag brake pump has a leak,PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject,drag brake pump,leak
+leak in drag brake pump,PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject,drag brake pump,leak
+drag brake pump leaking,PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject,drag brake pump,leak
+replace leaking drag brake pump,PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject,drag brake pump,leak
+drag brake pump needs leak repair,PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject,drag brake pump,leak
+transmission oil leak,PhysicalObject/ProtectingObject/WearProtectingObject,transmission oil,leak
+leak in transmission oil,PhysicalObject/ProtectingObject/WearProtectingObject,transmission oil,leak
+transmission oil is leaking,PhysicalObject/ProtectingObject/WearProtectingObject,transmission oil,leak
+replace leaking transmission oil,PhysicalObject/ProtectingObject/WearProtectingObject,transmission oil,leak
+repair transmission oil leak,PhysicalObject/ProtectingObject/WearProtectingObject,transmission oil,leak
+beacon mount is broken,PhysicalObject/HoldingObject/StructuralSupportingObject,beacon mount,broken
+broken beacon mount,PhysicalObject/HoldingObject/StructuralSupportingObject,beacon mount,broken
+beacon mount found broken,PhysicalObject/HoldingObject/StructuralSupportingObject,beacon mount,broken
+replace broken beacon mount,PhysicalObject/HoldingObject/StructuralSupportingObject,beacon mount,broken
+repair broken beacon mount,PhysicalObject/HoldingObject/StructuralSupportingObject,beacon mount,broken
+inverter batteries have no charge,PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject,inverter batteries,no charge
+no charge in inverter batteries,PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject,inverter batteries,no charge
+inverter batteries are not charging,PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject,inverter batteries,no charge
+inverter batteries lack charge,PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject,inverter batteries,no charge
+replace inverter batteries with no charge,PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject,inverter batteries,no charge
+cooler pump bolt needs replacing,PhysicalObject/HoldingObject/FasteningObject,cooler pump bolt,needs replacing
+replace cooler pump bolt,PhysicalObject/HoldingObject/FasteningObject,cooler pump bolt,needs replacing
+cooler pump bolt needs to be replaced,PhysicalObject/HoldingObject/FasteningObject,cooler pump bolt,needs replacing
+cooler pump bolt requires replacing,PhysicalObject/HoldingObject/FasteningObject,cooler pump bolt,needs replacing
+replacing needed for cooler pump bolt,PhysicalObject/HoldingObject/FasteningObject,cooler pump bolt,needs replacing
+steering pump bolt needs loctite,PhysicalObject/HoldingObject/FasteningObject,steering pump bolt,needs loctite
+loctite needed for steering pump bolt,PhysicalObject/HoldingObject/FasteningObject,steering pump bolt,needs loctite
+apply loctite to steering pump bolt,PhysicalObject/HoldingObject/FasteningObject,steering pump bolt,needs loctite
+steering pump bolt requires loctite,PhysicalObject/HoldingObject/FasteningObject,steering pump bolt,needs loctite
+use loctite on steering pump bolt,PhysicalObject/HoldingObject/FasteningObject,steering pump bolt,needs loctite
+oil cooler hose leaking grease,PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject,oil cooler hose,leak grease
+oil cooler hose has grease leak,PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject,oil cooler hose,leak grease
+leak grease from oil cooler hose,PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject,oil cooler hose,leak grease
+grease leak in oil cooler hose,PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject,oil cooler hose,leak grease
+oil cooler hose needs fixing for grease leak,PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject,oil cooler hose,leak grease

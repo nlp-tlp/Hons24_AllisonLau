@@ -6,12 +6,13 @@ This repository contains the data, data analysis, code, and documentation for th
 
 1. [Overview](#overview)
 2. [Datasets](#datasets)
-3. [Synthetic Data Generation Pipeline](#synthetic-data-generation-pipeline)
+3. [Installation](#installation)
+4. [Synthetic Data Generation Pipeline](#synthetic-data-generation-pipeline)
     1. [Equipment-Failure Path Extraction](#equipment-failure-path-extraction)
     2. [MWO Sentence Generation via LLM](#mwo-sentence-generation-via-llm)
     3. [MWO Sentence Humanisation via Rule-based Approach](#mwo-sentence-humanisation-via-rule-based-approach)
-4. [Evaluation](#evaluation)
-5. [Synthetic MWOs Files](#synthetic-mwos-files)
+5. [Evaluation](#evaluation)
+6. [Synthetic MWOs Files](#synthetic-mwos-files)
 
 ## Overview
 
@@ -25,6 +26,14 @@ This datasets used in this research are describe in the [`DATASETS`](https://git
 - [MaintIE dataset](https://github.com/nlp-tlp/maintie)
 - [MaintNorm dataset](https://github.com/nlp-tlp/maintnorm)
 - [Corrections dictionary](https://github.com/nlp-tlp/Hons24_AllisonLau/tree/main/data/Corrections)
+
+## Installation
+
+To install the required packages for the project, run the following steps:
+
+1. Create a virtual environment using `python -m venv venv`
+2. Activate the virtual environment using `venv/Scripts/activate` (Windows)
+3. Install the required packages using `pip install -r requirements.txt`
 
 ## Synthetic Data Generation Pipeline
 

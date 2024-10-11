@@ -16985,3 +16985,91 @@ Number of sentences: 5
 ~ grease missing from clevis pin
 ~ clevis pin lacking grease
 ========================================
+========================================
+Object: chassis cross member
+Event: crack
+Number of sentences: 5
+----------------------------------------
+~ chassis cross member has crack
+~ crack in chassis cross member
+~ chassis cross member cracked
+~ repair crack in chassis cross member
+~ cracked chassis cross member
+========================================
+========================================
+Object: drag brake pump
+Event: leak
+Number of sentences: 5
+----------------------------------------
+~ drag brake pump has a leak
+~ leak in drag brake pump
+~ drag brake pump leaking
+~ replace leaking drag brake pump
+~ drag brake pump needs leak repair
+========================================
+========================================
+Object: transmission oil
+Event: leak
+Number of sentences: 5
+----------------------------------------
+~ transmission oil leak
+~ leak in transmission oil
+~ transmission oil is leaking
+~ replace leaking transmission oil
+~ repair transmission oil leak
+========================================
+========================================
+Object: beacon mount
+Event: broken
+Number of sentences: 5
+----------------------------------------
+~ beacon mount is broken
+~ broken beacon mount
+~ beacon mount found broken
+~ replace broken beacon mount
+~ repair broken beacon mount
+========================================
+========================================
+Object: inverter batteries
+Event: no charge
+Number of sentences: 5
+----------------------------------------
+~ inverter batteries have no charge
+~ no charge in inverter batteries
+~ inverter batteries are not charging
+~ inverter batteries lack charge
+~ replace inverter batteries with no charge
+========================================
+========================================
+Object: cooler pump bolt
+Event: needs replacing
+Number of sentences: 5
+----------------------------------------
+~ cooler pump bolt needs replacing
+~ replace cooler pump bolt
+~ cooler pump bolt needs to be replaced
+~ cooler pump bolt requires replacing
+~ replacing needed for cooler pump bolt
+========================================
+========================================
+Object: steering pump bolt
+Event: needs loctite
+Number of sentences: 5
+----------------------------------------
+~ steering pump bolt needs loctite
+~ loctite needed for steering pump bolt
+~ apply loctite to steering pump bolt
+~ steering pump bolt requires loctite
+~ use loctite on steering pump bolt
+========================================
+========================================
+Object: oil cooler hose
+Event: leak grease
+Number of sentences: 5
+----------------------------------------
+~ oil cooler hose leaking grease
+~ oil cooler hose has grease leak
+~ leak grease from oil cooler hose
+~ grease leak in oil cooler hose
+~ oil cooler hose needs fixing for grease leak
+========================================
