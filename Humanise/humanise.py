@@ -257,9 +257,13 @@ if __name__ == '__main__':
     client = OpenAI(api_key=api_key)
     
     # Initialise global variables (dictionaries)
-    initialise_globals()
+    current_dir = os.path.dirname(os.path.abspath("__file__"))
+    main_dir = os.path.join(current_dir, '..')
+    initialise_globals(main_dir)
     
-    # Test humanise_sentence
-    sentence = "The quick brown fox jumps over the lazy dog."
-    print(humanise_sentence(sentence))
+    # Use humanise_sentence function
+    sentence = "The air conditioner was broken."
+    humanised_sentence = humanise_sentence(sentence)
+    print(f"Original: {sentence}")
+    print(f"Humanised: {humanised_sentence}")
     

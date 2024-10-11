@@ -166,6 +166,8 @@ if __name__ == "__main__":
     load_dotenv()
     api_key = os.getenv("API_KEY")
     client = OpenAI(api_key=api_key)
+    out_logfile = "mwo_sentences/log.txt"         # Log file for generated sentences (includes equipment + failure)
+    out_csvfile = "mwo_sentences/order_synthetic.csv"   # CSV file for generated sentences (just sentences)
     
     # Read all the paths extracted from MaintIE KG
     paths_list, paths_dict = get_all_paths(valid=True)
@@ -174,8 +176,7 @@ if __name__ == "__main__":
     prompt_variations = initialise_prompts(client, num_variants=5, num_examples=5)
     
     # Sample random paths from each path type
-    paths = get_samples(paths_dict, num_samples=30, exclude=['process_agent_paths', 'process_patient_paths', 
-                                                             'process_agent_patient_paths', 'state_agent_activity_paths'])
+    paths = get_samples(paths_dict, num_samples=30)
 
     # Custom path
     # paths = [{'object_name': 'fuel', 'event_name': 'leaking'}]
@@ -185,7 +186,7 @@ if __name__ == "__main__":
         sentences = generate_mwo(client, prompt_variations, path)
         
         # Save generated sentences to log text file
-        with open("mwo_sentences/after_log.txt", "a", encoding='utf-8') as f:
+        with open(out_logfile, "a", encoding='utf-8') as f:
             f.write("========================================\n")
             f.write(f"Object: {path['object_name']}\n")
             f.write(f"Event: {path['event_name']}\n")
@@ -196,6 +197,6 @@ if __name__ == "__main__":
             f.write("========================================\n")
 
         # Save generated sentences to csv file
-        with open(f"mwo_sentences/order_synthetic.csv", "a", encoding='utf-8') as f:
+        with open(out_csvfile, "a", encoding='utf-8') as f:
             for sentence in sentences:
                 f.write(f"{sentence},{path['object_type']},{path['object_name']},{path['event_name']}\n")
