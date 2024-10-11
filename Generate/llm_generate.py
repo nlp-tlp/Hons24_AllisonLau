@@ -83,18 +83,27 @@ def get_generate_fewshot(prompt_variations):
 
     return message
 
-# Process LLM response and return list of MWO sentences
-def process_mwo_response(response):
-    """ Process LLM response and return list of MWO sentences """
-    output = []
-    sentences = response.split('\n')
-    for sentence in sentences:
-        processed = re.sub(r'^\d+\.\s*', '', sentence) # Remove numbering
-        processed = re.sub(r',', '', processed)        # Remove commas
-        processed = re.sub(r'\s+', ' ', processed)     # Remove extra spaces
-        processed = processed.lower().strip()          # Case folding and strip
-        output.append(processed)
-    return output
+# Overall generation for MWO sentences
+def generate_mwo(client, prompt_variations, path):
+    """ Generate MWO sentences for each path """
+    # Get prompt for current path's PhysicalObject and UndesirableEvent
+    object = path['object_name']
+    event = path['event_name']
+    prompt = get_generate_prompt(prompt_variations, object, event)
+    fewshot = get_generate_fewshot(prompt_variations)
+    message = fewshot + [{"role": "user", "content": prompt}]
+    
+    # Generate 1 completion for path (max 5 sentences)
+    response = client.chat.completions.create(
+                    model="gpt-4o-mini",
+                    messages=message,
+                    temperature=0.9,
+                    top_p=0.9,
+                    n=1
+            )
+    sentences = process_mwo_response(response.choices[0].message.content)
+    print(f"{object} {event} - {len(sentences)} sentences")
+    return sentences
 
 # Overall generation process for diversity
 def generate_diverse_mwo(client, prompt_variations, path):
@@ -125,27 +134,18 @@ def generate_diverse_mwo(client, prompt_variations, path):
     print(f"{object} {event} - {len(sentences)} sentences")
     return sentences
 
-# Overall generation for MWO sentences
-def generate_mwo(client, prompt_variations, path):
-    """ Generate MWO sentences for each path """
-    # Get prompt for current path's PhysicalObject and UndesirableEvent
-    object = path['object_name']
-    event = path['event_name']
-    prompt = get_generate_prompt(prompt_variations, object, event)
-    fewshot = get_generate_fewshot(prompt_variations)
-    message = fewshot + [{"role": "user", "content": prompt}]
-    
-    # Generate 1 completion for path (max 5 sentences)
-    response = client.chat.completions.create(
-                    model="gpt-4o-mini",
-                    messages=message,
-                    temperature=0.9,
-                    top_p=0.9,
-                    n=1
-            )
-    sentences = process_mwo_response(response.choices[0].message.content)
-    print(f"{object} {event} - {len(sentences)} sentences")
-    return sentences
+# Process LLM response and return list of MWO sentences
+def process_mwo_response(response):
+    """ Process LLM response and return list of MWO sentences """
+    output = []
+    sentences = response.split('\n')
+    for sentence in sentences:
+        processed = re.sub(r'^\d+\.\s*', '', sentence) # Remove numbering
+        processed = re.sub(r',', '', processed)        # Remove commas
+        processed = re.sub(r'\s+', ' ', processed)     # Remove extra spaces
+        processed = processed.lower().strip()          # Case folding and strip
+        output.append(processed)
+    return output
 
 # Get samples from different path types (num samples per path type)
 def get_samples(paths_dict, num_samples=30, exclude=[]):
