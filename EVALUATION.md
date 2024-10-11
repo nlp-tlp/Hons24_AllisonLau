@@ -8,14 +8,6 @@ The quality of the synthetic MWO data generated is evaluated using the following
 
 ## Paths and Synthetic MWO Analysis
 
-### Types of Paths
-
-We analysed the MaintIE gold standard dataset using a Neo4j graph database to develop paths that illustrate relationships between equipment (*PhysicalObject*) and failure modes (*UndesirableEvent*). These paths are classified as direct, showing immediate connections, or complex, involving intermediary entities. Additional paths are created by using hierarchical relations between equipment entities. This framework improves our understanding of component relationships within MWOs and informs the synthetic data generation process.
-
-![Path Types](Images/paths.png)
-![Hierarchical Paths](Images/hierarchical.png)
-
-
 ### Number of Valid Paths 
 
 We extracted 2,237 valid equipment-failure paths from the MaintIE KG, with the most common being State-Patient (1,208 paths). After SME validation, the number increased to 3,794, with significant gains in State-Agent-Activity and Process-Agent-Patient paths. The following table shows the number of valid paths before and after SME validation:

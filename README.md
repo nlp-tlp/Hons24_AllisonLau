@@ -41,6 +41,13 @@ The code for each step can be found in the respective directories in the reposit
 
 The code for extracting equipment-failure paths from the MaintIE Knowledge Graph can be found in the [`PathExtraction`](https://github.com/nlp-tlp/Hons24_AllisonLau/tree/main/PathExtraction) directory. The following steps are performed:
 
+### Types of Paths
+
+We analysed the MaintIE gold standard dataset using a Neo4j graph database to develop paths that illustrate relationships between equipment (*PhysicalObject*) and failure modes (*UndesirableEvent*). These paths are classified as direct, showing immediate connections, or complex, involving intermediary entities. Additional paths are created by using hierarchical relations between equipment entities. This framework improves our understanding of component relationships within MWOs and informs the synthetic data generation process.
+
+![Path Types](Images/paths.png)
+![Hierarchical Paths](Images/hierarchical.png)
+
 #### Load MaintIE Dataset into Neo4j Knowledge Graph
 
 1. Create a project and an instance of a graph database in Neo4j Desktop.
@@ -79,14 +86,14 @@ The code for humanising synthetic MWO sentences can be found in the [`Humanise`]
 
 Note: More documentation details for function implementations can be found in the [`DOCUMENTATION`](https://github.com/nlp-tlp/Hons24_AllisonLau/blob/main/DOCUMENTATION.md) section of the repository.
 
-### Evaluation
+## Evaluation
 
 The code for evaluating the synthetic MWO sentences can be found in the [`Evaluation`](https://github.com/nlp-tlp/Hons24_AllisonLau/tree/main/Evaluation) directory. More details on the evaluation can be found in the [`EVALUATION`](https://github.com/nlp-tlp/Hons24_AllisonLau/blob/main/EVALUATION.md) section of the repository. The following evaluations are performed:
 - Paths and Synthetic MWO Analysis
 - Turing Test
 - Ranking Test (replicated from [Bikaun et al. 2022](https://github.com/nlp-tlp/cfg_technical_short_text))
 
-### Synthetic MWOs Files
+## Synthetic MWOs Files
 
 The synthetic MWOs generated over the course of the project can be found in different files:
 - `Generate/mwo_sentences/order_synthetic.txt`: synthetic MWO sentences generated, including the inherent function of the equipment, the equipment, and the failure mode
