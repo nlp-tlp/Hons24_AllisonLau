@@ -1,5 +1,7 @@
+import os
 import csv
 import json
+from dotenv import load_dotenv
 from neo4j import GraphDatabase
 
 # Function to create label names
@@ -109,9 +111,10 @@ def create_graph(tx, data):
 
 if __name__ == "__main__":
     # Connect to Neo4j
-    URI = "bolt://localhost:7687"
-    USERNAME = "neo4j"
-    PASSWORD = "password"
+    load_dotenv()
+    URI = os.getenv("NEO4J_URI")
+    USERNAME = os.getenv("NEO4J_USER")
+    PASSWORD = os.getenv("NEO4J_PASSWORD")
     driver = GraphDatabase.driver(URI, auth=(USERNAME, PASSWORD))
 
     # Get data from MaintIE dataset

@@ -59,9 +59,17 @@ We analysed the MaintIE gold standard dataset using a Neo4j graph database to de
 
 #### Load MaintIE Dataset into Neo4j Knowledge Graph
 
-1. Create a project and an instance of a graph database in Neo4j Desktop.
-2. Start the database and open the browser.
-3. Run `python maintie_to_kg.py` to load the MaintIE dataset into Neo4j.
+1. Make sure you have [Neo4j Desktop](https://neo4j.com/download) installed on your machine.
+2. Open Neo4j Desktop, create a project and an instance of a graph database.
+3. Create a `.env` file in the root directory and add the following environment variables:
+```bash
+NEO4J_URI="bolt://localhost:7687"
+NEO4J_USER="neo4j"
+NEO4J_PASSWORD="password"
+```
+4. Replace the `NEO4J_URI`, `NEO4J_USER`, and `NEO4J_PASSWORD` with your Neo4j instance details.
+5. Start the database and open the browser.
+6. Run `python maintie_to_kg.py` to load the MaintIE dataset into Neo4j.
 Note: This will take a while to load the dataset into Neo4j.
 
 #### Extracting paths (equipment and undesirable event combination) from Neo4j
@@ -77,7 +85,11 @@ The code for generating synthetic MWO sentences using LLM can be found in the [`
 
 #### Generate Synthetic MWO Sentences
 
-1. Run `python llm_generate.py` to generate synthetic MWO sentences using GPT-4o mini.
+1. Create a `.env` file in the root directory and add the following environment variables:
+```bash
+API_KEY="your_openai_api_key"
+```
+2. Run `python llm_generate.py` to generate synthetic MWO sentences using GPT-4o mini.
 - Function used to generate synthetic MWO sentences: `generate_mwo()` and `generate_diverse_mwo()`
 - Generated synthetic MWO sentences are stored in the [`mwo_sentences`](https://github.com/nlp-tlp/Hons24_AllisonLau/blob/main/Generate/mwo_sentences) directory. There is a log file (`log.txt`) detailing the given equipment + failure mode and the generated sentences. There is also a csv file (`order_synthetic.csv`) containing just the generated synthetic MWO sentences.
 - You can alter the number of path samples by changing the `num_samples` parameter in `get_samples()` function. You can also choose to exclude certain path types by including their path names (json file) in the `exclude` list in `get_samples()` function.
