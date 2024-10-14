@@ -1,13 +1,13 @@
 # Datasets
 
-The datasets used in this research can be found in the `data` directory. The following datasets are used/analysed in this project:
+The datasets used in this research can be found in the [`data`](https://github.com/nlp-tlp/Hons24_AllisonLau/tree/main/data) directory. The following datasets are used/analysed in this project:
 
-- [FMC-MWO2KG dataset](https://paperswithcode.com/dataset/fmc-mwo2kg): labelled dataset of failure mode classification (FMC) from failure observations
-- [MaintIE dataset](https://github.com/nlp-tlp/maintie): annotated dataset of maintenance work orders with entities and relations in the MaintIE schema
+- [**FMC-MWO2KG dataset**](https://paperswithcode.com/dataset/fmc-mwo2kg): labelled dataset of failure mode classification (FMC) from failure observations
+- [**MaintIE dataset**](https://github.com/nlp-tlp/maintie): annotated dataset of maintenance work orders with entities and relations in the MaintIE schema
 ![Examples of MWO from MaintIE](Images/maintie.png)
-- [MaintNorm dataset](https://github.com/nlp-tlp/maintnorm): maintenance work order dataset with pre- and post-lexically normalised text (combined)
+- [**MaintNorm dataset**](https://github.com/nlp-tlp/maintnorm): maintenance work order dataset with pre- and post-lexically normalised text (combined)
 ![Examples of MWO from MaintNorm](Images/maintnorm.png)
-- [Corrections dictionary](https://github.com/nlp-tlp/Hons24_AllisonLau/tree/main/data/Corrections): dictionary of corrections used for the humanisation step of synthetic data generation pipeline
+- [**Corrections dictionary**](https://github.com/nlp-tlp/Hons24_AllisonLau/tree/main/data/Corrections): dictionary of corrections used for the humanisation step of synthetic data generation pipeline
 
 ## Dataset Analysis
 
